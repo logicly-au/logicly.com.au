@@ -9,6 +9,8 @@ module.exports = {
     extend: {
       colors: {
       logiclylightgrey: '#F6F5F1',
+      logiclyorange: '#E94E1B',
+      logiclybeige: '#F5E3D4'
       }
     }
   },
