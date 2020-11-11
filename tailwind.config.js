@@ -10,7 +10,11 @@ module.exports = {
       colors: {
       logiclylightgrey: '#F6F5F1',
       logiclyorange: '#E94E1B',
-      logiclybeige: '#F5E3D4'
+      logiclybeige: '#F5E3D4',
+      logiclytheme1: '#F7A823',
+      logiclytheme2: '#E94E1B',
+      logiclytheme3: '#AE1820',
+      logiclytheme4: '#E6332A',
       }
     }
   },

@@ -1,10 +1,17 @@
 <template>
   <div>
     <div class="container mx-auto">
-      <logo />
-      <navbar />
+      <div class="grid grid-cols-12">
+        <div class="col-span-1 col-start-2">
+          <logo />
+        </div>
+        <div class="col-span-7">
+          <navbar />
+        </div>
+      </div>
     </div>
     <Nuxt />
+    <Footer />
   </div>
 </template>
 
