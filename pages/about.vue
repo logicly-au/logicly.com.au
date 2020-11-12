@@ -46,10 +46,10 @@
     <div class="w-full bg-white">
       <div class="container mx-auto">
         <div class="grid grid-cols-9">
-          <div class="col-span-3 col-start-3">
+          <div class="col-span-3 col-start-4">
             <img src="~/assets/images/25-years-shaping-large-complicated-projects.svg" />
           </div>
-          <div class="col-span-3 col-start-3">
+          <div class="col-span-3 col-start-4">
             <h1 class="text-lg text-center">
               25 years shaping large complicated projects
             </h1>
