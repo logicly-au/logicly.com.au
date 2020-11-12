@@ -15,6 +15,10 @@ module.exports = {
       logiclytheme2: '#E94E1B',
       logiclytheme3: '#AE1820',
       logiclytheme4: '#E6332A',
+      },
+      gridTemplateColumns: {
+        // Simple 15 column grid
+        '15': 'repeat(15, minmax(0, 1fr))',
       }
     }
   },
