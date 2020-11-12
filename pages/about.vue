@@ -5,8 +5,8 @@
 
     <div class="w-full h-64 bg-logiclytheme2 about-header" style="background-size: cover;" :style="{ backgroundImage: `url(${backgroundUrl})` }">
       <div class="container mx-auto">
-        <div class="grid h-64 grid-cols-2 grid-rows-2">
-          <div class="col-span-1 col-start-2 row-start-1">
+        <div class="grid h-64 grid-cols-3 grid-rows-3">
+          <div class="col-span-1 col-start-2 row-start-2">
 
 
             <h1>Our Approach</h1>
@@ -23,8 +23,8 @@
 
     <div class="w-full bg-logiclylightgrey">
       <div class="container mx-auto">
-        <div class="grid grid-flow-col grid-cols-3 grid-rows-4">
-          <div class="col-span-1 col-start-2 row-span-1 row-start-2"></div>
+        <div class="grid grid-flow-col grid-cols-3 grid-rows-3">
+          <div class="col-span-1 col-start-2 row-span-1 row-start-2"><img src="" /></div>
           <div class="col-span-3 row-span-1 row-start-3">
             <h2 class="text-lg text-center">
               We partner with clients to simplify complex processes
