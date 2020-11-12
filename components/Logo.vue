@@ -1,5 +1,5 @@
 <template>
-<span>logicly</span>
+<img src="~/assets/images/0_Logicly_Logo.svg" />
 </template>
 
 <style>
