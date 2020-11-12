@@ -1,14 +1,13 @@
 <template>
 <nav>
-    <a></a>
-    <a>Home</a>
-    <a>About</a>
-    <a>Who we help</a>
-    <a>What we do</a>
-    <a>How we work</a>
-    <a>Projects</a>
-    <a>Insights</a>
-    <a>Contact Us</a>
+    <a href="/">Home</a>
+    <a href="/about">About</a>
+    <a href="">Who we help</a>
+    <a href="">What we do</a>
+    <a href="">How we work</a>
+    <a href="">Projects</a>
+    <a href="">Insights</a>
+    <a href="">Contact Us</a>
 
 </nav>
 </template>
