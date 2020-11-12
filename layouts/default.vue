@@ -2,10 +2,10 @@
   <div>
     <div class="container mx-auto">
       <div class="grid grid-cols-12">
-        <div class="col-span-1 col-start-2">
+        <div class="col-span-2">
           <logo />
         </div>
-        <div class="col-span-7">
+        <div class="col-span-6 col-start-4">
           <navbar />
         </div>
       </div>
