@@ -327,7 +327,13 @@
 </template>
 
 <script>
-  export default {}
+
+import backgroundUrl from '~/assets/images/Logicly-meet-your-complex-information-challenges-header.jpg'
+export default {
+  data() {
+    return { backgroundUrl }
+  }
+}
 
 </script>
 
