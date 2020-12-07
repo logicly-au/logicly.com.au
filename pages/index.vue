@@ -4,6 +4,7 @@
       <div class="container mx-auto">
         <div class="grid h-64 grid-cols-2 grid-rows-2">
           <div class="col-span-1 col-start-2 row-start-2">
+            <img src="~/assets/images/Logicly-meet-your-complex-information-challenges-header.jpg" />
             <span class="text-xl text-white">We help you meet your complex information challenges</span>
           </div>
         </div>
