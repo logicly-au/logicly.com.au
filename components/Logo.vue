@@ -8,6 +8,10 @@
   margin: auto;
 }
 
+img {
+  padding:1rem;
+}
+
 @keyframes appear {
   0% {
     opacity: 0;
