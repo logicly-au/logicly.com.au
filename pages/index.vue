@@ -1,16 +1,15 @@
 <template>
   <div>
-    <div class="w-full h-64 bg-logiclytheme2">
-      <div class="container mx-auto">
-        <div class="grid h-64 grid-cols-2 grid-rows-2">
-          <div class="cic-header" style="background-size: cover" :style="{ backgroundImage: `url(${backgroundUrl})` }>
-            <div class="col-span-1 col-start-2 row-start-2">
+    <div class="w-full bg-logiclytheme2">
+        <div class="grid grid-cols-2" style="height:28rem">
+          <div class="grid grid-cols-2 col-span-2 grid-rows-4 cic-header" style="background-size: cover" :style="{ backgroundImage: `url(${backgroundUrl})` }">
+            <div class="col-span-1 col-start-2 row-start-4">
               <span class="text-xl text-white">We help you meet your complex information challenges</span>
             </div>
           </div>
         </div>
-      </div>
-    </div>
+        </div>
+
     <div class="w-full bg-logiclylightgrey">
       <div class="container mx-auto">
         <div class="grid h-full grid-cols-4 grid-rows-3">
@@ -103,13 +102,13 @@
               proactive maintenance, improvements and monitoring.</span>
           </div>
 
-          <div class="col-span-2 col-start-4">
-            <span>This 4 stage approach is a cycle of continuous feedback, changes and testing as the system
+          <div class="col-span-4 col-start-3 py-12 text-center">
+            <span class="font-bold text-gray-700">This 4 stage approach is a cycle of continuous feedback, changes and testing as the system
               evolves.</span>
           </div>
 
           <div class="grid justify-center col-span-6 col-start-2 align-center">
-            <div>
+            <div class="pb-12">
               <a class="block p-2 m-5 text-white bg-logiclyorange">Find out more</a>
             </div>
           </div>
@@ -342,7 +341,7 @@ export default {
 
 
   .cic-header {
-    object-fit:contain;
+
   }
 
   .title {
