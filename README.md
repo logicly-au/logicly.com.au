@@ -1,4 +1,4 @@
-# logicly-site
+# homepage
 
 ## Build Setup
 
