@@ -2,8 +2,8 @@
   <div>
     <div class="w-full bg-logiclytheme2">
         <div class="grid grid-cols-2" style="height:28rem">
-          <div class="grid grid-cols-2 col-span-2 grid-rows-4 cic-header" style="background-size: cover" :style="{ backgroundImage: `url(${backgroundUrl})` }">
-            <div class="col-span-1 col-start-2 row-start-4">
+          <div class="grid grid-cols-2 col-span-4 grid-rows-4 cic-header" style="background-size: cover" :style="{ backgroundImage: `url(${backgroundUrl})` }">
+            <div class="col-span-2 col-start-2 row-start-4">
               <span class="text-xl text-white">We help you meet your complex information challenges</span>
             </div>
           </div>
@@ -124,18 +124,19 @@
 
           <!-- Header -->
           <div class="col-span-6 col-start-2 text-center">
-            <span>Making complex information secure & accessible for private & public use</span>
+            <span class="font-extrabold" >Making complex information secure & accessible for private & public use</span>
           </div>
 
 
           <!-- Sub grid 1 -->
-          <div class="grid grid-cols-1 col-span-3 col-start-2">`
+          <div class="grid grid-cols-1 col-span-3 col-start-2">
 
             <div class="col-span-1">
-              <div>complex information challenges</div>
+              <img src="~/assets/images/complex-information-challenges.jpg" class="p-0">
+              <div class="relative font-bold text-center text-white top-center">Complex Information Challenges</div>
             </div>
 
-            <div class="col-span-1">
+            <div class="col-span-1 row-span-3">
               What information challenges do you have?
             </div>
 
@@ -155,10 +156,13 @@
           <div class="grid grid-cols-1 col-span-3">
 
             <div class="col-span-1">
-              Designing and building digital systems
+              <img src="~/assets/images/designing-building-digital-systems.jpg" class="p-0">
+              <div class="relative font-bold text-center text-white top-center">
+                Designing and building digital systems
+              </div>
             </div>
 
-            <div class="col-span-1">
+            <div class="col-span-1 font-bold">
               What type of digital system do you require?
             </div>
 

@@ -7,6 +7,9 @@
 module.exports = {
   theme: {
     extend: {
+      inset: {
+        center: '-50%',
+      },
       colors: {
       logiclylightgrey: '#F6F5F1',
       logiclyorange: '#E94E1B',

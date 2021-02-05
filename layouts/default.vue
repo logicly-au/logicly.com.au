@@ -5,7 +5,7 @@
         <div class="col-span-2">
           <logo />
         </div>
-        <div class="col-span-6 col-start-4">
+        <div class="flex flex-col justify-end col-span-8 col-start-4">
           <navbar />
         </div>
       </div>

@@ -1,5 +1,6 @@
 <template>
-<nav>
+<nav style="padding:1rem">
+<!-- TODO Change this to class-based padding along with logo -->
     <a href="/">Home</a>
     <a href="/about">About</a>
     <a href="">Who we help</a>
