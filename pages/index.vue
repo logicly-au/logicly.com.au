@@ -191,11 +191,11 @@
                 clients</span></div>
             <div class="grid grid-cols-1 col-span-6 col-start-2 grid-rows-3">
               <div class="grid grid-cols-5 row-start-2 gap-5 grid-row">
-                <div class="col-span-1 p-5 bg-red-500">test</div>
-                <div class="col-span-1 p-5 bg-red-500">test</div>
-                <div class="col-span-1 p-5 bg-red-500">test</div>
-                <div class="col-span-1 p-5 bg-red-500">test</div>
-                <div class="col-span-1 p-5 bg-red-500">test</div>
+                <div class="col-span-1"><img src="~/assets/images/Australian-government-federal-department-of-health-logo.png" /></div>
+                <div class="col-span-1"><img src="~/assets/images/Civil-Aviation-Authority-of-New-Zealand-logo.png" /></div>
+                <div class="col-span-1"><img src="~/assets/images/nab-National-Australia-Bank-logo.png" /></div>
+                <div class="col-span-1"><img src="~/assets/images/Queensland-qovernment-department-of-transport-and-main-roads.jpg" /></div>
+                <div class="col-span-1"><img src="~/assets/images/University-of-melbourne_logo.png" /></div>
               </div>
             </div>
           </div>
@@ -225,7 +225,23 @@
 
             <div class="grid grid-cols-6 col-span-6 col-start-2">
               <div class="col-span-3">
-                Government
+                  <img src="~/assets/images/Governement-project-queensland-department-of-transport-and-main-roads.jpg" />
+                  <div class="relative font-bold text-center text-white top-center">Government</div>
+              </div>
+              <div class="col-span-3">
+                <h3>
+                  <div>Queensland Department of Transport and Main Roads</div>
+                </h3>
+                <p>
+                  A digital system to help understand travel behaviours and plan for future growth and demand of the
+                  Queensland Transport System.
+                </p>
+                <a class="text-orange-700" href="">Read more</a>
+              </div>
+
+              <div class="col-span-3">
+                  <img src="~/assets/images/Corporate-project-NAB.jpg" />
+                  <div class="relative font-bold text-center text-white top-center">Corporate</div>
               </div>
               <div class="col-span-3">
                 <h3>
@@ -239,22 +255,11 @@
               </div>
 
               <div class="col-span-3">
-                Corporate
-              </div>
-              <div class="col-span-3">
-                <h3>
-                  Queensland Department of Transport and Main Roads
-                </h3>
-                <p>
-                  A digital system to help understand travel behaviours and plan for future growth and demand of the
-                  Queensland Transport System.
-                </p>
-                <a class="text-orange-700" href="">Read more</a>
+                <img src="~/assets/images/educationalplaceholder.png" />
+                <!-- TODO Replace placeholder image here -->
+                <div class="relative font-bold text-center text-white top-center">Educational</div>
               </div>
 
-              <div class="col-span-3">
-                Educational
-              </div>
               <div class="col-span-3">
                 <h3>
                   Queensland Department of Transport and Main Roads
@@ -281,8 +286,8 @@
               Do you have a project in mind or a complex information challenge? Call us on +61 3 9340 9000 or enquire
               below.
             </div>
-
-            <a href="" class="text-center">Enquire</a>
+            <!-- TODO Add link here -->
+            <a href="" class="p-2 m-5 text-center text-white bg-logiclyorange">Enquire</a>
           </div>
         </div>
         <!-- End Container -->
