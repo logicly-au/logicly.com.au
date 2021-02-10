@@ -228,7 +228,7 @@
                   <img src="~/assets/images/Governement-project-queensland-department-of-transport-and-main-roads.jpg" />
                   <div class="relative font-bold text-center text-white top-center">Government</div>
               </div>
-              <div class="col-span-3">
+              <div class="flex flex-col justify-end col-span-3 pb-2">
                 <h3>
                   <div>Queensland Department of Transport and Main Roads</div>
                 </h3>
@@ -243,7 +243,7 @@
                   <img src="~/assets/images/Corporate-project-NAB.jpg" />
                   <div class="relative font-bold text-center text-white top-center">Corporate</div>
               </div>
-              <div class="col-span-3">
+              <div class="flex flex-col justify-end col-span-3 pb-2">
                 <h3>
                   Queensland Department of Transport and Main Roads
                 </h3>
@@ -260,7 +260,7 @@
                 <div class="relative font-bold text-center text-white top-center">Educational</div>
               </div>
 
-              <div class="col-span-3">
+              <div class="flex flex-col justify-end col-span-3 pb-2">
                 <h3>
                   Queensland Department of Transport and Main Roads
                 </h3>
@@ -298,7 +298,7 @@
         <div class="container mx-auto">
           <div class="grid grid-cols-8 grid-rows-3">
 
-            <div class="col-span-8 row-start-2">
+            <div class="grid grid-cols-8 col-span-8 row-start-2">
               <div class="col-span-2">
                 <h2 class="text-lg font-bold text-orange-600">
                   New thinking & digital updates
