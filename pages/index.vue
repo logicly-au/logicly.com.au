@@ -282,12 +282,18 @@
         <!-- Start container -->
         <div class="container h-64 mx-auto">
           <div class="grid items-center content-center justify-center h-64 grid-cols-1">
-            <div class="text-center">
-              Do you have a project in mind or a complex information challenge? Call us on +61 3 9340 9000 or enquire
-              below.
+            <div class="col-span-1">
+              <div class="text-center">
+                Do you have a project in mind or a complex information challenge? Call us on +61 3 9340 9000 or enquire
+                below.
+              </div>
             </div>
             <!-- TODO Add link here -->
-            <a href="" class="p-2 m-5 text-center text-white bg-logiclyorange">Enquire</a>
+            <div class="col-span-1">
+              <div class="flex justify-center">
+                <a href="" class="p-2 m-5 text-white bg-logiclyorange">Enquire</a>
+              </div>
+            </div>
           </div>
         </div>
         <!-- End Container -->
@@ -297,10 +303,10 @@
         <!-- Start container -->
         <div class="container mx-auto">
           <div class="grid grid-cols-8 grid-rows-3">
-
-            <div class="grid grid-cols-8 col-span-8 row-start-2">
+            <!-- TODO Apply grid gap everywhere -->
+            <div class="grid content-end grid-cols-8 col-span-8 row-start-2 gap-4">
               <div class="col-span-2">
-                <h2 class="text-lg font-bold text-orange-600">
+                <h2 class="text-lg font-bold">
                   New thinking & digital updates
                 </h2>
                 <div>
@@ -308,19 +314,20 @@
                 </div>
               </div>
 
-              <div class="content-center col-span-2 align-middle bg-orange-100">
+              <!-- TODO Possibly need to fix placeholder colour for firefox -->
 
-                Name
-
+              <div class="flex col-span-2">
+                <span class="self-end block"><input type="text" placeholder="Name" class="block placeholder-black placeholder-opacity-100 bg-transparent border-b-2 border-logiclyorange"></input></span>
               </div>
 
-              <div class="col-span-2">
-                Email
+              <div class="flex col-span-2">
+                <span class="self-end block"><input type="text" placeholder="Email" class="block placeholder-black placeholder-opacity-100 bg-transparent border-b-2 border-logiclyorange"></input></span>
               </div>
 
-              <div class="col-span-2">
-                <button>Subscribe</button>
+              <div class="flex col-span-2">
+                <span class="self-end block"><button class="block p-3 font-bold border-2 border-logiclyorange text-logiclytheme2">Subscribe</button></span>
               </div>
+
             </div>
 
           </div>
