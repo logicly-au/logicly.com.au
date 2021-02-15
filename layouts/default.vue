@@ -1,11 +1,11 @@
 <template>
   <div>
     <div class="container mx-auto">
-      <div class="grid grid-cols-12">
-        <div class="col-span-2">
+      <div class="grid grid-cols-15">
+        <div class="col-span-3">
           <logo />
         </div>
-        <div class="flex flex-col justify-end col-span-8 col-start-4">
+        <div class="flex flex-col justify-end col-span-7 col-start-8">
           <navbar />
         </div>
       </div>

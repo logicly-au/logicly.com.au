@@ -12,6 +12,7 @@ module.exports = {
       },
       colors: {
       logiclylightgrey: '#F6F5F1',
+      logiclygreytwo: '#E9E8E1',
       logiclyorange: '#E94E1B',
       logiclybeige: '#F5E3D4',
       logiclytheme1: '#F7A823',
@@ -22,6 +23,9 @@ module.exports = {
       gridTemplateColumns: {
         // Simple 15 column grid
         '15': 'repeat(15, minmax(0, 1fr))',
+      },
+      gridColumn: {
+        'span-15': 'span 15 / span 15',
       }
     }
   },

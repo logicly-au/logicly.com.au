@@ -187,9 +187,11 @@
         <!-- Start container -->
         <div class="container mx-auto">
           <div class="grid grid-cols-8">
-            <div class="col-span-6 col-start-2 text-center"><span>We work with corporate, government and educational
-                clients</span></div>
-            <div class="grid grid-cols-1 col-span-6 col-start-2 grid-rows-3">
+          <!-- TODO Remove this comment. Just here to remind you best practice for centering something vertically -->
+            <div class="flex items-center justify-center h-32 grid-cols-1 col-span-6 col-start-2 font-bold text-center items-starts-center">
+              <span>We work with corporate, government and educational clients</span>
+            </div>
+            <div class="grid grid-cols-1 col-span-6 col-start-2">
               <div class="grid grid-cols-5 row-start-2 gap-5 grid-row">
                 <div class="col-span-1"><img src="~/assets/images/Australian-government-federal-department-of-health-logo.png" /></div>
                 <div class="col-span-1"><img src="~/assets/images/Civil-Aviation-Authority-of-New-Zealand-logo.png" /></div>
@@ -219,8 +221,8 @@
         <div class="container mx-auto">
           <div class="grid grid-cols-8">
 
-            <div class="col-span-6 col-start-2 text-center">
-              <span>Every project is different and designed to meet your digital requirements</span>
+            <div class="flex items-center justify-center h-64 col-span-6 col-start-2 font-bold">
+              <span class="text-center align-middle">Every project is different and designed to meet your digital requirements</span>
             </div>
 
             <div class="grid grid-cols-6 col-span-6 col-start-2">
@@ -228,7 +230,7 @@
                   <img src="~/assets/images/Governement-project-queensland-department-of-transport-and-main-roads.jpg" />
                   <div class="relative font-bold text-center text-white top-center">Government</div>
               </div>
-              <div class="flex flex-col justify-end col-span-3 pb-2">
+              <div class="flex flex-col justify-end col-span-3 pb-2 m-4 bg-logiclygreytwo">
                 <h3>
                   <div>Queensland Department of Transport and Main Roads</div>
                 </h3>
@@ -243,7 +245,7 @@
                   <img src="~/assets/images/Corporate-project-NAB.jpg" />
                   <div class="relative font-bold text-center text-white top-center">Corporate</div>
               </div>
-              <div class="flex flex-col justify-end col-span-3 pb-2">
+              <div class="flex flex-col justify-end col-span-3 pb-2 m-4 bg-logiclygreytwo">
                 <h3>
                   Queensland Department of Transport and Main Roads
                 </h3>
@@ -260,7 +262,7 @@
                 <div class="relative font-bold text-center text-white top-center">Educational</div>
               </div>
 
-              <div class="flex flex-col justify-end col-span-3 pb-2">
+              <div class="flex flex-col justify-end col-span-3 pb-2 m-4 bg-logiclygreytwo">
                 <h3>
                   Queensland Department of Transport and Main Roads
                 </h3>

@@ -1,6 +1,9 @@
+<!-- NOTE This is just a sample page with repeating patterns we can use in other pages -->
+
 <template>
   <div>
-  
+    <!-- NOTE Section template - Page header. Most pages have one of these at the top -->    
+    <!-- HEADER SECTION -->
     <div class="object-contain object-center w-full h-64 bg-cover" :style="{ backgroundImage: `url(${backgroundUrl})` }">
       <div class="container mx-auto">
         <div class="grid h-64 grid-rows-3 grid-cols-15">
@@ -13,7 +16,9 @@
         </div>
       </div>
     </div>
+    <!-- END HEADER SECTION -->
 
+    <!-- GRAPHIC-HEADING-PARAGRAPH SECTION -->
     <div class="w-full bg-logiclylightgrey">
       <div class="container py-8 mx-auto">
         <div class="grid h-64 grid-rows-3 grid-cols-15">
@@ -22,36 +27,26 @@
           </div>
           <div class="row-span-1 row-start-3 text-center col-span-15">
             <h2 class="text-xl font-bold">
-              We help people understand all the possibilities
+              We partner with clients to simplify complex processes
             </h2>
             <p>
-              We help clients understand the power of technology to improve efficiencies and gain quality information to inform critical decisions. We guide our clients through the possible pathways and alternatives. It is rare that any two projects are the same so every digital system is designed for your specific needs and vision. 
+              We achieve our best when we partner with you to research, design, build and maintain your information and
+              digital systems. We are flexible and collaborative while taking a very thorough and detailed approach to
+              research, strategy, design and security.
             </p>
           </div>
 
         </div>
       </div>
     </div>
-
-    <div class="w-full h-64">
-      <div class="container mx-auto">
-        <div class="grid h-64 grid-rows-3 grid-cols-15">
-          <div class="row-start-2 text-center text-white col-span-15">
-            <div>
-                <h1 class="text-lg font-bold">Heading</h1>
-                <h2 class="text-xl font-bold">Subheading</h2>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
+<!-- END GRAPHIC-HEADING-PARAGRAPH SECTION -->
+    
   </div>
-
 </template>
 
 <script>
 
+// This will load the background image for the Page Header section
 import backgroundUrl from '~/assets/images/test.jpg'
 export default {
   data() {
@@ -62,11 +57,4 @@ export default {
 </script>
 
 <style>
-
-  .logicly-footer {
-    --bg-opacity: 1;
-    background-color: #F6F5F1;
-    background-color: rgba(246, 245, 241, var(--bg-opacity));
-  }
-
 </style>
