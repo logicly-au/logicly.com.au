@@ -19,6 +19,7 @@ module.exports = {
       logiclytheme2: '#E94E1B',
       logiclytheme3: '#AE1820',
       logiclytheme4: '#E6332A',
+      logiclytextgrey: '#3c3c3b',
       },
       gridTemplateColumns: {
         // Simple 15 column grid
