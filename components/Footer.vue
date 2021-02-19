@@ -46,7 +46,9 @@
                 <div class="grid col-span-15 grid-cols-15" style="align-items: end">
                     <div class="col-span-5 text-sm">
                         <span class="items-end col-span-4 row-start-1 pb-2">
-                        <span>Logicly © 2020</span> <a>Privacy Policy</a></span>
+                        <span>Logicly © 2020</span>
+                        <NuxtLink to="/privacy" class="text-logiclyorange">Privacy Policy</NuxtLink>
+                        </span>
                     </div>
                     <div class="grid h-16 grid-cols-3 col-span-2 col-start-13 pb-1">
                         <div class="col-span-1"><img src="~/assets/images/Facebook.svg" class="h-12"></img></div>
