@@ -1,14 +1,12 @@
 <template>
   <div>
-    <div class="w-full bg-logiclytheme2">
-        <div class="grid grid-cols-2" style="height:28rem">
-          <div class="grid grid-cols-2 col-span-4 grid-rows-4 cic-header" style="background-size: cover" :style="{ backgroundImage: `url(${backgroundUrl})` }">
-            <div class="col-span-2 col-start-2 row-start-4">
-              <span class="text-xl text-white">We help you meet your complex information challenges</span>
-            </div>
-          </div>
-        </div>
-        </div>
+  
+    <Hero
+      heading="We help you meet your complex information challenges"
+      subheading="The subheading"
+      background-url="/Logicly-meet-your-complex-information-challenges-header.jpg"
+      right
+    />
 
     <div class="w-full bg-logiclylightgrey">
       <div class="container mx-auto">

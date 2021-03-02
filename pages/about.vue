@@ -1,51 +1,42 @@
 <template>
   <div>
-  
-    <div class="object-contain object-center w-full h-64 bg-cover" :style="{ backgroundImage: `url(${backgroundUrl})` }">
-      <div class="container mx-auto">
-        <div class="grid h-64 grid-rows-3 grid-cols-15">
-          <div class="row-start-2 text-center text-white col-span-15">
-            <div>
-                <h1 class="text-lg font-bold">Heading</h1>
-                <h2 class="text-xl font-bold">Subheading</h2>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    <Hero
+      heading="ABOUT US"
+      subheading="We are innovative thinkers who solve information challenges"
+      background-url="/Logicly-about-us-header-we-are-innovative-thinkers-who-solve-informative-challenges.jpg"
+      right
+    />
 
-    <div class="w-full bg-logiclylightgrey">
-      <div class="container py-8 mx-auto">
-        <div class="grid h-64 grid-rows-3 grid-cols-15">
-          <div class="flex justify-center row-span-1 row-start-1 col-span-15">
-            <img class="h-32" src="~/assets/images/We-help-people-understand-all-the-possibilities.svg" />
-          </div>
-          <div class="row-span-1 row-start-3 text-center col-span-15">
-            <h2 class="text-xl font-bold">
-              We help people understand all the possibilities
-            </h2>
-            <p>
-              We help clients understand the power of technology to improve efficiencies and gain quality information to inform critical decisions. We guide our clients through the possible pathways and alternatives. It is rare that any two projects are the same so every digital system is designed for your specific needs and vision. 
-            </p>
-          </div>
+    <Herotext
+      iconurl="We-help-people-understand-all-the-possibilities.svg"
+      heading="We partner with clients to simplify complex processes"
+      subheading="We achieve our best when we partner with you to research, design, build and maintain your information and digital systems. We are flexible and collaborative while taking a very thorough and detailed approach to research, strategy, design and security."
+    />
 
-        </div>
-      </div>
-    </div>
+    <Herotext
+      iconurl="25-years-shaping-large-complicated-projects.svg"
+      heading="25 years shaping large complicated projects"
+      subheading="Our background originates in research and psychology with experience in statistics. This knowledge of research and ethics around data is the foundation of every project. After working for twenty years with government and on large health projects we understand the contractual requirements for reporting, legal and privacy constraints and meeting security standards."
+      altrow
+    />
 
-    <div class="w-full h-64">
-      <div class="container mx-auto">
-        <div class="grid h-64 grid-rows-3 grid-cols-15">
-          <div class="row-start-2 text-center text-white col-span-15">
-            <div>
-                <h1 class="text-lg font-bold">Heading</h1>
-                <h2 class="text-xl font-bold">Subheading</h2>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    <Hero
+    subheading="We review projects continually as they evolve"
+    background-url="/We-review-projects-continually-as-they-evolve.jpg"
+    blacktext
+    />
 
+    <Herotext
+      iconurl="Process_diagram.svg"
+      subheading="When we design and build digital systems we look at the short and long term outcomes. We build systems that can grow and expand as the information needs and challenges change within a business or organisation. Clients may require more efficiencies as they grow, or make additions and changes to a process. We continually work together with clients to assess, manage and ensure the system meets their current needs."
+      altrow
+    />
+
+    <CTA
+      text="Learn more about who we work with."
+      buttonText="Who we help"
+      buttonLink="/whowehelp"
+     />
   </div>
 
 </template>

@@ -1,42 +1,19 @@
 <template>
   <div>
 
-    <div class="object-contain object-center w-full h-64 bg-cover"
-      :style="{ backgroundImage: `url(${backgroundUrl})` }">
-      <div class="container mx-auto">
-        <div class="grid h-64 grid-rows-3 grid-cols-15">
-          <div class="row-start-2 text-center text-white col-span-15">
-            <div>
-              <h1 class="text-lg font-bold">HOW WE WORK</h1>
-              <h2 class="text-xl font-bold">A continuous cycle of learning, defining and refining</h2>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+  <Hero
+  heading="HOW WE WORK"
+  subheading="A continuous cycle of learning, defining and refining"
+  background-url="/Logicly_how-we-work-header.jpg"
+  />
 
-    <div class="w-full bg-logiclylightgrey">
-      <div class="container py-8 mx-auto">
-
-        <div class="grid grid-cols-15">
-
-          <div class="flex justify-center col-span-15">
-            <!-- TODO Figure out if this should be an arrow -->
-            <img class="h-32" src="~/assets/images/Our-pathway-to-build-your-digital-system.svg" />
-          </div>
-          <div class="mt-4 col-span-15">
-            <h2 class="text-xl font-bold text-center">Our pathway to build your digital system</h2>
-          </div>
-          <div class="col-span-7 col-start-5">
-            <p>Our digital systems are a collaborative process. The people we collaborate with in an organisation varies
+  <Herotext
+    iconurl="Our-pathway-to-build-your-digital-system.svg"
+    heading="Our pathway to build your digital system"
+    subheading="Our digital systems are a collaborative process. The people we collaborate with in an organisation varies
               depending on the expertise and content needed for the project. We regularly present concepts to gain
-              client feedback, refine and guide them through the next phase of the journey.</p>
-          </div>
-
-        </div>
-
-      </div>
-    </div>
+              client feedback, refine and guide them through the next phase of the journey."
+  />
 
     <div class="w-full">
       <div class="container mx-auto my-4">
@@ -225,16 +202,6 @@
 </template>
 
 <script>
-  import backgroundUrl from '~/assets/images/Logicly_how-we-work-header.jpg';
-
-  export default {
-    data() {
-      return {
-        backgroundUrl
-      }
-    }
-  }
-
 </script>
 
 <style>

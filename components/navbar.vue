@@ -2,7 +2,7 @@
   <nav style="padding:1rem" class="text-sm">
   <!-- TODO Change this to class-based padding along with logo -->
       <NuxtLink to="/">home</NuxtLink>
-
+<!--
       <dropdown class="my-dropdown-toggle"
           :options="arrayOfObjects" 
           :selected="object" 
@@ -10,7 +10,12 @@
           :placeholder="'Select an Item'"
           :closeOnOutsideClick="boolean">
       </dropdown>
-
+-->
+      <NuxtLink to="/aboutus">about us</NuxtLink>
+      <NuxtLink to="/ourapproach">our approach</NuxtLink>
+      <NuxtLink to="/about">our team</NuxtLink>
+      <NuxtLink to="/about">our security</NuxtLink>
+      <NuxtLink to="/about">our culture</NuxtLink>
       <NuxtLink to="/whowehelp">who we help</NuxtLink>
       <NuxtLink to="/whatwedo">what we do</NuxtLink>
       <NuxtLink to="/howwework">how we work</NuxtLink>
@@ -22,36 +27,34 @@
 </template>
 
 <script>
-
-import dropdown from 'vue-dropdowns';
-export default {
-  data() {
-    return {
+// import dropdown from 'vue-dropdowns';
+// export default {
+//   data() {
+//     return {
       
-      arrayOfObjects: [
-          {id: 1, name: 'about us'},
-          {id: 2, name: 'our approach'},
-          {id: 3, name: 'our team'},
-          {id: 3, name: 'our security'},
-          {id: 3, name: 'our culture'},
-        ],
-      object: {
-        name: 'About',
-      }
-    }
-  },
+//       arrayOfObjects: [
+//           {id: 1, name: 'about us'},
+//           {id: 2, name: 'our approach'},
+//           {id: 3, name: 'our team'},
+//           {id: 3, name: 'our security'},
+//           {id: 3, name: 'our culture'},
+//         ],
+//       object: {
+//         name: 'About',
+//       }
+//     }
+//   },
 
-  components: {
-      'dropdown': dropdown,
-  },
+//   components: {
+//       'dropdown': dropdown,
+//   },
 
-  methods: {
-    methodToRunOnSelect(payload) {
-      this.object = payload;
-    }
-  }
-}
-
+//   methods: {
+//     methodToRunOnSelect(payload) {
+//       this.object = payload;
+//     }
+//   }
+// }
 </script>
 
 <style scoped>

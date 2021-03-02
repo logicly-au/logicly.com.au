@@ -1,41 +1,17 @@
 <template>
   <div>
+  
+    <Hero
+  heading="WHAT WE DO"
+  subheading="From discovery to development, delivery and beyond"
+  background-url="/Logicly_What-we-do-header-From-discovery-to-development-delivery-and-beyond.jpg"
+  />
 
-    <div class="object-contain object-center w-full h-64 bg-cover" :style="{ backgroundImage: `url(${backgroundUrl})` }">
-      <div class="container mx-auto">
-        <div class="grid h-64 grid-rows-3 grid-cols-15">
-          <div class="row-start-2 text-center text-white col-span-15">
-            <div>
-              <h1 class="text-lg font-bold">WHAT WE DO</h1>
-              <h2 class="text-xl font-bold">From discovery to development, delivery and beyond</h2>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="w-full bg-logiclylightgrey">
-      <div class="container py-8 mx-auto">
-
-        <div class="grid grid-cols-15">
-
-          <div class="flex justify-center col-span-15">
-            <!-- TODO Figure out if this should be an arrow -->
-            <img class="h-32" src="~/assets/images/We-start-with-the-right-questions-to-gain-insightful-answers.svg" />
-          </div>
-          <div class="mt-4 col-span-15">
-            <h2 class="text-xl font-bold text-center">
-              We start with the right questions to gain insightful answers
-            </h2>
-          </div>
-          <div class="col-span-7 col-start-5">
-            <p>Our services are comprehensive and thorough; from initial consulting and design through to build and delivery. We continuously review results, outcomes and user experience to ensure the needs of all stakeholders are met.</p>
-          </div>
-
-        </div>
-
-      </div>
-    </div>
+  <Herotext
+    iconurl="We-start-with-the-right-questions-to-gain-insightful-answers.svg"
+    heading="We start with the right questions to gain insightful answers"
+    subheading="Our services are comprehensive and thorough; from initial consulting and design through to build and delivery. We continuously review results, outcomes and user experience to ensure the needs of all stakeholders are met."
+  />
 
     <div class="w-full">
       <div class="container mx-auto my-4">
@@ -85,13 +61,6 @@
 </template>
 
 <script>
-  import backgroundUrl from '~/assets/images/Logicly_What-we-do-header-From-discovery-to-development-delivery-and-beyond.jpg';
-
-  export default {
-    data() {
-        return { backgroundUrl }
-    }
-  }
 </script>
 
 <style>
