@@ -185,20 +185,33 @@
           </div>
 
         </div>
+        <CTA
+      text="Discover how we can help"
+      buttonText="What we do"
+      buttonLink="/whatwedo"
+     />
 
+     
       </div>
     </div>
   </div>
 
-  </div>
-  </div>
-
-  </div>
-  </div>
-
 
 
   </div>
+  
+  </div>
+
+  </div>
+
+  
+  </div>
+
+
+
+  </div>
+
+
 </template>
 
 <script>

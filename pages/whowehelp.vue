@@ -16,16 +16,8 @@
               vision."
     />
 
-
-
-
-
-
     <div class="w-full">
       <div class="container mx-auto my-4">
-
-
-
 
         <div class="grid grid-cols-15">
 
@@ -198,6 +190,13 @@
 
       </div>
     </div>
+
+            <CTA
+      text="Discover how we can help"
+      buttonText="What we do"
+      buttonLink="/whatwedo"
+     /></CTA>
+     
   </div>
 
   </div>
@@ -206,9 +205,8 @@
   </div>
   </div>
 
-
-
   </div>
+
 </template>
 
 <script>

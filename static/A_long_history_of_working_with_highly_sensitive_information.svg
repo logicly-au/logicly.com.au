@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.3.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 68.7 84.9" style="enable-background:new 0 0 68.7 84.9;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#F5F5F5;}
+	.st1{fill:#575756;}
+	.st2{fill:#AD1820;}
+	.st3{fill:#E5332A;}
+	.st4{fill:#F6A723;}
+	.st5{fill:#E84E1B;}
+	.st6{fill:#FAA634;}
+	.st7{fill:none;stroke:#9C9B9B;stroke-width:3;stroke-miterlimit:10;}
+	.st8{fill:#9C9B9B;}
+	.st9{fill:#1D1D1B;}
+	.st10{clip-path:url(#SVGID_2_);}
+	.st11{clip-path:url(#SVGID_4_);}
+	.st12{clip-path:url(#SVGID_6_);}
+	.st13{fill:none;stroke:#AD1820;stroke-width:2.7971;stroke-miterlimit:10;}
+	.st14{fill:#FFFFFF;}
+	.st15{fill:#C6C6C5;}
+	.st16{fill:#868686;}
+	.st17{fill:#3C3C3B;}
+	.st18{opacity:0.52;fill:#AD1820;}
+	.st19{fill:none;stroke:#AD1820;stroke-width:4.3435;stroke-miterlimit:10;}
+	.st20{fill:none;stroke:#E5332A;stroke-width:4.3435;stroke-miterlimit:10;}
+	.st21{fill:#B1B1B1;}
+	.st22{fill:#DD4D02;}
+	.st23{fill:#A4A4A4;}
+	.st24{fill:#E94D00;}
+	.st25{clip-path:url(#SVGID_8_);fill:#E74E1B;}
+	.st26{clip-path:url(#SVGID_8_);}
+	.st27{fill:#AC1820;}
+	.st28{fill:#F19000;}
+	.st29{opacity:0.52;fill:#AC1820;}
+	.st30{fill:#E4332A;}
+</style>
+<g>
+	<defs>
+		<path id="SVGID_7_" d="M67.4,12.2L35.1,0.1L34.4,0l-0.7,0.1L1.3,12.2C0.5,12.5,0,13.3,0,14.1v26.3C0.2,77,33.6,84.8,33.9,84.8
+			l0.4,0l0.4,0c0.3-0.1,33.7-7.8,33.9-44.4V14.1C68.7,13.3,68.2,12.5,67.4,12.2z"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_7_"  style="overflow:visible;"/>
+	</clipPath>
+	<path style="clip-path:url(#SVGID_2_);fill:#E74E1B;" d="M67.4,12.2L35.1,0.1L34.4,0l-0.7,0.1L1.3,12.2C0.5,12.5,0,13.3,0,14.1
+		v26.3C0.2,77,33.6,84.8,33.9,84.8l0.4,0l0.4,0c0.3-0.1,33.7-7.8,33.9-44.4V14.1C68.7,13.3,68.2,12.5,67.4,12.2z"/>
+	<g class="st10">
+		<path class="st27" d="M-19.7,96.8c29.9,0,54.1-24.2,54.1-54.1h-54.1V96.8z"/>
+		<path class="st28" d="M88.4,96.8c0-29.9-24.2-54.1-54.1-54.1v54.1H88.4z"/>
+		<path class="st29" d="M88.4-11.3c-29.9,0-54.1,24.2-54.1,54.1h54.1V-11.3z"/>
+		<path class="st30" d="M-19.7-11.6c0,29.9,24.2,54.1,54.1,54.1v-54.1H-19.7z"/>
+	</g>
+</g>
+</svg>

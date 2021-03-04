@@ -13,9 +13,9 @@
 -->
       <NuxtLink to="/aboutus">about us</NuxtLink>
       <NuxtLink to="/ourapproach">our approach</NuxtLink>
-      <NuxtLink to="/about">our team</NuxtLink>
-      <NuxtLink to="/about">our security</NuxtLink>
-      <NuxtLink to="/about">our culture</NuxtLink>
+      <NuxtLink to="/ourteam">our team</NuxtLink>
+      <NuxtLink to="/oursecurity">our security</NuxtLink>
+      <NuxtLink to="/ourculture">our culture</NuxtLink>
       <NuxtLink to="/whowehelp">who we help</NuxtLink>
       <NuxtLink to="/whatwedo">what we do</NuxtLink>
       <NuxtLink to="/howwework">how we work</NuxtLink>
