@@ -191,11 +191,11 @@
       </div>
     </div>
 
-            <CTA
+      <CTA
       text="Discover how we can help"
       buttonText="What we do"
       buttonLink="/whatwedo"
-     /></CTA>
+     />
      
   </div>
 

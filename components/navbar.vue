@@ -22,7 +22,7 @@
       <NuxtLink to="/projects">projects</NuxtLink>
       <NuxtLink to="/insights">insights</NuxtLink>
       <!-- TODO change link back to contact us -->
-      <NuxtLink to="/sample">contact us</NuxtLink>
+      <NuxtLink to="/contactus">contact us</NuxtLink>
   </nav>
 </template>
 

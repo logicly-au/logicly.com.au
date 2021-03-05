@@ -9,8 +9,8 @@ i <template>
       <div class="grid h-64 grid-rows-3 grid-cols-15">
         <div class="row-start-2 text-center col-span-15" >
             <div :class="{ 'text-black': blacktext, 'text-white': !blacktext }">
-              <h1 class="text-lg font-bold">{{ heading }}</h1>
-              <h2 class="text-xl font-bold">{{ subheading }}</h2>
+              <h1 class="text-lg font-medium text-center text-white">{{ heading }}</h1>
+              <h2 class="invisible text-2xl font-medium text-center text-white lg:visible">{{ subheading }}</h2>
             </div>
           </div>
         </div>

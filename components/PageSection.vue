@@ -1,18 +1,32 @@
 <template>
-    <div class="w-full bg-logiclylightgrey">
-        <div class="container mx-auto">
-            <div class="grid h-full grid-cols-4 grid-rows-3">
-                <div class="grid self-center col-span-2 col-start-2 row-start-2">
-                    <slot></slot>
-                </div>
-            </div>
+<div
+:class="{ 'bg-logiclylightgrey': alt , '!bg-logiclylightgrey': normal }"
+>
+
+  <div class="object-contain object-center w-full h-64 bg-cover">
+    <div class="container mx-auto">
+      <div class="grid h-64 grid-rows-3 grid-cols-15">
+        <div class="row-start-2 text-center col-span-15">
+          <div>
+          
+            <slot></slot>
+
+          </div>
         </div>
+      </div>
     </div>
+  </div>
+
+</div>
 </template>
 
 <script>
 export default {
-  name: "PageSection"
+  name: "PageSection",
+  props: {
+    alt: Boolean,
+    normal: Boolean,
+  }
 };
 </script>
 

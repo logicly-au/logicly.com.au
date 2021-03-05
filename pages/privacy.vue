@@ -100,16 +100,6 @@ Privacy Notice Changes - Strategic Data may change, supplement or amend this Not
 </template>
 
 <script>
-  import backgroundUrl from '~/assets/images/Protecting_your_personal_information.jpg';
-
-  export default {
-    data() {
-      return {
-        backgroundUrl
-      }
-    }
-  }
-
 </script>
 
 <style>
