@@ -1,20 +1,13 @@
 i <template>
-    <div class="w-full" 
-    :class="{ 'bg-logiclylightgrey': altrow, 'bg-white': !altrow }"
-    >
-      <div class="container py-8 mx-auto">
-        <div class="grid h-64 grid-rows-3 grid-cols-15">
-          <div class="flex justify-center row-span-1 row-start-1 col-span-15">
+<page-section :altrow="altrow">
+          <div class="flex justify-center col-span-5">
             <img class="h-32" :src="iconurl" />
           </div>
-          <div class="row-span-1 row-start-3 text-center col-span-15">
-            <h1 class="text-xl font-bold">{{ heading }}</h1>
-            <h2 class="text-md">{{ subheading }}</h2>
+          <div class="col-span-5 text-center">
+            <h1 class="text-xl font-extrabold">{{ heading }}</h1>
+            <h2 class="font-light text-md">{{ subheading }}</h2>
           </div>
-
-        </div>
-      </div>
-    </div>
+</page-section>
 </template>
 
 <script>

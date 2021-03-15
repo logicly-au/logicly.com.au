@@ -5,6 +5,7 @@
   heading="WHO WE HELP"
   subheading="Our clients approach us with a range of challenges"
   background-url="/Logicly-who-we-help-header-our-clients-approach-us-with-a-range-of-challenges.jpg"
+  overlay
   />
 
     <Herotext
@@ -14,6 +15,7 @@
               to inform critical decisions. We guide our clients through the possible pathways and alternatives. It is
               rare that any two projects are the same so every digital system is designed for your specific needs and
               vision."
+      altrow
     />
 
     <div class="w-full">

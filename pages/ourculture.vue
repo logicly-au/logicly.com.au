@@ -1,23 +1,19 @@
 <template>
   <div>
   
-    <!-- Sec 1 -->
+    <Hero
+      heading="OUR CULTURE"
+      subheading="Everyone has a say"
+      background-url="Logicly-Our-culture-header-everyone-has-a-say.jpg"
+      overlay
+    />
 
-    <div class="w-full h-64 bg-logiclytheme2">
-      <div class="container mx-auto">
-        <div class="grid h-64 grid-rows-3 grid-cols-15">
-          <div class="col-span-11 col-start-2 row-start-2">
-
-
-
-
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- End Sec 1 -->
-
+    <Herotext
+      iconurl="Together-at-logicly.svg"
+      heading="Together at Logicly"
+      subheading="We are a diverse team who encourages sharing of knowledge and ideas to always improve, streamline our way of working and add value to the systems we design and build for our clients."
+      altrow
+    />
 
   </div>
 </template>

@@ -5,12 +5,14 @@
   heading="WHAT WE DO"
   subheading="From discovery to development, delivery and beyond"
   background-url="/Logicly_What-we-do-header-From-discovery-to-development-delivery-and-beyond.jpg"
+  overlay
   />
 
   <Herotext
     iconurl="We-start-with-the-right-questions-to-gain-insightful-answers.svg"
     heading="We start with the right questions to gain insightful answers"
     subheading="Our services are comprehensive and thorough; from initial consulting and design through to build and delivery. We continuously review results, outcomes and user experience to ensure the needs of all stakeholders are met."
+    altrow
   />
 
     <div class="w-full">

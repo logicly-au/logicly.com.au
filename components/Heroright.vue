@@ -3,7 +3,7 @@ i <template>
     class="object-contain object-center w-full bg-cover h-128"
     :style="{ backgroundImage: `url(${backgroundUrl})` }"
   >
-            <page-section :altrow="altrow" :overlay="overlay">
+            <page-section :altrow="altrow" :overlay="overlay" :right="right">
 
               <h1 class="font-bold text-center text-white text-md">{{ heading }}</h1>
               <h2 class="invisible text-2xl font-semibold text-center text-white lg:visible">{{ subheading }}</h2>
@@ -15,7 +15,7 @@ i <template>
 
 <script>
 export default {
-  name: "Hero",
+  name: "HeroRight",
   props: {
     heading: String,
     subheading: String,

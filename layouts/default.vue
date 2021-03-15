@@ -16,7 +16,7 @@
 </template>
 
 <style>
-html {
+/* html {
   font-family:
     'Source Sans Pro',
     -apple-system,
@@ -34,7 +34,7 @@ html {
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
 }
-
+*/
 *,
 *::before,
 *::after {

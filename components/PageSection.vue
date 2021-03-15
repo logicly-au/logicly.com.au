@@ -1,17 +1,17 @@
 <template>
-<div
-:class="{ 'bg-logiclylightgrey': alt , '!bg-logiclylightgrey': normal }"
+<div class="h-full" 
+:class="{ 'bg-logiclylightgrey': altrow , '!bg-logiclylightgrey': normal }"
 >
 
-  <div class="object-contain object-center w-full h-64 bg-cover">
-    <div class="container mx-auto">
-      <div class="grid h-64 grid-rows-3 grid-cols-15">
-        <div class="row-start-2 text-center col-span-15">
-          <div>
+  <div class="object-contain object-center w-full h-full bg-cover"
+  :class="{ 'bg-black bg-opacity-50': overlay}"
+  >
+    <div class="container h-full mx-auto">
+      <div class="grid h-full py-20 grid-cols-15">
+        <div class="flex flex-col justify-center col-span-9 col-start-4">
           
-            <slot></slot>
-
-          </div>
+                <slot></slot>
+              
         </div>
       </div>
     </div>
@@ -24,8 +24,12 @@
 export default {
   name: "PageSection",
   props: {
-    alt: Boolean,
+    altrow: Boolean,
     normal: Boolean,
+    overlay: Boolean,
+    nooverlay: Boolean,
+    black: Boolean,
+    noblack: Boolean,
   }
 };
 </script>

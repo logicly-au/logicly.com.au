@@ -5,6 +5,7 @@
   heading="HOW WE WORK"
   subheading="A continuous cycle of learning, defining and refining"
   background-url="/Logicly_how-we-work-header.jpg"
+  overlay
   />
 
   <Herotext

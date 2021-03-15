@@ -3,69 +3,32 @@
   
     <Hero
       heading="We help you meet your complex information challenges"
-      subheading="The subheading"
       background-url="/Logicly-meet-your-complex-information-challenges-header.jpg"
-      right
     />
 
-    <div class="w-full bg-logiclylightgrey">
-      <div class="container mx-auto">
-        <div class="grid h-full grid-cols-4 grid-rows-3">
-          <div class="self-center col-span-2 col-start-2 row-start-2">
-            <h2 class="text-xl font-bold text-center">Developing thoughtfully designed digital systems</h2>
-            <p>We bring twenty years of knowledge and experience in research, strategy, design and technology to solve
+    <Herotext
+    heading="Developing thoughtfully designed digital systems"
+    subheading="We bring twenty years of knowledge and experience in research, strategy, design and technology to solve
               your complex information challenges. Our digital systems are built with innovative but practical
-              thinking, flexibility and intuitive design, always with the user experience in mind.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="w-full bg-white">
-      <div class="container mx-auto">
-
-        <!-- Whole grid for this section -->
-        <div class="grid grid-cols-8">
+              thinking, flexibility and intuitive design, always with the user experience in mind."
+    altrow
+    />
 
 
-          <!-- Grid just for header thing -->
-          <div class="grid grid-flow-row-dense grid-cols-12 col-span-4 col-start-3">
+          <page-section>
 
-            <div class="col-span-5">
-              <div class="col-span-1 p-2 border-t-4 border-l-4 rounded-tl-full border-logiclytheme1"></div>
-              <div class="col-span-1 p-2"></div>
-              <div class="col-span-1 p-2 border-b-4 border-l-4 rounded-bl-full border-logiclytheme2"></div>
-            </div>
-            <div class="col-span-2">
-              <div class="col-span-1 p-2"></div>
-              <div class="col-span-1 p-2">
-                <div>
-                  <h2>
-                    Digital System
-                  </h2>
-                </div>
-              </div>
-              <div class="col-span-1 p-2"></div>
-            </div>
-            <div class="col-span-5">
-              <div class="col-span-1 p-2 border-t-4 border-r-4 rounded-tr-full border-logiclytheme3"></div>
-              <div class="col-span-1 p-2"></div>
-              <div class="col-span-1 p-2 border-b-4 border-r-4 rounded-br-full border-logiclytheme4"></div>
-            </div>
+          <img src="digital_system.svg" class="h-24 mb-5" />
 
-          </div>
-        </div>
-        <!-- End of Grid just for header thing -->
+          <div class="grid grid-cols-8 col-start-2 col-gap-2">
 
-        <div class="grid grid-cols-8 col-start-2 col-gap-2">
-
-          <div class="content-center col-span-6 col-start-2">
+          <div class="content-center col-span-6 col-start-2 pb-6">
             <h3>
               Our continuous 4 stage approach to meeting your future needs
             </h3>
           </div>
 
-          <div class="col-span-2 col-start-2 border-t-4 border-logiclytheme2">
-            <span class="text-xl text-logiclytheme2">1</span><span>Research</span>
+          <div class="flex items-start col-span-2 col-start-2 border-t-4 border-logiclytheme2">
+            <span class="text-5xl text-logiclytheme2">1</span><span>Research</span>
           </div>
 
           <div class="col-span-3 col-start-4 border-t-4 border-gray-500">
@@ -73,8 +36,8 @@
             solve your information complexities.
           </div>
 
-          <div class="col-span-2 col-start-2 border-t-4 border-logiclytheme2">
-            <span class="text-xl text-logiclytheme2">2</span><span>Design</span>
+          <div class="flex items-start col-span-2 col-start-2 border-t-4 border-logiclytheme2">
+            <span class="text-5xl text-logiclytheme2">2</span><span>Design</span>
           </div>
 
           <div class="col-span-3 col-start-4 border-t-4 border-gray-500">
@@ -82,8 +45,8 @@
             experience that’s intuitive for non-digital people.
           </div>
 
-          <div class="col-span-2 col-start-2 border-t-4 border-logiclytheme2">
-            <span class="text-xl text-logiclytheme2">3</span><span>Build</span>
+          <div class="flex items-start col-span-2 col-start-2 border-t-4 border-logiclytheme2">
+            <span class="text-5xl text-logiclytheme2">3</span><span>Build</span>
           </div>
 
           <div class="col-span-3 col-start-4 border-t-4 border-gray-500">
@@ -91,8 +54,8 @@
               front-end design, data management and security.</span>
           </div>
 
-          <div class="col-span-2 col-start-2 border-t-4 border-logiclytheme2">
-            <span class="text-xl text-logiclytheme2">4</span><span>Maintain and Improve</span>
+          <div class="flex items-start col-span-2 col-start-2 border-t-4 border-logiclytheme2">
+            <span class="text-5xl text-logiclytheme2">4</span><span>Maintain and Improve</span>
           </div>
 
           <div class="col-span-3 col-start-4 border-t-4 border-gray-500">
@@ -110,15 +73,12 @@
               <a class="block p-2 m-5 text-white bg-logiclyorange">Find out more</a>
             </div>
           </div>
-        </div>
-      </div>
-    </div>
-    <div class="w-full h-auto bg-logiclylightgrey">
-      <!-- Start container -->
-      <div class="container mx-auto">
+          </div>
+</page-section>
 
-        <!-- Overall grid -->
-        <div class="grid grid-cols-8">
+
+
+<page-section altrow>
 
           <!-- Header -->
           <div class="col-span-6 col-start-2 text-center">
@@ -176,10 +136,7 @@
 
           </div>
           <!-- End subgrid 2 -->
-        </div>
-        <!-- End Overall Grid -->
-      </div>
-      <!-- End container -->
+</page-section>
 
       <div class="w-full h-auto bg-white">
         <!-- Start container -->

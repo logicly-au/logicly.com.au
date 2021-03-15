@@ -5,6 +5,8 @@
       subheading="We are innovative thinkers who solve information challenges"
       background-url="/Logicly-about-us-header-we-are-innovative-thinkers-who-solve-informative-challenges.jpg"
       right
+      black
+      overlay
     />
 
     <Herotext
