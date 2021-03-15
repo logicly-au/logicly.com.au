@@ -27,11 +27,11 @@
             <div class="col-span-11 col-start-3">
               <img src="~/assets/images/Every_information_challenge-is-different-and-requires-a-unique-digital-solution.jpg" />
             </div>
-            <div class="col-span-11 text-center">
-              <h1 class="text-lg font-bold text-logiclytextgrey">Every information challenge is different and requires a unique digital solution</h1>
+            <div class="text-center col-span-15">
+              <h1 class="text-lg font-bold text-center text-logiclytextgrey">Every information challenge is different and requires a unique digital solution</h1>
             </div>
 
-          <div class="grid justify-center col-span-6 col-start-2 align-center">
+          <div class="grid justify-center col-start-2 col-span-15 align-center">
             <div class="pb-12">
               <a class="block p-2 m-5 text-white bg-logiclyorange">View our projects</a>
             </div>

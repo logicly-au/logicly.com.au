@@ -15,13 +15,13 @@
     />
 
     <page-section>
-      <div class="grid grid-cols-15">
-        <div class="col-span-9 col-start-4">
-          <h1 class="text-lg font-bold">A continuous, systematic approach to risk analysis and security </h1>
+      <div class="grid grid-cols-9 gap-4">
+        <div class="col-span-9 pb-4">
+          <h1 class="mb-4 text-lg font-bold">A continuous, systematic approach to risk analysis and security </h1>
           To ensure we’re at the cutting edge of security best-practices, and align with their needs, we keep a rigorous routine of continuous review and investment in our methods. Our data solutions are created to respond to each client’s unique information challenge, including their risk requirements.
-          <h1 class="text-lg font-bold">Security measures we build into our projects include:</h1>
+          <h1 class="mb-4 text-lg font-bold">Security measures we build into our projects include:</h1>
         </div>
-        <div class="col-span-4 col-start-4">
+        <div class="col-span-4">
           <ul>
             <li>24/7 security monitoring</li>
             <li>Vulnerability scanning and penetration testing</li>
@@ -30,7 +30,7 @@
             <li>ASD Information Security Registered	Assessors Program (IRAP) assessment</li>
           </ul>
         </div>
-        <div class="col-span-3 col-start-9">
+        <div class="col-span-4 col-start-5">
           <ul>
             <li>Development of project-specific security	documentation such as: Security Risk	Management Plans, Incident Response 	Plans, Statements of Applicability, and 	Compliance Audits</li>
             <li>Consultation with external subject-matter	specialists as needed</li>

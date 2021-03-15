@@ -26,6 +26,7 @@
     subheading="We review projects continually as they evolve"
     background-url="/We-review-projects-continually-as-they-evolve.jpg"
     blacktext
+    overlay
     />
 
     <Herotext
