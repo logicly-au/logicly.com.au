@@ -53,16 +53,16 @@
         <p class="text-lg">Our comprehensive approach to security has enabled us to foster successful, long-term partnerships with leading organisations such as the Department of Health, National Australia Bank and the University of Melbourne over the course of many years, and many projects. </p>
       </div>
       <div class="col-span-1">
-        <img src="/Australian-Government-Federal-Department-of-Health.png" />
-         <NuxtLink to="/" class="text-logiclyorange">View Project</NuxtLink>
+        <img src="/Australian-Government-Federal-Department-of-Health.png" class="h-20" />
+        <NuxtLink to="/" class="text-logiclyorange">View Project</NuxtLink>
       </div>
       <div class="col-span-1">
-        <img src="/The-University-of-Melbourne.png" />
-         <NuxtLink to="/" class="text-logiclyorange">View Project</NuxtLink>
+        <img src="/The-University-of-Melbourne.png" class="h-20" />
+        <NuxtLink to="/" class="text-logiclyorange">View Project</NuxtLink>
       </div>
       <div class="col-span-1">
-        <img src="/National-Australia-Bank.png" />
-         <NuxtLink to="/" class="text-logiclyorange">View Project</NuxtLink>
+        <img src="/National-Australia-Bank.png" class="h-20" />
+        <NuxtLink to="/" class="text-logiclyorange">View Project</NuxtLink>
       </div>
     </div>
   </page-section>

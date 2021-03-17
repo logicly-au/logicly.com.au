@@ -40,10 +40,11 @@
           </div>
 
           <div class="col-span-11 col-start-3">
-            <img src="~/assets/images/Different_audiences_Different_information_needs_Different_systems.jpg" />
-            <!-- TODO Replace placeholder image here -->
-            <div class="relative font-bold text-center text-white top-center">Different Audiences. Different
-              Information Needs. Different Systems.</div>
+            <div class="bg-black bg-opacity-75">
+              <img src="~/assets/images/Different_audiences_Different_information_needs_Different_systems.jpg" />
+              <div class="relative font-bold text-center text-white top-center">Different Audiences. Different
+                Information Needs. Different Systems.</div>
+            </div>
           </div>
 
 
@@ -53,17 +54,30 @@
               <!-- Here you can use v-for to loop through items  -->
               <vsa-item>
                 <vsa-heading>
-                  <h2>Researchers</h2>
+                  <div class="grid grid-cols-11">
+                    <div class="col-span-1"><img src="/researchers.svg" class="w-20" /></div>
+                    <div class="flex flex-col justify-center col-span-10">
+                      <h2 class="text-left">Researchers</h2>
+                    </div>
+                  </div>
                 </vsa-heading>
                 <vsa-content>
-                  <h3>Fulfilling a research grant</h3>
-                  <p>Managing information challenges for research or evaluation projects.</p>
-                  <h3>Quoting for a research grant</h3>
-                  <p>Helping define the data requirements and costings so researchers can submit a grant.</p>
-                  <h3>Develping data collection processes</h3>
-                  <p>The strategy and design of data collection processes that meet ethic requirements.</p>
-                  <h3>Creating information networks</h3>
-                  <p>Supporting researchers to design and develop a streamlined network of information.</p>
+                  <div class="grid grid-cols-11">
+                    <div class="col-span-9 col-start-2">
+                      <div class="grid grid-cols-11">
+                      <div class="col-span-9 col-start-2">
+                        <h3 class="font-bold">Fulfilling a research grant</h3>
+                        <p>Managing information challenges for research or evaluation projects.</p>
+                        <h3 class="font-bold">Quoting for a research grant</h3>
+                        <p>Helping define the data requirements and costings so researchers can submit a grant.</p>
+                        <h3 class="font-bold">Develping data collection processes</h3>
+                        <p>The strategy and design of data collection processes that meet ethic requirements.</p>
+                        <h3 class="font-bold">Creating information networks</h3>
+                        <p>Supporting researchers to design and develop a streamlined network of information.</p>
+                      </div>
+                      </div>
+                    </div>
+                  </div>
                 </vsa-content>
 
               </vsa-item>
@@ -102,74 +116,116 @@
 
               <vsa-item>
                 <vsa-heading>
-                  Health
+                  <div class="grid grid-cols-11">
+                    <div class="col-span-1"><img src="/health.svg" class="w-20" /></div>
+                    <div class="flex flex-col justify-center col-span-10">
+                      <h2 class="text-left">Health</h2>
+                    </div>
+                  </div>
                 </vsa-heading>
 
                 <vsa-content>
-                  <h3>Understanding the effectiveness of a health service</h3>
-                  <p>An understanding of mental health, human services and the health system</p>
-                  <h3>Catering for multiple stakeholders and end users</h3>
-                  <p>The ability to work with states and territories with different laws and statutory requirements:
-                    (eg. 31 entities in the primary health regional network)</p>
-                  <h3>Creating a national and integrated digital system</h3>
-                  <p>Ability to safely pull data from all entities, collect and integrate into one national platform.
-                  </p>
-                  <h3>A system for risk assessment</h3>
-                  <p>A system to help predict the severity of patients and provide the right treatment.</p>
+                  <div class="grid grid-cols-11">
+                    <div class="col-span-9 col-start-2">
+                      <h3 class="font-bold">Understanding the effectiveness of a health service</h3>
+                      <p>An understanding of mental health, human services and the health system</p>
+                      <h3 class="font-bold">Catering for multiple stakeholders and end users</h3>
+                      <p>The ability to work with states and territories with different laws and statutory requirements:
+                        (eg. 31 entities in the primary health regional network)</p>
+                      <h3 class="font-bold">Creating a national and integrated digital system</h3>
+                      <p>Ability to safely pull data from all entities, collect and integrate into one national platform.
+                      </p>
+                      <h3 class="font-bold">A system for risk assessment</h3>
+                      <p>A system to help predict the severity of patients and provide the right treatment.</p>
+                    </div>
+                  </div>
                 </vsa-content>
               </vsa-item>
 
               <vsa-item>
                 <vsa-heading>
-                  Education
+                  <div class="grid grid-cols-11">
+                    <div class="col-span-1">
+                      <img src="/education.svg" class="w-20" />
+                    </div>
+                    <div class="flex flex-col justify-center col-span-10">
+                      <h2 class="text-left">Education</h2>
+                    </div>
+                  </div>
                 </vsa-heading>
                 <vsa-content>
-                  <h3>Digital applications</h3>
-                  <p>Designing and developing simple applications to help capture complex information from education
-                    providers.</p>
-                  <h3>Information to inform policy</h3>
-                  <p>Understanding how to improve policy or meet key Department reporting requirements.</p>
-                  <h3>Capturing complex service information</h3>
-                  <p>Designing simple applications to help capture complex service information from education providers.
-                  </p>
-                  <h3>Secure data collection</h3>
-                  <p>Building secure data collection tools to record enrolment data to assist with funding planning.</p>
+                  <div class="grid grid-cols-11">
+                    <div class="col-span-9 col-start-2">
+                      <h3 class="font-bold">Digital applications</h3>
+                      <p>Designing and developing simple applications to help capture complex information from education
+                        providers.</p>
+                      <h3 class="font-bold">Information to inform policy</h3>
+                      <p>Understanding how to improve policy or meet key Department reporting requirements.</p>
+                      <h3 class="font-bold">Capturing complex service information</h3>
+                      <p>Designing simple applications to help capture complex service information from education providers.
+                      </p>
+                      <h3 class="font-bold">Secure data collection</h3>
+                      <p>Building secure data collection tools to record enrolment data to assist with funding planning.</p>
+                    </div>
+                  </div>
                 </vsa-content>
               </vsa-item>
 
               <vsa-item>
                 <vsa-heading>
-                  Non-government
+                  <div class="grid grid-cols-11">
+                    <div class="col-span-1">
+                      <img src="/non-government.svg" class="w-20" />
+                    </div>
+                    <div class="flex flex-col justify-center col-span-10">
+                      <h2 class="text-left">Non-government</h2>
+                    </div>
+                  </div>
                 </vsa-heading>
                 <vsa-content>
-                  <h3>Research information to pilot a new program</h3>
-                  <p>Using sophisticated analysis to assess the design and implementation of pilot programs.</p>
-                  <h3>A way to consolidate alot of information</h3>
-                  <p>A quick way to have information at their fingertips to analyse.To gain a complete story of people’s
-                    experience and outcomes.</p>
+                  <div class="grid grid-cols-11">
+                    <div class="col-span-9 col-start-2">
+                      <h3 class="font-bold">Research information to pilot a new program</h3>
+                      <p>Using sophisticated analysis to assess the design and implementation of pilot programs.</p>
+                      <h3 class="font-bold">A way to consolidate alot of information</h3>
+                      <p>A quick way to have information at their fingertips to analyse.To gain a complete story of people’s
+                        experience and outcomes.</p>
+                    </div>
+                  </div>
                 </vsa-content>
               </vsa-item>
 
               <vsa-item>
-                <vsa-heading>
-                  Corporate
+               <vsa-heading>
+                  <div class="grid grid-cols-11">
+                    <div class="col-span-1">
+                      <img src="/corporate.svg" class="w-20" />
+                    </div>
+                    <div class="flex flex-col justify-center col-span-10">
+                      <h2 class="text-left">Corporate</h2>
+                    </div>
+                  </div>
                 </vsa-heading>
                 <vsa-content>
-                  <h3>Developing a business case</h3>
-                  <p>A detailed response for senior decision makers to get approval to proceed.</p>
-                  <h3>Customised interactive dashboards</h3>
-                  <p>An easy way to manage employees, reviews, make comments and prioritise tasks.</p>
-                  <h3>Transitioning from a manual system to a web platform</h3>
-                  <p>A platform to fit iwith people’s mobile lifestyle. The</p>
-                  ease of use and accessibility increases the usability of the application.
-                  <h3>Replacing Excel spreadsheets with an efficient system</h3>
-                  <p>Building a bespoke platform that simplifies a process. to manage and analyse their data.</p>
-                  <h3>A system to make more informed decisions</h3>
-                  <p>Gaining a better overview and deep understanding of the business and their clients.</p>
-                  <h3>Accurate sales reports a business can rely on</h3>
-                  <p>A system that reduces time, effort and reduces errors.</p>
-                  <h3>A performance management system</h3>
-                  <p>A tool to easily analyse tailored information from thousands of staff</p>
+                  <div class="grid grid-cols-11">
+                    <div class="col-span-9 col-start-2">
+                      <h3 class="font-bold">Developing a business case</h3>
+                      <p>A detailed response for senior decision makers to get approval to proceed.</p>
+                      <h3 class="font-bold">Customised interactive dashboards</h3>
+                      <p>An easy way to manage employees, reviews, make comments and prioritise tasks.</p>
+                      <h3 class="font-bold">Transitioning from a manual system to a web platform</h3>
+                      <p>A platform to fit iwith people’s mobile lifestyle. The</p>
+                      ease of use and accessibility increases the usability of the application.
+                      <h3 class="font-bold">Replacing Excel spreadsheets with an efficient system</h3>
+                      <p>Building a bespoke platform that simplifies a process. to manage and analyse their data.</p>
+                      <h3 class="font-bold">A system to make more informed decisions</h3>
+                      <p>Gaining a better overview and deep understanding of the business and their clients.</p>
+                      <h3 class="font-bold">Accurate sales reports a business can rely on</h3>
+                      <p>A system that reduces time, effort and reduces errors.</p>
+                      <h3 class="font-bold">A performance management system</h3>
+                      <p>A tool to easily analyse tailored information from thousands of staff</p>
+                    </div>
+                  </div>
                 </vsa-content>
               </vsa-item>
             </vsa-list>
