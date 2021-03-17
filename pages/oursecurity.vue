@@ -15,14 +15,14 @@
     />
 
     <page-section>
-      <div class="grid grid-cols-9 gap-4">
-        <div class="col-span-9 pb-4">
+      <div class="grid grid-cols-9 gap-4 text-logiclytextgrey">
+        <div class="col-span-9">
           <h1 class="mb-4 text-lg font-bold">A continuous, systematic approach to risk analysis and security </h1>
-          To ensure we’re at the cutting edge of security best-practices, and align with their needs, we keep a rigorous routine of continuous review and investment in our methods. Our data solutions are created to respond to each client’s unique information challenge, including their risk requirements.
-          <h1 class="mb-4 text-lg font-bold">Security measures we build into our projects include:</h1>
+          <p class="mb-4">To ensure we’re at the cutting edge of security best-practices, and align with their needs, we keep a rigorous routine of continuous review and investment in our methods. Our data solutions are created to respond to each client’s unique information challenge, including their risk requirements.</p>
+          <h1 class="text-lg font-bold">Security measures we build into our projects include:</h1>
         </div>
         <div class="col-span-4">
-          <ul>
+          <ul class="text-sm list-disc">
             <li>24/7 security monitoring</li>
             <li>Vulnerability scanning and penetration testing</li>
             <li>OWASP Top 10 compliancy testing</li>
@@ -31,7 +31,7 @@
           </ul>
         </div>
         <div class="col-span-4 col-start-5">
-          <ul>
+          <ul class="text-sm list-disc">
             <li>Development of project-specific security	documentation such as: Security Risk	Management Plans, Incident Response 	Plans, Statements of Applicability, and 	Compliance Audits</li>
             <li>Consultation with external subject-matter	specialists as needed</li>
           </ul>
