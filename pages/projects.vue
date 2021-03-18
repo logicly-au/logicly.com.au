@@ -1,3 +1,4 @@
+
 <template>
   <div>
   <page-section alt>
@@ -67,18 +68,10 @@ export default {
 
       this.$router.push({path: this.$route.path, query: { tab: newIndex, article: this.activeArticleIndex }});
     },
-    // workaround for this issue https://github.com/cristijora/vue-tabs/issues/43
-    // he's fixed the issue but not released it in 3 years.
-    hackFix() {
-      this.$refs.tabs.$el.querySelectorAll('.nav-tabs li')[this.activeTabIndex].click();
-    },
   },
    created() {
      this.setActiveTab(this.$route.query.tab || 0);
      this.setActiveArticle(this.$route.query.article || 0);
-
-     // see above comment
-     window.addEventListener("load", this.hackFix);
   },
 }
 </script>
