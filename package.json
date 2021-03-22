@@ -16,7 +16,6 @@
     "bp-vuejs-dropdown": "^2.1.1",
     "nuxt": "^2.15.0",
     "vue-dropdowns": "^1.1.2",
-    "vue-nav-tabs": "^0.5.7",
     "vue-simple-accordion": "^0.1.0"
   },
   "devDependencies": {

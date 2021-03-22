@@ -3,7 +3,7 @@ i <template>
           <div class="flex justify-center col-span-5">
             <img class="h-32" :src="iconurl" />
           </div>
-          <div class="col-span-5 text-center">
+          <div class="col-span-5 text-center text-logiclytextgrey">
             <h1 class="text-xl font-extrabold">{{ heading }}</h1>
             <h2 class="font-light text-md">{{ subheading }}</h2>
           </div>
