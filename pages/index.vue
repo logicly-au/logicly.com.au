@@ -171,6 +171,84 @@
     </page-section>
 
 
+    <page-section altrow>
+      <!-- Header -->
+      <div class="text-center mb-8">
+        <span class="text-2xl font-extrabold">Every project is different and designed to meet your digital requirements</span>
+      </div>
+
+      <div class="grid grid-cols-2 col-gap-4 bg-logiclygreytwo mb-4">
+          <div class="col-span-2 grid grid-col-2 lg:col-span-1 lg:col-start-1">
+            <div class="col-span-2">
+              <img src="~/assets/images/Governement-project-queensland-department-of-transport-and-main-roads.jpg" class="p-0">
+              <div class="relative font-bold text-center text-white top-center">Government</div>
+            </div>
+          </div>
+
+          <div class="col-span-2 lg:col-span-1 lg:col-start-2 justify-end pb-10 px-2 mx-4 lg:pb-0 pt-4 xl:pt-16">
+              <div class="text-logiclyorange font-extrabold pb-2 lg:pb-1">
+                <h3>
+                  Queensland Department of Transport and Main Roads
+                </h3>
+              </div>
+              <p>
+                A digital system to help understand travel behaviours and plan for future growth and demand of the
+                Queensland Transport System.
+              </p>
+              <div class="pt-2">
+                <a class="font-extrabold" href="">Read more</a>
+              </div>
+          </div>
+      </div>
+
+      <div class="grid grid-cols-2 col-gap-4 bg-logiclygreytwo mb-4">
+          <div class="col-span-2 grid grid-col-2 lg:col-span-1 lg:col-start-1">
+            <div class="col-span-2">
+              <img src="~/assets/images/Corporate-project-NAB.jpg" class="p-0">
+              <div class="relative font-bold text-center text-white top-center">Corporate</div>
+            </div>
+          </div>
+
+          <div class="col-span-2 lg:col-span-1 lg:col-start-2 justify-end pb-10 px-2 mx-4 lg:pb-0 pt-4 xl:pt-16">
+              <div class="text-logiclyorange font-extrabold pb-2 lg:pb-1">
+                <h3>
+                  NAB
+                </h3>
+              </div>
+              <p>
+                A performance management tool for NAB’s business groups in Australia and overseas with the flexibility to meet their changing future requirements.
+              </p>
+              <div class="pt-2">
+                <a class="font-extrabold" href="">Read more</a>
+              </div>
+          </div>
+      </div>
+
+      <div class="grid grid-cols-2 col-gap-4 bg-logiclygreytwo mb-4">
+          <div class="col-span-2 grid grid-col-2 lg:col-span-1 lg:col-start-1">
+            <div class="col-span-2">
+              <img src="~/assets/images/Corporate-project-NAB.jpg" class="p-0">
+              <div class="relative font-bold text-center text-white top-center">Educational</div>
+            </div>
+          </div>
+
+          <div class="col-span-2 lg:col-span-1 lg:col-start-2 justify-end pb-10 px-2 mx-4 lg:pb-0 pt-4 xl:pt-16">
+              <div class="text-logiclyorange font-extrabold pb-2 lg:pb-1">
+                <h3>
+                  Deakin University
+                </h3>
+              </div>
+              <p>
+                A sophisticated tool for researchers to create, analyse, publish and share data. The community can also access the research to discover and learn.
+              </p>
+              <div class="pt-2">
+                <a class="font-extrabold" href="">Read more</a>
+              </div>
+          </div>
+      </div>
+    </page-section>
+
+
       <div class="w-full h-auto bg-logiclygrey">
         <!-- Start container -->
         <div class="container mx-auto">
@@ -235,26 +313,23 @@
         <!-- End Container -->
       </div>
 
-      <div class="w-full h-auto bg-white">
-        <!-- Start container -->
-        <div class="container h-64 mx-auto">
-          <div class="grid items-center content-center justify-center h-64 grid-cols-1">
-            <div class="col-span-1">
-              <div class="text-center">
-                Do you have a project in mind or a complex information challenge? Call us on +61 3 9340 9000 or enquire
-                below.
-              </div>
+      <page-section>
+        <div class="grid items-center content-center justify-center h-64 grid-cols-1">
+          <div class="col-span-1">
+            <div class="text-center text-2xl font-extrabold">
+              Do you have a project in mind or a complex information challenge? Call us on +61 3 9340 9000 or enquire
+              below.
             </div>
-            <!-- TODO Add link here -->
-            <div class="col-span-1">
-              <div class="flex justify-center">
-                <a href="" class="p-2 m-5 text-white bg-logiclyorange">Enquire</a>
-              </div>
+          </div>
+          <!-- TODO Add link here -->
+          <div class="col-span-1 mt-4">
+            <div class="flex justify-center">
+              <a href="" class="py-4 px-8 m-5 text-white bg-logiclyorange">Enquire</a>
             </div>
           </div>
         </div>
         <!-- End Container -->
-      </div>
+      </page-section>
 
       <div class="w-full h-auto bg-logiclybeige">
         <!-- Start container -->
