@@ -1,37 +1,52 @@
 
 <template>
   <div>
-  <page-section alt>
-    <div style="height:32rem">Our diverse articles are from a range of sectors</div>
-  </page-section>
-  <page-section>
-    Tabbed section {{ activeTab }}
-      <vue-tabs ref="tabs" @tab-change="setActiveTab" v-model="activeTab">
-
-      <v-tab v-for="category in categories" :id="category" :title="category" :key="category">
+    <Hero heading="OUR PROJECTS" subheading="Intelligent decision-making with thoughtful digital solutions"
+    background-url="/Logicly-Projects-Intelligent-decision-making-with-thoughtful-digital-solutions.jpg"
+    overlay />
+    <page-section>
+      <div class="col-span-11 font-bold text-center">Our diverse projects are from a range of sectors</div>
+    </page-section>
+<!--          {{ activeTab }} -->
+    <page-section altrow>
+        <vue-tabs ref="tabs" @tab-change="setActiveTab" v-model="activeTab">
+        <v-tab v-for="category in categories" :id="category" :title="category" :key="category">
         <template #title>
-          <div>iconhere</div>
-          {{ category }}
+        <div>
+          <img src="/1_Research.svg" />
+        </div>
+        {{ category }}
         </template>
+        </v-tab>
+        </vue-tabs>
 
-        <ul class='articles'>
+    </page-section>
+
+    <page-section>
+      <div class="grid grid-cols-11 border-t-2 border-b-2 border-logiclyorange">
+        <div class="col-span-3">
+        {{ activeTab }}
+        projects
+        </div>
+        <div class="col-span-8">  
+          <ul class='articles'>
           <li @click="setActiveArticle(index)" v-for="(article, index) in articles" :class="{ 'articles-active': isActiveArticle(index) }">
-            {{ article.title }}
+          {{ article.title }}
           </li>
-        </ul>
+          </ul>
+        </div>
+        <div class="col-span-11">
+          <nuxt-content class="grid grid-cols-11" :document="activeArticle" />
+        </div>
+      </div>
+    </page-section>
 
-        <nuxt-content :document="activeArticle" />
-      </v-tab>
-
-    </vue-tabs>
-  </page-section>
-  <CTA
-  text="Do you have an information or digital challenge?"
-  buttonText="Get in touch"
-  buttonLink="/contactus"
-  />
-</div>
-
+    <CTA
+    text="Do you have an information or digital challenge?"
+    buttonText="Get in touch"
+    buttonLink="/contactus"
+    />
+  </div>
 </template>
 
 <script>

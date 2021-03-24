@@ -88,7 +88,7 @@
       </div>
     </div>
 
-    <div class="w-full bg-logiclylightgrey">
+    <div class="w-full bg-logiclygreytwo">
       <div class="container mx-auto">
         <div class="grid grid-cols-1 lg:grid-cols-8">
           <div class="grid grid-cols-1 pt-8 lg:col-span-6 lg:col-start-2">
