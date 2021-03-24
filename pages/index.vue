@@ -180,7 +180,7 @@
           <div class="grid col-span-2 grid-col-2 lg:col-span-1 lg:col-start-1">
             <div class="col-span-2">
               <img src="~/assets/images/Governement-project-queensland-department-of-transport-and-main-roads.jpg" class="p-0">
-              <div class="relative font-bold text-center text-white top-center">Government</div>
+              <div class="relative h-0 font-bold text-center text-white top-center">Government</div>
             </div>
           </div>
 
@@ -204,7 +204,7 @@
           <div class="grid col-span-2 grid-col-2 lg:col-span-1 lg:col-start-1">
             <div class="col-span-2">
               <img src="~/assets/images/Corporate-project-NAB.jpg" class="p-0">
-              <div class="relative font-bold text-center text-white top-center">Corporate</div>
+              <div class="relative h-0 font-bold text-center text-white top-center">Corporate</div>
             </div>
           </div>
 
@@ -227,7 +227,7 @@
           <div class="grid col-span-2 grid-col-2 lg:col-span-1 lg:col-start-1">
             <div class="col-span-2">
               <img src="~/assets/images/Corporate-project-NAB.jpg" class="p-0">
-              <div class="relative font-bold text-center text-white top-center">Educational</div>
+              <div class="relative h-0 font-bold text-center text-white top-center">Educational</div>
             </div>
           </div>
 
