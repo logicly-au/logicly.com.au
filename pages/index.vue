@@ -1,7 +1,7 @@
 <template>
   <div>
 
-    <Hero
+    <Herobottomright
       heading="We help you meet your complex information challenges"
       background-url="/Logicly-meet-your-complex-information-challenges-header.jpg"
     />
