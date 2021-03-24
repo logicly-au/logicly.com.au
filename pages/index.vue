@@ -170,7 +170,6 @@
         </div>
     </page-section>
 
-
     <page-section altrow>
       <!-- Header -->
       <div class="mb-8 text-center">
@@ -247,71 +246,6 @@
           </div>
       </div>
     </page-section>
-
-
-      <div class="w-full h-auto bg-logiclygrey">
-        <!-- Start container -->
-        <div class="container mx-auto">
-          <div class="grid grid-cols-8">
-
-            <div class="flex items-center justify-center h-64 col-span-6 col-start-2 font-bold">
-              <span class="text-center align-middle">Every project is different and designed to meet your digital requirements</span>
-            </div>
-
-            <div class="grid grid-cols-6 col-span-6 col-start-2">
-              <div class="col-span-3">
-                  <img src="~/assets/images/Governement-project-queensland-department-of-transport-and-main-roads.jpg" />
-                  <div class="relative font-bold text-center text-white top-center">Government</div>
-              </div>
-              <div class="flex flex-col justify-end col-span-3 pb-2 m-4 bg-logiclygreytwo">
-                <h3>
-                  <div>Queensland Department of Transport and Main Roads</div>
-                </h3>
-                <p>
-                  A digital system to help understand travel behaviours and plan for future growth and demand of the
-                  Queensland Transport System.
-                </p>
-                <a class="text-orange-700" href="">Read more</a>
-              </div>
-
-              <div class="col-span-3">
-                  <img src="~/assets/images/Corporate-project-NAB.jpg" />
-                  <div class="relative font-bold text-center text-white top-center">Corporate</div>
-              </div>
-              <div class="flex flex-col justify-end col-span-3 pb-2 m-4 bg-logiclygreytwo">
-                <h3>
-                  Queensland Department of Transport and Main Roads
-                </h3>
-                <p>
-                  A digital system to help understand travel behaviours and plan for future growth and demand of the
-                  Queensland Transport System.
-                </p>
-                <a class="text-orange-700" href="">Read more</a>
-              </div>
-
-              <div class="col-span-3">
-                <img src="~/assets/images/educationalplaceholder.png" />
-                <!-- TODO Replace placeholder image here -->
-                <div class="relative font-bold text-center text-white top-center">Educational</div>
-              </div>
-
-              <div class="flex flex-col justify-end col-span-3 pb-2 m-4 bg-logiclygreytwo">
-                <h3>
-                  Queensland Department of Transport and Main Roads
-                </h3>
-                <p>
-                  A digital system to help understand travel behaviours and plan for future growth and demand of the
-                  Queensland Transport System.
-                </p>
-                <a class="text-orange-700" href="">Read more</a>
-              </div>
-
-            </div>
-
-          </div>
-        </div>
-        <!-- End Container -->
-      </div>
 
       <page-section>
         <div class="grid items-center content-center justify-center h-64 grid-cols-1">
