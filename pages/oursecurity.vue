@@ -47,22 +47,34 @@
 
   <!-- TODO add links here also fix formatting -->
   <page-section>
-      <div class="grid grid-cols-3">
-      <div class="col-span-3">
-        <h1 class="text-lg font-bold">Protecting critical information for established organisations</h1>
-        <p class="text-lg">Our comprehensive approach to security has enabled us to foster successful, long-term partnerships with leading organisations such as the Department of Health, National Australia Bank and the University of Melbourne over the course of many years, and many projects. </p>
+    <div class="grid grid-cols-3 gap-x-2 text-logiclytextgrey px-0 xl:px-10">
+      <div class="col-span-3 pb-8 lg:pb-4">
+        <h1 class="text-2xl font-extrabold text-center pb-4 lg:pb-8 pt-8">Protecting critical information for established organisations</h1>
+        <p class="text-lg text-center">Our comprehensive approach to security has enabled us to foster successful, long-term partnerships with leading organisations such as the Department of Health, National Australia Bank and the University of Melbourne over the course of many years, and many projects. </p>
       </div>
-      <div class="col-span-1">
-        <img src="/Australian-Government-Federal-Department-of-Health.png" class="h-20" />
-        <NuxtLink to="/" class="text-logiclyorange">View Project</NuxtLink>
+      <div class="col-span-3 lg:col-span-1 text-center flex pb-6 lg:pb-0">
+        <div class="m-auto">
+          <div class="h-24 flex items-center justify-center">
+            <img src="/Australian-Government-Federal-Department-of-Health.png" class="h-28" />
+          </div>
+          <NuxtLink to="/" class="text-logiclyorange underline">View Project</NuxtLink>
+        </div>
       </div>
-      <div class="col-span-1">
-        <img src="/The-University-of-Melbourne.png" class="h-20" />
-        <NuxtLink to="/" class="text-logiclyorange">View Project</NuxtLink>
+      <div class="col-span-3 lg:col-span-1 text-center flex pb-6 lg:pb-0">
+        <div class="m-auto">
+          <div class="h-24 flex items-center justify-center">
+            <img src="/The-University-of-Melbourne.png" class="h-28" />
+          </div>
+          <NuxtLink to="/" class="text-logiclyorange underline">View Project</NuxtLink>
+        </div>
       </div>
-      <div class="col-span-1">
-        <img src="/National-Australia-Bank.png" class="h-20" />
-        <NuxtLink to="/" class="text-logiclyorange">View Project</NuxtLink>
+      <div class="col-span-3 lg:col-span-1 text-center flex">
+        <div class="m-auto">
+          <div class="h-24 flex items-center justify-center">
+            <img src="/National-Australia-Bank.png" class="h-20" />
+          </div>
+          <NuxtLink to="/" class="text-logiclyorange underline">View Project</NuxtLink>
+        </div>
       </div>
     </div>
   </page-section>
