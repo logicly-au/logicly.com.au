@@ -1,12 +1,19 @@
 i <template>
 <page-section :altrow="altrow">
-          <div class="flex justify-center col-span-5">
-            <img class="h-32" :src="iconurl" />
-          </div>
-          <div class="col-span-5 text-center text-logiclytextgrey">
-            <h1 class="text-xl font-extrabold">{{ heading }}</h1>
-            <h2 class="font-light text-md">{{ subheading }}</h2>
-          </div>
+    <div class="flex justify-center ">
+      <div class="justify-center">
+        <img class="h-32" :src="iconurl" />
+      </div>
+    </div>
+    <div class="grid grid-cols-12">
+    <div class="col-span-12 xl:col-span-10 col-start-1 xl:col-start-2">
+      <div class="text-center text-logiclytextgrey">
+        <h1 class="text-2xl font-extrabold text-center pb-2 pt-4 xl:pt-8">{{ heading }}</h1>
+        <h2 class="font-light text-md">{{ subheading }}</h2>
+      </div>
+    </div>
+  </div>
+  </div>
 </page-section>
 </template>
 
