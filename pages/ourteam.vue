@@ -17,7 +17,7 @@
         <page-section>
           <h1 class="text-2xl font-extrabold text-center pb-8 pt-8">Everyone brings something different to the team</h1>
           <div class="grid grid-cols-12 pb-8">
-            <div class="col-span-12 xl:col-span-8 col-start-1 xl:col-start-3 grid grid-cols-3 grid-rows-3 gap-4">
+            <div class="col-span-12 lg:col-span-8 col-start-1 lg:col-start-3 grid grid-cols-3 grid-rows-3 gap-4 -mx-10 md:-mx-0">
               <div class="items-center col-span-1">
                 <img src="/Everyone_brings_something_different_to_the_team/Researchers.svg" class="h-16 md:h-20 m-auto" />
                 <h3 class="text-center text-xs md:text-base">Researchers</h3>
