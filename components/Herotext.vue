@@ -9,7 +9,7 @@ i <template>
     <div class="col-span-12 xl:col-span-10 col-start-1 xl:col-start-2">
       <div class="text-center text-logiclytextgrey">
         <h1 class="text-2xl font-extrabold text-center pb-2 pt-4 xl:pt-8">{{ heading }}</h1>
-        <h2 class="font-light text-md">{{ subheading }}</h2>
+        <h2 class="font-light text-lg">{{ subheading }}</h2>
       </div>
     </div>
   </div>
