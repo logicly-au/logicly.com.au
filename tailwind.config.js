@@ -19,6 +19,7 @@ module.exports = {
       colors: {
       logiclylightgrey: '#F6F5F1',
       logiclygreytwo: '#E9E8E1',
+      logiclygreythree: '#B0B1B1',
       logiclyorange: '#E94E1B',
       logiclybeige: '#F5E3D4',
       logiclytheme1: '#F7A823',
