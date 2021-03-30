@@ -16,11 +16,11 @@
 
 
     <page-section>
-      <img src="digital_system.svg" class="content-center h-24 mb-5 transform scale-125 md:scale-100"/>
-      <div class="grid content-center grid-cols-6 col-gap-4">
+      <img src="digital_system.svg" class="content-center h-24 lg:h-32 mb-5 transform scale-125 md:scale-100"/>
+      <div class="grid content-center grid-cols-6 col-gap-4 text-logiclytextgrey mx-0 xl:mx-16">
 
         <div class="col-span-6 pb-8 md:pt-5">
-          <h3 class="text-center">
+          <h3 class="text-xl font-extrabold text-center">
             Our continuous 4 stage approach to meeting your future needs
           </h3>
         </div>
@@ -29,7 +29,7 @@
           <span class="text-5xl text-logiclytheme1">1</span><span class="pt-5 pl-2">Research</span>
         </div>
 
-        <div class="col-span-8 pb-5 border-0 md:col-span-4 md:col-start-3 md:border-t-4 md:border-gray-400 md:pt-5">
+        <div class="col-span-6 pb-5 border-0 md:col-span-4 md:col-start-3 md:border-t-4 md:border-gray-400 md:pt-5">
           Through a journey of discovery, we gain critical information and present different approaches and options to
           solve your information complexities.
         </div>
@@ -38,7 +38,7 @@
           <span class="text-5xl text-logiclytheme2">2</span><span class="pt-5 pl-2">Design</span>
         </div>
 
-        <div class="col-span-8 pb-5 border-0 md:col-span-4 md:col-start-3 md:border-t-4 md:border-gray-400 md:pt-5">
+        <div class="col-span-6 pb-5 border-0 md:col-span-4 md:col-start-3 md:border-t-4 md:border-gray-400 md:pt-5">
           We thoughtfully design the database, system and digital interface to create an easy and user friendly
           experience that’s intuitive for non-digital people.
         </div>
@@ -47,7 +47,7 @@
           <span class="text-5xl text-logiclytheme4">3</span><span class="pt-5 pl-2">Build</span>
         </div>
 
-        <div class="col-span-8 pb-5 border-0 md:col-span-4 md:col-start-3 md:border-t-4 md:border-gray-400 md:pt-5">
+        <div class="col-span-6 pb-5 border-0 md:col-span-4 md:col-start-3 md:border-t-4 md:border-gray-400 md:pt-5">
           <span>Our technology team builds complex digital systems using their knowledge in development, analysis,
             front-end design, data management and security.</span>
         </div>
@@ -56,13 +56,13 @@
           <span class="text-5xl text-logiclytheme3">4</span><span class="pt-5 pl-2">Maintain and Improve</span>
         </div>
 
-        <div class="col-span-8 pb-5 border-0 md:col-span-4 md:col-start-3 md:border-t-4 md:border-gray-400 md:pt-5">
+        <div class="col-span-6 pb-5 border-0 md:col-span-4 md:col-start-3 md:border-t-4 md:border-gray-400 md:pt-5">
           <span>Our maintenance program includes training, customer and user support, robust and secure hosting,
             proactive maintenance, improvements and monitoring.</span>
         </div>
 
-        <div class="col-span-6 pt-12 pb-2 text-center">
-          <span class="font-bold text-gray-700">This 4 stage approach is a cycle of continuous feedback, changes and testing as the system
+        <div class="col-span-6 lg:col-span-4 lg:col-start-2 pt-12 pb-2 text-center">
+          <span class="font-bold">This 4 stage approach is a cycle of continuous feedback, changes and testing as the system
             evolves.</span>
         </div>
 
@@ -78,12 +78,12 @@
 
     <page-section altrow>
       <!-- Header -->
-      <div class="mb-8 text-center">
+      <div class="mb-8 text-center text-logiclytextgrey">
         <span class="text-2xl font-extrabold">Making complex information secure & accessible for private & public use</span>
       </div>
 
       <!-- Sub grid 1 -->
-      <div class="flex grid flex-col grid-cols-2 col-gap-4">
+      <div class="flex grid flex-col grid-cols-2 col-gap-4 text-logiclytextgrey">
         <div class="grid grid-cols-2 col-span-2 md:col-span-1 md:col-start-1">
 
           <div class="col-span-2">
@@ -138,7 +138,7 @@
 
     <!-- Clients section mobile -->
     <page-section class="md:hidden">
-          <div class="grid-cols-1 pb-4 text-2xl font-bold text-center">
+          <div class="grid-cols-1 pb-4 text-2xl font-bold text-center text-logiclytextgrey">
             <span>We work with corporate, government and educational clients</span>
           </div>
           <div class="grid grid-cols-3 gap-5">
@@ -155,7 +155,7 @@
     <!-- Clients section tablet and desktop -->
     <page-section class="hidden md:block">
         <div class="grid grid-cols-8 pt-10">
-          <div class="grid-cols-1 col-span-8 pb-4 text-2xl font-bold text-center">
+          <div class="grid-cols-1 col-span-8 pb-4 text-2xl font-bold text-center text-logiclytextgrey">
             <span>We work with corporate, government and educational clients</span>
           </div>
           <div class="grid grid-cols-1 col-span-8">
@@ -173,10 +173,10 @@
     <page-section altrow>
       <!-- Header -->
       <div class="mb-8 text-center">
-        <span class="text-2xl font-extrabold">Every project is different and designed to meet your digital requirements</span>
+        <span class="text-2xl font-extrabold text-logiclytextgrey">Every project is different and designed to meet your digital requirements</span>
       </div>
 
-      <div class="grid grid-cols-2 col-gap-4 mb-4 bg-logiclygreytwo">
+      <div class="grid grid-cols-2 col-gap-4 mb-4 bg-logiclygreytwo text-logiclytextgrey">
           <div class="grid col-span-2 grid-col-2 lg:col-span-1 lg:col-start-1">
             <div class="col-span-2">
               <img src="~/assets/images/Governement-project-queensland-department-of-transport-and-main-roads.jpg" class="p-0">
@@ -200,7 +200,7 @@
           </div>
       </div>
 
-      <div class="grid grid-cols-2 col-gap-4 mb-4 bg-logiclygreytwo">
+      <div class="grid grid-cols-2 col-gap-4 mb-4 bg-logiclygreytwo text-logiclytextgrey">
           <div class="grid col-span-2 grid-col-2 lg:col-span-1 lg:col-start-1">
             <div class="col-span-2">
               <img src="~/assets/images/Corporate-project-NAB.jpg" class="p-0">
@@ -223,7 +223,7 @@
           </div>
       </div>
 
-      <div class="grid grid-cols-2 col-gap-4 mb-4 bg-logiclygreytwo">
+      <div class="grid grid-cols-2 col-gap-4 mb-4 bg-logiclygreytwo text-logiclytextgrey">
           <div class="grid col-span-2 grid-col-2 lg:col-span-1 lg:col-start-1">
             <div class="col-span-2">
               <img src="~/assets/images/Corporate-project-NAB.jpg" class="p-0">
@@ -248,7 +248,7 @@
     </page-section>
 
       <page-section>
-        <div class="grid items-center content-center justify-center h-64 grid-cols-1">
+        <div class="grid items-center content-center justify-center h-64 grid-cols-1 text-logiclytextgrey">
           <div class="col-span-1">
             <div class="text-2xl font-extrabold text-center">
               Do you have a project in mind or a complex information challenge? Call us on +61 3 9340 9000 or enquire
