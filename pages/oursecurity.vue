@@ -22,7 +22,7 @@
           <h1 class="text-xl font-extrabold mb-6">Security measures we build into our projects include:</h1>
         </div>
         <div class="col-span-8 lg:col-span-4 col-start-1">
-          <ul class="text-sm list-disc">
+          <ul class="text-base lg:text-sm list-disc">
             <li>24/7 security monitoring</li>
             <li>Vulnerability scanning and penetration testing</li>
             <li>OWASP Top 10 compliancy testing</li>
@@ -31,7 +31,7 @@
           </ul>
         </div>
         <div class="col-span-8 lg:col-span-4 lg:col-start-5">
-          <ul class="text-sm list-disc">
+          <ul class="text-base lg:text-sm list-disc">
             <li>Development of project-specific security documentation such as: Security Risk Management Plans, Incident Response Plans, Statements of Applicability, and Compliance Audits</li>
             <li>Consultation with external subject-matter	specialists as needed</li>
           </ul>
