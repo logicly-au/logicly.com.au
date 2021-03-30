@@ -1,23 +1,31 @@
 <template>
   <div>
 
-    <Hero heading="WHO WE HELP" subheading="Our clients approach us with a range of challenges"
-      background-url="/Logicly-who-we-help-header-our-clients-approach-us-with-a-range-of-challenges.jpg" overlay />
+    <Hero
+      heading="WHO WE HELP"
+      subheading="Our clients approach us with a range of challenges"
+      background-url="/Logicly-who-we-help-header-our-clients-approach-us-with-a-range-of-challenges.jpg"
+      overlay
+    />
 
-    <Herotext iconurl="We-help-people-understand-all-the-possibilities.svg"
-      heading="We help people understand all the possibilities" subheading="We help clients understand the power of technology to improve efficiencies and gain quality information
+
+    <Herotext
+      iconurl="We-help-people-understand-all-the-possibilities.svg"
+      heading="We help people understand all the possibilities"
+      subheading="We help clients understand the power of technology to improve efficiencies and gain quality information
               to inform critical decisions. We guide our clients through the possible pathways and alternatives. It is
-              rare that any two projects are the same so every digital system is designed for your specific needs and
-              vision." altrow />
+              rare that any two projects are the same so every digital system is designed for your specific needs and vision."
+      altrow
+    />
+
 
     <page-section>
-      <div class="grid grid-cols-2 col-span-11 col-start-3 mt-4">
-        <div class="col-span-2 text-center">
-          <h1 class="text-lg font-bold text-logiclytextgrey">Information and digital needs come in all different
-            forms</h1>
+      <div class="grid grid-cols-8 gap-x-4 text-logiclytextgrey px-0 md:px-4 xl:px-6">
+        <div class="col-span-8 lg:col-span-6 lg:col-start-2 xl:col-span-8 text-center mb-8">
+          <h1 class="text-2xl font-extrabold text-center text-logiclytextgrey">Information and digital needs come in all different forms</h1>
         </div>
-        <div class="col-span-1">
-          <ul>
+        <div class="col-span-8 lg:col-span-4 col-start-1">
+          <ul class="text-base lg:text-sm leading-relaxed list-disc">
             <li>Developing a business case</li>
             <li>Define the data requirements for research</li>
             <li>Collecting useful and accurate data</li>
@@ -25,8 +33,8 @@
             <li>Transition from a manual to an online system</li>
           </ul>
         </div>
-        <div class="col-span-1">
-          <ul>
+        <div class="col-span-8 lg:col-span-4 lg:col-start-5">
+          <ul class="text-base lg:text-sm leading-relaxed list-disc">
             <li>Systemising information management</li>
             <li>Capture, collect and collate stories and information</li>
             <li>Efficient systems to reduce errors and repititious work</li>
@@ -36,14 +44,16 @@
       </div>
     </page-section>
 
+
     <overlay-image
-    imageurl="/different_audiences.jpg"
-    text="Different Audiences. Different Information Needs. Different Systems."
+      imageurl="/different_audiences.jpg"
+      text="Different Audiences. Different Information Needs. Different Systems."
     />
-    
+
+
     <page-section>
-      <div class="col-span-11 col-start-3">
-        <h2 class="mb-6 text-xl font-bold text-center">Meeting the internal and external needs of different industries</h2>
+      <div>
+        <h2 class="text-2xl font-extrabold text-center text-logiclytextgrey mb-10 xl:mb-16">Meeting the internal and external needs of different industries</h2>
         <vsa-list>
           <!-- Here you can use v-for to loop through items  -->
           <vsa-item>
@@ -226,12 +236,19 @@
       </div>
     </page-section>
 
+
     <overlay-image
-    imageurl="/What-are-your-information-and-digital-needs.jpg"
-    text="What are your information and digital needs?"
+      imageurl="/What-are-your-information-and-digital-needs.jpg"
+      text="What are your information and digital needs?"
     />
 
-    <CTA text="Discover how we can help" buttonText="What we do" buttonLink="/whatwedo" />
+
+    <CTA
+      text="Discover how we can help"
+      buttonText="What we do"
+      buttonLink="/whatwedo"
+    />
+
 
   </div>
 
