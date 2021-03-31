@@ -271,7 +271,7 @@
           <div class="grid grid-cols-8 grid-rows-3">
             <!-- TODO Apply grid gap everywhere -->
             <div class="grid content-end grid-cols-8 col-span-8 row-start-2 gap-4">
-              <div class="col-span-2">
+              <div class="col-span-2 text-logiclytextgrey">
                 <h2 class="text-lg font-bold">
                   New thinking & digital updates
                 </h2>
@@ -283,11 +283,11 @@
               <!-- TODO Possibly need to fix placeholder colour for firefox -->
 
               <div class="flex col-span-2">
-                <span class="self-end block"><input type="text" placeholder="Name" class="block placeholder-black placeholder-opacity-100 bg-transparent border-b-2 border-logiclyorange"></input></span>
+                <span class="self-end block"><input type="text" placeholder="Name" class="block placeholder-logiclytextgrey placeholder-opacity-100 bg-transparent border-b-2 border-logiclyorange"></input></span>
               </div>
 
               <div class="flex col-span-2">
-                <span class="self-end block"><input type="text" placeholder="Email" class="block placeholder-black placeholder-opacity-100 bg-transparent border-b-2 border-logiclyorange"></input></span>
+                <span class="self-end block"><input type="text" placeholder="Email" class="block placeholder-logiclytextgrey placeholder-opacity-100 bg-transparent border-b-2 border-logiclyorange"></input></span>
               </div>
 
               <div class="flex col-span-2">
