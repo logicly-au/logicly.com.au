@@ -13,7 +13,7 @@
       <div class="container mx-auto">
         <div class="grid h-full grid-cols-5">
           <div class="self-center col-span-3 col-start-2 pt-12 lg:pt-20">
-            <h2 class="text-3xl font-normal text-center lg:text-xl lg:font-bold">Start the conversation about how we can help</h2>
+            <h2 class="text-2xl font-extrabold text-center text-logiclytextgrey">Start the conversation about how we can help</h2>
           </div>
         </div>
         <div class="grid grid-cols-1 my-16 lg:grid-cols-8">
@@ -26,12 +26,12 @@
                   </div>
                 </div>
                 <div class="grid grid-cols-1 col-span-1 row-span-1 row-start-3">
-                  <p class="text-2xl font-normal text-center lg:text-lg lg:font-semibold">
+                  <p class="text-xl font-extrabold text-center text-logiclytextgrey">
                     Call us
                   </p>
                 </div>
                 <div class="grid grid-cols-1 col-span-1 row-span-1 row-start-4">
-                  <p class="pt-2 font-normal text-center text-l text-logiclyorange md:pt-0">
+                  <p class="pt-2 font-normal text-center text-logiclyorange md:pt-0">
                     <a href="tel:0061393409000">
                       +61 3 9340 9000
                     </a>
@@ -47,12 +47,12 @@
                   </div>
                 </div>
                 <div class="grid grid-cols-1 col-span-1 row-span-1 row-start-3">
-                  <p class="text-2xl font-normal text-center lg:text-lg lg:font-semibold">
+                  <p class="text-xl font-extrabold text-center text-logiclytextgrey">
                     Email us
                   </p>
                 </div>
                 <div class="grid grid-cols-1 col-span-1 row-span-1 row-start-4">
-                  <p class="pt-0 font-normal text-center text-l text-logiclyorange">
+                  <p class="pt-0 font-normal text-center text-logiclyorange">
                     <a href="mailto:info@strategicdata.com.au">
                       info@strategicdata.com.au
                     </a>
@@ -68,13 +68,13 @@
                   </div>
                 </div>
                 <div class="grid grid-cols-1 col-span-1 row-span-1 row-start-3">
-                  <p class="text-2xl font-normal text-center lg:text-lg lg:font-semibold">
+                  <p class="text-xl font-extrabold text-logiclytextgrey text-center">
                     Mail us
                   </p>
                 </div>
                 <div class="grid grid-cols-1 col-span-1 row-span-1 row-start-4">
                   <div class="grid items-center justify-center grid-cols-1">
-                    <p class="w-full pt-1 font-light text-center text-l">
+                    <p class="w-full pt-1 font-light text-center text-logiclytextgrey">
                       PO Box 1166, Carlton, <br>
                       Victoria, Australia 3053
                     </p>
@@ -95,11 +95,11 @@
             <div class="grid grid-cols-1 grid-rows-4 p-5 lg:grid-cols-3 lg:gap-5 gap-x-12">
 
                 <div class="grid grid-cols-1 col-span-1 row-start-1 pt-8 lg:row-start-2 lg:pt-0">
-                  <p class="font-semibold text-left text-l">
+                  <p class="font-extrabold text-left text-logiclytextgrey text-xl">
                     Visit us
                   </p>
                   <hr class="w-full border border-logiclyorange lg:w-2/3">
-                  <p class="pb-8 font-light text-left text-l">
+                  <p class="pb-8 font-light text-logiclytextgrey text-left">
                     2nd floor <br>
                     51 – 55 Johnston Street, <br>
                     Fitzroy, Victoria, <br>
