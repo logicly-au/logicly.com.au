@@ -6,12 +6,12 @@
       background-url="/Logicly-meet-your-complex-information-challenges-header.jpg"
     />
 
-    <Herotext
-    heading="Developing thoughtfully designed digital systems"
-    subheading="We bring twenty years of knowledge and experience in research, strategy, design and technology to solve
-              your complex information challenges. Our digital systems are built with innovative but practical
-              thinking, flexibility and intuitive design, always with the user experience in mind."
-    altrow
+    <Herotextnoimage
+      heading="Developing thoughtfully designed digital systems"
+      subheading="We bring twenty years of knowledge and experience in research, strategy, design and technology to solve
+                your complex information challenges. Our digital systems are built with innovative but practical
+                thinking, flexibility and intuitive design, always with the user experience in mind."
+      altrow
     />
 
 
@@ -26,7 +26,7 @@
         </div>
 
         <div class="flex items-start col-span-6 border-t-4 md:col-span-2 md:col-start-1 border-logiclytheme1">
-          <span class="text-5xl text-logiclytheme1">1</span><span class="pt-5 pl-2">Research</span>
+          <span class="text-5xl text-logiclytheme1">1</span><span class="text-lg font-extrabold pt-5 pl-3">Research</span>
         </div>
 
         <div class="col-span-6 pb-5 border-0 md:col-span-4 md:col-start-3 md:border-t-4 md:border-gray-400 md:pt-5">
@@ -35,7 +35,7 @@
         </div>
 
         <div class="flex items-start col-span-6 border-t-4 md:col-span-2 md:col-start-1 border-logiclytheme2">
-          <span class="text-5xl text-logiclytheme2">2</span><span class="pt-5 pl-2">Design</span>
+          <span class="text-5xl text-logiclytheme2">2</span><span class="text-lg font-extrabold pt-5 pl-3">Design</span>
         </div>
 
         <div class="col-span-6 pb-5 border-0 md:col-span-4 md:col-start-3 md:border-t-4 md:border-gray-400 md:pt-5">
@@ -44,7 +44,7 @@
         </div>
 
         <div class="flex items-start col-span-6 border-t-4 md:col-span-2 md:col-start-1 border-logiclytheme4">
-          <span class="text-5xl text-logiclytheme4">3</span><span class="pt-5 pl-2">Build</span>
+          <span class="text-5xl text-logiclytheme4">3</span><span class="text-lg font-extrabold pt-5 pl-3">Build</span>
         </div>
 
         <div class="col-span-6 pb-5 border-0 md:col-span-4 md:col-start-3 md:border-t-4 md:border-gray-400 md:pt-5">
@@ -53,7 +53,7 @@
         </div>
 
         <div class="flex items-start col-span-6 border-t-4 md:col-span-2 md:col-start-1 border-logiclytheme3">
-          <span class="text-5xl text-logiclytheme3">4</span><span class="pt-5 pl-2">Maintain and Improve</span>
+          <span class="text-5xl text-logiclytheme3">4</span><span class="text-lg font-extrabold pt-5 pl-3">Maintain and Improve</span>
         </div>
 
         <div class="col-span-6 pb-5 border-0 md:col-span-4 md:col-start-3 md:border-t-4 md:border-gray-400 md:pt-5">
