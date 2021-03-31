@@ -19,7 +19,7 @@
       <h1 class="text-2xl font-extrabold pb-10 text-center text-logiclytextgrey">We continually build, share and leverage our knowledge</h1>
       <img src="/Continually-build-share-leverage-our-knowledge.jpg" class="p-0 mb-4"/>
 
-      <div class="grid grid-cols-8 gap-6 lg:gap-x-12 lg:gap-y-10 mt-8 -mb-16 lg:-mb-10">
+      <div class="grid grid-cols-8 gap-6 lg:gap-x-12 lg:gap-y-10 text-logiclytextgrey mt-8 -mb-16 lg:-mb-10">
         <div class="col-span-8 lg:col-span-4">
           <h2 class="font-extrabold text-lg pb-1">A family environment</h2>
           <p class="font-light">At Logicly, we create a workplace where everyone feels welcome and encouraged to produce their best work. We have a flat structure where discussions and sharing of ideas is encouraged. The directors join in, listening and contributing to the mix of feedback and suggestions for improvements. The senior staff mentor the less experienced to share their skills and knowledge.</p>
@@ -51,7 +51,7 @@
           <h2 class="font-bold text-lg text-logiclytextgrey pr-0 lg:pr-8">Are you excited about learning, sharing knowledge and solving information problems?</h2>
         </div>
         <div class="col-span-10 col-start-2 lg:col-span-5 lg:col-start-7 pb-12 lg:pb-16 mb-5">
-          <p class="pb-6 lg:pb-8">Logicly is always looking for strategic thinkers, designers and technology experts interested in working collaboratively to develop digital systems that improve businesses, government departments and communities.</p>
+          <p class="text-logiclytextgrey pb-6 lg:pb-8">Logicly is always looking for strategic thinkers, designers and technology experts interested in working collaboratively to develop digital systems that improve businesses, government departments and communities.</p>
           <NuxtLink class="block p-3 text-white text-center bg-logiclyorange" to="/contactus">Enquire about joining us</NuxtLink>
         </div>
       </div>
