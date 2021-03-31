@@ -20,7 +20,7 @@
 
 
     <page-section>
-     <div class="grid grid-cols-12 gap-x-6 px-0 lg:px-20 xl:px-0 xl:-mx-20 xl:-mb-20 pb-0 mb-0">
+     <div class="grid grid-cols-12 gap-x-6 text-logiclytextgrey px-0 lg:px-20 xl:px-0 xl:-mx-20 xl:-mb-20 pb-0 mb-0">
 
        <div class="col-span-12 text-center">
          <h1 class="text-2xl font-extrabold text-center text-logiclytextgrey pb-6 pt-8">Our collaborative journey</h1>
@@ -261,7 +261,7 @@
          </div>
        </div>
 
-       <div class="col-span-12 xl:col-span-5 pl-0 xl:pl-4 xl:-ml-12 pt-4 xl:pt-32">
+       <div class="col-span-12 xl:col-span-5 text-logiclytextgrey pl-0 xl:pl-4 xl:-ml-12 pt-4 xl:pt-32">
          <h2 class="text-2xl font-extrabold text-logiclytextgrey pb-2">
            An Evolving Process
          </h2>
