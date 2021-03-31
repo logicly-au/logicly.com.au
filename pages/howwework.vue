@@ -26,7 +26,11 @@
          <h1 class="text-2xl font-extrabold text-center text-logiclytextgrey pb-6 pt-8">Our collaborative journey</h1>
        </div>
 
-       <div class="col-span-12 border-t-2 border-logiclygreytwo pb-16">
+       <div class="col-span-12 border-t-2 border-logiclygreytwo pb-6 md:pb-8">
+       </div>
+
+       <div class="col-span-12 grid justify-center pb-6 md:pb-8 xl:pb-20">
+         <img src="~/assets/images/greyarrow.svg" class="p-0 h-4 md:h-5 xl:h-6"/>
        </div>
 
        <div class="col-span-12 xl:col-span-5">
@@ -262,7 +266,7 @@
        </div>
 
        <div class="col-span-12 xl:col-span-5 text-logiclytextgrey pl-0 xl:pl-4 xl:-ml-12 pt-4 xl:pt-32">
-         <h2 class="text-2xl font-extrabold text-logiclytextgrey pb-2">
+         <h2 class="text-2xl font-extrabold pb-2">
            An Evolving Process
          </h2>
          <p class="text-lg xl:text-base">
