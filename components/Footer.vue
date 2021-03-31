@@ -1,5 +1,5 @@
 <template>
-    <div class="logicly-footer bg-logiclylightgrey">
+    <div class="logicly-footer bg-logiclylightgrey text-logiclytextgrey">
         <div class="container mx-auto">
             <footer class="py-16">
             <!-- TODO Add links here -->
@@ -56,7 +56,7 @@
                         <div class="col-span-1"><img src="~/assets/images/Twitter.svg" class="h-12"></img></div>
                     </div>
                 </div>
-                    
+
             </footer>
         </div>
     </div>

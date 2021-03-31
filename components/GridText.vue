@@ -1,6 +1,6 @@
 <template>
   <!-- this contains an example of loading a class via boolean value, see :class -->
-  <div class="object-contain object-center w-full bg-white">
+  <div class="object-contain object-center w-full bg-white text-logiclytextgrey">
     <div class="container mx-auto">
       <div class="grid h-full grid-cols-5">
         <div class="self-center col-span-3 col-start-2 pt-24 lg:pt-32">

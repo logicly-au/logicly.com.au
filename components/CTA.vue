@@ -5,7 +5,7 @@ i <template>
       <div class="grid h-64 grid-rows-3 grid-cols-15">
         <div class="row-start-2 text-center col-span-15">
           <div>
-            <h1 class="text-lg font-bold">{{ text }}</h1>
+            <h1 class="text-lg font-bold text-logiclytextgrey">{{ text }}</h1>
             <button><a class="block p-2 m-5 text-white bg-logiclyorange" :href="buttonLink">{{ buttonText }}</a></h2></button>
           </div>
         </div>
