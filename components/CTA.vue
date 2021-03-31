@@ -2,12 +2,10 @@ i <template>
   <!-- this contains an example of loading a class via boolean value, see :class -->
   <div class="object-contain object-center w-full h-64 bg-cover">
     <div class="container mx-auto">
-      <div class="grid h-64 grid-rows-3 grid-cols-15">
-        <div class="row-start-2 text-center col-span-15">
-          <div>
-            <h1 class="text-lg font-bold text-logiclytextgrey">{{ text }}</h1>
-            <button><a class="block p-2 m-5 text-white bg-logiclyorange" :href="buttonLink">{{ buttonText }}</a></h2></button>
-          </div>
+      <div class="grid grid-rows-3 content-center h-64">
+        <div class="row-start-2 text-center">
+          <h1 class="text-2xl font-extrabold text-center text-logiclytextgrey">{{ text }}</h1>
+          <button><a class="block p-2 m-5 text-white bg-logiclyorange" :href="buttonLink">{{ buttonText }}</a></h2></button>
         </div>
       </div>
     </div>
