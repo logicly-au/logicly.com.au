@@ -24,7 +24,7 @@
         <div class="col-span-8 lg:col-span-6 lg:col-start-2 xl:col-span-8 text-center mb-8">
           <h1 class="text-2xl font-extrabold text-center text-logiclytextgrey">Information and digital needs come in all different forms</h1>
         </div>
-        <div class="col-span-8 lg:col-span-4 col-start-1">
+        <div class="col-span-8 lg:col-span-4 col-start-1 text-logiclytextgrey">
           <ul class="text-base lg:text-sm leading-relaxed list-disc">
             <li>Developing a business case</li>
             <li>Define the data requirements for research</li>
@@ -52,8 +52,8 @@
 
 
     <page-section>
-      <div>
-        <h2 class="text-2xl font-extrabold text-center text-logiclytextgrey mb-10 xl:mb-16">Meeting the internal and external needs of different industries</h2>
+      <div class="text-logiclytextgrey">
+        <h2 class="text-2xl font-extrabold text-center mb-10 xl:mb-16">Meeting the internal and external needs of different industries</h2>
         <vsa-list>
           <!-- Here you can use v-for to loop through items  -->
           <vsa-item>
