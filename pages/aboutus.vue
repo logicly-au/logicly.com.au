@@ -36,7 +36,7 @@
     />
 
     <CTA
-      text="Learn more about who we work with."
+      text="Learn more about who we work with"
       buttonText="Who we help"
       buttonLink="/whowehelp"
      />

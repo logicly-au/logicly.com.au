@@ -66,12 +66,15 @@
             evolves.</span>
         </div>
 
-        <div class="grid justify-center col-span-6 align-center">
-          <div class="pb-4 md:pb-12">
-            <NuxtLink to="/howwework" class="block p-2 m-5 text-white bg-logiclyorange">Find out more</NuxtLink>
-          </div>
-        </div>
       </div>
+
+      <div class="grid justify-center align-center pt-2">
+        <Button
+          buttontext="Find out more"
+          buttonlink="/howwework"
+        />
+      </div>
+
     </page-section>
 
 
@@ -102,7 +105,10 @@
           </div>
 
           <div class="col-span-1 col-start-1 pb-8">
-              <a class="block px-6 py-2 my-5 text-white bg-logiclyorange">learn more</a>
+            <Button
+              buttontext="learn more"
+              buttonlink="/projects"
+            />
           </div>
 
         </div>
@@ -128,7 +134,10 @@
           </div>
 
           <div class="col-span-1 col-start-1 pb-8">
-              <a class="block px-6 py-2 my-5 text-white bg-logiclyorange">learn more</a>
+            <Button
+              buttontext="learn more"
+              buttonlink="/projects"
+            />
           </div>
         </div>
       </div>
@@ -138,36 +147,36 @@
 
     <!-- Clients section mobile -->
     <page-section class="md:hidden">
-          <div class="grid-cols-1 pb-4 text-2xl font-bold text-center text-logiclytextgrey">
-            <span>We work with corporate, government and educational clients</span>
-          </div>
-          <div class="grid grid-cols-3 gap-5">
-            <div class="col-span-1"><img src="~/assets/images/Australian-government-federal-department-of-health-logo.png" /></div>
-            <div class="col-span-1"><img src="~/assets/images/Civil-Aviation-Authority-of-New-Zealand-logo.png" /></div>
-            <div class="col-span-1"><img src="~/assets/images/nab-National-Australia-Bank-logo.png" /></div>
-          </div>
-          <div class="grid grid-cols-2 gap-0 mx-10">
-            <div class="col-span-1"><img src="~/assets/images/Queensland-qovernment-department-of-transport-and-main-roads.jpg" /></div>
-            <div class="col-span-1"><img src="~/assets/images/University-of-melbourne_logo.png" /></div>
-          </div>
+      <div class="grid-cols-1 pb-4 text-2xl font-bold text-center text-logiclytextgrey">
+        <span>We work with corporate, government and educational clients</span>
+      </div>
+      <div class="grid grid-cols-3 gap-5">
+        <div class="col-span-1"><img src="~/assets/images/Australian-government-federal-department-of-health-logo.png" /></div>
+        <div class="col-span-1"><img src="~/assets/images/Civil-Aviation-Authority-of-New-Zealand-logo.png" /></div>
+        <div class="col-span-1"><img src="~/assets/images/nab-National-Australia-Bank-logo.png" /></div>
+      </div>
+      <div class="grid grid-cols-2 gap-0 mx-10">
+        <div class="col-span-1"><img src="~/assets/images/Queensland-qovernment-department-of-transport-and-main-roads.jpg" /></div>
+        <div class="col-span-1"><img src="~/assets/images/University-of-melbourne_logo.png" /></div>
+      </div>
     </page-section>
 
     <!-- Clients section tablet and desktop -->
     <page-section class="hidden md:block">
-        <div class="grid grid-cols-8 pt-10">
-          <div class="grid-cols-1 col-span-8 pb-4 text-2xl font-bold text-center text-logiclytextgrey">
-            <span>We work with corporate, government and educational clients</span>
-          </div>
-          <div class="grid grid-cols-1 col-span-8">
-            <div class="grid grid-cols-5 row-start-2 gap-5 grid-row">
-              <div class="col-span-1"><img src="~/assets/images/Australian-government-federal-department-of-health-logo.png" /></div>
-              <div class="col-span-1"><img src="~/assets/images/Civil-Aviation-Authority-of-New-Zealand-logo.png" /></div>
-              <div class="col-span-1"><img src="~/assets/images/nab-National-Australia-Bank-logo.png" /></div>
-              <div class="col-span-1"><img src="~/assets/images/Queensland-qovernment-department-of-transport-and-main-roads.jpg" /></div>
-              <div class="col-span-1"><img src="~/assets/images/University-of-melbourne_logo.png" /></div>
-            </div>
+      <div class="grid grid-cols-8 pt-10">
+        <div class="grid-cols-1 col-span-8 pb-4 text-2xl font-bold text-center text-logiclytextgrey">
+          <span>We work with corporate, government and educational clients</span>
+        </div>
+        <div class="grid grid-cols-1 col-span-8">
+          <div class="grid grid-cols-5 row-start-2 gap-5 grid-row">
+            <div class="col-span-1"><img src="~/assets/images/Australian-government-federal-department-of-health-logo.png" /></div>
+            <div class="col-span-1"><img src="~/assets/images/Civil-Aviation-Authority-of-New-Zealand-logo.png" /></div>
+            <div class="col-span-1"><img src="~/assets/images/nab-National-Australia-Bank-logo.png" /></div>
+            <div class="col-span-1"><img src="~/assets/images/Queensland-qovernment-department-of-transport-and-main-roads.jpg" /></div>
+            <div class="col-span-1"><img src="~/assets/images/University-of-melbourne_logo.png" /></div>
           </div>
         </div>
+      </div>
     </page-section>
 
     <page-section altrow>
@@ -177,134 +186,132 @@
       </div>
 
       <div class="grid grid-cols-2 col-gap-4 mb-4 bg-logiclygreytwo text-logiclytextgrey">
-          <div class="grid col-span-2 grid-col-2 lg:col-span-1 lg:col-start-1">
-            <div class="col-span-2">
-              <img src="~/assets/images/Governement-project-queensland-department-of-transport-and-main-roads.jpg" class="p-0">
-              <div class="relative h-0 font-bold text-center text-white top-center">Government</div>
-            </div>
+        <div class="grid col-span-2 grid-col-2 lg:col-span-1 lg:col-start-1">
+          <div class="col-span-2">
+            <img src="~/assets/images/Governement-project-queensland-department-of-transport-and-main-roads.jpg" class="p-0">
+            <div class="relative h-0 font-bold text-center text-white top-center">Government</div>
           </div>
+        </div>
 
-          <div class="justify-end col-span-2 px-2 pt-4 pb-10 mx-4 lg:col-span-1 lg:col-start-2 lg:pb-0 xl:pt-16">
-              <div class="pb-2 font-extrabold text-logiclyorange lg:pb-1">
-                <h3>
-                  Queensland Department of Transport and Main Roads
-                </h3>
-              </div>
-              <p>
-                A digital system to help understand travel behaviours and plan for future growth and demand of the
-                Queensland Transport System.
-              </p>
-              <div class="pt-2">
-                <a class="font-extrabold" href="">Read more</a>
-              </div>
+        <div class="justify-end col-span-2 px-2 pt-4 pb-10 mx-4 lg:col-span-1 lg:col-start-2 lg:pb-0 xl:pt-16">
+          <div class="pb-2 font-extrabold text-logiclyorange lg:pb-1">
+            <h3>
+              Queensland Department of Transport and Main Roads
+            </h3>
           </div>
+          <p>
+            A digital system to help understand travel behaviours and plan for future growth and demand of the
+            Queensland Transport System.
+          </p>
+          <div class="pt-2">
+            <a class="font-extrabold" href="/projects">Read more</a>
+          </div>
+        </div>
       </div>
 
       <div class="grid grid-cols-2 col-gap-4 mb-4 bg-logiclygreytwo text-logiclytextgrey">
-          <div class="grid col-span-2 grid-col-2 lg:col-span-1 lg:col-start-1">
-            <div class="col-span-2">
-              <img src="~/assets/images/Corporate-project-NAB.jpg" class="p-0">
-              <div class="relative h-0 font-bold text-center text-white top-center">Corporate</div>
-            </div>
+        <div class="grid col-span-2 grid-col-2 lg:col-span-1 lg:col-start-1">
+          <div class="col-span-2">
+            <img src="~/assets/images/Corporate-project-NAB.jpg" class="p-0">
+            <div class="relative h-0 font-bold text-center text-white top-center">Corporate</div>
           </div>
+        </div>
 
-          <div class="justify-end col-span-2 px-2 pt-4 pb-10 mx-4 lg:col-span-1 lg:col-start-2 lg:pb-0 xl:pt-16">
-              <div class="pb-2 font-extrabold text-logiclyorange lg:pb-1">
-                <h3>
-                  NAB
-                </h3>
-              </div>
-              <p>
-                A performance management tool for NAB’s business groups in Australia and overseas with the flexibility to meet their changing future requirements.
-              </p>
-              <div class="pt-2">
-                <a class="font-extrabold" href="">Read more</a>
-              </div>
+        <div class="justify-end col-span-2 px-2 pt-4 pb-10 mx-4 lg:col-span-1 lg:col-start-2 lg:pb-0 xl:pt-16">
+          <div class="pb-2 font-extrabold text-logiclyorange lg:pb-1">
+            <h3>
+              NAB
+            </h3>
           </div>
+          <p>
+            A performance management tool for NAB’s business groups in Australia and overseas with the flexibility to meet their changing future requirements.
+          </p>
+          <div class="pt-2">
+            <a class="font-extrabold" href="/projects">Read more</a>
+          </div>
+        </div>
       </div>
 
       <div class="grid grid-cols-2 col-gap-4 mb-4 bg-logiclygreytwo text-logiclytextgrey">
-          <div class="grid col-span-2 grid-col-2 lg:col-span-1 lg:col-start-1">
-            <div class="col-span-2">
-              <img src="~/assets/images/Corporate-project-NAB.jpg" class="p-0">
-              <div class="relative h-0 font-bold text-center text-white top-center">Educational</div>
-            </div>
+        <div class="grid col-span-2 grid-col-2 lg:col-span-1 lg:col-start-1">
+          <div class="col-span-2">
+            <img src="~/assets/images/Corporate-project-NAB.jpg" class="p-0">
+            <div class="relative h-0 font-bold text-center text-white top-center">Educational</div>
           </div>
+        </div>
 
-          <div class="justify-end col-span-2 px-2 pt-4 pb-10 mx-4 lg:col-span-1 lg:col-start-2 lg:pb-0 xl:pt-16">
-              <div class="pb-2 font-extrabold text-logiclyorange lg:pb-1">
-                <h3>
-                  Deakin University
-                </h3>
-              </div>
-              <p>
-                A sophisticated tool for researchers to create, analyse, publish and share data. The community can also access the research to discover and learn.
-              </p>
-              <div class="pt-2">
-                <a class="font-extrabold" href="">Read more</a>
-              </div>
+        <div class="justify-end col-span-2 px-2 pt-4 pb-10 mx-4 lg:col-span-1 lg:col-start-2 lg:pb-0 xl:pt-16">
+          <div class="pb-2 font-extrabold text-logiclyorange lg:pb-1">
+            <h3>
+              Deakin University
+            </h3>
           </div>
+          <p>
+            A sophisticated tool for researchers to create, analyse, publish and share data. The community can also access the research to discover and learn.
+          </p>
+          <div class="pt-2">
+            <a class="font-extrabold" href="/projects">Read more</a>
+          </div>
+        </div>
       </div>
     </page-section>
 
-      <page-section>
-        <div class="grid items-center content-center justify-center h-64 grid-cols-1 text-logiclytextgrey">
-          <div class="col-span-1">
-            <div class="text-2xl font-extrabold text-center">
-              Do you have a project in mind or a complex information challenge? Call us on +61 3 9340 9000 or enquire
-              below.
-            </div>
-          </div>
-          <!-- TODO Add link here -->
-          <div class="col-span-1 mt-4">
-            <div class="flex justify-center">
-              <a href="" class="px-8 py-4 m-5 text-white bg-logiclyorange">Enquire</a>
-            </div>
+    <page-section>
+      <div class="grid items-center content-center justify-center h-64 grid-cols-1 text-logiclytextgrey">
+        <div class="col-span-1">
+          <div class="text-2xl font-extrabold text-center">
+            Do you have a project in mind or a complex information challenge? Call us on +61 3 9340 9000 or enquire below.
           </div>
         </div>
-        <!-- End Container -->
-      </page-section>
-
-      <div class="w-full h-auto bg-logiclybeige">
-        <!-- Start container -->
-        <div class="container mx-auto">
-          <div class="grid grid-cols-8 grid-rows-3">
-            <!-- TODO Apply grid gap everywhere -->
-            <div class="grid content-end grid-cols-8 col-span-8 row-start-2 gap-4">
-              <div class="col-span-2 text-logiclytextgrey">
-                <h2 class="text-lg font-bold">
-                  New thinking & digital updates
-                </h2>
-                <div>
-                  Discover new ways of thinking and innovative digital systems to solve complex information challenges
-                </div>
-              </div>
-
-              <!-- TODO Possibly need to fix placeholder colour for firefox -->
-
-              <div class="flex col-span-2">
-                <span class="self-end block"><input type="text" placeholder="Name" class="block placeholder-logiclytextgrey placeholder-opacity-100 bg-transparent border-b-2 border-logiclyorange"></input></span>
-              </div>
-
-              <div class="flex col-span-2">
-                <span class="self-end block"><input type="text" placeholder="Email" class="block placeholder-logiclytextgrey placeholder-opacity-100 bg-transparent border-b-2 border-logiclyorange"></input></span>
-              </div>
-
-              <div class="flex col-span-2">
-                <span class="self-end block"><button class="block p-3 font-bold border-2 border-logiclyorange text-logiclytheme2">Subscribe</button></span>
-              </div>
-
-            </div>
-
+        <!-- TODO Add link here -->
+        <div class="col-span-1 mt-4">
+          <div class="flex justify-center pt-2">
+            <Button
+              buttontext="Enquire"
+              buttonlink="/contactus"
+            />
           </div>
         </div>
-        <!-- End Container -->
       </div>
+      <!-- End Container -->
+    </page-section>
 
 
+    <div class="w-full h-auto bg-logiclybeige">
+      <!-- Start container -->
+      <div class="container mx-auto">
+        <div class="grid grid-cols-8 grid-rows-3">
+          <!-- TODO Apply grid gap everywhere -->
+          <div class="grid content-end grid-cols-8 col-span-8 row-start-2 gap-4">
+            <div class="col-span-2 text-logiclytextgrey">
+              <h2 class="text-lg font-bold">
+                New thinking & digital updates
+              </h2>
+              <div>
+                Discover new ways of thinking and innovative digital systems to solve complex information challenges
+              </div>
+            </div>
 
+            <!-- TODO Possibly need to fix placeholder colour for firefox -->
+            <div class="flex col-span-2">
+              <span class="self-end block"><input type="text" placeholder="Name" class="block placeholder-logiclytextgrey placeholder-opacity-100 bg-transparent border-b-2 border-logiclyorange"></input></span>
+            </div>
 
+            <div class="flex col-span-2">
+              <span class="self-end block"><input type="text" placeholder="Email" class="block placeholder-logiclytextgrey placeholder-opacity-100 bg-transparent border-b-2 border-logiclyorange"></input></span>
+            </div>
+
+            <div class="flex col-span-2">
+              <span class="self-end block"><button class="block h-12 px-8 font-bold border-2 border-logiclyorange text-logiclytheme2">Subscribe</button></span>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+      <!-- End Container -->
     </div>
+
   </div>
 </template>
 

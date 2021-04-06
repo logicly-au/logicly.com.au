@@ -28,7 +28,7 @@
         {{ activeTab }}
         projects
         </div>
-        <div class="col-span-8">  
+        <div class="col-span-8">
           <ul class='articles'>
           <li @click="setActiveArticle(index)" v-for="(article, index) in articles" :class="{ 'articles-active': isActiveArticle(index) }">
           {{ article.title }}
@@ -99,8 +99,3 @@ export default {
   color: orange;
 }
 </style>
-
-
-
-
-

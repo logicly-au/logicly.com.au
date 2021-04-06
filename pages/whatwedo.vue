@@ -114,13 +114,14 @@
         <div class="col-span-12 mb-12">
           <img src="~/assets/images/Every_information_challenge-is-different-and-requires-a-unique-digital-solution.jpg" class="p-0"/>
         </div>
-        <div class="col-span-12 lg:col-span-10 lg:col-start-2 xl:col-span-8 xl:col-start-3 text-center">
+        <div class="col-span-12 lg:col-span-10 lg:col-start-2 xl:col-span-8 xl:col-start-3 text-center py-2">
           <h1 class="text-2xl font-extrabold text-center pb-2 text-logiclytextgrey">Every information challenge is different and requires a unique digital solution</h1>
         </div>
         <div class="col-span-12 grid justify-center align-center">
-          <div class="pb-12">
-            <a class="block p-3 m-5 text-white bg-logiclyorange">View our projects</a>
-          </div>
+          <Button
+            buttontext="View our projects"
+            buttonlink="/projects"
+          />
         </div>
       </div>
     </page-section>

@@ -279,9 +279,9 @@
 
 
     <CTA
-     text="Discover how we can help"
-     buttonText="What we do"
-     buttonLink="/whatwedo"
+     text="Follow some of our client's journeys"
+     buttonText="View our projects"
+     buttonLink="/projects"
     />
 
 
