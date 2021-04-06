@@ -5,7 +5,11 @@ i <template>
       <div class="grid grid-rows-3 content-center h-64">
         <div class="row-start-2 text-center">
           <h1 class="text-2xl font-extrabold text-center text-logiclytextgrey">{{ text }}</h1>
-          <button><a class="block p-2 m-5 text-white bg-logiclyorange" :href="buttonLink">{{ buttonText }}</a></h2></button>
+          <div class="grid justify-center align-center pt-2">
+            <button class="block h-12 w-40 my-5 text-center text-white bg-logiclyorange">
+              <NuxtLink :to="buttonLink">{{ buttonText }}</NuxtLink>
+            </button>
+          </div>
         </div>
       </div>
     </div>
