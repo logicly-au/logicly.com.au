@@ -277,31 +277,32 @@
     </page-section>
 
 
+    <!-- Subscribe section -->
     <div class="w-full h-auto bg-logiclybeige">
       <!-- Start container -->
       <div class="container mx-auto">
-        <div class="grid grid-cols-8 grid-rows-3">
+        <div class="grid grid-cols-12">
           <!-- TODO Apply grid gap everywhere -->
-          <div class="grid content-end grid-cols-8 col-span-8 row-start-2 gap-4">
-            <div class="col-span-2 text-logiclytextgrey">
-              <h2 class="text-lg font-bold">
+          <div class="grid items-end grid-cols-4 col-span-10 col-start-2 gap-4 px-16 md:px-32 lg:px-0 py-32">
+            <div class="col-span-4 lg:col-span-1 -mr-0 lg:-mr-6">
+              <h2 class="text-lg font-extrabold text-logiclyorange pb-2">
                 New thinking & digital updates
               </h2>
-              <div>
+              <div class="text-logiclytextgrey pb-4 lg:pb-0">
                 Discover new ways of thinking and innovative digital systems to solve complex information challenges
               </div>
             </div>
 
             <!-- TODO Possibly need to fix placeholder colour for firefox -->
-            <div class="flex col-span-2">
-              <span class="self-end block"><input type="text" placeholder="Name" class="block placeholder-logiclytextgrey placeholder-opacity-100 bg-transparent border-b-2 border-logiclyorange"></input></span>
+            <div class="col-span-4 lg:col-span-1 pb-2 pl-0 lg:pl-6">
+              <span class="self-end block"><input type="text" placeholder="Name" class="block placeholder-logiclytextgrey placeholder-opacity-100 bg-transparent border-b border-logiclyorange w-full"></input></span>
             </div>
 
-            <div class="flex col-span-2">
-              <span class="self-end block"><input type="text" placeholder="Email" class="block placeholder-logiclytextgrey placeholder-opacity-100 bg-transparent border-b-2 border-logiclyorange"></input></span>
+            <div class="col-span-4 lg:col-span-1 pb-4 lg:pb-2">
+              <span class="self-end block"><input type="text" placeholder="Email" class="block placeholder-logiclytextgrey placeholder-opacity-100 bg-transparent border-b border-logiclyorange w-full"></input></span>
             </div>
 
-            <div class="flex col-span-2">
+            <div class="col-span-4 lg:col-span-1 pb-2">
               <span class="self-end block"><button class="block h-12 px-8 font-bold border-2 border-logiclyorange text-logiclytheme2">Subscribe</button></span>
             </div>
 
@@ -311,6 +312,9 @@
       </div>
       <!-- End Container -->
     </div>
+
+
+
 
   </div>
 </template>
