@@ -1,93 +1,88 @@
-<template>
-  <!-- this contains an example of loading a class via boolean value, see :class -->
-  <div class="object-contain object-center w-full bg-white text-logiclytextgrey">
-    <div class="container mx-auto">
-      <div class="grid h-full grid-cols-5">
-        <div class="self-center col-span-3 col-start-2 pt-24 lg:pt-32">
-          <h2 class="text-3xl lg:text-2xl font-semibold text-center">{{ heading }}</h2>
-        </div>
+i <template>
+<page-section :altrow="altrow">
+  <div class="object-contain object-center w-full text-logiclytextgrey">
+      <div class="pt-6 lg:pt-12 mx-0 md:mx-0">
+        <h2 class="text-2xl font-extrabold text-center">{{ heading }}</h2>
       </div>
-      <div class="grid grid-cols-1 lg:grid-cols-8 my-12">
-        <div class="grid grid-cols-1 lg:col-span-6 lg:col-start-2">
-          <div class="grid grid-cols-1 lg:grid-cols-3 gap-5 lg:pb-20">
-            <div class="col-span-1 bg-white px-12 lg:px-4 pb-12 lg:pb-0">
-              <p class="text-2xl lg:text-xl font-semibold pb-2">
+      <div class="my-8 lg:my-12 -mx-0 lg:-mx-16 xl:-mx-0">
+          <div class="grid grid-cols-1 lg:grid-cols-3 gap-0 lg:gap-6 lg:pb-16">
+            <div class="col-span-1 pb-8 lg:pb-0">
+              <p class="text-xl font-extrabold pb-2">
                 {{ subheading1 }}
               </p>
-              <p class="text-md font-light pb-1">
+              <p class="font-light pb-1">
                 {{ text1a }}
               </p>
-              <p class="text-md font-light">
+              <p class="font-light">
                 {{ text1b }}
               </p>
             </div>
 
-            <div class="col-span-1 bg-white px-12 lg:px-4 pb-12 lg:pb-0">
-              <p class="text-2xl lg:text-xl font-semibold pb-2">
+            <div class="col-span-1 pb-8 lg:pb-0">
+              <p class="text-xl font-extrabold pb-2">
                 {{ subheading2 }}
               </p>
-              <p class="text-md font-light pb-1">
+              <p class="font-light pb-1">
                 {{ text2a }}
               </p>
-              <p class="text-md font-light">
+              <p class="font-light">
                 {{ text2b }}
               </p>
             </div>
 
-            <div class="col-span-1 bg-white px-12 lg:px-4 pb-12 lg:pb-0">
-              <p class="text-2xl lg:text-xl font-semibold pb-2">
+            <div class="col-span-1 pb-8 lg:pb-0">
+              <p class="text-xl font-extrabold pb-2">
                 {{ subheading3 }}
               </p>
-              <p class="text-md font-light pb-1">
+              <p class="font-light pb-1">
                 {{ text3a }}
               </p>
-              <p class="text-md font-light">
+              <p class="font-light">
                 {{ text3b }}
               </p>
             </div>
           </div>
 
-          <div class="grid grid-cols-1 lg:grid-cols-3 gap-5 lg:pb-20">
-            <div class="col-span-1 bg-white px-12 lg:px-4 pb-12 lg:pb-0">
-              <p class="text-2xl lg:text-xl font-semibold pb-2">
+          <div class="grid grid-cols-1 lg:grid-cols-3 gap-0 lg:gap-6 lg:pb-20">
+            <div class="col-span-1 pb-8 lg:pb-0">
+              <p class="text-xl font-extrabold pb-2">
                 {{ subheading4 }}
               </p>
-              <p class="text-md font-light pb-1">
+              <p class="font-light pb-1">
                 {{ text4a }}
               </p>
-              <p class="text-md font-light">
+              <p class="font-light">
                 {{ text4b }}
               </p>
             </div>
 
-            <div class="col-span-1 bg-white px-12 lg:px-4 pb-12 lg:pb-0">
-              <p class="text-2xl lg:text-xl font-semibold pb-2">
+            <div class="col-span-1 pb-8 lg:pb-0">
+              <p class="text-xl font-extrabold pb-2">
                 {{ subheading5 }}
               </p>
-              <p class="text-md font-light pb-1">
+              <p class="font-light pb-1">
                 {{ text5a }}
               </p>
-              <p class="text-md font-light">
+              <p class="font-light">
                 {{ text5b }}
               </p>
             </div>
 
-            <div class="col-span-1 bg-white px-12 lg:px-4 pb-12 lg:pb-0">
-              <p class="text-2xl lg:text-xl font-semibold pb-2">
+            <div class="col-span-1 pb-6 lg:pb-0">
+              <p class="text-xl font-extrabold pb-2">
                 {{ subheading6 }}
               </p>
-              <p class="text-md font-light pb-1">
+              <p class="font-light pb-1">
                 {{ text6a }}
               </p>
-              <p class="text-md font-light">
+              <p class="font-light">
                 {{ text6b }}
               </p>
             </div>
           </div>
-        </div>
       </div>
-    </div>
   </div>
+</page-section>
 </template>
 
 <script>
