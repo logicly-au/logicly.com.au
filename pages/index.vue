@@ -146,8 +146,8 @@
 
 
     <!-- Clients section mobile -->
-    <page-section class="md:hidden">
-      <div class="grid-cols-1 pb-4 text-2xl font-bold text-center text-logiclytextgrey">
+    <page-section class="xl:hidden">
+      <div class="pb-4 text-2xl font-bold text-center text-logiclytextgrey">
         <span>We work with corporate, government and educational clients</span>
       </div>
       <div class="grid grid-cols-3 gap-5">
@@ -161,21 +161,17 @@
       </div>
     </page-section>
 
-    <!-- Clients section tablet and desktop -->
-    <page-section class="hidden md:block">
-      <div class="grid grid-cols-8 pt-10">
-        <div class="grid-cols-1 col-span-8 pb-4 text-2xl font-bold text-center text-logiclytextgrey">
-          <span>We work with corporate, government and educational clients</span>
-        </div>
-        <div class="grid grid-cols-1 col-span-8">
-          <div class="grid grid-cols-5 row-start-2 gap-5 grid-row">
-            <div class="col-span-1"><img src="~/assets/images/Australian-government-federal-department-of-health-logo.png" /></div>
-            <div class="col-span-1"><img src="~/assets/images/Civil-Aviation-Authority-of-New-Zealand-logo.png" /></div>
-            <div class="col-span-1"><img src="~/assets/images/nab-National-Australia-Bank-logo.png" /></div>
-            <div class="col-span-1"><img src="~/assets/images/Queensland-qovernment-department-of-transport-and-main-roads.jpg" /></div>
-            <div class="col-span-1"><img src="~/assets/images/University-of-melbourne_logo.png" /></div>
-          </div>
-        </div>
+    <!-- Clients section desktop -->
+    <page-section class="hidden xl:block">
+      <div class="pb-4 pt-10 text-2xl font-bold text-center text-logiclytextgrey">
+        <span>We work with corporate, government and educational clients</span>
+      </div>
+      <div class="grid grid-cols-5 row-start-2 gap-5 grid-row col-span-8">
+        <div class="col-span-1"><img src="~/assets/images/Australian-government-federal-department-of-health-logo.png" /></div>
+        <div class="col-span-1"><img src="~/assets/images/Civil-Aviation-Authority-of-New-Zealand-logo.png" /></div>
+        <div class="col-span-1"><img src="~/assets/images/nab-National-Australia-Bank-logo.png" /></div>
+        <div class="col-span-1"><img src="~/assets/images/Queensland-qovernment-department-of-transport-and-main-roads.jpg" /></div>
+        <div class="col-span-1"><img src="~/assets/images/University-of-melbourne_logo.png" /></div>
       </div>
     </page-section>
 
