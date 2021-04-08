@@ -1,15 +1,12 @@
 ---
-title: The University of Melbourne Medical School’s Department of General Practice
-description: Insights for innovative paths to better health
-category: research
+title: University of Melbourne’s Centre for Mental Health
+description: Collecting critical insights safely and securely
+category: Research
 ---
 
-# Article 1
+<div class="grid grid-cols-12">
 
-* Two images
-
-<div class="col-span-11">
-    <img src="" />
+<div class="col-span-12">
     <img src="" />
 </div>
 
@@ -17,6 +14,27 @@ category: research
 * Icons on left
 </div>
 
-<div class="col-span-8">
-* Text on right
+<div class="col-span-9">
+## Partnering with researchers to support better mental health in the community
+
+### The information challenge
+The University of Melbourne’s Centre for Mental Health (CMH) relies on accurate data collection in order to provide insights to help positively impact mental health in the wider community.
+A high level of security is essential so that the information and personal details gathered are stored safely to protect the participants and to meet the University’s Human Research Ethics Committee standards.
+As a trusted long-term partner of CMH, Logicly have delivered numerous information systems that provide sophisticated longitudinal data collection and safe user experiences. A recent example involved developing an automated alert function to notify study psychologists where specialised and urgent care interventions may be needed.
+
+### Our digital solution
+Logicly and CMH have worked together to successfully run research studies in a range of contexts since 2014.
+Notable projects and outcomes have included:
+• A screening tool for identifying high-risk participants and sending automated alerts to psychologists in studies
+• Complex algorithmic data analysis for recommending appropriate treatments
+• Survey delivery over multiple time points so that changes can be tracked
+• Accessible data applications for researchers to monitor the survey completion process
+• Sophisticated algorithms randomising participants into control and study cohorts
+
+### The outcomes
+The importance Logicly places on understanding client context, as well as our extensive experience in complex data management, have been key to supporting CMH in their work.
+We’ve helped them to consistently create a smooth user experience for potentially vulnerable participants, as well as gather reliable and accessible information for researchers.
+Through recent collaborations, we’ve successfully delivered insights that can not only inform future interventions, but that can validate and refine their impact after launch, such as mobile applications, media campaign videos, public service announcements and documentaries.
+
+</div>
 </div>
