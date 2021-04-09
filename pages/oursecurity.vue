@@ -1,7 +1,7 @@
 <template>
   <div>
     <Hero
-      headingright="OUR SECURITY"
+      heading="OUR SECURITY"
       subheading="Protecting important data and information"
       background-url="/Logicly-Our-security-Protecting-important-data-and-information.jpg"
       overlay

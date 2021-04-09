@@ -10,7 +10,7 @@
     />
 
     <Herotext
-      iconurl="We-help-people-understand-all-the-possibilities.svg"
+      iconurl="We-partner-with-clients-to-simplify-complex-processes.svg"
       heading="We partner with clients to simplify complex processes"
       subheading="We achieve our best when we partner with you to research, design, build and maintain your information and digital systems. We are flexible and collaborative while taking a very thorough and detailed approach to research, strategy, design and security."
     />
@@ -36,7 +36,7 @@
     />
 
     <CTA
-      text="Learn more about who we work with."
+      text="Learn more about who we work with"
       buttonText="Who we help"
       buttonLink="/whowehelp"
      />

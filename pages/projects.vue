@@ -1,51 +1,58 @@
 
 <template>
   <div>
-    <Hero heading="OUR PROJECTS" subheading="Intelligent decision-making with thoughtful digital solutions"
-    background-url="/Logicly-Projects-Intelligent-decision-making-with-thoughtful-digital-solutions.jpg"
-    overlay />
-    <page-section>
-      <div class="col-span-11 font-bold text-center">Our diverse projects are from a range of sectors</div>
-    </page-section>
-<!--          {{ activeTab }} -->
+    <Hero
+      heading="OUR PROJECTS"
+      subheading="Intelligent decision-making with thoughtful digital solutions"
+      background-url="/Logicly-Projects-Intelligent-decision-making-with-thoughtful-digital-solutions.jpg"
+      overlay
+    />
+
     <page-section altrow>
-        <vue-tabs ref="tabs" @tab-change="setActiveTab" v-model="activeTab">
-        <v-tab v-for="category in categories" :id="category" :title="category" :key="category">
-        <template #title>
-        <div>
-          <img src="/1_Research.svg" />
-        </div>
-        {{ category }}
-        </template>
-        </v-tab>
-        </vue-tabs>
+      <h2 class="text-2xl font-extrabold text-logiclytextgrey text-center">
+        Our diverse projects are from a range of sectors
+      </h2>
+    </page-section>
 
+    <!-- {{ activeTab }} -->
+    <page-section altrow>
+      <vue-tabs ref="tabs" @tab-change="setActiveTab" v-model="activeTab">
+        <v-tab v-for="category in categories" :id="category" :title="category" :key="category">
+          <template #title>
+            <div>
+              <img src="/1_Research.svg" />
+            </div>
+            {{ category }}
+          </template>
+        </v-tab>
+      </vue-tabs>
     </page-section>
 
     <page-section>
-      <div class="grid grid-cols-11 border-t-2 border-b-2 border-logiclyorange">
-        <div class="col-span-3">
-        {{ activeTab }}
-        projects
+      <div class="grid grid-cols-12 border-t-2 border-b-2 border-logiclyorange">
+        <div class="col-span-4">
+          {{ activeTab }}
+          projects
         </div>
-        <div class="col-span-8">  
+        <div class="col-span-8">
           <ul class='articles'>
-          <li @click="setActiveArticle(index)" v-for="(article, index) in articles" :class="{ 'articles-active': isActiveArticle(index) }">
-          {{ article.title }}
-          </li>
+            <li @click="setActiveArticle(index)" v-for="(article, index) in articles" :class="{ 'articles-active': isActiveArticle(index) }">
+              {{ article.title }}
+            </li>
           </ul>
         </div>
-        <div class="col-span-11">
-          <nuxt-content class="grid grid-cols-11" :document="activeArticle" />
+        <div class="col-span-12">
+          <nuxt-content :document="activeArticle" />
         </div>
       </div>
     </page-section>
 
     <CTA
-    text="Do you have an information or digital challenge?"
-    buttonText="Get in touch"
-    buttonLink="/contactus"
+      text="Do you have an information or digital challenge?"
+      buttonText="Get in touch"
+      buttonLink="/contactus"
     />
+
   </div>
 </template>
 
@@ -58,8 +65,12 @@ export default {
       activeArticleIndex: 0,
       articles: [],
       categories: [
-        'research',
-        'government',
+        'Research',
+        'Government',
+        'Health',
+        'Education',
+        'Non-Government',
+        'Corporate',
       ],
     };
   },
@@ -92,15 +103,10 @@ export default {
 </script>
 
 <style>
-.articles {
-  padding: 1em;
-}
-.articles-active {
-  color: orange;
-}
+  .articles {
+    padding: 1em;
+  }
+  .articles-active {
+    color: orange;
+  }
 </style>
-
-
-
-
-

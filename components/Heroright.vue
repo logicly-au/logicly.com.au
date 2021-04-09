@@ -6,8 +6,8 @@ i <template>
             <page-section :altrow="altrow" :overlay="overlay" :right="right">
 
               <h1 class="font-bold text-center text-white text-md">{{ heading }}</h1>
-              <h2 class="invisible text-2xl font-semibold text-center text-white lg:visible">{{ subheading }}</h2>
-              
+              <h2 class="text-2xl font-semibold text-center text-white">{{ subheading }}</h2>
+
             </page-section>
 
   </div>
@@ -38,7 +38,7 @@ height:32rem;
     background-color: rgba(248, 247, 216, 0.7);
     position: relative;
     top: 0;
-    left: 0;  
+    left: 0;
     width: 100%;
     height: 100%;
 }
