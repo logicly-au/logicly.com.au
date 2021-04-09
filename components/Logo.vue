@@ -1,5 +1,5 @@
 <template>
-<img src="~/assets/images/0_Logicly_Logo.svg" />
+<img class="logoimg" src="~/assets/images/0_Logicly_Logo.svg" />
 </template>
 
 <style>
@@ -8,8 +8,10 @@
   margin: auto;
 }
 
-img {
-  padding:1rem;
+img.logoimg {
+  padding-bottom:1rem;
+  margin-top:1rem;
+  height:3rem;
 }
 
 @keyframes appear {

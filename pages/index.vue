@@ -16,8 +16,8 @@
 
 
     <page-section>
-      <img src="digital_system.svg" class="content-center h-24 lg:h-32 mb-5 transform scale-125 md:scale-100"/>
-      <div class="grid content-center grid-cols-6 col-gap-4 text-logiclytextgrey mx-0 xl:mx-16">
+      <img src="digital_system.svg" class="content-center h-24 mb-5 transform scale-125 lg:h-32 md:scale-100"/>
+      <div class="grid content-center grid-cols-6 col-gap-4 mx-0 text-logiclytextgrey xl:mx-16">
 
         <div class="col-span-6 pb-8 md:pt-5">
           <h3 class="text-xl font-extrabold text-center">
@@ -26,7 +26,7 @@
         </div>
 
         <div class="flex items-start col-span-6 border-t-4 md:col-span-2 md:col-start-1 border-logiclytheme1">
-          <span class="text-5xl text-logiclytheme1">1</span><span class="text-lg font-extrabold pt-5 pl-3">Research</span>
+          <span class="text-5xl text-logiclytheme1">1</span><span class="pt-5 pl-3 text-lg font-extrabold">Research</span>
         </div>
 
         <div class="col-span-6 pb-5 border-0 md:col-span-4 md:col-start-3 md:border-t-4 md:border-gray-400 md:pt-5">
@@ -35,7 +35,7 @@
         </div>
 
         <div class="flex items-start col-span-6 border-t-4 md:col-span-2 md:col-start-1 border-logiclytheme2">
-          <span class="text-5xl text-logiclytheme2">2</span><span class="text-lg font-extrabold pt-5 pl-3">Design</span>
+          <span class="text-5xl text-logiclytheme2">2</span><span class="pt-5 pl-3 text-lg font-extrabold">Design</span>
         </div>
 
         <div class="col-span-6 pb-5 border-0 md:col-span-4 md:col-start-3 md:border-t-4 md:border-gray-400 md:pt-5">
@@ -44,7 +44,7 @@
         </div>
 
         <div class="flex items-start col-span-6 border-t-4 md:col-span-2 md:col-start-1 border-logiclytheme4">
-          <span class="text-5xl text-logiclytheme4">3</span><span class="text-lg font-extrabold pt-5 pl-3">Build</span>
+          <span class="text-5xl text-logiclytheme4">3</span><span class="pt-5 pl-3 text-lg font-extrabold">Build</span>
         </div>
 
         <div class="col-span-6 pb-5 border-0 md:col-span-4 md:col-start-3 md:border-t-4 md:border-gray-400 md:pt-5">
@@ -53,7 +53,7 @@
         </div>
 
         <div class="flex items-start col-span-6 border-t-4 md:col-span-2 md:col-start-1 border-logiclytheme3">
-          <span class="text-5xl text-logiclytheme3">4</span><span class="text-lg font-extrabold pt-5 pl-3">Maintain and Improve</span>
+          <span class="text-5xl text-logiclytheme3">4</span><span class="pt-5 pl-3 text-lg font-extrabold">Maintain and Improve</span>
         </div>
 
         <div class="col-span-6 pb-5 border-0 md:col-span-4 md:col-start-3 md:border-t-4 md:border-gray-400 md:pt-5">
@@ -61,7 +61,7 @@
             proactive maintenance, improvements and monitoring.</span>
         </div>
 
-        <div class="col-span-6 lg:col-span-4 lg:col-start-2 pt-12 pb-2 text-center">
+        <div class="col-span-6 pt-12 pb-2 text-center lg:col-span-4 lg:col-start-2">
           <span class="font-bold">This 4 stage approach is a cycle of continuous feedback, changes and testing as the system
             evolves.</span>
         </div>
@@ -87,8 +87,11 @@
         <div class="grid grid-cols-2 col-span-2 md:col-span-1 md:col-start-1">
 
           <div class="col-span-2">
-            <img src="~/assets/images/complex-information-challenges.jpg" class="p-0">
-            <div class="relative font-bold text-center text-white top-center">Complex Information Challenges</div>
+          <overlay-image 
+          imageurl="/designing-building-digital-systems.jpg"
+          height="286px"
+          text="Designing and building digital systems"
+          />
           </div>
 
           <div class="col-span-2 text-xl font-bold lg:text-lg">
@@ -101,7 +104,7 @@
             strategic pathway through research, design and building your digital solution.
           </div>
 
-          <div class="col-span-1 col-start-1 pb-8">
+          <div class="col-span-2 col-start-1 pb-8">
               <a class="block px-6 py-2 my-5 text-white bg-logiclyorange">learn more</a>
           </div>
 
@@ -111,10 +114,11 @@
         <div class="grid grid-cols-2 col-span-2 md:col-span-1 md:col-start-2">
 
           <div class="col-span-2">
-            <img src="~/assets/images/designing-building-digital-systems.jpg" class="p-0">
-            <div class="relative font-bold text-center text-white top-center">
-              Designing and building digital systems
-            </div>
+          <overlay-image 
+          imageurl="/complex-information-challenges.jpg"
+          height="286px"
+          text="Complex Information Challenges"
+          />
           </div>
 
           <div class="col-span-2 text-xl font-bold lg:text-lg">
@@ -126,8 +130,8 @@
             reviewing, improving and adapting to the changing needs of our clients and their users. Each system is
             designed for purpose, efficiency and ease of use to meet your information challenges.
           </div>
-
-          <div class="col-span-1 col-start-1 pb-8">
+          
+          <div class="col-span-2 col-start-1 pb-8">
               <a class="block px-6 py-2 my-5 text-white bg-logiclyorange">learn more</a>
           </div>
         </div>
@@ -283,11 +287,11 @@
               <!-- TODO Possibly need to fix placeholder colour for firefox -->
 
               <div class="flex col-span-2">
-                <span class="self-end block"><input type="text" placeholder="Name" class="block placeholder-logiclytextgrey placeholder-opacity-100 bg-transparent border-b-2 border-logiclyorange"></input></span>
+                <span class="self-end block"><input type="text" placeholder="Name" class="block placeholder-opacity-100 bg-transparent border-b-2 placeholder-logiclytextgrey border-logiclyorange"></input></span>
               </div>
 
               <div class="flex col-span-2">
-                <span class="self-end block"><input type="text" placeholder="Email" class="block placeholder-logiclytextgrey placeholder-opacity-100 bg-transparent border-b-2 border-logiclyorange"></input></span>
+                <span class="self-end block"><input type="text" placeholder="Email" class="block placeholder-opacity-100 bg-transparent border-b-2 placeholder-logiclytextgrey border-logiclyorange"></input></span>
               </div>
 
               <div class="flex col-span-2">

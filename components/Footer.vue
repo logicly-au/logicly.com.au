@@ -50,10 +50,10 @@
                         <NuxtLink to="/privacy" class="text-logiclyorange">Privacy Policy</NuxtLink>
                         </span>
                     </div>
-                    <div class="grid h-16 grid-cols-3 col-span-2 col-start-13 pb-1">
-                        <div class="col-span-1"><img src="~/assets/images/Facebook.svg" class="h-12"></img></div>
-                        <div class="col-span-1"><img src="~/assets/images/Linkedin.svg" class="h-12"></img></div>
-                        <div class="col-span-1"><img src="~/assets/images/Twitter.svg" class="h-12"></img></div>
+                    <div class="grid content-end h-3 grid-cols-3 col-span-1 col-start-13 pb-1 pl-6">
+                        <div class="col-span-1"><img src="~/assets/images/Facebook.svg" class="h-3 footerimg"></img></div>
+                        <div class="col-span-1"><img src="~/assets/images/Linkedin.svg" class="h-3 footerimg"></img></div>
+                        <div class="col-span-1"><img src="~/assets/images/Twitter.svg" class="h-3 footerimg"></img></div>
                     </div>
                 </div>
 
@@ -66,4 +66,7 @@
 export default {}
 </script>
 
-<style scoped></style>
+<style scoped>
+.footerimg {
+height:1rem!important;
+}</style>

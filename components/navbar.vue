@@ -1,26 +1,37 @@
 <template>
-  <nav style="padding:1rem" class="text-sm">
+  <nav style="padding:1rem;" class="text-sm">
   <!-- TODO Change this to class-based padding along with logo -->
       <NuxtLink to="/">home</NuxtLink>
-<!--
-      <dropdown class="my-dropdown-toggle"
-          :options="arrayOfObjects" 
-          :selected="object" 
-          v-on:updateOption="methodToRunOnSelect" 
-          :placeholder="'Select an Item'"
-          :closeOnOutsideClick="boolean">
-      </dropdown>
--->
+
+  <div class="relative inline-block dropdown">
+    <button class="inline-flex items-center px-1">
       <NuxtLink to="/aboutus">about us</NuxtLink>
-      <NuxtLink to="/ourapproach">our approach</NuxtLink>
-      <NuxtLink to="/ourteam">our team</NuxtLink>
-      <NuxtLink to="/oursecurity">our security</NuxtLink>
-      <NuxtLink to="/ourculture">our culture</NuxtLink>
-      <NuxtLink to="/whowehelp">who we help</NuxtLink>
-      <NuxtLink to="/whatwedo">what we do</NuxtLink>
-      <NuxtLink to="/howwework">how we work</NuxtLink>
-      <NuxtLink to="/projects">projects</NuxtLink>
-      <NuxtLink to="/insights">insights</NuxtLink>
+     <!--  <svg class="w-4 h-4 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/> </svg> -->
+    </button>
+    <ul class="absolute hidden pt-1 text-gray-700 dropdown-menu">
+      <li class=""><NuxtLink to="/ourapproach" class="block px-4 py-2 whitespace-no-wrap bg-gray-200 hover:bg-gray-400" href="#">
+      our approach
+      </NuxtLink></li>
+      <li class=""><NuxtLink to="/ourteam" class="block px-4 py-2 whitespace-no-wrap bg-gray-200 hover:bg-gray-400" href="#">
+      our team
+      </NuxtLink></li>
+      <li class=""><NuxtLink to="/oursecurity" class="block px-4 py-2 whitespace-no-wrap bg-gray-200 hover:bg-gray-400" href="#">
+      our security
+      </NuxtLink></li>
+      <li class=""><NuxtLink to="/ourculture" class="block px-4 py-2 whitespace-no-wrap bg-gray-200 hover:bg-gray-400" href="#">
+      our culture
+      </NuxtLink></li>
+
+    </ul>
+  </div>
+
+
+
+      <NuxtLink to="/whowehelp" class="px-1">who we help</NuxtLink>
+      <NuxtLink to="/whatwedo" class="px-1">what we do</NuxtLink>
+      <NuxtLink to="/howwework" class="px-1">how we work</NuxtLink>
+      <NuxtLink to="/projects" class="px-1">projects</NuxtLink>
+      <NuxtLink to="/insights" class="px-1">insights</NuxtLink>
       <!-- TODO change link back to contact us -->
       <NuxtLink to="/contactus">contact us</NuxtLink>
   </nav>
@@ -58,6 +69,11 @@
 </script>
 
 <style scoped>
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+
 .nuxt-link-exact-active {
     font-weight: bold;
 }
