@@ -9,7 +9,7 @@
     />
 
     <page-section altrow>
-      <h2 class="text-2xl font-extrabold text-logiclytextgrey text-center">
+      <h2 class="text-2xl font-extrabold text-center text-logiclytextgrey">
         Our diverse projects are from a range of sectors
       </h2>
     </page-section>
@@ -17,10 +17,10 @@
     <!-- {{ activeTab }} -->
     <page-section altrow>
       <vue-tabs ref="tabs" @tab-change="setActiveTab" v-model="activeTab">
-        <v-tab v-for="category in categories" :id="category" :title="category" :key="category">
+        <v-tab v-for="category in categories" :id="category" :title="category" :key="category" class="flex">
           <template #title>
             <div>
-              <img src="/1_Research.svg" />
+              <img :src="'projects_' + category + '.svg'" style="height:4rem" />
             </div>
             {{ category }}
           </template>
@@ -34,7 +34,7 @@
           {{ activeTab }}
           projects
         </div>
-        <div class="col-span-8">
+        <div class="col-span-8 projects-list">
           <ul class='articles'>
             <li @click="setActiveArticle(index)" v-for="(article, index) in articles" :class="{ 'articles-active': isActiveArticle(index) }">
               {{ article.title }}
@@ -103,10 +103,49 @@ export default {
 </script>
 
 <style>
+
+h2 {
+font-weight:700;
+}
+
+h3 {
+  font-size:2rem;
+  font-weight:700;
+}
+
   .articles {
     padding: 1em;
   }
   .articles-active {
     color: orange;
   }
+
+ul.nav.nav-tabs {
+  display:flex;
+  justify-content:space-between;
+}
+
+li > a > div > img {
+  margin:auto;
+  margin-bottom:0.5rem;
+}
+
+.icons-sidebar div {
+  border-top: 2px solid #dedede;
+  padding:1rem;
+  margin-right:1rem;
+}
+
+.icons-sidebar img {
+    width:4rem;
+}
+
+.project-images img {
+  margin-bottom:1rem;
+}
+
+.projects-list ul li::before {
+  content: "> ";
+}
+
 </style>

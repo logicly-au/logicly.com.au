@@ -20,6 +20,7 @@ category: Research
 </div>
 
 <div class="col-span-9">
+
 ## We designed and implemented a rigorous nation-wide trial of a new digital health tool prototype.
 
 ### The information challenge

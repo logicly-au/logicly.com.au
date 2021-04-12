@@ -6,15 +6,37 @@ category: Research
 
 <div class="grid grid-cols-12">
 
-<div class="col-span-12">
-    <img src="" />
+<div class="col-span-12 project-images">
+    <img src="/Projects/Images/2_UoM_Centre_for_mental_health/Mental-health-in-the-community-university-of-melbourne.jpg" />
+    <img src="/Projects/Images/2_UoM_Centre_for_mental_health/University-of-melbourne-centre-for-mental-health.jpg" />
 </div>
 
-<div class="col-span-3">
-* Icons on left
+<div class="col-span-3 icons-sidebar">
+<div>
+
+<img src="/Projects/Icons/2_UoM_Centre_for_mental_health/Digital_appliactions_for-researchers.svg" />
+
+#### Digital applications for researchers
+
+</div>
+<div>
+
+<img src="/Projects/Icons/2_UoM_Centre_for_mental_health/Meet_study_and_ethical_requirements.svg" />
+
+#### Secure management of de-identified data
+
+</div>
+<div>
+
+<img src="/Projects/Icons/2_UoM_Centre_for_mental_health/Secure_management_of_deidentified_data.svg" />
+
+#### Meet study and ethics requirements
+
+</div>
 </div>
 
 <div class="col-span-9">
+
 ## Partnering with researchers to support better mental health in the community
 
 ### The information challenge

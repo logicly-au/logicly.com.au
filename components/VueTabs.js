@@ -1,4 +1,5 @@
-import '~/assets/vue-tabs.css'
+// import '~/assets/vue-tabs.css'
+// Commenting out css to not load default styles
 export default {
     name: 'vue-tabs',
     props: {
