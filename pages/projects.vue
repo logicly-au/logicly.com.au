@@ -29,8 +29,8 @@
     </page-section>
 
     <page-section>
-      <div class="grid grid-cols-12 border-t-2 border-b-2 border-logiclyorange">
-        <div class="col-span-4">
+      <div class="grid grid-cols-12 border-t-2 border-b-2 border-logiclyorange pt-6">
+        <div class="col-span-4 font-extrabold text-lg">
           {{ activeTab }}
           projects
         </div>
@@ -105,16 +105,30 @@ export default {
 <style>
 
 h2 {
-font-weight:700;
+  font-weight:400;
+  font-size:1.25rem;
 }
 
 h3 {
-  font-size:2rem;
-  font-weight:700;
+  padding-top:1.25rem;
+  padding-bottom:0.25rem;
+  font-size:1.25rem;
+  font-weight:800;
+}
+
+h4 {
+  font-weight:800;
+  font-size:1rem;
+  margin-top:0.5rem;
+}
+
+h5 {
+  font-weight:800;
+  font-size:0.85em;
 }
 
 .articles {
-  padding: 1em;
+  padding-bottom: 4em;
 }
 .articles-active {
   color: orange;
@@ -130,16 +144,27 @@ li > a > div > img {
   margin-bottom:0.5rem;
 }
 
+.icons-sidebar {
+  margin-top:0.5rem;
+}
+
 .icons-sidebar div {
   border-top: 2px solid #dedede;
-  padding:1rem;
+  padding-top:1.75rem;
+  padding-bottom:1.75rem;
   margin-right:1rem;
   text-align:center;
 }
 
+.icons-sidebar-last {
+  border-bottom: 2px solid #dedede;
+}
+
 .icons-sidebar img {
   margin:auto;
-  width:4rem;
+  height:4.5rem;
+  padding-bottom:0.5rem;
+
 }
 
 .project-images img {
@@ -158,8 +183,18 @@ li > a > div > img {
   content: "> ";
 }
 
-.project-text div {
-  margin-left: 2em;
+.project-text {
+  margin-left:2rem;
+  padding-bottom:5rem;
+}
+
+.project-text p {
+  padding-bottom:0.5rem;
+}
+
+.project-text-list ul li {
+  list-style:disc;
+  margin-left:1.25rem;
 }
 
 </style>
