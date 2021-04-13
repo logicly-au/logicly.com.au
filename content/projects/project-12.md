@@ -5,15 +5,36 @@ category: Corporate
 ---
 <div class="grid grid-cols-12">
 
-<div class="col-span-12">
-    <img src="" />
+<div class="col-span-12 project-images">
+    <img src="/Projects/Images/13_Outdoor_Power_Equipment_Association/Outdoor-Power-Equipment-Association-customer-care-worker.jpg" />
 </div>
 
-<div class="col-span-3">
-* Icons on left
+<div class="col-span-3 icons-sidebar">
+<div>
+
+<img src="/Projects/Icons/13_Outdoor_Power_Equipment_Association/Large_scale_collection_and_tracking_sales_data.svg" />
+
+#### Large scale collection and tracking of sales data
+
+</div>
+<div>
+
+<img src="/Projects/Icons/13_Outdoor_Power_Equipment_Association/Personalised_analysis_and_business_insights.svg" />
+
+#### Personalised analysis and business insights
+
+</div>
+<div>
+
+<img src="/Projects/Icons/13_Outdoor_Power_Equipment_Association/Ongoing_client_technical_and_analytical_support.svg" />
+
+#### Ongoing client technical and analytical support
+
+</div>
 </div>
 
-<div class="col-span-9">
+<div class="col-span-9 project-text">
+<div>
 ## We created a secure data management system for processing and delivering key insights to participating members
 
 ### The information challenge
@@ -31,5 +52,6 @@ Since implementation, the data has been more complete and consistent, and the in
 Logicly’s helpdesk team offer support for users directly, as well as refining the data analysis process along the way.
 OPEA staff are no longer stuck processing raw information month after month; instead they’re freed up to take on bigger, less repetitive tasks.
 
+</div>
 </div>
 </div>

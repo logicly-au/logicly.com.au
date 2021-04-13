@@ -7,8 +7,8 @@ category: Research
 <div class="grid grid-cols-12">
 
 <div class="col-span-12 project-images">
-    <img src="/Projects/Images/2_UoM_Centre_for_mental_health/Mental-health-in-the-community-university-of-melbourne.jpg" />
-    <img src="/Projects/Images/2_UoM_Centre_for_mental_health/University-of-melbourne-centre-for-mental-health.jpg" />
+<img src="/Projects/Images/2_UoM_Centre_for_mental_health/University-of-melbourne-centre-for-mental-health.jpg" />
+<img src="/Projects/Images/2_UoM_Centre_for_mental_health/Mental-health-in-the-community-university-of-melbourne.jpg" />
 </div>
 
 <div class="col-span-3 icons-sidebar">
@@ -21,22 +21,22 @@ category: Research
 </div>
 <div>
 
-<img src="/Projects/Icons/2_UoM_Centre_for_mental_health/Meet_study_and_ethical_requirements.svg" />
+<img src="/Projects/Icons/2_UoM_Centre_for_mental_health/Secure_management_of_deidentified_data.svg" />
 
 #### Secure management of de-identified data
 
 </div>
 <div>
 
-<img src="/Projects/Icons/2_UoM_Centre_for_mental_health/Secure_management_of_deidentified_data.svg" />
+<img src="/Projects/Icons/2_UoM_Centre_for_mental_health/Meet_study_and_ethical_requirements.svg" />
 
 #### Meet study and ethics requirements
 
 </div>
 </div>
 
-<div class="col-span-9">
-
+<div class="col-span-9 project-text">
+<div>
 ## Partnering with researchers to support better mental health in the community
 
 ### The information challenge
@@ -58,5 +58,6 @@ The importance Logicly places on understanding client context, as well as our ex
 We’ve helped them to consistently create a smooth user experience for potentially vulnerable participants, as well as gather reliable and accessible information for researchers.
 Through recent collaborations, we’ve successfully delivered insights that can not only inform future interventions, but that can validate and refine their impact after launch, such as mobile applications, media campaign videos, public service announcements and documentaries.
 
+</div>
 </div>
 </div>

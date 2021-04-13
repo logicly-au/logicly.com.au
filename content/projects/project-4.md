@@ -5,16 +5,46 @@ category: Government
 ---
 <div class="grid grid-cols-12">
 
-<div class="col-span-12">
-    <img src="" />
+<div class="col-span-12 project-images">
+  <div class="grid grid-cols-12">
+    <div class="col-span-12">
+      <img src="/Projects/Images/5_Queensland_Department_of_Transport_and_Main_Roads/Queensland-Department-of-Transport-and-Main-Roads-woman-on-ipad.jpg" />
+    </div>
+    <div class="col-span-4">
+      <img class="project-image-secondrow" src="/Projects/Images/5_Queensland_Department_of_Transport_and_Main_Roads/Queensland-Department-of-Transport-and-Main-Roads-ipad-screen.jpg" />
+    </div>
+    <div class="col-span-8">
+      <img class="project-image-secondrow" src="/Projects/Images/5_Queensland_Department_of_Transport_and_Main_Roads/Queensland-Department-of-Transport-and-Main-Roads-map.jpg" />
+    </div>
+  </div>
 </div>
 
-<div class="col-span-3">
-* Icons on left
+<div class="col-span-3 icons-sidebar">
+<div>
+
+<img src="/Projects/Icons/5_Queensland_Department_of_Transport_and_Main_Roads/Responsive_digital_interfaces.svg" />
+
+#### Responsive digital interfaces
+
+</div>
+<div>
+
+<img src="/Projects/Icons/5_Queensland_Department_of_Transport_and_Main_Roads/Evolving_interface_based_on_data_insights.svg" />
+
+#### Evolving interface based on data insights
+
+</div>
+<div>
+
+<img src="/Projects/Icons/5_Queensland_Department_of_Transport_and_Main_Roads/Secure_data_collection_and_management.svg" />
+
+#### Secure data collection and management
+
+</div>
 </div>
 
-<div class="col-span-9">
-
+<div class="col-span-9 project-text">
+<div>
 ### The information challenge
 The Queensland Department of Transport and Main Roads (TMR) uses large quantities of survey data to understand future growth and demand, and to inform infrastructure and public transport projects.
 They needed a new, paper-free data collection approach that could deliver greater efficiency, accuracy, and a user-friendly experience to improve participation rates.
@@ -38,5 +68,6 @@ The outcomes exceeded client expectations and the Household Travel Survey is now
 Accuracy and efficiency has increased with the intuitive data collection application and accessible mobile- and desktop-friendly interfaces.
 In addition, completion and participation rates have each improved significantly since the survey’s implementation online.
 
+</div>
 </div>
 </div>

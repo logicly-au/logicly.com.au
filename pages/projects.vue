@@ -113,12 +113,12 @@ h3 {
   font-weight:700;
 }
 
-  .articles {
-    padding: 1em;
-  }
-  .articles-active {
-    color: orange;
-  }
+.articles {
+  padding: 1em;
+}
+.articles-active {
+  color: orange;
+}
 
 ul.nav.nav-tabs {
   display:flex;
@@ -134,18 +134,32 @@ li > a > div > img {
   border-top: 2px solid #dedede;
   padding:1rem;
   margin-right:1rem;
+  text-align:center;
 }
 
 .icons-sidebar img {
-    width:4rem;
+  margin:auto;
+  width:4rem;
 }
 
 .project-images img {
   margin-bottom:1rem;
 }
 
+.project-images {
+  margin-bottom:4rem;
+}
+
+.project-image-secondrow {
+  height:21rem;
+}
+
 .projects-list ul li::before {
   content: "> ";
+}
+
+.project-text div {
+  margin-left: 2em;
 }
 
 </style>

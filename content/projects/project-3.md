@@ -5,15 +5,36 @@ category: Research
 ---
 <div class="grid grid-cols-12">
 
-<div class="col-span-12">
-    <img src="Deakin-Universitys-Humanities-Network-Infrastructure.jpg" />
+<div class="col-span-12 project-images">
+    <img src="/Projects/Images/4_Deakin_Universitys_Humanities_Network_Infrastructure/Deakin-Universitys-Humanities-Network-Infrastructure.jpg" />
 </div>
 
-<div class="col-span-3">
-* Icons on left
+<div class="col-span-3 icons-sidebar">
+<div>
+
+<img src="/Projects/Icons/4_Deakin_Universitys_Humanities_Network_Infrastructure/A_digital_network_of_information.svg" />
+
+#### A digital network of information
+
+</div>
+<div>
+
+<img src="/Projects/Icons/4_Deakin_Universitys_Humanities_Network_Infrastructure/Aggregation_of_Australias_rich_cultural_heritage.svg" />
+
+#### Aggregation of Australia’s rich cultural heritage
+
+</div>
+<div>
+
+<img src="/Projects/Icons/4_Deakin_Universitys_Humanities_Network_Infrastructure/2_million_records.svg" />
+
+#### 2 million records
+
+</div>
 </div>
 
-<div class="col-span-9">
+<div class="col-span-9 project-text">
+<div>
 ## We created a network system architecture to provide simple access and sophisticated tools to researchers and members of the public interested in Australia’s rich cultural heritage
 
 ### The information challenge
@@ -30,5 +51,6 @@ To further encourage engagement with the wider Australian community, the Lab als
 HuNI allows researchers to engage more effectively with the aggregated collections, providing streamlined, user-friendly tools to access and analyse resources, and to share their work.
 In particular, it can provide insights that more limiting, traditional keyword searches don’t by generating visual graphs showing dynamic networks of connections between datasets and records.
 
+</div>
 </div>
 </div>

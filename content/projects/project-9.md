@@ -5,15 +5,36 @@ category: Health
 ---
 <div class="grid grid-cols-12">
 
-<div class="col-span-12">
-    <img src="" />
+<div class="col-span-12 project-images">
+    <img src="/Projects/Images/10_Outcome_Measures_Self_Service_System_(OMSSS)/Outcome-Measures-Self-Service-System-(OMSSS-female-patient-answering-survey-on-ipad.jpg" />
 </div>
 
-<div class="col-span-3">
-* Icons on left
+<div class="col-span-3 icons-sidebar">
+<div>
+
+<img src="/Projects/Icons/10_Outcome_Measures_Self_Service_System_(OMSSS)/Collection_of_large_detailed_data_sets.svg" />
+
+#### Collection of large, detailed data sets
+
+</div>
+<div>
+
+<img src="/Projects/Icons/10_Outcome_Measures_Self_Service_System_(OMSSS)/Adaptable_for_different_health_group_needs.svg" />
+
+#### Adaptable for different health group needs
+
+</div>
+<div>
+
+<img src="/Projects/Icons/10_Outcome_Measures_Self_Service_System_(OMSSS)/Integration_with_a_variety_of_systems.svg" />
+
+#### Integration with a variety of systems
+
+</div>
 </div>
 
-<div class="col-span-9">
+<div class="col-span-9 project-text">
+<div>
 ## We created a flexible solution to enable health organisations to collect and analyse large quantities of self-reported customer health outcome information.
 
 ### The information challenge
@@ -31,6 +52,6 @@ The Outcome Measures Self Service System (OMSSS) is a health data collection sol
 The ability to automate integration with client systems has the benefit of cutting staff time spent on data-entry, as well as ensuring the accuracy of the information.
 It’s accessible and user-friendly, with an intuitive design that is streamlined for both desktop and mobile devices, making it easy for customers to adopt.
 
-
+</div>
 </div>
 </div>

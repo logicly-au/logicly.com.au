@@ -5,15 +5,36 @@ category: Corporate
 ---
 <div class="grid grid-cols-12">
 
-<div class="col-span-12">
-    <img src="" />
+<div class="col-span-12 project-images">
+    <img src="/Projects/Images/15_Personal_Health_Appliance_Suppliers/Personal-Health-Appliance-Suppliers-data-on-ipad.jpg" />
 </div>
 
-<div class="col-span-3">
-* Icons on left
+<div class="col-span-3 icons-sidebar">
+<div>
+
+<img src="/Projects/Icons/15_Personal_Health_Appliance_Suppliers/Mobile_friendly_data_processing_app_and_reports.svg" />
+
+#### Mobile-friendly data processing app and reports
+
+</div>
+<div>
+
+<img src="/Projects/Icons/15_Personal_Health_Appliance_Suppliers/Automated_accurate_database_for_communications_marketing.svg" />
+
+#### Automated, accurate database for communications and marketing
+
+</div>
+<div>
+
+<img src="/Projects/Icons/15_Personal_Health_Appliance_Suppliers/Ongoing_user_technical_and_analytical_support.svg" />
+
+#### Ongoing user technical and analytical support
+
+</div>
 </div>
 
-<div class="col-span-9">
+<div class="col-span-9 project-text">
+<div>
 ## We created a data management system to process and deliver health results in user-friendly reports.
 
 ### The information challenge
@@ -34,5 +55,6 @@ The solution was considered from end-to-end to ensure a consistent and positive 
 The mobile-friendly design provides customers with a secure, easy-to-use portal for tracking and understanding their health outcomes.
 It’s automated so that the supplier can maintain an accurate database for communication and marketing purposes, free of errors and duplicates.
 
+</div>
 </div>
 </div>

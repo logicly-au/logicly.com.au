@@ -11,16 +11,36 @@ category: Research
 
 <div class="grid grid-cols-12">
 
-<div class="col-span-12">
-    <img src="Deakin-University’s-Humanities-Network-Infrastructure.jpg" />
+<div class="col-span-12 project-images">
+    <img src="/Projects/Images/3_UoM_Medical_School’s_Department_of_General_Practice/University-of-melbourne-medical-school-department-of-general-practice.jpg" />
 </div>
 
-<div class="col-span-3">
-* Icons on left
+<div class="col-span-3 icons-sidebar">
+<div>
+
+<img src="/Projects/Icons/3_UoM_Medical_School’s_Department_of_General_Practice/13000_respondents.svg" />
+
+#### 13,000 respondents
+
+</div>
+<div>
+
+<img src="/Projects/Icons/3_UoM_Medical_School’s_Department_of_General_Practice/Implementation_across_multiple_states.svg" />
+
+#### Implementation across multiple states
+
+</div>
+<div>
+
+<img src="/Projects/Icons/3_UoM_Medical_School’s_Department_of_General_Practice/Ongoing_client_support_and_hosting.svg" />
+
+#### Ongoing client support and hosting
+
+</div>
 </div>
 
-<div class="col-span-9">
-
+<div class="col-span-9 project-text">
+<div>
 ## We designed and implemented a rigorous nation-wide trial of a new digital health tool prototype.
 
 ### The information challenge
@@ -40,5 +60,6 @@ It also supported Care Navigators in providing one-on-one help to study particip
 The collaborative approach ensured the value of the information, the highest level of ethical integrity, and compliance with the Australian Government’s Protective Security Policy Framework.
 The project was a success, with more than 13,000 respondents across multiple states participating in the DST trial, providing the University’s researchers with large quantities of high quality data and insights.
 
+</div>
 </div>
 </div>
