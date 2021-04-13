@@ -41,6 +41,7 @@ category: Government
 
 <div class="col-span-9 project-text">
 <div>
+<div style="margin-top:-1.25rem;">
 
 ### The information challenge
 The Queensland Department of Transport and Main Roads (TMR) uses large quantities of survey data to understand future growth and demand, and to inform infrastructure and public transport projects.
@@ -62,12 +63,35 @@ Logicly consulted with subject-matter experts and facilitated stakeholder worksh
 
 Through a highly collaborative and iterative approach, we drew on extensive experience with complex information systems to develop, test, and refine the data solution.
 
-The components were delivered in phases:
-  Phase 1 Phase 2
-Phase 3 Phase 4
-Design, user testing and delivery of an HTML prototype of the online survey Delivery of the TMR Tertiary Student Travel Survey (2016) across three University campuses
-Modification of the Tertiary Student Travel Survey to form the user interface for household data collection (SEQTS)
-Design, user testing and delivery of the administration interface
+<div class="grid grid-cols-8">
+  <div class="col-span-8">
+    The components were delivered in phases:
+  </div>
+  <div class="col-span-1">
+    <span style="font-weight:800">Phase 1</span>
+  </div>
+  <div class="col-span-7">
+    Design, user testing and delivery of an HTML prototype of the online survey
+  </div>
+  <div class="col-span-1">
+    <span style="font-weight:800">Phase 2</span>
+  </div>
+  <div class="col-span-7">
+    Delivery of the TMR Tertiary Student Travel Survey (2016) across three University campuses
+  </div>
+  <div class="col-span-1">
+    <span style="font-weight:800">Phase 3</span>
+  </div>
+  <div class="col-span-7">
+    Modification of the Tertiary Student Travel Survey to form the user interface for household data collection (SEQTS)
+  </div>
+  <div class="col-span-1">
+    <span style="font-weight:800">Phase 4</span>
+  </div>
+  <div class="col-span-7">
+    Design, user testing and delivery of the administration interface
+  </div>
+</div>
 
 ### The outcomes
 The outcomes exceeded client expectations and the Household Travel Survey is now managed almost entirely online, with the user experience continually evolving and improving.
@@ -76,6 +100,7 @@ Accuracy and efficiency has increased with the intuitive data collection applica
 
 In addition, completion and participation rates have each improved significantly since the survey’s implementation online.
 
+</div>
 </div>
 </div>
 </div>
