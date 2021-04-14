@@ -9,7 +9,7 @@
     <Herotextnoimage
       heading="Developing thoughtfully designed digital systems"
       subheading="We bring twenty years of knowledge and experience in research, strategy, design and technology to solve
-                your complex information challenges. Our digital systems are built with innovative but practical
+                your complex information challenges. Our digital systems are built with innovative but practical
                 thinking, flexibility and intuitive design, always with the user experience in mind."
       altrow
     />
@@ -48,8 +48,8 @@
         </div>
 
         <div class="col-span-6 pb-5 border-0 md:col-span-4 md:col-start-3 md:border-t-4 md:border-gray-400 md:pt-5">
-          <span>Our technology team builds complex digital systems using their knowledge in development, analysis,
-            front-end design, data management and security.</span>
+          Our technology team builds complex digital systems using their knowledge in development, analysis,
+          front-end design, data management and security.
         </div>
 
         <div class="flex items-start col-span-6 border-t-4 md:col-span-2 md:col-start-1 border-logiclytheme3">
@@ -57,8 +57,8 @@
         </div>
 
         <div class="col-span-6 pb-5 border-0 md:col-span-4 md:col-start-3 md:border-t-4 md:border-gray-400 md:pt-5">
-          <span>Our maintenance program includes training, customer and user support, robust and secure hosting,
-            proactive maintenance, improvements and monitoring.</span>
+          Our maintenance program includes training, customer and user support, robust and secure hosting,
+          proactive maintenance, improvements and monitoring.
         </div>
 
         <div class="col-span-6 pt-12 pb-2 text-center lg:col-span-4 lg:col-start-2">
@@ -87,17 +87,17 @@
 
       <!-- Sub grid 1 -->
       <div class="flex grid flex-col grid-cols-2 col-gap-4 text-logiclytextgrey">
-        <div class="grid grid-cols-2 col-span-2 md:col-span-1 md:col-start-1">
+        <div class="grid grid-cols-2 col-span-2 lg:col-span-1 lg:col-start-1">
 
           <div class="col-span-2">
-          <overlay-image 
+          <overlay-image
           imageurl="/designing-building-digital-systems.jpg"
           height="286px"
           text="Designing and building digital systems"
           />
           </div>
 
-          <div class="col-span-2 text-xl font-bold lg:text-lg">
+          <div class="col-span-2 text-xl font-bold lg:text-lg pt-8">
             What information challenges do you have?
           </div>
 
@@ -117,17 +117,17 @@
         </div>
       <!-- End subgrid -->
       <!-- Sub grid 2 -->
-        <div class="grid grid-cols-2 col-span-2 md:col-span-1 md:col-start-2">
+        <div class="grid grid-cols-2 col-span-2 lg:col-span-1 lg:col-start-2">
 
           <div class="col-span-2">
-          <overlay-image 
+          <overlay-image
           imageurl="/complex-information-challenges.jpg"
           height="286px"
           text="Complex Information Challenges"
           />
           </div>
 
-          <div class="col-span-2 text-xl font-bold lg:text-lg">
+          <div class="col-span-2 text-xl font-bold lg:text-lg pt-8">
             What type of digital system do you require?
           </div>
 
@@ -254,6 +254,13 @@
           </div>
         </div>
       </div>
+
+        <div class="flex justify-center lg:justify-end">
+          <Button
+            buttontext="View all projects"
+            buttonlink="/projects"
+          />
+        </div>
     </page-section>
 
     <page-section>
