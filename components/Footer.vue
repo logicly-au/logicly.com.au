@@ -7,7 +7,9 @@
           <div class="grid grid-cols-12 col-span-10 col-start-2 gap-4 px-16 py-32 md:px-32 lg:px-0 text-sm text-left">
             <div class="col-span-12 lg:col-span-4 mb-6 lg:mb-0">
               <!-- TODO Find a tailwindier way of doing this -->
-              <div class="mb-6 lg:mb-4"><logo /></div>
+              <div class="mb-6 lg:mb-4">
+                <logo />
+              </div>
               <a href="tel:0061393409000" class="block">+61 3 9340 9000</a>
               <a href="mailto:info@strategicdata.com.au">info@strategicdata.com.au</a>
               <span class="block">2nd floor, 51 – 55 Johnston Street,</span>
@@ -49,9 +51,9 @@
               </div>
               <div class="col-span-12 lg:col-span-6 lg:col-start-6 xl:col-span-5 xl:col-start-7 grid grid-cols-3 content-end">
                 <div class="col-span-1 lg:col-start-3 grid grid-cols-3 mt-6 lg:mt-0">
-                  <div class="col-span-1"><img src="~/assets/images/Facebook.svg" class="h-5 lg:h-4 footerimg"></img></div>
-                  <div class="col-span-1"><img src="~/assets/images/Linkedin.svg" class="h-5 lg:h-4 footerimg"></img></div>
-                  <div class="col-span-1"><img src="~/assets/images/Twitter.svg" class="h-5 lg:h-4 footerimg"></img></div>
+                  <div class="col-span-1"><img src="~/assets/images/Facebook.svg" class="h-5 lg:h-4"></img></div>
+                  <div class="col-span-1"><img src="~/assets/images/Linkedin.svg" class="h-5 lg:h-4"></img></div>
+                  <div class="col-span-1"><img src="~/assets/images/Twitter.svg" class="h-5 lg:h-4"></img></div>
                 </div>
               </div>
             </div>
