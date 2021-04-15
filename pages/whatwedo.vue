@@ -29,7 +29,7 @@
           <p>We work closely with our clients to understand the nuances and complexities they face, so that we can make sure we’re providing the right solution for their needs.</p>
         </div>
         <div class="col-span-12 lg:col-span-4">
-          <h2 class="font-extrabold">This may include:</h2>
+          <h4 class="font-extrabold">This may include:</h4>
           <ul class="ml-4 font-light text-sm list-disc">
             <li>Workshop/initial consultation</li>
             <li>Project Scope</li>
@@ -47,7 +47,7 @@
           <p>After thoughtfully considering our clients’ information challenges, we design user-friendly, considered digital solutions that are tailored to support their needs.</p>
         </div>
         <div class="col-span-12 lg:col-span-4">
-          <h2 class="font-extrabold">We consider:</h2>
+          <h4 class="font-extrabold">We consider:</h4>
           <ul class="ml-4 font-light text-sm list-disc">
             <li>Dataflow</li>
             <li>System architecture</li>
@@ -67,7 +67,7 @@
           <p>We build robust digital solutions that provide our clients with an outcome that works for them. We develop systems with a focus on data integrity, secure management of all digital information and a proven track record delivering complex projects on time.</p>
         </div>
         <div class="col-span-12 lg:col-span-4">
-          <h2 class="font-extrabold">This may involve:</h2>
+          <h4 class="font-extrabold">This may involve:</h4>
           <ul class="ml-4 font-light text-sm list-disc">
             <li>Applications</li>
             <li>API Development</li>
@@ -77,7 +77,7 @@
             <li>Data migration & transformation</li>
             <li>QA & testing</li>
           </ul>
-          <h2 class="font-extrabold mt-4">Our build expertise extends to:</h2>
+          <h4 class="font-extrabold mt-4">Our build expertise extends to:</h4>
           <ul class="ml-4 font-light text-sm list-disc">
             <li>Data security & privacy</li>
             <li>Data collection & management principles</li>
@@ -95,7 +95,7 @@
           <p>A great digital solution should be easy to use for the people who need it. We’ll be working alongside you to help smooth any bumps along the way.</p>
         </div>
         <div class="col-span-12 lg:col-span-4">
-          <h2 class="font-extrabold">We provide:</h2>
+          <h4 class="font-extrabold">We provide:</h4>
           <ul class="ml-4 font-light text-sm list-disc">
             <li>Ongoing security expertise</li>
             <li>Hosting, storage and maintenance</li>
