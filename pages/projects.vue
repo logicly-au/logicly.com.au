@@ -37,7 +37,15 @@
         <div class="col-span-8 projects-list">
           <ul class='articles'>
             <li @click="setActiveArticle(index)" v-for="(article, index) in articles" :class="{ 'articles-active': isActiveArticle(index) }">
-              {{ article.title }}
+              <div class="grid grid-cols-12 pb-2">
+                <div class="col-span-1 ml-2 -mt-1 text-2xl">
+                  >
+                </div>
+                <div class="col-span-11">
+                  <span class="font-extrabold">{{ article.title }}</span></br>
+                  <span class="font-light">{{ article.description }}</span>
+                </div>
+              </div>
             </li>
           </ul>
         </div>
@@ -132,7 +140,7 @@ h5 {
 }
 
 .articles-active {
-  color: orange;
+  color: #E94E1B;
 }
 
 ul.nav.nav-tabs {
@@ -216,9 +224,7 @@ li > a > div > img {
   }
 }
 
-.projects-list ul li::before {
-  content: "> ";
-}
+
 
 .project-text {
   margin-left:2rem;
