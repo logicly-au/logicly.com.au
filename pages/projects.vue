@@ -30,11 +30,13 @@
 
     <page-section>
       <div class="grid grid-cols-12 border-t-2 border-b-2 border-logiclyorange pt-6 -mb-16">
-        <div class="col-span-4 font-extrabold text-lg">
+
+        <div class="hidden xl:block col-span-4 font-extrabold text-lg">
           {{ activeTab }}
           projects
         </div>
-        <div class="col-span-8 projects-list">
+
+        <div class="xl:hidden col-span-12">
           <ul class='articles'>
             <li @click="setActiveArticle(index)" v-for="(article, index) in articles" :class="{ 'articles-active': isActiveArticle(index) }">
               <div class="grid grid-cols-12 pb-2">
@@ -49,6 +51,24 @@
             </li>
           </ul>
         </div>
+
+
+        <div class="hidden xl:block col-span-8 projects-list">
+          <ul class='articles'>
+            <li @click="setActiveArticle(index)" v-for="(article, index) in articles" :class="{ 'articles-active': isActiveArticle(index) }">
+              <div class="grid grid-cols-12 pb-2">
+                <div class="col-span-1 ml-2 -mt-1 text-2xl">
+                  >
+                </div>
+                <div class="col-span-11">
+                  <span class="font-extrabold">{{ article.title }}</span></br>
+                  <span class="font-light">{{ article.description }}</span>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+
         <div class="col-span-12">
           <nuxt-content :document="activeArticle" />
         </div>
@@ -256,5 +276,7 @@ li > a > div > img {
     margin-top:-1.25rem;
   }
 }
+
+
 
 </style>
