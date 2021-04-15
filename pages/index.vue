@@ -188,8 +188,11 @@
       <div class="grid grid-cols-2 col-gap-4 mb-4 bg-logiclygreytwo text-logiclytextgrey">
         <div class="grid col-span-2 grid-col-2 lg:col-span-1 lg:col-start-1">
           <div class="col-span-2">
-            <img src="~/assets/images/Governement-project-queensland-department-of-transport-and-main-roads.jpg" class="p-0">
-            <div class="relative h-0 font-bold text-center text-white top-center">Government</div>
+          <overlay-image 
+          imageurl="/Government-project-queensland-department-of-transport-and-main-roads.jpg"
+          height="286px"
+          text="Government"
+          />
           </div>
         </div>
 
@@ -212,8 +215,11 @@
       <div class="grid grid-cols-2 col-gap-4 mb-4 bg-logiclygreytwo text-logiclytextgrey">
         <div class="grid col-span-2 grid-col-2 lg:col-span-1 lg:col-start-1">
           <div class="col-span-2">
-            <img src="~/assets/images/Corporate-project-NAB.jpg" class="p-0">
-            <div class="relative h-0 font-bold text-center text-white top-center">Corporate</div>
+            <overlay-image 
+            imageurl="/Corporate-project-NAB.jpg"
+            height="286px"
+            text="Corporate"
+            />
           </div>
         </div>
 
@@ -235,8 +241,11 @@
       <div class="grid grid-cols-2 col-gap-4 mb-4 bg-logiclygreytwo text-logiclytextgrey">
         <div class="grid col-span-2 grid-col-2 lg:col-span-1 lg:col-start-1">
           <div class="col-span-2">
-            <img src="~/assets/images/Corporate-project-NAB.jpg" class="p-0">
-            <div class="relative h-0 font-bold text-center text-white top-center">Educational</div>
+            <overlay-image 
+            imageurl="/Corporate-project-NAB.jpg"
+            height="286px"
+            text="Educational"
+            />
           </div>
         </div>
 

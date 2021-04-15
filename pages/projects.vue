@@ -28,7 +28,7 @@
       </vue-tabs>
     </page-section>
 
-    <page-section>
+    <page-section class="projects-section">
       <div class="grid grid-cols-12 border-t-2 border-b-2 border-logiclyorange">
         <div class="col-span-4">
           {{ activeTab }}
@@ -104,11 +104,11 @@ export default {
 
 <style>
 
-h2 {
+.projects-section h2 {
 font-weight:700;
 }
 
-h3 {
+.projects-section h3 {
   font-size:2rem;
   font-weight:700;
 }
