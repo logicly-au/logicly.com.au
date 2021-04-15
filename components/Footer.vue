@@ -2,11 +2,9 @@
   <div class="w-full h-auto logicly-footer bg-logiclylightgrey text-logiclytextgrey">
     <div class="container mx-auto">
       <footer>
-      <!-- TODO Add links here -->
         <div class="grid grid-cols-12">
           <div class="grid grid-cols-12 col-span-10 col-start-2 gap-4 px-16 py-32 md:px-32 lg:px-0 text-sm text-left">
             <div class="col-span-12 lg:col-span-4 mb-6 lg:mb-0">
-              <!-- TODO Find a tailwindier way of doing this -->
               <div class="mb-6 lg:mb-4">
                 <logo />
               </div>
@@ -20,20 +18,21 @@
               <div class="col-span-3 lg:col-span-1 mb-6 lg:mb-0">
                 <NuxtLink to="/" class="block" exact>Home</NuxtLink>
                 <NuxtLink to="/whatwedo" class="block" exact>Services</NuxtLink>
-                <NuxtLink to="#" class="block" exact>Solutions</NuxtLink>
+                <a href="/whowehelp" class="block" exact>Solutions</a>
                 <NuxtLink to="/howwework" class="block" exact>How we work</NuxtLink>
-                <NuxtLink to="/projects" class="block" exact>Projects</NuxtLink>
+                <NuxtLink to="/projects" class="block">Projects</NuxtLink>
                 <NuxtLink to="/insights" class="block" exact>Insights</NuxtLink>
                 <NuxtLink to="/contactus" class="block" exact>Contact us</NuxtLink>
               </div>
+              <!-- TODO Add links for 'Who we help' page sections -->
               <div class="col-span-3 lg:col-span-1 mb-6 lg:mb-0">
                 <NuxtLink to="/whowehelp" class="block font-bold" exact>Who we help</NuxtLink>
-                <NuxtLink to="#" class="block" exact>Researchers</NuxtLink>
-                <NuxtLink to="#" class="block" exact>Government</NuxtLink>
-                <NuxtLink to="#" class="block" exact>Non-government</NuxtLink>
-                <NuxtLink to="#" class="block" exact>Health</NuxtLink>
-                <NuxtLink to="#" class="block" exact>Corporate</NuxtLink>
-                <NuxtLink to="#" class="block" exact>Educational</NuxtLink>
+                <a href="/whowehelp" class="block" exact>Researchers</a>
+                <a href="/whowehelp" class="block" exact>Government</a>
+                <a href="/whowehelp" class="block" exact>Non-government</a>
+                <a href="/whowehelp" class="block" exact>Health</a>
+                <a href="/whowehelp" class="block" exact>Corporate</a>
+                <a href="/whowehelp" class="block" exact>Educational</a>
               </div>
               <div class="col-span-3 lg:col-span-1 mb-6 lg:mb-0">
                 <NuxtLink to="/aboutus" class="block font-bold" exact>About</NuxtLink>
