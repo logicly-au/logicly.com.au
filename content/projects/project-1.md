@@ -7,31 +7,12 @@ category: Research
 <div class="grid grid-cols-12">
 
 <div class="col-span-12 project-images">
-<img src="/Projects/Images/2_UoM_Centre_for_mental_health/University-of-melbourne-centre-for-mental-health.jpg" />
-<img src="/Projects/Images/2_UoM_Centre_for_mental_health/Mental-health-in-the-community-university-of-melbourne.jpg" />
+  <img src="/Projects/Images/2_UoM_Centre_for_mental_health/University-of-melbourne-centre-for-mental-health.jpg" />
+  <img src="/Projects/Images/2_UoM_Centre_for_mental_health/Mental-health-in-the-community-university-of-melbourne.jpg" />
 </div>
 
-<div class="col-span-3 icons-sidebar">
-<div>
-<img src="/Projects/Icons/2_UoM_Centre_for_mental_health/Digital_appliactions_for-researchers.svg" />
 
-##### Digital applications for researchers
-</div>
-
-<div>
-<img src="/Projects/Icons/2_UoM_Centre_for_mental_health/Secure_management_of_deidentified_data.svg" />
-
-##### Secure management of de-identified data
-</div>
-
-<div class="icons-sidebar-last">
-<img src="/Projects/Icons/2_UoM_Centre_for_mental_health/Meet_study_and_ethical_requirements.svg" />
-
-##### Meet study and ethics requirements
-</div>
-</div>
-
-<div class="col-span-9 project-text">
+<div class="col-span-12 lg:col-span-9 project-text lg:order-last">
 <div>
 
 ## Partnering with researchers to support better mental health in the community
@@ -66,4 +47,26 @@ Through recent collaborations, we’ve successfully delivered insights that can 
 
 </div>
 </div>
+
+
+<div class="col-span-12 lg:col-span-3 icons-sidebar">
+<div>
+<img src="/Projects/Icons/2_UoM_Centre_for_mental_health/Digital_appliactions_for-researchers.svg" />
+
+##### Digital applications for researchers
+</div>
+
+<div>
+<img src="/Projects/Icons/2_UoM_Centre_for_mental_health/Secure_management_of_deidentified_data.svg" />
+
+##### Secure management of de-identified data
+</div>
+
+<div class="icons-sidebar-last">
+<img src="/Projects/Icons/2_UoM_Centre_for_mental_health/Meet_study_and_ethical_requirements.svg" />
+
+##### Meet study and ethics requirements
+</div>
+</div>
+
 </div>

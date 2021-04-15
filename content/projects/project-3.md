@@ -9,27 +9,8 @@ category: Research
     <img src="/Projects/Images/4_Deakin_Universitys_Humanities_Network_Infrastructure/Deakin-Universitys-Humanities-Network-Infrastructure.jpg" />
 </div>
 
-<div class="col-span-3 icons-sidebar">
-<div>
-<img src="/Projects/Icons/4_Deakin_Universitys_Humanities_Network_Infrastructure/A_digital_network_of_information.svg" />
 
-##### A digital network of information
-</div>
-
-<div>
-<img src="/Projects/Icons/4_Deakin_Universitys_Humanities_Network_Infrastructure/Aggregation_of_Australias_rich_cultural_heritage.svg" />
-
-##### Aggregation of Australia’s rich cultural heritage
-</div>
-
-<div class="icons-sidebar-last">
-<img src="/Projects/Icons/4_Deakin_Universitys_Humanities_Network_Infrastructure/2_million_records.svg" />
-
-##### 2 million records
-</div>
-</div>
-
-<div class="col-span-9 project-text">
+<div class="col-span-12 lg:col-span-9 project-text lg:order-last">
 <div>
 
 ## We created a network system architecture to provide simple access and sophisticated tools to researchers and members of the public interested in Australia’s rich cultural heritage
@@ -55,4 +36,26 @@ In particular, it can provide insights that more limiting, traditional keyword s
 
 </div>
 </div>
+
+
+<div class="col-span-12 lg:col-span-3 icons-sidebar">
+<div>
+<img src="/Projects/Icons/4_Deakin_Universitys_Humanities_Network_Infrastructure/A_digital_network_of_information.svg" />
+
+##### A digital network of information
+</div>
+
+<div>
+<img src="/Projects/Icons/4_Deakin_Universitys_Humanities_Network_Infrastructure/Aggregation_of_Australias_rich_cultural_heritage.svg" />
+
+##### Aggregation of Australia’s rich cultural heritage
+</div>
+
+<div class="icons-sidebar-last">
+<img src="/Projects/Icons/4_Deakin_Universitys_Humanities_Network_Infrastructure/2_million_records.svg" />
+
+##### 2 million records
+</div>
+</div>
+
 </div>

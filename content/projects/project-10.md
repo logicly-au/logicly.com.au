@@ -10,27 +10,8 @@ category: Education
     <img src="/Projects/Images/11_Victorian_Department_of_Education_and_Training/Victorian-Department-of-Education-and-Training-students-looking-up-to-teacher.jpg" />
 </div>
 
-<div class="col-span-3 icons-sidebar">
-<div>
-<img src="/Projects/Icons/11_Victorian_Department_of_Education_and_Training/Large_scale_statewide_data_collection.svg" />
 
-##### Large scale, statewide data collection
-</div>
-
-<div>
-<img src="/Projects/Icons/11_Victorian_Department_of_Education_and_Training/High_level_of_security_to_ensure_personal_data.svg" />
-
-##### High level of security to ensure personal data are safely handled
-</div>
-
-<div class="icons-sidebar-last">
-<img src="/Projects/Icons/11_Victorian_Department_of_Education_and_Training/Full_service_support.svg" />
-
-##### Full service support throughout collection period
-</div>
-</div>
-
-<div class="col-span-9 project-text">
+<div class="col-span-12 lg:col-span-9 project-text lg:order-last">
 <div>
 
 ## We designed and implemented a simple and robust data collection solution for gathering a statewide census
@@ -55,7 +36,28 @@ In spite of the restricted timeframes, the designed solution was successfully im
 
 The DET continued to use the Logicly online survey system routinely to gather insights needed for early-learning strategy and policy.
 
+</div>
+</div>
 
+
+<div class="col-span-12 lg:col-span-3 icons-sidebar">
+<div>
+<img src="/Projects/Icons/11_Victorian_Department_of_Education_and_Training/Large_scale_statewide_data_collection.svg" />
+
+##### Large scale, statewide data collection
+</div>
+
+<div>
+<img src="/Projects/Icons/11_Victorian_Department_of_Education_and_Training/High_level_of_security_to_ensure_personal_data.svg" />
+
+##### High level of security to ensure personal data are safely handled
+</div>
+
+<div class="icons-sidebar-last">
+<img src="/Projects/Icons/11_Victorian_Department_of_Education_and_Training/Full_service_support.svg" />
+
+##### Full service support throughout collection period
 </div>
 </div>
+
 </div>

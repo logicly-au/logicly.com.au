@@ -9,27 +9,8 @@ category: Non-Government
     <img src="/Projects/Images/12_Youth_and_Family_Support_Organisation/Youth-and-Family-Support-Organisation-coworkers-looking-at-laptop-graph.jpg" />
 </div>
 
-<div class="col-span-3 icons-sidebar">
-<div>
-<img src="/Projects/Icons/12_Youth_and_Family_Support_Organisation/Complex_data_sets.svg" />
 
-##### Complex data sets
-</div>
-
-<div>
-<img src="/Projects/Icons/12_Youth_and_Family_Support_Organisation/Flexible_adaptable_responsive_to_new_insights.svg" />
-
-##### Flexible, adaptable and responsive to new insights
-</div>
-
-<div class="icons-sidebar-last">
-<img src="/Projects/Icons/12_Youth_and_Family_Support_Organisation/Secure_information_management.svg" />
-
-##### Secure information management
-</div>
-</div>
-
-<div class="col-span-9 project-text">
+<div class="col-span-12 lg:col-span-9 project-text lg:order-last">
 <div>
 
 ## We created a data analysis solution that could be adapted to better capture new insights with clarity as they emerged.
@@ -57,7 +38,28 @@ Once the solution was implemented and analysis began, a clearer picture of the p
 
 Logicly’s adaptive design meant it was possible to respond to the new insights and changed circumstances. It could be adjusted as needed to further enrich the value of the information, even as it was gathered.
 
+</div>
+</div>
 
+
+<div class="col-span-12 lg:col-span-3 icons-sidebar">
+<div>
+<img src="/Projects/Icons/12_Youth_and_Family_Support_Organisation/Complex_data_sets.svg" />
+
+##### Complex data sets
+</div>
+
+<div>
+<img src="/Projects/Icons/12_Youth_and_Family_Support_Organisation/Flexible_adaptable_responsive_to_new_insights.svg" />
+
+##### Flexible, adaptable and responsive to new insights
+</div>
+
+<div class="icons-sidebar-last">
+<img src="/Projects/Icons/12_Youth_and_Family_Support_Organisation/Secure_information_management.svg" />
+
+##### Secure information management
 </div>
 </div>
+
 </div>

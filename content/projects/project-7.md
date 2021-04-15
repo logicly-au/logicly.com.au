@@ -9,27 +9,8 @@ category: Government
     <img src="/Projects/Images/8_Department_of_health/Department-of-health-increasing-the-spread-of-the-online-vlidator-process.jpg" />
 </div>
 
-<div class="col-span-3 icons-sidebar">
-<div>
-<img src="/Projects/Icons/8_Department_of_health/Identify_data_issues_and_errors.svg" />
 
-##### Identify data issues and errors
-</div>
-
-<div>
-<img src="/Projects/Icons/8_Department_of_health/Analysing_historical_trends.svg" />
-
-##### Analysing historical trends
-</div>
-
-<div class="icons-sidebar-last">
-<img src="/Projects/Icons/8_Department_of_health/AA_Level_compliant.svg" />
-
-##### AA level compliant
-</div>
-</div>
-
-<div class="col-span-9 project-text">
+<div class="col-span-12 lg:col-span-9 project-text lg:order-last">
 <div>
 
 ## A robust online tool to validate and transfer large amounts of government-to-government data safely.
@@ -66,7 +47,28 @@ It is extremely secure, with a system classified as ‘Protected’ by the Austr
 
 It is also compliant with WCAG 2.0 guidelines at the AA level, meeting the Government’s obligations under the Australian Government’s Information Management Office’s Website Accessibility National Transition Strategy (NTS).
 
+</div>
+</div>
 
+
+<div class="col-span-12 lg:col-span-3 icons-sidebar">
+<div>
+<img src="/Projects/Icons/8_Department_of_health/Identify_data_issues_and_errors.svg" />
+
+##### Identify data issues and errors
+</div>
+
+<div>
+<img src="/Projects/Icons/8_Department_of_health/Analysing_historical_trends.svg" />
+
+##### Analysing historical trends
+</div>
+
+<div class="icons-sidebar-last">
+<img src="/Projects/Icons/8_Department_of_health/AA_Level_compliant.svg" />
+
+##### AA level compliant
 </div>
 </div>
+
 </div>

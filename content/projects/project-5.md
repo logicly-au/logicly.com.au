@@ -9,27 +9,8 @@ category: Government
     <img src="/Projects/Images/6_Department_of_Health_Primary_Mental_Health_Care_Minimum_Dataset/Department-of-Health-Primary-Mental-Health-Care-Minimum-Dataset-coworkers-on-table.jpg" />
 </div>
 
-<div class="col-span-3 icons-sidebar">
-<div>
-<img src="/Projects/Icons/6_Department_of_Health_Primary_Mental_Health_Care_Minimum_Dataset/Outcome_measures_online_version.svg" />
 
-##### Outcome measures (online version)
-</div>
-
-<div>
-<img src="/Projects/Icons/6_Department_of_Health_Primary_Mental_Health_Care_Minimum_Dataset/Complex_data_into_simplified_reports.svg" />
-
-##### Complex data into simplified reports
-</div>
-
-<div class="icons-sidebar-last">
-<img src="/Projects/Icons/6_Department_of_Health_Primary_Mental_Health_Care_Minimum_Dataset/Secure_data_collection_and_management.svg" />
-
-##### Secure data collection and management
-</div>
-</div>
-
-<div class="col-span-9 project-text">
+<div class="col-span-12 lg:col-span-9 project-text lg:order-last">
 <div>
 
 ## We developed a secure and complex data management system that works for all stakeholders and their needs
@@ -86,7 +67,28 @@ Logicly is a longtime partner of the DoH, having worked with them on numerous pr
   </ul>
 </div>
 
+</div>
+</div>
 
+
+<div class="col-span-12 lg:col-span-3 icons-sidebar">
+<div>
+<img src="/Projects/Icons/6_Department_of_Health_Primary_Mental_Health_Care_Minimum_Dataset/Outcome_measures_online_version.svg" />
+
+##### Outcome measures (online version)
+</div>
+
+<div>
+<img src="/Projects/Icons/6_Department_of_Health_Primary_Mental_Health_Care_Minimum_Dataset/Complex_data_into_simplified_reports.svg" />
+
+##### Complex data into simplified reports
+</div>
+
+<div class="icons-sidebar-last">
+<img src="/Projects/Icons/6_Department_of_Health_Primary_Mental_Health_Care_Minimum_Dataset/Secure_data_collection_and_management.svg" />
+
+##### Secure data collection and management
 </div>
 </div>
+
 </div>

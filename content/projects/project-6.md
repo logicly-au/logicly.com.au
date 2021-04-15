@@ -10,27 +10,8 @@ category: Government
     <img src="/Projects/Images/7_Australian_Mental_Health_Outcome_and_Classification_Network_(AMHOCN)/AMHOCN-coworkers-meeting-with-coworker-online.jpg" />
 </div>
 
-<div class="col-span-3 icons-sidebar">
-<div>
-<img src="/Projects/Icons/7_Australian_Mental_Health_Outcome_and_Classification_Network_(AMHOCN)/Reporting_and_analysing_outcomes_and_variables.svg" />
 
-##### Reporting and analysing outcomes and variables
-</div>
-
-<div>
-<img src="/Projects/Icons/7_Australian_Mental_Health_Outcome_and_Classification_Network_(AMHOCN)/Collaboration_of_3_organisations.svg" />
-
-##### Collaboration of 3 organisations
-</div>
-
-<div class="icons-sidebar-last">
-<img src="/Projects/Icons/7_Australian_Mental_Health_Outcome_and_Classification_Network_(AMHOCN)/Access_for_clinicians.svg" />
-
-##### Access for clinicians
-</div>
-</div>
-
-<div class="col-span-9 project-text">
+<div class="col-span-12 lg:col-span-9 project-text lg:order-last">
 <div>
 
 ## We created the AMHOCN in 2003 for the Department of Health, and continue to shape and maintain it to provide an essential tool for improving mental health in Australia.
@@ -85,7 +66,27 @@ It’s a robust, strategically-designed system that for over 15 years has contin
 
 It will continue to help shape better mental health outcomes for Australia into the future by consistently delivering clear, accurate insights from raw, complex, data.
 
+</div>
+</div>
 
+
+<div class="col-span-12 lg:col-span-3 icons-sidebar">
+<div>
+<img src="/Projects/Icons/7_Australian_Mental_Health_Outcome_and_Classification_Network_(AMHOCN)/Reporting_and_analysing_outcomes_and_variables.svg" />
+
+##### Reporting and analysing outcomes and variables
+</div>
+
+<div>
+<img src="/Projects/Icons/7_Australian_Mental_Health_Outcome_and_Classification_Network_(AMHOCN)/Collaboration_of_3_organisations.svg" />
+
+##### Collaboration of 3 organisations
+</div>
+
+<div class="icons-sidebar-last">
+<img src="/Projects/Icons/7_Australian_Mental_Health_Outcome_and_Classification_Network_(AMHOCN)/Access_for_clinicians.svg" />
+
+##### Access for clinicians
 </div>
 </div>
 </div>

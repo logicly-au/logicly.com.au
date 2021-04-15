@@ -9,27 +9,8 @@ category: Government
     <img src="/Projects/Images/9_Department_of_Planning_and_Community’s_Growth_Areas_Authority_(GAA)/Department-of-Planning-and-Community’s-Growth-Areas-Authority-women-working-on-whiteboard.jpg" />
 </div>
 
-<div class="col-span-3 icons-sidebar">
-<div>
-<img src="/Projects/Icons/9_Department_of_Planning_and_Community’s_Growth_Areas_Authority_(GAA)/Receive_and_manage_documents_from_the_public.svg" />
 
-##### Recieve and manage documents from the public
-</div>
-
-<div>
-<img src="/Projects/Icons/9_Department_of_Planning_and_Community’s_Growth_Areas_Authority_(GAA)/Trach_files_and_users.svg" />
-
-##### Track files and users
-</div>
-
-<div class="icons-sidebar-last">
-<img src="/Projects/Icons/9_Department_of_Planning_and_Community’s_Growth_Areas_Authority_(GAA)/Tight_deadlines.svg" />
-
-##### Tight deadlines with a phased approach
-</div>
-</div>
-
-<div class="col-span-9 project-text">
+<div class="col-span-12 lg:col-span-9 project-text lg:order-last">
 <div>
 
 ## We developed a flexible data solution for managing public consultation and feedback to support sustainable urban growth in Victoria.
@@ -62,7 +43,27 @@ Logicly’s approach to close stakeholder collaboration and our experience worki
 
 The resulting public consultation system was delivered within the project timelines, and was used to successfully process more than 2000 responses.
 
+</div>
+</div>
 
+
+<div class="col-span-12 lg:col-span-3 icons-sidebar">
+<div>
+<img src="/Projects/Icons/9_Department_of_Planning_and_Community’s_Growth_Areas_Authority_(GAA)/Receive_and_manage_documents_from_the_public.svg" />
+
+##### Recieve and manage documents from the public
+</div>
+
+<div>
+<img src="/Projects/Icons/9_Department_of_Planning_and_Community’s_Growth_Areas_Authority_(GAA)/Trach_files_and_users.svg" />
+
+##### Track files and users
+</div>
+
+<div class="icons-sidebar-last">
+<img src="/Projects/Icons/9_Department_of_Planning_and_Community’s_Growth_Areas_Authority_(GAA)/Tight_deadlines.svg" />
+
+##### Tight deadlines with a phased approach
 </div>
 </div>
 </div>

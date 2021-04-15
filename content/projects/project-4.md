@@ -19,29 +19,10 @@ category: Government
   </div>
 </div>
 
-<div class="col-span-3 icons-sidebar">
+
+<div class="col-span-12 lg:col-span-9 project-text lg:order-last">
 <div>
-<img src="/Projects/Icons/5_Queensland_Department_of_Transport_and_Main_Roads/Responsive_digital_interfaces.svg" />
-
-##### Responsive digital interfaces
-</div>
-
-<div>
-<img src="/Projects/Icons/5_Queensland_Department_of_Transport_and_Main_Roads/Evolving_interface_based_on_data_insights.svg" />
-
-##### Evolving interface based on data insights
-</div>
-
-<div class="icons-sidebar-last">
-<img src="/Projects/Icons/5_Queensland_Department_of_Transport_and_Main_Roads/Secure_data_collection_and_management.svg" />
-
-##### Secure data collection and management
-</div>
-</div>
-
-<div class="col-span-9 project-text">
-<div>
-<div style="margin-top:-1.25rem;">
+<div class="project-text-h4">
 
 ### The information challenge
 The Queensland Department of Transport and Main Roads (TMR) uses large quantities of survey data to understand future growth and demand, and to inform infrastructure and public transport projects.
@@ -63,32 +44,32 @@ Logicly consulted with subject-matter experts and facilitated stakeholder worksh
 
 Through a highly collaborative and iterative approach, we drew on extensive experience with complex information systems to develop, test, and refine the data solution.
 
-<div class="grid grid-cols-8">
-  <div class="col-span-8">
+<div class="grid grid-cols-12">
+  <div class="col-span-12">
     The components were delivered in phases:
   </div>
-  <div class="col-span-1">
+  <div class="col-span-3 md:col-span-2">
     <span style="font-weight:800">Phase 1</span>
   </div>
-  <div class="col-span-7">
+  <div class="col-span-9 md:col-span-10">
     Design, user testing and delivery of an HTML prototype of the online survey
   </div>
-  <div class="col-span-1">
+  <div class="col-span-3 md:col-span-2">
     <span style="font-weight:800">Phase 2</span>
   </div>
-  <div class="col-span-7">
+  <div class="col-span-9 md:col-span-10">
     Delivery of the TMR Tertiary Student Travel Survey (2016) across three University campuses
   </div>
-  <div class="col-span-1">
+  <div class="col-span-3 md:col-span-2">
     <span style="font-weight:800">Phase 3</span>
   </div>
-  <div class="col-span-7">
+  <div class="col-span-9 md:col-span-10">
     Modification of the Tertiary Student Travel Survey to form the user interface for household data collection (SEQTS)
   </div>
-  <div class="col-span-1">
+  <div class="col-span-3 md:col-span-2">
     <span style="font-weight:800">Phase 4</span>
   </div>
-  <div class="col-span-7">
+  <div class="col-span-9 md:col-span-10">
     Design, user testing and delivery of the administration interface
   </div>
 </div>
@@ -103,4 +84,26 @@ In addition, completion and participation rates have each improved significantly
 </div>
 </div>
 </div>
+
+
+<div class="col-span-12 lg:col-span-3 icons-sidebar">
+<div>
+<img src="/Projects/Icons/5_Queensland_Department_of_Transport_and_Main_Roads/Responsive_digital_interfaces.svg" />
+
+##### Responsive digital interfaces
+</div>
+
+<div>
+<img src="/Projects/Icons/5_Queensland_Department_of_Transport_and_Main_Roads/Evolving_interface_based_on_data_insights.svg" />
+
+##### Evolving interface based on data insights
+</div>
+
+<div class="icons-sidebar-last">
+<img src="/Projects/Icons/5_Queensland_Department_of_Transport_and_Main_Roads/Secure_data_collection_and_management.svg" />
+
+##### Secure data collection and management
+</div>
+</div>
+
 </div>

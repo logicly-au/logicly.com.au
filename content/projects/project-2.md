@@ -10,27 +10,8 @@ category: Research
     <img src="/Projects/Images/3_UoM_Medical_School’s_Department_of_General_Practice/University-of-melbourne-medical-school-department-of-general-practice.jpg" />
 </div>
 
-<div class="col-span-3 icons-sidebar">
-<div>
-<img src="/Projects/Icons/3_UoM_Medical_School’s_Department_of_General_Practice/13000_respondents.svg" />
 
-##### 13,000 respondents
-</div>
-
-<div>
-<img src="/Projects/Icons/3_UoM_Medical_School’s_Department_of_General_Practice/Implementation_across_multiple_states.svg" />
-
-##### Implementation across multiple states
-</div>
-
-<div class="icons-sidebar-last">
-<img src="/Projects/Icons/3_UoM_Medical_School’s_Department_of_General_Practice/Ongoing_client_support_and_hosting.svg" />
-
-##### Ongoing client support and hosting
-</div>
-</div>
-
-<div class="col-span-9 project-text">
+<div class="col-span-12 lg:col-span-9 project-text lg:order-last">
 <div>
 
 ## We designed and implemented a rigorous nation-wide trial of a new digital health tool prototype.
@@ -62,4 +43,26 @@ The project was a success, with more than 13,000 respondents across multiple sta
 
 </div>
 </div>
+
+
+<div class="col-span-12 lg:col-span-3 icons-sidebar">
+<div>
+<img src="/Projects/Icons/3_UoM_Medical_School’s_Department_of_General_Practice/13000_respondents.svg" />
+
+##### 13,000 respondents
+</div>
+
+<div>
+<img src="/Projects/Icons/3_UoM_Medical_School’s_Department_of_General_Practice/Implementation_across_multiple_states.svg" />
+
+##### Implementation across multiple states
+</div>
+
+<div class="icons-sidebar-last">
+<img src="/Projects/Icons/3_UoM_Medical_School’s_Department_of_General_Practice/Ongoing_client_support_and_hosting.svg" />
+
+##### Ongoing client support and hosting
+</div>
+</div>
+
 </div>

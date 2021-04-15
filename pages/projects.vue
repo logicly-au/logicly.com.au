@@ -29,7 +29,7 @@
     </page-section>
 
     <page-section>
-      <div class="grid grid-cols-12 border-t-2 border-b-2 border-logiclyorange pt-6">
+      <div class="grid grid-cols-12 border-t-2 border-b-2 border-logiclyorange pt-6 -mb-16">
         <div class="col-span-4 font-extrabold text-lg">
           {{ activeTab }}
           projects
@@ -130,6 +130,7 @@ h5 {
 .articles {
   padding-bottom: 4em;
 }
+
 .articles-active {
   color: orange;
 }
@@ -160,11 +161,17 @@ li > a > div > img {
   border-bottom: 2px solid #dedede;
 }
 
+@media only screen and (max-width: 1024px) {
+  .icons-sidebar-last {
+    border-bottom:0px;
+  }
+}
+
 .icons-sidebar img {
   margin:auto;
   height:4.5rem;
-  padding-bottom:0.5rem;
-
+  padding:0.5rem;
+  margin-bottom:0.5rem;
 }
 
 .project-images img {
@@ -175,8 +182,38 @@ li > a > div > img {
   margin-bottom:4rem;
 }
 
+@media only screen and (max-width: 1024px) {
+  .project-images {
+    margin-bottom:2rem;
+  }
+}
+
 .project-image-secondrow {
   height:21rem;
+}
+
+@media only screen and (max-width: 1280px) {
+  .project-image-secondrow {
+    height:16rem;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .project-image-secondrow {
+    height:12rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .project-image-secondrow {
+    height:10rem;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .project-image-secondrow {
+    height:9.5rem;
+  }
 }
 
 .projects-list ul li::before {
@@ -188,6 +225,13 @@ li > a > div > img {
   padding-bottom:5rem;
 }
 
+@media only screen and (max-width: 1024px) {
+  .project-text {
+    margin-left:0rem;
+    padding-bottom:3rem;
+  }
+}
+
 .project-text p {
   padding-bottom:0.5rem;
 }
@@ -195,6 +239,16 @@ li > a > div > img {
 .project-text-list ul li {
   list-style:disc;
   margin-left:1.25rem;
+}
+
+.project-text-h4 {
+  margin-top:-1.25rem;
+}
+
+@media only screen and (max-width: 1024px) {
+  .project-text-h4 {
+    margin-top:-1.25rem;
+  }
 }
 
 </style>
