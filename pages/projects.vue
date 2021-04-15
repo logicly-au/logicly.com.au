@@ -28,19 +28,49 @@
       </vue-tabs>
     </page-section>
 
-    <page-section class="projects-section">
-      <div class="grid grid-cols-12 border-t-2 border-b-2 border-logiclyorange">
-        <div class="col-span-4">
+    <page-section>
+      <div class="grid grid-cols-12 pt-6 -mb-16 border-t-2 border-b-2 border-logiclyorange">
+
+        <div class="hidden col-span-4 text-lg font-extrabold xl:block">
           {{ activeTab }}
           projects
         </div>
-        <div class="col-span-8 projects-list">
+
+        <!-- TODO Add mobile version of project-list -->
+        <!-- Project list mobile -->
+        <div class="col-span-12 xl:hidden">
           <ul class='articles'>
             <li @click="setActiveArticle(index)" v-for="(article, index) in articles" :class="{ 'articles-active': isActiveArticle(index) }">
-              {{ article.title }}
+              <div class="grid grid-cols-12 pb-2">
+                <div class="col-span-1 ml-2 -mt-1 text-2xl">
+                  >
+                </div>
+                <div class="col-span-11">
+                  <span class="font-extrabold">{{ article.title }}</span></br>
+                  <span class="font-light">{{ article.description }}</span>
+                </div>
+              </div>
             </li>
           </ul>
         </div>
+
+        <!-- Project list desktop -->
+        <div class="hidden col-span-8 xl:block projects-list">
+          <ul class='articles'>
+            <li @click="setActiveArticle(index)" v-for="(article, index) in articles" :class="{ 'articles-active': isActiveArticle(index) }">
+              <div class="grid grid-cols-12 pb-2">
+                <div class="col-span-1 ml-2 -mt-1 text-2xl">
+                  >
+                </div>
+                <div class="col-span-11">
+                  <span class="font-extrabold">{{ article.title }}</span></br>
+                  <span class="font-light">{{ article.description }}</span>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+
         <div class="col-span-12">
           <nuxt-content :document="activeArticle" />
         </div>
@@ -104,21 +134,36 @@ export default {
 
 <style>
 
-.projects-section h2 {
-font-weight:700;
+h2 {
+  font-weight:400;
+  font-size:1.25rem;
 }
 
-.projects-section h3 {
-  font-size:2rem;
-  font-weight:700;
+h3 {
+  padding-top:1.25rem;
+  padding-bottom:0.25rem;
+  font-size:1.25rem;
+  font-weight:800;
 }
 
-  .articles {
-    padding: 1em;
-  }
-  .articles-active {
-    color: orange;
-  }
+h4 {
+  font-weight:800;
+  font-size:1rem;
+  margin-top:0.5rem;
+}
+
+h5 {
+  font-weight:800;
+  font-size:0.85em;
+}
+
+.articles {
+  padding-bottom: 4em;
+}
+
+.articles-active {
+  color: #E94E1B;
+}
 
 ul.nav.nav-tabs {
   display:flex;
@@ -130,22 +175,106 @@ li > a > div > img {
   margin-bottom:0.5rem;
 }
 
+.icons-sidebar {
+  margin-top:0.5rem;
+}
+
 .icons-sidebar div {
   border-top: 2px solid #dedede;
-  padding:1rem;
+  padding-top:1.75rem;
+  padding-bottom:1.75rem;
   margin-right:1rem;
+  text-align:center;
+}
+
+.icons-sidebar-last {
+  border-bottom: 2px solid #dedede;
+}
+
+@media only screen and (max-width: 1024px) {
+  .icons-sidebar-last {
+    border-bottom:0px;
+  }
 }
 
 .icons-sidebar img {
-    width:4rem;
+  margin:auto;
+  height:4.5rem;
+  padding:0.5rem;
+  margin-bottom:0.5rem;
 }
 
 .project-images img {
   margin-bottom:1rem;
 }
 
-.projects-list ul li::before {
-  content: "> ";
+.project-images {
+  margin-bottom:4rem;
+}
+
+@media only screen and (max-width: 1024px) {
+  .project-images {
+    margin-bottom:2rem;
+  }
+}
+
+.project-image-secondrow {
+  height:21rem;
+}
+
+@media only screen and (max-width: 1280px) {
+  .project-image-secondrow {
+    height:16rem;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .project-image-secondrow {
+    height:12rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .project-image-secondrow {
+    height:10rem;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .project-image-secondrow {
+    height:9.5rem;
+  }
+}
+
+.project-text {
+  margin-left:2rem;
+  padding-bottom:5rem;
+}
+
+@media only screen and (max-width: 1024px) {
+  .project-text {
+    margin-left:0rem;
+    padding-bottom:3rem;
+  }
+}
+
+.project-text p {
+  padding-bottom:0.5rem;
+}
+
+.project-text-list ul li {
+  list-style:disc;
+  margin-left:1.25rem;
+}
+
+.project-text-h4 {
+  margin-top:-1.25rem;
+}
+
+@media only screen and (max-width: 1024px) {
+  .project-text-h4 {
+    margin-top:-1.25rem;
+  }
 }
 
 </style>
