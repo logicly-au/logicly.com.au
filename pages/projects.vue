@@ -36,6 +36,8 @@
           projects
         </div>
 
+        <!-- TODO Add mobile version of project-list -->
+        <!-- Project list mobile -->
         <div class="xl:hidden col-span-12">
           <ul class='articles'>
             <li @click="setActiveArticle(index)" v-for="(article, index) in articles" :class="{ 'articles-active': isActiveArticle(index) }">
@@ -52,7 +54,7 @@
           </ul>
         </div>
 
-
+        <!-- Project list desktop -->
         <div class="hidden xl:block col-span-8 projects-list">
           <ul class='articles'>
             <li @click="setActiveArticle(index)" v-for="(article, index) in articles" :class="{ 'articles-active': isActiveArticle(index) }">
@@ -244,8 +246,6 @@ li > a > div > img {
   }
 }
 
-
-
 .project-text {
   margin-left:2rem;
   padding-bottom:5rem;
@@ -276,7 +276,5 @@ li > a > div > img {
     margin-top:-1.25rem;
   }
 }
-
-
 
 </style>
