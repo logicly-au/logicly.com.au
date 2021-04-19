@@ -3,7 +3,7 @@ i <template>
 
     <div class="grid grid-rows-5 grid-cols-8 w-full h-full">
      <div class="row-start-4 row-span-2 col-start-5 col-span-4 md:col-start-5 md:col-span-3 2xl:col-start-5 2xl:col-span-2">
-       <h1 class="text-white text-xl lg:text-2xl font-extrabold px-4 pt-4">{{ heading }}</h1>
+       <h1 class="text-white text-xl lg:text-2xl font-semibold px-4 pt-4">{{ heading }}</h1>
      </div>
    </div>
 

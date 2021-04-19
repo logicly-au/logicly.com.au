@@ -9,7 +9,7 @@
     />
 
     <page-section altrow>
-      <h2 class="text-2xl font-extrabold text-center text-logiclytextgrey">
+      <h2 class="text-2xl font-semibold text-center text-logiclytextgrey">
         Our diverse projects are from a range of sectors
       </h2>
     </page-section>
@@ -31,7 +31,7 @@
     <page-section>
       <div class="grid grid-cols-12 pt-6 -mb-16 border-t-2 border-b-2 border-logiclyorange">
 
-        <div class="hidden col-span-4 text-lg font-extrabold xl:block">
+        <div class="hidden col-span-4 text-xl font-semibold xl:block">
           {{ activeTab }}
           projects
         </div>
@@ -46,7 +46,7 @@
                   >
                 </div>
                 <div class="col-span-11">
-                  <span class="font-extrabold">{{ article.title }}</span></br>
+                  <span class="font-semibold">{{ article.title }}</span></br>
                   <span class="font-light">{{ article.description }}</span>
                 </div>
               </div>
@@ -59,11 +59,11 @@
           <ul class='articles'>
             <li @click="setActiveArticle(index)" v-for="(article, index) in articles" :class="{ 'articles-active': isActiveArticle(index) }">
               <div class="grid grid-cols-12 pb-2">
-                <div class="col-span-1 ml-2 -mt-1 text-2xl">
+                <div class="col-span-1 ml-2 -mt-1 font-light text-2xl">
                   >
                 </div>
-                <div class="col-span-11">
-                  <span class="font-extrabold">{{ article.title }}</span></br>
+                <div class="col-span-10 col-start-2">
+                  <span class="font-semibold">{{ article.title }}</span></br>
                   <span class="font-light">{{ article.description }}</span>
                 </div>
               </div>
@@ -134,6 +134,11 @@ export default {
 
 <style>
 
+p {
+  font-weight:300;
+  font-size:1rem;
+}
+
 h2 {
   font-weight:400;
   font-size:1.25rem;
@@ -143,18 +148,22 @@ h3 {
   padding-top:1.25rem;
   padding-bottom:0.25rem;
   font-size:1.25rem;
-  font-weight:800;
+  font-weight:600;
 }
 
 h4 {
-  font-weight:800;
+  font-weight:600;
   font-size:1rem;
   margin-top:0.5rem;
 }
 
 h5 {
-  font-weight:800;
+  font-weight:500;
   font-size:0.85em;
+}
+
+.project-4-style {
+  font-weight:300;
 }
 
 .articles {
@@ -265,6 +274,7 @@ li > a > div > img {
 .project-text-list ul li {
   list-style:disc;
   margin-left:1.25rem;
+  font-weight:300;
 }
 
 .project-text-h4 {

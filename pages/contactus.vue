@@ -13,7 +13,7 @@
     <page-section>
       <div class="grid grid-cols-5">
         <div class="self-center col-span-5 mx-12 lg:mx-0 pt-12 lg:pt-20">
-          <h2 class="text-2xl font-extrabold text-center text-logiclytextgrey">Start the conversation about how we can help</h2>
+          <h2 class="text-2xl font-semibold text-center text-logiclytextgrey">Start the conversation about how we can help</h2>
         </div>
       </div>
       <div class="grid grid-cols-3 gap-x-10 my-6 lg:my-12">
@@ -24,7 +24,7 @@
             </div>
           </div>
           <div>
-            <p class="text-xl font-extrabold text-center text-logiclytextgrey mt-2">
+            <p class="text-xl font-medium text-center text-logiclytextgrey mt-2">
               Call us
             </p>
             <hr class="hidden lg:block w-full mx-auto border border-logiclyorange mt-6">
@@ -46,7 +46,7 @@
             </div>
           </div>
           <div>
-            <p class="text-xl font-extrabold text-center text-logiclytextgrey mt-2">
+            <p class="text-xl font-medium text-center text-logiclytextgrey mt-2">
               Email us
             </p>
             <hr class="hidden lg:block w-full mx-auto border border-logiclyorange mt-6">
@@ -68,13 +68,13 @@
             </div>
           </div>
           <div>
-            <p class="text-xl font-extrabold text-logiclytextgrey text-center mt-2">
+            <p class="text-xl font-medium text-logiclytextgrey text-center mt-2">
               Mail us
             </p>
             <hr class="hidden lg:block w-full mx-auto border border-logiclyorange mt-6">
           </div>
           <div>
-            <p class="font-light text-center text-logiclytextgrey mt-2 lg:-mt-2">
+            <p class="text-center text-logiclytextgrey mt-2 lg:-mt-2">
               PO Box 1166, Carlton, <br>
               Victoria, Australia 3053
             </p>
@@ -96,11 +96,11 @@
             <div class="grid grid-cols-1 grid-rows-4 p-5 lg:grid-cols-3 lg:gap-5 gap-x-12">
 
                 <div class="grid grid-cols-1 col-span-1 row-start-1 pt-8 lg:row-start-2 lg:pt-0">
-                  <p class="font-extrabold text-left text-logiclytextgrey text-xl">
+                  <p class="font-semibold text-left text-logiclytextgrey text-xl">
                     Visit us
                   </p>
                   <hr class="w-full border border-logiclyorange lg:w-2/3">
-                  <p class="pb-8 font-light text-logiclytextgrey text-left">
+                  <p class="pb-8 text-logiclytextgrey text-left">
                     2nd floor <br>
                     51 – 55 Johnston Street, <br>
                     Fitzroy, Victoria, <br>

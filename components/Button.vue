@@ -1,6 +1,6 @@
 i <template>
 
-    <button class="block w-40 h-12 my-5 text-center text-white bg-logiclyorange">
+    <button class="block w-40 h-12 my-5 text-center text-white font-medium bg-logiclyorange">
       <NuxtLink :to="buttonlink">{{ buttontext }}</NuxtLink>
     </button>
 

@@ -22,7 +22,7 @@
     <page-section>
       <div class="grid grid-cols-8 px-0 gap-x-4 text-logiclytextgrey md:px-4 xl:px-6">
         <div class="col-span-8 mb-8 text-center lg:col-span-6 lg:col-start-2 xl:col-span-8">
-          <h1 class="text-2xl font-extrabold text-center text-logiclytextgrey">Information and digital needs come in all different forms</h1>
+          <h1 class="text-2xl font-semibold text-center text-logiclytextgrey">Information and digital needs come in all different forms</h1>
         </div>
         <div class="col-span-8 col-start-1 lg:col-span-4 text-logiclytextgrey">
           <ul class="text-base leading-relaxed list-disc lg:text-sm">
@@ -53,7 +53,7 @@
 
     <page-section>
       <div class="text-logiclytextgrey">
-        <h2 class="mb-10 text-2xl font-extrabold text-center xl:mb-16">Meeting the internal and external needs of different industries</h2>
+        <h2 class="mb-10 text-2xl font-semibold text-center xl:mb-16">Meeting the internal and external needs of different industries</h2>
         <vsa-list>
           <!-- Here you can use v-for to loop through items  -->
           <vsa-item>

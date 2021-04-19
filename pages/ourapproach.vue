@@ -37,7 +37,7 @@
     />
 
     <Hero
-    subheading="It’s like a puzzle, gathering and piecing together all the information with clarity"
+    heading="It’s like a puzzle, gathering and piecing together all the information with clarity"
     background-url="/Gathering-and-piecing-together-all-the-information-with-clarity.png"
     />
 

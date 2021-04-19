@@ -2,12 +2,12 @@ i <template>
 <page-section :altrow="altrow">
   <div class="object-contain object-center w-full text-logiclytextgrey">
       <div class="pt-6 lg:pt-12 mx-0 md:mx-0">
-        <h2 class="text-2xl font-extrabold text-center">{{ heading }}</h2>
+        <h2 class="text-2xl font-semibold text-center">{{ heading }}</h2>
       </div>
       <div class="my-8 lg:my-12 -mx-0 lg:-mx-16 xl:-mx-0">
           <div class="grid grid-cols-1 lg:grid-cols-3 gap-0 lg:gap-6 lg:pb-16">
             <div class="col-span-1 pb-8 lg:pb-0">
-              <p class="text-xl font-extrabold pb-2">
+              <p class="text-lg font-semibold pb-2">
                 {{ subheading1 }}
               </p>
               <p class="font-light pb-1">
@@ -19,7 +19,7 @@ i <template>
             </div>
 
             <div class="col-span-1 pb-8 lg:pb-0">
-              <p class="text-xl font-extrabold pb-2">
+              <p class="text-lg font-semibold pb-2">
                 {{ subheading2 }}
               </p>
               <p class="font-light pb-1">
@@ -31,7 +31,7 @@ i <template>
             </div>
 
             <div class="col-span-1 pb-8 lg:pb-0">
-              <p class="text-xl font-extrabold pb-2">
+              <p class="text-lg font-semibold pb-2">
                 {{ subheading3 }}
               </p>
               <p class="font-light pb-1">
@@ -45,7 +45,7 @@ i <template>
 
           <div class="grid grid-cols-1 lg:grid-cols-3 gap-0 lg:gap-6 lg:pb-20">
             <div class="col-span-1 pb-8 lg:pb-0">
-              <p class="text-xl font-extrabold pb-2">
+              <p class="text-lg font-semibold pb-2">
                 {{ subheading4 }}
               </p>
               <p class="font-light pb-1">
@@ -57,7 +57,7 @@ i <template>
             </div>
 
             <div class="col-span-1 pb-8 lg:pb-0">
-              <p class="text-xl font-extrabold pb-2">
+              <p class="text-lg font-semibold pb-2">
                 {{ subheading5 }}
               </p>
               <p class="font-light pb-1">
@@ -69,7 +69,7 @@ i <template>
             </div>
 
             <div class="col-span-1 pb-6 lg:pb-0">
-              <p class="text-xl font-extrabold pb-2">
+              <p class="text-lg font-semibold pb-2">
                 {{ subheading6 }}
               </p>
               <p class="font-light pb-1">
