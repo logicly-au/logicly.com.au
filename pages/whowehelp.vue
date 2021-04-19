@@ -293,6 +293,7 @@
 .vsa-item__trigger__icon--is-default {
   width:48px!important;
 }
+
 .vsa-list {
   max-width:100%;
   border:none;
@@ -306,10 +307,11 @@
 .vsa-item__trigger:hover {
   background-color:#e84e1b!important;
   color:white!important;
+  margin-bottom: -1px;
 }
 
 .vsa-item--is-active .vsa-item__heading {
-  border-bottom:none!important
+  border-bottom:none!important;
 }
 
 .vsa-item__trigger__icon--is-default::before, .vsa-item__trigger__icon--is-default::after {
