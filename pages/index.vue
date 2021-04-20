@@ -201,17 +201,26 @@
         </div>
 
         <div class="grid content-end col-span-2 px-2 pt-4 pb-10 mx-4 lg:col-span-1 lg:col-start-2 lg:pb-0 xl:pt-16">
-          <div class="pb-2 font-semibold text-logiclyorange leading-snug lg:pb-1">
-            <h4>
-              Queensland Department of Transport and Main Roads
-            </h4>
-          </div>
-          <p>
-            A digital system to help understand travel behaviours and plan for future growth and demand of the
-            Queensland Transport System.
-          </p>
-          <div class="pt-2 pb-6">
-            <a class="font-extrabold" href="/projects">Read more</a>
+          <div class="grid grid-cols-4">
+            <div class="col-span-3">
+              <div>
+                <h4 class="pb-2 text-sm font-semibold text-logiclyorange leading-snug lg:pb-1">
+                  Queensland Department of Transport and Main Roads
+                </h4>
+              </div>
+              <p class="text-sm">
+                A digital system to help understand travel behaviours and plan for future growth and demand of the
+                Queensland Transport System.
+              </p>
+              <div class="pt-2 pb-8">
+                <NuxtLink to="/projects/?article=1&tab=1" class="font-medium text-sm">Read more</NuxtLink>
+              </div>
+            </div>
+            <div class="col-span-1 grid content-end pl-6 pb-10">
+              <NuxtLink to="/projects/?article=1&tab=1">
+                <img class="h-12" src="/Logicly-arrow.png" />
+              </NuxtLink>
+            </div>
           </div>
         </div>
       </div>
@@ -228,16 +237,25 @@
         </div>
 
         <div class="grid content-end col-span-2 px-2 pt-4 pb-10 mx-4 lg:col-span-1 lg:col-start-2 lg:pb-0 xl:pt-16">
-          <div class="pb-2 font-semibold text-logiclyorange leading-snug lg:pb-1">
-            <h4>
-              NAB
-            </h4>
-          </div>
-          <p>
-            A performance management tool for NAB’s business groups in Australia and overseas with the flexibility to meet their changing future requirements.
-          </p>
-          <div class="pt-2 pb-6">
-            <a class="font-extrabold" href="/projects">Read more</a>
+          <div class="grid grid-cols-4">
+            <div class="col-span-3">
+              <div>
+                <h4 class="pb-2 text-sm font-semibold text-logiclyorange leading-snug lg:pb-1">
+                  NAB
+                </h4>
+              </div>
+              <p class="text-sm">
+                A performance management tool for NAB’s business groups in Australia and overseas with the flexibility to meet their changing future requirements.
+              </p>
+              <div class="pt-2 pb-8">
+                <NuxtLink to="/projects/?article=0&tab=5" class="font-medium text-sm">Read more</NuxtLink>
+              </div>
+            </div>
+            <div class="col-span-1 grid content-end pl-6 pb-10">
+              <NuxtLink to="/projects/?article=0&tab=5">
+                <img class="h-12" src="/Logicly-arrow.png" />
+              </NuxtLink>
+            </div>
           </div>
         </div>
       </div>
@@ -254,26 +272,35 @@
         </div>
 
         <div class="grid content-end col-span-2 px-2 pt-4 pb-10 mx-4 lg:col-span-1 lg:col-start-2 lg:pb-0 xl:pt-16">
-          <div class="pb-2 font-semibold text-logiclyorange leading-snug lg:pb-1">
-            <h4>
-              Deakin University
-            </h4>
-          </div>
-          <p>
-            A sophisticated tool for researchers to create, analyse, publish and share data. The community can also access the research to discover and learn.
-          </p>
-          <div class="pt-2 pb-6">
-            <a class="font-extrabold" href="/projects">Read more</a>
+          <div class="grid grid-cols-4">
+            <div class="col-span-3">
+              <div>
+                <h4 class="pb-2 text-sm font-semibold text-logiclyorange leading-snug lg:pb-1">
+                  Deakin University
+                </h4>
+              </div>
+              <p class="text-sm">
+                A sophisticated tool for researchers to create, analyse, publish and share data. The community can also access the research to discover and learn.
+              </p>
+              <div class="pt-2 pb-8">
+                <NuxtLink to="/projects/?article=2&tab=0" class="font-medium text-sm">Read more</NuxtLink>
+              </div>
+            </div>
+            <div class="col-span-1 grid content-end pl-6 pb-10">
+              <NuxtLink to="/projects/?article=2&tab=0">
+                <img class="h-12" src="/Logicly-arrow.png" />
+              </NuxtLink>
+            </div>
           </div>
         </div>
       </div>
 
-        <div class="flex justify-center lg:justify-end">
-          <Button
-            buttontext="View all projects"
-            buttonlink="/projects"
-          />
-        </div>
+      <div class="flex justify-center lg:justify-end">
+        <Button
+          buttontext="View all projects"
+          buttonlink="/projects"
+        />
+      </div>
     </page-section>
 
     <page-section>
