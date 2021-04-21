@@ -1,6 +1,6 @@
 ---
 title: Outdoor Power Equipment Association
-description: OPEA Industry Data Tool: Giving businesses clarity and confidence
+description: OPEA Industry Data Tool - Giving businesses clarity and confidence
 category: Corporate
 ---
 <div class="grid grid-cols-12">

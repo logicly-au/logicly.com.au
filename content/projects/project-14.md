@@ -1,6 +1,6 @@
 ---
 title: Personal Health Appliance Suppliers
-description: Personal Health Sector: Differentiating through user experience and compelling insights
+description: Personal Health Sector - Differentiating through user experience and compelling insights
 category: Corporate
 ---
 <div class="grid grid-cols-12">
