@@ -118,7 +118,7 @@
            Adam Clarke, Director/CTO
          </p>
          <p class="text-xs font-light pb-2">
-           The directors are experts in UX and UI, having worked with the Telstra Usability Research and
+           The directors are experts in UX and UI, having worked with the Telstra Usability Research and
            Consulting Team.
          </p>
          <p class="text-xs font-light pb-2">
