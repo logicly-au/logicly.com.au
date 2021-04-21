@@ -45,10 +45,23 @@
     </page-section>
 
 
-    <overlay-image
-      imageurl="/different_audiences.jpg"
-      text="Different Audiences. Different Information Needs. Different Systems."
-    />
+    <page-section class="hidden sm:block">
+      <div class="w-full">
+        <overlay-image class="overlay-height"
+          imageurl="/different_audiences.jpg"
+          text="Different Audiences. Different Information Needs. Different Systems."
+        />
+      </div>
+    </page-section>
+
+    <div class="w-full block sm:hidden">
+      <div class="container mx-auto">
+        <overlay-image class="overlay-height"
+          imageurl="/different_audiences.jpg"
+          text="Different Audiences. Different Information Needs. Different Systems."
+        />
+      </div>
+    </div>
 
 
     <page-section>
@@ -237,10 +250,23 @@
     </page-section>
 
 
-    <overlay-image
-      imageurl="/What-are-your-information-and-digital-needs.jpg"
-      text="What are your information and digital needs?"
-    />
+    <page-section class="hidden sm:block">
+      <div class="w-full">
+        <overlay-image class="overlay-height"
+          imageurl="/What-are-your-information-and-digital-needs.jpg"
+          text="What are your information and digital needs?"
+        />
+      </div>
+    </page-section>
+
+    <div class="w-full block sm:hidden">
+      <div class="container mx-auto">
+        <overlay-image class="overlay-height"
+          imageurl="/What-are-your-information-and-digital-needs.jpg"
+          text="What are your information and digital needs?"
+        />
+      </div>
+    </div>
 
 
     <CTA
@@ -288,6 +314,34 @@
 </script>
 
 <style>
+
+.overlay-height {
+  height: 485px;
+}
+
+@media only screen and (max-width: 1280px) {
+  .overlay-height {
+    height: 385px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .overlay-height {
+    height: 290px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .overlay-height {
+    height: 250px;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .overlay-height {
+    height: 350px;
+  }
+}
 
 /* VSA-list Overrides */
 .vsa-item__trigger__icon--is-default {
