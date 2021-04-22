@@ -7,7 +7,7 @@ i <template>
   </div>
   <div class="mx-0 xl:px-6">
     <div class="text-center text-logiclytextgrey">
-      <h1 class="text-2xl font-extrabold text-center pb-2 pt-4 xl:pt-8">{{ heading }}</h1>
+      <h1 class="text-2xl font-semibold text-center pb-2 pt-4 xl:pt-8">{{ heading }}</h1>
       <h2 class="font-light text-lg">{{ subheading }}</h2>
     </div>
   </div>

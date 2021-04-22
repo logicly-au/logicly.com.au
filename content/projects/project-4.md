@@ -44,7 +44,7 @@ Logicly consulted with subject-matter experts and facilitated stakeholder worksh
 
 Through a highly collaborative and iterative approach, we drew on extensive experience with complex information systems to develop, test, and refine the data solution.
 
-<div class="grid grid-cols-12">
+<div class="grid grid-cols-12 project-4-style">
   <div class="col-span-12">
     The components were delivered in phases:
   </div>

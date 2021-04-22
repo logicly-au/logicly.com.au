@@ -7,7 +7,7 @@
   >
             <page-section :altrow="altrow" :overlay="overlay">
 
-              <h1 class="font-bold text-center text-white">{{ heading }}</h1>
+              <h1 class="text-lg font-medium text-center text-white">{{ heading }}</h1>
               <h2 class="text-2xl font-semibold text-center text-white">{{ subheading }}</h2>
 
             </page-section>

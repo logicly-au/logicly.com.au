@@ -2,9 +2,9 @@ i <template>
   <!-- this contains an example of loading a class via boolean value, see :class -->
   <page-section :altrow="altrow">
     <div class="object-contain object-center content-center w-full text-logiclytextgrey">
-      <h1 class="text-2xl font-extrabold text-center text-logiclytextgrey">{{ text }}</h1>
-      <div class="grid justify-center align-center pt-2">
-        <button class="block h-12 w-40 my-5 text-center text-white bg-logiclyorange">
+      <h1 class="text-2xl font-semibold text-center text-logiclytextgrey">{{ text }}</h1>
+      <div class="grid justify-center align-center pt-4">
+        <button class="block h-12 w-40 my-5 text-center text-white font-medium bg-logiclyorange">
           <NuxtLink :to="buttonLink">{{ buttonText }}</NuxtLink>
         </button>
       </div>

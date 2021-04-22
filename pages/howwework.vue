@@ -23,7 +23,7 @@
      <div class="grid grid-cols-12 gap-x-6 text-logiclytextgrey px-0 lg:px-20 xl:px-0 xl:-mx-20 xl:-mb-20 pb-0 mb-0">
 
        <div class="col-span-12 text-center">
-         <h1 class="text-2xl font-extrabold text-center text-logiclytextgrey pb-6 pt-8">Our collaborative journey</h1>
+         <h1 class="text-2xl font-semibold text-center text-logiclytextgrey pb-6 pt-8">Our collaborative journey</h1>
        </div>
 
        <div class="col-span-12 border-t-2 border-logiclygreytwo pb-6 md:pb-8">
@@ -43,22 +43,22 @@
        </div>
 
        <div class="col-span-12 xl:col-span-4 pl-0 xl:pl-4 xl:-ml-12 pb-2 xl:pb-16">
-         <h3 class="font-extrabold text-xl text-logiclytheme1 pt-4 xl:pt-0 xl:-mt-2 pb-3">1. Research</h3>
-         <p class="text-sm font-light pb-2">In order to develop a thoughtful solution to a complex information problem, it’s essential to have a
+         <h3 class="font-bold text-xl text-logiclytheme1 pt-4 xl:pt-0 xl:-mt-2 pb-3">1. Research</h3>
+         <p class="text-sm font-light">In order to develop a thoughtful solution to a complex information problem, it’s essential to have a
            thorough understanding of what the data needs to inform and the best pathway to get there.</p>
-         <h4 class="text-base font-extrabold">Understanding</h4>
-         <p class="text-sm font-light pb-2">To get started, we deep-dive into the contributing factors, working with all the stakeholders to
+         <h4 class="text-base font-semibold">Understanding</h4>
+         <p class="text-sm font-light">To get started, we deep-dive into the contributing factors, working with all the stakeholders to
            define the problem and it’s complexities.</p>
-         <h4 class="text-base font-extrabold">Strategy</h4>
-         <p class="text-sm font-light pb-2">Our senior team distill the key findings and develop a high-level strategy with a human-centered
+         <h4 class="text-base font-semibold">Strategy</h4>
+         <p class="text-sm font-light">Our senior team distill the key findings and develop a high-level strategy with a human-centered
            focus. The deliverables are prioritised into short, medium and long term stages.</p>
-         <h4 class="text-base font-extrabold">Clear pathway</h4>
-         <p class="text-sm font-light pb-2">Working with our clients, we set agreed priorities, timelines, and a clear pathway so everyone is on
+         <h4 class="text-base font-semibold">Clear pathway</h4>
+         <p class="text-sm font-light">Working with our clients, we set agreed priorities, timelines, and a clear pathway so everyone is on
            the same page.</p>
        </div>
 
        <div class="col-span-12 xl:col-span-2 mt-0 xl:mt-8 pb-12 xl:pb-0">
-         <h4 class="font-extrabold text-sm">Scoping Team</h4>
+         <h4 class="font-semibold text-sm">Scoping Team</h4>
          <p class="text-xs font-light pb-2">
            Product Manager<br />
            Adam Clarke, Director/CTO
@@ -84,41 +84,41 @@
 
        <div class="col-span-12 xl:col-span-4 pl-0 xl:pl-4 xl:-ml-12 pb-2 xl:pb-16">
          <!-- TODO Get rid of the lipsum here -->
-         <h3 class="font-extrabold text-xl text-logiclytheme2 pt-4 xl:pt-0 xl:-mt-2 pb-3">2. Design</h3>
-         <p class="text-sm font-light pb-2">
+         <h3 class="font-bold text-xl text-logiclytheme2 pt-4 xl:pt-0 xl:-mt-2 pb-3">2. Design</h3>
+         <p class="text-sm font-light">
            We design with flexibility to make room for refinements and changes down the track. Our collaborative process takes into consideration many different design factors.
          </p>
-         <h4 class="text-base font-extrabold">
+         <h4 class="text-base font-semibold">
            User friendly interface design
          </h4>
-         <p class="text-sm font-light pb-2">
+         <p class="text-sm font-light">
            We design interfaces based on the user experience, making the process
            clear and easy to navigate for non-digital people. Our design process considers different users,
            workflows and business constraints.
          </p>
-         <h4 class="text-base font-extrabold">
+         <h4 class="text-base font-semibold">
            System & database design
          </h4>
-         <p class="text-sm font-light pb-2">
+         <p class="text-sm font-light">
            The system is designed to support the technical needs of the interface and the database design is based
            on the information and outcomes required by our clients.
          </p>
-         <h4 class="text-base font-extrabold">
+         <h4 class="text-base font-semibold">
            Dataflow design
          </h4>
-         <p class="text-sm font-light pb-2">
+         <p class="text-sm font-light">
            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
            laoreet dolore.
          </p>
        </div>
        <div class="col-span-12 lg:col-span-7 xl:col-span-2 xl:mt-8 pb-12 xl:pb-0">
-         <h4 class="font-extrabold text-sm">Design team</h4>
+         <h4 class="font-semibold text-sm">Design team</h4>
          <p class="text-xs font-light pb-2">
            Product Manager<br />
            Adam Clarke, Director/CTO
          </p>
          <p class="text-xs font-light pb-2">
-           The directors are experts in UX and UI, having worked with the Telstra Usability Research and
+           The directors are experts in UX and UI, having worked with the Telstra Usability Research and
            Consulting Team.
          </p>
          <p class="text-xs font-light pb-2">
@@ -137,43 +137,43 @@
        </div>
 
        <div class="col-span-12 xl:col-span-4 pl-0 xl:pl-4 xl:-ml-12 pb-2 xl:pb-16">
-         <h3 class="font-extrabold text-xl text-logiclytheme4 pt-4 xl:pt-0 xl:-mt-2 pb-3">3. Build</h3>
-         <p class="text-sm font-light pb-2">
+         <h3 class="font-bold text-xl text-logiclytheme4 pt-4 xl:pt-0 xl:-mt-2 pb-3">3. Build</h3>
+         <p class="text-sm font-light">
            This stage is about building the interface, systems infrastructure and databases. We get constant
            feedback along the way to identify possible ways to add value or innovation to enhance the system.
          </p>
-         <h4 class="text-base font-extrabold">
+         <h4 class="text-base font-semibold">
            Stepped process
          </h4>
-         <p class="text-sm font-light pb-2">
+         <p class="text-sm font-light">
            Early on we develop mockups for clients to experience the system and identify any
            usability issues and ways to add value.
          </p>
-         <h4 class="text-base font-extrabold">
+         <h4 class="text-base font-semibold">
            Collaboration
          </h4>
-         <p class="text-sm font-light pb-2">
+         <p class="text-sm font-light">
            Our multidisciplinary team work together from start to finish and only launch the
            platform when all team members sign off with their approval. Their combined skills and expertise enables
            dynamic problem solving.
          </p>
-         <h4 class="text-base font-extrabold">
+         <h4 class="text-base font-semibold">
            Project management
          </h4>
-         <p class="text-sm font-light pb-2">
+         <p class="text-sm font-light">
            Logicly simplifies and streamlines complex projects. We have a proven track record
            delivering on time with clear, efficient and personalised communications.
          </p>
-         <h4 class="text-base font-extrabold">
+         <h4 class="text-base font-semibold">
            Automated software
          </h4>
-         <p class="text-sm font-light pb-2">
+         <p class="text-sm font-light">
            We use software to detect any bugs, test the user experience and maintain the level
            of quality.
          </p>
        </div>
        <div class="col-span-12 lg:col-span-8 xl:col-span-2 xl:mt-8 pb-12 xl:pb-0">
-         <h4 class="font-extrabold text-sm">Digital team</h4>
+         <h4 class="font-semibold text-sm">Digital team</h4>
          <p class="text-xs font-light pb-2">
            Product Manager <br />
            Adam Clarke, Director/CTO
@@ -194,40 +194,40 @@
        </div>
 
        <div class="col-span-12 xl:col-span-4 pl-0 xl:pl-4 xl:-ml-12 pb-2 xl:pb-24">
-         <h3 class="font-extrabold text-xl text-logiclytheme3 pt-4 xl:pt-0 xl:-mt-2 pb-3">4. Maintain & Improve</h3>
+         <h3 class="font-bold text-xl text-logiclytheme3 pt-4 xl:pt-0 xl:-mt-2 pb-3">4. Maintain & Improve</h3>
          <p class="text-sm font-light pb-2">
            Once the digital solution is launched and live, we continue to work with our clients to gain the most
            from their digital system.
          </p>
-         <h4 class="text-base font-extrabold">
+         <h4 class="text-base font-semibold">
            Training tools
          </h4>
-         <p class="text-sm font-light pb-2">
+         <p class="text-sm font-light">
            We can provide training guides, videos and user documentation.
          </p>
-         <h4 class="text-base font-extrabold">
+         <h4 class="text-base font-semibold">
            Problem solving
          </h4>
-         <p class="text-sm font-light pb-2">
+         <p class="text-sm font-light">
            We respond efficiently to any problems and confidently offer compensation in the unlikely event of a
            major issue.
          </p>
-         <h4 class="text-base font-extrabold">
+         <h4 class="text-base font-semibold">
            System management
          </h4>
-         <p class="text-sm font-light pb-2">
+         <p class="text-sm font-light">
            Logicly maintain the highest possible standards of security and care. We have numerous checks and
            safeguards in place, including automated issue-detection software and regularly-audited security
            systems.
          </p>
-         <h4 class="text-base font-extrabold">
+         <h4 class="text-base font-semibold">
            Updating & improving
          </h4>
-         <p class="text-sm font-light pb-2">
+         <p class="text-sm font-light">
            We update the software libraries and systems according to best practice but we also
            look for new ways to improve on the user experience, efficiencies and speed.
          </p>
-         <h4 class="text-base font-extrabold">
+         <h4 class="text-base font-semibold">
            Help Desk
          </h4>
          <p class="text-sm font-light">
@@ -237,7 +237,7 @@
        </div>
 
        <div class="col-span-12 xl:col-span-2 xl:mt-8">
-         <h4 class="font-extrabold text-sm">Support team</h4>
+         <h4 class="font-semibold text-sm">Support team</h4>
          <p class="text-xs font-light pb-2">
            Led by the project manager
          </p>
@@ -266,8 +266,8 @@
        </div>
 
        <div class="col-span-12 xl:col-span-5 text-logiclytextgrey pl-0 xl:pl-4 xl:-ml-12 pt-4 xl:pt-32">
-         <h2 class="text-2xl font-extrabold pb-2">
-           An Evolving Process
+         <h2 class="text-xl font-semibold pb-2">
+           An evolving process
          </h2>
          <p class="text-lg xl:text-base">
            We get together with clients as questions evolve and gaps arise. It is a fluid process of discussions, building, testing and refining.
