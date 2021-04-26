@@ -1,6 +1,6 @@
 
 <template>
-  <div>
+  <div class="insights_new">
     <Hero
       heading="INSIGHTS"
       subheading="In depth articles, discussions and thoughts on innovative digital systems, projects and topics of interest from our team."
@@ -38,7 +38,7 @@
     </page-section>
 
     <page-section>
-      <div class="grid grid-cols-12 pt-6 -mb-16  text-logiclytextgrey">
+      <div class="grid grid-cols-12 pt-6 -mb-16 text-logiclytextgrey">
 
         <div class="hidden col-span-4 text-xl font-semibold xl:block">
           {{ activeTab }}
@@ -47,11 +47,11 @@
 
 
         <!-- Project list desktop -->
-        <div class=" col-span-8 projects-list">
+        <div class="col-span-8  projects-list">
           <ul class='articles'>
             <li @click="setActiveArticle(index)" v-for="(article, index) in articles" :class="{ 'articles-active': isActiveArticle(index) }">
               <div class="grid grid-cols-12 pb-2">
-                <div class="col-span-1 ml-2 -mt-1 font-light text-2xl">
+                <div class="col-span-1 ml-2 -mt-1 text-2xl font-light">
                   >
                 </div>
                 <div class="col-span-10 col-start-2">
@@ -156,7 +156,7 @@ export default {
 </script>
 
 <style>
-
+.insights_new {
 p {
   font-weight:300;
   font-size:1rem;
@@ -266,5 +266,5 @@ li > a > div > img {
   padding-bottom: 4em;
 }
 
-
+}
 </style>
