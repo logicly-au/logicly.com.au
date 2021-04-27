@@ -16,6 +16,7 @@
 
     <!-- {{ activeTab }} -->
     <page-section altrow>
+      <div class="project-page">
       <vue-tabs ref="tabs" @tab-change="setActiveTab" v-model="activeTab">
         <v-tab v-for="category in categories" :id="category" :title="category" :key="category" class="flex">
           <template #title>
@@ -26,10 +27,11 @@
           </template>
         </v-tab>
       </vue-tabs>
+    </div>
     </page-section>
 
     <page-section>
-      <div class="grid grid-cols-12 pt-6 -mb-16 border-t-2 border-b-2 border-logiclyorange">
+      <div class="grid grid-cols-12 pt-6 -mb-16 border-t-2 border-b-2 border-logiclyorange text-logiclytextgrey project-page">
 
         <div class="hidden col-span-4 text-xl font-semibold xl:block">
           {{ activeTab }}
@@ -38,7 +40,7 @@
 
         <!-- TODO Add mobile version of project-list -->
         <!-- Project list mobile -->
-        <div class="col-span-12 xl:hidden">
+        <div class="col-span-12 block xl:hidden">
           <ul class='articles'>
             <li @click="setActiveArticle(index)" v-for="(article, index) in articles" :class="{ 'articles-active': isActiveArticle(index) }">
               <div class="grid grid-cols-12 pb-2">
@@ -134,52 +136,52 @@ export default {
 
 <style>
 
-p {
+.project-page p {
   font-weight:300;
   font-size:1rem;
 }
 
-h2 {
+.project-page h2 {
   font-weight:400;
   font-size:1.25rem;
 }
 
-h3 {
+.project-page h3 {
   padding-top:1.25rem;
   padding-bottom:0.25rem;
   font-size:1.25rem;
   font-weight:600;
 }
 
-h4 {
+.project-page h4 {
   font-weight:600;
   font-size:1rem;
   margin-top:0.5rem;
 }
 
-h5 {
+.project-page h5 {
   font-weight:500;
   font-size:0.85em;
 }
 
-.project-4-style {
+.project-page .project-4-style {
   font-weight:300;
 }
 
-.articles {
+.project-page .articles {
   padding-bottom: 4em;
 }
 
-.articles-active {
+.project-page .articles-active {
   color: #E94E1B;
 }
 
-ul.nav.nav-tabs {
+.project-page ul.nav.nav-tabs {
   display:flex;
   justify-content:space-between;
 }
 
-li > a > div > img {
+.project-page li > a > div > img {
   margin:auto;
   margin-bottom:0.5rem;
 }
