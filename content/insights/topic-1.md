@@ -1,5 +1,9 @@
 ---
 title: Drowning in data? You might be dealing with a complex information challenge.
+description: This is a description
+author: Andrew Gordon
+date: 22 December 2020
+readmore:
 category: Corporate
 ---
 
@@ -14,7 +18,7 @@ category: Corporate
 ##### 22 December 2020
 </div>
 <div class="grid grid-cols-4">
-<div class="col-span-3 lg:col-span-4 blog-social-media grid grid-cols-5 justify-items-start lg:justify-items-center">
+<div class="col-span-3 lg:col-span-4 blog-social-media grid grid-cols-5 justify-items-start lg:justify-items-center hidden">
 <div class="col-span-1">
 Share
 </div>

@@ -38,37 +38,50 @@
     </page-section>
 
     <page-section>
-      <div class="grid grid-cols-12 pt-6 -mb-16 text-logiclytextgrey insights-page ">
-
-        <div class="hidden col-span-4 text-xl font-semibold xl:block">
-          {{ activeTab }}
-          projects
-        </div>
-
+      <div class="grid grid-cols-12 pt-6 -mb-16 text-logiclytextgrey insights-page">
 
         <!-- Project list desktop -->
-        <div class="col-span-8  projects-list">
+        <div class="col-span-12 projects-list">
           <ul class='articles'>
+            <div class="grid grid-cols-3 grid-rows-auto gap-4 pb-4">
             <li @click="setActiveArticle(index)" v-for="(article, index) in articles" :class="{ 'articles-active': isActiveArticle(index) }">
-              <div class="grid grid-cols-12 pb-2">
-                <div class="col-span-1 ml-2 -mt-1 text-2xl font-light">
-                  >
+              <div class="pb-4">
+                <div class="">
+                  <span class="font-semibold text-logiclyorange">{{ article.title }}</span>
                 </div>
-                <div class="col-span-10 col-start-2">
-                  <span class="font-semibold">{{ article.title }}</span></br>
-                  <span class="font-light">{{ article.description }}</span>
+                <div class="pb-2">
+                  <span class="font-medium text-sm">{{ article.author }}</span>
+                  <span class="text-logiclyorange">|</span>
+                  <span class="font-normal text-sm">{{ article.date }}</span>
+                </div>
+                <div class="">
+                  <span class="font-light text-sm">{{ article.description }}</span>
+                </div>
+                <div class="">
+                  <span class="font-light text-sm text-logiclyorange">{{ article.readmore }}</span>
                 </div>
               </div>
             </li>
+            </div>
           </ul>
         </div>
-
-        <div class="col-span-12">
-          <nuxt-content :document="activeArticle" />
-        </div>
-
       </div>
     </page-section>
+
+    <page-section altrow>
+      <div class="grid grid-cols-12 text-logiclytextgrey insights-page">
+        <div class="col-span-3">
+
+        </div>
+      </div>
+    </page-section>
+
+    <page-section>
+      <div class="col-span-12 text-logiclytextgrey insights-page">
+        <nuxt-content :document="activeArticle" />
+      </div>
+    </page-section>
+
 
     <!-- Subscribe section -->
     <div class="w-full h-auto bg-logiclybeige">
@@ -257,9 +270,7 @@ ul.nav.nav-tabs {
 
 
 
-.articles-active {
-  color: #E94E1B;
-}
+
 
 .articles {
   padding-bottom: 4em;

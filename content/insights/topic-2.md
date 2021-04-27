@@ -1,5 +1,9 @@
 ---
 title: 7 tips to set your public sector digital transformation project up for success
+description: This is a description
+author: Adam Clarke
+date: 10 March 2021
+readmore:
 category: Corporate
 ---
 
@@ -14,7 +18,7 @@ category: Corporate
 ##### 10 March 2021
 </div>
 <div class="grid grid-cols-4">
-<div class="col-span-3 lg:col-span-4 blog-social-media grid grid-cols-5 justify-items-start lg:justify-items-center">
+<div class="col-span-3 lg:col-span-4 blog-social-media grid grid-cols-5 justify-items-start lg:justify-items-center hidden">
 <div class="col-span-1">
 Share
 </div>
