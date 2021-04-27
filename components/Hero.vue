@@ -1,7 +1,9 @@
-i <template>
-  <div
-    class="object-contain object-center w-full bg-cover h-128"
-    :style="{ backgroundImage: `url(${backgroundUrl})` }"
+<template>
+  <!-- https://github.com/albertodeago/vue-aspect-ratio?ref=madewithvuejs.com#how-to-install-and-use -->
+  <AspectRatio
+    ar="3:1"
+    width="100%"
+    :style="{ backgroundSize: 'cover', backgroundImage: `url(${backgroundUrl})` }"
   >
             <page-section :altrow="altrow" :overlay="overlay">
 
@@ -10,7 +12,7 @@ i <template>
 
             </page-section>
 
-  </div>
+  </AspectRatio>
 </template>
 
 <script>
