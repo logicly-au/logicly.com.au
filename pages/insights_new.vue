@@ -38,7 +38,7 @@
     </page-section>
 
     <page-section>
-      <div class="grid grid-cols-12 pt-6 -mb-16 text-logiclytextgrey">
+      <div class="grid grid-cols-12 pt-6 -mb-16 text-logiclytextgrey insights-page ">
 
         <div class="hidden col-span-4 text-xl font-semibold xl:block">
           {{ activeTab }}
@@ -143,7 +143,7 @@ export default {
     async setActiveTab(newIndex) {
       this.activeTabIndex = newIndex;
       this.activeTab      = this.categories[this.activeTabIndex];
-      this.articles       = await this.$content('projects').where({ category: this.activeTab }).fetch();
+      this.articles       = await this.$content('insights').where({ category: this.activeTab }).fetch();
 
       this.$router.push({path: this.$route.path, query: { tab: newIndex, article: this.activeArticleIndex }});
     },
@@ -156,39 +156,38 @@ export default {
 </script>
 
 <style>
-.insights_new {
-p {
+.insights-page p {
   font-weight:300;
   font-size:1rem;
 }
 
-h1 {
+.insights-page h1 {
   font-weight:700!important;
   font-size:1.25rem!important;
   padding-bottom:0.3rem!important;
 }
 
-h2 {
+.insights-page h2 {
   padding-top:1rem!important;
   padding-bottom:0.25rem!important;
   font-weight:700!important;
   font-size:1.3rem!important;
 }
 
-h3 {
+.insights-page h3 {
   padding-top:0.5rem!important;
   padding-bottom:0.25rem!important;
   font-size:1rem!important;
   font-weight:600!important;
 }
 
-h4 {
+.insights-page h4 {
   text-align: left;
   color: #E94E1B;
   font-weight: 600;
 }
 
-h5 {
+.insights-page h5 {
   text-align: left;
   color: #3c3c3b;
   font-weight:500;
@@ -237,7 +236,7 @@ ul.nav.nav-tabs {
   justify-content:space-between;
 }
 
-li > a > div > img {
+.insights-page li > a > div > img {
   margin:auto;
   margin-bottom:0.5rem;
 }
@@ -266,5 +265,5 @@ li > a > div > img {
   padding-bottom: 4em;
 }
 
-}
+
 </style>
