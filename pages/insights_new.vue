@@ -86,41 +86,9 @@
     </page-section>
 
 
-    <!-- Subscribe section -->
-    <div class="w-full h-auto bg-logiclybeige">
-      <!-- Start container -->
-      <div class="container mx-auto">
-        <div class="grid grid-cols-12">
-          <!-- TODO Apply grid gap everywhere -->
-          <div class="grid items-end grid-cols-4 col-span-10 col-start-2 gap-4 px-16 py-32 md:px-32 lg:px-0">
-            <div class="col-span-4 -mr-0 lg:col-span-1 lg:-mr-6">
-              <p class="pb-2 text-lg font-bold text-logiclyorange">
-                New thinking & digital updates
-              </p>
-              <div class="pb-4 text-logiclytextgrey lg:pb-0">
-                Discover new ways of thinking and innovative digital systems to solve complex information challenges
-              </div>
-            </div>
+    <PageSectionEmail
+    />
 
-            <!-- TODO Possibly need to fix placeholder colour for firefox -->
-            <div class="col-span-4 pb-2 pl-0 lg:col-span-1 lg:pl-6">
-              <span class="self-end block"><input type="text" placeholder="Name" class="block w-full placeholder-opacity-100 bg-transparent border-b placeholder-logiclytextgrey border-logiclyorange"></input></span>
-            </div>
-
-            <div class="col-span-4 pb-4 lg:col-span-1 lg:pb-2">
-              <span class="self-end block"><input type="text" placeholder="Email" class="block w-full placeholder-opacity-100 bg-transparent border-b placeholder-logiclytextgrey border-logiclyorange"></input></span>
-            </div>
-
-            <div class="col-span-4 pb-2 lg:col-span-1">
-              <span class="self-end block"><button class="block h-12 px-8 font-bold border-2 border-logiclyorange text-logiclytheme2">Subscribe</button></span>
-            </div>
-
-          </div>
-
-        </div>
-      </div>
-      <!-- End Container -->
-    </div>
 
   </div>
 </template>
