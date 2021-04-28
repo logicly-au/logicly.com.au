@@ -1,16 +1,16 @@
 i <template>
-  <div class="object-contain object-center w-full bg-cover h-128":style="{ backgroundImage: `url(${backgroundUrl})` }">
-
-    <div class="grid grid-rows-5 grid-cols-8 w-full h-full">
-     <div class="row-start-4 row-span-2 col-start-5 col-span-4 md:col-start-5 md:col-span-3 2xl:col-start-5 2xl:col-span-2">
-       <h1 class="text-white text-xl lg:text-2xl font-semibold px-4 pt-4">{{ heading }}</h1>
-     </div>
-   </div>
-
- </div>
-</div>
-
+  <AspectRatio
+    ar="3:1"
+    width="100%"
+    :style="{ backgroundSize: 'cover', backgroundImage: `url(${backgroundUrl})` }"
+  >
+  <div class="grid grid-rows-5 grid-cols-2 w-full h-full">
+    <div class="row-start-4 col-start-2 pl-4 pr-16 md:pr-40 lg:pr-44 xl:pr-64 md:pl-8 lg:pl-16 xl:pl-20 sm:pt-2 md:pt-4 xl:pt-8">
+      <h1 class="text-white text-xs sm:text-sm md:text-base lg:text-lg xl:text-2xl font-medium">{{ heading }}</h1>
+    </div>
   </div>
+
+  </AspectRatio>
 
 
 </template>
