@@ -48,7 +48,7 @@
                 <span class="pr-2">Logicly © 2020</span>
                 <NuxtLink to="/privacy" exact>Privacy Policy</NuxtLink>
               </div>
-              <div class="col-span-12 lg:col-span-6 lg:col-start-6 xl:col-span-5 xl:col-start-7 grid grid-cols-3 content-end">
+              <div class="col-span-12 lg:col-span-6 lg:col-start-6 xl:col-span-5 xl:col-start-7 grid grid-cols-3 content-end hidden">
                 <div class="col-span-1 lg:col-start-3 grid grid-cols-3 mt-6 lg:mt-0">
                   <div class="col-span-1"><img src="~/assets/images/Facebook.svg" class="h-5 lg:h-4"></img></div>
                   <div class="col-span-1"><img src="~/assets/images/Linkedin.svg" class="h-5 lg:h-4"></img></div>
