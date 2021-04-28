@@ -264,7 +264,7 @@
         <div class="grid col-span-2 grid-col-2 lg:col-span-1 lg:col-start-1">
           <div class="col-span-2">
             <overlay-image
-              imageurl="/Corporate-project-NAB.jpg"
+              imageurl="/Education-project-Deakin.jpg"
               height="286px"
               text="Educational"
             />
