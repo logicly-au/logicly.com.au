@@ -43,22 +43,25 @@
         <!-- Project list desktop -->
         <div class="col-span-12 projects-list">
           <ul class='articles'>
-            <div class="grid grid-cols-3 grid-rows-auto gap-4 pb-4">
+            <div class="grid xl:grid-cols-3 grid-rows-auto gap-5 pb-4">
             <li @click="setActiveArticle(index)" v-for="(article, index) in articles" :class="{ 'articles-active': isActiveArticle(index) }">
-              <div class="pb-4">
-                <div class="">
-                  <span class="font-semibold text-logiclyorange">{{ article.title }}</span>
+              <div class="pb-8">
+                <div class="pb-5">
+                  <img class="w-full" src="/Corporate-project-NAB.jpg" />
+                </div>
+                <div>
+                  <span class="text-lg xl:text-base font-semibold text-logiclyorange">{{ article.title }}</span>
                 </div>
                 <div class="pb-2">
                   <span class="font-medium text-sm">{{ article.author }}</span>
                   <span class="text-logiclyorange">|</span>
                   <span class="font-normal text-sm">{{ article.date }}</span>
                 </div>
-                <div class="">
-                  <span class="font-light text-sm">{{ article.description }}</span>
+                <div class="pb-1">
+                  <span class="font-light text-base xl:text-sm">{{ article.description }}</span>
                 </div>
-                <div class="">
-                  <span class="font-light text-sm text-logiclyorange">{{ article.readmore }}</span>
+                <div>
+                  <span class="font-normal text-base xl:text-sm text-logiclyorange">{{ article.readmore }}</span>
                 </div>
               </div>
             </li>
@@ -131,11 +134,7 @@ export default {
       activeArticleIndex: 0,
       articles: [],
       categories: [
-        'Research',
-        'Government',
-        'Health',
-        'Education',
-        'Non-Government',
+
         'Corporate',
       ],
     };
@@ -207,11 +206,15 @@ export default {
   font-size:0.85em;
 }
 
-.blog-sidebar {
+.blog-sidebar-author {
   border-top: 2px solid #E94E1B;
   border-bottom: 2px solid #dedede;
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+
+.blog-sidebar {
+  padding-bottom: 3rem;
 }
 
 .blog-social-media {
@@ -219,7 +222,6 @@ export default {
   font-size: 0.9rem;
   color: #3c3c3b;
   padding-top: 1.5rem;
-  padding-bottom: 3rem;
 }
 
 .blog-text {
@@ -264,13 +266,6 @@ ul.nav.nav-tabs {
   border-bottom: 1px solid #E6332A;
   padding-bottom: 0.1rem;
 }
-
-
-
-
-
-
-
 
 .articles {
   padding-bottom: 4em;

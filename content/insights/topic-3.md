@@ -10,8 +10,8 @@ category: Corporate
 <div class="grid grid-cols-12">
 
 
-<div class="col-span-12 lg:col-span-3">
-<div class="blog-sidebar">
+<div class="col-span-12 lg:col-span-3 blog-sidebar">
+<div class="blog-sidebar-author">
 
 #### Simon Palmer
 
