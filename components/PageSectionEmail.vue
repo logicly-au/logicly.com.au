@@ -6,7 +6,7 @@
       <div class="grid grid-cols-12">
         <div class="grid items-end grid-cols-4 col-span-10 col-start-2 gap-4 px-16 py-32 md:px-32 lg:px-0">
           <div class="col-span-4 -mr-0 lg:col-span-1 lg:-mr-6">
-            <h2 class="pb-2 text-lg font-semibold text-logiclyorange">
+            <h2 class="pb-2 text-lg font-semibold text-logiclytheme4">
               New thinking & digital updates
             </h2>
             <div class="pb-4 text-logiclytextgrey lg:pb-0">

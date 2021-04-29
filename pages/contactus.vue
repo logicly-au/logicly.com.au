@@ -30,7 +30,7 @@
             <hr class="hidden lg:block w-full mx-auto border border-logiclyorange mt-6">
           </div>
           <div>
-            <p class="text-center text-logiclyorange mt-2 lg:-mt-2">
+            <p class="text-center text-logiclytheme4 mt-2 lg:-mt-2">
               <a href="tel:0061393409000">
                 +61 3 9340 9000
               </a>
@@ -52,7 +52,7 @@
             <hr class="hidden lg:block w-full mx-auto border border-logiclyorange mt-6">
           </div>
           <div>
-            <p class="text-center text-logiclyorange mt-2 lg:-mt-2">
+            <p class="text-center text-logiclytheme4 mt-2 lg:-mt-2">
               <a href="mailto:info@strategicdata.com.au">
                 info@strategicdata.com.au
               </a>

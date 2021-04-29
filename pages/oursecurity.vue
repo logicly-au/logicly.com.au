@@ -57,7 +57,7 @@
             <div class="h-24 flex items-center justify-center">
               <img src="/Australian-Government-Federal-Department-of-Health.png" class="h-28" />
             </div>
-            <NuxtLink to="/" class="text-logiclyorange font-medium underline">View Project</NuxtLink>
+            <NuxtLink to="/" class="text-logiclytheme4 font-medium underline">View Project</NuxtLink>
           </div>
         </div>
         <div class="col-span-3 lg:col-span-1 text-center flex pb-6 lg:pb-0">
@@ -65,7 +65,7 @@
             <div class="h-24 flex items-center justify-center">
               <img src="/The-University-of-Melbourne.png" class="h-28" />
             </div>
-            <NuxtLink to="/" class="text-logiclyorange font-medium  underline">View Project</NuxtLink>
+            <NuxtLink to="/" class="text-logiclytheme4 font-medium  underline">View Project</NuxtLink>
           </div>
         </div>
         <div class="col-span-3 lg:col-span-1 text-center flex">
@@ -73,7 +73,7 @@
             <div class="h-24 flex items-center justify-center">
               <img src="/National-Australia-Bank.png" class="h-20" />
             </div>
-            <NuxtLink to="/" class="text-logiclyorange font-medium  underline">View Project</NuxtLink>
+            <NuxtLink to="/" class="text-logiclytheme4 font-medium  underline">View Project</NuxtLink>
           </div>
         </div>
       </div>

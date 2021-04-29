@@ -202,7 +202,7 @@
           <div class="grid grid-cols-4">
             <div class="col-span-4 lg:col-span-3 px-6 md:px-10 lg:px-0">
               <div>
-                <h4 class="lg:text-sm font-semibold text-logiclyorange leading-snug pb-2 lg:pb-1 pt-6 lg:pt-0">
+                <h4 class="lg:text-sm font-semibold text-logiclytheme4 leading-snug pb-2 lg:pb-1 pt-6 lg:pt-0">
                   Queensland Department of Transport and Main Roads
                 </h4>
               </div>
@@ -238,7 +238,7 @@
           <div class="grid grid-cols-4">
             <div class="col-span-4 lg:col-span-3 px-6 md:px-10 lg:px-0">
               <div>
-                <h4 class="lg:text-sm font-semibold text-logiclyorange leading-snug pb-2 lg:pb-1 pt-6 lg:pt-0">
+                <h4 class="lg:text-sm font-semibold text-logiclytheme4 leading-snug pb-2 lg:pb-1 pt-6 lg:pt-0">
                   NAB
                 </h4>
               </div>
@@ -273,7 +273,7 @@
           <div class="grid grid-cols-4">
             <div class="col-span-4 lg:col-span-3 px-6 md:px-10 lg:px-0">
               <div>
-                <h4 class="lg:text-sm font-semibold text-logiclyorange leading-snug pb-2 lg:pb-1 pt-6 lg:pt-0">
+                <h4 class="lg:text-sm font-semibold text-logiclytheme4 leading-snug pb-2 lg:pb-1 pt-6 lg:pt-0">
                   Deakin University
                 </h4>
               </div>

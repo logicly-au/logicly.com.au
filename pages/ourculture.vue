@@ -45,7 +45,7 @@
           <img src="/Join-our-team.jpg" class="p-0 mb-5"/>
         </div>
         <div class="col-span-10 col-start-2 mt-4 lg:mt-8">
-          <h1 class="mb-4 font-semibold text-xl text-logiclyorange">Join our team</h1>
+          <h1 class="mb-4 font-semibold text-xl text-logiclytheme4">Join our team</h1>
         </div>
         <div class="col-span-10 col-start-2 lg:col-span-5 lg:col-start-2 mb-4">
           <h2 class="font-semibold text-lg text-logiclytextgrey pr-0 lg:pr-8">Are you excited about learning, sharing knowledge and solving information problems?</h2>

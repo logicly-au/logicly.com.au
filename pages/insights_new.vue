@@ -50,18 +50,18 @@
                   <img class="w-full" src="/Corporate-project-NAB.jpg" />
                 </div>
                 <div>
-                  <span class="text-lg xl:text-base font-semibold text-logiclyorange">{{ article.title }}</span>
+                  <span class="text-lg xl:text-base font-semibold text-logiclytheme4">{{ article.title }}</span>
                 </div>
                 <div class="pb-2">
                   <span class="font-medium text-sm">{{ article.author }}</span>
-                  <span class="text-logiclyorange">|</span>
+                  <span class="text-logiclytheme4">|</span>
                   <span class="font-normal text-sm">{{ article.date }}</span>
                 </div>
                 <div class="pb-1">
                   <span class="font-light text-base xl:text-sm">{{ article.description }}</span>
                 </div>
                 <div>
-                  <span class="font-normal text-base xl:text-sm text-logiclyorange">{{ article.readmore }}</span>
+                  <span class="font-normal text-base xl:text-sm text-logiclytheme4">{{ article.readmore }}</span>
                 </div>
               </div>
             </li>
