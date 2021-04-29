@@ -18,40 +18,40 @@
       <div class="grid grid-cols-12 text-logiclytextgrey pb-8">
         <div class="col-span-12 lg:col-span-8 col-start-1 lg:col-start-3 grid grid-cols-3 grid-rows-3 gap-4 -mx-10 md:-mx-0">
           <div class="items-center col-span-1">
-            <img src="/Everyone_brings_something_different_to_the_team/Researchers.svg" class="h-16 md:h-20 m-auto" />
-            <h3 class="text-center font-medium text-xs md:text-base">Researchers</h3>
+            <img src="/Everyone_brings_something_different_to_the_team/Researchers.svg" class="h-12 m-auto" />
+            <h3 class="text-center font-medium text-xs md:text-base pt-3">Researchers</h3>
           </div>
           <div class="items-center col-span-1">
-            <img src="/Everyone_brings_something_different_to_the_team/Psychologists.svg" class="h-16 md:h-20 m-auto" />
-            <h3 class="text-center font-medium text-xs md:text-base">Psychologists</h3>
+            <img src="/Everyone_brings_something_different_to_the_team/Psychologists.svg" class="h-12 m-auto" />
+            <h3 class="text-center font-medium text-xs md:text-base pt-3">Psychologists</h3>
           </div>
           <div class="items-center col-span-1">
-            <img src="/Everyone_brings_something_different_to_the_team/Mathematicians.svg" class="h-16 md:h-20 m-auto" />
-            <h3 class="text-center font-medium text-xs md:text-base">Mathematicians</h3>
+            <img src="/Everyone_brings_something_different_to_the_team/Mathematicians.svg" class="h-12 m-auto" />
+            <h3 class="text-center font-medium text-xs md:text-base pt-3">Mathematicians</h3>
           </div>
           <div class="items-center col-span-1">
-            <img src="/Everyone_brings_something_different_to_the_team/Project_managers.svg" class="h-16 md:h-20 m-auto" />
-            <h3 class="text-center font-medium text-xs md:text-base">Project Managers</h3>
+            <img src="/Everyone_brings_something_different_to_the_team/Project_managers.svg" class="h-12 m-auto" />
+            <h3 class="text-center font-medium text-xs md:text-base pt-3">Project Managers</h3>
           </div>
           <div class="items-center col-span-1">
-            <img src="/Everyone_brings_something_different_to_the_team/Support.svg" class="h-16 md:h-20 m-auto" />
-            <h3 class="text-center font-medium text-xs md:text-base">Support</h3>
+            <img src="/Everyone_brings_something_different_to_the_team/Support.svg" class="h-12  m-auto" />
+            <h3 class="text-center font-medium text-xs md:text-base pt-3">Support</h3>
           </div>
           <div class="items-center col-span-1">
-            <img src="/Everyone_brings_something_different_to_the_team/Security_experts.svg" class="h-16 md:h-20 m-auto" />
-            <h3 class="text-center font-medium text-xs md:text-base">Security experts</h3>
+            <img src="/Everyone_brings_something_different_to_the_team/Security_experts.svg" class="h-12 m-auto" />
+            <h3 class="text-center font-medium text-xs md:text-base pt-3">Security experts</h3>
           </div>
           <div class="items-center col-span-1">
-            <img src="/Everyone_brings_something_different_to_the_team/User_experience_design_(UX).svg" class="h-16 md:h-20 m-auto" />
-            <h3 class="text-center font-medium text-xs md:text-base">User experience design (UX)</h3>
+            <img src="/Everyone_brings_something_different_to_the_team/User_experience_design_(UX).svg" class="h-12 m-auto" />
+            <h3 class="text-center font-medium text-xs md:text-base pt-3">User experience design (UX)</h3>
           </div>
           <div class="items-center col-span-1">
-            <img src="/Everyone_brings_something_different_to_the_team/Interface_design_(UI).svg" class="h-16 md:h-20 m-auto" />
-            <h3 class="text-center font-medium text-xs md:text-base">Interface design (UI)</h3>
+            <img src="/Everyone_brings_something_different_to_the_team/Interface_design_(UI).svg" class="h-12 m-auto" />
+            <h3 class="text-center font-medium text-xs md:text-base pt-3">Interface design (UI)</h3>
           </div>
           <div class="items-center col-span-1">
-            <img src="/Everyone_brings_something_different_to_the_team/developers.svg" class="h-16 md:h-20 m-auto" />
-            <h3 class="text-center font-medium text-xs md:text-base">Developers</h3>
+            <img src="/Everyone_brings_something_different_to_the_team/developers.svg" class="h-12 m-auto" />
+            <h3 class="text-center font-medium text-xs md:text-base pt-3">Developers</h3>
           </div>
         </div>
       </div>
@@ -71,7 +71,7 @@
             <img src="/300.png" class="p-0">
           </div>
           <div class="col-span-1">
-            <h2 class="text-lg xl:text-lg font-bold -mb-4">
+            <h2 class="text-lg xl:text-lg font-bold">
               Adam Clarke
             </h2>
             <h3 class="text-sm font-medium pb-4">
@@ -92,7 +92,7 @@
             <img src="/300.png" class="p-0">
           </div>
           <div class="col-span-1">
-            <h2 class="text-lg xl:text-lg font-bold -mb-4">
+            <h2 class="text-lg xl:text-lg font-bold">
               Andrew Gordon
             </h2>
             <h3 class="text-sm font-medium pb-4">
@@ -113,7 +113,7 @@
             <img src="/300.png" class="p-0">
           </div>
           <div class="col-span-1">
-            <h2 class="text-lg xl:text-lg font-bold -mb-4">
+            <h2 class="text-lg xl:text-lg font-bold">
               Simon Palmer
             </h2>
             <h3 class="text-sm font-medium pb-4">
@@ -134,7 +134,7 @@
             <img src="/300.png" class="p-0">
           </div>
           <div class="col-span-1">
-            <h2 class="text-lg xl:text-lg font-bold -mb-4">
+            <h2 class="text-lg xl:text-lg font-bold">
               Michelle Nicholson
             </h2>
             <h3 class="text-sm font-medium pb-4">
