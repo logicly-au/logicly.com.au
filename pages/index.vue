@@ -74,15 +74,13 @@
           buttonlink="/howwework"
         />
       </div>
-
     </page-section>
-
 
 
     <page-section altrow>
       <!-- Header -->
       <div class="mb-8 text-center text-logiclytextgrey">
-        <span class="text-2xl font-semibold">Making complex information secure & accessible for private & public use</span>
+        <span class="text-xl font-semibold">Making complex information secure & accessible for private & public use</span>
       </div>
 
       <!-- Sub grid 1 -->
@@ -90,14 +88,14 @@
         <div class="grid grid-cols-2 col-span-2 lg:col-span-1 lg:col-start-1">
 
           <div class="col-span-2">
-          <overlay-image
-            imageurl="/designing-building-digital-systems.jpg"
-            height="286px"
-            text="Designing and building digital systems"
-          />
+            <overlay-image
+              imageurl="/designing-building-digital-systems.jpg"
+              height="286px"
+              text="Designing and building digital systems"
+            />
           </div>
 
-          <div class="col-span-2 text-xl font-bold lg:text-lg pt-8 pb-2">
+          <div class="col-span-2 font-bold lg:text-lg pt-8 pb-2">
             What information challenges do you have?
           </div>
 
@@ -129,7 +127,7 @@
           />
           </div>
 
-          <div class="col-span-2 text-xl font-bold lg:text-lg pt-8 pb-2">
+          <div class="col-span-2 font-bold lg:text-lg pt-8 pb-2">
             What type of digital system do you require?
           </div>
 
@@ -202,9 +200,9 @@
 
         <div class="grid content-end col-span-2 px-2 pt-4 pb-10 mx-4 lg:col-span-1 lg:col-start-2 lg:pb-0 xl:pt-16">
           <div class="grid grid-cols-4">
-            <div class="col-span-3">
+            <div class="col-span-4 lg:col-span-3 px-6 md:px-10 lg:px-0">
               <div>
-                <h4 class="pb-2 text-sm font-semibold text-logiclyorange leading-snug lg:pb-1">
+                <h4 class="lg:text-sm font-semibold text-logiclyorange leading-snug pb-2 lg:pb-1 pt-6 lg:pt-0">
                   Queensland Department of Transport and Main Roads
                 </h4>
               </div>
@@ -212,13 +210,13 @@
                 A digital system to help understand travel behaviours and plan for future growth and demand of the
                 Queensland Transport System.
               </p>
-              <div class="pt-2 pb-8">
-                <NuxtLink to="/projects/?article=1&tab=1" class="font-medium text-sm">Read more</NuxtLink>
+              <div class="pt-2 lg:pb-6 xl:pb-8">
+                <NuxtLink to="/projects/?article=1&tab=1" class="font-semibold text-sm">Read more</NuxtLink>
               </div>
             </div>
-            <div class="col-span-1 grid content-end pl-6 pb-10">
+            <div class="col-span-1 hidden lg:grid content-end lg:pl-8 xl:pl-8 lg:pb-8 xl:pb-10">
               <NuxtLink to="/projects/?article=1&tab=1">
-                <img class="h-12" src="/Logicly-arrow.png" />
+                <img class="h-10" src="/Logicly-arrow.png" />
               </NuxtLink>
             </div>
           </div>
@@ -238,22 +236,22 @@
 
         <div class="grid content-end col-span-2 px-2 pt-4 pb-10 mx-4 lg:col-span-1 lg:col-start-2 lg:pb-0 xl:pt-16">
           <div class="grid grid-cols-4">
-            <div class="col-span-3">
+            <div class="col-span-4 lg:col-span-3 px-6 md:px-10 lg:px-0">
               <div>
-                <h4 class="pb-2 text-sm font-semibold text-logiclyorange leading-snug lg:pb-1">
+                <h4 class="lg:text-sm font-semibold text-logiclyorange leading-snug pb-2 lg:pb-1 pt-6 lg:pt-0">
                   NAB
                 </h4>
               </div>
               <p class="text-sm">
                 A performance management tool for NAB’s business groups in Australia and overseas with the flexibility to meet their changing future requirements.
               </p>
-              <div class="pt-2 pb-8">
-                <NuxtLink to="/projects/?article=0&tab=5" class="font-medium text-sm">Read more</NuxtLink>
+              <div class="pt-2 lg:pb-8">
+                <NuxtLink to="/projects/?article=0&tab=5" class="font-semibold text-sm">Read more</NuxtLink>
               </div>
             </div>
-            <div class="col-span-1 grid content-end pl-6 pb-10">
+            <div class="col-span-1 hidden lg:grid content-end lg:pl-8 xl:pl-8 lg:pb-8 xl:pb-10">
               <NuxtLink to="/projects/?article=0&tab=5">
-                <img class="h-12" src="/Logicly-arrow.png" />
+                <img class="h-10" src="/Logicly-arrow.png" />
               </NuxtLink>
             </div>
           </div>
@@ -273,22 +271,22 @@
 
         <div class="grid content-end col-span-2 px-2 pt-4 pb-10 mx-4 lg:col-span-1 lg:col-start-2 lg:pb-0 xl:pt-16">
           <div class="grid grid-cols-4">
-            <div class="col-span-3">
+            <div class="col-span-4 lg:col-span-3 px-6 md:px-10 lg:px-0">
               <div>
-                <h4 class="pb-2 text-sm font-semibold text-logiclyorange leading-snug lg:pb-1">
+                <h4 class="lg:text-sm font-semibold text-logiclyorange leading-snug pb-2 lg:pb-1 pt-6 lg:pt-0">
                   Deakin University
                 </h4>
               </div>
               <p class="text-sm">
                 A sophisticated tool for researchers to create, analyse, publish and share data. The community can also access the research to discover and learn.
               </p>
-              <div class="pt-2 pb-8">
-                <NuxtLink to="/projects/?article=2&tab=0" class="font-medium text-sm">Read more</NuxtLink>
+              <div class="pt-2 lg:pb-8">
+                <NuxtLink to="/projects/?article=2&tab=0" class="font-semibold text-sm">Read more</NuxtLink>
               </div>
             </div>
-            <div class="col-span-1 grid content-end pl-6 pb-10">
+            <div class="col-span-1 hidden lg:grid content-end lg:pl-8 xl:pl-8 lg:pb-8 xl:pb-10">
               <NuxtLink to="/projects/?article=2&tab=0">
-                <img class="h-12" src="/Logicly-arrow.png" />
+                <img class="h-10" src="/Logicly-arrow.png" />
               </NuxtLink>
             </div>
           </div>
