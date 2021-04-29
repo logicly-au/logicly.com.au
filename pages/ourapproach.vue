@@ -1,8 +1,8 @@
 <template>
   <div>
 
-    <Hero
-    heading="Our Approach"
+    <Heroright
+    heading="OUR APPROACH"
     subheading="Understanding both the detail and larger picture"
     background-url="/Logicly-our-approach-header-understanding-both-the-detail-and-larger-picture.jpg"
     />

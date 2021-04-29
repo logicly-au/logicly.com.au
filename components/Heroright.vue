@@ -1,16 +1,19 @@
 i <template>
-  <div
-    class="object-contain object-center w-full bg-cover h-128"
-    :style="{ backgroundImage: `url(${backgroundUrl})` }"
+
+  <AspectRatio
+    ar="3:1"
+    width="100%"
+    :style="{ backgroundSize: 'cover', backgroundImage: `url(${backgroundUrl})` }"
   >
-            <page-section :altrow="altrow" :overlay="overlay" :right="right">
-
-              <h1 class="font-bold text-center text-white text-md">{{ heading }}</h1>
-              <h2 class="text-2xl font-semibold text-center text-white">{{ subheading }}</h2>
-
-            </page-section>
-
+  <div class="grid grid-cols-8 w-full h-full">
+    <div class="col-span-4 md:col-span-3 lg:col-span-2 col-start-5 md:col-start-5 lg:col-start-5 pr-20 sm:pr-32 md:pr-0 lg:-mr-10 pl-4 md:pl-8 lg:pl-16 xl:pl-20 pt-2 sm:pt-4 md:pt-10 lg:pt-12 xl:pt-16">
+      <h1 class="font-medium text-white text-xs md:text-sm xl:text-base">{{ heading }}</h1>
+      <h2 class="font-semibold text-white text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl">{{ subheading }}</h2>
+    </div>
   </div>
+
+  </AspectRatio>
+
 </template>
 
 <script>
@@ -30,16 +33,16 @@ export default {
 </script>
 
 <style scoped>
-.h-128 {
-height:32rem;
+  .h-128 {
+  height:32rem;
 }
 
 .bg-overlay {
-    background-color: rgba(248, 247, 216, 0.7);
-    position: relative;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+  background-color: rgba(248, 247, 216, 0.7);
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 </style>
