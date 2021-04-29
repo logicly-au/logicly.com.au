@@ -19,7 +19,7 @@
       <div class="grid grid-cols-3 gap-x-10 my-6 lg:my-12">
         <div class="col-span-3 lg:col-span-1 grid lg:grid-rows-3">
           <div>
-            <div class="w-32 mx-auto lg:w-24">
+            <div class="w-20 md:w-20 lg:w-20 mx-auto">
               <img src="~/assets/images/Call_us.svg"/>
             </div>
           </div>
@@ -41,7 +41,7 @@
 
         <div class="col-span-3 lg:col-span-1 grid lg:grid-rows-3">
           <div>
-            <div class="w-32 mx-auto lg:w-24">
+            <div class="w-20 md:w-20 lg:w-20 mx-auto">
               <img src="~/assets/images/Email_us.svg"/>
             </div>
           </div>
@@ -63,7 +63,7 @@
 
         <div class="col-span-3 lg:col-span-1 grid lg:grid-rows-3">
           <div>
-            <div class="w-32 mx-auto lg:w-24">
+            <div class="w-20 md:w-20 lg:w-20 mx-auto lg:pt-4">
               <img src="~/assets/images/Mail_us.svg"/>
             </div>
           </div>
