@@ -1,5 +1,5 @@
 <template>
-<div class="h-full" 
+<div class="h-full"
 :class="{ 'bg-logiclylightgrey': altrow , '!bg-logiclylightgrey': normal }"
 >
 
@@ -7,11 +7,9 @@
   :class="{ 'bg-black bg-opacity-50': overlay}"
   >
     <div class="container h-full mx-auto">
-      <div class="grid h-full py-20 grid-cols-15">
-        <div class="flex flex-col justify-center col-span-9 col-start-4">
-          
-                <slot></slot>
-              
+      <div class="grid h-full py-20 grid-cols-12 md:grid-cols-15 px-6 md:px-0">
+        <div class="flex flex-col justify-center col-span-10 col-start-2 md:col-span-9 md:col-start-4">
+            <slot></slot>
         </div>
       </div>
     </div>
