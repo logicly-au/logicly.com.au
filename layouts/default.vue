@@ -1,15 +1,6 @@
 <template>
   <div>
-    <div class="container mx-auto">
-      <div class="grid grid-cols-15">
-        <div class="flex col-span-3">
-          <logo class="self-end" />
-        </div>
-        <div class="flex flex-col justify-end col-span-8 col-start-7">
-          <navbar />
-        </div>
-      </div>
-    </div>
+    <navbar />
     <Nuxt />
     <Footer />
   </div>
