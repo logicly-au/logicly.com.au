@@ -6,6 +6,7 @@
         <span></span>
         <span></span>
       </div>
+      <logo class="self-end" />
       <nav id="menu">
         <li><a>Menu 1</a></li>
         <li class="drop"><a v-on:click="display_drop_menu()">Menu 2 dropdown <i class="icon-arrow"></i></a>
