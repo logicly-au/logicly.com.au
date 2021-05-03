@@ -8,22 +8,22 @@
       </div>
       <logo class="self-end" />
       <nav id="menu">
-        <li><a>Menu 1</a></li>
-        <li class="drop"><a v-on:click="display_drop_menu()">Menu 2 dropdown <i class="icon-arrow"></i></a>
+        <li><a>home</a></li>
+        <li class="drop"><a v-on:click="display_drop_menu()">about <i class="icon-arrow"></i></a>
           <ul class="drop_menu">
-            <a>Sub menu 1</a>
-            <a>Sub menu 2</a>
-            <a>Sub menu 3</a>
+            <a href="/aboutus">about us</a>
+            <a>our approach</a>
+            <a>our team</a>
+            <a>our security</a>
+            <a>our culture</a>
           </ul>
         </li>
-        <li class="drop"><a v-on:click="display_drop_menu()">Menu 3 dropdown  <i class="icon-arrow"></i></a>
-          <ul class="drop_menu">
-            <a>Sub menu 1</a>
-            <a>Sub menu 2</a>
-            <a>Sub menu 3</a>
-          </ul>
-        </li>
-        <li><a>Menu 4</a></li>
+        <li><a>who we help</a></li>
+        <li><a>what we do</a></li>
+        <li><a>how we work</a></li>
+        <li><a>projects</a></li>
+        <li><a>insights</a></li>
+        <li><a>contact us</a></li>
       </nav>
     </div>
   </header>
@@ -103,6 +103,11 @@ export default {
 
 <style scoped>
 
+header {
+  /* This is to fix the transparent overlay overlapping the header on scroll */
+  z-index: 1000!important;
+}
+
 .icon-arrow {
   mask: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 284.929 284.929'><path d='M282.082,76.511l-14.274-14.273c-1.902-1.906-4.093-2.856-6.57-2.856c-2.471,0-4.661,0.95-6.563,2.856L142.466,174.441        L30.262,62.241c-1.903-1.906-4.093-2.856-6.567-2.856c-2.475,0-4.665,0.95-6.567,2.856L2.856,76.515C0.95,78.417,0,80.607,0,83.082c0,2.473,0.953,4.663,2.856,6.565l133.043,133.046c1.902,1.903,4.093,2.854,6.567,2.854s4.661-0.951,6.562-2.854L282.082,89.647c1.902-1.903,2.847-4.093,2.847-6.565C284.929,80.607,283.984,78.417,282.082,76.511z'/></svg>");
 }
@@ -117,8 +122,8 @@ html, body {
   margin: 0;
   width: 100%;
   height: 100%;
-  font-size: 14px;
-  font-family: "Roboto", sans-serif;
+/*   font-size: 14px; */
+/*   font-family: "Roboto", sans-serif; */
 }
 
 * {
@@ -153,7 +158,10 @@ header {
   z-index: 1;
   padding: 10px 0;
   background-color: #ffffff;
+
+  /* changing this from fixed to block temporarily til we can fix the gap */
   position: fixed;
+
   width: 100%;
   top: 0;
   justify-content: center;
@@ -188,6 +196,8 @@ header #menu li i {
   height: 12px;
   background-color: #3E3A37;
 }
+
+/*
 header #menu li a {
   color: #3E3A37;
   cursor: pointer;
@@ -197,6 +207,8 @@ header #menu li a {
   transition: 0.15s;
   background: none;
 }
+*/
+
 header #menu li a:hover {
   border-bottom-color: #41B883;
   color: #41B883;
