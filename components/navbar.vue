@@ -8,22 +8,22 @@
       </div>
       <logo class="self-end" />
       <nav id="menu">
-        <li><a>home</a></li>
+        <li><NuxtLink to="/">home</NuxtLink></li>
         <li class="drop"><a v-on:click="display_drop_menu()">about <i class="icon-arrow"></i></a>
           <ul class="drop_menu">
-            <a href="/aboutus">about us</a>
-            <a>our approach</a>
-            <a>our team</a>
-            <a>our security</a>
-            <a>our culture</a>
+            <NuxtLink to="/aboutus">about us</NuxtLink>
+            <NuxtLink to="/ourapproach">our approach</NuxtLink>
+            <NuxtLink to="/ourteam">our team</NuxtLink>
+            <NuxtLink to="/oursecurity">our security</NuxtLink>
+            <NuxtLink to="/ourculture">our culture</NuxtLink>
           </ul>
         </li>
-        <li><a>who we help</a></li>
-        <li><a>what we do</a></li>
-        <li><a>how we work</a></li>
-        <li><a>projects</a></li>
-        <li><a>insights</a></li>
-        <li><a>contact us</a></li>
+        <li><NuxtLink to="whowehelp">who we help</NuxtLink></li>
+        <li><NuxtLink to="whatwedo">what we do</NuxtLink></li>
+        <li><NuxtLink to="howwework">how we work</NuxtLink></li>
+        <li><NuxtLink to="projects">projects</NuxtLink></li>
+        <li><NuxtLink to="insights">insights</NuxtLink></li>
+        <li><NuxtLink to="contactus">contact us</NuxtLink></li>
       </nav>
     </div>
   </header>
