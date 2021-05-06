@@ -8,7 +8,7 @@
       </div>
       <logo class="self-start" />
       <nav id="menu">
-        <li><NuxtLink to="/">home</NuxtLink></li>
+        <li><NuxtLink to="/" v-on:click.native="close_all_menu()">home</NuxtLink></li>
         <li class="drop"><a v-on:click="display_drop_menu()">about <i class="icon-plus"></i></a>
           <ul class="drop_menu">
             <NuxtLink to="/aboutus">about us</NuxtLink>
@@ -18,12 +18,12 @@
             <NuxtLink to="/ourculture">our culture</NuxtLink>
           </ul>
         </li>
-        <li><NuxtLink to="whowehelp">who we help</NuxtLink></li>
-        <li><NuxtLink to="whatwedo">what we do</NuxtLink></li>
-        <li><NuxtLink to="howwework">how we work</NuxtLink></li>
-        <li><NuxtLink to="projects">projects</NuxtLink></li>
-        <li><NuxtLink to="insights">insights</NuxtLink></li>
-        <li><NuxtLink to="contactus">contact us</NuxtLink></li>
+        <li><NuxtLink to="whowehelp" v-on:click.native="close_all_menu()">who we help</NuxtLink></li>
+        <li><NuxtLink to="whatwedo" v-on:click.native="close_all_menu()">what we do</NuxtLink></li>
+        <li><NuxtLink to="howwework" v-on:click.native="close_all_menu()">how we work</NuxtLink></li>
+        <li><NuxtLink to="projects" v-on:click.native="close_all_menu()">projects</NuxtLink></li>
+        <li><NuxtLink to="insights" v-on:click.native="close_all_menu()">insights</NuxtLink></li>
+        <li><NuxtLink to="contactus" v-on:click.native="close_all_menu()">contact us</NuxtLink></li>
       </nav>
     </div>
   </header>
@@ -221,6 +221,7 @@ header #menu li a:hover {
 }
 
 header .drop_menu {
+  border-bottom:none!important;
   position: absolute;
   display: block;
   top: 149%;
@@ -230,7 +231,6 @@ header .drop_menu {
   background-color: #F6F5F1;
   font-size: 0.9rem;
   transition: 0.25s;
-  padding-bottom: 10px;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1);
 }
 
