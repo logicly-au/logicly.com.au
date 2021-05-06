@@ -6,10 +6,10 @@
         <span></span>
         <span></span>
       </div>
-      <logo class="self-end" />
+      <logo class="self-start" />
       <nav id="menu">
         <li><NuxtLink to="/">home</NuxtLink></li>
-        <li class="drop"><a v-on:click="display_drop_menu()">about <i class="icon-arrow"></i></a>
+        <li class="drop"><a v-on:click="display_drop_menu()">about <i class="icon-plus"></i></a>
           <ul class="drop_menu">
             <NuxtLink to="/aboutus">about us</NuxtLink>
             <NuxtLink to="/ourapproach">our approach</NuxtLink>
@@ -34,7 +34,7 @@ var last_scroll = 0;
 
 export default {
   data() {
-    return { 
+    return {
       load: false,
       last_scroll: 0,
     };
@@ -108,8 +108,13 @@ header {
   z-index: 1000!important;
 }
 
-.icon-arrow {
+/* This is not used anymore, changed to .icon-plus */
+.icon-arrow  {
   mask: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 284.929 284.929'><path d='M282.082,76.511l-14.274-14.273c-1.902-1.906-4.093-2.856-6.57-2.856c-2.471,0-4.661,0.95-6.563,2.856L142.466,174.441        L30.262,62.241c-1.903-1.906-4.093-2.856-6.567-2.856c-2.475,0-4.665,0.95-6.567,2.856L2.856,76.515C0.95,78.417,0,80.607,0,83.082c0,2.473,0.953,4.663,2.856,6.565l133.043,133.046c1.902,1.903,4.093,2.854,6.567,2.854s4.661-0.951,6.562-2.854L282.082,89.647c1.902-1.903,2.847-4.093,2.847-6.565C284.929,80.607,283.984,78.417,282.082,76.511z'/></svg>");
+}
+
+.icon-plus {
+  mask: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' stroke='currentColor'><path stroke-linecap='round' stroke-linejoin='round' stroke-width='1' d='M12 6v6m0 0v6m0-6h6m-6 0H6' /></svg>");
 }
 
 i {
@@ -173,27 +178,29 @@ header .wrap {
   padding: 0 2%;
   width: 100%;
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   justify-content: space-between;
 }
 
 header img {
-  width: 100px;
+  width: 150px;
 }
 
 header #menu {
   display: flex;
   flex-direction: row;
+  font-size: 0.85rem;
 }
 
 header #menu li {
   position: relative;
   user-select: none;
   margin-left: 20px;
+  font-weight: 300;
 }
 header #menu li i {
-  width: 12px;
-  height: 12px;
+  width: 30px;
+  height: 30px;
   background-color: #3E3A37;
 }
 
@@ -210,11 +217,7 @@ header #menu li a {
 */
 
 header #menu li a:hover {
-  border-bottom-color: #41B883;
-  color: #41B883;
-}
-header #menu li a:hover i {
-  background-color: #41B883;
+  border-bottom-color: none;
 }
 
 header .drop_menu {
@@ -224,11 +227,13 @@ header .drop_menu {
   transform: scaleY(0);
   width: auto;
   transform-origin: top;
-  background-color: #ffffff;
+  background-color: #F6F5F1;
+  font-size: 0.9rem;
   transition: 0.25s;
   padding-bottom: 10px;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1);
 }
+
 header .drop_menu a {
   margin-left: 20px;
   display: block;
@@ -249,8 +254,8 @@ header #hamburger {
   cursor: pointer;
   border-radius: 50%;
   position: absolute;
-  left: 3%;
-  top: 30px;
+  right: 5%;
+  top: 40px;
   display: none;
   transform: translateY(-50%);
 }
@@ -264,23 +269,23 @@ header #hamburger span {
   transition: 0.33s;
 }
 header #hamburger span:nth-child(1) {
-  width: 12px;
+  width: 24px;
 }
 header #hamburger span:nth-child(2) {
   width: 24px;
 }
 header #hamburger span:nth-child(3) {
-  width: 12px;
+  width: 24px;
 }
 
 .display_menu header #hamburger span:nth-child(1) {
-  transform: rotate(45deg) translate(2px, 1px);
+  transform: rotate(45deg) translate(5px, 5px);
 }
 .display_menu header #hamburger span:nth-child(2) {
   transform: rotate(-45deg);
 }
 .display_menu header #hamburger span:nth-child(3) {
-  transform: rotate(45deg) translate(6px, -9px);
+  transform: rotate(45deg) translate(-3px, -5px);
 }
 
 #background {
@@ -387,6 +392,7 @@ header #hamburger span:nth-child(3) {
     transform: rotate(-360deg);
   }
 }
+
 #overlay {
   display: block;
   position: fixed;
@@ -412,7 +418,8 @@ header #hamburger span:nth-child(3) {
   }
 
   header img {
-    width: 50px;
+    width: 170px;
+    padding-left: 30px;
   }
 
   header #hamburger {
@@ -422,50 +429,59 @@ header #hamburger span:nth-child(3) {
   header #menu {
     width: 100%;
     display: block;
+    background-color: #F6F5F1;
+    color: #3c3c3b;
     height: 0;
     transform-origin: 50% 0;
     transition: 0.33s ease;
     flex-direction: column;
+    font-size: 1rem;
   }
 
   .display_menu header #menu {
     height: calc(100vh - 64px);
   }
+
   .display_menu header #menu li {
     height: calc((100vh - 113px)/8);
-    border-bottom: 1px solid #DAD9D7;
+    border-bottom: none;
     transition: 0.25s ease;
     opacity: 1;
     display: block;
   }
+
   header #menu li {
     height: 0;
     opacity: 0;
     margin-left: 0;
     transition: 0.25s ease;
   }
+
   header #menu li a {
     left: 0;
     line-height: calc((100vh - 113px)/8);
-    padding-left: 20px;
+    padding-left: 30px;
     border: none;
     height: 100%;
     width: 100%;
     display: block;
   }
+
   header #menu li a:hover {
-    color: #ffffff;
-    background-color: #41B883;
+    color: #5A5A59;
+    font-weight: 600;
   }
+
   header #menu li a:hover i {
-    background-color: #ffffff;
+    background-color: #5A5A59;
   }
+
   header #menu li i {
     position: absolute;
-    right: 20px;
+    right: 35px;
     top: 50%;
     transform: translateY(-50%);
-    background-color: #3E3A37;
+    background-color: #3c3c3b;
   }
 
   header .drop_menu {
@@ -474,15 +490,23 @@ header #hamburger span:nth-child(3) {
     left: 0;
     padding-bottom: 0;
     width: 100%;
+    background-color: #F6F5F1;
+    font-size: 0.9rem;
   }
   header .drop_menu a {
     width: 100%;
     padding: 0 !important;
     padding-left: 40px !important;
     margin: 0;
-    border-bottom: 1px solid #DAD9D7 !important;
+    border-bottom: none;
+  }
+
+  .nuxt-link-exact-active {
+    color: #E94E1B;
+    font-weight: 600;
   }
 }
+
 @media screen and (max-width: 660px) and (max-height: 500px) {
   .display_menu header {
     max-height: 100vh;
@@ -501,10 +525,43 @@ header #hamburger span:nth-child(3) {
     top: calc((100vh - 113px)/4);
   }
 }
+
 i {
   vertical-align: middle;
   display: inline-block;
   background-repeat: no-repeat;
 }
+
+@media screen and (min-width: 660px) {
+  header #menu li i {
+    display: none;
+  }
+  header {
+    padding-top: 30px;
+  }
+
+  header .drop_menu {
+    margin-top: 23px;
+    margin-left: -20px;
+    width: 140px;
+  }
+
+  header .drop_menu a {
+    font-size: 0.85rem;
+    margin: 0px;
+    padding: 10px 0px 10px 20px;
+    border-bottom: 1px solid #B0B1B1;
+  }
+
+  header .drop_menu .nuxt-link-active {
+    color: #E94E1B;
+    font-weight: 600;
+  }
+}
+
+.nuxt-link-exact-active {
+  font-weight: 600;
+}
+
 
 </style>
