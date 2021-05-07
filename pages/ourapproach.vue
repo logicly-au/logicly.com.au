@@ -29,7 +29,7 @@
     text4a="We achieve the best outcomes when we’re part of your team and understand the needs of everyone involved."
     text4b="We enjoy sharing our expertise and supporting our clients to develop their own capabilities."
     subheading5="No short cuts"
-    text5a="We won’t build a system without considering the context, but we also understand that there are times when you need to take a short cut."
+    text5a="We won’t build a system without considering the context, but we also understand that there are times when you need to take a bypass."
     text5b="Our experience means we know when to raise issues with clients and how to help you manage the risks."
     subheading6="Intuitive, user friendly design"
     text6a="We ensure the user is at the centre of any decisions when designing, developing and editing a digital system."
@@ -42,7 +42,7 @@
     />
 
     <CTA
-    text="View projects which bring our philosophy to life"
+    text="View projects that bring our philosophy to life"
     buttonText="Projects"
     buttonLink="/projects"
     />

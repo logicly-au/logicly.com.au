@@ -89,9 +89,9 @@
 
           <div class="col-span-2">
             <overlay-image
-              imageurl="/designing-building-digital-systems.jpg"
+              imageurl="/complex-information-challenges.jpg"
               height="286px"
-              text="Designing and building digital systems"
+              text="Complex information challenges"
             />
           </div>
 
@@ -120,11 +120,11 @@
         <div class="grid grid-cols-2 col-span-2 lg:col-span-1 lg:col-start-2">
 
           <div class="col-span-2">
-          <overlay-image
-            imageurl="/complex-information-challenges.jpg"
+            <overlay-image
+            imageurl="/designing-building-digital-systems.jpg"
             height="286px"
-            text="Complex information challenges"
-          />
+            text="Designing and building digital systems"
+            />
           </div>
 
           <div class="col-span-2 pt-8 pb-2 font-bold lg:text-lg">
