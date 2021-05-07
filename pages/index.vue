@@ -62,7 +62,7 @@
         </div>
 
         <div class="col-span-6 pt-16 pb-2 text-center lg:col-span-4 lg:col-start-2">
-          <span class="font-medium">This 4 stage approach is a cycle of continuous feedback, changes and testing as the system
+          <span class="font-medium">This 4 stage approach is a cycle of continuous feedback, changes and testing as the system
             evolves.</span>
         </div>
 
@@ -305,7 +305,7 @@
       <div class="grid items-center content-center justify-center h-64 grid-cols-1 text-logiclytextgrey">
         <div class="col-span-1">
           <div class="text-2xl font-medium text-center">
-            Do you have a project in mind or a complex information challenge? Call us on +61 3 9340 9000 or enquire below.
+            Do you have a project in mind or a complex information challenge? Call us on +61 3 9340 9000 or enquire below.
           </div>
         </div>
         <!-- TODO Add link here -->

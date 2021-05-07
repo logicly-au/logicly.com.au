@@ -13,7 +13,7 @@
       iconurl="We-help-people-understand-all-the-possibilities.svg"
       heading="We help people understand all the possibilities"
       subheading="We help clients understand the power of technology to improve efficiencies and gain quality information
-              to inform critical decisions. We guide our clients through the possible pathways and alternatives. It is
+              to inform critical decisions. We guide our clients through the possible pathways and alternatives. It is
               rare that any two projects are the same so every digital system is designed for your specific needs and vision."
       altrow
     />
@@ -89,7 +89,7 @@
                     <h3 class="font-bold">Develping data collection processes</h3>
                     <p>The strategy and design of data collection processes that meet ethic requirements.</p>
                     <h3 class="font-bold">Creating information networks</h3>
-                    <p>Supporting researchers to design and develop a streamlined network of information.</p>
+                    <p>Supporting researchers to design and develop a streamlined network of information.</p>
                   </div>
                   </div>
                 </div>

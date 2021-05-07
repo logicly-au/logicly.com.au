@@ -20,30 +20,30 @@
 
 
     <page-section>
-     <div class="grid grid-cols-12 gap-x-6 text-logiclytextgrey px-0 lg:px-20 xl:px-0 xl:-mx-20 xl:-mb-20 pb-0 mb-0">
+     <div class="grid grid-cols-12 px-0 pb-0 mb-0 gap-x-6 text-logiclytextgrey lg:px-20 xl:px-0 xl:-mx-20 xl:-mb-20">
 
        <div class="col-span-12 text-center">
-         <h1 class="text-2xl font-semibold text-center text-logiclytextgrey pb-6 pt-8">Our collaborative journey</h1>
+         <h1 class="pt-8 pb-6 text-2xl font-semibold text-center text-logiclytextgrey">Our collaborative journey</h1>
        </div>
 
-       <div class="col-span-12 border-t-2 border-logiclygreytwo pb-6 md:pb-8">
+       <div class="col-span-12 pb-6 border-t-2 border-logiclygreytwo md:pb-8">
        </div>
 
-       <div class="col-span-12 grid justify-center pb-6 md:pb-8 xl:pb-20">
-         <img src="~/assets/images/greyarrow.svg" class="p-0 h-4 md:h-5 xl:h-6"/>
+       <div class="grid justify-center col-span-12 pb-6 md:pb-8 xl:pb-20">
+         <img src="~/assets/images/greyarrow.svg" class="h-4 p-0 md:h-5 xl:h-6"/>
        </div>
 
        <div class="col-span-12 xl:col-span-5">
          <img src="~/assets/images/1_Research.jpg" class="p-0"/>
        </div>
 
-       <div class="hidden xl:block col-span-1 border-l-2 border-logiclygreythree ml-2">
-         <div class="rounded-full h-6 w-6 bg-logiclytheme1 -ml-3">
+       <div class="hidden col-span-1 ml-2 border-l-2 xl:block border-logiclygreythree">
+         <div class="w-6 h-6 -ml-3 rounded-full bg-logiclytheme1">
          </div>
        </div>
 
-       <div class="col-span-12 xl:col-span-4 pl-0 xl:pl-4 xl:-ml-12 pb-2 xl:pb-16">
-         <h3 class="font-bold text-xl text-logiclytheme1 pt-4 xl:pt-0 xl:-mt-2 pb-3">1. Research</h3>
+       <div class="col-span-12 pb-2 pl-0 xl:col-span-4 xl:pl-4 xl:-ml-12 xl:pb-16">
+         <h3 class="pt-4 pb-3 text-xl font-bold text-logiclytheme1 xl:pt-0 xl:-mt-2">1. Research</h3>
          <p class="text-sm font-light">In order to develop a thoughtful solution to a complex information problem, it’s essential to have a
            thorough understanding of what the data needs to inform and the best pathway to get there.</p>
          <h4 class="text-base font-semibold">Understanding</h4>
@@ -57,13 +57,13 @@
            the same page.</p>
        </div>
 
-       <div class="col-span-12 xl:col-span-2 mt-0 xl:mt-8 pb-12 xl:pb-0">
-         <h4 class="font-semibold text-sm">Scoping Team</h4>
-         <p class="text-xs font-light pb-2">
+       <div class="col-span-12 pb-12 mt-0 xl:col-span-2 xl:mt-8 xl:pb-0">
+         <h4 class="text-sm font-semibold">Scoping Team</h4>
+         <p class="pb-2 text-xs font-light">
            Product Manager<br />
            Adam Clarke, Director/CTO
          </p>
-         <p class="text-xs font-light pb-2">
+         <p class="pb-2 text-xs font-light">
            Project manager<br />
            Simon Palmer, Director<br />
            Senior consultant
@@ -77,19 +77,19 @@
          <img src="~/assets/images/2_Design.jpg" class="p-0"/>
        </div>
 
-       <div class="hidden xl:block col-span-1 border-l-2 border-logiclygreythree ml-2">
-         <div class="rounded-full h-6 w-6 bg-logiclytheme2 -ml-3">
+       <div class="hidden col-span-1 ml-2 border-l-2 xl:block border-logiclygreythree">
+         <div class="w-6 h-6 -ml-3 rounded-full bg-logiclytheme2">
          </div>
        </div>
 
-       <div class="col-span-12 xl:col-span-4 pl-0 xl:pl-4 xl:-ml-12 pb-2 xl:pb-16">
+       <div class="col-span-12 pb-2 pl-0 xl:col-span-4 xl:pl-4 xl:-ml-12 xl:pb-16">
          <!-- TODO Get rid of the lipsum here -->
-         <h3 class="font-bold text-xl text-logiclytheme2 pt-4 xl:pt-0 xl:-mt-2 pb-3">2. Design</h3>
+         <h3 class="pt-4 pb-3 text-xl font-bold text-logiclytheme2 xl:pt-0 xl:-mt-2">2. Design</h3>
          <p class="text-sm font-light">
            We design with flexibility to make room for refinements and changes down the track. Our collaborative process takes into consideration many different design factors.
          </p>
          <h4 class="text-base font-semibold">
-           User friendly interface design
+           User friendly interface design
          </h4>
          <p class="text-sm font-light">
            We design interfaces based on the user experience, making the process
@@ -111,17 +111,17 @@
            laoreet dolore.
          </p>
        </div>
-       <div class="col-span-12 lg:col-span-7 xl:col-span-2 xl:mt-8 pb-12 xl:pb-0">
-         <h4 class="font-semibold text-sm">Design team</h4>
-         <p class="text-xs font-light pb-2">
-           Product Manager<br />
+       <div class="col-span-12 pb-12 lg:col-span-7 xl:col-span-2 xl:mt-8 xl:pb-0">
+         <h4 class="text-sm font-semibold">Design team</h4>
+         <p class="pb-2 text-xs font-light">
+           Product Manager<br />
            Adam Clarke, Director/CTO
          </p>
-         <p class="text-xs font-light pb-2">
+         <p class="pb-2 text-xs font-light">
            The directors are experts in UX and UI, having worked with the Telstra Usability Research and
            Consulting Team.
          </p>
-         <p class="text-xs font-light pb-2">
+         <p class="pb-2 text-xs font-light">
            UX Designers<br />
            Senior developers
          </p>
@@ -131,13 +131,13 @@
          <img src="~/assets/images/3_Build.jpg" class="p-0"/>
        </div>
 
-       <div class="hidden xl:block col-span-1 border-l-2 border-logiclygreythree ml-2">
-         <div class="rounded-full h-6 w-6 bg-logiclytheme4 -ml-3">
+       <div class="hidden col-span-1 ml-2 border-l-2 xl:block border-logiclygreythree">
+         <div class="w-6 h-6 -ml-3 rounded-full bg-logiclytheme4">
          </div>
        </div>
 
-       <div class="col-span-12 xl:col-span-4 pl-0 xl:pl-4 xl:-ml-12 pb-2 xl:pb-16">
-         <h3 class="font-bold text-xl text-logiclytheme4 pt-4 xl:pt-0 xl:-mt-2 pb-3">3. Build</h3>
+       <div class="col-span-12 pb-2 pl-0 xl:col-span-4 xl:pl-4 xl:-ml-12 xl:pb-16">
+         <h3 class="pt-4 pb-3 text-xl font-bold text-logiclytheme4 xl:pt-0 xl:-mt-2">3. Build</h3>
          <p class="text-sm font-light">
            This stage is about building the interface, systems infrastructure and databases. We get constant
            feedback along the way to identify possible ways to add value or innovation to enhance the system.
@@ -172,13 +172,13 @@
            of quality.
          </p>
        </div>
-       <div class="col-span-12 lg:col-span-8 xl:col-span-2 xl:mt-8 pb-12 xl:pb-0">
-         <h4 class="font-semibold text-sm">Digital team</h4>
-         <p class="text-xs font-light pb-2">
-           Product Manager <br />
+       <div class="col-span-12 pb-12 lg:col-span-8 xl:col-span-2 xl:mt-8 xl:pb-0">
+         <h4 class="text-sm font-semibold">Digital team</h4>
+         <p class="pb-2 text-xs font-light">
+           Product Manager <br />
            Adam Clarke, Director/CTO
          </p>
-         <p class="text-xs font-light pb-2">
+         <p class="pb-2 text-xs font-light">
            Project manager, Programmers, database designers, and systems administrator-architects
          </p>
        </div>
@@ -188,14 +188,14 @@
          <img src="~/assets/images/4_Maintain_and_improve.jpg" class="p-0"/>
        </div>
 
-       <div class="hidden xl:block col-span-1 border-l-2 border-logiclygreythree ml-2">
-         <div class="rounded-full h-6 w-6 bg-logiclytheme3 -ml-3">
+       <div class="hidden col-span-1 ml-2 border-l-2 xl:block border-logiclygreythree">
+         <div class="w-6 h-6 -ml-3 rounded-full bg-logiclytheme3">
          </div>
        </div>
 
-       <div class="col-span-12 xl:col-span-4 pl-0 xl:pl-4 xl:-ml-12 pb-2 xl:pb-24">
-         <h3 class="font-bold text-xl text-logiclytheme3 pt-4 xl:pt-0 xl:-mt-2 pb-3">4. Maintain & Improve</h3>
-         <p class="text-sm font-light pb-2">
+       <div class="col-span-12 pb-2 pl-0 xl:col-span-4 xl:pl-4 xl:-ml-12 xl:pb-24">
+         <h3 class="pt-4 pb-3 text-xl font-bold text-logiclytheme3 xl:pt-0 xl:-mt-2">4. Maintain & Improve</h3>
+         <p class="pb-2 text-sm font-light">
            Once the digital solution is launched and live, we continue to work with our clients to gain the most
            from their digital system.
          </p>
@@ -237,14 +237,14 @@
        </div>
 
        <div class="col-span-12 xl:col-span-2 xl:mt-8">
-         <h4 class="font-semibold text-sm">Support team</h4>
-         <p class="text-xs font-light pb-2">
+         <h4 class="text-sm font-semibold">Support team</h4>
+         <p class="pb-2 text-xs font-light">
            Led by the project manager
          </p>
-         <p class="text-xs font-light pb-2">
+         <p class="pb-2 text-xs font-light">
            Dedicated project support
          </p>
-         <p class="text-xs font-light pb-2">
+         <p class="pb-2 text-xs font-light">
            IT infrastructure<br />
            Development Operations<br />
            Development experts
@@ -255,22 +255,22 @@
 
 
     <page-section altrow>
-      <div class="grid grid-cols-12 gap-x-6 flex items-center px-0 lg:px-20 xl:px-0 xl:-mx-20 xl:-mt-32 pb-0 xl:pb-12">
-       <div class="col-span-12 xl:col-span-5 pt-0 xl:pt-32">
+      <div class="flex grid items-center grid-cols-12 px-0 pb-0 gap-x-6 lg:px-20 xl:px-0 xl:-mx-20 xl:-mt-32 xl:pb-12">
+       <div class="col-span-12 pt-0 xl:col-span-5 xl:pt-32">
          <img src="~/assets/images/Continual_reviews.svg" />
        </div>
 
-       <div class="hidden xl:block col-span-1 border-l-2 border-logiclygreythree ml-2 h-full -mb-24">
-         <div class="rounded-full h-6 w-6 bg-logiclygreythree -ml-3 mt-56">
+       <div class="hidden h-full col-span-1 ml-2 -mb-24 border-l-2 xl:block border-logiclygreythree">
+         <div class="w-6 h-6 mt-56 -ml-3 rounded-full bg-logiclygreythree">
          </div>
        </div>
 
-       <div class="col-span-12 xl:col-span-5 text-logiclytextgrey pl-0 xl:pl-4 xl:-ml-12 pt-4 xl:pt-32">
-         <h2 class="text-xl font-semibold pb-2">
+       <div class="col-span-12 pt-4 pl-0 xl:col-span-5 text-logiclytextgrey xl:pl-4 xl:-ml-12 xl:pt-32">
+         <h2 class="pb-2 text-xl font-semibold">
            An evolving process
          </h2>
          <p class="text-lg xl:text-base">
-           We get together with clients as questions evolve and gaps arise. It is a fluid process of discussions, building, testing and refining.
+           We get together with clients as questions evolve and gaps arise. It is a fluid process of discussions, building, testing and refining.
          </p>
        </div>
 
@@ -279,7 +279,7 @@
 
 
     <CTA
-     text="Follow some of our client's journeys"
+     text="Follow some of our clients' journeys"
      buttonText="View our projects"
      buttonLink="/projects"
     />
