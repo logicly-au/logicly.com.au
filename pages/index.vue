@@ -123,7 +123,7 @@
           <overlay-image
             imageurl="/complex-information-challenges.jpg"
             height="286px"
-            text="Complex Information Challenges"
+            text="Complex information challenges"
           />
           </div>
 
