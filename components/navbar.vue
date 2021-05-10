@@ -46,7 +46,7 @@ export default {
       if(!document.getElementById("loader")){
         vm.close_all_menu();
         var header = document.getElementsByTagName("header")[0];
-        if(Math.abs(vm.last_scroll - this.scrollY) <= 5) return;
+        if(Math.abs(vm.last_scroll - this.scrollY) <= 75) return;
         (this.scrollY < vm.last_scroll) ? header.style.top = "0" : header.style.top = "-" + header.clientHeight + "px" ;
         vm.last_scroll = this.scrollY;
       }
