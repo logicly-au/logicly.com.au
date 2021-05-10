@@ -8,6 +8,7 @@
     <page-section :altrow="altrow" :overlay="overlay">
       <h1 class="text-xs md:text-sm xl:text-base font-medium text-center text-white">{{ heading }}</h1>
       <h2 class="text-base sm:text-lg md:text-xl xl:text-2xl font-semibold text-center text-white">{{ subheading }}</h2>
+      <h1 class="-mt-4 sm:mt-0 text-lg lg:text-xl text-center text-white">{{ pageheroheading }}</h1>
     </page-section>
 
   </AspectRatio>
@@ -19,6 +20,7 @@ export default {
   props: {
     heading: String,
     subheading: String,
+    pageheroheading: String,
     backgroundUrl: String,
     right: Boolean,
     blacktext: Boolean,
