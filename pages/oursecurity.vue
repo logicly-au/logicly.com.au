@@ -18,11 +18,11 @@
       <div class="grid grid-cols-8 gap-x-4 text-logiclytextgrey px-0 lg:px-4 xl:px-6">
         <div class="col-span-8 text-center">
           <h1 class="text-2xl font-semibold pb-4">A continuous, systematic approach to risk analysis and security </h1>
-          <p class="mb-12 text-lg">To ensure we’re at the cutting edge of security best-practices, and align with their needs, we keep a rigorous routine of continuous review and investment in our methods. Our data solutions are created to respond to each client’s unique information challenge, including their risk requirements.</p>
+          <p class="mb-12 text-lg font-light">To ensure we’re at the cutting edge of security best-practices, and align with their needs, we keep a rigorous routine of continuous review and investment in our methods. Our data solutions are created to respond to each client’s unique information challenge, including their risk requirements.</p>
           <h1 class="text-xl font-semibold mb-6">Security measures we build into our projects include:</h1>
         </div>
         <div class="col-span-8 lg:col-span-4 col-start-1">
-          <ul class="text-base lg:text-sm list-disc pr-8">
+          <ul class="text-base lg:text-base font-light list-disc pr-8">
             <li>24/7 security monitoring</li>
             <li>Vulnerability scanning and penetration testing</li>
             <li>OWASP Top 10 compliancy testing</li>
@@ -31,7 +31,7 @@
           </ul>
         </div>
         <div class="col-span-8 lg:col-span-4 lg:col-start-5">
-          <ul class="text-base lg:text-sm list-disc">
+          <ul class="text-base lg:text-base font-light list-disc">
             <li>Development of project-specific security documentation such as: Security Risk Management Plans, Incident Response Plans, Statements of Applicability, and Compliance Audits</li>
             <li>Consultation with external subject-matter	specialists as needed</li>
           </ul>
@@ -50,14 +50,19 @@
       <div class="grid grid-cols-3 gap-x-2 text-logiclytextgrey px-0 xl:px-10">
         <div class="col-span-3 pb-8 lg:pb-4">
           <h1 class="text-2xl font-semibold text-center pb-4 lg:pb-8 pt-8">Protecting critical information for established organisations</h1>
-          <p class="text-lg text-center pb-2">Our comprehensive approach to security has enabled us to foster successful, long-term partnerships with leading organisations such as the Department of Health, National Australia Bank and the University of Melbourne over the course of many years, and many projects. </p>
+          <p class="text-lg text-center font-light pb-2">Our comprehensive approach to security has enabled us to foster successful, long-term partnerships with leading organisations such as the Department of Health, National Australia Bank and the University of Melbourne over the course of many years, and many projects. </p>
         </div>
         <div class="col-span-3 lg:col-span-1 text-center flex pb-6 lg:pb-0">
           <div class="m-auto">
             <div class="h-24 flex items-center justify-center">
               <img src="/Australian-Government-Federal-Department-of-Health.png" class="h-28" />
             </div>
-            <NuxtLink to="/" class="text-logiclytheme4 font-medium underline">View Project</NuxtLink>
+            <div class="flex justify-center">
+              <Button
+                buttontext="View Project"
+                buttonlink="/projects/?article=2&tab=1"
+              />
+            </div>
           </div>
         </div>
         <div class="col-span-3 lg:col-span-1 text-center flex pb-6 lg:pb-0">
@@ -65,15 +70,25 @@
             <div class="h-24 flex items-center justify-center">
               <img src="/The-University-of-Melbourne.png" class="h-28" />
             </div>
-            <NuxtLink to="/" class="text-logiclytheme4 font-medium  underline">View Project</NuxtLink>
+            <div class="flex justify-center">
+              <Button
+                buttontext="View Project"
+                buttonlink="/projects/?article=0&tab=0"
+              />
+            </div>
           </div>
         </div>
         <div class="col-span-3 lg:col-span-1 text-center flex">
           <div class="m-auto">
             <div class="h-24 flex items-center justify-center">
-              <img src="/National-Australia-Bank.png" class="h-20" />
+              <img src="/National-Australia-Bank.png" class="h-12" />
             </div>
-            <NuxtLink to="/" class="text-logiclytheme4 font-medium  underline">View Project</NuxtLink>
+            <div class="flex justify-center">
+              <Button
+                buttontext="View Project"
+                buttonlink="/projects/?article=2&tab=5"
+              />
+            </div>
           </div>
         </div>
       </div>
