@@ -11,11 +11,11 @@
         <li><NuxtLink to="/" v-on:click.native="close_all_menu()">home</NuxtLink></li>
         <li class="drop"><a v-on:click="display_drop_menu()">about <i class="icon-plus"></i></a>
           <ul class="drop_menu">
-            <NuxtLink to="/aboutus">about us</NuxtLink>
-            <NuxtLink to="/ourapproach">our approach</NuxtLink>
-            <NuxtLink to="/ourteam">our team</NuxtLink>
-            <NuxtLink to="/oursecurity">our security</NuxtLink>
-            <NuxtLink to="/ourculture">our culture</NuxtLink>
+            <NuxtLink to="/aboutus" v-on:click.native="close_all_menu()">about us</NuxtLink>
+            <NuxtLink to="/ourapproach" v-on:click.native="close_all_menu()">our approach</NuxtLink>
+            <NuxtLink to="/ourteam" v-on:click.native="close_all_menu()">our team</NuxtLink>
+            <NuxtLink to="/oursecurity" v-on:click.native="close_all_menu()">our security</NuxtLink>
+            <NuxtLink to="/ourculture" v-on:click.native="close_all_menu()">our culture</NuxtLink>
           </ul>
         </li>
         <li><NuxtLink to="whowehelp" v-on:click.native="close_all_menu()">who we help</NuxtLink></li>
