@@ -9,7 +9,7 @@
     <Herotext
       iconurl="Our-team-approaches-problems-from-different-angles.svg"
       heading="Our team approaches problems from different angles"
-      subheading="Our diverse skills across strategic thinking, UX design, technology, management and customer support ensures we collectively bring a wholistic approach to every project. This creative thinking helps us conceptualise our client’s vision and provide different options to solvetheir complex information problem."
+      subheading="Our diverse skills across strategic thinking, UX design, technology, management and customer support ensures we collectively bring a wholistic approach to every project. This creative thinking helps us conceptualise our client’s vision and provide different options to solvetheir complex information problem."
       altrow
     />
 
@@ -118,7 +118,7 @@
             </h2>
             <h3 class="text-sm font-medium pb-4">
               Director / Senior Consultant <br>
-              B.A. (Hons), B. Com., M.A. (App. Psy.)
+              B.A. (Hons), B. Com., M.A. (App. Psy.)
             </h3>
             <p class="pb-2 text-sm">
               Prior to co-founding Logicly (then Strategic Data), Simon's professional career shifted from social research and program evaluation to issues of computer-interface design, usability and information presentation. For 15 years he was a registered psychologist, bringing a counseling-influenced approach to the collection, management, analysis and presentation of data. Simon’s particular expertise is in identifying the information required to support an objective, and specifying technical infrastructure to enable the collection and application of relevant data.
@@ -139,7 +139,7 @@
             </h2>
             <h3 class="text-sm font-medium pb-4">
               Director / Manager, Business Operations <br>
-              (B.A. (Hons), Dip. (Proj Mgt), M. Ent.)
+              (B.A. (Hons), Dip. (Proj Mgt), M. Ent.)
             </h3>
             <p class="pb-2 text-sm">
               Michelle is the newest member of Logicly’s Board of Directors.
