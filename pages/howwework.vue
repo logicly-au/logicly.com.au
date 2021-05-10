@@ -260,7 +260,7 @@
          <img src="~/assets/images/Continual_reviews.svg" />
        </div>
 
-       <div class="hidden xl:block col-span-1 border-l-2 border-logiclygreythree ml-2 h-full -mb-24">
+       <div class="hidden xl:block col-span-1 border-l-2 border-logiclygreythree ml-2 h-1/2 -mb-24">
          <div class="rounded-full h-6 w-6 bg-logiclygreythree -ml-3 mt-56">
          </div>
        </div>
