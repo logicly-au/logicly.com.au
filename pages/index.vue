@@ -8,7 +8,7 @@
 
     <Herotextnoimage
       heading="Developing thoughtfully designed digital systems"
-      subheading="We bring twenty years of knowledge and experience in research, strategy, design and technology to solve
+      subheading="We bring twenty five years of knowledge and experience in research, strategy, design and technology to solve
                 your complex information challenges. Our digital systems are built with innovative but practical
                 thinking, flexibility and intuitive design, always with the user experience in mind."
       altrow
@@ -62,7 +62,7 @@
         </div>
 
         <div class="col-span-6 pt-16 pb-2 text-center lg:col-span-4 lg:col-start-2">
-          <span class="font-medium">This 4 stage approach is a cycle of continuous feedback, changes and testing as the system
+          <span class="font-medium">This 4 stage approach is a cycle of continuous feedback, changes and testing as the system
             evolves.</span>
         </div>
 
@@ -89,13 +89,13 @@
 
           <div class="col-span-2">
             <overlay-image
-              imageurl="/designing-building-digital-systems.jpg"
+              imageurl="/complex-information-challenges.jpg"
               height="286px"
-              text="Designing and building digital systems"
+              text="Complex information challenges"
             />
           </div>
 
-          <div class="col-span-2 font-bold lg:text-lg pt-8 pb-2">
+          <div class="col-span-2 pt-8 pb-2 font-bold lg:text-lg">
             What information challenges do you have?
           </div>
 
@@ -120,14 +120,14 @@
         <div class="grid grid-cols-2 col-span-2 lg:col-span-1 lg:col-start-2">
 
           <div class="col-span-2">
-          <overlay-image
-            imageurl="/complex-information-challenges.jpg"
+            <overlay-image
+            imageurl="/designing-building-digital-systems.jpg"
             height="286px"
-            text="Complex Information Challenges"
-          />
+            text="Designing and building digital systems"
+            />
           </div>
 
-          <div class="col-span-2 font-bold lg:text-lg pt-8 pb-2">
+          <div class="col-span-2 pt-8 pb-2 font-bold lg:text-lg">
             What type of digital system do you require?
           </div>
 
@@ -200,9 +200,9 @@
 
         <div class="grid content-end col-span-2 px-2 pt-4 pb-10 mx-4 lg:col-span-1 lg:col-start-2 lg:pb-0 xl:pt-16">
           <div class="grid grid-cols-4">
-            <div class="col-span-4 lg:col-span-3 px-6 md:px-10 lg:px-0">
+            <div class="col-span-4 px-6 lg:col-span-3 md:px-10 lg:px-0">
               <div>
-                <h4 class="lg:text-sm font-semibold text-logiclytheme4 leading-snug pb-2 lg:pb-1 pt-6 lg:pt-0">
+                <h4 class="pt-6 pb-2 font-semibold leading-snug lg:text-sm text-logiclytheme4 lg:pb-1 lg:pt-0">
                   Queensland Department of Transport and Main Roads
                 </h4>
               </div>
@@ -211,10 +211,10 @@
                 Queensland Transport System.
               </p>
               <div class="pt-2 lg:pb-6 xl:pb-8">
-                <NuxtLink to="/projects/?article=1&tab=1" class="font-semibold text-sm">Read more</NuxtLink>
+                <NuxtLink to="/projects/?article=1&tab=1" class="text-sm font-semibold">Read more</NuxtLink>
               </div>
             </div>
-            <div class="col-span-1 hidden lg:grid content-end lg:pl-8 xl:pl-8 lg:pb-8 xl:pb-10">
+            <div class="content-end hidden col-span-1 lg:grid lg:pl-8 xl:pl-8 lg:pb-8 xl:pb-10">
               <NuxtLink to="/projects/?article=1&tab=1">
                 <img class="h-10" src="/Logicly-arrow.png" />
               </NuxtLink>
@@ -236,9 +236,9 @@
 
         <div class="grid content-end col-span-2 px-2 pt-4 pb-10 mx-4 lg:col-span-1 lg:col-start-2 lg:pb-0 xl:pt-16">
           <div class="grid grid-cols-4">
-            <div class="col-span-4 lg:col-span-3 px-6 md:px-10 lg:px-0">
+            <div class="col-span-4 px-6 lg:col-span-3 md:px-10 lg:px-0">
               <div>
-                <h4 class="lg:text-sm font-semibold text-logiclytheme4 leading-snug pb-2 lg:pb-1 pt-6 lg:pt-0">
+                <h4 class="pt-6 pb-2 font-semibold leading-snug lg:text-sm text-logiclytheme4 lg:pb-1 lg:pt-0">
                   NAB
                 </h4>
               </div>
@@ -246,10 +246,10 @@
                 A performance management tool for NAB’s business groups in Australia and overseas with the flexibility to meet their changing future requirements.
               </p>
               <div class="pt-2 lg:pb-8">
-                <NuxtLink to="/projects/?article=0&tab=5" class="font-semibold text-sm">Read more</NuxtLink>
+                <NuxtLink to="/projects/?article=0&tab=5" class="text-sm font-semibold">Read more</NuxtLink>
               </div>
             </div>
-            <div class="col-span-1 hidden lg:grid content-end lg:pl-8 xl:pl-8 lg:pb-8 xl:pb-10">
+            <div class="content-end hidden col-span-1 lg:grid lg:pl-8 xl:pl-8 lg:pb-8 xl:pb-10">
               <NuxtLink to="/projects/?article=0&tab=5">
                 <img class="h-10" src="/Logicly-arrow.png" />
               </NuxtLink>
@@ -271,9 +271,9 @@
 
         <div class="grid content-end col-span-2 px-2 pt-4 pb-10 mx-4 lg:col-span-1 lg:col-start-2 lg:pb-0 xl:pt-16">
           <div class="grid grid-cols-4">
-            <div class="col-span-4 lg:col-span-3 px-6 md:px-10 lg:px-0">
+            <div class="col-span-4 px-6 lg:col-span-3 md:px-10 lg:px-0">
               <div>
-                <h4 class="lg:text-sm font-semibold text-logiclytheme4 leading-snug pb-2 lg:pb-1 pt-6 lg:pt-0">
+                <h4 class="pt-6 pb-2 font-semibold leading-snug lg:text-sm text-logiclytheme4 lg:pb-1 lg:pt-0">
                   Deakin University
                 </h4>
               </div>
@@ -281,10 +281,10 @@
                 A sophisticated tool for researchers to create, analyse, publish and share data. The community can also access the research to discover and learn.
               </p>
               <div class="pt-2 lg:pb-8">
-                <NuxtLink to="/projects/?article=2&tab=0" class="font-semibold text-sm">Read more</NuxtLink>
+                <NuxtLink to="/projects/?article=2&tab=0" class="text-sm font-semibold">Read more</NuxtLink>
               </div>
             </div>
-            <div class="col-span-1 hidden lg:grid content-end lg:pl-8 xl:pl-8 lg:pb-8 xl:pb-10">
+            <div class="content-end hidden col-span-1 lg:grid lg:pl-8 xl:pl-8 lg:pb-8 xl:pb-10">
               <NuxtLink to="/projects/?article=2&tab=0">
                 <img class="h-10" src="/Logicly-arrow.png" />
               </NuxtLink>
@@ -305,7 +305,7 @@
       <div class="grid items-center content-center justify-center h-64 grid-cols-1 text-logiclytextgrey">
         <div class="col-span-1">
           <div class="text-2xl font-medium text-center">
-            Do you have a project in mind or a complex information challenge? Call us on +61 3 9340 9000 or enquire below.
+            Do you have a project in mind or a complex information challenge? Call us on +61 3 9340 9000 or enquire below.
           </div>
         </div>
         <!-- TODO Add link here -->

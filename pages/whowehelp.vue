@@ -13,7 +13,7 @@
       iconurl="We-help-people-understand-all-the-possibilities.svg"
       heading="We help people understand all the possibilities"
       subheading="We help clients understand the power of technology to improve efficiencies and gain quality information
-              to inform critical decisions. We guide our clients through the possible pathways and alternatives. It is
+              to inform critical decisions. We guide our clients through the possible pathways and alternatives. It is
               rare that any two projects are the same so every digital system is designed for your specific needs and vision."
       altrow
     />
@@ -49,7 +49,7 @@
       <div class="w-full">
         <overlay-image class="overlay-height"
           imageurl="/different_audiences.jpg"
-          text="Different Audiences. Different Information Needs. Different Systems."
+          text="Different audiences. Different information needs. Different systems."
         />
       </div>
     </page-section>
@@ -58,7 +58,7 @@
       <div class="container mx-auto">
         <overlay-image class="overlay-height"
           imageurl="/different_audiences.jpg"
-          text="Different Audiences. Different Information Needs. Different Systems."
+          text="Different audiences. Different information needs. Different systems."
         />
       </div>
     </div>
@@ -85,11 +85,11 @@
                     <h3 class="font-bold">Fulfilling a research grant</h3>
                     <p>Managing information challenges for research or evaluation projects.</p>
                     <h3 class="font-bold">Quoting for a research grant</h3>
-                    <p>Helping define the data requirements and costings so researchers can submit a grant.</p>
+                    <p>Helping define data requirements and costings for submissions for research grants.</p>
                     <h3 class="font-bold">Develping data collection processes</h3>
                     <p>The strategy and design of data collection processes that meet ethic requirements.</p>
                     <h3 class="font-bold">Creating information networks</h3>
-                    <p>Supporting researchers to design and develop a streamlined network of information.</p>
+                    <p>Supporting researchers to design and develop a streamlined network of information.</p>
                   </div>
                   </div>
                 </div>
