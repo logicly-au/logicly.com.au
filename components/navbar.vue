@@ -86,7 +86,7 @@ export default {
         e.style.marginTop = 0;
       });
       (!drop_menu.classList.contains("display")) ? drop_menu.classList.add("display") : drop_menu.classList.remove("display");
-      if(window.innerWidth < 660 && drop_menu.classList.contains("display")) {
+      if(window.innerWidth < 1024 && drop_menu.classList.contains("display")) {
         event.target.parentElement.nextSibling.nextSibling.style.marginTop = drop_menu.clientHeight + "px";
       }
     },
@@ -106,11 +106,6 @@ export default {
 header {
   /* This is to fix the transparent overlay overlapping the header on scroll */
   z-index: 1000!important;
-}
-
-/* This is not used anymore, changed to .icon-plus */
-.icon-arrow  {
-  mask: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 284.929 284.929'><path d='M282.082,76.511l-14.274-14.273c-1.902-1.906-4.093-2.856-6.57-2.856c-2.471,0-4.661,0.95-6.563,2.856L142.466,174.441        L30.262,62.241c-1.903-1.906-4.093-2.856-6.567-2.856c-2.475,0-4.665,0.95-6.567,2.856L2.856,76.515C0.95,78.417,0,80.607,0,83.082c0,2.473,0.953,4.663,2.856,6.565l133.043,133.046c1.902,1.903,4.093,2.854,6.567,2.854s4.661-0.951,6.562-2.854L282.082,89.647c1.902-1.903,2.847-4.093,2.847-6.565C284.929,80.607,283.984,78.417,282.082,76.511z'/></svg>");
 }
 
 .icon-plus {
@@ -163,10 +158,7 @@ header {
   z-index: 1;
   padding: 10px 0;
   background-color: #ffffff;
-
-  /* changing this from fixed to block temporarily til we can fix the gap */
-  position: fixed;
-
+  position: sticky;
   width: 100%;
   top: 0;
   justify-content: center;
@@ -405,7 +397,7 @@ header #hamburger span:nth-child(3) {
   opacity: 0.5;
 }
 
-@media screen and (max-width: 660px) {
+@media screen and (max-width: 1024px) {
   body {
     padding-top: 70px;
   }
@@ -507,7 +499,7 @@ header #hamburger span:nth-child(3) {
   }
 }
 
-@media screen and (max-width: 660px) and (max-height: 500px) {
+@media screen and (max-width: 1024px) and (max-height: 500px) {
   .display_menu header {
     max-height: 100vh;
     overflow-y: scroll;
@@ -532,7 +524,7 @@ i {
   background-repeat: no-repeat;
 }
 
-@media screen and (min-width: 660px) {
+@media screen and (min-width: 1024px) {
   header #menu li i {
     display: none;
   }
