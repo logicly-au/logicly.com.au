@@ -39,8 +39,8 @@
       </div>
     </page-section>
 
-    <Hero
-      subheading="We invest significant resources to ensure our systems are secure and robust."
+    <Heroright
+      midpageheading="We invest significant resources to ensure our systems are secure and robust."
       background-url="/We-invest-significant-resources-to-ensure-our-systems-are-secure-and-robust.png"
       right
     />
