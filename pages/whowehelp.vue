@@ -47,18 +47,18 @@
 
     <page-section class="hidden sm:block">
       <div class="w-full">
-        <overlay-image class="overlay-height"
+        <light-overlay-image class="overlay-height"
           imageurl="/different_audiences.jpg"
-          text="Different audiences. Different information needs. Different systems."
+          overlaytext="Different audiences. </br>Different information needs. </br>Different systems."
         />
       </div>
     </page-section>
 
     <div class="block w-full sm:hidden">
       <div class="container mx-auto">
-        <overlay-image class="overlay-height"
+        <light-overlay-image class="overlay-height"
           imageurl="/different_audiences.jpg"
-          text="Different audiences. Different information needs. Different systems."
+          overlaytext="Different audiences. </br>Different information needs. </br>Different systems."
         />
       </div>
     </div>
@@ -250,18 +250,18 @@
 
     <page-section class="hidden sm:block">
       <div class="w-full">
-        <overlay-image class="overlay-height"
+        <light-overlay-image class="overlay-height"
           imageurl="/What-are-your-information-and-digital-needs.jpg"
-          text="What are your information and digital needs?"
+          overlaytext="What are your information and digital needs?"
         />
       </div>
     </page-section>
 
     <div class="block w-full sm:hidden">
       <div class="container mx-auto">
-        <overlay-image class="overlay-height"
+        <light-overlay-image class="overlay-height"
           imageurl="/What-are-your-information-and-digital-needs.jpg"
-          text="What are your information and digital needs?"
+          overlaytext="What are your information and digital needs?"
         />
       </div>
     </div>
