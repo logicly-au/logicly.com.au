@@ -6,7 +6,7 @@
         <span></span>
         <span></span>
       </div>
-      <logo class="self-start" />
+      <NuxtLink to="/" class="self-start"><logo /></NuxtLink>
       <nav id="menu">
         <li><NuxtLink to="/" v-on:click.native="close_all_menu()">home</NuxtLink></li>
         <li class="drop"><a v-on:click="display_drop_menu()">about <i class="icon-plus"></i></a>
