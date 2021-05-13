@@ -27,7 +27,7 @@
             <p class="text-xl font-medium text-center text-logiclytextgrey mt-2">
               Call us
             </p>
-            <hr class="hidden lg:block w-full mx-auto border border-logiclyorange mt-6">
+            <hr class="hidden lg:block w-full mx-auto border border-logiclyorange mt-4">
           </div>
           <div>
             <p class="text-center text-logiclytheme4 mt-2 lg:-mt-2">
@@ -49,7 +49,7 @@
             <p class="text-xl font-medium text-center text-logiclytextgrey mt-2">
               Email us
             </p>
-            <hr class="hidden lg:block w-full mx-auto border border-logiclyorange mt-6">
+            <hr class="hidden lg:block w-full mx-auto border border-logiclyorange mt-4">
           </div>
           <div>
             <p class="text-center text-logiclytheme4 mt-2 lg:-mt-2">
@@ -71,7 +71,7 @@
             <p class="text-xl font-medium text-logiclytextgrey text-center mt-2">
               Mail us
             </p>
-            <hr class="hidden lg:block w-full mx-auto border border-logiclyorange mt-6">
+            <hr class="hidden lg:block w-full mx-auto border border-logiclyorange mt-4">
           </div>
           <div>
             <p class="text-center text-logiclytextgrey mt-2 lg:-mt-2">
@@ -85,44 +85,28 @@
     </page-section>
 
 
+    <page-section class="bg-logiclygreytwo">
+      <div class="grid grid-cols-1 lg:grid-cols-3">
+        <div class="grid col-span-1 content-start lg:pt-0">
+          <p class="font-semibold text-left text-logiclytextgrey text-xl">
+            Visit us
+          </p>
+          <hr class="w-full border border-logiclyorange lg:w-2/3 mt-4">
+          <p class="pb-8 mt-4 text-logiclytextgrey text-left">
+            2nd floor <br>
+            51 – 55 Johnston Street, <br>
+            Fitzroy, Victoria, <br>
+            Australia 3053
+          </p>
+        </div>
 
-
-
-
-    <div class="w-full bg-logiclygreytwo">
-      <div class="container mx-auto">
-        <div class="grid grid-cols-1 lg:grid-cols-8">
-          <div class="grid grid-cols-1 pt-8 lg:col-span-6 lg:col-start-2">
-            <div class="grid grid-cols-1 grid-rows-4 p-5 lg:grid-cols-3 lg:gap-5 gap-x-12">
-
-                <div class="grid grid-cols-1 col-span-1 row-start-1 pt-8 lg:row-start-2 lg:pt-0">
-                  <p class="font-semibold text-left text-logiclytextgrey text-xl">
-                    Visit us
-                  </p>
-                  <hr class="w-full border border-logiclyorange lg:w-2/3">
-                  <p class="pb-8 text-logiclytextgrey text-left">
-                    2nd floor <br>
-                    51 – 55 Johnston Street, <br>
-                    Fitzroy, Victoria, <br>
-                    Australia 3053
-                  </p>
-                </div>
-
-                <div class="w-auto col-span-1 col-start-1 row-span-2 row-start-2 mx-auto bg-white lg:col-span-2 lg:col-start-2">
-                  <div class="">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d1576.3278082186507!2d144.9770189!3d-37.7981098!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sau!4v1612919954146!5m2!1sen!2sau" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-                  </div>
-                </div>
-
-              </div>
-            </div>
+        <div class="col-span-1 col-start-1 lg:col-span-2 lg:col-start-2">
+          <div class="map-responsive">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1576.3312160892153!2d144.97535638363166!3d-37.79795009914856!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x390bd7e491dbb8b5!2sStrategic%20Data!5e0!3m2!1sen!2sau!4v1620884717464!5m2!1sen!2sau" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
           </div>
         </div>
       </div>
-    </div>
-
-
-
+    </page-section>
 
   </div>
 </template>
@@ -138,24 +122,24 @@ export default {
 
 </script>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <style>
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
 
+@media only screen and (max-width: 640px) {
+  .map-responsive{
+      padding-bottom:100%;
+  }
+}
 </style>
