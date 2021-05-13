@@ -86,7 +86,7 @@
                     <p>Managing information challenges for research or evaluation projects.</p>
                     <h3 class="font-bold">Quoting for a research grant</h3>
                     <p>Helping define data requirements and costings for submissions for research grants.</p>
-                    <h3 class="font-bold">Develping data collection processes</h3>
+                    <h3 class="font-bold">Developing data collection processes</h3>
                     <p>The strategy and design of data collection processes that meet ethic requirements.</p>
                     <h3 class="font-bold">Creating information networks</h3>
                     <p>Supporting researchers to design and develop a streamlined network of information.</p>
