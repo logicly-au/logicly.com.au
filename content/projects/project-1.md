@@ -12,7 +12,7 @@ category: Research
 </div>
 
 
-<div class="col-span-12 lg:col-span-9 project-text lg:order-last">
+<div class="col-span-12 lg:col-span-9 lg:order-2 project-text">
 <div>
 
 ## Partnering with researchers to support better mental health in the community
@@ -49,7 +49,7 @@ Through recent collaborations, we’ve successfully delivered insights that can 
 </div>
 
 
-<div class="col-span-12 lg:col-span-3 icons-sidebar">
+<div class="col-span-12 lg:col-span-3 lg:order-1 icons-sidebar">
 <div>
 <img src="/Projects/Icons/2_UoM_Centre_for_mental_health/Digital_appliactions_for-researchers.svg" />
 
