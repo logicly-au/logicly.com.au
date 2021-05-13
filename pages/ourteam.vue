@@ -8,13 +8,14 @@
     />
     <Herotext
       iconurl="Our-team-approaches-problems-from-different-angles.svg"
+      imgwidth="120px"
       heading="Our team approaches problems from different angles"
       subheading="Our diverse skills across strategic thinking, UX design, technology, management and customer support ensures we collectively bring a wholistic approach to every project. This creative thinking helps us conceptualise our client’s vision and provide different options to solvetheir complex information problem."
       altrow
     />
 
     <page-section>
-      <h1 class="text-2xl font-semibold text-center text-logiclytextgrey pb-8 pt-8">Everyone brings something different to the team</h1>
+      <h1 class="text-2xl font-semibold text-center text-logiclytextgrey pb-8 lg:pb-12 pt-8">Everyone brings something different to the team</h1>
       <div class="grid grid-cols-12 text-logiclytextgrey pb-8">
         <div class="col-span-12 lg:col-span-8 col-start-1 lg:col-start-3 grid grid-cols-3 grid-rows-3 gap-4 -mx-10 md:-mx-0">
           <div class="items-center col-span-1">

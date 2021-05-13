@@ -11,6 +11,7 @@
 
     <Herotext
       iconurl="Our-pathway-to-build-your-digital-system.svg"
+      imgwidth="240px"
       heading="Our pathway to build your digital system"
       subheading="Our digital systems are a collaborative process. The people we collaborate with in an organisation varies
                 depending on the expertise and content needed for the project. We regularly present concepts to gain

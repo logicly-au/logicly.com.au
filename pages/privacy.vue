@@ -10,6 +10,7 @@
 
     <Herotext
       iconurl="Data_privacy_principles.svg"
+      imgwidth="90px"
       heading="Data privacy principles"
       subheading="In general, you can visit this website without providing any personal information to us. If you choose to provide information voluntarily, we will use that information in accordance with our data privacy principles and in accordance with any specific notice given as part of the collection of that data."
       altrow

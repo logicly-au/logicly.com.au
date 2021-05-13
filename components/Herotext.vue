@@ -1,8 +1,8 @@
 i <template>
-<page-section :altrow="altrow">
+<page-section :altrow="altrow" class=" lg:py-8">
   <div class="flex justify-center ">
-    <div class="justify-center">
-      <img class="h-32" :src="iconurl" />
+    <div class="justify-center mb-6">
+      <img :width="imgwidth" :src="iconurl" />
     </div>
   </div>
   <div class="mx-0 xl:px-6">
@@ -24,7 +24,8 @@ export default {
     heading: String,
     subheading: String,
     iconurl: String,
-    altrow: Boolean
+    altrow: Boolean,
+    imgwidth: String
   },
 };
 </script>

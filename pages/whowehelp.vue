@@ -11,6 +11,7 @@
 
     <Herotext
       iconurl="We-help-people-understand-all-the-possibilities.svg"
+      imgwidth="310px"
       heading="We help people understand all the possibilities"
       subheading="We help clients understand the power of technology to improve efficiencies and gain quality information
               to inform critical decisions. We guide our clients through the possible pathways and alternatives. It is

@@ -10,6 +10,7 @@
 
     <Herotext
       iconurl="Together-at-logicly.svg"
+      imgwidth="90px"
       heading="Together at Logicly"
       subheading="We are a diverse team who encourages sharing of knowledge and ideas to always improve, streamline our way of working and add value to the systems we design and build for our clients."
       altrow
