@@ -11,6 +11,7 @@
 
     <Herotext
       iconurl="We-partner-with-clients-to-simplify-complex-processes.svg"
+      imgwidth="270px"
       heading="We partner with clients to simplify complex processes"
       subheading="We achieve our best when we partner with you to research, design, build and maintain your information and digital systems. We are flexible and collaborative while taking a thorough and detailed approach to research, strategy, design and security."
       altrow
@@ -18,19 +19,19 @@
 
     <Herotext
       iconurl="25-years-shaping-large-complicated-projects.svg"
+      imgwidth="300px"
       heading="25 years shaping large complicated projects"
       subheading="Our background originates in research and psychology with experience in statistics. This knowledge of research and ethics around data is the foundation of every project. After working for twenty years with government and on large health projects we understand the contractual requirements for reporting, legal and privacy constraints and meeting security standards."
     />
 
-    <Hero
-    subheading="We review projects continually as they evolve"
-    background-url="/We-review-projects-continually-as-they-evolve.jpg"
-    blacktext
-    overlay
+    <Heroblacktext
+      heading="We review projects continually as they evolve"
+      background-url="/We-review-projects-continually-as-they-evolve.jpg"
     />
 
     <Herotext
       iconurl="Process_diagram.svg"
+      imgwidth="400px"
       subheading="When we design and build digital systems we look at the short and long term outcomes. We build systems that can grow and expand as the information needs and challenges change within a business or organisation. Clients may require more efficiencies as they grow, or make additions and changes to a process. We continually work together with clients to assess, manage and ensure the system meets their current needs."
       altrow
     />

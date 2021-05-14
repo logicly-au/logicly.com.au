@@ -6,7 +6,7 @@ i <template>
     :style="{ backgroundSize: 'cover', backgroundImage: `url(${backgroundUrl})` }"
   >
     <div class="grid grid-cols-8 w-full h-full">
-      <div class="col-span-4 md:col-span-3 lg:col-span-2 col-start-5 md:col-start-5 lg:col-start-5 grid grid-rows-5 pr-20 sm:pr-32 md:pr-0 lg:-mr-10 pl-4 md:pl-8 lg:pl-16 xl:pl-20">
+      <div class="col-span-4 md:col-span-3 lg:col-span-2 col-start-5 md:col-start-5 lg:col-start-5 grid grid-rows-5 pr-10 sm:pr-20 md:pr-0 lg:-mr-10 pl-4 md:pl-8 lg:pl-16 xl:pl-20">
         <div class="row-start-1 md:row-start-2 mt-4 sm:mt-10 md:mt-0 md:-mt-4">
           <h1 class="font-medium text-white text-xs md:text-sm xl:text-base">{{ heading }}</h1>
           <h2 class="font-semibold text-white text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl">{{ subheading }}</h2>
