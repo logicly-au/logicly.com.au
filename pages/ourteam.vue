@@ -69,7 +69,7 @@
       <div class="flex flex-col grid grid-cols-2 col-gap-6 text-logiclytextgrey">
         <div class="col-span-2 lg:col-span-1 lg:col-start-1 pb-16">
           <div class="col-span-1 pb-6">
-            <img src="/300.png" class="p-0">
+            <img src="/logicly-adam.jpg" class="p-0">
           </div>
           <div class="col-span-1">
             <h2 class="text-lg xl:text-lg font-bold">
@@ -90,7 +90,7 @@
 
         <div class="col-span-2 lg:col-span-1 lg:col-start-2 pb-16">
           <div class="col-span-1 pb-6">
-            <img src="/300.png" class="p-0">
+            <img src="/logicly-andrew.jpg" class="p-0">
           </div>
           <div class="col-span-1">
             <h2 class="text-lg xl:text-lg font-bold">
@@ -111,7 +111,7 @@
 
         <div class="col-span-2 lg:col-span-1 lg:col-start-1 pb-16">
           <div class="col-span-1 pb-6">
-            <img src="/300.png" class="p-0">
+            <img src="/logicly-simon.jpg" class="p-0">
           </div>
           <div class="col-span-1">
             <h2 class="text-lg xl:text-lg font-bold">
@@ -132,7 +132,7 @@
 
         <div class="col-span-2 lg:col-span-1 lg:col-start-2">
           <div class="col-span-1 pb-6">
-            <img src="/300.png" class="p-0">
+            <img src="/logicly-michelle.jpg" class="p-0">
           </div>
           <div class="col-span-1">
             <h2 class="text-lg xl:text-lg font-bold">
