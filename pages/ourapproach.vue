@@ -18,7 +18,7 @@
     <GridText
     heading="We consider each project in the same way"
     subheading1="Discovery"
-    text1a="We always take time at the start to deeply understand our client’s information problem but also pinpoint what they want to achieve and why."
+    text1a="We always take time at the start to deeply understand our clients' information problems but also pinpoint what they want to achieve and why."
     text1b="This holistic view helps us determine the right approach and the different pathways to meet their needs for now and the future."
     subheading2="Clear explanations"
     text2a="We break down complex IT concepts into simple, straight forward explanations and stay clear from technical terms."

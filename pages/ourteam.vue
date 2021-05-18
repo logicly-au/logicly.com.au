@@ -10,7 +10,7 @@
       iconurl="Our-team-approaches-problems-from-different-angles.svg"
       imgwidth="120px"
       heading="Our team approaches problems from different angles"
-      subheading="Our diverse skills across strategic thinking, UX design, technology, management and customer support ensures we collectively bring a wholistic approach to every project. This creative thinking helps us conceptualise our client’s vision and provide different options to solvetheir complex information problem."
+      subheading="Our diverse skills across strategic thinking, UX design, technology, management and customer support ensures we collectively bring a wholistic approach to every project. This creative thinking helps us conceptualise our clients' vision and provide different options to solve their complex information problems."
       altrow
     />
 
