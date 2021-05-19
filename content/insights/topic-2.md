@@ -1,14 +1,16 @@
 ---
 title: 7 tips to set your public sector digital transformation project up for success
-description: This is a description
+description: "Digital transformation in the public sector is accelerating
+The global shift to digitisation is transforming the way we live and work and the Australian public sector has a crucial role to play in creating online systems that are simple, quick and safe to use."
 author: Adam Clarke
 date: 10 March 2021
-readmore:
-category: Corporate
+img: /AMHOCN-coworkers-meeting-with-coworker-online.jpg
+alt: AMHOC image
+link: /insights_new/?article=0&tab=1
+category: Digital transformation
 ---
 
 <div class="grid grid-cols-12">
-
 
 <div class="col-span-12 lg:col-span-3 blog-sidebar">
 <div class="blog-sidebar-author">
@@ -37,7 +39,7 @@ Share
 
 <div class="col-span-1">
 <a href="mailto:info@strategicdata.com.au">
-  <img class="h-4" src="/Email.svg" />
+<img class="h-4" src="/Email.svg" />
 </a>
 </div>
 
@@ -53,6 +55,8 @@ Share
 The global shift to digitisation is transforming the way we live and work and the Australian public sector has a crucial role to play in creating online systems that are simple, quick and safe to use. COVID-19 has led to the rapid explosion in online services, and government agencies are looking to embrace the efficiency and effectiveness gains that deliver better experiences for citizens, staff and businesses. The goal now is to have all government services available online by 2025.
 
 It’s a big shift for some public servants who now find themselves at the centre of this revolution. There’s a need to upskill, collaborate and think differently about processes and information needs. If you’re responsible for delivering a new digital information system in the public sector, here’s some tips for setting your project up for success.
+
+![AMHOCN image](/AMHOCN-coworkers-meeting-with-coworker-online.jpg)
 
 ## 7 tips to set your digital project up for success
 

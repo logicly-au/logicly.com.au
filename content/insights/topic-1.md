@@ -1,14 +1,22 @@
 ---
 title: Drowning in data? You might be dealing with a complex information challenge.
-description: This is a description
+description: "No matter what your industry, it’s likely that data plays a role. Data can help you:
+<ul>
+<li> - make better decisions</li>
+<li> - establish baselines and set goals</li>
+<li> - monitor service effectiveness</li>
+<li> - understand your clients</li>
+<li> - predict the future</li>
+</ul>"
 author: Andrew Gordon
 date: 22 December 2020
-readmore:
-category: Corporate
+img: /Victorian-Department-of-Education-and-Training-teacher-working-on-computer.jpg
+alt: Victorian Department of Education and Training image
+link: /insights_new/?article=0&tab=0
+category: Complex data
 ---
 
 <div class="grid grid-cols-12">
-
 
 <div class="col-span-12 lg:col-span-3 blog-sidebar">
 <div class="blog-sidebar-author">
@@ -37,7 +45,7 @@ Share
 
 <div class="col-span-1">
 <a href="mailto:info@strategicdata.com.au">
-  <img class="h-4" src="/Email.svg" />
+<img class="h-4" src="/Email.svg" />
 </a>
 </div>
 
@@ -64,6 +72,8 @@ No matter what your industry, it’s likely that data plays a role. Data can hel
 When you’re responsible for the collection and analysis of data for your organisation, there’s plenty to consider. Especially when your project moves beyond a simple data collection exercise to a complex data challenge.
 
 If you’re feeling a little overwhelmed by the data challenge you’re facing, it might help to take a step back and look at the factors that are contributing to the complexity.
+
+![Victorian Department of Education and Training image](/Victorian-Department-of-Education-and-Training-teacher-working-on-computer.jpg)
 
 ## What makes a data challenge complex?
 There are many factors that contribute to data complexity. In this article, we’ll focus on our top four, using an example project to bring it all to life.

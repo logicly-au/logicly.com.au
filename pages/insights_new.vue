@@ -44,40 +44,47 @@
         <div class="col-span-12 projects-list">
           <ul class='articles'>
             <div class="grid xl:grid-cols-3 grid-rows-auto gap-5 pb-4">
-            <li @click="setActiveArticle(index)" v-for="(article, index) in articles" :class="{ 'articles-active': isActiveArticle(index) }">
-              <div class="pb-8">
-                <div class="pb-5">
-                  <img class="w-full" src="/Corporate-project-NAB.jpg" />
+              <li @click="setActiveArticle(index)" v-for="(article, index) in articles" :class="{ 'articles-active': isActiveArticle(index) }">
+                <div class="pb-8">
+                  <div class="pb-5">
+                     <img class="w-full" :src="article.img" :alt="article.alt" />
+                  </div>
+                  <div>
+                    <span class="text-lg xl:text-base font-semibold text-logiclytheme4">{{ article.title }}</span>
+                  </div>
+                  <div class="pb-2">
+                    <span class="font-medium text-sm">{{ article.author }}</span>
+                    <span class="text-logiclytheme4">|</span>
+                    <span class="font-normal text-sm">{{ article.date }}</span>
+                  </div>
+                  <div class="pb-1">
+                    <span class="font-light text-base xl:text-sm" v-html="`${article.description}`"></span>
+                  </div>
+                  <div>
+                    <span class="font-normal text-base xl:text-sm text-logiclytheme4">
+                      <NuxtLink :to="`${article.link}`">Read more</NuxtLink>
+                    </span>
+                  </div>
                 </div>
-                <div>
-                  <span class="text-lg xl:text-base font-semibold text-logiclytheme4">{{ article.title }}</span>
-                </div>
-                <div class="pb-2">
-                  <span class="font-medium text-sm">{{ article.author }}</span>
-                  <span class="text-logiclytheme4">|</span>
-                  <span class="font-normal text-sm">{{ article.date }}</span>
-                </div>
-                <div class="pb-1">
-                  <span class="font-light text-base xl:text-sm">{{ article.description }}</span>
-                </div>
-                <div>
-                  <span class="font-normal text-base xl:text-sm text-logiclytheme4">{{ article.readmore }}</span>
-                </div>
-              </div>
-            </li>
+              </li>
             </div>
           </ul>
         </div>
+
       </div>
     </page-section>
 
-    <page-section altrow>
+    <!--<page-section altrow>
       <div class="grid grid-cols-12 text-logiclytextgrey insights-page">
         <div class="col-span-3">
 
         </div>
       </div>
-    </page-section>
+    </page-section>-->
+
+<!--TODO make this component collect data(category, title and description) from active article -->
+    <BlogHeading
+    />
 
     <page-section>
       <div class="col-span-12 text-logiclytextgrey insights-page">
@@ -102,8 +109,10 @@ export default {
       activeArticleIndex: 0,
       articles: [],
       categories: [
-
-        'Corporate',
+        'Complex data',
+        'Digital transformation',
+        'Public sector',
+        'Data reliability',
       ],
     };
   },
@@ -222,6 +231,10 @@ ul.nav.nav-tabs {
 .insights-page li > a > div > img {
   margin:auto;
   margin-bottom:0.5rem;
+}
+
+.insights-page .blog-text img {
+  padding:10px 0px 20px 0px;
 }
 
 .blog-text-list {

@@ -1,14 +1,16 @@
 ---
 title: Data is only useful when it’s accurate - How we make sure our numbers stack up
-description: This is a description
+description: "Why is accurate data collection important? </br>
+If you’re responsible for decision making in your organisation, chances are you’re relying on data to guide you. Accurate data can help you make informed choices, leading to improved efficiency, profitability, customer satisfaction, employee retention and growth."
 author: Simon Palmer
 date: 29 March 2021
-readmore:
-category: Corporate
+img: /Youth-and-Family-Support-Organisation-coworkers-looking-at-laptop-graph.jpg
+alt: Youth and family support organisation image
+link: "/insights_new/?article=0&tab=6"
+category: Data reliability
 ---
 
 <div class="grid grid-cols-12">
-
 
 <div class="col-span-12 lg:col-span-3 blog-sidebar">
 <div class="blog-sidebar-author">
@@ -37,7 +39,7 @@ Share
 
 <div class="col-span-1">
 <a href="mailto:info@strategicdata.com.au">
-  <img class="h-4" src="/Email.svg" />
+<img class="h-4" src="/Email.svg" />
 </a>
 </div>
 
@@ -53,6 +55,8 @@ Share
 If you’re responsible for decision making in your organisation, chances are you’re relying on data to guide you. Accurate data can help you make informed choices, leading to improved efficiency, profitability, customer satisfaction, employee retention and growth.
 
 If the data that you’re relying on isn’t accurate, then you might make some costly decisions. So, what sorts of things should you be looking out for?
+
+![Youth and Family Support Organisation image](/Youth-and-Family-Support-Organisation-coworkers-looking-at-laptop-graph.jpg)
 
 ## Counting things can be tricky
 For data to be accurate, it just needs to be correct. Simple, right? Actually, not always.
