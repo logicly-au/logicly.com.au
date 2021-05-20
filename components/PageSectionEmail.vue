@@ -3,13 +3,15 @@
   <div class="object-contain object-center w-full h-full bg-cover"
   :class="{ 'bg-black bg-opacity-50': overlay}">
     <div class="container h-full mx-auto">
-      <div class="grid grid-cols-12">
-        <div class="grid items-end grid-cols-4 col-span-10 col-start-2 gap-4 px-16 py-32 md:px-32 lg:px-0">
-          <div class="col-span-4 -mr-0 lg:col-span-1 lg:-mr-6">
-            <h2 class="pb-2 text-lg font-semibold text-logiclytheme4">
-              New thinking & digital updates
-            </h2>
-            <div class="pb-4 text-logiclytextgrey lg:pb-0">
+      <div class="grid grid-cols-12 subscriberesponsive">
+        <div class="grid items-end grid-cols-4 col-span-10 col-start-2 gap-4 px-16 py-32 md:px-32 lg:px-0 ">
+          <div class="col-span-4 lg:col-span-1 -mr-0 lg:-mr-6">
+            <div>
+              <h2 class="pb-2 text-lg font-semibold text-logiclytheme4">
+                New thinking & digital updates
+              </h2>
+            </div>
+            <div class="pb-4 lg:pb-0 text-logiclytextgrey">
               Discover new ways of thinking and innovative digital systems to solve complex information challenges
             </div>
           </div>
@@ -64,4 +66,18 @@ export default {
 };
 </script>
 <style scoped>
+
+@media only screen and (max-width: 530px) {
+  .subscriberesponsive div {
+    margin-left: -1rem;
+    margin-right: -1rem;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .subscriberesponsive div {
+    margin-left: -1.2rem;
+    margin-right: -1.2rem;
+  }
+}
 </style>
