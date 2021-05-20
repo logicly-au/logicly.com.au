@@ -4,7 +4,7 @@
   :class="{ 'bg-black bg-opacity-50': overlay}">
     <div class="container h-full mx-auto">
       <div class="grid grid-cols-12 subscriberesponsive">
-        <div class="grid items-end grid-cols-4 col-span-10 col-start-2 gap-4 px-16 py-32 md:px-32 lg:px-0 ">
+        <div class="grid items-end grid-cols-4 col-span-10 col-start-2 gap-4 py-16 lg:py-24 px-16 md:px-32 lg:px-0 ">
           <div class="col-span-4 lg:col-span-1 -mr-0 lg:-mr-6">
             <div>
               <h2 class="pb-2 text-lg font-semibold text-logiclytheme4">

@@ -2,17 +2,19 @@
   <div class="w-full h-auto logicly-footer bg-logiclylightgrey text-logiclytextgrey">
     <div class="container mx-auto">
       <footer>
-        <div class="grid grid-cols-12">
-          <div class="grid grid-cols-12 col-span-10 col-start-2 gap-4 px-16 py-32 md:px-32 lg:px-0 text-sm text-left">
+        <div class="grid grid-cols-12 footerresponsive">
+          <div class="grid grid-cols-12 col-span-10 col-start-2 gap-4 py-16 lg:py-24 px-16 md:px-32 lg:px-0 text-sm text-left">
             <div class="col-span-12 lg:col-span-4 mb-6 lg:mb-0">
               <div class="mb-6 lg:mb-4">
                 <logo />
               </div>
-              <a href="tel:0061393409000" class="block">+61 3 9340 9000</a>
-              <a href="mailto:info@strategicdata.com.au">info@strategicdata.com.au</a>
-              <span class="block">2nd floor, 51 – 55 Johnston Street,</span>
-              <span class="block">Fitzroy, Victoria 3065, Australia</span>
-              <span class="block">PO Box 1166, Carlton, Victoria 3053, Australia</span>
+              <div>
+                <a href="tel:0061393409000" class="block">+61 3 9340 9000</a>
+                <a href="mailto:info@strategicdata.com.au">info@strategicdata.com.au</a>
+                <span class="block">2nd floor, 51 – 55 Johnston Street,</span>
+                <span class="block">Fitzroy, Victoria 3065, Australia</span>
+                <span class="block">PO Box 1166, Carlton, Victoria 3053, Australia</span>
+              </div>
             </div>
             <div class="grid grid-cols-3 col-span-12 lg:col-span-6 lg:col-start-6 xl:col-span-5 xl:col-start-7 text-sm">
               <div class="col-span-3 lg:col-span-1 mb-6 lg:mb-0">
@@ -75,4 +77,17 @@ export default {}
   font-weight: bold;
 }
 
+@media only screen and (max-width: 530px) {
+  .footerresponsive div {
+    margin-left: -1rem;
+    margin-right: -1rem;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .footerresponsive div {
+    margin-left: -1.2rem;
+    margin-right: -1.2rem;
+  }
+}
 </style>
