@@ -34,7 +34,10 @@ module.exports = {
       },
       gridColumn: {
         'span-15': 'span 15 / span 15',
-      }
+      },
+      opacity: {
+         '40': '0.4',
+        }
     }
   },
   variants: {},
