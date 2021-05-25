@@ -9,6 +9,7 @@
       overlay
     />
 
+
     <page-section altrow>
       <div class="grid grid-cols-3 text-logiclytextgrey">
         <div class="col-span-1">
@@ -22,6 +23,7 @@
         </div>
       </div>
     </page-section>
+
 
     <!-- {{ activeTab }} -->
     <page-section altrow>
@@ -37,20 +39,21 @@
       </vue-tabs>
     </page-section>
 
+
     <page-section>
       <div class="grid grid-cols-12 pt-6 -mb-16 text-logiclytextgrey insights-page">
 
         <!-- Project list desktop -->
         <div class="col-span-12 projects-list">
           <ul class='articles'>
-            <div class="grid xl:grid-cols-3 grid-rows-auto gap-5 pb-4">
+            <div class="grid lg:grid-cols-3 grid-rows-auto gap-5 pb-4">
               <li @click="setActiveArticle(index)" v-for="(article, index) in articles" :class="{ 'articles-active': isActiveArticle(index) }">
                 <div class="pb-8">
                   <div class="pb-5">
                      <img class="w-full" :src="article.img" :alt="article.alt" />
                   </div>
                   <div>
-                    <span class="text-lg xl:text-base font-semibold text-logiclytheme4">{{ article.title }}</span>
+                    <span class="text-lg lg:text-base font-semibold text-logiclytheme4">{{ article.title }}</span>
                   </div>
                   <div class="pb-2">
                     <span class="font-medium text-sm">{{ article.author }}</span>
@@ -58,10 +61,10 @@
                     <span class="font-normal text-sm">{{ article.date }}</span>
                   </div>
                   <div class="pb-1">
-                    <span class="font-light text-base xl:text-sm" v-html="`${article.description}`"></span>
+                    <span class="font-light text-base lg:text-sm" v-html="`${article.description}`"></span>
                   </div>
                   <div>
-                    <span class="font-normal text-base xl:text-sm text-logiclytheme4">
+                    <span class="font-normal text-base lg:text-sm text-logiclytheme4">
                       <NuxtLink :to="`${article.link}`">Read more</NuxtLink>
                     </span>
                   </div>
@@ -74,17 +77,23 @@
       </div>
     </page-section>
 
-    <!--<page-section altrow>
-      <div class="grid grid-cols-12 text-logiclytextgrey insights-page">
-        <div class="col-span-3">
 
-        </div>
-      </div>
-    </page-section>-->
+    <page-section altrow>
+      <ul>
+        <li @click="setActiveArticle(index)" v-for="(article, index) in articles" :class="{ 'articles-active': isActiveArticle(index) }">
+          <div class="grid grid-cols-12">
+            <div class="col-span-12 lg:col-span-3 text-logiclytextgrey">
+              <h2 class="font-semibold pb-2">{{ article.category }}</h2>
+            </div>
+            <div class="col-span-12 lg:col-span-9 lg:col-start-4 xl:col-span-8 xl:col-start-5 lg:pl-6 xl:pl-0 blogheading">
+              <h1 class="text-xl font-semibold leading-tight text-logiclytheme4 pb-5">{{ article.title }}</h1>
+              <span class="text-lg font-light text-logiclytextgrey" v-html="`${article.description}`"></span>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </page-section>
 
-<!--TODO make this component collect data(category, title and description) from active article -->
-    <BlogHeading
-    />
 
     <page-section>
       <div class="col-span-12 text-logiclytextgrey insights-page">
@@ -203,13 +212,22 @@ export default {
 
 .blog-text {
   margin-left:1rem;
-  padding-bottom:5rem;
 }
 
 @media only screen and (max-width: 1024px) {
   .blog-text {
     margin-left:0rem;
     padding-bottom:3rem;
+  }
+}
+
+.blogheading {
+  margin-left:1rem;
+}
+
+@media only screen and (max-width: 1024px) {
+  .blogheading {
+    margin-left:0rem;
   }
 }
 

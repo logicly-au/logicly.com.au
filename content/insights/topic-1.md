@@ -54,7 +54,7 @@ Share
 </div>
 
 
-<div class="col-span-12 lg:col-span-9 lg:col-start-4  lg:pl-6 blog-text">
+<div class="col-span-12 lg:col-span-9 lg:col-start-4 xl:col-span-8 xl:col-start-5 lg:pl-6 xl:pl-0 blog-text">
 <div>
 
 # Why is data so important?
@@ -139,7 +139,7 @@ Reading through some more of our past work might give you some ideas on how to t
 </div>
 </div>
 
-<div class="col-span-12 lg:col-span-9 lg:col-start-4 lg:pl-6 -mt-12 -mb-8 lg:-mt-20 lg:-mb-16 blog-text">
+<div class="col-span-12 lg:col-span-9 lg:col-start-4 xl:col-span-8 xl:col-start-5 -my-10 lg:my-0 lg:pl-6 xl:pl-0 blog-text">
 
 <div class="bg-logiclylightgrey px-12 pt-12 pb-6 mb-4 mt-2">
 <div class="font-semibold text-sm pt-2 pb-2">Secure data management for complex stakeholder environments</div>
@@ -178,8 +178,7 @@ Reading through some more of our past work might give you some ideas on how to t
 
 </div>
 
-
-<div class="col-span-12 lg:col-span-9 lg:col-start-4  lg:pl-6 blog-text">
+<div class="col-span-12 lg:col-span-9 lg:col-start-4 xl:col-span-8 xl:col-start-5 lg:pl-6 xl:pl-0 blog-text">
 <div>
 
 ## Want to chat about your project?
