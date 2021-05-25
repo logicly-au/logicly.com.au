@@ -213,11 +213,11 @@
                 Queensland Transport System.
               </p>
               <div class="pt-2 lg:pb-6 xl:pb-8">
-                <NuxtLink to="/projects/?article=1&tab=1" class="text-sm font-semibold">Read more</NuxtLink>
+                <NuxtLink to="/projects/?article=0&tab=1" class="text-sm font-semibold">Read more</NuxtLink>
               </div>
             </div>
             <div class="content-end hidden col-span-1 lg:grid lg:pl-8 xl:pl-8 lg:pb-8 xl:pb-10">
-              <NuxtLink to="/projects/?article=1&tab=1">
+              <NuxtLink to="/projects/?article=0&tab=1">
                 <img class="h-10" src="/Logicly-arrow.png" />
               </NuxtLink>
             </div>
@@ -225,7 +225,7 @@
         </div>
       </div>
 
-      <div class="grid grid-cols-2 col-gap-4 bg-logiclygreytwo text-logiclytextgreymb-4 ">
+      <div class="grid grid-cols-2 col-gap-4 bg-logiclygreytwo text-logiclytextgreymb-4 mb-4">
         <div class="grid col-span-2 grid-col-2 lg:col-span-1 lg:col-start-1">
           <div class="col-span-2">
             <overlay-image
@@ -248,11 +248,11 @@
                 A performance management tool for NAB’s business groups in Australia and overseas with the flexibility to meet their changing future requirements.
               </p>
               <div class="pt-2 lg:pb-8">
-                <NuxtLink to="/projects/?article=0&tab=5" class="text-sm font-semibold">Read more</NuxtLink>
+                <NuxtLink to="/projects/?article=2&tab=5" class="text-sm font-semibold">Read more</NuxtLink>
               </div>
             </div>
             <div class="content-end hidden col-span-1 lg:grid lg:pl-8 xl:pl-8 lg:pb-8 xl:pb-10">
-              <NuxtLink to="/projects/?article=0&tab=5">
+              <NuxtLink to="/projects/?article=2&tab=5">
                 <img class="h-10" src="/Logicly-arrow.png" />
               </NuxtLink>
             </div>
@@ -343,11 +343,6 @@ export default {
 </script>
 
 <style>
-
-
-  .cic-header {
-
-  }
 
   .title {
     font-family:
