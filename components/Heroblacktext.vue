@@ -6,7 +6,11 @@
     :style="{ backgroundSize: 'cover', backgroundImage: `url(${backgroundUrl})` }"
   >
     <page-section :altrow="altrow" :overlay="overlay">
-      <h1 class="-mt-20 sm:-mt-32 md:-mt-40 lg:-mt-48 mx-10 sm:mx-20 md:mx-24 lg:mx-40 xl:mx-56 px-8 md:px-0 xl:px-2 text-lg lg:text-xl font-semibold text-center text-black">{{ heading }}</h1>
+      <div class="-mt-20 sm:-mt-32 md:-mt-40 lg:-mt-48 mx-12 sm:mx-20 md:mx-24 lg:mx-40 xl:mx-56 px-8 md:px-0 xl:px-2 textresponsiveblack">
+        <div>
+          <h1 class="text-base sm:text-lg lg:text-xl font-semibold text-center text-black">{{ heading }}</h1>
+        </div>
+      </div>
     </page-section>
 
   </AspectRatio>
@@ -25,16 +29,27 @@ export default {
 </script>
 
 <style scoped>
-  .h-128 {
-  height:32rem;
+@media only screen and (max-width: 519px) {
+  .textresponsiveblack div {
+    margin-left: -1rem;
+    margin-right: -1rem;
+  }
 }
 
-.bg-overlay {
-  background-color: rgba(248, 247, 216, 0.7);
-  position: relative;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+@media only screen and (max-width: 450px) {
+  .textresponsiveblack div {
+    margin-left: -1.5rem;
+    margin-right: -1.5rem;
+  }
+  .textresponsiveblack h1 {
+    font-size: 0.9rem;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  .textresponsiveblack div {
+    margin-left: -3rem;
+    margin-right: -3rem;
+  }
 }
 </style>
