@@ -5,6 +5,15 @@
       heading="CONTACT US"
       subheading="We clarify complex information challenges with digital systems that support impactful change and growth."
       background-url="/Logicly_Contact_us_header.jpg"
+      class="hidden md:block"
+      right
+      overlay
+    />
+
+    <Hero
+      heading="CONTACT US"
+      background-url="/Logicly_Contact_us_header.jpg"
+      class="block md:hidden"
       right
       overlay
     />
