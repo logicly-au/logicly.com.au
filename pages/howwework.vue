@@ -61,15 +61,13 @@
        <div class="col-span-12 pb-12 mt-0 xl:col-span-2 xl:mt-8 xl:pb-0">
          <h4 class="text-sm font-semibold">Scoping Team</h4>
          <p class="xl:pb-2 text-xs font-light">
-           Product Manager<br />
-           Adam Clarke, Director/CTO
-         </p>
-         <p class="xl:pb-2 text-xs font-light">
-           Project manager<br />
-           Simon Palmer, Director<br />
+           Product Managers<br />
+           Adam Clarke, Director/CTO<br />
+           Simon Palmer, Director/<br />
            Senior consultant
          </p>
          <p class="text-xs font-light">
+           Project Manager<br />
            Senior developers
          </p>
        </div>
@@ -108,21 +106,18 @@
            Dataflow design
          </h4>
          <p class="text-sm font-light">
-           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
-           laoreet dolore.
+           Logicly designs the flow of data through the system to ensure the efficient transformation and use of data, minimising processing time and safeguarding data integrity to drives system processes.
          </p>
        </div>
        <div class="col-span-12 pb-12 lg:col-span-7 xl:col-span-2 xl:mt-8 xl:pb-0">
          <h4 class="text-sm font-semibold">Design team</h4>
          <p class="xl:pb-2 text-xs font-light">
-           Product Manager<br />
-           Adam Clarke, Director/CTO
+           Product Managers<br />
+           Adam Clarke, Director/CTO<br />
+           Simon Palmer, Director/<br />
+           Senior consultant
          </p>
          <p class="xl:pb-2 text-xs font-light">
-           The directors are experts in UX and UI, having worked with the Telstra Usability Research and
-           Consulting Team.
-         </p>
-         <p class="text-xs font-light">
            UX Designers<br />
            Senior developers
          </p>
@@ -174,13 +169,13 @@
          </p>
        </div>
        <div class="col-span-12 pb-12 lg:col-span-8 xl:col-span-2 xl:mt-8 xl:pb-0">
-         <h4 class="text-sm font-semibold">Digital team</h4>
+         <h4 class="text-sm font-semibold">Development team</h4>
          <p class="xl:pb-2 text-xs font-light">
            Product Manager <br />
            Adam Clarke, Director/CTO
          </p>
          <p class="text-xs font-light">
-           Project manager, Programmers, database designers, and systems administrator-architects
+           Project manager, developers, database architects, systems administrator-architects, quality assurance team
          </p>
        </div>
 
@@ -246,9 +241,7 @@
            Dedicated project support
          </p>
          <p class="text-xs font-light">
-           IT infrastructure<br />
-           Development Operations<br />
-           Development experts
+           IT infrastructure, development operations, developers
          </p>
        </div>
      </div>
