@@ -17,9 +17,9 @@
     />
 
     <page-section>
-      <div class="grid grid-cols-12 gap-6 lg:gap-8 text-logiclytextgrey mt-4 -mb-10 lg:mb-6 mx-0 md:mx-6 lg:mx-0">
+      <div class="grid grid-cols-12 gap-6 lg:gap-8 text-logiclytextgrey -mb-10 lg:mb-6 mx-0 md:mx-6 lg:mx-0">
         <div class="col-span-12">
-          <h2 class="text-2xl font-semibold text-center pb-4 lg:pb-8 pt-8">Scope of work and services</h2>
+          <h2 class="text-2xl font-semibold text-center pb-2 lg:pb-6">Scope of work and services</h2>
         </div>
         <div class="col-span-12 border-t-2 border-logiclytheme1">
         </div>

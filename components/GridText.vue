@@ -1,7 +1,7 @@
 i <template>
 <page-section :altrow="altrow">
   <div class="object-contain object-center w-full text-logiclytextgrey">
-      <div class="pt-6 lg:pt-12 mx-0 md:mx-0">
+      <div>
         <h2 class="text-2xl font-semibold text-center">{{ heading }}</h2>
       </div>
       <div class="my-8 lg:my-12 -mx-0 lg:-mx-16 xl:-mx-0">
@@ -68,7 +68,7 @@ i <template>
               </p>
             </div>
 
-            <div class="col-span-1 pb-6 lg:pb-0">
+            <div class="col-span-1">
               <p class="text-lg font-semibold pb-2">
                 {{ subheading6 }}
               </p>

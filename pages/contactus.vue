@@ -12,7 +12,7 @@
 
     <page-section>
       <div class="grid grid-cols-5">
-        <div class="self-center col-span-5 mx-12 lg:mx-0 pt-12 lg:pt-20">
+        <div class="self-center col-span-5 mx-12 lg:mx-0">
           <h2 class="text-2xl font-semibold text-center text-logiclytextgrey">Start the conversation about how we can help</h2>
         </div>
       </div>
@@ -78,7 +78,7 @@
               PO Box 1166, Carlton, <br>
               Victoria, Australia 3053
             </p>
-            <hr class="block lg:hidden w-full mx-auto border border-logiclyorange mt-12 lg:mt-6 mb-12">
+            <hr class="block lg:hidden w-full mx-auto border border-logiclyorange mt-12 lg:mt-6">
           </div>
         </div>
       </div>
@@ -87,7 +87,7 @@
 
     <page-section class="bg-logiclygreytwo">
       <div class="grid grid-cols-1 lg:grid-cols-3">
-        <div class="grid col-span-1 content-start lg:pt-0">
+        <div class="grid col-span-1 content-start">
           <p class="font-semibold text-left text-logiclytextgrey text-xl">
             Visit us
           </p>

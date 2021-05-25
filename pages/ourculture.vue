@@ -41,17 +41,17 @@
     </page-section>
 
     <page-section>
-      <div class="grid grid-cols-12 bg-logiclylightgrey mb-10">
+      <div class="grid grid-cols-12 bg-logiclylightgrey">
         <div class="col-span-12">
           <img src="/Join-our-team.jpg" class="p-0 mb-5"/>
         </div>
         <div class="col-span-10 col-start-2 mt-4 lg:mt-8">
-          <h1 class="mb-4 font-semibold text-xl text-logiclytheme4">Join our team</h1>
+          <h1 class="mb-1 lg:mb-4 font-semibold text-xl text-logiclytheme4">Join our team</h1>
         </div>
         <div class="col-span-10 col-start-2 lg:col-span-5 lg:col-start-2 mb-4">
           <h2 class="font-semibold text-lg text-logiclytextgrey pr-0 lg:pr-8">Are you excited about learning, sharing knowledge and solving information problems?</h2>
         </div>
-        <div class="col-span-10 col-start-2 lg:col-span-5 lg:col-start-7 pb-12 lg:pb-16 mb-5">
+        <div class="col-span-10 col-start-2 lg:col-span-5 lg:col-start-7 pb-8 lg:pb-12 mb-5">
           <p class="text-logiclytextgrey pb-6 lg:pb-8">Logicly is always looking for strategic thinkers, designers and technology experts interested in working collaboratively to develop digital systems that improve businesses, government departments and communities.</p>
           <NuxtLink class="block p-3 text-white text-center font-medium bg-logiclyorange" to="/contactus">Enquire about joining us</NuxtLink>
         </div>

@@ -7,7 +7,7 @@
   :class="{ 'bg-black bg-opacity-40': overlay}"
   >
     <div class="container h-full mx-auto">
-      <div class="grid h-full py-8 sm:py-16 md:py-20 grid-cols-12 md:grid-cols-15 px-6 md:px-0 mobileres">
+      <div class="grid h-full py-16 md:py-20 grid-cols-12 md:grid-cols-15 px-6 md:px-0 mobileres">
         <div class="flex flex-col justify-center col-span-10 col-start-2 md:col-span-9 md:col-start-4">
             <slot></slot>
         </div>

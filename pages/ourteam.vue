@@ -15,8 +15,8 @@
     />
 
     <page-section>
-      <h1 class="text-2xl font-semibold text-center text-logiclytextgrey pb-8 lg:pb-12 pt-8">Everyone brings something different to the team</h1>
-      <div class="grid grid-cols-12 text-logiclytextgrey pb-8">
+      <h1 class="text-2xl font-semibold text-center text-logiclytextgrey pb-8 lg:pb-12">Everyone brings something different to the team</h1>
+      <div class="grid grid-cols-12 text-logiclytextgrey">
         <div class="col-span-12 lg:col-span-8 col-start-1 lg:col-start-3 grid grid-cols-3 grid-rows-3 gap-4">
           <div class="items-center col-span-1">
             <img src="/Everyone_brings_something_different_to_the_team/Researchers.svg" class="h-8 sm:h-12 m-auto" />
@@ -61,8 +61,8 @@
 
     <page-section altrow>
 
-      <div class="pb-4">
-        <h1 class="text-2xl font-semibold text-center text-logiclytextgrey pb-8 pt-8">Meet the people who will advise and manage your projects</h1>
+      <div>
+        <h1 class="text-2xl font-semibold text-center text-logiclytextgrey pb-8">Meet the people who will advise and manage your projects</h1>
       </div>
 
       <!-- Main grid -->
@@ -72,7 +72,7 @@
             <img src="/logicly-adam.jpg" class="p-0">
           </div>
           <div class="col-span-1">
-            <h2 class="text-lg xl:text-lg font-bold">
+            <h2 class="text-lg font-bold">
               Adam Clarke
             </h2>
             <h3 class="text-sm font-medium pb-4">
@@ -93,7 +93,7 @@
             <img src="/logicly-andrew.jpg" class="p-0">
           </div>
           <div class="col-span-1">
-            <h2 class="text-lg xl:text-lg font-bold">
+            <h2 class="text-lg font-bold">
               Andrew Gordon
             </h2>
             <h3 class="text-sm font-medium pb-4">
@@ -114,7 +114,7 @@
             <img src="/logicly-simon.jpg" class="p-0">
           </div>
           <div class="col-span-1">
-            <h2 class="text-lg xl:text-lg font-bold">
+            <h2 class="text-lg font-bold">
               Simon Palmer
             </h2>
             <h3 class="text-sm font-medium pb-4">
@@ -135,7 +135,7 @@
             <img src="/logicly-michelle.jpg" class="p-0">
           </div>
           <div class="col-span-1">
-            <h2 class="text-lg xl:text-lg font-bold">
+            <h2 class="text-lg font-bold">
               Michelle Nicholson
             </h2>
             <h3 class="text-sm font-medium pb-4">
