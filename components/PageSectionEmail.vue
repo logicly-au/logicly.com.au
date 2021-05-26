@@ -4,7 +4,7 @@
   :class="{ 'bg-black bg-opacity-50': overlay}">
     <div class="container h-full mx-auto">
       <div class="grid grid-cols-12 subscriberesponsive">
-        <div class="grid items-end grid-cols-4 col-span-10 col-start-2 gap-4 py-16 lg:py-24 px-16 md:px-32 lg:px-0 ">
+        <div class="grid items-end grid-cols-4 col-span-10 col-start-2 gap-4 py-16 lg:py-24 lg:py-24 px-6 md:px-0 mobileres">
           <div class="col-span-4 lg:col-span-1 -mr-0 lg:-mr-6">
             <div>
               <h2 class="pb-2 text-lg font-semibold text-logiclytheme4">
@@ -67,17 +67,10 @@ export default {
 </script>
 <style scoped>
 
-@media only screen and (max-width: 530px) {
-  .subscriberesponsive div {
-    margin-left: -1rem;
-    margin-right: -1rem;
-  }
-}
-
-@media only screen and (max-width: 430px) {
-  .subscriberesponsive div {
-    margin-left: -1.2rem;
-    margin-right: -1.2rem;
+@media only screen and (max-width: 500px) {
+  .mobileres {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
   }
 }
 </style>

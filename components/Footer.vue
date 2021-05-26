@@ -2,8 +2,8 @@
   <div class="w-full h-auto logicly-footer bg-logiclylightgrey text-logiclytextgrey">
     <div class="container mx-auto">
       <footer>
-        <div class="grid grid-cols-12 footerresponsive">
-          <div class="grid grid-cols-12 col-span-10 col-start-2 gap-4 py-16 lg:py-24 px-16 md:px-32 lg:px-0 text-sm text-left">
+        <div class="grid grid-cols-12">
+          <div class="grid grid-cols-12 col-span-10 col-start-2 gap-4 text-sm text-left py-16 lg:py-24 px-6 md:px-0 mobileres">
             <div class="col-span-12 lg:col-span-4 mb-6 lg:mb-0">
               <div class="mb-6 lg:mb-4">
                 <logo />
@@ -77,17 +77,11 @@ export default {}
   font-weight: bold;
 }
 
-@media only screen and (max-width: 530px) {
-  .footerresponsive div {
-    margin-left: -1rem;
-    margin-right: -1rem;
+@media only screen and (max-width: 500px) {
+  .mobileres {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
   }
 }
 
-@media only screen and (max-width: 430px) {
-  .footerresponsive div {
-    margin-left: -1.2rem;
-    margin-right: -1.2rem;
-  }
-}
 </style>
