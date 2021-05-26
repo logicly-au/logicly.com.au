@@ -25,7 +25,7 @@
           <h2 class="text-2xl font-semibold text-center text-logiclytextgrey">Start the conversation about how we can help</h2>
         </div>
       </div>
-      <div class="grid grid-cols-3 gap-x-10 my-6 lg:my-12">
+      <div class="grid grid-cols-3 gap-x-10 mt-6 lg:mt-12">
         <div class="col-span-3 lg:col-span-1 grid lg:grid-rows-3">
           <div>
             <div class="w-20 md:w-20 lg:w-20 mx-auto">
