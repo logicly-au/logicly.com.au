@@ -16,8 +16,38 @@
       altrow
     />
 
+
+    <page-section class="bg-logiclygreytwo">
+      <div class="grid grid-cols-8 gap-x-10 text-logiclytextgrey">
+        <div class="col-span-8 mb-8 text-center lg:col-span-6 lg:col-start-2 xl:col-span-8">
+          <h1 class="text-2xl font-semibold text-center text-logiclytextgrey">Information and digital needs come in all different forms</h1>
+        </div>
+        <div class="col-span-8 col-start-1 lg:col-span-4 text-logiclytextgrey">
+          <ul class="text-base leading-relaxed list-disc lg:text-sm pl-4">
+            <li>Designing empathic workflows that make the task easier for clients and end-users</li>
+            <li>Creating thoughtfully designed information systems that work with existing processes</li>
+            <li>Helping clients plan and implement data projects that are sympathetic to stakeholders’ needs</li>
+            <li>Developing a business case for information projects</li>
+            <li>Defining the data requirements for research</li>
+            <li>Collecting useful and accurate data</li>
+          </ul>
+        </div>
+        <div class="col-span-8 lg:col-span-4 lg:col-start-5">
+          <ul class="text-base leading-relaxed list-disc lg:text-sm pl-4">
+            <li>Integrating multiple data sets</li>
+            <li>Transitioning from a manual to an online system</li>
+            <li>Systemising information management</li>
+            <li>Capturing, collecting and collating stories and information</li>
+            <li>Building efficient and easy to use systems to reduce errors and repetitious work</li>
+            <li>Collating and transforming data for analysis</li>
+          </ul>
+        </div>
+      </div>
+    </page-section>
+
+
     <page-section>
-      <div class="grid grid-cols-12 gap-6 lg:gap-8 text-logiclytextgrey -mb-10 lg:mb-6 mx-0 md:mx-6 lg:mx-0">
+      <div class="grid grid-cols-12 gap-6 lg:gap-8 text-logiclytextgrey mx-0 md:mx-0 lg:mx-0">
         <div class="col-span-12">
           <h2 class="text-2xl font-semibold text-center pb-2 lg:pb-6">Scope of work and services</h2>
         </div>
@@ -109,6 +139,7 @@
         </div>
       </div>
     </page-section>
+
 
     <page-section>
       <div class="grid grid-cols-12">
