@@ -137,9 +137,7 @@ Sometimes you’ll need to engage an expert to get a successful outcome. If any 
 
 Reading through some more of our past work might give you some ideas on how to tackle your own project. Here a few more examples of our work with corporate and government clients, and there’s plenty more on <NuxtLink to="/projects">our website</NuxtLink>.
 </div>
-</div>
 
-<div class="col-span-12 lg:col-span-9 lg:col-start-4 xl:col-span-8 xl:col-start-5 -my-10 lg:my-0 lg:pl-6 xl:pl-0 blog-text">
 
 <div class="bg-logiclylightgrey px-12 pt-12 pb-6 mb-4 mt-2">
 <div class="font-semibold text-sm pt-2 pb-2">Secure data management for complex stakeholder environments</div>
@@ -176,16 +174,11 @@ Reading through some more of our past work might give you some ideas on how to t
 </div>
 </div>
 
-</div>
-
-<div class="col-span-12 lg:col-span-9 lg:col-start-4 xl:col-span-8 xl:col-start-5 lg:pl-6 xl:pl-0 blog-text">
-<div>
 
 ## Want to chat about your project?
 
 If you need help resolving your complex digital challenge, <NuxtLink to="/contactus">get in touch</NuxtLink> for a free 30-minute phone consultation. Let’s get the conversation started and discuss options for tackling that complex data issue with a well-designed digital system.
 
-</div>
 </div>
 
 </div>

@@ -7,7 +7,9 @@ date: 10 March 2021
 img: /AMHOCN-coworkers-meeting-with-coworker-online.jpg
 alt: AMHOC image
 link: /insights_new/?article=0&tab=1
-category: Digital transformation
+category:  
+- Digital transformation
+- Public sector
 ---
 
 <div class="grid grid-cols-12">
