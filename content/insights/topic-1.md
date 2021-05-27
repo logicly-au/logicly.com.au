@@ -140,38 +140,42 @@ Reading through some more of our past work might give you some ideas on how to t
 </div>
 
 
-<div class="bg-logiclylightgrey px-12 pt-12 pb-6 mb-4 mt-2">
-<div class="font-semibold text-sm pt-2 pb-2">Secure data management for complex stakeholder environments</div>
 
-<span class="text-sm">We partnered with the Department of Health and over 30 entities in the primary health regional network to consolidate different health service datasets in a new, secure, more accessible information system. We navigated the state’s differing laws and statutory requirements to develop an intuitive, feature-rich, national platform in just 6 months.</span>
-
-<div class="pt-2 text-sm">
-
+<div class="grid grid-cols-1 lg:grid-cols-9 pt-4 lg:pb-6">
+<div class="col-span-8 pb-6">
+<div class="text-sm font-semibold pb-1">
+Secure data management for complex stakeholder environments
+</div>
+<div class="font-light text-sm pb-1">
+We partnered with the Department of Health and over 30 entities in the primary health regional network to consolidate different health service datasets in a new, secure, more accessible information system. We navigated the state’s differing laws and statutory requirements to develop an intuitive, feature-rich, national platform in just 6 months.
+</div>
+<div class="pt-1 text-sm font-medium text-logiclytheme4">
 <NuxtLink to="/projects/?article=2&tab=1">Learn more</NuxtLink>
 </div>
 </div>
 
-
-<div class="bg-logiclylightgrey px-12 pt-12 pb-6 mb-4 mt-2">
-<div class="font-semibold text-sm pt-2 pb-2">Sophisticated algorithms to protect vulnerable participants</div>
-
-<span class="text-sm">When we worked with the University of Melbourne’s Centre for Mental Health, we developed an automated alert function to notify study psychologists where specialised and urgent care interventions may be needed to keep participants safe. Our sophisticated algorithms recommended appropriate treatment and longitudinal data collection tracked changes over time.</span>
-
-<div class="pt-2 text-sm">
-
+<div class="col-span-8 pb-6">
+<div class="text-sm font-semibold pb-1">
+Sophisticated algorithms to protect vulnerable participants
+</div>
+<div class="text-sm font-light pb-1">
+When we worked with the University of Melbourne’s Centre for Mental Health, we developed an automated alert function to notify study psychologists where specialised and urgent care interventions may be needed to keep participants safe. Our sophisticated algorithms recommended appropriate treatment and longitudinal data collection tracked changes over time.
+</div>
+<div class="pt-1 text-sm font-medium text-logiclytheme4">
 <NuxtLink to="/projects/?article=0&tab=0">Learn more</NuxtLink>
 </div>
 </div>
 
-
-<div class="bg-logiclylightgrey px-12 pt-12 pb-6 mb-2 mt-2">
-<div class="font-semibold text-sm pt-2 pb-2">Goodbye forms and spreadsheets, hello web platform</div>
-
-<span class="text-sm">We worked with the National Australia Bank to build a system that creates and delivers personalised performance management surveys to its 40,000+ strong workforce. Our solution analyses the high volumes of data efficiently and communicates the results in accessible reports. It’s a robust, flexible end-to-end tool that will adapt as the organisation’s needs change.</span>
-
-<div class="pt-2 text-sm">
-
+<div class="col-span-8">
+<div class="text-sm font-semibold pb-1">
+Goodbye forms and spreadsheets, hello web platform
+</div>
+<div class="text-sm font-light pb-1">
+We worked with the National Australia Bank to build a system that creates and delivers personalised performance management surveys to its 40,000+ strong workforce. Our solution analyses the high volumes of data efficiently and communicates the results in accessible reports. It’s a robust, flexible end-to-end tool that will adapt as the organisation’s needs change.
+</div>
+<div class="pt-1 text-sm font-medium text-logiclytheme4">
 <NuxtLink to="/projects/?article=4&tab=5">Learn more</NuxtLink>
+</div>
 </div>
 </div>
 

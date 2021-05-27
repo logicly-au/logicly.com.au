@@ -101,8 +101,8 @@
       </div>
 
       <div class="grid grid-cols-12">
-        <div class="col-span-12 lg:col-span-9 lg:col-start-4 xl:col-span-8 xl:col-start-5 lg:pl-6 xl:pl-0 -mt-4 lg:mt-4 blog-text">
-          <div @click="setActiveArticle(index)" v-for="(article, index) in articles" :class="{ 'articles-active': isActiveArticle(index) }">
+        <div class="col-span-12 lg:col-span-9 lg:col-start-4 xl:col-span-8 xl:col-start-5 lg:pl-6 xl:pl-0 -mt-6 lg:mt-4 lg:mb-4 blog-text">
+          <div v-for="article in articles" :class="{ 'articles-active': isActiveArticle(index) }">
             <div class="logiclysquare"> </div>
             <span class="font-semibold text-sm ml-2">{{ article.author }}</span>
             <span class="font-semibold text-sm">is Logicly's</span>
@@ -113,17 +113,17 @@
 
       <!-- TODO: Make this section only show articles in the same category/topic -->
       <div class="border-t-2 border-logiclyorange mt-6 lg:mt-16">
-        <div class="grid grid-cols-3 mt-10">
+        <div class="grid grid-cols-3 mt-10 lg:mt-12">
           <div class="col-span-3 lg:col-span-1">
-            <p class="text-lg lg:text-base font-semibold text-logiclytextgrey pb-6 lg:pb-0">
+            <p class="text-lg lg:text-base font-semibold text-logiclytextgrey pb-8 lg:pb-0">
               Related articles
             </p>
           </div>
           <div class="col-span-3 lg:col-span-2 lg:col-start-2">
             <ul>
-              <div class="grid lg:grid-cols-2 grid-rows-auto gap-5 pb-4">
+              <div class="grid lg:grid-cols-2 grid-rows-auto gap-5">
                 <li @click="setActiveArticle(index)" v-for="(article, index) in articles" :class="{ 'articles-active': isActiveArticle(index) }">
-                  <div class="pb-8">
+                  <div class="">
                     <div class="pb-5">
                        <img class="w-full" :src="article.img" :alt="article.alt" />
                     </div>
@@ -135,7 +135,7 @@
                       <span class="text-logiclytheme4">|</span>
                       <span class="font-normal text-sm">{{ article.date }}</span>
                     </div>
-                    <div class="pb-1">
+                    <div class="pb-2">
                       <span class="font-light text-base lg:text-sm" v-html="`${article.description}`"></span>
                     </div>
                     <div>
