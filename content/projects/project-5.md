@@ -25,13 +25,14 @@ To achieve this, they wanted to consolidate different health service datasets in
   <ul>
     <li>Full implementation and delivery in a tight, six-month timeframe - ready for the launch of a new government funding model</li>
     <li>Sophisticated, complex data analysis in clear, succinct reports</li>
-    <li>An intuitive and easy-to-use interface</li>
+    <li>An intuitive and easy-to-use interface to keep workload to a minimum</li>
     <li>Secure data collection in compliance with the Australian Signals Directorate</li>
+    <li>Allowing for multiple methods for data provision to work with existing systems</li>
   </ul>
 </div>
 
 ### Our digital solution
-Logicly worked closely in stages with stakeholders to meet critical deadlines while safeguarding the integrity of the data solution.
+Logicly worked closely with stakeholders to design an easy-to-use application, meet critical deadlines, and safeguard the integrity of the data solution.
 
 #### Stage 1 involved completion of:
 <div class="project-text-list">
@@ -39,7 +40,7 @@ Logicly worked closely in stages with stakeholders to meet critical deadlines wh
     <li>An accessible user-management interface</li>
     <li>Bulk data upload capability</li>
     <li>Data mapping to migrate legacy information</li>
-    <li>Stakeholder consensus for consistent data content protocols</li>
+    <li>Working with multiple stakeholders to achieve consensus for consistent data content protocols</li>
   </ul>
 </div>
 
@@ -47,25 +48,31 @@ Logicly worked closely in stages with stakeholders to meet critical deadlines wh
 <div class="project-text-list">
   <ul>
     <li>A user-friendly data entry interface</li>
+    <li>A secure and robust data processing pipeline</li>
     <li>A suite of customised reports</li>
-    <li>An online version of each outcome measure • Third-party developer accessibility</li>
-    <li>A data processing pipeline</li>
+    <li>An online version of each outcome measure</li>
+    <li>Third-party developer access for integration with existing systems</li>
   </ul>
 </div>
 
 ### The outcomes
-The MDS provides access to insights and comprehensive reporting for in-depth analysis to the DoH.
+The collaboration between Logicly, DoH and the PHNs has resulted in an application that enables data providers to supply required data in the way that works best for them.
+
+Because of this, the MDS provides access to insights and comprehensive reporting for in-depth analysis to DoH and the PHNs.
 
 It’s a stable and feature-rich platform that evolves and improves as new data sources are added and new reports developed.
-
-Logicly is a longtime partner of the DoH, having worked with them on numerous projects for more than 15 years. For this project, Logicly continues to provide and maintain:
+  
+Logicly provides ongoing support to DoH and PHNs, offering:
 <div class="project-text-list">
   <ul>
-    <li>a data definitions and file specifications</li>
+    <li>management of data definitions and file specifications</li>
     <li>the PMHC MDS website</li>
-    <li>a helpdesk to assist users and support training</li>
+    <li>a helpdesk to assist users and support training.</li>
   </ul>
 </div>
+  
+Logicly is a longtime partner of the DoH, having worked with them on numerous projects for more than 15 years.
+
 
 </div>
 </div>
