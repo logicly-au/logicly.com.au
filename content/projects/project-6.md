@@ -14,7 +14,7 @@ category: Government
 <div class="col-span-12 lg:col-span-9 project-text lg:order-last">
 <div>
 
-## We created the AMHOCN in 2003 for the Department of Health, and continue to shape and maintain it to provide an essential tool for improving mental health in Australia.
+## We helped create the AMHOCN in 2003 for the Department of Health, and continue to shape and maintain it to provide an essential tool for improving mental health in Australia.
 
 ### The information challenge
 The AMHOCN exists to provide nation-wide leadership to the mental health sector. It relies on accurate mental health outcome data from across Australia in order to research, analyse, and deliver important public health service insights and plans.
