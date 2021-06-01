@@ -22,7 +22,7 @@ The University of Melbourne’s Centre for Mental Health (CMH) relies on accurat
 
 A high level of security is essential so that the information and personal details gathered are stored safely to protect the participants and to meet the University’s Human Research Ethics Committee standards.
 
-As a trusted long-term partner of CMH, Logicly have delivered numerous information systems that provide sophisticated longitudinal data collection and safe user experiences. A recent example involved developing an automated alert function to notify study psychologists where specialised and urgent care interventions may be needed.
+As a trusted long-term partner of CMH, Logicly have delivered numerous information systems that provide sophisticated longitudinal data collection and safe user experiences. A recent example involved implementing a sophisticated monitoring and alert function to notify study psychologists where specialised and urgent care interventions may be needed.
 
 ### Our digital solution
 Logicly and CMH have worked together to successfully run research studies in a range of contexts since 2014.
@@ -30,11 +30,12 @@ Logicly and CMH have worked together to successfully run research studies in a r
 #### Notable projects and outcomes have included:
 <div class="project-text-list">
   <ul>
-    <li>A screening tool for identifying high-risk participants and sending automated alerts to psychologists in studies</li>
+    <li>Screening tools for identifying high-risk participants and sending automated alerts to psychologists in studies</li>
     <li>Complex algorithmic data analysis for recommending appropriate treatments</li>
-    <li>Survey delivery over multiple time points so that changes can be tracked</li>
+    <li>Survey delivery over multiple time points so that intervention outcomes can be evaluated</li>
     <li>Accessible data applications for researchers to monitor the survey completion process</li>
     <li>Sophisticated algorithms randomising participants into control and study cohorts</li>
+    <li>Simple and user-friendly data collections for complex workflows</li>
   </ul>
 </div>
 

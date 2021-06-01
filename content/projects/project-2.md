@@ -32,9 +32,9 @@ The tool used complex algorithms to identify the level of support participants s
 
 The DST involved filtering participants into random ‘control’ and ‘study’ groups, and delivering corresponding alternative surveys to each set over 18 months.
 
-A secure administrative interface allowed staff with access to manage the information system, monitor progress, and access insights.
+A secure administrative tool supported Care Navigators in providing one-on-one help to study participants. The tool enabled Care Navigators to provide urgent support where it was needed, record and evaluate notes and outcomes, as well as managing appointments and follow-ups.
 
-It also supported Care Navigators in providing one-on-one help to study participants, including managing appointments and follow-ups, and recording and evaluating notes and outcomes.
+It also gave the principal researchers access to manage the information system, monitor progress, and track insights. Access to aggregated data provided the researchers with the ability to respond quickly to requests for information from project sponsors and other stakeholders.
 
 ### The outcomes
 The collaborative approach ensured the value of the information, the highest level of ethical integrity, and compliance with the Australian Government’s Protective Security Policy Framework.

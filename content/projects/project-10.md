@@ -26,7 +26,9 @@ The data solution would need to deliver accurate results, as well as be develope
 ### Our digital solution
 We worked closely with the DET team to understand the requirements, and to design the content and flow of the solution.
 
-To effectively capture the right data, multiple surveys were created within the information system – each built with care to safeguard the quality of the results.
+To effectively capture the right data, multiple surveys were created within the information system, each built with care to safeguard the quality of the results.
+  
+Because of the tight timelines, we approached the build in stages to have each component of the project ready as it was needed.
 
 ### The outcomes
 
