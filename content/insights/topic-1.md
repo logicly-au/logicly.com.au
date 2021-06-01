@@ -79,9 +79,9 @@ If you’re feeling a little overwhelmed by the data challenge you’re facing, 
 ## What makes a data challenge complex?
 There are many factors that contribute to data complexity. In this article, we’ll focus on our top four, using an example project to bring it all to life.
 
-<div class="bg-logiclylightgrey px-12 pt-12 pb-6 my-4">
+<div class="bg-logiclylightgrey px-12 py-6 my-4">
 
-### PROJECT SPOTLIGHT:
+## PROJECT SPOTLIGHT:
 <div class="font-semibold text-sm pr-12 pt-2">A thrice-yearly census for over 70,000 pre-school children and teachers</div>
 
 <span class="text-sm">The Department of Education and Training needed a sophisticated and accessible data management system to securely collect and store the personal details and routines of around 72,000 children and their teachers. Our solution was quickly implemented across the state, and insights gathered continue to inform decisions for early-learning strategy and policy.</span>
@@ -150,11 +150,8 @@ Reading through some more of our past work might give you some ideas on how to t
 </div>
 
 <div class="grid content-center col-span-7 lg:col-span-4 lg:col-start-4 lg:px-2">
-<div class="">
-<div>
 <div class="font-semibold leading-snug lg:text-sm text-logiclytheme4 pt-2 lg:pt-0 pb-1">
   Secure data management for complex stakeholder environments
-</div>
 </div>
 <div class="text-xs mr-0 sm:mr-16 lg:mr-0">
   We partnered with the Department of Health and over 30 entities in the primary health regional network to consolidate different health service datasets in a new, secure, more accessible information system. We navigated the state’s differing laws and statutory requirements to develop an intuitive, feature-rich, national platform in just 6 months.
@@ -162,7 +159,6 @@ Reading through some more of our past work might give you some ideas on how to t
 <div class="text-sm font-medium pt-2">
 
 <NuxtLink to="/projects/?article=3&tab=1">Learn more</NuxtLink>
-</div>
 </div>
 </div>
 </div>
@@ -179,11 +175,8 @@ Reading through some more of our past work might give you some ideas on how to t
 </div>
 
 <div class="grid content-center col-span-7 lg:col-span-4 lg:col-start-4 lg:px-2">
-<div class="">
-<div>
 <div class="font-semibold leading-snug lg:text-sm text-logiclytheme4 pt-2 lg:pt-0 pb-1">
   Sophisticated algorithms to protect vulnerable participants
-</div>
 </div>
 <div class="text-xs mr-0 sm:mr-16 lg:mr-0">
   When we worked with the University of Melbourne’s Centre for Mental Health, we developed an automated alert function to notify study psychologists where specialised and urgent care interventions may be needed to keep participants safe. Our sophisticated algorithms recommended appropriate treatment and longitudinal data collection tracked changes over time.
@@ -191,7 +184,6 @@ Reading through some more of our past work might give you some ideas on how to t
 <div class="text-sm font-medium pt-2">
 
 <NuxtLink to="/projects/?article=0&tab=0">Learn more</NuxtLink>
-</div>
 </div>
 </div>
 </div>
@@ -208,11 +200,8 @@ Reading through some more of our past work might give you some ideas on how to t
 </div>
 
 <div class="grid content-center col-span-7 lg:col-span-4 lg:col-start-4 lg:px-2">
-<div class="">
-<div>
 <div class="font-semibold leading-snug lg:text-sm text-logiclytheme4 pt-2 lg:pt-0 pb-1">
   Goodbye forms and spreadsheets, hello web platform
-</div>
 </div>
 <div class="text-xs mr-0 sm:mr-16 lg:mr-0">
   We worked with the National Australia Bank to build a system that creates and delivers personalised performance management surveys to its 40,000+ strong workforce. Our solution analyses the high volumes of data efficiently and communicates the results in accessible reports. It’s a robust, flexible end-to-end tool that will adapt as the organisation’s needs change.
@@ -220,7 +209,6 @@ Reading through some more of our past work might give you some ideas on how to t
 <div class="text-sm font-medium pt-2">
 
 <NuxtLink to="/projects/?article=0&tab=5">Learn more</NuxtLink>
-</div>
 </div>
 </div>
 </div>
