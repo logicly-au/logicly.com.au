@@ -317,6 +317,12 @@ ul.nav.nav-tabs {
   padding-bottom: 0.1rem;
 }
 
+.blog-text .insightstable a {
+  color:#3c3c3b!important;
+  text-decoration: none;
+  border-bottom: none;
+}
+
 .articles {
   padding-bottom: 3em;
 }
