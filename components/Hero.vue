@@ -6,11 +6,13 @@
     :style="{ backgroundSize: 'cover', backgroundImage: `url(${backgroundUrl})` }"
   >
     <page-section :altrow="altrow" :overlay="overlay">
-      <div class="">
-      <h1 class="text-xs md:text-sm xl:text-base font-medium text-center text-white">{{ heading }}</h1>
-      <h2 class="text-base sm:text-lg md:text-xl xl:text-2xl font-semibold text-center text-white">{{ subheading }}</h2>
-      <h1 class="text-base sm:text-lg lg:text-xl text-center text-white">{{ pageheroheading }}</h1>
-    </div>
+      <div class="w-full h-full textresponsive">
+        <div class="mt-0">
+        <h1 class="text-xs md:text-sm xl:text-base font-medium text-center text-white">{{ heading }}</h1>
+        <h2 class="text-base sm:text-lg md:text-xl xl:text-2xl font-semibold text-center leading-tight text-white">{{ subheading }}</h2>
+        <h1 class="text-base sm:text-lg lg:text-xl text-center text-white">{{ pageheroheading }}</h1>
+      </div>
+      </div>
     </page-section>
 
   </AspectRatio>
@@ -34,16 +36,29 @@ export default {
 </script>
 
 <style scoped>
-  .h-128 {
-  height:32rem;
+@media only screen and (max-width: 520px) {
+  .textresponsive div {
+    margin-top: -0.7rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
 }
 
-.bg-overlay {
-  background-color: rgba(248, 247, 216, 0.7);
-  position: relative;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+@media only screen and (max-width: 450px) {
+  .textresponsive div {
+    margin-top: -1.2rem;
+  }
+}
+
+@media only screen and (max-width: 410px) {
+  .textresponsive div {
+    margin-top: -2rem;
+  }
+  .textresponsive div h1 {
+    font-size: 0.8rem;
+  }
+  .textresponsive div h2 {
+    font-size: 0.9rem;
+  }
 }
 </style>
