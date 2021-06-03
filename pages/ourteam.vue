@@ -60,13 +60,12 @@
 
 
     <page-section altrow>
-
       <div>
         <h1 class="text-2xl font-semibold text-center text-logiclytextgrey pb-8">Meet the people who will advise and manage your projects</h1>
       </div>
 
       <!-- Main grid -->
-      <div class="flex flex-col grid grid-cols-2 col-gap-6 text-logiclytextgrey">
+      <div class="grid grid-cols-2 col-gap-6 text-logiclytextgrey">
         <div class="col-span-2 lg:col-span-1 lg:col-start-1 pb-16">
           <div class="col-span-1 pb-6">
             <img src="/logicly-adam.jpg" class="p-0">
@@ -153,7 +152,6 @@
             </p>
           </div>
         </div>
-
       </div>
     </page-section>
 
