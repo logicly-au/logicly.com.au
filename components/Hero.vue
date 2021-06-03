@@ -6,7 +6,7 @@
     :style="{ backgroundSize: 'cover', backgroundImage: `url(${backgroundUrl})` }"
   >
     <page-section :altrow="altrow" :overlay="overlay">
-      <div class="w-full h-full textresponsive">
+      <div class="w-full h-full textresponsive grid content-center">
         <div class="mt-0">
         <h1 class="text-xs md:text-sm xl:text-base font-medium text-center text-white">{{ heading }}</h1>
         <h2 class="text-base sm:text-lg md:text-xl xl:text-2xl font-semibold text-center leading-tight text-white">{{ subheading }}</h2>
