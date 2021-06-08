@@ -101,7 +101,7 @@
             What information challenges do you have?
           </div>
 
-          <div class="col-span-2 pb-2">
+          <div class="col-span-2 pb-2 pr-2 md:pr-12 lg:pr-2 xl:pr-8">
             <p>
               Are you working with complex information? Do you have challenges like compliance, complex workflows,
               interactivity, accuracy or organising your data? We first look at your challenges and help you define a
@@ -109,7 +109,7 @@
             </p>
           </div>
 
-          <div class="col-span-1 col-start-1 pb-8">
+          <div class="col-span-1 col-start-1 pb-8 lg:pb-0">
             <Button
               buttontext="learn more"
               buttonlink="/projects"
@@ -117,8 +117,8 @@
           </div>
 
         </div>
-      <!-- End subgrid -->
-      <!-- Sub grid 2 -->
+        <!-- End subgrid -->
+        <!-- Sub grid 2 -->
         <div class="grid grid-cols-2 col-span-2 lg:col-span-1 lg:col-start-2">
 
           <div class="col-span-2">
@@ -133,7 +133,7 @@
             What type of digital system do you require?
           </div>
 
-          <div class="col-span-2 pb-2">
+          <div class="col-span-2 pb-2 pr-2 md:pr-12 lg:pr-6 xl:pr-8">
             <p>
               We design and build digital systems from simple prototypes through to systems that evolve over years of
               reviewing, improving and adapting to the changing needs of our clients and their users. Each system is
