@@ -56,7 +56,7 @@
         <div class="col-span-3 lg:col-span-1 text-center flex pb-6 lg:pb-0">
           <div class="m-auto">
             <div class="h-24 flex items-center justify-center">
-              <img src="/Australian-Government-Federal-Department-of-Health.png" class="h-28" />
+              <img src="/Australian-Government.png" class="h-20" />
             </div>
             <div class="flex justify-center">
               <Button
@@ -69,7 +69,7 @@
         <div class="col-span-3 lg:col-span-1 text-center flex pb-6 lg:pb-0">
           <div class="m-auto">
             <div class="h-24 flex items-center justify-center">
-              <img src="/The-University-of-Melbourne.png" class="h-28" />
+              <img src="/University-of-Melbourne.png" class="h-16" />
             </div>
             <div class="flex justify-center">
               <Button
@@ -82,7 +82,7 @@
         <div class="col-span-3 lg:col-span-1 text-center flex">
           <div class="m-auto">
             <div class="h-24 flex items-center justify-center">
-              <img src="/National-Australia-Bank.png" class="h-12" />
+              <img src="/National-Australia-Bank-NAB.png" class="h-12" />
             </div>
             <div class="flex justify-center">
               <Button
