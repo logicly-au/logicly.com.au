@@ -21,14 +21,14 @@
 
 
     <page-section>
-      <div class="w-full hidden sm:block">
+      <div class="w-full hidden sm:block lg:pt-8 -mb-20 lg:-mb-10">
         <light-overlay-image class="overlay-height"
           imageurl="/different_audiences.jpg"
           overlaytext="Different audiences. </br>Different information needs. </br>Different systems."
         />
       </div>
 
-      <div class="w-full block sm:hidden">
+      <div class="w-full block sm:hidden -mb-16">
         <div class="container mx-auto">
           <light-overlay-image class="overlay-height"
             imageurl="/different_audiences.jpg"
@@ -44,11 +44,11 @@
         <h2 class="text-2xl font-semibold text-center mb-10 lg:mb-12 xl:mb-16">We work with clients across different industries to understand their internal and external stakeholders so that the systems we build really do meet their needs.</h2>
         <vsa-list>
           <!-- Here you can use v-for to loop through items  -->
-          <vsa-item>
+          <vsa-item class="grid content-center">
             <vsa-heading>
-              <div class="grid grid-cols-11">
-                <div class="col-span-1"><img src="/researchers.svg" class="w-20 pr-4" /></div>
-                <div class="flex flex-col justify-center col-span-10">
+              <div class="grid grid-cols-5 md:grid-cols-11">
+                <div class="col-span-1"><img src="/researchers.svg" class="w-8 lg:w-10" /></div>
+                <div class="flex flex-col justify-center col-span-3 md:col-span-10 pl-4 sm:pl-8 lg:pl-12">
                   <h2 class="text-left">Researchers</h2>
                 </div>
               </div>
@@ -75,11 +75,11 @@
 
           </vsa-item>
 
-          <vsa-item>
+          <vsa-item class="grid content-center">
             <vsa-heading>
-              <div class="grid grid-cols-11">
-                <div class="col-span-1"><img src="/government.svg" class="w-20 pr-4" /></div>
-                <div class="flex flex-col justify-center col-span-10">
+              <div class="grid grid-cols-5 md:grid-cols-11">
+                <div class="col-span-1"><img src="/government.svg" class="w-12" /></div>
+                <div class="flex flex-col justify-center col-span-4 md:col-span-10 pl-4 sm:pl-5 md:pl-8 lg:pl-12">
                   <h2 class="text-left">Government</h2>
                 </div>
               </div>
@@ -107,9 +107,9 @@
 
           <vsa-item>
             <vsa-heading>
-              <div class="grid grid-cols-11">
-                <div class="col-span-1"><img src="/health.svg" class="w-20 pr-4" /></div>
-                <div class="flex flex-col justify-center col-span-10">
+              <div class="grid grid-cols-5 md:grid-cols-11">
+                <div class="col-span-1"><img src="/health.svg" class="w-12" /></div>
+                <div class="flex flex-col justify-center col-span-3 md:col-span-10 pl-4 sm:pl-8 lg:pl-12">
                   <h2 class="text-left">Health</h2>
                 </div>
               </div>
@@ -135,11 +135,11 @@
 
           <vsa-item>
             <vsa-heading>
-              <div class="grid grid-cols-11">
+              <div class="grid grid-cols-5 md:grid-cols-11">
                 <div class="col-span-1">
-                  <img src="/education.svg" class="w-20 pr-4" />
+                  <img src="/education.svg" class="w-12" />
                 </div>
-                <div class="flex flex-col justify-center col-span-10">
+                <div class="flex flex-col justify-center col-span-4 md:col-span-10 pl-4 sm:pl-5 md:pl-8 lg:pl-12">
                   <h2 class="text-left">Education</h2>
                 </div>
               </div>
@@ -161,11 +161,11 @@
 
           <vsa-item>
             <vsa-heading>
-              <div class="grid grid-cols-11">
+              <div class="grid grid-cols-5 md:grid-cols-11">
                 <div class="col-span-1">
-                  <img src="/non-government.svg" class="w-20 pr-4" />
+                  <img src="/non-government.svg" class="w-12" />
                 </div>
-                <div class="flex flex-col justify-center col-span-10">
+                <div class="flex flex-col justify-center col-span-4 md:col-span-10 pl-4 sm:pl-5 md:pl-8 lg:pl-12">
                   <h2 class="text-left">Non-government</h2>
                 </div>
               </div>
@@ -186,12 +186,12 @@
           </vsa-item>
 
           <vsa-item>
-          <vsa-heading>
-              <div class="grid grid-cols-11">
+            <vsa-heading>
+              <div class="grid grid-cols-5 md:grid-cols-11">
                 <div class="col-span-1">
-                  <img src="/corporate.svg" class="w-20 pr-4" />
+                  <img src="/corporate.svg" class="w-12" />
                 </div>
-                <div class="flex flex-col justify-center col-span-10">
+                <div class="flex flex-col justify-center col-span-4 md:col-span-10 pl-4 sm:pl-5 md:pl-8 lg:pl-12">
                   <h2 class="text-left">Corporate</h2>
                 </div>
               </div>
@@ -317,19 +317,23 @@
 }
 
 .vsa-list {
+  --vsa-border-width: 0px;
   max-width:100%;
   border:none;
+  border-bottom:1px solid #e84e1b!important;
 }
 
 .vsa-item {
   border:none;
-  border-top:2px solid #e84e1b!important;
+  border-top:1px solid #e84e1b!important;
+  min-height: 5rem;
 }
 
 .vsa-item__trigger:hover {
   background-color:#e84e1b!important;
   color:white!important;
   margin-bottom: -1px;
+  min-height: 5rem;
 }
 
 .vsa-item--is-active .vsa-item__heading {
@@ -339,5 +343,6 @@
 .vsa-item__trigger__icon--is-default::before, .vsa-item__trigger__icon--is-default::after {
   background-color:#9c9b9b;
 }
+
 
 </style>
