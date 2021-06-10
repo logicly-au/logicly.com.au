@@ -8,26 +8,28 @@
       overlay
     />
 
-    <page-section altrow>
-      <h2 class="text-2xl font-semibold text-center text-logiclytextgrey">
-        Our diverse projects are from a range of sectors
-      </h2>
-    </page-section>
 
     <!-- {{ activeTab }} -->
     <page-section altrow>
+      <div class="pb-12">
+        <h2 class="text-2xl font-semibold text-center text-logiclytextgrey">
+          Our diverse projects are from a range of sectors
+        </h2>
+      </div>
       <div class="project-page">
-      <vue-tabs ref="tabs" @tab-change="setActiveTab" v-model="activeTab">
-        <v-tab v-for="category in categories" :id="category" :title="category" :key="category" class="flex">
-          <template #title>
-            <div>
-              <img :src="'projects_' + category + '.svg'" style="height:4rem" />
-            </div>
-            {{ category }}
-          </template>
-        </v-tab>
-      </vue-tabs>
-    </div>
+        <vue-tabs ref="tabs" @tab-change="setActiveTab" v-model="activeTab">
+          <v-tab v-for="category in categories" :id="category" :title="category" :key="category" class="flex">
+            <template #title>
+              <div>
+                <img :src="'projects_' + category + '.svg'" class="h-10" />
+              </div>
+              <div class="text-sm pt-2 text-logiclytextgrey">
+                {{ category }}
+              </div>
+            </template>
+          </v-tab>
+        </vue-tabs>
+      </div>
     </page-section>
 
     <page-section>
