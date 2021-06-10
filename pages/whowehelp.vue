@@ -46,29 +46,25 @@
           <!-- Here you can use v-for to loop through items  -->
           <vsa-item class="grid content-center">
             <vsa-heading>
-              <div class="grid grid-cols-5 md:grid-cols-11">
+              <div class="grid grid-cols-5 lg:grid-cols-11">
                 <div class="col-span-1"><img src="/researchers.svg" class="w-8 lg:w-10" /></div>
-                <div class="flex flex-col justify-center col-span-3 md:col-span-10 pl-4 sm:pl-8 lg:pl-12">
-                  <h2 class="text-left">Researchers</h2>
+                <div class="flex flex-col justify-center col-span-4 lg:col-span-10 pl-6 md:pl-8 lg:pl-12 lg:ml-2">
+                  <h2 class="font-semibold text-lg sm:text-xl text-left">Researchers</h2>
                 </div>
               </div>
             </vsa-heading>
             <vsa-content>
-              <div class="grid grid-cols-11">
-                <div class="col-span-9 col-start-2">
-                  <div class="grid grid-cols-11">
-                  <div class="col-span-9 col-start-2">
-                    <h3 class="font-bold">Our Senior Consultants have a long history of working with research, and we understand how to help researchers:</h3>
-                    <ul class="list-disc ml-4">
-                      <li>Implement ethical and robust data collections that keep the end user in mind</li>
-                      <li>Manage information challenges for research or evaluation projects</li>
-                      <li>Collect data from a variety of participants by building user-friendly data collection processes</li>
-                      <li>Support participants at every stage of the research by building in safety mechanisms</li>
-                      <li>Define data requirements and costs for research grant submissions</li>
-                      <li>Design and create information networks</li>
-                    </ul>
-                  </div>
-                  </div>
+              <div class="grid grid-cols-5 lg:grid-cols-11">
+                <div class="col-span-4 lg:col-span-10 col-start-2 lg:col-start-3 -ml-8 md:-ml-4 lg:-ml-0 xl:-ml-12 lg:pl-2">
+                  <h3 class="font-bold">Our Senior Consultants have a long history of working with research, and we understand how to help researchers:</h3>
+                  <ul class="list-disc ml-5 pb-4 lg:pb-8">
+                    <li>Implement ethical and robust data collections that keep the end user in mind</li>
+                    <li>Manage information challenges for research or evaluation projects</li>
+                    <li>Collect data from a variety of participants by building user-friendly data collection processes</li>
+                    <li>Support participants at every stage of the research by building in safety mechanisms</li>
+                    <li>Define data requirements and costs for research grant submissions</li>
+                    <li>Design and create information networks</li>
+                  </ul>
                 </div>
               </div>
             </vsa-content>
@@ -77,19 +73,19 @@
 
           <vsa-item class="grid content-center">
             <vsa-heading>
-              <div class="grid grid-cols-5 md:grid-cols-11">
-                <div class="col-span-1"><img src="/government.svg" class="w-12" /></div>
-                <div class="flex flex-col justify-center col-span-4 md:col-span-10 pl-4 sm:pl-5 md:pl-8 lg:pl-12">
-                  <h2 class="text-left">Government</h2>
+              <div class="grid grid-cols-5 lg:grid-cols-11">
+                <div class="col-span-1"><img src="/government.svg" class="lg:w-12" /></div>
+                <div class="flex flex-col justify-center col-span-4 lg:col-span-10 pl-6 md:pl-8 lg:pl-12">
+                  <h2 class="font-semibold text-lg sm:text-xl text-left">Government</h2>
                 </div>
               </div>
             </vsa-heading>
 
             <vsa-content>
-              <div class="grid grid-cols-11">
-                <div class="col-span-9 col-start-2">
-                  <h3 class="font-bold">Over 20 years we’ve partnered with our government clients to understand their stakeholders, help design empathic technical solutions and manage the implementation of complex projects. We will work with you to:</h3>
-                  <ul class="list-disc ml-4">
+              <div class="grid grid-cols-5 lg:grid-cols-11">
+                <div class="col-span-4 lg:col-span-10 col-start-2 lg:col-start-3 -ml-8 md:-ml-4 lg:-ml-0 xl:-ml-12 lg:pl-2">
+                  <h3 class="font-bold pb-1">Over 20 years we’ve partnered with our government clients to understand their stakeholders, help design empathic technical solutions and manage the implementation of complex projects. We will work with you to:</h3>
+                  <ul class="list-disc ml-5 pb-4 lg:pb-8">
                     <li>Co-design technical solutions that make adoption of the system as low friction as possible for clients and end users</li>
                     <li>Build user-friendly, intuitive and automated solutions that reduce the workload for government and public users</li>
                     <li>Meet timelines, privacy and security compliance obligations</li>
@@ -105,21 +101,21 @@
             </vsa-content>
           </vsa-item>
 
-          <vsa-item>
+          <vsa-item class="grid content-center">
             <vsa-heading>
-              <div class="grid grid-cols-5 md:grid-cols-11">
-                <div class="col-span-1"><img src="/health.svg" class="w-12" /></div>
-                <div class="flex flex-col justify-center col-span-3 md:col-span-10 pl-4 sm:pl-8 lg:pl-12">
-                  <h2 class="text-left">Health</h2>
+              <div class="grid grid-cols-5 lg:grid-cols-11">
+                <div class="col-span-1"><img src="/health.svg" class="w-10 lg:w-12" /></div>
+                <div class="flex flex-col justify-center col-span-4 lg:col-span-10 pl-4 sm:pl-5 md:pl-8 lg:pl-12">
+                  <h2 class="font-semibold text-lg sm:text-xl text-left">Health</h2>
                 </div>
               </div>
             </vsa-heading>
 
             <vsa-content>
-              <div class="grid grid-cols-11">
-                <div class="col-span-9 col-start-2">
-                  <h3 class="font-bold">Logicly understands the requirements of data management in health settings. Throughout our history we’ve worked with clients to:</h3>
-                  <ul class="list-disc ml-4">
+              <div class="grid grid-cols-5 lg:grid-cols-11">
+                <div class="col-span-4 lg:col-span-10 col-start-2 lg:col-start-3 -ml-8 md:-ml-4 lg:-ml-0 xl:-ml-12 lg:pl-2">
+                  <h3 class="font-bold pb-1">Logicly understands the requirements of data management in health settings. Throughout our history we’ve worked with clients to:</h3>
+                  <ul class="list-disc ml-5 pb-4 lg:pb-8">
                     <li>Design effective solutions using our understanding of mental health, human services and the health system</li>
                     <li>Use empathic design logic to cater for multiple stakeholders and end users (eg. 31 entities in the Primary Health Network)</li>
                     <li>Evaluate the effectiveness of a health service</li>
@@ -133,22 +129,22 @@
             </vsa-content>
           </vsa-item>
 
-          <vsa-item>
+          <vsa-item class="grid content-center">
             <vsa-heading>
-              <div class="grid grid-cols-5 md:grid-cols-11">
+              <div class="grid grid-cols-5 lg:grid-cols-11">
                 <div class="col-span-1">
-                  <img src="/education.svg" class="w-12" />
+                  <img src="/education.svg" class="w-10 lg:w-12" />
                 </div>
-                <div class="flex flex-col justify-center col-span-4 md:col-span-10 pl-4 sm:pl-5 md:pl-8 lg:pl-12">
-                  <h2 class="text-left">Education</h2>
+                <div class="flex flex-col justify-center col-span-4 lg:col-span-10 pl-4 sm:pl-5 md:pl-8 lg:pl-12">
+                  <h2 class="font-semibold text-lg sm:text-xl text-left">Education</h2>
                 </div>
               </div>
             </vsa-heading>
             <vsa-content>
-              <div class="grid grid-cols-11">
-                <div class="col-span-9 col-start-2">
-                  <h3 class="font-bold">With experience running multiple large census projects across schools and kindergartens to small, time-sensitive data collections regarding attendance and expenditure, Logicly has worked with the education sector to:</h3>
-                  <ul class="list-disc ml-4">
+              <div class="grid grid-cols-5 lg:grid-cols-11">
+                <div class="col-span-4 lg:col-span-10 col-start-2 lg:col-start-3 -ml-8 md:-ml-4 lg:-ml-0 xl:-ml-12 lg:pl-2">
+                  <h3 class="font-bold pb-1">With experience running multiple large census projects across schools and kindergartens to small, time-sensitive data collections regarding attendance and expenditure, Logicly has worked with the education sector to:</h3>
+                  <ul class="list-disc ml-5 pb-4 lg:pb-8">
                     <li>Build secure data collection tools to record enrolment data to assist with funding planning</li>
                     <li>Build simple, user-friendly digital applications to help capture complex information complex projects</li>
                     <li>Collect information to inform policy or meet key Department reporting requirements</li>
@@ -159,22 +155,22 @@
             </vsa-content>
           </vsa-item>
 
-          <vsa-item>
+          <vsa-item class="grid content-center">
             <vsa-heading>
-              <div class="grid grid-cols-5 md:grid-cols-11">
+              <div class="grid grid-cols-5 lg:grid-cols-11">
                 <div class="col-span-1">
-                  <img src="/non-government.svg" class="w-12" />
+                  <img src="/non-government.svg" class="w-10 lg:w-12" />
                 </div>
-                <div class="flex flex-col justify-center col-span-4 md:col-span-10 pl-4 sm:pl-5 md:pl-8 lg:pl-12">
-                  <h2 class="text-left">Non-government</h2>
+                <div class="flex flex-col justify-center col-span-4 lg:col-span-10 pl-4 sm:pl-5 md:pl-8 lg:pl-12">
+                  <h2 class="text-left text-lg sm:text-xl font-semibold -mr-10">Non-government</h2>
                 </div>
               </div>
             </vsa-heading>
             <vsa-content>
-              <div class="grid grid-cols-11">
-                <div class="col-span-9 col-start-2">
-                  <h3 class="font-bold">Logicly’s hands on approach means we can work with the subject matter experts to help them:</h3>
-                  <ul class="list-disc ml-4">
+              <div class="grid grid-cols-5 lg:grid-cols-11">
+                <div class="col-span-4 lg:col-span-10 col-start-2 lg:col-start-3 -ml-8 md:-ml-4 lg:-ml-0 xl:-ml-12 lg:pl-2">
+                  <h3 class="font-bold pb-1">Logicly’s hands on approach means we can work with the subject matter experts to help them:</h3>
+                  <ul class="list-disc ml-5 pb-4 lg:pb-8">
                     <li>Collate research information to guide pilot programs</li>
                     <li>Use sophisticated analysis to assess the design and implementation of pilot programs</li>
                     <li>Produce a quick way to have information available for analysis</li>
@@ -185,22 +181,22 @@
             </vsa-content>
           </vsa-item>
 
-          <vsa-item>
+          <vsa-item class="grid content-center">
             <vsa-heading>
-              <div class="grid grid-cols-5 md:grid-cols-11">
+              <div class="grid grid-cols-5 lg:grid-cols-11">
                 <div class="col-span-1">
-                  <img src="/corporate.svg" class="w-12" />
+                  <img src="/corporate.svg" class="w-10 lg:w-12" />
                 </div>
-                <div class="flex flex-col justify-center col-span-4 md:col-span-10 pl-4 sm:pl-5 md:pl-8 lg:pl-12">
-                  <h2 class="text-left">Corporate</h2>
+                <div class="flex flex-col justify-center col-span-4 lg:col-span-10 pl-4 sm:pl-5 md:pl-8 lg:pl-12">
+                  <h2 class="font-semibold text-lg sm:text-xl text-left">Corporate</h2>
                 </div>
               </div>
             </vsa-heading>
             <vsa-content>
-              <div class="grid grid-cols-11">
-                <div class="col-span-9 col-start-2">
-                  <h3 class="font-bold">Over the past 20 years we’ve worked with a number of corporate clients to:</h3>
-                  <ul class="list-disc ml-4">
+              <div class="grid grid-cols-5 lg:grid-cols-11">
+                <div class="col-span-4 lg:col-span-10 col-start-2 lg:col-start-3 -ml-8 md:-ml-4 lg:-ml-0 xl:-ml-12 lg:pl-2">
+                  <h3 class="font-bold pb-1">Over the past 20 years we’ve worked with a number of corporate clients to:</h3>
+                  <ul class="list-disc ml-5 pb-4 lg:pb-8">
                     <li>Develop a business case for senior decision makers</li>
                     <li>Co-design customised interactive dashboards or systems to make more informed decisions</li>
                     <li>Develop an easy way to manage employees, reviews, make comments and prioritise tasks</li>
@@ -313,7 +309,8 @@
 
 /* VSA-list Overrides */
 .vsa-item__trigger__icon--is-default {
-  width:48px!important;
+  width:40px!important;
+  transform: rotate(270deg);
 }
 
 .vsa-list {
