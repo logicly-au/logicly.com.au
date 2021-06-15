@@ -6,7 +6,9 @@
           <div class="grid grid-cols-12 col-span-10 col-start-2 gap-4 text-sm text-left py-16 lg:py-24 px-6 md:px-0 mobileres">
             <div class="col-span-12 lg:col-span-4 mb-6 lg:mb-0">
               <div class="mb-6 lg:mb-4">
-                <logo />
+                <NuxtLink to="/" class="self-start">
+                  <logo />
+                </NuxtLink>
               </div>
               <div>
                 <a href="tel:0061393409000" class="block">+61 3 9340 9000</a>
