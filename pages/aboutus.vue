@@ -47,21 +47,9 @@
 
 <script>
 
-import backgroundUrl from '~/assets/images/test.jpg'
-export default {
-  data() {
-    return { backgroundUrl }
-  }
-}
 
 </script>
 
 <style>
-
-  .logicly-footer {
-    --bg-opacity: 1;
-    background-color: #F6F5F1;
-    background-color: rgba(246, 245, 241, var(--bg-opacity));
-  }
 
 </style>
