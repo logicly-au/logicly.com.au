@@ -70,7 +70,7 @@ Logicly provides ongoing support to DoH and PHNs, offering:
     <li>a helpdesk to assist users and support training.</li>
   </ul>
 </div>
-  
+<br />
 Logicly is a longtime partner of the DoH, having worked with them on numerous projects for more than 15 years.
 
 
