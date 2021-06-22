@@ -29,18 +29,22 @@
         <div class="col-span-3 lg:col-span-1 grid lg:grid-rows-3">
           <div>
             <div class="w-20 md:w-20 lg:w-20 mx-auto">
-              <img src="~/assets/images/Call_us.svg"/>
+              <a href="tel:+61393409000">
+                <img src="~/assets/images/Call_us.svg"/>
+              </a>
             </div>
           </div>
           <div>
-            <p class="text-xl font-medium text-center text-logiclytextgrey mt-2">
-              Call us
-            </p>
+            <a href="tel:+61393409000">
+              <p class="text-xl font-medium text-center text-logiclytextgrey mt-2">
+                Call us
+              </p>
+            </a>
             <hr class="hidden lg:block w-full mx-auto border border-logiclyorange mt-4">
           </div>
           <div>
             <p class="text-center text-logiclytheme4 mt-2 lg:-mt-2">
-              <a href="tel:0061393409000">
+              <a href="tel:+61393409000">
                 +61 3 9340 9000
               </a>
             </p>
@@ -51,13 +55,17 @@
         <div class="col-span-3 lg:col-span-1 grid lg:grid-rows-3">
           <div>
             <div class="w-20 md:w-20 lg:w-20 mx-auto">
-              <img src="~/assets/images/Email_us.svg"/>
+              <a href="mailto:info@strategicdata.com.au">
+                <img src="~/assets/images/Email_us.svg"/>
+              </a>
             </div>
           </div>
           <div>
-            <p class="text-xl font-medium text-center text-logiclytextgrey mt-2">
-              Email us
-            </p>
+            <a href="mailto:info@strategicdata.com.au">
+              <p class="text-xl font-medium text-center text-logiclytextgrey mt-2">
+                Email us
+              </p>
+            </a>
             <hr class="hidden lg:block w-full mx-auto border border-logiclyorange mt-4">
           </div>
           <div>
