@@ -49,7 +49,7 @@
 
             <div class="col-span-12 grid grid-cols-12">
               <div class="col-span-12 lg:col-span-5 text-sm lg:mt-4">
-                <span class="pr-2">Logicly © 2020</span>
+                <span class="pr-2">Logicly © 2021</span>
                 <NuxtLink to="/privacy" exact>Privacy Policy</NuxtLink>
               </div>
               <div class="col-span-12 lg:col-span-6 lg:col-start-6 xl:col-span-5 xl:col-start-7 grid grid-cols-3 content-end hidden">
