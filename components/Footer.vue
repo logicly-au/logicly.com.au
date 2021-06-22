@@ -21,8 +21,8 @@
             <div class="grid grid-cols-3 col-span-12 lg:col-span-6 lg:col-start-6 xl:col-span-5 xl:col-start-7 text-sm">
               <div class="col-span-3 lg:col-span-1 mb-6 lg:mb-0">
                 <NuxtLink to="/" class="block" exact>Home</NuxtLink>
-                <NuxtLink to="/whatwedo" class="block" exact>Services</NuxtLink>
-                <a href="/whowehelp" class="block" exact>Solutions</a>
+                <a href="/whowehelp" class="block" exact>Who we help</a>
+                <NuxtLink to="/whatwedo" class="block" exact>What we do</NuxtLink>
                 <NuxtLink to="/howwework" class="block" exact>How we work</NuxtLink>
                 <NuxtLink to="/projects" class="block">Projects</NuxtLink>
                 <NuxtLink to="/insights" class="block" exact>Insights</NuxtLink>
