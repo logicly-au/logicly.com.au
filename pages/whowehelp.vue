@@ -329,9 +329,17 @@
 .vsa-item__trigger:hover {
   background-color:#e84e1b!important;
   color:white!important;
-  margin-bottom: -1px;
+  margin-bottom: 0px;
   min-height: 5rem;
 }
+
+.vsa-item__trigger:focus {
+  background-color:#e84e1b!important;
+  color:white!important;
+  margin-bottom: 0px;
+  min-height: 5rem;
+}
+
 
 .vsa-item--is-active .vsa-item__heading {
   border-bottom:none!important;
