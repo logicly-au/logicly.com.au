@@ -41,7 +41,7 @@
 
     <page-section>
       <div class="text-logiclytextgrey">
-        <h2 class="text-2xl font-semibold text-center mb-10 lg:mb-12 xl:mb-16">We work with clients across different industries to understand their internal and external stakeholders so that the systems we build really do meet their needs.</h2>
+        <h2 class="text-xl sm:text-2xl font-semibold text-center mb-10 lg:mb-12 xl:mb-16">We work with clients across different industries to understand their internal and external stakeholders so that the systems we build really do meet their needs.</h2>
         <vsa-list>
           <!-- Here you can use v-for to loop through items  -->
           <vsa-item class="grid content-center">
@@ -54,8 +54,8 @@
               </div>
             </vsa-heading>
             <vsa-content>
-              <div class="grid grid-cols-5 lg:grid-cols-11">
-                <div class="col-span-5 sm:col-span-4 lg:col-span-10 col-start-1 sm:col-start-2 lg:col-start-3 accordiontextpadding sm:-ml-8 md:-ml-4 lg:-ml-0 xl:-ml-12 pl-0 lg:pl-2 xl:pl-3">
+              <div class="grid grid-cols-11">
+                <div class="col-span-11 lg:col-span-10 col-start-1 lg:col-start-3 lg:-ml-4 xl:-ml-12 pl-0 lg:pl-2 xl:pl-3">
                   <h3 class="text-sm sm:text-base font-bold pb-1">Our Senior Consultants have a long history of working with research, and we understand how to help researchers:</h3>
                   <ul class="text-sm sm:text-base list-disc ml-5 pb-4 lg:pb-8">
                     <li>Implement ethical and robust data collections that keep the end user in mind</li>
@@ -82,8 +82,8 @@
             </vsa-heading>
 
             <vsa-content>
-              <div class="grid grid-cols-5 lg:grid-cols-11">
-                <div class="col-span-5 sm:col-span-4 lg:col-span-10 col-start-1 sm:col-start-2 lg:col-start-3 accordiontextpadding sm:-ml-8 md:-ml-4 lg:-ml-0 xl:-ml-12 pl-0 lg:pl-2 xl:pl-3">
+              <div class="grid grid-cols-11">
+                <div class="col-span-11 lg:col-span-10 col-start-1 lg:col-start-3 lg:-ml-4 xl:-ml-12 pl-0 lg:pl-2 xl:pl-3">
                   <h3 class="text-sm sm:text-base font-bold pb-1">Over 20 years we’ve partnered with our government clients to understand their stakeholders, help design empathic technical solutions and manage the implementation of complex projects. We will work with you to:</h3>
                   <ul class="text-sm sm:text-base list-disc ml-5 pb-4 lg:pb-8">
                     <li>Co-design technical solutions that make adoption of the system as low friction as possible for clients and end users</li>
@@ -112,8 +112,8 @@
             </vsa-heading>
 
             <vsa-content>
-              <div class="grid grid-cols-5 lg:grid-cols-11">
-                <div class="col-span-5 sm:col-span-4 lg:col-span-10 col-start-1 sm:col-start-2 lg:col-start-3 accordiontextpadding sm:-ml-8 md:-ml-4 lg:-ml-0 xl:-ml-12 pl-0 lg:pl-2 xl:pl-3">
+              <div class="grid grid-cols-11">
+                <div class="col-span-11 lg:col-span-10 col-start-1 lg:col-start-3 lg:-ml-4 xl:-ml-12 pl-0 lg:pl-2 xl:pl-3">
                   <h3 class="text-sm sm:text-base font-bold pb-1">Logicly understands the requirements of data management in health settings. Throughout our history we’ve worked with clients to:</h3>
                   <ul class="text-sm sm:text-base list-disc ml-5 pb-4 lg:pb-8">
                     <li>Design effective solutions using our understanding of mental health, human services and the health system</li>
@@ -141,8 +141,8 @@
               </div>
             </vsa-heading>
             <vsa-content>
-              <div class="grid grid-cols-5 lg:grid-cols-11">
-                <div class="col-span-5 sm:col-span-4 lg:col-span-10 col-start-1 sm:col-start-2 lg:col-start-3 accordiontextpadding sm:-ml-8 md:-ml-4 lg:-ml-0 xl:-ml-12 pl-0 lg:pl-2 xl:pl-3">
+              <div class="grid grid-cols-11">
+                <div class="col-span-11 lg:col-span-10 col-start-1 lg:col-start-3 lg:-ml-4 xl:-ml-12 pl-0 lg:pl-2 xl:pl-3">
                   <h3 class="text-sm sm:text-base font-bold pb-1">With experience running multiple large census projects across schools and kindergartens to small, time-sensitive data collections regarding attendance and expenditure, Logicly has worked with the education sector to:</h3>
                   <ul class="text-sm sm:text-base list-disc ml-5 pb-4 lg:pb-8">
                     <li>Build secure data collection tools to record enrolment data to assist with funding planning</li>
@@ -167,8 +167,8 @@
               </div>
             </vsa-heading>
             <vsa-content>
-              <div class="grid grid-cols-5 lg:grid-cols-11">
-                <div class="col-span-5 sm:col-span-4 lg:col-span-10 col-start-1 sm:col-start-2 lg:col-start-3 accordiontextpadding sm:-ml-8 md:-ml-4 lg:-ml-0 xl:-ml-12 pl-0 lg:pl-2 xl:pl-3">
+              <div class="grid grid-cols-11">
+                <div class="col-span-11 lg:col-span-10 col-start-1 lg:col-start-3 lg:-ml-4 xl:-ml-12 pl-0 lg:pl-2 xl:pl-3">
                   <h3 class="text-sm sm:text-base font-bold pb-1">Logicly’s hands on approach means we can work with the subject matter experts to help them:</h3>
                   <ul class="text-sm sm:text-base list-disc ml-5 pb-4 lg:pb-8">
                     <li>Collate research information to guide pilot programs</li>
@@ -193,8 +193,8 @@
               </div>
             </vsa-heading>
             <vsa-content>
-              <div class="grid grid-cols-5 lg:grid-cols-11">
-                <div class="col-span-5 sm:col-span-4 lg:col-span-10 col-start-1 sm:col-start-2 lg:col-start-3 accordiontextpadding sm:-ml-8 md:-ml-4 lg:-ml-0 xl:-ml-12 pl-0 lg:pl-2 xl:pl-3">
+              <div class="grid grid-cols-11">
+                <div class="col-span-11 lg:col-span-10 col-start-1 lg:col-start-3 lg:-ml-4 xl:-ml-12 pl-0 lg:pl-2 xl:pl-3">
                   <h3 class="text-sm sm:text-base font-bold pb-1">Over the past 20 years we’ve worked with a number of corporate clients to:</h3>
                   <ul class="text-sm sm:text-base list-disc ml-5 pb-4 lg:pb-8">
                     <li>Develop a business case for senior decision makers</li>
@@ -349,10 +349,6 @@
   background-color:#9c9b9b;
 }
 
-@media only screen and (max-width: 640px) {
-  .accordiontextpadding {
-    padding-left:3.6rem;
-  }
-}
+
 
 </style>
