@@ -349,6 +349,8 @@
   background-color:#9c9b9b;
 }
 
-
+.vsa-list {
+  --vsa-min-width: 280px;
+}
 
 </style>
