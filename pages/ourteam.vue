@@ -75,8 +75,7 @@
               Adam Clarke
             </h2>
             <h3 class="text-sm font-medium pb-4">
-              Director / Senior Consultant / CTO <br>
-              (B.A. (Hons))
+              Director / Senior Consultant / CTO
             </h3>
             <p class="pb-2 text-sm">
               Adam has worked in information technology, data management, and software delivery since 1991 while a Psychology student at Melbourne University. For 10 years prior to that it was his hobby. Adam has a diverse set of skills including research methods, programming, database design, internet technologies, and data analysis. He is a national leader in the design, implementation and support of IT systems for minimum data sets. Adam co-founded Logicly (then Strategic Data) in 1996 and is also our CTO and technical lead, managing all the work to keep systems relevant, running, and consistent with their security requirements.
@@ -96,8 +95,7 @@
               Andrew Gordon
             </h2>
             <h3 class="text-sm font-medium pb-4">
-              Business Development Manager <br>
-              B.A., Grad. Dip. App. Psych., M.Mgt. (Org. Sys.)
+              Director / Business Development Manager
             </h3>
             <p class="pb-2 text-sm">
               Prior to commencing at Logicly (then Strategic Data) Andrew worked as a psychologist and in management in vocational rehabilitation. His work at Logicly has covered project management, consulting and business management. As we have grown, his focus is now HR, compliance, finance and overseeing the administration and accounts team.
@@ -117,8 +115,7 @@
               Simon Palmer
             </h2>
             <h3 class="text-sm font-medium pb-4">
-              Director / Senior Consultant <br>
-              B.A. (Hons), B. Com., M.A. (App. Psy.)
+              Director / Senior Consultant
             </h3>
             <p class="pb-2 text-sm">
               Prior to co-founding Logicly (then Strategic Data), Simon's professional career shifted from social research and program evaluation to issues of computer-interface design, usability and information presentation. For 15 years he was a registered psychologist, bringing a counseling-influenced approach to the collection, management, analysis and presentation of data. Simon’s particular expertise is in identifying the information required to support an objective, and specifying technical infrastructure to enable the collection and application of relevant data.
@@ -138,8 +135,7 @@
               Michelle Nicholson
             </h2>
             <h3 class="text-sm font-medium pb-4">
-              Director / Manager, Business Operations <br>
-              (B.A. (Hons), Dip. (Proj Mgt), M. Ent.)
+              Director / Manager, Business Operations
             </h3>
             <p class="pb-2 text-sm">
               Michelle is the newest member of Logicly’s Board of Directors.
