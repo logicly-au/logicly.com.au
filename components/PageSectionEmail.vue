@@ -21,13 +21,13 @@
               <div class="col-span-6 lg:col-span-2 grid content-end mr-4 pb-6 lg:pb-0 lg:pl-6 mc-field-group">
                 <span class="self-end block">
                   <label class="hidden" for="mce-NAME">Name</label>
-                  <input type="text" value="" name="NAME" placeholder="Name" id="mce-NAME" class="block w-full placeholder-opacity-100 bg-transparent border-b placeholder-logiclytextgrey border-logiclyorange required" />
+                  <input type="text" value="" name="NAME" placeholder="Name" id="mce-NAME" class="block w-full placeholder-opacity-100 bg-transparent border-b border-logiclyorange required" />
                 </span>
               </div>
               <div class="col-span-6 lg:col-span-2 grid content-end mr-4 pb-8 lg:pb-0 mc-field-group">
                 <span class="self-end block">
                   <label class="hidden" for="mce-EMAIL">Email Address</label>
-                  <input type="email" placeholder="Email" value="" name="EMAIL" id="mce-EMAIL" class="block w-full placeholder-opacity-100 bg-transparent border-b placeholder-logiclytextgrey border-logiclyorange required email">
+                  <input type="email" placeholder="Email" value="" name="EMAIL" id="mce-EMAIL" class="block w-full placeholder-opacity-100 bg-transparent border-b border-logiclyorange required email">
                 </span>
               </div>
               <div class="self-end block clear">
@@ -72,5 +72,9 @@ export default {
     padding-left: 0.5rem;
     padding-right: 0.5rem;
   }
+}
+
+input::placeholder {
+  @apply text-logiclytextgrey;
 }
 </style>
