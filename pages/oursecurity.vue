@@ -61,7 +61,7 @@
             <div class="flex justify-center">
               <Button
                 buttontext="View Project"
-                buttonlink="/projects/?article=2&tab=1"
+                buttonlink="/projects/?article=3&tab=1"
               />
             </div>
           </div>
@@ -74,7 +74,7 @@
             <div class="flex justify-center">
               <Button
                 buttontext="View Project"
-                buttonlink="/projects/?article=0&tab=0"
+                buttonlink="/projects/?article=1&tab=0"
               />
             </div>
           </div>
@@ -87,7 +87,7 @@
             <div class="flex justify-center">
               <Button
                 buttontext="View Project"
-                buttonlink="/projects/?article=2&tab=5"
+                buttonlink="/projects/?article=0&tab=5"
               />
             </div>
           </div>
