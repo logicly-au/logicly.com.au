@@ -124,7 +124,7 @@ export default {
     async setActiveTab(newIndex) {
       this.activeTabIndex = newIndex;
       this.activeTab      = this.categories[this.activeTabIndex];
-      this.articles       = await this.$content('projects').where({ category: this.activeTab }).fetch();
+      this.articles       = await this.$content('projects').where({ category: this.activeTab }).sortBy('title', 'asc').fetch();
 
       this.$router.push({path: this.$route.path, query: { tab: newIndex, article: this.activeArticleIndex }});
     },
