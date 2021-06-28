@@ -66,7 +66,7 @@
                 <div class="col-span-1 ml-2 -mt-1 font-light text-2xl">
                   >
                 </div>
-                <div class="col-span-10 col-start-2 cursor-pointer">
+                <div class="col-span-10 col-start-2 cursor-pointer hover:underline">
                   <span class="font-semibold">{{ article.title }}</span></br>
                   <span class="font-light">{{ article.description }}</span>
                 </div>

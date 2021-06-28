@@ -64,7 +64,7 @@
                     <span class="font-light text-base lg:text-sm" v-html="`${article.description}`"></span>
                   </div>
                   <div>
-                    <span class="font-normal text-base lg:text-sm text-logiclytheme4">
+                    <span class="font-normal text-base lg:text-sm text-logiclytheme4 hover:underline">
                       <NuxtLink :to="`${article.link}`">Read more</NuxtLink>
                     </span>
                   </div>
@@ -139,7 +139,7 @@
                       <span class="font-light text-base lg:text-sm" v-html="`${article.description}`"></span>
                     </div>
                     <div>
-                      <span class="font-normal text-base lg:text-sm text-logiclytheme4">
+                      <span class="font-normal text-base lg:text-sm text-logiclytheme4 hover:underline">
                         <NuxtLink :to="`${article.link}`">Read more</NuxtLink>
                       </span>
                     </div>
