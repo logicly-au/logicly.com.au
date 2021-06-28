@@ -14,7 +14,7 @@ category: Digital transformation
 <div class="grid grid-cols-12">
 
 <div class="col-span-12 lg:col-span-3 blog-sidebar">
-<div class="blog-sidebar-author">
+<div class="blog-sidebar-author mt-2">
 
 #### Adam Clarke
 
@@ -49,7 +49,7 @@ Share
 </div>
 
 
-<div class="col-span-12 lg:col-span-9 lg:col-start-4 xl:col-span-8 xl:col-start-5 lg:pl-6 xl:pl-0 blog-text">
+<div class="col-span-12 lg:col-span-9 lg:col-start-4 lg:pl-6 blog-text">
 <div>
 
 # Digital transformation in the public sector is accelerating

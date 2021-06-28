@@ -85,7 +85,7 @@
             <div class="col-span-12 lg:col-span-3 text-logiclytextgrey">
               <h2 class="font-semibold pb-2">{{ article.category }}</h2>
             </div>
-            <div class="col-span-12 lg:col-span-9 lg:col-start-4 xl:col-span-8 xl:col-start-5 lg:pl-6 xl:pl-0 blogheading">
+            <div class="col-span-12 lg:col-span-9 lg:col-start-4 lg:pl-6 blogheading">
               <h1 class="text-xl font-semibold leading-tight text-logiclytheme4 pb-5">{{ article.title }}</h1>
               <span class="text-lg font-light text-logiclytextgrey" v-html="`${article.description}`"></span>
             </div>
@@ -101,7 +101,7 @@
       </div>
 
       <div class="grid grid-cols-12">
-        <div class="col-span-12 lg:col-span-9 lg:col-start-4 xl:col-span-8 xl:col-start-5 lg:pl-6 xl:pl-0 -mt-6 lg:mt-4 lg:mb-4 blog-text">
+        <div class="col-span-12 lg:col-span-9 lg:col-start-4 lg:pl-6 -mt-6 lg:mt-4 lg:mb-4 blog-text">
           <div v-for="article in articles" :class="{ 'articles-active': isActiveArticle(index) }">
             <div class="logiclysquare"> </div>
             <span class="font-semibold text-sm ml-2">{{ article.author }}</span>
@@ -113,13 +113,13 @@
 
       <!-- TODO: Make this section only show articles in the same category/topic -->
       <div class="border-t-2 border-logiclyorange mt-6 lg:mt-16">
-        <div class="grid grid-cols-3 mt-10 lg:mt-12">
-          <div class="col-span-3 lg:col-span-1">
+        <div class="grid grid-cols-12 mt-10 lg:mt-12">
+          <div class="col-span-12 lg:col-span-3">
             <p class="text-lg lg:text-base font-semibold text-logiclytextgrey pb-8 lg:pb-0">
               Related articles
             </p>
           </div>
-          <div class="col-span-3 lg:col-span-2 lg:col-start-2">
+          <div class="col-span-12 lg:col-span-9 lg:col-start-4 lg:pl-10">
             <ul>
               <div class="grid lg:grid-cols-2 grid-rows-auto gap-5">
                 <li @click="setActiveArticle(index)" v-for="(article, index) in articles" :class="{ 'articles-active': isActiveArticle(index) }">
