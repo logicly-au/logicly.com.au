@@ -49,7 +49,7 @@
                 <div class="col-span-1 ml-2 -mt-1 text-2xl">
                   >
                 </div>
-                <div class="col-span-11">
+                <div class="col-span-11 cursor-pointer">
                   <span class="font-semibold">{{ article.title }}</span></br>
                   <span class="font-light">{{ article.description }}</span>
                 </div>
@@ -66,7 +66,7 @@
                 <div class="col-span-1 ml-2 -mt-1 font-light text-2xl">
                   >
                 </div>
-                <div class="col-span-10 col-start-2">
+                <div class="col-span-10 col-start-2 cursor-pointer">
                   <span class="font-semibold">{{ article.title }}</span></br>
                   <span class="font-light">{{ article.description }}</span>
                 </div>
