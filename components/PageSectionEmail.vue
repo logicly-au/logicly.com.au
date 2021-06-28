@@ -31,7 +31,7 @@
                 </span>
               </div>
               <div class="self-end block clear">
-                <button class="block h-12 px-8 border-2 border-logiclyorange text-logiclytheme2">
+                <button class="block h-12 px-8 border-2 border-logiclyorange text-logiclytheme2 hover:border-logiclyhover hover:text-logiclyhover">
                   <input class="font-semibold" type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" style="background:none">
                 </button>
               </div>
