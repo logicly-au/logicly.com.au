@@ -150,7 +150,7 @@ Reading through some more of our past work might give you some ideas on how to t
 </div>
 
 <div class="grid content-center col-span-7 lg:col-span-4 lg:col-start-4 lg:px-2">
-<div class="font-semibold leading-snug lg:text-sm text-logiclytheme4 pt-2 lg:pt-0 pb-1">
+<div class="font-semibold leading-snug lg:text-sm  pt-2 lg:pt-0 pb-1">
   Secure data management for complex stakeholder environments
 </div>
 <div class="text-xs mr-0 sm:mr-16 lg:mr-0">
@@ -175,7 +175,7 @@ Reading through some more of our past work might give you some ideas on how to t
 </div>
 
 <div class="grid content-center col-span-7 lg:col-span-4 lg:col-start-4 lg:px-2">
-<div class="font-semibold leading-snug lg:text-sm text-logiclytheme4 pt-2 lg:pt-0 pb-1">
+<div class="font-semibold leading-snug lg:text-sm pt-2 lg:pt-0 pb-1">
   Sophisticated algorithms to protect vulnerable participants
 </div>
 <div class="text-xs mr-0 sm:mr-16 lg:mr-0">
@@ -200,7 +200,7 @@ Reading through some more of our past work might give you some ideas on how to t
 </div>
 
 <div class="grid content-center col-span-7 lg:col-span-4 lg:col-start-4 lg:px-2">
-<div class="font-semibold leading-snug lg:text-sm text-logiclytheme4 pt-2 lg:pt-0 pb-1">
+<div class="font-semibold leading-snug lg:text-sm pt-2 lg:pt-0 pb-1">
   Goodbye forms and spreadsheets, hello web platform
 </div>
 <div class="text-xs mr-0 sm:mr-16 lg:mr-0">

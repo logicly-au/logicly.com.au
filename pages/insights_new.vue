@@ -312,15 +312,13 @@ ul.nav.nav-tabs {
 
 .blog-text a {
   color:#E6332A!important;
+  font-weight: 400;
   text-decoration: none;
-  border-bottom: 1px solid #E6332A;
-  padding-bottom: 0.1rem;
 }
 
-.blog-text .insightstable a {
-  color:#3c3c3b!important;
-  text-decoration: none;
-  border-bottom: none;
+
+.blog-text a:hover {
+  text-decoration: underline;
 }
 
 .articles {
