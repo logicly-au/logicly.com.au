@@ -27,7 +27,7 @@
         </div>
 
         <div class="flex items-start col-span-6 border-t-4 md:col-span-2 md:col-start-1 border-logiclytheme1">
-          <span class="text-5xl font-thin text-logiclytheme1">1</span><span class="pt-5 pl-3 text-lg font-semibold">Research</span>
+          <span class="text-5xl font-thin text-logiclytheme1">1</span><span class="pt-5 pl-3 text-lg md:text-base lg:text-lg font-semibold">Research</span>
         </div>
 
         <div class="col-span-6 border-0 md:col-span-4 md:col-start-3 md:border-t-4 md:border-gray-400 md:pt-5 pb-5">
@@ -36,7 +36,7 @@
         </div>
 
         <div class="flex items-start col-span-6 border-t-4 md:col-span-2 md:col-start-1 border-logiclytheme2">
-          <span class="text-5xl font-thin text-logiclytheme2">2</span><span class="pt-5 pl-3 text-lg font-semibold">Design</span>
+          <span class="text-5xl font-thin text-logiclytheme2">2</span><span class="pt-5 pl-3 text-lg md:text-base lg:text-lg font-semibold">Design</span>
         </div>
 
         <div class="col-span-6 border-0 md:col-span-4 md:col-start-3 md:border-t-4 md:border-gray-400 md:pt-5 pb-5">
@@ -45,7 +45,7 @@
         </div>
 
         <div class="flex items-start col-span-6 border-t-4 md:col-span-2 md:col-start-1 border-logiclytheme4">
-          <span class="text-5xl font-thin text-logiclytheme4">3</span><span class="pt-5 pl-3 text-lg font-semibold">Build</span>
+          <span class="text-5xl font-thin text-logiclytheme4">3</span><span class="pt-5 pl-3 text-lg md:text-base lg:text-lg font-semibold">Build</span>
         </div>
 
         <div class="col-span-6 border-0 md:col-span-4 md:col-start-3 md:border-t-4 md:border-gray-400 md:pt-5 pb-5">
@@ -54,7 +54,7 @@
         </div>
 
         <div class="flex items-start col-span-6 border-t-4 md:col-span-2 md:col-start-1 border-logiclytheme3">
-          <span class="text-5xl font-thin text-logiclytheme3">4</span><span class="pt-5 pl-3 text-lg font-semibold leading-snug">Maintain and Improve</span>
+          <span class="text-5xl font-thin text-logiclytheme3">4</span><span class="pt-5 pl-3 text-lg md:text-base lg:text-lg font-semibold leading-snug">Maintain and Improve</span>
         </div>
 
         <div class="col-span-6 border-0 md:col-span-4 md:col-start-3 md:border-t-4 md:border-gray-400 md:pt-5 pb-5">
