@@ -304,23 +304,17 @@
     </page-section>
 
     <page-section>
-      <div class="grid items-center content-center justify-center h-64 grid-cols-1 text-logiclytextgrey">
-        <div class="col-span-1">
-          <div class="text-2xl font-medium text-center">
+      <div class="text-logiclytextgrey my-4">
+          <h1 class="text-2xl font-medium text-center">
             Do you have a project in mind or a complex information challenge? Call us on +61 3 9340 9000 or enquire below.
-          </div>
-        </div>
-        <!-- TODO Add link here -->
-        <div class="col-span-1 mt-4">
-          <div class="flex justify-center">
+          </h1>
+          <div class="flex justify-center mt-4">
             <Button
               buttontext="Enquire"
               buttonlink="/contactus"
             />
           </div>
-        </div>
       </div>
-      <!-- End Container -->
     </page-section>
 
 
