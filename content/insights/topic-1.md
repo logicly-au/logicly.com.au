@@ -139,17 +139,17 @@ Sometimes you’ll need to engage an expert to get a successful outcome. If any 
 Reading through some more of our past work might give you some ideas on how to tackle your own project. Here a few more examples of our work with corporate and government clients, and there’s plenty more on <NuxtLink to="/projects">our website</NuxtLink>.
 
 
-<div class="grid grid-cols-7 col-gap-4 text-logiclytextgrey insightstable mt-6">
+<div class="grid grid-cols-7 col-gap-4 text-logiclytextgrey bg-logiclylightgrey insightstable mt-6">
 <div class="grid col-span-7 grid-col-2 lg:col-span-3 lg:col-start-1">
 <div class="col-span-2 grid content-center">
 <overlay-image
   imageurl="/Department-of-health-increasing-the-spread-of-the-online-vlidator-process.jpg"
-  height="230px"
+  height="250px"
 />
 </div>
 </div>
 
-<div class="grid content-center col-span-7 lg:col-span-4 lg:col-start-4 lg:px-2">
+<div class="grid content-center col-span-7 lg:col-span-4 lg:col-start-4 lg:px-2 lg:py-4">
 <div class="font-semibold leading-snug lg:text-sm  pt-2 lg:pt-0 pb-1">
   Secure data management for complex stakeholder environments
 </div>
@@ -164,17 +164,17 @@ Reading through some more of our past work might give you some ideas on how to t
 </div>
 
 
-<div class="grid grid-cols-7 col-gap-4 text-logiclytextgrey insightstable mt-6">
+<div class="grid grid-cols-7 col-gap-4 text-logiclytextgrey bg-logiclylightgrey insightstable mt-6">
 <div class="grid col-span-7 grid-col-2 lg:col-span-3 lg:col-start-1">
 <div class="col-span-2 grid content-center">
 <overlay-image
   imageurl="/Mental-health-in-the-community-university-of-melbourne.jpg"
-  height="230px"
+  height="250px"
 />
 </div>
 </div>
 
-<div class="grid content-center col-span-7 lg:col-span-4 lg:col-start-4 lg:px-2">
+<div class="grid content-center col-span-7 lg:col-span-4 lg:col-start-4 lg:px-2 lg:py-2">
 <div class="font-semibold leading-snug lg:text-sm pt-2 lg:pt-0 pb-1">
   Sophisticated algorithms to protect vulnerable participants
 </div>
@@ -189,17 +189,17 @@ Reading through some more of our past work might give you some ideas on how to t
 </div>
 
 
-<div class="grid grid-cols-7 col-gap-4 text-logiclytextgrey insightstable mt-6 mb-6">
+<div class="grid grid-cols-7 col-gap-4 text-logiclytextgrey bg-logiclylightgrey insightstable mt-6 mb-6">
 <div class="grid col-span-7 grid-col-2 lg:col-span-3 lg:col-start-1">
 <div class="col-span-2 grid content-center">
 <overlay-image
   imageurl="/National-Australia-Bank-coworkers-meeting.jpg"
-  height="230px"
+  height="250px"
 />
 </div>
 </div>
 
-<div class="grid content-center col-span-7 lg:col-span-4 lg:col-start-4 lg:px-2">
+<div class="grid content-center col-span-7 lg:col-span-4 lg:col-start-4 lg:px-2 lg:py-4">
 <div class="font-semibold leading-snug lg:text-sm pt-2 lg:pt-0 pb-1">
   Goodbye forms and spreadsheets, hello web platform
 </div>
