@@ -321,6 +321,10 @@ ul.nav.nav-tabs {
   text-decoration: underline;
 }
 
+.blog-text a:visited {
+  color:#A83914!important;
+}
+
 .articles {
   padding-bottom: 3em;
 }
