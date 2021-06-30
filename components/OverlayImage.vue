@@ -1,18 +1,11 @@
 <template>
-<!--
-    <page-section :altrow="altrow">
-            <div class="col-span-11 row-span-3 mb-5"> -->
-                <div class="object-contain object-center w-full bg-cover" :style="{ backgroundImage: `url(${imageurl})`, height: height }" >
-                    <div class="relative grid-rows-4 test" style="height: 100%">
-                        <div style="height: 100%" class="relative z-10 grid font-bold text-center text-white">
-                        <div class="row-span-1 row-start-2 p-2 text-xl">{{ text }}</div>
-                        </div>
-                    </div>
-                </div>
-                <!--
-            </div>
-    </page-section>
--->
+  <div class="object-contain object-center w-full bg-cover" :style="{ backgroundImage: `url(${imageurl})`, height: height }" >
+    <div class="relative grid-rows-4 test" style="height: 100%">
+      <div style="height: 100%" class="relative z-10 grid font-bold text-center text-white">
+        <div class="row-span-1 row-start-2 p-2 text-xl">{{ text }}</div>
+      </div>
+    </div>
+  </div>
 </template>
 
 <script>
