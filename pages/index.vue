@@ -112,7 +112,7 @@
           <div class="col-span-1 col-start-1 pb-8 lg:pb-0">
             <Button
               buttontext="learn more"
-              buttonlink="/projects"
+              buttonlink="/whowehelp"
             />
           </div>
 
@@ -144,7 +144,7 @@
           <div class="col-span-1 col-start-1">
             <Button
               buttontext="learn more"
-              buttonlink="/projects"
+              buttonlink="/whatwedo"
             />
           </div>
         </div>
