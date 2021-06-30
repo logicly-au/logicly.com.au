@@ -27,6 +27,7 @@ module.exports = {
       logiclytheme3: '#AE1820',
       logiclytheme4: '#E6332A',
       logiclytextgrey: '#3c3c3b',
+      logiclyhover: '#CF4619',
       },
       gridTemplateColumns: {
         // Simple 15 column grid
@@ -37,7 +38,7 @@ module.exports = {
       },
       opacity: {
          '40': '0.4',
-        }
+       }
     }
   },
   variants: {},
