@@ -16,21 +16,24 @@
           Our diverse projects are from a range of sectors
         </h2>
       </div>
-      <div class="project-page">
+      <div class="project-page lg:-mx-4 xl:-mx-0">
         <vue-tabs ref="tabs" @tab-change="setActiveTab" v-model="activeTab">
           <v-tab v-for="category in categories" :id="category" :title="category" :key="category" class="flex">
             <template #title>
-              <div>
-                <img :src="'/projects_' + category + '.svg'" class="h-10" />
-              </div>
-              <div class="text-sm pt-2 text-logiclytextgrey">
-                {{ category }}
+              <div class="px-4 pt-10 projectsector">
+                <div class="flex justify-center">
+                  <img :src="'/projects_' + category + '.svg'" class="h-10" />
+                </div>
+                <div class="pt-2 text-xs font-medium text-center sm:text-sm text-logiclytextgrey">
+                  {{ category }}
+                </div>
               </div>
             </template>
           </v-tab>
         </vue-tabs>
       </div>
     </page-section>
+    
 
     <page-section>
       <div class="grid grid-cols-12 pt-6 -mb-16 border-t-2 border-b-2 border-logiclyorange text-logiclytextgrey project-page">
@@ -42,7 +45,7 @@
 
         <!-- TODO Add mobile version of project-list -->
         <!-- Project list mobile -->
-        <div class="col-span-12 block xl:hidden">
+        <div class="block col-span-12 xl:hidden">
           <ul class='articles'>
             <li @click="setActiveArticle(index)" v-for="(article, index) in articles" :class="{ 'articles-active': isActiveArticle(index) }">
               <div class="grid grid-cols-12 pb-2">
@@ -63,7 +66,7 @@
           <ul class='articles'>
             <li @click="setActiveArticle(index)" v-for="(article, index) in articles" :class="{ 'articles-active': isActiveArticle(index) }">
               <div class="grid grid-cols-12 pb-2">
-                <div class="col-span-1 ml-2 -mt-1 font-light text-2xl">
+                <div class="col-span-1 ml-2 -mt-1 text-2xl font-light">
                   >
                 </div>
                 <div class="col-span-10 col-start-2 cursor-pointer hover:underline">
@@ -286,8 +289,36 @@ export default {
 }
 
 @media only screen and (max-width: 1024px) {
-  .project-text-h4 {
-    margin-top:-1.25rem;
+  .project-page ul.nav.nav-tabs {
+    flex-wrap: wrap;
+  }
+
+.projectsector {
+  width:9.5rem;
+  }
+}
+
+@media only screen and (max-width: 597px) {
+.projectsector {
+  width:8rem;
+  }
+}
+
+@media only screen and (max-width: 509px) {
+.projectsector {
+  width:7rem;
+  }
+}
+
+@media only screen and (max-width: 477px) {
+.projectsector {
+  width:6.5rem;
+  }
+}
+
+@media only screen and (max-width: 390px) {
+.projectsector {
+  width:5.6rem;
   }
 }
 
