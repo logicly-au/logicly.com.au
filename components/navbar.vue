@@ -9,7 +9,7 @@
       <NuxtLink to="/" class="self-start"><logo /></NuxtLink>
       <nav id="menu">
         <li><NuxtLink to="/" v-on:click.native="close_all_menu()" class="hover:underline">home</NuxtLink></li>
-        <li class="drop"><a v-on:click="display_drop_menu()" class="cursor-pointer" :class="{ 'nuxt-link-active': aboutActive }">about <i class="icon-plus"></i></a>
+        <li class="drop"><a v-on:click="display_drop_menu()" class="cursor-pointer" :class="{ 'nuxt-link-exact-active': aboutActive }">about <i class="icon-plus"></i></a>
           <ul class="drop_menu">
             <NuxtLink to="/about/us" class="hover:underline">about us</NuxtLink>
             <NuxtLink to="/about/ourapproach" class="hover:underline">our approach</NuxtLink>
@@ -18,12 +18,12 @@
             <NuxtLink to="/about/ourculture" class="hover:underline">our culture</NuxtLink>
           </ul>
         </li>
-        <li><NuxtLink to="whowehelp" v-on:click.native="close_all_menu()" class="hover:underline">who we help</NuxtLink></li>
-        <li><NuxtLink to="whatwedo" v-on:click.native="close_all_menu()" class="hover:underline">what we do</NuxtLink></li>
-        <li><NuxtLink to="howwework" v-on:click.native="close_all_menu()" class="hover:underline">how we work</NuxtLink></li>
-        <li><NuxtLink to="projects" v-on:click.native="close_all_menu()" class="hover:underline">projects</NuxtLink></li>
-        <li><NuxtLink to="insights" v-on:click.native="close_all_menu()" class="hover:underline">insights</NuxtLink></li>
-        <li><NuxtLink to="contactus" v-on:click.native="close_all_menu()" class="hover:underline">contact us</NuxtLink></li>
+        <li><NuxtLink to="/whowehelp" v-on:click.native="close_all_menu()" class="hover:underline">who we help</NuxtLink></li>
+        <li><NuxtLink to="/whatwedo" v-on:click.native="close_all_menu()" class="hover:underline">what we do</NuxtLink></li>
+        <li><NuxtLink to="/howwework" v-on:click.native="close_all_menu()" class="hover:underline">how we work</NuxtLink></li>
+        <li><NuxtLink to="/projects" exact-path v-on:click.native="close_all_menu()" class="hover:underline">projects</NuxtLink></li>
+        <li><NuxtLink to="/insights" v-on:click.native="close_all_menu()" class="hover:underline">insights</NuxtLink></li>
+        <li><NuxtLink to="/contactus" v-on:click.native="close_all_menu()" class="hover:underline">contact us</NuxtLink></li>
       </nav>
     </div>
   </header>
@@ -41,7 +41,7 @@ export default {
   },
   computed: {
     aboutActive() {
-      return this.$route.path.startsWith('/about');
+      return this.$route.path.startsWith('/about/');
     },
   },
   created() {
@@ -558,6 +558,7 @@ i {
 
 .nuxt-link-exact-active {
   font-weight: 600;
+  color:#E94E1B;
 }
 
 
