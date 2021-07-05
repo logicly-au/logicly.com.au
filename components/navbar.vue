@@ -9,7 +9,11 @@
       <NuxtLink to="/" class="self-start"><logo /></NuxtLink>
       <nav id="menu">
         <li><NuxtLink to="/" v-on:click.native="close_all_menu()" class="hover:underline">home</NuxtLink></li>
+<<<<<<< HEAD
         <li class="drop"><a v-on:click="display_drop_menu()" class="cursor-pointer" :class="{ 'nuxt-link-exact-active': aboutActive }">about <i class="icon-plus"></i></a>
+=======
+        <li class="drop"><a v-on:click="display_drop_menu()" class="cursor-pointer">about <i class="chevron-down"></i></a>
+>>>>>>> 4000760 (Adding caret to 'About' dropdown menu in header)
           <ul class="drop_menu">
             <NuxtLink to="/about/us" class="hover:underline" v-on:click.native="close_all_menu()">about us</NuxtLink>
             <NuxtLink to="/about/ourapproach" class="hover:underline" v-on:click.native="close_all_menu()">our approach</NuxtLink>
@@ -119,9 +123,15 @@ header {
   z-index: 1000!important;
 }
 
+/* Previosly used for mobile dropdown but exchangedfor chevron-down*/
 .icon-plus {
   mask: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' stroke='currentColor'><path stroke-linecap='round' stroke-linejoin='round' stroke-width='1' d='M12 6v6m0 0v6m0-6h6m-6 0H6' /></svg>");
 }
+
+.chevron-down {
+  mask: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' stroke='currentColor'><path stroke-linecap='round' stroke-linejoin='round' stroke-width='0' d='M19 9l-7 7-7-7' /></svg>");
+}
+
 
 i {
   vertical-align: middle;
@@ -537,11 +547,18 @@ i {
 
 @media screen and (min-width: 1024px) {
   header #menu li i {
-    display: none;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
   }
   header {
     padding-top: 30px;
   }
+
+  i {
+    vertical-align: top;
+  }
+
 
   header .drop_menu {
     margin-top: 23px;
