@@ -9,7 +9,7 @@
       <NuxtLink to="/" class="self-start"><logo /></NuxtLink>
       <nav id="menu">
         <li><NuxtLink to="/" v-on:click.native="close_all_menu()" class="hover:underline">home</NuxtLink></li>
-        <li class="drop"><a v-on:click="display_drop_menu()" class="cursor-pointer">about <i class="icon-plus"></i></a>
+        <li class="drop"><a v-on:click="display_drop_menu()" class="cursor-pointer" :class="{ 'nuxt-link-active': aboutActive }">about <i class="icon-plus"></i></a>
           <ul class="drop_menu">
             <NuxtLink to="/about/us" class="hover:underline">about us</NuxtLink>
             <NuxtLink to="/about/ourapproach" class="hover:underline">our approach</NuxtLink>
@@ -38,6 +38,11 @@ export default {
       load: false,
       last_scroll: 0,
     };
+  },
+  computed: {
+    aboutActive() {
+      return this.$route.path.startsWith('/about');
+    },
   },
   created() {
     let vm = this;
