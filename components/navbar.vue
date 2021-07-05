@@ -18,12 +18,12 @@
             <NuxtLink to="/about/ourculture" class="hover:underline">our culture</NuxtLink>
           </ul>
         </li>
-        <li><NuxtLink to="/whowehelp" v-on:click.native="close_all_menu()" class="hover:underline">who we help</NuxtLink></li>
-        <li><NuxtLink to="/whatwedo" v-on:click.native="close_all_menu()" class="hover:underline">what we do</NuxtLink></li>
-        <li><NuxtLink to="/howwework" v-on:click.native="close_all_menu()" class="hover:underline">how we work</NuxtLink></li>
-        <li><NuxtLink to="/projects" exact-path v-on:click.native="close_all_menu()" class="hover:underline">projects</NuxtLink></li>
-        <li><NuxtLink to="/insights" v-on:click.native="close_all_menu()" class="hover:underline">insights</NuxtLink></li>
-        <li><NuxtLink to="/contactus" v-on:click.native="close_all_menu()" class="hover:underline">contact us</NuxtLink></li>
+        <li><NuxtLink to="/whowehelp" v-on:click.native="display_menu(true)" class="hover:underline">who we help</NuxtLink></li>
+        <li><NuxtLink to="/whatwedo" v-on:click.native="display_menu(true)" class="hover:underline">what we do</NuxtLink></li>
+        <li><NuxtLink to="/howwework" v-on:click.native="display_menu(true)" class="hover:underline">how we work</NuxtLink></li>
+        <li><NuxtLink to="/projects" exact-path v-on:click.native="display_menu(true)" class="hover:underline">projects</NuxtLink></li>
+        <li><NuxtLink to="/insights" v-on:click.native="display_menu(true)" class="hover:underline">insights</NuxtLink></li>
+        <li><NuxtLink to="/contactus" v-on:click.native="display_menu(true)" class="hover:underline">contact us</NuxtLink></li>
       </nav>
     </div>
   </header>
@@ -73,9 +73,15 @@ export default {
         e.classList.remove("display");
       });
     },
-    display_menu(){
+    display_menu(delay) {
       var body = document.getElementsByTagName("body")[0];
-      (!body.classList.contains("display_menu")) ? body.classList.add("display_menu") : body.classList.remove("display_menu");
+      const fn = () => (!body.classList.contains("display_menu")) ? body.classList.add("display_menu") : body.classList.remove("display_menu");
+
+      /*
+        This just adds a slight delay, so your selection can be seen before the menu closes.
+        If no args are passed to this function, happens instantly instead.
+      */
+      delay == true ? setTimeout(fn, 200) : fn();
     },
     display_drop_menu() {
       var drop_menu = event.target.parentElement.getElementsByClassName("drop_menu")[0];
@@ -560,6 +566,4 @@ i {
   font-weight: 600;
   color:#E94E1B;
 }
-
-
 </style>
