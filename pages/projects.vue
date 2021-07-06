@@ -33,19 +33,23 @@
         </vue-tabs>
       </div>
     </page-section>
-    
+
 
     <page-section>
       <div class="grid grid-cols-12 pt-6 -mb-16 border-t-2 border-b-2 border-logiclyorange text-logiclytextgrey project-page">
 
-        <div class="hidden col-span-4 text-xl font-semibold xl:block">
+        <div class="hidden col-span-4 text-xl font-semibold lg:block">
           {{ activeTab }}
           projects
         </div>
 
         <!-- TODO Add mobile version of project-list -->
         <!-- Project list mobile -->
+<<<<<<< HEAD
         <div class="block col-span-12 xl:hidden">
+=======
+        <div class="col-span-12 block lg:hidden">
+>>>>>>> 5107792 (Small fixes 'Project' page for large screens)
           <ul class='articles'>
             <li @click="setActiveArticle(index)" v-for="(article, index) in articles" :class="{ 'articles-active': isActiveArticle(index) }">
               <div class="grid grid-cols-12 pb-2">
@@ -62,16 +66,16 @@
         </div>
 
         <!-- Project list desktop -->
-        <div class="hidden col-span-8 xl:block projects-list">
+        <div class="hidden col-span-8 lg:block projects-list">
           <ul class='articles'>
             <li @click="setActiveArticle(index)" v-for="(article, index) in articles" :class="{ 'articles-active': isActiveArticle(index) }">
               <div class="grid grid-cols-12 pb-2">
                 <div class="col-span-1 ml-2 -mt-1 text-2xl font-light">
                   >
                 </div>
-                <div class="col-span-10 col-start-2 cursor-pointer hover:underline">
+                <div class="col-span-11 xl:col-span-10 col-start-2 cursor-pointer hover:underline">
                   <span class="font-semibold">{{ article.title }}</span></br>
-                  <span class="font-light">{{ article.description }}</span>
+                  <span class="text-sm xl:text-base font-light">{{ article.description }}</span>
                 </div>
               </div>
             </li>
