@@ -68,13 +68,12 @@
                 </div>
               </div>
             </vsa-content>
-
           </vsa-item>
 
           <vsa-item class="grid content-center">
             <vsa-heading>
               <div class="grid grid-cols-5 lg:grid-cols-11">
-                <div class="col-span-1"><img src="/government.svg" class="lg:w-12" /></div>
+                <div class="col-span-1 accordion-img"><img src="/government.svg" class="lg:w-12" /></div>
                 <div class="flex flex-col justify-center col-span-4 lg:col-span-10 pl-6 md:pl-8 lg:pl-12">
                   <h2 class="font-semibold text-lg sm:text-xl text-left">Government</h2>
                 </div>
@@ -307,6 +306,7 @@
   }
 }
 
+
 /* VSA-list Overrides */
 .vsa-item__trigger__icon--is-default {
   width:40px!important;
@@ -351,6 +351,15 @@
 
 .vsa-list {
   --vsa-min-width: 280px;
+}
+
+
+.vsa-item__trigger:hover img {
+  filter: brightness(0) saturate(100%) invert(100%);
+}
+
+.vsa-item__trigger:focus img {
+  filter: brightness(0) saturate(100%) invert(100%);
 }
 
 </style>
