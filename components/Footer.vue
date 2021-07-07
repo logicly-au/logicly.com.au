@@ -20,17 +20,17 @@
             </div>
             <div class="grid grid-cols-3 col-span-12 lg:col-span-6 lg:col-start-6 xl:col-span-5 xl:col-start-7 text-sm">
               <div class="col-span-3 lg:col-span-1 mb-6 lg:mb-0">
-                <NuxtLink to="/" class="block hover:underline" exact>Home</NuxtLink>
-                <a href="/whowehelp" class="block hover:underline" exact>Who we help</a>
-                <NuxtLink to="/whatwedo" class="block hover:underline" exact>What we do</NuxtLink>
-                <NuxtLink to="/howwework" class="block hover:underline" exact>How we work</NuxtLink>
-                <NuxtLink to="/projects" class="block hover:underline">Projects</NuxtLink>
-                <NuxtLink to="/insights" class="block hover:underline" exact>Insights</NuxtLink>
-                <NuxtLink to="/contactus" class="block hover:underline" exact>Contact us</NuxtLink>
+                <NuxtLink to="/" class="block hover:underline" exact>home</NuxtLink>
+                <a href="/whowehelp" class="block hover:underline" exact>who we help</a>
+                <NuxtLink to="/whatwedo" class="block hover:underline" exact>what we do</NuxtLink>
+                <NuxtLink to="/howwework" class="block hover:underline" exact>how we work</NuxtLink>
+                <NuxtLink to="/projects" class="block hover:underline">projects</NuxtLink>
+                <NuxtLink to="/insights" class="block hover:underline" exact>insights</NuxtLink>
+                <NuxtLink to="/contactus" class="block hover:underline" exact>contact us</NuxtLink>
               </div>
               <!-- TODO Add links for 'Who we help' page sections -->
               <div class="col-span-3 lg:col-span-1 mb-6 lg:mb-0">
-                <NuxtLink to="/whowehelp" class="block font-bold hover:underline" exact>Who we help</NuxtLink>
+                <NuxtLink to="/whowehelp" class="block font-bold hover:underline" exact>who we help</NuxtLink>
                 <a href="/whowehelp" class="block hover:underline" exact>Researchers</a>
                 <a href="/whowehelp" class="block hover:underline" exact>Government</a>
                 <a href="/whowehelp" class="block hover:underline" exact>Non-government</a>
@@ -39,18 +39,18 @@
                 <a href="/whowehelp" class="block hover:underline" exact>Educational</a>
               </div>
               <div class="col-span-3 lg:col-span-1 mb-6 lg:mb-0">
-                <NuxtLink to="/aboutus" class="block font-bold hover:underline" exact>About</NuxtLink>
-                <NuxtLink to="/ourapproach" class="block hover:underline" exact>Our approach</NuxtLink>
-                <NuxtLink to="/ourteam" class="block hover:underline" exact>Our team</NuxtLink>
-                <NuxtLink to="/oursecurity" class="block hover:underline" exact>Our security</NuxtLink>
-                <NuxtLink to="/ourculture" class="block hover:underline" exact>Our culture</NuxtLink>
+                <NuxtLink to="/aboutus" class="block font-bold hover:underline" exact>about</NuxtLink>
+                <NuxtLink to="/ourapproach" class="block hover:underline" exact>our approach</NuxtLink>
+                <NuxtLink to="/ourteam" class="block hover:underline" exact>our team</NuxtLink>
+                <NuxtLink to="/oursecurity" class="block hover:underline" exact>our security</NuxtLink>
+                <NuxtLink to="/ourculture" class="block hover:underline" exact>our culture</NuxtLink>
               </div>
             </div>
 
             <div class="col-span-12 grid grid-cols-12">
               <div class="col-span-12 lg:col-span-5 text-sm lg:mt-4">
                 <span class="pr-2">Logicly © 2021</span>
-                <NuxtLink to="/privacy" class="hover:underline" exact>Privacy Policy</NuxtLink>
+                <NuxtLink to="/privacy" class="hover:underline" exact>Privacy policy</NuxtLink>
               </div>
               <div class="col-span-12 lg:col-span-6 lg:col-start-6 xl:col-span-5 xl:col-start-7 grid grid-cols-3 content-end hidden">
                 <div class="col-span-1 lg:col-start-3 grid grid-cols-3 mt-6 lg:mt-0">
