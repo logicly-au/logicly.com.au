@@ -81,8 +81,8 @@
 
     <page-section altrow>
       <!-- Header -->
-      <div class="mb-8 text-center text-logiclytextgrey">
-        <span class="text-xl font-semibold">Making complex information secure & accessible for private & public use</span>
+      <div class="mb-8 text-center leading-snug text-logiclytextgrey">
+        <span class="text-2xl font-semibold">Making complex information secure & accessible for private & public use</span>
       </div>
 
       <!-- Sub grid 1 -->
@@ -97,7 +97,7 @@
             />
           </div>
 
-          <div class="col-span-2 pt-8 pb-2 font-bold lg:text-lg">
+          <div class="text-xl lg:text-base col-span-2 pt-8 pb-2 font-semibold lg:text-lg">
             What information challenges do you have?
           </div>
 
@@ -129,7 +129,7 @@
             />
           </div>
 
-          <div class="col-span-2 pt-8 pb-2 font-bold lg:text-lg">
+          <div class="text-xl lg:text-base col-span-2 pt-8 pb-2 font-semibold lg:text-lg">
             What type of digital system do you require?
           </div>
 
