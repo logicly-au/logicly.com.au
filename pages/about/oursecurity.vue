@@ -23,7 +23,7 @@
           <h1 class="text-xl font-semibold mb-6">Security measures we build into our projects include:</h1>
         </div>
         <div class="col-span-8 lg:col-span-4 col-start-1">
-          <ul class="text-base lg:text-base font-light list-disc pr-8">
+          <ul class="text-base lg:text-base font-light list-disc pl-6 lg:pl-0 pr-8">
             <li>24/7 security monitoring</li>
             <li>Vulnerability scanning and penetration testing</li>
             <li>OWASP Top 10 compliancy testing</li>
@@ -32,7 +32,7 @@
           </ul>
         </div>
         <div class="col-span-8 lg:col-span-4 lg:col-start-5">
-          <ul class="text-base lg:text-base font-light list-disc">
+          <ul class="text-base lg:text-base font-light list-disc pl-6 lg:pl-0">
             <li>Development of project-specific security documentation such as: Security Risk Management Plans, Incident Response Plans, Statements of Applicability, and Compliance Audits</li>
             <li>Consultation with external subject-matter	specialists as needed</li>
           </ul>
@@ -50,7 +50,7 @@
     <page-section>
       <div class="grid grid-cols-3 gap-x-2 text-logiclytextgrey px-0 xl:px-10">
         <div class="col-span-3 pb-6 lg:pb-4">
-          <h1 class="text-2xl font-semibold text-center pb-4 lg:pb-8">Protecting critical information for established organisations</h1>
+          <h1 class="text-2xl font-semibold text-center pb-4 lg:pb-8 -mx-4 sm:-mx-0">Protecting critical information for established organisations</h1>
           <p class="text-lg text-center font-light pb-2">Our comprehensive approach to security has enabled us to foster successful, long-term partnerships with leading organisations such as the Department of Health, National Australia Bank and the University of Melbourne over the course of many years, and many projects. </p>
         </div>
         <div class="col-span-3 lg:col-span-1 text-center flex pb-6 lg:pb-0">
