@@ -11,11 +11,11 @@
         <li><NuxtLink to="/" v-on:click.native="close_all_menu()" class="hover:underline">home</NuxtLink></li>
         <li class="drop"><a v-on:click="display_drop_menu()" class="cursor-pointer" :class="{ 'nuxt-link-exact-active': aboutActive }">about <i class="icon-plus"></i></a>
           <ul class="drop_menu">
-            <NuxtLink to="/about/us" class="hover:underline">about us</NuxtLink>
-            <NuxtLink to="/about/ourapproach" class="hover:underline">our approach</NuxtLink>
-            <NuxtLink to="/about/ourteam" class="hover:underline">our team</NuxtLink>
-            <NuxtLink to="/about/oursecurity" class="hover:underline">our security</NuxtLink>
-            <NuxtLink to="/about/ourculture" class="hover:underline">our culture</NuxtLink>
+            <NuxtLink to="/about/us" class="hover:underline" v-on:click.native="close_all_menu()">about us</NuxtLink>
+            <NuxtLink to="/about/ourapproach" class="hover:underline" v-on:click.native="close_all_menu()">our approach</NuxtLink>
+            <NuxtLink to="/about/ourteam" class="hover:underline" v-on:click.native="close_all_menu()">our team</NuxtLink>
+            <NuxtLink to="/about/oursecurity" class="hover:underline" v-on:click.native="close_all_menu()">our security</NuxtLink>
+            <NuxtLink to="/about/ourculture" class="hover:underline" v-on:click.native="close_all_menu()">our culture</NuxtLink>
           </ul>
         </li>
         <li><NuxtLink to="/whowehelp" v-on:click.native="display_menu(true)" class="hover:underline">who we help</NuxtLink></li>
