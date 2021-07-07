@@ -25,7 +25,7 @@
     </page-section>
 
 
-    <!-- {{ activeTab }} -->
+    <!-- TODO This is where the different catgories are shown, needs to be moved to dropdown above -->
     <page-section altrow>
       <vue-tabs ref="tabs" @tab-change="setActiveTab" v-model="activeTab">
         <v-tab v-for="category in categories" :id="category" :title="category" :key="category" class="flex">
@@ -95,6 +95,7 @@
     </page-section>
 
 
+    <!-- TODO Move this to a separate page -->
     <page-section>
       <div class="text-logiclytextgrey insights-page">
         <nuxt-content :document="activeArticle" />

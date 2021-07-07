@@ -21,6 +21,7 @@ category: Digital transformation
 ##### 10 March 2021
 </div>
 <div class="grid grid-cols-4">
+<!---Remove 'hidden' from div below to show social media icons--->
 <div class="col-span-3 lg:col-span-4 blog-social-media grid grid-cols-5 justify-items-start lg:justify-items-center hidden">
 <div class="col-span-1">
 Share
