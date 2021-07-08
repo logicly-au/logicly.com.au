@@ -1,5 +1,6 @@
 <template>
   <div>
+    <RebrandNotification />
     <navbar />
     <Nuxt />
     <Footer />
