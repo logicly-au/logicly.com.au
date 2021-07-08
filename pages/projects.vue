@@ -21,7 +21,7 @@
           <v-tab v-for="category in categories" :id="category" :title="category" :key="category" class="flex">
             <template #title>
               <div>
-                <img :src="'projects_' + category + '.svg'" class="h-10" />
+                <img :src="'/projects_' + category + '.svg'" class="h-10" />
               </div>
               <div class="text-sm pt-2 text-logiclytextgrey">
                 {{ category }}
