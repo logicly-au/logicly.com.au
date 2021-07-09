@@ -1,4 +1,3 @@
-
 <template>
   <div>
     <Hero
@@ -91,6 +90,9 @@
 </template>
 
 <script>
+import Hashids from 'hashids';
+const hashids = new Hashids('ebe13a42d6504aefb7568f5904488f93');
+
 export default {
   data() {
     return {
@@ -109,6 +111,9 @@ export default {
     };
   },
   computed: {
+    hashid() {
+      return hashids.encode([ this.activeTabIndex, this.activeArticleIndex ]);
+    },
     activeArticle() {
       return this.articles[this.activeArticleIndex];
     },
@@ -116,7 +121,7 @@ export default {
   methods: {
     setActiveArticle(index) {
       this.activeArticleIndex = index;
-      this.$router.push({path: this.$route.path, query: { article: index, tab: this.activeTabIndex }});
+      this.$router.replace({name: this.$route.name, query: { i: this.hashid }}).catch(() => {});
     },
     isActiveArticle(index) {
       return (this.activeArticleIndex == index);
@@ -126,12 +131,15 @@ export default {
       this.activeTab      = this.categories[this.activeTabIndex];
       this.articles       = await this.$content('projects').where({ category: this.activeTab }).sortBy('title', 'asc').fetch();
 
-      this.$router.push({path: this.$route.path, query: { tab: newIndex, article: this.activeArticleIndex }});
+      this.$router.replace({path: this.$route.path, query: { i: this.hashid }}).catch(() => {});
     },
   },
    created() {
-     this.setActiveTab(this.$route.query.tab || 0);
-     this.setActiveArticle(this.$route.query.article || 0);
+     if (this.$route.query.i) {
+      let [ activeTab, activeArticle ] = hashids.decode(this.$route.query.i);
+      this.setActiveTab(activeTab);
+      this.setActiveArticle(activeArticle);
+     }
   },
 }
 </script>
