@@ -45,11 +45,7 @@
 
         <!-- TODO Add mobile version of project-list -->
         <!-- Project list mobile -->
-<<<<<<< HEAD
-        <div class="block col-span-12 xl:hidden">
-=======
-        <div class="col-span-12 block lg:hidden">
->>>>>>> 5107792 (Small fixes 'Project' page for large screens)
+        <div class="block col-span-12 lg:hidden">
           <ul class='articles'>
             <li @click="setActiveArticle(index)" v-for="(article, index) in articles" :class="{ 'articles-active': isActiveArticle(index) }">
               <div class="grid grid-cols-12 pb-2">
@@ -73,9 +69,9 @@
                 <div class="col-span-1 ml-2 -mt-1 text-2xl font-light">
                   >
                 </div>
-                <div class="col-span-11 xl:col-span-10 col-start-2 cursor-pointer hover:underline">
+                <div class="col-span-11 col-start-2 cursor-pointer xl:col-span-10 hover:underline">
                   <span class="font-semibold">{{ article.title }}</span></br>
-                  <span class="text-sm xl:text-base font-light">{{ article.description }}</span>
+                  <span class="text-sm font-light xl:text-base">{{ article.description }}</span>
                 </div>
               </div>
             </li>
