@@ -9,11 +9,7 @@
       <NuxtLink to="/" class="self-start"><logo /></NuxtLink>
       <nav id="menu">
         <li><NuxtLink to="/" v-on:click.native="close_all_menu()" class="hover:underline">home</NuxtLink></li>
-<<<<<<< HEAD
         <li class="drop"><a v-on:click="display_drop_menu()" class="cursor-pointer" :class="{ 'nuxt-link-exact-active': aboutActive }">about <i class="icon-plus"></i></a>
-=======
-        <li class="drop"><a v-on:click="display_drop_menu()" class="cursor-pointer">about <i class="chevron-down"></i></a>
->>>>>>> 4000760 (Adding caret to 'About' dropdown menu in header)
           <ul class="drop_menu">
             <NuxtLink to="/about/us" class="hover:underline" v-on:click.native="close_all_menu()">about us</NuxtLink>
             <NuxtLink to="/about/ourapproach" class="hover:underline" v-on:click.native="close_all_menu()">our approach</NuxtLink>
