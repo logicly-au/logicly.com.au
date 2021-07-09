@@ -14,6 +14,7 @@
     "@nuxtjs/pwa": "^3.0.0-beta.20",
     "babel-helper-vue-jsx-merge-props": "^2.0.3",
     "bp-vuejs-dropdown": "^2.1.1",
+    "hashids": "^2.2.8",
     "nuxt": "^2.15.0",
     "vue-dropdowns": "^1.1.2",
     "vue-simple-accordion": "^0.1.0"
