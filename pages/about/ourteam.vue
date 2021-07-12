@@ -7,7 +7,7 @@
       overlay
     />
     <Herotext
-      iconurl="Our-team-approaches-problems-from-different-angles.svg"
+      iconurl="/Our-team-approaches-problems-from-different-angles.svg"
       imgwidth="120px"
       heading="Our team approaches problems from different angles"
       subheading="Our diverse skills across strategic thinking, UX design, technology, management and customer support ensures we collectively bring a wholistic approach to every project. This creative thinking helps us conceptualise our clients' vision and provide different options to solve their complex information problems."
@@ -51,7 +51,7 @@
             <h3 class="text-center font-medium text-xs sm:text-sm pt-3">Interface design (UI)</h3>
           </div>
           <div class="items-center col-span-1">
-            <img src="/Everyone_brings_something_different_to_the_team/developers.svg" class="h-8 sm:h-12 m-auto" />
+            <img src="/Everyone_brings_something_different_to_the_team/Developers.svg" class="h-8 sm:h-12 m-auto" />
             <h3 class="text-center font-medium text-xs sm:text-sm pt-3">Developers</h3>
           </div>
         </div>
