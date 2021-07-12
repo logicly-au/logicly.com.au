@@ -21,7 +21,7 @@
 
     <page-section>
       <div class="grid grid-cols-5">
-        <div class="self-center col-span-5 mx-12 lg:mx-0">
+        <div class="self-center col-span-5 sm:mx-12 lg:mx-0">
           <h2 class="text-2xl font-semibold text-center text-logiclytextgrey">Start the conversation about how we can help</h2>
         </div>
       </div>
@@ -43,7 +43,7 @@
             <hr class="hidden lg:block w-full mx-auto border border-logiclyorange mt-4">
           </div>
           <div>
-            <p class="text-center text-logiclytheme4 hover:underline mt-2 lg:-mt-2">
+            <p class="text-center text-logiclytheme2 hover:underline mt-2 lg:-mt-2">
               <a href="tel:+61393409000">
                 +61 3 9340 9000
               </a>
@@ -69,7 +69,7 @@
             <hr class="hidden lg:block w-full mx-auto border border-logiclyorange mt-4">
           </div>
           <div>
-            <p class="text-center text-logiclytheme4 hover:underline mt-2 lg:-mt-2">
+            <p class="text-center text-logiclytheme2 hover:underline mt-2 lg:-mt-2">
               <a href="mailto:info@strategicdata.com.au">
                 info@strategicdata.com.au
               </a>
