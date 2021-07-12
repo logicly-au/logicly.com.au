@@ -22,8 +22,8 @@
             <template #title>
               <div class="px-4 pt-10 projectsector">
                 <div class="flex justify-center">
-                  <img v-if="activeTab == category" :src="'/projects_' + category + '_selected.svg'" class="h-10" />
-                  <img v-else :src="'/projects_' + category + '.svg'" class="h-10" />
+                  <img v-if="activeTab == category" :src="'/Projects_' + category + '_selected.svg'" class="h-10" />
+                  <img v-else :src="'/Projects_' + category + '.svg'" class="h-10" />
                 </div>
                 <div class="pt-2 text-xs font-medium text-center sm:text-sm text-logiclytextgrey">
                   {{ category }}
