@@ -21,7 +21,6 @@
             <div class="grid grid-cols-3 col-span-12 lg:col-span-6 lg:col-start-6 xl:col-span-5 xl:col-start-7 text-sm">
               <div class="col-span-3 lg:col-span-1 mb-6 lg:mb-0">
                 <NuxtLink to="/" class="block hover:underline" exact>home</NuxtLink>
-                <a href="/whowehelp" class="block hover:underline" exact>who we help</a>
                 <NuxtLink to="/whatwedo" class="block hover:underline" exact>what we do</NuxtLink>
                 <NuxtLink to="/howwework" class="block hover:underline" exact>how we work</NuxtLink>
                 <NuxtLink to="/projects" class="block hover:underline">projects</NuxtLink>
