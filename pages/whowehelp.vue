@@ -20,15 +20,16 @@
     />
 
 
-    <page-section>
-      <div class="w-full hidden sm:block lg:pt-8 -mb-20 lg:-mb-10">
+    <page-section class="hidden sm:block">
+      <div class="w-full">
         <light-overlay-image class="overlay-height"
           imageurl="/different_audiences.jpg"
           overlaytext="Different audiences. </br>Different information needs. </br>Different systems."
         />
       </div>
+    </page-section>
 
-      <div class="w-full block sm:hidden -mb-16">
+      <div class="block w-full sm:hidden">
         <div class="container mx-auto">
           <light-overlay-image class="overlay-height"
             imageurl="/different_audiences.jpg"
@@ -36,12 +37,11 @@
           />
         </div>
       </div>
-    </page-section>
 
 
     <page-section>
       <div class="text-logiclytextgrey">
-        <h2 class="text-xl sm:text-2xl font-semibold text-center mb-10 lg:mb-12 xl:mb-16">We work with clients across different industries to understand their internal and external stakeholders so that the systems we build really do meet their needs.</h2>
+        <h2 class="text-xl sm:text-2xl font-semibold text-center mb-10 lg:mb-12 xl:mb-16 sm:-mt-16 md:-mt-20">We work with clients across different industries to understand their internal and external stakeholders so that the systems we build really do meet their needs.</h2>
         <vsa-list>
           <!-- Here you can use v-for to loop through items  -->
           <vsa-item class="grid content-center">
@@ -214,7 +214,7 @@
     </page-section>
 
     <page-section class="hidden sm:block">
-      <div class="w-full">
+      <div class="w-full mx-auto">
         <light-overlay-image class="overlay-height"
           imageurl="/What-are-your-information-and-digital-needs.jpg"
           overlaytext="What are your information and digital needs?"
