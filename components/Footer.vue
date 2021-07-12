@@ -39,11 +39,11 @@
                 <a href="/whowehelp" class="block hover:underline" exact>Educational</a>
               </div>
               <div class="col-span-3 lg:col-span-1 mb-6 lg:mb-0">
-                <NuxtLink to="/aboutus" class="block font-bold hover:underline" exact>about</NuxtLink>
-                <NuxtLink to="/ourapproach" class="block hover:underline" exact>our approach</NuxtLink>
-                <NuxtLink to="/ourteam" class="block hover:underline" exact>our team</NuxtLink>
-                <NuxtLink to="/oursecurity" class="block hover:underline" exact>our security</NuxtLink>
-                <NuxtLink to="/ourculture" class="block hover:underline" exact>our culture</NuxtLink>
+                <NuxtLink to="/about/us" class="block font-bold hover:underline" exact>about</NuxtLink>
+                <NuxtLink to="/about/ourapproach" class="block hover:underline" exact>our approach</NuxtLink>
+                <NuxtLink to="/about/ourteam" class="block hover:underline" exact>our team</NuxtLink>
+                <NuxtLink to="/about/oursecurity" class="block hover:underline" exact>our security</NuxtLink>
+                <NuxtLink to="/about/ourculture" class="block hover:underline" exact>our culture</NuxtLink>
               </div>
             </div>
 
