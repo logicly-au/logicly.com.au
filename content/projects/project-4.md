@@ -44,35 +44,24 @@ Logicly consulted with subject-matter experts and facilitated stakeholder worksh
 
 Through a highly collaborative and iterative approach, we drew on extensive experience with complex information systems to develop, test, and refine the data solution.
 
-<div class="grid grid-cols-12 project-4-style">
-  <div class="col-span-12">
-    The components were delivered in phases:
-  </div>
-  <div class="col-span-3 md:col-span-2">
-    <span style="font-weight:800">Phase 1</span>
-  </div>
-  <div class="col-span-9 md:col-span-10">
-    Design, user testing and delivery of an HTML prototype of the online survey
-  </div>
-  <div class="col-span-3 md:col-span-2">
-    <span style="font-weight:800">Phase 2</span>
-  </div>
-  <div class="col-span-9 md:col-span-10">
-    Delivery of the TMR Tertiary Student Travel Survey (2016) across three University campuses
-  </div>
-  <div class="col-span-3 md:col-span-2">
-    <span style="font-weight:800">Phase 3</span>
-  </div>
-  <div class="col-span-9 md:col-span-10">
-    Modification of the Tertiary Student Travel Survey to form the user interface for household data collection (SEQTS)
-  </div>
-  <div class="col-span-3 md:col-span-2">
-    <span style="font-weight:800">Phase 4</span>
-  </div>
-  <div class="col-span-9 md:col-span-10">
-    Design, user testing and delivery of the administration interface
-  </div>
-</div>
+The components were delivered in phases:
+
+<span style="font-weight:800">Phase 1</span>
+
+Design, user testing and delivery of an HTML prototype of the online survey
+
+<span style="font-weight:800">Phase 2</span>
+
+Delivery of the TMR Tertiary Student Travel Survey (2016) across three University campuses
+
+<span style="font-weight:800">Phase 3</span>
+
+Modification of the Tertiary Student Travel Survey to form the user interface for household data collection (SEQTS)
+
+<span style="font-weight:800">Phase 4</span>
+
+Design, user testing and delivery of the administration interface
+
 
 ### The outcomes
 The outcomes exceeded client expectations and the Household Travel Survey is now managed almost entirely online, with the user experience continually evolving and improving.
