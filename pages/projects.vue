@@ -192,8 +192,10 @@ export default {
   margin-bottom:0.5rem;
 }
 
+/* margin-left added as temporary padding while icons-sidebar is displayed on the wrong side */
 .icons-sidebar {
   margin-top:0.5rem;
+  margin-left: 1rem;
 }
 
 .icons-sidebar div {
@@ -211,6 +213,10 @@ export default {
 @media only screen and (max-width: 1024px) {
   .icons-sidebar-last {
     border-bottom:0px;
+  }
+/* margin-left added as temporary padding while icons-sidebar is displayed on the wrong side */
+  .icons-sidebar {
+    margin-left: 0rem;
   }
 }
 
