@@ -22,7 +22,7 @@ export default {
 
 <style scoped>
 .overlay {
-  background-color: rgba(0, 0, 0, 0.25)!important;
+  background-color: rgba(0, 0, 0, 0.35)!important;
   z-index:10;
 }
 </style>

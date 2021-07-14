@@ -29,13 +29,12 @@
       </div>
     </page-section>
 
-      <div class="block w-full sm:hidden">
-        <div class="container mx-auto">
-          <light-overlay-image class="overlay-height"
+      <div class="block sm:hidden">
+          <light-overlay-image-mob
+            overlay
             imageurl="/different_audiences.jpg"
             overlaytext="Different audiences. </br>Different information needs. </br>Different systems."
           />
-        </div>
       </div>
 
 
@@ -222,13 +221,12 @@
       </div>
     </page-section>
 
-    <div class="block w-full sm:hidden">
-      <div class="container mx-auto">
-        <light-overlay-image class="overlay-height"
+    <div class="block sm:hidden">
+        <light-overlay-image-mob
+          overlay
           imageurl="/What-are-your-information-and-digital-needs.jpg"
           overlaytext="What are your information and digital needs?"
         />
-      </div>
     </div>
 
 
