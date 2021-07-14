@@ -173,7 +173,8 @@ li {
 header {
   display: flex;
   z-index: 1;
-  padding: 10px 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
   background-color: #ffffff;
   position: sticky;
   width: 100%;
@@ -241,6 +242,7 @@ header .drop_menu {
   font-size: 0.9rem;
   transition: 0.25s;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1);
+  padding-bottom: 5
 }
 
 header .drop_menu a {
@@ -419,6 +421,10 @@ header #hamburger span:nth-child(3) {
     padding-top: 70px;
   }
 
+  header {
+    padding-bottom: 0px;
+  }
+
   header .wrap {
     justify-content: center;
     align-items: center;
@@ -437,10 +443,10 @@ header #hamburger span:nth-child(3) {
 
   header #menu {
     width: 100%;
+    height: 0;
     display: block;
     background-color: #F6F5F1;
     color: #3c3c3b;
-    height: 0;
     transform-origin: 50% 0;
     transition: 0.33s ease;
     flex-direction: column;
@@ -448,11 +454,13 @@ header #hamburger span:nth-child(3) {
   }
 
   .display_menu header #menu {
-    height: calc(100vh - 64px);
+    height: auto;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
   }
 
   .display_menu header #menu li {
-    height: calc((100vh - 113px)/8);
+    height: 2.5rem;
     border-bottom: none;
     transition: 0.25s ease;
     opacity: 1;
@@ -468,7 +476,7 @@ header #hamburger span:nth-child(3) {
 
   header #menu li a {
     left: 0;
-    line-height: calc((100vh - 113px)/8);
+    line-height: auto;
     padding-left: 30px;
     border: none;
     height: 100%;
@@ -489,12 +497,13 @@ header #hamburger span:nth-child(3) {
     position: absolute;
     right: 35px;
     top: 50%;
-    transform: translateY(-50%);
+    transform: translateY(-100%);
     background-color: #3c3c3b;
   }
 
   header .drop_menu {
-    top: calc((100vh - 113px)/8);
+    top: 25px;
+    height: auto;
     box-shadow: none;
     left: 0;
     padding-bottom: 0;
@@ -506,7 +515,7 @@ header #hamburger span:nth-child(3) {
     width: 100%;
     padding: 0 !important;
     padding-left: 40px !important;
-    margin: 0;
+    margin: 6px;
     border-bottom: none;
   }
 
