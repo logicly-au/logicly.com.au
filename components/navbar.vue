@@ -497,7 +497,7 @@ header #hamburger span:nth-child(3) {
     position: absolute;
     right: 35px;
     top: 50%;
-    transform: translateY(-100%);
+    transform: translateY(-85%);
     background-color: #3c3c3b;
   }
 
