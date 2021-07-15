@@ -198,11 +198,12 @@ export default {
   margin-left: 1rem;
 }
 
+/* Commenting out right margin while icons-sidebar is displayed on the wrong side */
 .icons-sidebar div {
   border-top: 2px solid #dedede;
   padding-top:1.75rem;
   padding-bottom:1.75rem;
-  margin-right:1rem;
+/*  margin-right:1rem; */
   text-align:center;
 }
 
@@ -269,8 +270,9 @@ export default {
   }
 }
 
+/* Commenting out left margin while icons-sidebar is displayed on the wrong side */
 .project-text {
-  margin-left:2rem;
+/*  margin-left:2rem; */
   padding-bottom:5rem;
 }
 
