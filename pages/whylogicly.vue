@@ -1,18 +1,23 @@
 <template>
   <div>
 
-    <Hero
-      subheading="WHY LOGICLY?"
-      background-url="/Logicly_What-we-do-header-From-discovery-to-development-delivery-and-beyond.jpg"
-      overlay
-    />
-
-    <page-section altrow>
-      <div class="flex justify-center ">
-        <div class="justify-center mb-6">
-          <img width="220px" src="/We-partner-with-clients-to-simplify-complex-processes.svg" />
+    <AspectRatio
+      ar="3:1"
+      width="100%"
+      :style="{ backgroundSize: 'cover', backgroundImage: `url(/Logicly-meet-your-complex-information-challenges-header.jpg)` }"
+    >
+    <div class="grid grid-rows-5 grid-cols-2 w-full h-full">
+      <div class="row-start-4 col-start-2 pl-4 md:pl-8 lg:pl-16 xl:pl-20 pt-2 sm:pt-4 md:pt-6 lg:pt-10 xl:pt-12 textresponsiveright">
+        <div>
+          <h1 class="text-white text-lg sm:text-xl md:text-2xl font-medium leading-snug">WHY LOGICLY?</h1>
         </div>
       </div>
+    </div>
+
+    </AspectRatio>
+
+    <page-section altrow>
+
       <div class="px-0 xl:px-6">
         <div class="text-center text-logiclytextgrey">
           <h1 class="text-2xl font-semibold leading-snug text-center pb-2 pt-4 xl:pt-8">Thoughtfully designed digital systems that solve your complex data challenges</h1>
@@ -25,11 +30,11 @@
     <page-section>
       <div class="flex justify-center ">
         <div class="justify-center mb-6">
-          <img width="220px" src="/25-years-shaping-large-complicated-projects.svg" />
+          <img width="100px" src="/Dissecting_your_information_problems.svg" />
         </div>
       </div>
       <div class="text-center text-logiclytextgrey px-0 xl:px-6">
-        <h1 class="text-2xl font-semibold leading-snug text-center pb-2">And what does this mean for you?</h1>
+        <h1 class="text-2xl font-semibold leading-snug text-center pb-2 pt-4">And what does this mean for you?</h1>
         <h2 class="font-light text-lg">It means you’ll be a part of creating a solution as unique as your business situation. It means you’ll be able to make great decisions based on the best data available. It means your systems will be set up to adapt as your needs change. Plus, it means an intuitive user experience that encourages engagement.</h2>
       </div>
     </page-section>
@@ -226,6 +231,13 @@
 </template>
 
 <script>
+export default {
+  head() {
+    return {
+      title: "Why Logicly?"
+    };
+  },
+};
 </script>
 
 <style>
