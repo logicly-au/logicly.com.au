@@ -62,9 +62,13 @@
 </template>
 
 <script>
-
-export default {}
-
+export default {
+  head() {
+    return {
+      title: "Our culture · Logicly"
+    };
+  },
+};
 </script>
 
 <style>

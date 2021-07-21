@@ -326,7 +326,13 @@
 </template>
 
 <script>
-
+export default {
+  head() {
+    return {
+      title: "Logicly"
+    };
+  },
+};
 </script>
 
 <style>

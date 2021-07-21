@@ -5,7 +5,7 @@
     </div>
     <div class="row-span-1 md:col-span-3 md:row-start-3">
     <div class="text-center">
-        <h1 class="text-3xl md:text-5xl text-logiclytextgrey">Strategic Data is now called Logicly.</h1><span class="text-logiclytextgrey">This page will redirect to our new website. If it doesn't automatically redirect click 
+        <h1 class="text-3xl md:text-5xl text-logiclytextgrey">Strategic Data is now called Logicly.</h1><span class="text-logiclytextgrey">This page will redirect to our new website. If it doesn't automatically redirect click
             <NuxtLink to="/"><span class="text-logiclyorange">here</span></NuxtLink>
         </span>
     </div>
@@ -18,8 +18,14 @@ export default {
     layout: 'splashpage',
     created() {
         setTimeout( () => this.$router.push({ path: '/'}), 10000);
-    }
-}
+    },
+head() {
+  return {
+    title: "Strategic Data is now called Logicly · Logicly"
+  };
+},
+};
+
 </script>
 
 <style>

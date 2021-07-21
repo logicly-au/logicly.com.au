@@ -268,9 +268,13 @@
       return {
         backgroundUrl
       }
-    }
-    // ...
-  }
+    },
+    head() {
+      return {
+        title: "Who we help · Logicly"
+      };
+    },
+  };
 
 </script>
 

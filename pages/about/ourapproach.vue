@@ -52,6 +52,13 @@
 </template>
 
 <script>
+export default {
+  head() {
+    return {
+      title: "Our approach · Logicly"
+    };
+  },
+};
 </script>
 
 <style>

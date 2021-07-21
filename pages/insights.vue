@@ -12,6 +12,13 @@
 </template>
 
 <script>
+export default {
+  head() {
+    return {
+      title: "Insights · Logicly"
+    };
+  },
+};
 </script>
 
 <style>

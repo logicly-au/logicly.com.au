@@ -69,6 +69,13 @@
 </template>
 
 <script>
+export default {
+  head() {
+    return {
+      title: "Privacy · Logicly"
+    };
+  },
+};
 </script>
 
 <style>

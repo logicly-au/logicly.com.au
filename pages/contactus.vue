@@ -134,8 +134,14 @@ import backgroundUrl from '~/assets/images/Logicly_Contact_us_header.jpg'
 export default {
   data() {
     return { backgroundUrl }
-  }
-}
+  },
+
+  head() {
+    return {
+      title: "Contact us · Logicly"
+    };
+  },
+};
 
 </script>
 

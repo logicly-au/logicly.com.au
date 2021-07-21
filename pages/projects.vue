@@ -112,6 +112,11 @@ export default {
       ],
     };
   },
+  head() {
+    return {
+      title: "Projects · Logicly"
+    };
+  },
   computed: {
     activeArticle() {
       return this.articles[this.activeArticleIndex];
