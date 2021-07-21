@@ -7,9 +7,9 @@
       :style="{ backgroundSize: 'cover', backgroundImage: `url(/Logicly-meet-your-complex-information-challenges-header.jpg)` }"
     >
     <div class="grid grid-rows-5 grid-cols-2 w-full h-full">
-      <div class="row-start-4 col-start-2 pl-4 md:pl-8 lg:pl-16 xl:pl-20 pt-2 sm:pt-4 md:pt-6 lg:pt-10 xl:pt-12 textresponsiveright">
+      <div class="row-start-4 col-start-2 pl-4 md:pl-8 lg:pl-16 xl:pl-20 pt-1 sm:pt-4 md:pt-5 lg:pt-8 xl:pt-10 textresponsiveright">
         <div>
-          <h1 class="text-white text-lg sm:text-xl md:text-2xl font-medium leading-snug">WHY LOGICLY?</h1>
+          <h1 class="text-white text-xl sm:text-2xl md:text-3xl xl:text-4xl font-medium leading-snug">WHY LOGICLY?</h1>
         </div>
       </div>
     </div>
@@ -234,7 +234,7 @@
 export default {
   head() {
     return {
-      title: "Why Logicly?"
+      title: "Why Logicly? · Logicly"
     };
   },
 };
