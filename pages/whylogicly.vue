@@ -1,26 +1,16 @@
 <template>
   <div>
 
-    <AspectRatio
-      ar="3:1"
-      width="100%"
-      :style="{ backgroundSize: 'cover', backgroundImage: `url(/Logicly-meet-your-complex-information-challenges-header.jpg)` }"
-    >
-    <div class="grid grid-rows-5 grid-cols-2 w-full h-full">
-      <div class="row-start-4 col-start-2 pl-4 md:pl-8 lg:pl-16 xl:pl-20 pt-1 sm:pt-4 md:pt-5 lg:pt-8 xl:pt-10 textresponsiveright">
-        <div>
-          <h1 class="text-white text-xl sm:text-2xl md:text-3xl xl:text-4xl font-medium leading-snug">WHY LOGICLY?</h1>
-        </div>
-      </div>
-    </div>
 
-    </AspectRatio>
+    <div class="my-10">
+      <h1 class="text-center text-logiclytextgrey text-3xl xl:text-4xl font-semibold">Why Logicly?</h1>
+    </div>
 
     <page-section altrow>
 
       <div class="px-0 xl:px-6">
         <div class="text-center text-logiclytextgrey">
-          <h1 class="text-2xl font-semibold leading-snug text-center pb-2 pt-4 xl:pt-8">Thoughtfully designed digital systems that solve your complex data challenges</h1>
+          <h1 class="text-2xl font-semibold leading-snug text-center pb-2">Thoughtfully designed digital systems that solve your complex data challenges</h1>
           <h2 class="font-light text-lg">It’s about being smart, flexible, innovative, collaborative and methodical. <br>Logicly is more than a new business name, it’s a mindset.</h2>
         </div>
       </div>
@@ -171,41 +161,62 @@
           </h3>
         </div>
 
-        <div class="col-span-3 sm:col-span-1 sm:col-start-1 grid justify-items-center pb-8 sm:pb-0">
-          <img width="40px" src="/We-Can-1.svg" />
-          <p class="text-center mt-4">
-            capture, manage, and transform your data
-          </p>
+        <div class="col-span-3 sm:col-span-1 sm:col-start-1 grid justify-items-center grid-rows-2 pb-8 sm:pb-0">
+          <div class="row-span-1 sm:-mt-4 md:mt-0">
+            <img width="40px" src="/We-Can-1.svg" />
+          </div>
+          <div class="row-span-1">
+            <p class="text-center text-base sm:text-sm mt-4">
+              capture, manage, and transform your data
+            </p>
+          </div>
         </div>
 
-        <div class="col-span-3 sm:col-span-1 sm:col-start-2 grid justify-items-center pb-8 sm:pb-0">
-          <img width="40px" src="/We-Can-3.svg" />
-          <p class="text-center mt-4">
-            manage entire systems on your behalf
-          </p>
+        <div class="col-span-3 sm:col-span-1 sm:col-start-2 grid justify-items-center grid-rows-2 pb-8 sm:pb-0">
+          <div class="row-span-1">
+            <img width="40px" src="/We-Can-3.svg" />
+          </div>
+          <div class="row-span-1">
+            <p class="text-center text-base sm:text-sm mt-4">
+              manage entire systems on your behalf
+            </p>
+          </div>
         </div>
 
-        <div class="col-span-3 sm:col-span-1 sm:col-start-3 grid justify-items-center">
-          <img width="40px" src="/We-Can-2.svg" />
-          <p class="text-center mt-4">
-            manage entire systems on your behalf
-          </p>
+        <div class="col-span-3 sm:col-span-1 sm:col-start-3 grid justify-items-center grid-rows-2">
+          <div class="row-span-1 sm:pt-6">
+            <img width="40px" src="/We-Can-2.svg" />
+          </div>
+          <div class="row-span-1">
+            <p class="text-center text-base sm:text-sm mt-4">
+              build user interfaces that people understand and enjoy using
+            </p>
+          </div>
         </div>
       </div>
     </page-section>
 
 
     <page-section altrow>
-      <div class="grid grid-cols-12">
-        <div class="col-span-12 mb-10 flex justify-center">
-          <img src="/complex-information-challenges.jpg" class="p-0"/>
+      <div class="grid grid-cols-2 gap-3 lg:gap-6 text-logiclytextgrey mb-6 mx-0 lg:mx-8">
+        <div class="col-span-1 col-start-1">
+          <img src="/logicly-adam.jpg" class="p-0">
         </div>
-        <div class="col-span-12 lg:col-span-10 lg:col-start-2 text-center lg:px-4">
-          <h2 class="font-light text-lg text-center text-logiclytextgrey">Logicly is our new chapter. We bring twenty-five years of knowledge and experience in research, strategy, design and technology to solve complex information challenges. We combine innovative but practical thinking, flexibility and intuitive design, to build digital systems that meet your needs. We do this by approaching each aspect of our work logically.</h2>
+        <div class="col-span-1 col-start-2">
+          <img src="/logicly-andrew.jpg" class="p-0">
         </div>
-
+        <div class="col-span-1 col-start-1">
+          <img src="/logicly-simon.jpg" class="p-0">
+        </div>
+        <div class="col-span-1 col-start-2">
+          <img src="/logicly-michelle.jpg" class="p-0">
+        </div>
       </div>
-    </page-section>
+
+      <div class="lg:px-4 mt-4">
+        <h2 class="font-light text-lg text-center text-logiclytextgrey">Logicly is our new chapter. We bring twenty-five years of knowledge and experience in research, strategy, design and technology to solve complex information challenges. We combine innovative but practical thinking, flexibility and intuitive design, to build digital systems that meet your needs. We do this by approaching each aspect of our work logically.</h2>
+      </div>
+    </page-section>    
 
 
     <page-section>
