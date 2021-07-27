@@ -10,6 +10,7 @@
     />
 
 
+    <!-- Topics section with dropdown -->
     <page-section altrow>
       <div class="grid grid-cols-3 text-logiclytextgrey">
         <div class="col-span-1">
@@ -22,11 +23,8 @@
           All categories
         </div>
       </div>
-    </page-section>
 
-
-    <!-- TODO This is where the different catgories are shown, needs to be moved to dropdown above -->
-    <page-section altrow>
+    <!-- TODO Move blog categories. The images should be removed and the categories moved to te dropdown above -->
       <vue-tabs ref="tabs" @tab-change="setActiveTab" v-model="activeTab">
         <v-tab v-for="category in categories" :id="category" :title="category" :key="category" class="flex">
           <template #title>
@@ -40,10 +38,43 @@
     </page-section>
 
 
-    <page-section>
-      <div class="grid grid-cols-12 pt-6 -mb-16 text-logiclytextgrey insights-page">
 
-        <!-- Project list desktop -->
+    <page-section>
+      <!-- Top blog post in grid -->
+      <!-- TODO Change this section to only show the first blog post in the blog post list(cuurently it lists all blog posts in the selected category) -->
+      <div class="pt-6 text-logiclytextgrey insights-page">
+          <ul class='articles'>
+            <li @click="setActiveArticle(index)" v-for="(article, index) in articles" :class="{ 'articles-active': isActiveArticle(index) }">
+              <div class="grid grid-cols-3 bg-logiclylightgrey">
+                <div class="col-span-3 xl:col-span-2">
+                   <img class="object-cover insights-top-img" :src="article.img" :alt="article.alt" />
+                </div>
+                <div class="col-span-3 xl:col-span-1 pl-4 pt-8 pr-4 pb-4 border-t-2 border-logiclyorange">
+                  <div class="mx-4 lg:mx-8 xl:mx-0 mb-6 xl:mb-0">
+                    <span class="text-xl xl:text-base font-semibold text-logiclytheme4">{{ article.title }}</span>
+                    <div class="pt-6 xl:pt-4 pb-2">
+                      <span class="font-medium text-sm">{{ article.author }}</span>
+                      <span class="text-logiclytheme4">|</span>
+                      <span class="font-normal text-sm">{{ article.date }}</span>
+                    </div>
+                    <div class="pb-1">
+                      <span class="font-light text-base xl:text-sm" v-html="`${article.description}`"></span>
+                    </div>
+                    <div>
+                      <span class="font-normal text-base xl:text-sm text-logiclytheme4 hover:underline">
+                        <NuxtLink :to="`${article.link}`">Read more</NuxtLink>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+      </div>
+
+
+    <!-- Blog posts grid -->
+      <div class="grid grid-cols-12 pt-6 -mb-16 text-logiclytextgrey insights-page">
         <div class="col-span-12 projects-list">
           <ul class='articles'>
             <div class="grid lg:grid-cols-3 grid-rows-auto gap-5 pb-4">
@@ -73,11 +104,12 @@
             </div>
           </ul>
         </div>
-
       </div>
     </page-section>
 
 
+    <!-- First section of active blog post with blog post descritpion -->
+    <!-- TODO Move this to a separate page for active blog post -->
     <page-section altrow>
       <ul>
         <li @click="setActiveArticle(index)" v-for="(article, index) in articles" :class="{ 'articles-active': isActiveArticle(index) }">
@@ -95,7 +127,8 @@
     </page-section>
 
 
-    <!-- TODO Move this to a separate page -->
+    <!-- Active blog post -->
+    <!-- TODO Move this to a separate page for active blog post -->
     <page-section>
       <div class="text-logiclytextgrey insights-page">
         <nuxt-content :document="activeArticle" />
@@ -175,6 +208,11 @@ export default {
         'Public sector',
         'Data reliability',
       ],
+    };
+  },
+  head() {
+    return {
+      title: "Insights · Logicly"
     };
   },
   computed: {
@@ -337,6 +375,10 @@ ul.nav.nav-tabs {
   float: left;
   transform: rotate(45deg);
   background: #E94E1B;
+}
+
+.insights-top-img {
+  height: 28rem;
 }
 
 
