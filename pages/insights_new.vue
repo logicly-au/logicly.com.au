@@ -225,7 +225,7 @@ export default {
 }
 
 .insights-page h3 {
-  padding-top:0.5rem!important;
+  padding-top:0.6rem!important;
   padding-bottom:0.25rem!important;
   font-size:1rem!important;
   font-weight:600!important;

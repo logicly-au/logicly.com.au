@@ -80,7 +80,7 @@ If you’re feeling a little overwhelmed by the data challenge you’re facing, 
 ## What makes a data challenge complex?
 There are many factors that contribute to data complexity. In this article, we’ll focus on our top four, using an example project to bring it all to life.
 
-<div class="bg-logiclylightgrey px-12 py-6 my-4">
+<div class="bg-logiclylightgrey px-12 pt-6 pb-6 my-4">
 
 ## PROJECT SPOTLIGHT:
 <div class="font-semibold text-sm pr-12 pt-2">A thrice-yearly census for over 70,000 pre-school children and teachers</div>
@@ -140,79 +140,23 @@ Sometimes you’ll need to engage an expert to get a successful outcome. If any 
 Reading through some more of our past work might give you some ideas on how to tackle your own project. Here a few more examples of our work with corporate and government clients, and there’s plenty more on <NuxtLink to="/projects">our website</NuxtLink>.
 
 
-<div class="grid grid-cols-7 col-gap-4 text-logiclytextgrey insightstable mt-6">
-<div class="grid col-span-7 grid-col-2 lg:col-span-3 lg:col-start-1">
-<div class="col-span-2 grid content-center">
-<overlay-image
-  imageurl="/Department-of-health-increasing-the-spread-of-the-online-vlidator-process.jpg"
-  height="250px"
-/>
-</div>
-</div>
-
-<div class="grid content-center col-span-7 lg:col-span-4 lg:col-start-4 lg:px-2 lg:py-4">
-<div class="font-semibold leading-snug lg:text-sm  lg:pt-0 pb-1">
-  Secure data management for complex stakeholder environments
-</div>
-<div class="text-xs mr-0 sm:mr-16 lg:mr-0">
-  We partnered with the Department of Health and over 30 entities in the primary health regional network to consolidate different health service datasets in a new, secure, more accessible information system. We navigated the state’s differing laws and statutory requirements to develop an intuitive, feature-rich, national platform in just 6 months.
-</div>
-<div class="text-sm font-medium pt-2">
+### Secure data management for complex stakeholder environments
+We partnered with the Department of Health and over 30 entities in the primary health regional network to consolidate different health service datasets in a new, secure, more accessible information system. We navigated the state’s differing laws and statutory requirements to develop an intuitive, feature-rich, national platform in just 6 months.
 
 <NuxtLink to="/projects/?article=3&tab=1">Learn more</NuxtLink>
-</div>
-</div>
-</div>
 
 
-<div class="grid grid-cols-7 col-gap-4 text-logiclytextgrey insightstable mt-6">
-<div class="grid col-span-7 grid-col-2 lg:col-span-3 lg:col-start-1">
-<div class="col-span-2 grid content-center">
-<overlay-image
-  imageurl="/Mental-health-in-the-community-university-of-melbourne.jpg"
-  height="250px"
-/>
-</div>
-</div>
-
-<div class="grid content-center col-span-7 lg:col-span-4 lg:col-start-4 lg:px-2 lg:py-2">
-<div class="font-semibold leading-snug lg:text-sm lg:pt-0 pb-1">
-  Sophisticated algorithms to protect vulnerable participants
-</div>
-<div class="text-xs mr-0 sm:mr-16 lg:mr-0">
-  When we worked with the University of Melbourne’s Centre for Mental Health, we developed an automated alert function to notify study psychologists where specialised and urgent care interventions may be needed to keep participants safe. Our sophisticated algorithms recommended appropriate treatment and longitudinal data collection tracked changes over time.
-</div>
-<div class="text-sm font-medium pt-2">
+### Sophisticated algorithms to protect vulnerable participants
+When we worked with the University of Melbourne’s Centre for Mental Health, we developed an automated alert function to notify study psychologists where specialised and urgent care interventions may be needed to keep participants safe. Our sophisticated algorithms recommended appropriate treatment and longitudinal data collection tracked changes over time.
 
 <NuxtLink to="/projects/?article=0&tab=0">Learn more</NuxtLink>
-</div>
-</div>
-</div>
 
 
-<div class="grid grid-cols-7 col-gap-4 text-logiclytextgrey insightstable mt-6 mb-6">
-<div class="grid col-span-7 grid-col-2 lg:col-span-3 lg:col-start-1">
-<div class="col-span-2 grid content-center">
-<overlay-image
-  imageurl="/National-Australia-Bank-coworkers-meeting.jpg"
-  height="250px"
-/>
-</div>
-</div>
-
-<div class="grid content-center col-span-7 lg:col-span-4 lg:col-start-4 lg:px-2 lg:py-4">
-<div class="font-semibold leading-snug lg:text-sm lg:pt-0 pb-1">
-  Goodbye forms and spreadsheets, hello web platform
-</div>
-<div class="text-xs mr-0 sm:mr-16 lg:mr-0">
+### Goodbye forms and spreadsheets, hello web platform
   We worked with the National Australia Bank to build a system that creates and delivers personalised performance management surveys to its 40,000+ strong workforce. Our solution analyses the high volumes of data efficiently and communicates the results in accessible reports. It’s a robust, flexible end-to-end tool that will adapt as the organisation’s needs change.
-</div>
-<div class="text-sm font-medium pt-2">
 
 <NuxtLink to="/projects/?article=0&tab=5">Learn more</NuxtLink>
-</div>
-</div>
-</div>
+
 
 
 ## Want to chat about your project?
