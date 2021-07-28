@@ -77,27 +77,29 @@
       <div class="grid grid-cols-12 pt-6 -mb-16 text-logiclytextgrey insights-page">
         <div class="col-span-12 projects-list">
           <ul class='articles'>
-            <div class="grid lg:grid-cols-3 grid-rows-auto gap-5 pb-4">
-              <li @click="setActiveArticle(index)" v-for="(article, index) in articles" :class="{ 'articles-active': isActiveArticle(index) }">
-                <div class="pb-8">
-                  <div class="pb-5">
-                     <img class="w-full" :src="article.img" :alt="article.alt" />
+            <div class="grid gap-5 pb-4 lg:grid-cols-3 grid-rows-auto">
+              <li @click="setActiveArticle(index)" v-for="(article, index) in articles" :class="{ 'articles-active': isActiveArticle(index), 'col-span-3' : index === 0 }">
+                <div class="grid grid-cols-1 pb-8" :class="{ 'grid-cols-2' : index === 0 }" >
+                  <div class="col-span-1">
+                     <img class="object-cover h-full" :src="article.img" :alt="article.alt" />
                   </div>
-                  <div>
-                    <span class="text-lg lg:text-base font-semibold text-logiclytheme4">{{ article.title }}</span>
-                  </div>
-                  <div class="pb-2">
-                    <span class="font-medium text-sm">{{ article.author }}</span>
-                    <span class="text-logiclytheme4">|</span>
-                    <span class="font-normal text-sm">{{ article.date }}</span>
-                  </div>
-                  <div class="pb-1">
-                    <span class="font-light text-base lg:text-sm" v-html="`${article.description}`"></span>
-                  </div>
-                  <div>
-                    <span class="font-normal text-base lg:text-sm text-logiclytheme4 hover:underline">
-                      <NuxtLink :to="`${article.link}`">Read more</NuxtLink>
-                    </span>
+                  <div class="col-span-1" :class="{ 'border-t-8 border-logiclyorange pl-2 bg-logiclylightgrey' : index === 0 }" >
+                    <div>
+                      <span class="text-lg font-semibold lg:text-base text-logiclytheme4">{{ article.title }}</span>
+                    </div>
+                    <div class="pb-2">
+                      <span class="text-sm font-medium">{{ article.author }}</span>
+                      <span class="text-logiclytheme4">|</span>
+                      <span class="text-sm font-normal">{{ article.date }}</span>
+                    </div>
+                    <div class="pb-1">
+                      <span class="text-base font-light lg:text-sm" v-html="`${article.description}`"></span>
+                    </div>
+                    <div>
+                      <span class="text-base font-normal lg:text-sm text-logiclytheme4 hover:underline">
+                        <NuxtLink :to="`${article.link}`">Read more</NuxtLink>
+                      </span>
+                    </div>
                   </div>
                 </div>
               </li>
@@ -115,10 +117,10 @@
         <li @click="setActiveArticle(index)" v-for="(article, index) in articles" :class="{ 'articles-active': isActiveArticle(index) }">
           <div class="grid grid-cols-12">
             <div class="col-span-12 lg:col-span-3 text-logiclytextgrey">
-              <h2 class="font-semibold pb-2">{{ article.category }}</h2>
+              <h2 class="pb-2 font-semibold">{{ article.category }}</h2>
             </div>
             <div class="col-span-12 lg:col-span-9 lg:col-start-4 lg:pl-6 blogheading">
-              <h1 class="text-xl font-semibold leading-tight text-logiclytheme4 pb-5">{{ article.title }}</h1>
+              <h1 class="pb-5 text-xl font-semibold leading-tight text-logiclytheme4">{{ article.title }}</h1>
               <span class="text-lg font-light text-logiclytextgrey" v-html="`${article.description}`"></span>
             </div>
           </div>
@@ -135,45 +137,45 @@
       </div>
 
       <div class="grid grid-cols-12">
-        <div class="col-span-12 lg:col-span-9 lg:col-start-4 lg:pl-6 -mt-6 lg:mt-4 lg:mb-4 blog-text">
+        <div class="col-span-12 -mt-6 lg:col-span-9 lg:col-start-4 lg:pl-6 lg:mt-4 lg:mb-4 blog-text">
           <div v-for="article in articles" :class="{ 'articles-active': isActiveArticle(index) }">
             <div class="logiclysquare"> </div>
-            <span class="font-semibold text-sm ml-2">{{ article.author }}</span>
-            <span class="font-semibold text-sm">is Logicly's</span>
-            <span class="font-medium text-xs">{{ article.jobtitle }}</span>
+            <span class="ml-2 text-sm font-semibold">{{ article.author }}</span>
+            <span class="text-sm font-semibold">is Logicly's</span>
+            <span class="text-xs font-medium">{{ article.jobtitle }}</span>
           </div>
         </div>
       </div>
 
       <!-- TODO: Make this section only show articles in the same category/topic -->
-      <div class="border-t-2 border-logiclyorange mt-6 lg:mt-16">
+      <div class="mt-6 border-t-2 border-logiclyorange lg:mt-16">
         <div class="grid grid-cols-12 mt-10 lg:mt-12">
           <div class="col-span-12 lg:col-span-3">
-            <p class="text-lg lg:text-base font-semibold text-logiclytextgrey pb-8 lg:pb-0">
+            <p class="pb-8 text-lg font-semibold lg:text-base text-logiclytextgrey lg:pb-0">
               Related articles
             </p>
           </div>
           <div class="col-span-12 lg:col-span-9 lg:col-start-4 lg:pl-10">
             <ul>
-              <div class="grid lg:grid-cols-2 grid-rows-auto gap-5">
+              <div class="grid gap-5 lg:grid-cols-2 grid-rows-auto">
                 <li @click="setActiveArticle(index)" v-for="(article, index) in articles" :class="{ 'articles-active': isActiveArticle(index) }">
                   <div class="">
                     <div class="pb-5">
                        <img class="w-full" :src="article.img" :alt="article.alt" />
                     </div>
                     <div>
-                      <span class="text-lg lg:text-base font-semibold text-logiclytheme4">{{ article.title }}</span>
+                      <span class="text-lg font-semibold lg:text-base text-logiclytheme4">{{ article.title }}</span>
                     </div>
                     <div class="pb-2">
-                      <span class="font-medium text-sm">{{ article.author }}</span>
+                      <span class="text-sm font-medium">{{ article.author }}</span>
                       <span class="text-logiclytheme4">|</span>
-                      <span class="font-normal text-sm">{{ article.date }}</span>
+                      <span class="text-sm font-normal">{{ article.date }}</span>
                     </div>
                     <div class="pb-2">
-                      <span class="font-light text-base lg:text-sm" v-html="`${article.description}`"></span>
+                      <span class="text-base font-light lg:text-sm" v-html="`${article.description}`"></span>
                     </div>
                     <div>
-                      <span class="font-normal text-base lg:text-sm text-logiclytheme4 hover:underline">
+                      <span class="text-base font-normal lg:text-sm text-logiclytheme4 hover:underline">
                         <NuxtLink :to="`${article.link}`">Read more</NuxtLink>
                       </span>
                     </div>
