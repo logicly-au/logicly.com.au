@@ -84,7 +84,7 @@ export default {
       delay == true ? setTimeout(fn, 200) : fn();
     },
     display_drop_menu() {
-      var drop_menu = event.target.parentElement.getElementsByClassName("drop_menu")[0];
+      var drop_menu = document.getElementsByClassName("drop_menu")[0];
       var drop_menus = document.getElementsByClassName("drop_menu");
 
       Array.from(drop_menus).forEach(function(e){
