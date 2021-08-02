@@ -4,7 +4,7 @@ description: "Why is accurate data collection important? </br>
 If you’re responsible for decision making in your organisation, chances are you’re relying on data to guide you. Accurate data can help you make informed choices, leading to improved efficiency, profitability, customer satisfaction, employee retention and growth."
 author: Simon Palmer
 jobtitle: Director/Senior Consultant
-date: 29 March 2021
+date: 29 Mar 2021
 img: /Youth-and-Family-Support-Organisation-coworkers-looking-at-laptop-graph.jpg
 alt: Youth and family support organisation image
 link: "/insights_new/?article=0&tab=6"

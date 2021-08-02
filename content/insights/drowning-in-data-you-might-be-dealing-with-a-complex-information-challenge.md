@@ -10,7 +10,7 @@ description: "No matter what your industry, it’s likely that data plays a role
 </ul>"
 author: Andrew Gordon
 jobtitle: Business Development Manager
-date: 22 December 2020
+date: 22 Dec 2020
 img: /Victorian-Department-of-Education-and-Training-teacher-working-on-computer.jpg
 alt: Victorian Department of Education and Training image
 link: /insights_new/?article=0&tab=0

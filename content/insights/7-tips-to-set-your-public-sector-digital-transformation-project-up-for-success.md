@@ -4,7 +4,7 @@ description: "Digital transformation in the public sector is accelerating
 The global shift to digitisation is transforming the way we live and work and the Australian public sector has a crucial role to play in creating online systems that are simple, quick and safe to use."
 author: Adam Clarke
 jobtitle: Director/Senior Consultant/CTO
-date: 10 March 2021
+date: 10 Mar 2021
 img: /AMHOCN-coworkers-meeting-with-coworker-online.jpg
 alt: AMHOC image
 link: /insights_new/?article=0&tab=1
