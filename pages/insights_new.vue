@@ -56,7 +56,7 @@
                       </NuxtLink>
                       <div class="pt-1 xl:pt-0 pb-4 xl:pb-2" :class="{ 'xl:pb-2 mt-4' : index === 0 }">
                         <span class="text-sm font-medium">{{ article.author }}</span>
-                        <span class="text-logiclytheme4">|</span>
+                        <span class="text-logiclyorange">|</span>
                         <span class="text-sm font-normal">{{ article.date }}</span>
                       </div>
                       <div class="pb-1">
@@ -115,7 +115,7 @@
         </div>
       </div>
 
-      <!-- TODO: Make this section only show articles in the same category/topic -->
+      <!-- TODO: Make this section show articles in the same category/topic -->
       <div class="mt-6 border-t-2 border-logiclyorange lg:mt-16">
         <div class="grid grid-cols-12 mt-10 lg:mt-12">
           <div class="col-span-12 lg:col-span-3">
@@ -136,14 +136,14 @@
                     </div>
                     <div class="pb-2">
                       <span class="text-sm font-medium">{{ article.author }}</span>
-                      <span class="text-logiclytheme4">|</span>
+                      <span class="text-logiclyorange">|</span>
                       <span class="text-sm font-normal">{{ article.date }}</span>
                     </div>
                     <div class="pb-2">
                       <span class="text-base font-light lg:text-sm" v-html="`${article.description}`"></span>
                     </div>
                     <div>
-                      <span class="text-base font-normal lg:text-sm text-logiclytheme4 hover:underline">
+                      <span class="text-base font-normal lg:text-sm text-logiclyorange hover:underline">
                         <NuxtLink :to="`${article.link}`">Read more</NuxtLink>
                       </span>
                     </div>
