@@ -47,6 +47,11 @@
         <!-- TODO Add mobile version of project-list -->
         <!-- Project list mobile -->
         <div class="block col-span-12 lg:hidden">
+
+          <select class='articles-select' @change="setActiveArticle(activeArticleIndex)" v-model="activeArticleIndex">
+            <option v-for="(article, index) in articles" :value="index">{{ article.title }}</option>
+          </select>
+
           <ul class='articles'>
             <li @click="setActiveArticle(index)" v-for="(article, index) in articles" :class="{ 'articles-active': isActiveArticle(index) }">
               <div class="grid grid-cols-12 pb-2">
@@ -131,9 +136,10 @@ export default {
       return (this.activeArticleIndex == index);
     },
     async setActiveTab(newIndex) {
-      this.activeTabIndex = newIndex;
-      this.activeTab      = this.categories[this.activeTabIndex];
-      this.articles       = await this.$content('projects').where({ category: this.activeTab }).sortBy('title', 'asc').fetch();
+      this.activeArticleIndex = 0;
+      this.activeTabIndex     = newIndex;
+      this.activeTab          = this.categories[this.activeTabIndex];
+      this.articles           = await this.$content('projects').where({ category: this.activeTab }).sortBy('title', 'asc').fetch();
 
       this.$router.push({path: this.$route.path, query: { tab: newIndex, article: this.activeArticleIndex }});
     },
