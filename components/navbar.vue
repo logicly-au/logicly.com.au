@@ -52,7 +52,14 @@ export default {
         vm.close_all_menu();
         var header = document.getElementsByTagName("header")[0];
         if(Math.abs(vm.last_scroll - this.scrollY) <= 5) return;
-        (this.scrollY < vm.last_scroll) ? header.style.top = "0" : header.style.top = "-" + header.clientHeight + "px" ;
+
+        // If small keep the top menu sticky.
+        if (window.innerWidth < 1024) {
+          header.style.top = "0";
+        } else {
+          (this.scrollY < vm.last_scroll) ? header.style.top = "0" : header.style.top = "-" + header.clientHeight + "px" ;
+        }
+
         vm.last_scroll = this.scrollY;
       }
     }
