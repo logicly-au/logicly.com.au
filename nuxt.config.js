@@ -22,9 +22,13 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      { hid: 'og:description',
+        name: 'Developing thoughtfully designed digital systems',
+        content: 'We bring twenty five years of knowledge and experience in research, strategy, design and technology to solve your complex information challenges. Our digital systems are built with innovative but practical thinking, flexibility and intuitive design, always with the user experience in mind.'
+      },
       { hid: 'description',
         name: 'Developing thoughtfully designed digital systems',
-        content: 'We bring twenty five years of knowledge and experience in research, strategy, design and technology to solve your complex information challenges. Our digital systems are built with innovative but practical thinking, flexibility and intuitive design, always with the user experience in mind.' 
+        content: 'We bring twenty five years of knowledge and experience in research, strategy, design and technology to solve your complex information challenges. Our digital systems are built with innovative but practical thinking, flexibility and intuitive design, always with the user experience in mind.'
       }
     ],
     link: [
