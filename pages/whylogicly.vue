@@ -104,7 +104,7 @@
     <page-section altrow>
       <h1 class="text-2xl font-semibold text-center text-logiclytextgrey pb-6">Hello, we’re Logicly.</h1>
       <div class="grid grid-cols-12 text-logiclytextgrey">
-        <div class="col-span-12 lg:col-span-9 col-start-1 lg:col-start-3 mx-0 lg:-mx-8 xl:-mx-0">
+        <div class="col-span-12 lg:col-span-8 col-start-1 lg:col-start-3 mx-0 lg:-mx-8 xl:-mx-0">
           <div class="col-span-12">
             <p class="font-light text-center mb-12">25 years since our inception, we’ve grown to a team of 24 talented experts.</p>
           </div>
