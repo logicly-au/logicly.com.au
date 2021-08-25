@@ -11,7 +11,7 @@
 
     <!-- Topics section with dropdown -->
     <page-section altrow>
-      <div class="grid grid-cols-3 text-logiclytextgrey">
+      <div class="grid grid-cols-3 text-logiclytextgrey mx-0 xl:-mx-20">
         <div class="col-span-1">
           <p class="text-2xl font-semibold text-left text-logiclytextgrey">
             Topics
@@ -28,16 +28,16 @@
 
     <page-section>
     <!-- Blog posts grid -->
-      <div class="grid grid-cols-12 pt-6 -mb-16 text-logiclytextgrey insights-page">
+      <div class="grid grid-cols-12 pt-6 -mb-16 text-logiclytextgrey insights-page mx-0 xl:-mx-20">
         <div class="col-span-12 projects-list">
           <ul class='articles'>
             <div class="grid gap-0 xl:gap-5 pb-4 xl:grid-cols-3 grid-rows-auto">
-              <li v-for="(article, index) in filteredArticles" :class="{ 'col-span-3': index === 0 }">
+              <li v-for="(article, index) in filteredArticles" class="col-span-3 xl:col-span-1" :class="{ 'xl:col-span-3': index === 0 }">
                 <div class="grid grid-cols-1 pb-12" :class="{ 'grid-cols-3' : index === 0 }" >
                   <div class="col-span-1" :class="{ 'col-span-3 xl:col-span-2' : index === 0 }">
-                     <img class="object-cover h-full" :src="article.img" :alt="article.alt" />
+                     <img class="object-cover h-full blog-img" :src="article.img" :alt="article.alt" :class="{ 'first-blog-img': index === 0 }"/>
                   </div>
-                  <div class="col-span-1 pt-6" :class="{ 'col-span-3 xl:col-span-1 border-t-2 border-logiclyorange pl-4 pt-8 pr-4 pb-6 xl:pb-12 bg-logiclylightgrey' : index === 0 }" >
+                  <div class="col-span-1 pt-6" :class="{ 'col-span-3 xl:col-span-1 border-t-2 border-logiclyorange pl-4 xl:pl-6 pt-8 pr-4 xl:pr-8 pb-6 xl:pb-12 bg-logiclylightgrey' : index === 0 }" >
                     <div :class="{ 'mx-4 xl:mx-0 mb-6 xl:mb-0' : index === 0 }">
                       <NuxtLink :to="`${article.link}`">
                         <span class="text-xl xl:text-base font-semibold text-logiclyorange">{{ article.title }}</span>
@@ -67,7 +67,6 @@
 
     <PageSectionEmail
     />
-
 
   </div>
 </template>
@@ -239,8 +238,22 @@ ul.nav.nav-tabs {
   height: 28rem;
 }
 
+.blog-img {
+  height:200px;
+}
+
+.first-blog-img {
+  height:100%;
+}
+
 .most-recent-insight {
   @apply col-span-3;
 }
 
+
+@media only screen and (max-width: 1279px) {
+  .blog-img {
+    height:100%;
+  }
+}
 </style>
