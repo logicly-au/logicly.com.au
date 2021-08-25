@@ -10,7 +10,7 @@
 
       <div class="px-0 xl:px-6">
         <div class="text-center text-logiclytextgrey">
-          <h1 class="text-2xl font-semibold leading-snug text-center pb-2">Thoughtfully designed digital systems that solve your complex data challenges</h1>
+          <h1 class="text-2xl font-semibold leading-snug text-center pb-2">Thoughtfully designed digital systems that solve your complex information challenges</h1>
           <h2 class="font-light text-lg">It’s about being smart, flexible, innovative, collaborative and methodical. <br>Logicly is more than a new business name, it’s a mindset.</h2>
         </div>
       </div>
@@ -64,7 +64,7 @@
 
         <div class="col-span-12 pb-2 pl-0 xl:col-span-6 xl:pl-4 xl:-ml-12 xl:pb-16">
           <h3 class="pt-4 pb-3 text-xl font-bold text-logiclytheme1 xl:pt-0 xl:-mt-2">In the beginning…</h3>
-          <p class="text-sm font-light pb-2">In 1996 eBay was launched, Pokémon was born and DVDs were released. The internet existed, but unrecognisable without Google, social media and Wikipedia.</p>
+          <p class="text-sm font-light pb-2">In 1996 eBay was launched, Pokémon was born and DVDs were released. The internet existed, but it was unrecognisable without Google, social media and Wikipedia.</p>
           <p class="text-sm font-light">This was the year that Strategic Data set up operations in a spare bedroom, on a mission to improve the way data was being collected, used and interpreted. With ingenuity, late nights and youthful enthusiasm, we rigged up a pair of bleeding edge Pentium computers to support the new PTSD research facility at the Austin Repatriation Hospital.</p>
         </div>
 
@@ -216,7 +216,7 @@
       <div class="lg:px-4 mt-4">
         <h2 class="font-light text-lg text-center text-logiclytextgrey">Logicly is our new chapter. We bring twenty-five years of knowledge and experience in research, strategy, design and technology to solve complex information challenges. We combine innovative but practical thinking, flexibility and intuitive design, to build digital systems that meet your needs. We do this by approaching each aspect of our work logically.</h2>
       </div>
-    </page-section>    
+    </page-section>
 
 
     <page-section>
