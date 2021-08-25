@@ -17,7 +17,6 @@
             Topics
           </p>
         </div>
-        <!-- TODO Add dropdown menu -->
         <select class="col-span-1 col-start-3 border-b-2 border-logiclyorange bg-logiclylightgrey" v-model="category">
           <option value="" disabled>All categories</option>
           <option v-for="category in categories" :value="category">{{ category }}</option>
@@ -28,35 +27,34 @@
 
 
     <page-section>
-      <!-- Top blog post in grid -->
-      <!-- TODO Change this section to only show the first blog post in the blog post list(cuurently it lists all blog posts in the selected category) -->
-
     <!-- Blog posts grid -->
       <div class="grid grid-cols-12 pt-6 -mb-16 text-logiclytextgrey insights-page">
         <div class="col-span-12 projects-list">
           <ul class='articles'>
-            <div class="grid gap-5 pb-4 lg:grid-cols-3 grid-rows-auto">
+            <div class="grid gap-0 xl:gap-5 pb-4 xl:grid-cols-3 grid-rows-auto">
               <li v-for="(article, index) in filteredArticles" :class="{ 'col-span-3': index === 0 }">
-                <div class="grid grid-cols-1 pb-8" :class="{ 'grid-cols-2' : index === 0 }" >
-                  <div class="col-span-1">
+                <div class="grid grid-cols-1 pb-12" :class="{ 'grid-cols-3' : index === 0 }" >
+                  <div class="col-span-1" :class="{ 'col-span-3 xl:col-span-2' : index === 0 }">
                      <img class="object-cover h-full" :src="article.img" :alt="article.alt" />
                   </div>
-                  <div class="col-span-1" :class="{ 'border-t-8 border-logiclyorange pl-2 bg-logiclylightgrey' : index === 0 }" >
-                    <div>
-                      <span class="text-lg font-semibold lg:text-base text-logiclytheme4">{{ article.title }}</span>
-                    </div>
-                    <div class="pb-2">
-                      <span class="text-sm font-medium">{{ article.author }}</span>
-                      <span class="text-logiclytheme4">|</span>
-                      <span class="text-sm font-normal">{{ article.date }}</span>
-                    </div>
-                    <div class="pb-1">
-                      <span class="text-base font-light lg:text-sm" v-html="`${article.description}`"></span>
-                    </div>
-                    <div>
-                      <span class="text-base font-normal lg:text-sm text-logiclytheme4 hover:underline">
-                        <NuxtLink :to="{ name: 'insights-slug', params: { slug: article.slug } }">Read more</NuxtLink>
-                      </span>
+                  <div class="col-span-1 pt-6" :class="{ 'col-span-3 xl:col-span-1 border-t-2 border-logiclyorange pl-4 pt-8 pr-4 pb-6 xl:pb-12 bg-logiclylightgrey' : index === 0 }" >
+                    <div :class="{ 'mx-4 xl:mx-0 mb-6 xl:mb-0' : index === 0 }">
+                      <NuxtLink :to="`${article.link}`">
+                        <span class="text-xl xl:text-base font-semibold text-logiclyorange">{{ article.title }}</span>
+                      </NuxtLink>
+                      <div class="pt-1 xl:pt-0 pb-4 xl:pb-2" :class="{ 'xl:pb-2 mt-4' : index === 0 }">
+                        <span class="text-sm font-medium">{{ article.author }}</span>
+                        <span class="text-logiclyorange">|</span>
+                        <span class="text-sm font-normal">{{ article.date }}</span>
+                      </div>
+                      <div class="pb-1">
+                        <span class="text-base xl:text-sm font-light" v-html="`${article.description}`"></span>
+                      </div>
+                      <div>
+                        <span class="text-base xl:text-sm text-logiclyorange hover:underline">
+                          <NuxtLink :to="{ name: 'insights-slug', params: { slug: article.slug } }">Read more</NuxtLink>
+                        </span>
+                      </div>
                     </div>
                   </div>
                 </div>
