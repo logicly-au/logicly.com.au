@@ -13,7 +13,7 @@ category: Research
 <div class="col-span-12 lg:col-span-9 project-text lg:order-last">
 <div>
 
-## We created a network system architecture to provide simple access Australia’s rich cultural heritage to researchers and members of the public
+## We created a network system architecture to provide simple access to Australia’s rich cultural heritage to researchers and members of the public
 
 ### The information challenge
 Deakin University wanted to consolidate 30 of Australia’s most significant cultural and creative arts datasets into a National Virtual Laboratory as part of the Australian government’s NeCTAR (National e-Research Collaboration Tools and Resources) program.
