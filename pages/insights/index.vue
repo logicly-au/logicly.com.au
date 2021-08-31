@@ -39,7 +39,7 @@
                   </div>
                   <div class="col-span-1 pt-6" :class="{ 'col-span-3 xl:col-span-1 border-t-2 border-logiclyorange pl-4 xl:pl-6 pt-8 pr-4 xl:pr-8 pb-6 xl:pb-12 bg-logiclylightgrey' : index === 0 }" >
                     <div :class="{ 'mx-4 xl:mx-0 mb-6 xl:mb-0' : index === 0 }">
-                      <NuxtLink :to="`${article.link}`">
+                      <NuxtLink :to="{ name: 'insights-slug', params: { slug: article.slug } }">
                         <span class="text-xl xl:text-base font-semibold text-logiclyorange">{{ article.title }}</span>
                       </NuxtLink>
                       <div class="pt-1 xl:pt-0 pb-4 xl:pb-2" :class="{ 'xl:pb-2 mt-4' : index === 0 }">
