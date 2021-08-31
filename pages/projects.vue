@@ -12,7 +12,7 @@
     <!-- {{ activeTab }} -->
     <page-section altrow>
       <div class="pb-12">
-        <h2 class="text-2xl font-semibold text-center text-logiclytextgrey">
+        <h2 class="text-2xl font-semibold text-center text-logiclytextgrey -mb-8">
           Our diverse projects are from a range of sectors
         </h2>
       </div>
@@ -46,25 +46,11 @@
 
         <!-- TODO Add mobile version of project-list -->
         <!-- Project list mobile -->
-        <div class="block col-span-12 lg:hidden">
-
+        <div class="block col-span-12 lg:hidden mb-10">
           <select class='articles-select' @change="setActiveArticle(activeArticleIndex)" v-model="activeArticleIndex">
+            <option value="0" disabled>Select project</option>
             <option v-for="(article, index) in articles" :value="index">{{ article.title }}</option>
           </select>
-
-          <ul class='articles'>
-            <li @click="setActiveArticle(index)" v-for="(article, index) in articles" :class="{ 'articles-active': isActiveArticle(index) }">
-              <div class="grid grid-cols-12 pb-2">
-                <div class="col-span-1 ml-2 -mt-1 text-2xl">
-                  >
-                </div>
-                <div class="col-span-11 cursor-pointer">
-                  <span class="font-semibold">{{ article.title }}</span></br>
-                  <span class="font-light">{{ article.description }}</span>
-                </div>
-              </div>
-            </li>
-          </ul>
         </div>
 
         <!-- Project list desktop -->
@@ -340,6 +326,12 @@ export default {
 .projectsector {
   width:5.6rem;
   }
+}
+
+.articles-select {
+  width:100%;
+  border: 1px solid #E9E8E1;
+  padding: 10px 0px 10px 10px;
 }
 
 </style>
