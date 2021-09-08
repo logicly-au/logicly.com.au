@@ -1,8 +1,7 @@
 <template>
   <div v-if="show" class="flex">
-    <!-- <h1>Why is Strategic Data now called Logicly? We do have <a href="/linkhere">a good reason</a></h1> -->
     <div class="flex-auto">
-      <h1 class="py-3 text-center">Strategic Data is now called Logicly</h1>
+      <h1 class="py-3 text-center rebrand-notification">Strategic Data is now called Logicly. <NuxtLink to="/whylogicly">Find out why!</nuxtlink></h1>
     </div>
     <button class="flex-initial pr-3 text-xl text-logiclyorange" @click="show = false">&#10005;</button>
   </div>
@@ -29,4 +28,17 @@ export default {
 </script>
 
 <style scoped>
+.rebrand-notification a {
+  color:#E6332A!important;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.rebrand-notification a:hover {
+  text-decoration: underline;
+}
+
+.rebrand-notification a:visited {
+  color:#A83914!important;
+}
 </style>
