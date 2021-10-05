@@ -80,14 +80,14 @@ If you’re feeling a little overwhelmed by the data challenge you’re facing, 
 ## What makes a data challenge complex?
 There are many factors that contribute to data complexity. In this article, we’ll focus on our top four, using an example project to bring it all to life.
 
-<div class="bg-logiclylightgrey px-12 pt-6 pb-6 my-4">
+<div class="bg-logiclylightgrey pl-6 sm:pl-12 pr-6 sm:pr-16 pt-4 sm:pt-12 pb-6 my-4">
 
 ## PROJECT SPOTLIGHT:
-<div class="font-semibold text-sm pr-12 pt-2">A thrice-yearly census for over 70,000 pre-school children and teachers</div>
+<div class="font-semibold text-sm pr-12">A thrice-yearly census for over 70,000 pre-school children and teachers</div>
 
 <span class="text-sm">The Department of Education and Training needed a sophisticated and accessible data management system to securely collect and store the personal details and routines of around 72,000 children and their teachers. Our solution was quickly implemented across the state, and insights gathered continue to inform decisions for early-learning strategy and policy.</span>
 
-<div class="pt-2 text-sm">
+<div class="pt-1 text-sm">
 
 <NuxtLink to="/projects/?article=0&tab=3">Learn more</NuxtLink>
 </div>
@@ -106,7 +106,7 @@ Using our project example, the key data need was recording the number of childre
 
 ### 2. The number of submitters and their varying contexts
 
-The success of most data projects relies heavily on people submitting accurate data, and people cannot always be relied on to do so.  In many settings, there can be inadequate IT skills, insufficient IT infrastructure and scarce human resources. In the project example, we created an intuitive interface and offered a helpdesk to support them but without doubt, managing people can be a large contributor to the complexity of any project.
+The success of most data projects relies heavily on people submitting accurate data, and people cannot always be relied on to do so. In many settings, there can be inadequate IT skills, insufficient IT infrastructure and scarce human resources. In the project example, we created an intuitive interface and offered a helpdesk to support them but without doubt, managing people can be a large contributor to the complexity of any project.
 
 ### 3. Sheer volume of data
 
@@ -123,7 +123,6 @@ So, if you’ve established that your data challenge is a complex one, what shou
 You can investigate the many “software as a service” platforms to see if they suit your project needs. You can buy a licence and customise your own solution and if you have the appropriate in-house skills, this can be a very effective option. We’ll let you know during early conversations if we think an off-the-shelf solution might work for you.
 
 ## When to get help.
-
 Sometimes you’ll need to engage an expert to get a successful outcome. If any of these points resonate, it’s probably time to raise your hand:
 <div class="blog-text-list">
 <ul>
@@ -136,27 +135,22 @@ Sometimes you’ll need to engage an expert to get a successful outcome. If any 
 </div>
 
 ## More example projects.
-
 Reading through some more of our past work might give you some ideas on how to tackle your own project. Here a few more examples of our work with corporate and government clients, and there’s plenty more on <NuxtLink to="/projects">our website</NuxtLink>.
 
 
 ### Secure data management for complex stakeholder environments
-We partnered with the Department of Health and over 30 entities in the primary health regional network to consolidate different health service datasets in a new, secure, more accessible information system. We navigated the state’s differing laws and statutory requirements to develop an intuitive, feature-rich, national platform in just 6 months.
-
+We partnered with the Department of Health and over 30 entities in the primary health regional network to consolidate different health service datasets in a new, secure, more accessible information system. We navigated the state’s differing laws and statutory requirements to develop an intuitive, feature-rich, national platform in just 6 months.<br>
 <NuxtLink to="/projects/?article=3&tab=1">Learn more</NuxtLink>
 
 
 ### Sophisticated algorithms to protect vulnerable participants
-When we worked with the University of Melbourne’s Centre for Mental Health, we developed an automated alert function to notify study psychologists where specialised and urgent care interventions may be needed to keep participants safe. Our sophisticated algorithms recommended appropriate treatment and longitudinal data collection tracked changes over time.
-
+When we worked with the University of Melbourne’s Centre for Mental Health, we developed an automated alert function to notify study psychologists where specialised and urgent care interventions may be needed to keep participants safe. Our sophisticated algorithms recommended appropriate treatment and longitudinal data collection tracked changes over time.<br>
 <NuxtLink to="/projects/?article=0&tab=0">Learn more</NuxtLink>
 
 
 ### Goodbye forms and spreadsheets, hello web platform
-  We worked with the National Australia Bank to build a system that creates and delivers personalised performance management surveys to its 40,000+ strong workforce. Our solution analyses the high volumes of data efficiently and communicates the results in accessible reports. It’s a robust, flexible end-to-end tool that will adapt as the organisation’s needs change.
-
+We worked with the National Australia Bank to build a system that creates and delivers personalised performance management surveys to its 40,000+ strong workforce. Our solution analyses the high volumes of data efficiently and communicates the results in accessible reports. It’s a robust, flexible end-to-end tool that will adapt as the organisation’s needs change.<br>
 <NuxtLink to="/projects/?article=0&tab=5">Learn more</NuxtLink>
-
 
 
 ## Want to chat about your project?
