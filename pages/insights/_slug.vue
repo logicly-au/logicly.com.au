@@ -1,13 +1,17 @@
 <template>
   <div class="article">
 
-    <Hero
-      heading="INSIGHTS"
-      subheading="In depth articles, discussions and thoughts on innovative digital systems, projects and topics of interest from our team."
-      background-url="/Logicly_website_photos_header-14.jpg"
-      black
-      overlay
-    />
+    <AspectRatio
+      ar="13:4"
+      width="100%"
+      :style="{ backgroundSize: 'cover', backgroundImage: `url(${article.imgheader})` }"
+    >
+      <page-section :altrow="altrow" :overlay="overlay">
+        <div class="w-full h-full">
+        </div>
+      </page-section>
+
+    </AspectRatio>
 
     <page-section altrow>
       <ul>

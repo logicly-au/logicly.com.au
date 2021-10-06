@@ -6,6 +6,7 @@ author: Adam Clarke
 jobtitle: Director/Senior Consultant/CTO
 date: 10 Mar 2021
 img: /AMHOCN-coworkers-meeting-with-coworker-online.jpg
+imgheader: /7-tips-to-set-your-public-sector-digital-transformation-project-up-for-success-header.jpg
 alt: AMHOC image
 link: /insights_new/?article=0&tab=1
 category: Digital transformation
