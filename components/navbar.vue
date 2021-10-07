@@ -9,7 +9,7 @@
       <NuxtLink to="/" class="self-start"><logo /></NuxtLink>
       <nav id="menu">
         <li><NuxtLink to="/" v-on:click.native="close_all_menu()" class="hover:underline">home</NuxtLink></li>
-        <li class="drop"><a v-on:click="display_drop_menu()" class="cursor-pointer" :class="{ 'nuxt-link-exact-active': aboutActive }">about <i class="chevron-down"></i></a>
+        <li class="drop"><a v-on:click="display_drop_menu()" class="cursor-pointer" :class="{ 'nuxt-link-exact-active': aboutActive }">about</a><i class="chevron-down"></i>
           <ul class="drop_menu">
             <NuxtLink to="/about/us" class="hover:underline" v-on:click.native="close_all_menu()">about us</NuxtLink>
             <NuxtLink to="/about/ourapproach" class="hover:underline" v-on:click.native="close_all_menu()">our approach</NuxtLink>
