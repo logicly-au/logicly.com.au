@@ -1,9 +1,9 @@
 <template>
   <div>
 
-    <Herobottomright
+    <Heroindex
       heading="We help you meet your complex information challenges"
-      background-url="/Logicly-meet-your-complex-information-challenges-header.jpg"
+      background-url="/Logicly_website_design_New_Header_Final.jpg"
     />
 
     <Herotextnoimage
