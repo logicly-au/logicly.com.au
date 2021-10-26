@@ -3,7 +3,11 @@
 
     <Heroindex
       heading="We help you meet your complex information challenges"
+<<<<<<< HEAD
       background-url="/Logicly-meet-your-complex-information-challenges-hero-v2.jpg"
+=======
+      background-url="/Logicly_website_design_New_Header_Final.jpg"
+>>>>>>> Adding new hero image to index page
     />
 
     <Herotextnoimage
