@@ -3,7 +3,7 @@
 
     <Heroindex
       heading="We help you meet your complex information challenges"
-      background-url="/Logicly-meet-your-complex-information-challenges-header-index.jpg"
+      background-url="/Logicly-meet-your-complex-information-challenges-hero-v2.jpg"
     />
 
     <Herotextnoimage
