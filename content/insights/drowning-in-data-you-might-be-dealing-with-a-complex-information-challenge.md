@@ -12,9 +12,9 @@ author: Andrew Gordon
 jobtitle: Business Development Manager
 date: 22 Dec 2020
 img: /Victorian-Department-of-Education-and-Training-teacher-working-on-computer.jpg
-imgheader: /drowning-in-data-you-might-be-dealing-with-a-complex-information-challenge-header.jpg
 alt: Victorian Department of Education and Training image
-link: /insights_new/?article=0&tab=0
+imgheader: /drowning-in-data-you-might-be-dealing-with-a-complex-information-challenge-header.jpg
+link: /insights/drowning-in-data-you-might-be-dealing-with-a-complex-information-challenge
 category: Complex data
 ---
 

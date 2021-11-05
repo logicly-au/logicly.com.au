@@ -6,9 +6,9 @@ author: Simon Palmer
 jobtitle: Director/Senior Consultant
 date: 29 Mar 2021
 img: /Youth-and-Family-Support-Organisation-coworkers-looking-at-laptop-graph.jpg
-imgheader: /data-is-only-useful-when-its-accurate-header.jpg
 alt: Youth and family support organisation image
-link: "/insights_new/?article=0&tab=6"
+imgheader: /data-is-only-useful-when-its-accurate-header.jpg
+link: /insights/data-is-only-useful-when-its-accurate
 category: Data reliability
 ---
 

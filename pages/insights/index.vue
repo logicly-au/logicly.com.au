@@ -263,6 +263,11 @@ ul.nav.nav-tabs {
   @apply col-span-3;
 }
 
+.blog-graphic {
+  height:7rem;
+  margin:auto;
+  margin-top:8px;
+}
 
 @media only screen and (max-width: 1279px) {
   .blog-img {
