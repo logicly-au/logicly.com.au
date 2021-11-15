@@ -1,6 +1,6 @@
 ---
 title: Co-designing for data success in the public sector
-description: "Collaborative design with internal experts, external experts, stakeholders and users leads to amazing data outcomes. Call 03 9340 9000 for a free consult."
+description: "Collaborative design with internal experts, external experts, stakeholders and users leads to amazing data outcomes."
 author: Michelle Nicholson
 jobtitle: Director/Manager, Business Operations
 date: 23 Jul 2021
@@ -105,7 +105,7 @@ Since the launch of this project, we’ve continued to co-design successful impr
 <span class="m-2">‘We needed to start collecting information about The WayBack program quickly and with as little additional burden on the data providers as possible. The use of an extension onto the PMHC MDS meant that the data providers would use their already existing processes making implementation an easier process. The Logicly Support Service has been invaluable to assist our staff, the data providers and even third-party developers to navigate the data set. Logicly helped us shepherd the project to achieve tight deadlines, talking through complex data challenges using plain language which enabled quick decision making. They also helped us design and implement the reports so that we can get the information we need for our own reporting processes in the format we need quickly.’</span> <br><span class="text-sm italic">- Jennifer Smith, Project Manager, The Way Back Support Service Strategy & Infrastructure, <a href="https://www.beyondblue.org.au/">Beyond Blue</a></span>
 
 ## Are you ready to co-design your next data system?
-We’d love to help. And because <NuxtLink to="/whowehelp">we’ve worked with Government</NuxtLink> for decades, we know our way around your procurement, compliance and security systems which will make things easy for you. So, let’s chat about your project. <NuxtLink to="/contactus">Get in touch</NuxtLink> for a free 30-minute consult.
+We’d love to help. And because <NuxtLink to="/whowehelp">we’ve worked with Government</NuxtLink> for decades, we know our way around your procurement, compliance and security systems which will make things easy for you. <NuxtLink to="/contactus">So, let’s chat about your project.</NuxtLink>
 
 </div>
 </div>
