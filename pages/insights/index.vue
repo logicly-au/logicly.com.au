@@ -22,14 +22,14 @@
 
     <!-- Topics section with dropdown -->
     <page-section altrow>
-      <div class="grid grid-cols-3 text-logiclytextgrey mx-0 xl:-mx-20">
+      <div class="grid grid-cols-3 mx-0 text-logiclytextgrey xl:-mx-20">
         <div class="col-span-3 sm:col-span-1">
-          <p class="text-2xl font-semibold text-left text-logiclytextgrey pb-4 sm:pb-0">
+          <p class="pb-4 text-2xl font-semibold text-left text-logiclytextgrey sm:pb-0">
             Topics
           </p>
         </div>
-        <select class="col-span-3 sm:col-span-1 col-start-1 sm:col-start-3 border-b-2 border-logiclyorange bg-logiclylightgrey pb-2 sm:pb-0" v-model="category">
-          <option value="" disabled>All categories</option>
+        <select class="col-span-3 col-start-1 pb-2 border-b-2 sm:col-span-1 sm:col-start-3 border-logiclyorange bg-logiclylightgrey sm:pb-0" v-model="category">
+          <option value="" >All categories</option>
           <option v-for="category in categories" :value="category">{{ category }}</option>
         </select>
       </div>
@@ -38,10 +38,10 @@
 
     <page-section>
     <!-- Blog posts grid -->
-      <div class="grid grid-cols-12 pt-6 -mb-16 text-logiclytextgrey insights-page mx-0 xl:-mx-20">
+      <div class="grid grid-cols-12 pt-6 mx-0 -mb-16 text-logiclytextgrey insights-page xl:-mx-20">
         <div class="col-span-12 projects-list">
           <ul class='articles'>
-            <div class="grid gap-0 xl:gap-5 pb-4 xl:grid-cols-3 grid-rows-auto">
+            <div class="grid gap-0 pb-4 xl:gap-5 xl:grid-cols-3 grid-rows-auto">
               <li v-for="(article, index) in filteredArticles" class="col-span-3 xl:col-span-1" :class="{ 'xl:col-span-3': index === 0 }">
                 <div class="grid grid-cols-1 pb-12" :class="{ 'grid-cols-3' : index === 0 }" >
                   <div class="col-span-1" :class="{ 'col-span-3 xl:col-span-2' : index === 0 }">
@@ -52,15 +52,15 @@
                   <div class="col-span-1 pt-6" :class="{ 'col-span-3 xl:col-span-1 border-t-2 border-logiclyorange pl-2 xl:pl-6 pt-8 pr-2 xl:pr-8 pb-6 xl:pb-12 bg-logiclylightgrey' : index === 0 }" >
                     <div :class="{ 'mx-4 xl:mx-0 mb-6 xl:mb-0' : index === 0 }">
                       <NuxtLink :to="{ name: 'insights-slug', params: { slug: article.slug } }">
-                        <span class="text-lg sm:text-xl xl:text-base font-semibold text-logiclyorange">{{ article.title }}</span>
+                        <span class="text-lg font-semibold sm:text-xl xl:text-base text-logiclyorange">{{ article.title }}</span>
                       </NuxtLink>
-                      <div class="pt-1 xl:pt-0 pb-4 xl:pb-2" :class="{ 'xl:pb-2 mt-4' : index === 0 }">
+                      <div class="pt-1 pb-4 xl:pt-0 xl:pb-2" :class="{ 'xl:pb-2 mt-4' : index === 0 }">
                         <span class="text-sm font-medium">{{ article.author }}</span>
                         <span class="text-logiclyorange">|</span>
                         <span class="text-sm font-normal">{{ article.date }}</span>
                       </div>
                       <div class="pb-1">
-                        <span class="text-base xl:text-sm font-light" v-html="`${article.description}`"></span>
+                        <span class="text-base font-light xl:text-sm" v-html="`${article.description}`"></span>
                       </div>
                       <div>
                         <span class="text-base xl:text-sm text-logiclyorange hover:underline">
