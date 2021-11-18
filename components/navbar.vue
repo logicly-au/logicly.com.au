@@ -8,22 +8,22 @@
       </div>
       <NuxtLink to="/" class="self-start"><logo /></NuxtLink>
       <nav id="menu">
-        <li><NuxtLink to="/" v-on:click.native="close_all_menu()" class="hover:underline">home</NuxtLink></li>
+        <li><NuxtLink to="/" v-on:click.native="display_menu(true);close_all_menu()" class="hover:underline">home</NuxtLink></li>
         <li class="drop"><a v-on:click="display_drop_menu()" class="cursor-pointer" :class="{ 'nuxt-link-exact-active': aboutActive }">about</a><i class="chevron-down"></i>
           <ul class="drop_menu">
-            <NuxtLink to="/about/us" class="hover:underline" v-on:click.native="close_all_menu()">about us</NuxtLink>
-            <NuxtLink to="/about/ourapproach" class="hover:underline" v-on:click.native="close_all_menu()">our approach</NuxtLink>
-            <NuxtLink to="/about/ourteam" class="hover:underline" v-on:click.native="close_all_menu()">our team</NuxtLink>
-            <NuxtLink to="/about/oursecurity" class="hover:underline" v-on:click.native="close_all_menu()">our security</NuxtLink>
-            <NuxtLink to="/about/ourculture" class="hover:underline" v-on:click.native="close_all_menu()">our culture</NuxtLink>
+            <NuxtLink to="/about/us" class="hover:underline" v-on:click.native="display_menu(true);close_all_menu()">about us</NuxtLink>
+            <NuxtLink to="/about/ourapproach" class="hover:underline" v-on:click.native="display_menu(true);close_all_menu()">our approach</NuxtLink>
+            <NuxtLink to="/about/ourteam" class="hover:underline" v-on:click.native="display_menu(true);close_all_menu()">our team</NuxtLink>
+            <NuxtLink to="/about/oursecurity" class="hover:underline" v-on:click.native="display_menu(true);close_all_menu()">our security</NuxtLink>
+            <NuxtLink to="/about/ourculture" class="hover:underline" v-on:click.native="display_menu(true);close_all_menu()">our culture</NuxtLink>
           </ul>
         </li>
-        <li><NuxtLink to="/whowehelp" v-on:click.native="display_menu(true)" class="hover:underline">who we help</NuxtLink></li>
-        <li><NuxtLink to="/whatwedo" v-on:click.native="display_menu(true)" class="hover:underline">what we do</NuxtLink></li>
-        <li><NuxtLink to="/howwework" v-on:click.native="display_menu(true)" class="hover:underline">how we work</NuxtLink></li>
-        <li><NuxtLink to="/projects" exact-path v-on:click.native="display_menu(true)" class="hover:underline">projects</NuxtLink></li>
-        <li><NuxtLink to="/insights" v-on:click.native="display_menu(true)" class="hover:underline">insights</NuxtLink></li>
-        <li><NuxtLink to="/contactus" v-on:click.native="display_menu(true)" class="hover:underline">contact us</NuxtLink></li>
+        <li><NuxtLink to="/whowehelp" v-on:click.native="display_menu(true);close_all_menu()" class="hover:underline">who we help</NuxtLink></li>
+        <li><NuxtLink to="/whatwedo" v-on:click.native="display_menu(true);close_all_menu()" class="hover:underline">what we do</NuxtLink></li>
+        <li><NuxtLink to="/howwework" v-on:click.native="display_menu(true);close_all_menu()" class="hover:underline">how we work</NuxtLink></li>
+        <li><NuxtLink to="/projects" exact-path v-on:click.native="display_menu(true);close_all_menu()" class="hover:underline">projects</NuxtLink></li>
+        <li><NuxtLink to="/insights" v-on:click.native="display_menu(true);close_all_menu()" class="hover:underline">insights</NuxtLink></li>
+        <li><NuxtLink to="/contactus" v-on:click.native="display_menu(true);close_all_menu()" class="hover:underline">contact us</NuxtLink></li>
       </nav>
     </div>
   </header>
