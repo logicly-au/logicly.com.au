@@ -8,72 +8,30 @@
       overlay
     />
 
-
-    <!-- {{ activeTab }} -->
     <page-section altrow>
       <div class="pb-12">
         <h2 class="text-2xl font-semibold text-center text-logiclytextgrey -mb-8">
           Our diverse projects are from a range of sectors
         </h2>
       </div>
-      <div class="project-page lg:-mx-4 xl:-mx-0">
-        <vue-tabs ref="tabs" @tab-change="setActiveTab" v-model="activeTab">
-          <v-tab v-for="category in categories" :id="category" :title="category" :key="category" class="flex">
-            <template #title>
-              <div class="px-4 pt-10 projectsector">
-                <div class="flex justify-center">
-                  <img v-if="activeTab == category" :src="'/Projects_' + category + '_selected.svg'" class="h-10" />
-                  <img v-else :src="'/Projects_' + category + '.svg'" class="h-10" />
-                </div>
-                <div class="pt-2 text-xs font-medium text-center sm:text-sm text-logiclytextgrey">
-                  {{ category }}
-                </div>
-              </div>
-            </template>
-          </v-tab>
-        </vue-tabs>
+      <div class="flex justify-evenly">
+        <button @click.prevent="$router.push({ path: '/projects/' + category })" class="flex flex-col" v-for="category in categories">
+
+          <div class="flex self-center">
+            <img v-if="$route.params.slug == category" :src="'/Projects_' + category + '_selected.svg'" class="h-10" />
+            <img v-else :src="'/Projects_' + category + '.svg'" class="h-10" />
+          </div>
+          <div class="pt-2 text-xs font-medium text-center sm:text-sm text-logiclytextgrey capitalize">
+            {{ category }}
+          </div>
+
+        </button>
       </div>
     </page-section>
 
 
     <page-section>
-      <div class="grid grid-cols-12 pt-6 -mb-16 border-t-2 border-b-2 border-logiclyorange text-logiclytextgrey project-page">
-
-        <div class="hidden col-span-4 text-xl font-semibold lg:block">
-          {{ activeTab }}
-          projects
-        </div>
-
-        <!-- TODO Add mobile version of project-list -->
-        <!-- Project list mobile -->
-        <div class="block col-span-12 lg:hidden mb-10">
-          <select class='articles-select' @change="setActiveArticle(activeArticleIndex)" v-model="activeArticleIndex">
-            <option value="0" disabled>Select project</option>
-            <option v-for="(article, index) in articles" :value="index">{{ article.title }}</option>
-          </select>
-        </div>
-
-        <!-- Project list desktop -->
-        <div class="hidden col-span-8 lg:block projects-list">
-          <ul class='articles'>
-            <li @click="setActiveArticle(index)" v-for="(article, index) in articles" :class="{ 'articles-active': isActiveArticle(index) }">
-              <div class="grid grid-cols-12 pb-2">
-                <div class="col-span-1 ml-2 -mt-1 text-2xl font-light">
-                  >
-                </div>
-                <div class="col-span-11 col-start-2 cursor-pointer xl:col-span-10 hover:underline">
-                  <span class="font-semibold">{{ article.title }}</span></br>
-                  <span class="text-sm font-light xl:text-base">{{ article.description }}</span>
-                </div>
-              </div>
-            </li>
-          </ul>
-        </div>
-
-        <div class="col-span-12">
-          <nuxt-content :document="activeArticle" />
-        </div>
-      </div>
+        <NuxtChild />
     </page-section>
 
     <CTA
@@ -89,18 +47,7 @@
 export default {
   data() {
     return {
-      activeTab: '',
-      activeTabIndex: 0,
-      activeArticleIndex: 0,
       articles: [],
-      categories: [
-        'Research',
-        'Government',
-        'Health',
-        'Education',
-        'Non-Government',
-        'Corporate',
-      ],
     };
   },
   head() {
@@ -109,30 +56,12 @@ export default {
     };
   },
   computed: {
-    activeArticle() {
-      return this.articles[this.activeArticleIndex];
+    categories() {
+      return new Set(this.articles.map(article => article.category).sort());
     },
   },
-  methods: {
-    setActiveArticle(index) {
-      this.activeArticleIndex = index;
-      this.$router.push({path: this.$route.path, query: { article: index, tab: this.activeTabIndex }});
-    },
-    isActiveArticle(index) {
-      return (this.activeArticleIndex == index);
-    },
-    async setActiveTab(newIndex) {
-      this.activeArticleIndex = 0;
-      this.activeTabIndex     = newIndex;
-      this.activeTab          = this.categories[this.activeTabIndex];
-      this.articles           = await this.$content('projects').where({ category: this.activeTab }).sortBy('title', 'asc').fetch();
-
-      this.$router.push({path: this.$route.path, query: { tab: newIndex, article: this.activeArticleIndex }});
-    },
-  },
-   created() {
-     this.setActiveTab(this.$route.query.tab || 0);
-     this.setActiveArticle(this.$route.query.article || 0);
+   async created() {
+     this.articles = await this.$content('projects').fetch();
   },
 }
 </script>

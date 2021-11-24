@@ -1,7 +1,7 @@
 ---
 title: The Australian Mental Health Outcome and Classification Network (AMHOCN)
 description: An evolving data management system that is the sum of its interconnected parts
-category: Government
+category: government
 ---
 <div class="grid grid-cols-12">
 

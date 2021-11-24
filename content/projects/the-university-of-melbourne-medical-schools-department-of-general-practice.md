@@ -1,7 +1,7 @@
 ---
 title: The University of Melbourne Medical School’s Department of General Practice
 description: Insights for innovative paths to better health
-category: Research
+category: research
 ---
 
 <div class="grid grid-cols-12">

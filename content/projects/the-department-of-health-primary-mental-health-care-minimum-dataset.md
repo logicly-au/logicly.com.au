@@ -1,7 +1,7 @@
 ---
 title: The Department of Health (DoH)’s Primary Mental Health Care Minimum Dataset
 description: Clarity for understanding and improving national health
-category: Government
+category: government
 ---
 <div class="grid grid-cols-12">
 
