@@ -25,7 +25,7 @@
         <li><NuxtLink to="/whowehelp" v-on:click.native="display_menu(true);close_all_menu()" class="hover:underline">who we help</NuxtLink></li>
         <li><NuxtLink to="/whatwedo" v-on:click.native="display_menu(true);close_all_menu()" class="hover:underline">what we do</NuxtLink></li>
         <li><NuxtLink to="/howwework" v-on:click.native="display_menu(true);close_all_menu()" class="hover:underline">how we work</NuxtLink></li>
-        <li><NuxtLink to="/projects" exact-path v-on:click.native="display_menu(true);close_all_menu()" class="hover:underline">projects</NuxtLink></li>
+        <li><NuxtLink to="/projects/corporate" exact-path v-on:click.native="display_menu(true);close_all_menu()" class="hover:underline">projects</NuxtLink></li>
         <li><NuxtLink to="/insights" v-on:click.native="display_menu(true);close_all_menu()" class="hover:underline">insights</NuxtLink></li>
         <li><NuxtLink to="/contactus" v-on:click.native="display_menu(true);close_all_menu()" class="hover:underline">contact us</NuxtLink></li>
       </nav>
