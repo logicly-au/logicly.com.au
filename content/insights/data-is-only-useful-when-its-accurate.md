@@ -9,7 +9,8 @@ img: /Youth-and-Family-Support-Organisation-coworkers-looking-at-laptop-graph.jp
 alt: Youth and family support organisation image
 imgheader: /data-is-only-useful-when-its-accurate-header.jpg
 link: /insights/data-is-only-useful-when-its-accurate
-category: Data reliability
+categories:
+  - Data reliability
 ---
 
 <div class="grid grid-cols-12">

@@ -8,7 +8,8 @@ img: /co-designing-for-data.jpg
 alt: Department of Health Primary Mental Health Care Minimum Dataset
 imgheader: /co-designing-for-data-header.jpg
 link: /insights/getting-great-data-through-user-experience-design
-category: Digital transformation
+categories:
+  - Digital transformation
 ---
 
 <div class="grid grid-cols-12">

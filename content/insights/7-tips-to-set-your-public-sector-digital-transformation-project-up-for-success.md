@@ -9,7 +9,8 @@ img: /AMHOCN-coworkers-meeting-with-coworker-online.jpg
 alt: AMHOC image
 imgheader: /7-tips-to-set-your-public-sector-digital-transformation-project-up-for-success-header.jpg
 link: /insights/7-tips-to-set-your-public-sector-digital-transformation-project-up-for-success
-category: Digital transformation
+categories:
+  - Digital transformation
 ---
 
 <div class="grid grid-cols-12">
