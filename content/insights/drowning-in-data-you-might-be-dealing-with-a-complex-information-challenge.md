@@ -15,7 +15,8 @@ img: /Victorian-Department-of-Education-and-Training-teacher-working-on-computer
 alt: Victorian Department of Education and Training image
 imgheader: /drowning-in-data-you-might-be-dealing-with-a-complex-information-challenge-header.jpg
 link: /insights/drowning-in-data-you-might-be-dealing-with-a-complex-information-challenge
-category: Complex data
+categories: 
+  - Complex data
 ---
 
 <div class="grid grid-cols-12">

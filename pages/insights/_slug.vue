@@ -18,7 +18,13 @@
         <li>
           <div class="grid grid-cols-12">
             <div class="col-span-12 lg:col-span-3 text-logiclytextgrey">
-              <h2 class="pb-2 font-semibold">{{ article.category }}</h2>
+              <ul>
+                <li v-for="(category, index) in article.categories">
+                  <h2 class="pb-2 font-semibold">
+                    {{ category }}
+                  </h2>
+                </li>
+              </ul>
             </div>
             <div class="col-span-12 lg:col-span-9 lg:col-start-4 lg:pl-6 blogheading">
               <h1 class="pb-5 text-xl font-semibold leading-tight text-logiclyorange">{{ article.title }}</h1>
@@ -149,7 +155,7 @@ export default {
   methods: { },
   async asyncData({ $content, params }) {
     const article = await $content('insights', params.slug).fetch();
-    const related = await $content('insights').where({'category': article.category, 'slug': { $ne: article.slug }}).fetch();
+    const related = await $content('insights').where({'categories': { $containsAny: article.categories }, 'slug': { $ne: article.slug }}).fetch();
 
     return { article, related };
   },
