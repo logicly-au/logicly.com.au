@@ -99,11 +99,15 @@ export default {
   },
   computed: {
     categories() {
-      return this.articles.map(insight => insight.category).sort();
+      let categories = this.articles.reduce((accum, item) => {
+        return accum.concat(item.categories);
+      }, []);
+
+      return new Set(categories);
     },
 
     filteredArticles() {
-      return this.category ? this.articles.filter(article => article.category == this.category) : this.articles;
+      return this.category ? this.articles.filter(article => article.categories.indexOf(this.category) !== -1) : this.articles;
     },
   },
   methods: { },
