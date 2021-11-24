@@ -1,7 +1,7 @@
 ---
 title: Victorian Department of Education and Training
 description: Safe and complex data collection at scale
-category: Education
+category: education
 ---
 <div class="grid grid-cols-12">
 

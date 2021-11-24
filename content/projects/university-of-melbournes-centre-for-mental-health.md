@@ -1,7 +1,7 @@
 ---
 title: University of Melbourne’s Centre for Mental Health
 description: Collecting critical insights safely and securely
-category: Research
+category: research
 ---
 
 <div class="grid grid-cols-12">

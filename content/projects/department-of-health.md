@@ -1,7 +1,7 @@
 ---
 title: Department of Health
 description: Efficiently processing and securing highly sensitive data
-category: Government
+category: government
 ---
 <div class="grid grid-cols-12">
 

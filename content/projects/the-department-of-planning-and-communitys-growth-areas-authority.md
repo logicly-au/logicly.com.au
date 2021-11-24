@@ -1,7 +1,7 @@
 ---
 title: The Department of Planning and Community’s Growth Areas Authority (GAA)
 description: An agile response to multiplying complexity
-category: Government
+category: government
 ---
 <div class="grid grid-cols-12">
 
