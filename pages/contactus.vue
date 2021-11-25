@@ -55,13 +55,13 @@
         <div class="grid col-span-3 lg:col-span-1 lg:grid-rows-3">
           <div>
             <div class="w-20 mx-auto md:w-20 lg:w-20">
-              <a href="mailto:info@strategicdata.com.au">
+              <a href="mailto:info@logicly.com.au">
                 <img src="~/assets/images/Email_us.svg"/>
               </a>
             </div>
           </div>
           <div>
-            <a href="mailto:info@strategicdata.com.au">
+            <a href="mailto:info@logicly.com.au">
               <p class="mt-2 text-xl font-medium text-center text-logiclytextgrey">
                 Email us
               </p>
@@ -70,8 +70,8 @@
           </div>
           <div>
             <p class="mt-2 text-center text-logiclytheme2 hover:underline lg:-mt-2">
-              <a href="mailto:info@strategicdata.com.au">
-                info@strategicdata.com.au
+              <a href="mailto:info@logicly.com.au">
+                info@logicly.com.au
               </a>
             </p>
             <hr class="block w-full mx-auto mt-12 mb-12 border lg:hidden border-logiclyorange lg:mt-6">

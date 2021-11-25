@@ -12,7 +12,7 @@
               </div>
               <div>
                 <a href="tel:0061393409000" class="block">+61 3 9340 9000</a>
-                <a href="mailto:info@strategicdata.com.au">info@strategicdata.com.au</a>
+                <a href="mailto:info@logicly.com.au">info@logicly.com.au</a>
                 <span class="block">2nd floor, 51 – 55 Johnston Street,</span>
                 <span class="block">Fitzroy, Victoria 3065, Australia</span>
                 <span class="block">PO Box 1166, Carlton, Victoria 3053, Australia</span>

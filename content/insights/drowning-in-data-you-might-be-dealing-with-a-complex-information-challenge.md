@@ -48,7 +48,7 @@ Share
 </div>
 
 <div class="col-span-1">
-<a href="mailto:info@strategicdata.com.au">
+<a href="mailto:info@logicly.com.au">
 <img class="h-4" src="/Email.svg" />
 </a>
 </div>
