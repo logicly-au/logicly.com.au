@@ -10,6 +10,7 @@ alt: AMHOC image
 imgheader: /7-tips-to-set-your-public-sector-digital-transformation-project-up-for-success-header.jpg
 link: /insights/7-tips-to-set-your-public-sector-digital-transformation-project-up-for-success
 categories:
+  - Public Sector
   - Digital transformation
 ---
 
