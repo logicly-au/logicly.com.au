@@ -18,8 +18,8 @@
         <button @click.prevent="$router.push({ path: '/projects/' + category })" class="flex flex-col py-2 md:py-0" v-for="category in categories">
 
           <div class="flex self-center">
-            <img v-if="$route.params.slug == category" :src="'/Projects_' + category + '_selected.svg'" class="h-10" />
-            <img v-else :src="'/Projects_' + category + '.svg'" class="h-10" />
+            <img v-if="$route.params.slug == category" :src="'/Projects_' + capitalize(category) + '_selected.svg'" class="h-10" />
+            <img v-else :src="'/Projects_' + capitalize(category) + '.svg'" class="h-10" />
           </div>
           <div class="pt-2 text-xs font-medium text-center capitalize sm:text-sm text-logiclytextgrey">
             {{ category }}
@@ -54,6 +54,11 @@ export default {
     return {
       title: "Projects · Logicly"
     };
+  },
+  methods: {
+    capitalize(str) {
+      return str.charAt(0).toUpperCase() + str.slice(1);
+    },
   },
   computed: {
     categories() {

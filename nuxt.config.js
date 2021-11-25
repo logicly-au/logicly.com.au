@@ -81,9 +81,16 @@ export default {
   generate: {
     async routes() {
       const { $content } = require("@nuxt/content");
-      const files = await $content({ deep: true }).only(["path"]).fetch();
 
-      return files.map((file) => (file.path === "/index" ? "/" : file.path));
+      const insights = await $content("insights").only(["path"]).fetch();
+      let insightsRoutes = insights.map((file) =>
+        file.path === "/index" ? "/" : file.path
+      );
+
+      const projects = await $content("projects").only(["category"]).fetch();
+      let projectsRoutes = projects.map((file) => `/projects/${file.category}`);
+
+      return [...insightsRoutes, ...projectsRoutes];
     },
   },
 };
