@@ -14,12 +14,12 @@
           Our diverse projects are from a range of sectors
         </h2>
       </div>
-      <div class="flex items-center flex-col justify-evenly md:flex-row">
+      <div class="flex flex-col items-center justify-evenly md:flex-row">
         <button @click.prevent="$router.push({ path: '/projects/' + category })" class="flex flex-col py-2 md:py-0" v-for="category in categories">
 
           <div class="flex self-center">
-            <img v-if="$route.params.slug == category" :src="'/Projects_' + capitalize(category) + '_selected.svg'" class="h-10" />
-            <img v-else :src="'/Projects_' + capitalize(category) + '.svg'" class="h-10" />
+            <img v-if="$route.params.slug == category" :src="'/Projects_' + capitalize(category) + '_selected.svg'" class="h-10 filter-orange" />
+            <img v-else :src="'/Projects_' + capitalize(category) + '.svg'" class="h-10 filter-orange" />
           </div>
           <div class="pt-2 text-xs font-medium text-center capitalize sm:text-sm text-logiclytextgrey">
             {{ category }}
@@ -74,6 +74,12 @@ export default {
 </script>
 
 <style>
+
+/* On hover change SVG colour */
+.filter-orange:hover {
+  filter: invert(34%) sepia(48%) saturate(3112%) hue-rotate(354deg) brightness(97%) contrast(89%);
+}
+/* End SVG fix */
 
 .project-page p {
   font-weight:300;
