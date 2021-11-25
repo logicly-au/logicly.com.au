@@ -14,8 +14,8 @@
           Our diverse projects are from a range of sectors
         </h2>
       </div>
-      <div class="flex justify-evenly">
-        <button @click.prevent="$router.push({ path: '/projects/' + category })" class="flex flex-col" v-for="category in categories">
+      <div class="flex items-center flex-col justify-evenly md:flex-row">
+        <button @click.prevent="$router.push({ path: '/projects/' + category })" class="flex flex-col py-2 md:py-0" v-for="category in categories">
 
           <div class="flex self-center">
             <img v-if="$route.params.slug == category" :src="'/Projects_' + category + '_selected.svg'" class="h-10" />
