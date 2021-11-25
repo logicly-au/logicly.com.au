@@ -18,7 +18,13 @@
         <li>
           <div class="grid grid-cols-12">
             <div class="col-span-12 lg:col-span-3 text-logiclytextgrey">
-              <h2 class="pb-2 font-semibold">{{ article.category }}</h2>
+              <ul>
+                <li v-for="(category, index) in article.categories">
+                  <h2 class="pb-2 font-semibold">
+                    {{ category }}
+                  </h2>
+                </li>
+              </ul>
             </div>
             <div class="col-span-12 lg:col-span-9 lg:col-start-4 lg:pl-6 blogheading">
               <h1 class="pb-5 text-xl font-semibold leading-tight text-logiclyorange">{{ article.title }}</h1>
@@ -81,46 +87,6 @@
           </div>
         </div>
       </div>
-
-      <!-- TODO: Make this section show articles in the same category/topic -->
-      <div class="mt-6 border-t-2 border-logiclyorange lg:mt-16">
-        <div class="grid grid-cols-12 mt-10 lg:mt-12">
-          <div class="col-span-12 lg:col-span-3">
-            <p class="pb-8 text-lg font-semibold lg:text-base text-logiclytextgrey lg:pb-0">
-              Related articles
-            </p>
-          </div>
-          <div class="col-span-12 lg:col-span-9 lg:col-start-4 lg:pl-10">
-            <ul>
-              <div class="grid gap-5 lg:grid-cols-2 grid-rows-auto">
-                <li @click="setActiveArticle(index)" v-for="(article, index) in articles" :class="{ 'articles-active': isActiveArticle(index) }">
-                  <div class="">
-                    <div class="pb-5">
-                       <img class="w-full" :src="article.img" :alt="article.alt" />
-                    </div>
-                    <div>
-                      <span class="text-lg font-semibold lg:text-base text-logiclyorange">{{ article.title }}</span>
-                    </div>
-                    <div class="pb-2">
-                      <span class="text-sm font-medium">{{ article.author }}</span>
-                      <span class="text-logiclyorange">|</span>
-                      <span class="text-sm font-normal">{{ article.date }}</span>
-                    </div>
-                    <div class="pb-2">
-                      <span class="text-base font-light lg:text-sm" v-html="`${article.description}`"></span>
-                    </div>
-                    <div>
-                      <span class="text-base font-normal lg:text-sm text-logiclyorange hover:underline">
-                        <NuxtLink :to="`${article.link}`">Read more</NuxtLink>
-                      </span>
-                    </div>
-                  </div>
-                </li>
-              </div>
-            </ul>
-          </div>
-        </div>
-      </div>
     </page-section>
 
 
@@ -149,7 +115,7 @@ export default {
   methods: { },
   async asyncData({ $content, params }) {
     const article = await $content('insights', params.slug).fetch();
-    const related = await $content('insights').where({'category': article.category, 'slug': { $ne: article.slug }}).fetch();
+    const related = await $content('insights').where({'categories': { $containsAny: article.categories }, 'slug': { $ne: article.slug }}).fetch();
 
     return { article, related };
   },

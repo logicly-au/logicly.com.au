@@ -9,13 +9,14 @@ img: /Youth-and-Family-Support-Organisation-coworkers-looking-at-laptop-graph.jp
 alt: Youth and family support organisation image
 imgheader: /data-is-only-useful-when-its-accurate-header.jpg
 link: /insights/data-is-only-useful-when-its-accurate
-category: Data reliability
+categories:
+  - Data reliability
 ---
 
-<div class="grid grid-cols-12">
+<div class="grid grid-cols-12 col-gap-8">
 
 <div class="col-span-12 lg:col-span-3 blog-sidebar">
-<div class="blog-sidebar-author mt-2">
+<div class="mt-2 blog-sidebar-author">
 
 #### Simon Palmer
 
@@ -23,7 +24,7 @@ category: Data reliability
 </div>
 <div class="grid grid-cols-4">
 <!---Remove 'hidden' from div below to show social media icons--->
-<div class="col-span-3 lg:col-span-4 blog-social-media grid grid-cols-5 justify-items-start lg:justify-items-center hidden">
+<div class="grid hidden grid-cols-5 col-span-3 lg:col-span-4 blog-social-media justify-items-start lg:justify-items-center">
 <div class="col-span-1">
 Share
 </div>

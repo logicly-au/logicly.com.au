@@ -3,8 +3,8 @@
     <div class="container mx-auto">
       <footer>
         <div class="grid grid-cols-12">
-          <div class="grid grid-cols-12 col-span-10 col-start-2 gap-4 text-sm text-left py-16 lg:py-24 px-6 md:px-0 mobileres">
-            <div class="col-span-12 lg:col-span-4 mb-6 lg:mb-0">
+          <div class="grid grid-cols-12 col-span-10 col-start-2 gap-4 px-6 py-16 text-sm text-left lg:py-24 md:px-0 mobileres">
+            <div class="col-span-12 mb-6 lg:col-span-4 lg:mb-0">
               <div class="mb-6 lg:mb-4">
                 <NuxtLink to="/" class="self-start">
                   <logo />
@@ -18,8 +18,8 @@
                 <span class="block">PO Box 1166, Carlton, Victoria 3053, Australia</span>
               </div>
             </div>
-            <div class="grid grid-cols-3 col-span-12 lg:col-span-6 lg:col-start-6 xl:col-span-5 xl:col-start-7 text-sm">
-              <div class="col-span-3 lg:col-span-1 mb-6 lg:mb-0">
+            <div class="grid grid-cols-3 col-span-12 text-sm lg:col-span-6 lg:col-start-6 xl:col-span-5 xl:col-start-7">
+              <div class="col-span-3 mb-6 lg:col-span-1 lg:mb-0">
                 <NuxtLink to="/" class="block hover:underline" exact>home</NuxtLink>
                 <NuxtLink to="/whatwedo" class="block hover:underline" exact>what we do</NuxtLink>
                 <NuxtLink to="/howwework" class="block hover:underline" exact>how we work</NuxtLink>
@@ -28,16 +28,16 @@
                 <NuxtLink to="/contactus" class="block hover:underline" exact>contact us</NuxtLink>
               </div>
               <!-- TODO Add links for 'Who we help' page sections -->
-              <div class="col-span-3 lg:col-span-1 mb-6 lg:mb-0">
+              <div class="col-span-3 mb-6 lg:col-span-1 lg:mb-0">
                 <NuxtLink to="/whowehelp" class="block font-bold hover:underline" exact>who we help</NuxtLink>
-                <a href="/whowehelp" class="block hover:underline" exact>Researchers</a>
-                <a href="/whowehelp" class="block hover:underline" exact>Government</a>
-                <a href="/whowehelp" class="block hover:underline" exact>Non-government</a>
-                <a href="/whowehelp" class="block hover:underline" exact>Health</a>
-                <a href="/whowehelp" class="block hover:underline" exact>Corporate</a>
-                <a href="/whowehelp" class="block hover:underline" exact>Educational</a>
+                <a href="/whowehelp" class="block hover:underline" exact>researchers</a>
+                <a href="/whowehelp" class="block hover:underline" exact>government</a>
+                <a href="/whowehelp" class="block hover:underline" exact>non-government</a>
+                <a href="/whowehelp" class="block hover:underline" exact>health</a>
+                <a href="/whowehelp" class="block hover:underline" exact>corporate</a>
+                <a href="/whowehelp" class="block hover:underline" exact>educational</a>
               </div>
-              <div class="col-span-3 lg:col-span-1 mb-6 lg:mb-0">
+              <div class="col-span-3 mb-6 lg:col-span-1 lg:mb-0">
                 <NuxtLink to="/about/us" class="block font-bold hover:underline" exact>about</NuxtLink>
                 <NuxtLink to="/about/ourapproach" class="block hover:underline" exact>our approach</NuxtLink>
                 <NuxtLink to="/about/ourteam" class="block hover:underline" exact>our team</NuxtLink>
@@ -46,15 +46,15 @@
               </div>
             </div>
 
-            <div class="col-span-12 grid grid-cols-12">
-              <div class="col-span-12 lg:col-span-5 text-sm lg:mt-4">
+            <div class="grid grid-cols-12 col-span-12">
+              <div class="col-span-12 text-sm lg:col-span-5 lg:mt-4">
                 <span class="pr-2">Logicly © 2021</span>
                 <NuxtLink to="/privacy" class="hover:underline" exact>Privacy policy</NuxtLink>
               </div>
-              <div class="col-span-12 lg:col-span-6 lg:col-start-6 xl:col-span-5 xl:col-start-7 grid grid-cols-3 content-end hidden">
-                <div class="col-span-1 lg:col-start-3 grid grid-cols-3 mt-6 lg:mt-0">
+              <div class="grid content-end grid-cols-3 col-span-12 lg:col-span-6 lg:col-start-6 xl:col-span-5 xl:col-start-7">
+                <div class="grid grid-cols-3 col-span-1 mt-6 lg:col-start-3 lg:mt-0">
                   <div class="col-span-1"><img src="~/assets/images/Facebook.svg" class="h-5 lg:h-4"></img></div>
-                  <div class="col-span-1"><img src="~/assets/images/Linkedin.svg" class="h-5 lg:h-4"></img></div>
+                  <div class="col-span-1"><a href="https://www.linkedin.com/company/logiclyaustralia/about/"><img src="~/assets/images/Linkedin.svg" class="h-5 lg:h-4"></img></a></div>
                   <div class="col-span-1"><img src="~/assets/images/Twitter.svg" class="h-5 lg:h-4"></img></div>
                 </div>
               </div>

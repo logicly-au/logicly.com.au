@@ -28,7 +28,7 @@
             Topics
           </p>
         </div>
-        <select class="col-span-3 col-start-1 pb-2 border-b-2 sm:col-span-1 sm:col-start-3 border-logiclyorange bg-logiclylightgrey sm:pb-0" v-model="category">
+        <select class="col-span-3 col-start-1 pb-2 border-b-2 sm:col-span-1 sm:col-start-3 border-logiclyorange bg-logiclylightgrey sm:pb-0" @change="updateHash()" v-model="category">
           <option value="" >All categories</option>
           <option v-for="category in categories" :value="category">{{ category }}</option>
         </select>
@@ -99,16 +99,30 @@ export default {
   },
   computed: {
     categories() {
-      return this.articles.map(insight => insight.category).sort();
+      let categories = this.articles.reduce((accum, item) => {
+        return accum.concat(item.categories);
+      }, []);
+
+      return new Set(categories);
     },
 
     filteredArticles() {
-      return this.category ? this.articles.filter(article => article.category == this.category) : this.articles;
+      return this.category ? this.articles.filter(article => article.categories.indexOf(this.category) !== -1) : this.articles;
     },
   },
-  methods: { },
+  methods: {
+    updateHash() {
+      this.$router.push({ name: this.$route.name, hash: `#${this.category}` });
+    },
+  },
   async created() {
     this.articles = await this.$content('insights').fetch();
+
+    let category = decodeURIComponent(this.$route.hash.replace(/^#/, ''));
+    if (category && this.categories.has(category)) {
+      this.category = category;
+    }
+
   },
 }
 </script>

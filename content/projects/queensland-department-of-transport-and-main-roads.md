@@ -1,9 +1,9 @@
 ---
 title: Queensland Department of Transport and Main Roads
 description: Queensland Online Travel Survey
-category: Government
+category: government
 ---
-<div class="grid grid-cols-12">
+<div class="grid grid-cols-12 col-gap-8">
 
 <div class="col-span-12 project-images">
   <div class="grid grid-cols-12">

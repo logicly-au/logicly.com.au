@@ -1,9 +1,9 @@
 ---
 title: Personal Health Appliance Suppliers
 description: Personal Health Sector - Differentiating through user experience and compelling insights
-category: Corporate
+category: corporate
 ---
-<div class="grid grid-cols-12">
+<div class="grid grid-cols-12 col-gap-8">
 
 <div class="col-span-12 project-images">
     <img src="/Projects/Images/15_Personal_Health_Appliance_Suppliers/Personal-Health-Appliance-Suppliers-data-on-ipad.jpg" />
