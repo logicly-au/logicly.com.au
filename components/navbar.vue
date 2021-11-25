@@ -8,7 +8,7 @@
       </div>
       <NuxtLink to="/" class="self-start"><logo /></NuxtLink>
       <nav id="menu">
-        <li><NuxtLink to="/" v-on:click.native="display_menu(true);close_all_menu()" class="hover:underline">home</NuxtLink></li>
+        <li><NuxtLink to="/" exact v-on:click.native="display_menu(true);close_all_menu()" class="hover:underline">home</NuxtLink></li>
         <li class="drop">
           <a v-on:click="display_drop_menu()" class="cursor-pointer" :class="{ 'nuxt-link-exact-active': aboutActive }">
             about
@@ -25,7 +25,7 @@
         <li><NuxtLink to="/whowehelp" v-on:click.native="display_menu(true);close_all_menu()" class="hover:underline">who we help</NuxtLink></li>
         <li><NuxtLink to="/whatwedo" v-on:click.native="display_menu(true);close_all_menu()" class="hover:underline">what we do</NuxtLink></li>
         <li><NuxtLink to="/howwework" v-on:click.native="display_menu(true);close_all_menu()" class="hover:underline">how we work</NuxtLink></li>
-        <li><NuxtLink to="/projects/corporate" exact-path v-on:click.native="display_menu(true);close_all_menu()" class="hover:underline">projects</NuxtLink></li>
+        <li><NuxtLink to="/projects/corporate" v-on:click.native="display_menu(true);close_all_menu()" class="hover:underline" :class="{ 'nuxt-link-exact-active' : $route.path.startsWith('/projects') }">projects</NuxtLink></li>
         <li><NuxtLink to="/insights" v-on:click.native="display_menu(true);close_all_menu()" class="hover:underline">insights</NuxtLink></li>
         <li><NuxtLink to="/contactus" v-on:click.native="display_menu(true);close_all_menu()" class="hover:underline">contact us</NuxtLink></li>
       </nav>
