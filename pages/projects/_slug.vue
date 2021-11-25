@@ -1,7 +1,7 @@
 <template>
   <div class="grid grid-cols-12 pt-6 -mb-16 border-t-2 border-b-2 border-logiclyorange text-logiclytextgrey project-page">
 
-    <div class="hidden col-span-4 text-xl font-semibold lg:block">
+    <div class="hidden col-span-4 mb-4 text-xl font-semibold lg:block">
         <span class='capitalize'>{{ category }}</span>
         projects
       </div>
