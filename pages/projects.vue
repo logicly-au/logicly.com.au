@@ -57,7 +57,9 @@ export default {
   },
   methods: {
     capitalize(str) {
-      return str.charAt(0).toUpperCase() + str.slice(1);
+      return str.replace(/(^|[\s-])\S/g, function (match) {
+        return match.toUpperCase();
+      });
     },
   },
   computed: {
