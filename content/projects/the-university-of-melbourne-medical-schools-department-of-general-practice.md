@@ -4,7 +4,7 @@ description: Insights for innovative paths to better health
 category: research
 ---
 
-<div class="grid grid-cols-12 col-gap-8">
+<div class="grid grid-cols-12 gap-8">
 
 <div class="col-span-12 project-images">
     <img src="/Projects/Images/3_UoM_Medical_School’s_Department_of_General_Practice/University-of-melbourne-medical-school-department-of-general-practice.jpg" />

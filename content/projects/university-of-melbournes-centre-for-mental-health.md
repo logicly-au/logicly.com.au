@@ -4,7 +4,7 @@ description: Collecting critical insights safely and securely
 category: research
 ---
 
-<div class="grid grid-cols-12 col-gap-8">
+<div class="grid grid-cols-12 gap-8">
 
 <div class="col-span-12 project-images">
   <img src="/Projects/Images/2_UoM_Centre_for_mental_health/University-of-melbourne-centre-for-mental-health.jpg" />

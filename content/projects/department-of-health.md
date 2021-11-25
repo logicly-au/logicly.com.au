@@ -3,7 +3,7 @@ title: Department of Health
 description: Efficiently processing and securing highly sensitive data
 category: government
 ---
-<div class="grid grid-cols-12 col-gap-8">
+<div class="grid grid-cols-12 gap-8">
 
 <div class="col-span-12 project-images">
     <img src="/Projects/Images/8_Department_of_health/Department-of-health-increasing-the-spread-of-the-online-vlidator-process.jpg" />
