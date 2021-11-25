@@ -13,7 +13,7 @@
           <a v-on:click="display_drop_menu()" class="cursor-pointer" :class="{ 'nuxt-link-exact-active': aboutActive }">
             about
           </a>
-          <i class="chevron-down cursor-pointer" @click="display_drop_menu()"></i>
+          <i class="cursor-pointer chevron-down" @click="display_drop_menu()"></i>
           <ul class="drop_menu">
             <NuxtLink to="/about/us" class="hover:underline" v-on:click.native="display_menu(true);close_all_menu()">about us</NuxtLink>
             <NuxtLink to="/about/ourapproach" class="hover:underline" v-on:click.native="display_menu(true);close_all_menu()">our approach</NuxtLink>
@@ -97,6 +97,7 @@ export default {
     display_drop_menu() {
       var drop_menu = document.getElementsByClassName("drop_menu")[0];
       var drop_menus = document.getElementsByClassName("drop_menu");
+      var chevron = document.getElementsByClassName("cursor-pointer chevron-down");
 
       Array.from(drop_menus).forEach(function(e){
         if(e != drop_menu){
@@ -108,6 +109,7 @@ export default {
         e.style.marginTop = 0;
       });
       (!drop_menu.classList.contains("display")) ? drop_menu.classList.add("display") : drop_menu.classList.remove("display");
+      (!chevron[0].classList.contains("rotateme")) ? chevron[0].classList.add("rotateme") : chevron[0].classList.remove("rotateme");
       if(window.innerWidth < 1024 && drop_menu.classList.contains("display")) {
         event.target.parentElement.nextSibling.nextSibling.style.marginTop = drop_menu.clientHeight + "px";
       }
@@ -138,6 +140,9 @@ header {
   mask: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' stroke='currentColor'><path stroke-linecap='round' stroke-linejoin='round' stroke-width='0' d='M19 9l-7 7-7-7' /></svg>");
 }
 
+.rotateme {
+transform: rotate(-180deg); 
+}
 
 i {
   vertical-align: middle;
