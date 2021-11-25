@@ -282,10 +282,11 @@ ul.nav.nav-tabs {
   margin:auto;
   margin-top:8px;
 }
-
+/*
 @media only screen and (max-width: 1279px) {
   .blog-img {
     height:100%;
   }
 }
+*/
 </style>
