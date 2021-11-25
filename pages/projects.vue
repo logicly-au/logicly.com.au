@@ -1,4 +1,3 @@
-
 <template>
   <div>
     <Hero
@@ -47,7 +46,7 @@
 export default {
   data() {
     return {
-      articles: [],
+      categories: [],
     };
   },
   head() {
@@ -62,13 +61,11 @@ export default {
       });
     },
   },
-  computed: {
-    categories() {
-      return new Set(this.articles.map(article => article.category).sort());
-    },
-  },
    async created() {
-     this.articles = await this.$content('projects').fetch();
+     let categories = await this.$content('projects').only(['category']).fetch();
+     let sortedCategories = categories.map(article => article.category).sort((a,b) => a.localeCompare(b));
+
+     this.categories = new Set(sortedCategories);
   },
 }
 </script>
