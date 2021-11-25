@@ -7,7 +7,7 @@
       </div>
 
       <!-- Project list mobile -->
-      <div class="block col-span-12 lg:hidden mb-10">
+      <div class="block col-span-12 mb-10 lg:hidden">
         <select class='articles-select' v-model="activeArticle" @change="viewArticle(activeArticle)">
           <option value="0" disabled>Select project</option>
           <option v-for="(article, index) in projects" :value="article">{{ article.title }}</option>

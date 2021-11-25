@@ -3,7 +3,7 @@ title: Youth and Family Support Organisation
 description: Validating meaningful social impact in complex spaces
 category: non-government
 ---
-<div class="grid grid-cols-12">
+<div class="grid grid-cols-12 col-gap-8">
 
 <div class="col-span-12 project-images">
     <img src="/Projects/Images/12_Youth_and_Family_Support_Organisation/Youth-and-Family-Support-Organisation-coworkers-looking-at-laptop-graph.jpg" />
