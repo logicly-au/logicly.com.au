@@ -8,16 +8,13 @@
 
       <!-- Project list mobile -->
       <div class="block col-span-12 mb-10 lg:hidden">
-        <select class='articles-select' v-model="activeArticle" @change="viewArticle(activeArticle)">
-          <option value="0" disabled>Select project</option>
-          <option v-for="(article, index) in projects" :value="article">{{ article.title }}</option>
-        </select>
+        <v-select placeholder="Select project" label="title" :options="projects" v-model="activeArticle" @change="viewArticle(activeArticle)"></v-select>
       </div>
 
       <!-- Project list desktop -->
       <div class="hidden col-span-12 lg:block projects-list">
         <ul class='articles'>
-          <li v-for="(article, index) in projects" :class="{ 'articles-active': article.slug == activeArticle.slug }">
+          <li v-for="(article, index) in projects" :class="{ 'articles-active': activeArticle && article.slug == activeArticle.slug }">
             <div class="grid grid-cols-12 pb-2">
               <div class="col-span-1 ml-2 -mt-1 text-2xl font-light">
                 >
@@ -37,8 +34,13 @@
   </div>
 </template>
 
+
 <script>
+import vSelect from 'vue-select'
+import 'vue-select/dist/vue-select.css';
+
 export default {
+  components: { vSelect },
   data() {
     return {
       projects: [],
@@ -78,7 +80,6 @@ export default {
       this.$router.push({ path: this.$route.path, hash: '#' + article.slug });
     },
 
-    
   },
   async asyncData({ $content, params }) {
     const projects = await $content('projects').where({'category': params.slug }).fetch();
@@ -91,7 +92,6 @@ export default {
 </script>
 
 <style>
-
 .articles-active {
   color: #E94E1B;
 }
