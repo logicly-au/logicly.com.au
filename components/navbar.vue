@@ -114,7 +114,6 @@ export default {
     },
     loaded(){
       document.getElementsByTagName("body")[0].style.overflowY = "hidden";
-      console.log('t');
       (this.load) ? this.load = false : this.load = true;
     }
   }

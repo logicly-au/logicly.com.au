@@ -68,8 +68,6 @@ export default {
         } else {
           this.viewArticle(n[0]);
         }
-
-        console.log("updated");
       },
     },
 
