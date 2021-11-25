@@ -13,7 +13,7 @@
           Our diverse projects are from a range of sectors
         </h2>
       </div>
-      <div class="flex flex-col items-center justify-evenly md:flex-row">
+      <div class="flex flex-col items-center justify-evenly md:flex-row mt-10">
         <button @click.prevent="$router.push({ path: '/projects/' + category })" class="flex flex-col py-2 md:py-0" v-for="category in categories">
 
           <div class="flex self-center">
