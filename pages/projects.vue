@@ -10,7 +10,7 @@
 
     <page-section altrow>
       <div class="pb-12">
-        <h2 class="text-2xl font-semibold text-center text-logiclytextgrey -mb-8">
+        <h2 class="-mb-8 text-2xl font-semibold text-center text-logiclytextgrey">
           Our diverse projects are from a range of sectors
         </h2>
       </div>
@@ -21,7 +21,7 @@
             <img v-if="$route.params.slug == category" :src="'/Projects_' + category + '_selected.svg'" class="h-10" />
             <img v-else :src="'/Projects_' + category + '.svg'" class="h-10" />
           </div>
-          <div class="pt-2 text-xs font-medium text-center sm:text-sm text-logiclytextgrey capitalize">
+          <div class="pt-2 text-xs font-medium text-center capitalize sm:text-sm text-logiclytextgrey">
             {{ category }}
           </div>
 
@@ -116,12 +116,6 @@ export default {
 .project-page li > a > div > img {
   margin:auto;
   margin-bottom:0.5rem;
-}
-
-/* margin-left added as temporary padding while icons-sidebar is displayed on the wrong side */
-.icons-sidebar {
-  margin-top:0.5rem;
-  margin-left: 1rem;
 }
 
 /* Commenting out right margin while icons-sidebar is displayed on the wrong side */

@@ -3,7 +3,7 @@ title: Outdoor Power Equipment Association
 description: OPEA Industry Data Tool - Giving businesses clarity and confidence
 category: corporate
 ---
-<div class="grid grid-cols-12">
+<div class="grid grid-cols-12 col-gap-8">
 
 <div class="col-span-12 project-images">
     <img src="/Projects/Images/13_Outdoor_Power_Equipment_Association/Outdoor-Power-Equipment-Association-customer-care-worker.jpg" />

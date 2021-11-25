@@ -3,7 +3,7 @@ title: The Department of Health (DoH)’s Primary Mental Health Care Minimum Dat
 description: Clarity for understanding and improving national health
 category: government
 ---
-<div class="grid grid-cols-12">
+<div class="grid grid-cols-12 col-gap-8">
 
 <div class="col-span-12 project-images">
     <img src="/Projects/Images/6_Department_of_Health_Primary_Mental_Health_Care_Minimum_Dataset/Department-of-Health-Primary-Mental-Health-Care-Minimum-Dataset-coworkers-on-table.jpg" />
