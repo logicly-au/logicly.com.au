@@ -10,6 +10,8 @@ imgheader: /co-designing-for-data-header.jpg
 link: /insights/getting-great-data-through-user-experience-design
 categories:
   - Digital transformation
+  - Public Sector
+  - User Experience Design
 ---
 
 <div class="grid grid-cols-12 col-gap-8">
