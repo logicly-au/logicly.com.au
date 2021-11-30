@@ -259,7 +259,7 @@
          </div>
        </div>
 
-       <div class="col-span-12 pt-4 pl-0 xl:col-span-5 text-logiclytextgrey xl:pl-4 xl:-ml-12 xl:pt-32">
+       <div class="col-span-12 xl:col-span-5 text-center lg:text-left text-logiclytextgrey pl-0 xl:pl-4 xl:-ml-12 pt-6 xl:pt-32">
          <h2 class="pb-2 text-xl font-semibold">
            An evolving process
          </h2>
