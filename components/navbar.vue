@@ -20,6 +20,7 @@
             <NuxtLink to="/about/ourteam" class="hover:underline" v-on:click.native="display_menu(true);close_all_menu()">our team</NuxtLink>
             <NuxtLink to="/about/oursecurity" class="hover:underline" v-on:click.native="display_menu(true);close_all_menu()">our security</NuxtLink>
             <NuxtLink to="/about/ourculture" class="hover:underline" v-on:click.native="display_menu(true);close_all_menu()">our culture</NuxtLink>
+            <NuxtLink to="/about/whylogicly" class="hover:underline" v-on:click.native="display_menu(true);close_all_menu()">why logicly</NuxtLink>
           </ul>
         </li>
         <li><NuxtLink to="/whowehelp" v-on:click.native="display_menu(true);close_all_menu()" class="hover:underline">who we help</NuxtLink></li>
@@ -141,7 +142,7 @@ header {
 }
 
 .rotateme {
-transform: rotate(-180deg); 
+transform: rotate(-180deg);
 }
 
 i {

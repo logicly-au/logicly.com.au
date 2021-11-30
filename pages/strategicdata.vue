@@ -6,7 +6,7 @@
     <div class="row-span-1 md:col-span-3 md:row-start-3">
     <div class="text-center">
         <h1 class="text-3xl md:text-5xl text-logiclytextgrey">Strategic Data is now called Logicly.</h1><span class="text-logiclytextgrey">This page will redirect to our new website. If it doesn't automatically redirect click
-            <NuxtLink to="/whylogicly"><span class="text-logiclyorange">here</span></NuxtLink>
+            <NuxtLink to="about/whylogicly"><span class="text-logiclyorange">here</span></NuxtLink>
         </span>
     </div>
     </div>
