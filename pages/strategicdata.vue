@@ -10,10 +10,10 @@
         <div class="flex content-center flex-auto md:customflexmd bg-logiclylightgrey">
             <div class="flex justify-center flex-auto md:align-middle text-logiclytextgrey">
             
-                <div class="self-center m-5">
-                    <h1 class="pb-4 text-3xl md:text-6xl">Strategic Data is now called Logicly.</h1><br />
-                    <h2 class="text-2xl md:text-4xl">Why is Strategic Data now called Logicly? We have  <NuxtLink to="/whylogicly"><span class="font-semibold text-logiclyorange">a good reason</span></NuxtLink>.</h2><br />
-                    <h2 class="text-2xl md:text-4xl">Just want to get on with things? Proceed straight to our new website <NuxtLink to="/whylogicly"><span class="font-semibold text-logiclyorange">here</span><br /> or wait to be automatically redirected in {{ timerCount }}...</NuxtLink>
+                <div class="self-center m-5 text-center">
+                    <h1 class="pb-4 text-3xl md:text-5xl">Strategic Data is now called Logicly.</h1><br />
+                    <h2 class="text-2xl md:text-3xl">Why is Strategic Data now called Logicly? We have  <NuxtLink to="/whylogicly"><span class="font-semibold text-logiclyorange">a good reason</span></NuxtLink>.</h2><br />
+                    <h2 class="text-2xl md:text-3xl">Just want to get on with things? Proceed straight to our new website <NuxtLink to="/whylogicly"><span class="font-semibold text-logiclyorange">here</span><br /> or wait to be automatically redirected in {{ timerCount }}...</NuxtLink>
                     </span></h2>
                 </div>
                 
