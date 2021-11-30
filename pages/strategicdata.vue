@@ -28,9 +28,9 @@
 <script>
 export default {
     layout: 'splashpage',
-    // created() {
-    //     setTimeout( () => this.$router.push({ path: '/'}), 15000);
-    // },
+    created() {
+        setTimeout( () => this.$router.push({ path: '/'}), 15000);
+    },
     head() {
     return {
         title: "Strategic Data is now called Logicly · Logicly"
