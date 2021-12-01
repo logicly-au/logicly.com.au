@@ -46,7 +46,7 @@
                 <div class="grid grid-cols-1 pb-12" :class="{ 'grid-cols-3' : index === 0 }" >
                   <div class="col-span-1" :class="{ 'col-span-3 xl:col-span-2' : index === 0 }">
                     <NuxtLink :to="{ name: 'insights-slug', params: { slug: article.slug } }">
-                      <img class="object-cover h-full blog-img hide-on-mobile" :src="article.img" :alt="article.alt" :class="{ 'first-blog-img': index === 0 }"/>
+                      <img class="object-cover h-full blog-img" :src="article.img" :alt="article.alt" :class="{ 'first-blog-img': index === 0 }"/>
                     </NuxtLink>
                   </div>
                   <div class="col-span-1 pt-6" :class="{ 'col-span-3 xl:col-span-1 border-t-2 border-logiclyorange pl-2 xl:pl-6 pt-8 pr-2 xl:pr-8 pb-6 xl:pb-12 bg-logiclylightgrey' : index === 0 }" >
@@ -128,13 +128,6 @@ export default {
 </script>
 
 <style>
-
-@media only screen and (max-width:769px) {
-  .hide-on-mobile {
-    display:none;
-  }
-}
-
 .insights-page p {
   font-weight:300;
   font-size:1rem;
@@ -268,16 +261,14 @@ ul.nav.nav-tabs {
   background: #E94E1B;
 }
 
-.insights-top-img {
-  height: 28rem;
-}
-
 .blog-img {
+  width:100%;
   height:200px;
 }
 
 .first-blog-img {
-  height:100%;
+  width:100%;
+  height: auto;
 }
 
 .most-recent-insight {
@@ -289,11 +280,11 @@ ul.nav.nav-tabs {
   margin:auto;
   margin-top:8px;
 }
-/*
+
 @media only screen and (max-width: 1279px) {
   .blog-img {
-    height:100%;
+    height:auto;
   }
 }
-*/
+
 </style>
