@@ -8,7 +8,19 @@
 
       <!-- Project list mobile -->
       <div class="block col-span-12 mb-10 lg:hidden">
-        <v-select placeholder="Select project" label="title" :options="projects" v-model="activeArticle" @change="viewArticle(activeArticle)"></v-select>
+
+        <!-- This uses the default select element on mobile, as it has a better UX. For desktop it uses vue-select. -->
+        <select v-if="isMobile()"
+                class="border p-2 w-full"
+                placeholder="Select project"
+                v-model="activeArticle"
+                @change="viewArticle(activeArticle)">
+          <option v-for="project in projects" :value="project">
+            {{ project.title }}
+          </option>
+        </select>
+        <v-select v-else placeholder="Select project" label="title" :options="projects" v-model="activeArticle" @change="viewArticle(activeArticle)"></v-select>
+
       </div>
 
       <!-- Project list desktop -->
@@ -78,6 +90,10 @@ export default {
     viewArticle(article) {
       this.activeArticle = article;
       this.$router.push({ path: this.$route.path, hash: '#' + article.slug });
+    },
+
+    isMobile() {
+      return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
     },
 
   },
