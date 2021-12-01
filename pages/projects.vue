@@ -13,7 +13,7 @@
           Our diverse projects are from a range of sectors
         </h2>
       </div>
-      <div class="flex flex-col items-center justify-evenly md:flex-row mt-10">
+      <div class="flex flex-row flex-wrap items-center mt-10 force-break space-between justify-evenly">
         <button @click.prevent="$router.push({ path: '/projects/' + category })" class="flex flex-col py-2 md:py-0" v-for="category in categories">
 
           <div class="flex self-center">
@@ -265,6 +265,15 @@ export default {
   width:100%;
   border: 1px solid #E9E8E1;
   padding: 10px 0px 10px 10px;
+}
+
+
+/* This will evenly size all projects icons for mobile display */
+
+@media only screen and (max-width: 640px) {
+  .force-break > button {
+    flex-basis: 33.33%;
+  }
 }
 
 </style>
