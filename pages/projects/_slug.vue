@@ -108,6 +108,9 @@ export default {
 </script>
 
 <style>
+.vs__clear {
+  display: none;
+}
 .articles-active {
   color: #E94E1B;
 }
