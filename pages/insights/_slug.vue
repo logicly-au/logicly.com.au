@@ -62,10 +62,14 @@
                 <li v-for="(article, index) in related">
                   <div class="">
                     <div class="pb-5">
-                      <img class="w-full" :src="article.img" :alt="article.alt" />
+                      <NuxtLink :to="`${article.link}`">
+                        <img class="w-full" :src="article.img" :alt="article.alt" />
+                      </NuxtLink>
                     </div>
                     <div>
-                      <span class="text-lg lg:text-base font-semibold text-logiclytheme4">{{ article.title }}</span>
+                      <NuxtLink :to="`${article.link}`">
+                        <span class="text-lg lg:text-base font-semibold text-logiclytheme4">{{ article.title }}</span>
+                      </NuxtLink>
                     </div>
                     <div class="pb-2">
                       <span class="font-medium text-sm">{{ article.author }}</span>
