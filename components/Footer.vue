@@ -53,9 +53,9 @@
               </div>
               <div class="grid content-end grid-cols-3 col-span-12 lg:col-span-6 lg:col-start-6 xl:col-span-5 xl:col-start-7">
                 <div class="grid grid-cols-3 col-span-1 mt-6 lg:col-start-3 lg:mt-0">
-                  <div class="col-span-1"><img src="~/assets/images/Facebook.svg" class="h-5 lg:h-4"></img></div>
+                  <div class="col-span-1"><img src="~/assets/images/Facebook.svg" class="h-5 lg:h-4 hidden"></img></div>
+                  <div class="col-span-1"><img src="~/assets/images/Twitter.svg" class="h-5 lg:h-4 hidden"></img></div>
                   <div class="col-span-1"><a href="https://www.linkedin.com/company/logiclyaustralia/about/"><img src="~/assets/images/Linkedin.svg" class="h-5 lg:h-4"></img></a></div>
-                  <div class="col-span-1"><img src="~/assets/images/Twitter.svg" class="h-5 lg:h-4"></img></div>
                 </div>
               </div>
             </div>
