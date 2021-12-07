@@ -56,7 +56,7 @@
         <div class="col-span-3 lg:col-span-1 text-center flex pb-6 lg:pb-0">
           <div class="m-auto">
             <div class="h-24 flex items-center justify-center">
-              <img src="/Australian-Government.jpg" />
+              <img src="/australian-government.svg" />
             </div>
             <div class="flex justify-center">
               <Button
@@ -69,7 +69,7 @@
         <div class="col-span-3 lg:col-span-1 text-center flex pb-6 lg:pb-0">
           <div class="m-auto">
             <div class="h-24 flex items-center justify-center">
-              <img src="/University-of-Melbourne.jpg" />
+              <img src="/the-university-of-melbourne.svg" class="unimelb-height"/>
             </div>
             <div class="flex justify-center">
               <Button
@@ -82,7 +82,7 @@
         <div class="col-span-3 lg:col-span-1 text-center flex">
           <div class="m-auto">
             <div class="h-24 flex items-center justify-center">
-              <img src="/National-Australia-Bank-NAB.jpg" />
+              <img src="/National_Australia_Bank.svg" />
             </div>
             <div class="flex justify-center">
               <Button
@@ -109,4 +109,8 @@ export default {
 </script>
 
 <style>
+
+.unimelb-height {
+  height:8rem;
+}
 </style>
