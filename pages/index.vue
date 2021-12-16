@@ -233,7 +233,7 @@
                 Queensland Transport System.
               </p>
               <div class="pt-2 lg:pb-6 xl:pb-8">
-                <NuxtLink to="/projects/?article=1&tab=1" class="text-sm font-semibold hover:underline">Read more</NuxtLink>
+                <NuxtLink to="/projects/government#queensland-department-of-transport-and-main-roads" class="text-sm font-semibold hover:underline">Read more</NuxtLink>
               </div>
             </div>
             <div class="content-end hidden col-span-1 lg:grid lg:pl-8 xl:pl-8 lg:pb-8 xl:pb-10">
@@ -268,7 +268,7 @@
                 A performance management tool for NAB’s business groups in Australia and overseas with the flexibility to meet their changing future requirements.
               </p>
               <div class="pt-2 lg:pb-8">
-                <NuxtLink to="/projects/?article=0&tab=5" class="text-sm font-semibold hover:underline">Read more</NuxtLink>
+                <NuxtLink to="/projects/corporate#national-australia-bank" class="text-sm font-semibold hover:underline">Read more</NuxtLink>
               </div>
             </div>
             <div class="content-end hidden col-span-1 lg:grid lg:pl-8 xl:pl-8 lg:pb-8 xl:pb-10">
@@ -286,7 +286,7 @@
             <overlay-image
               imageurl="/Education-project-Deakin.jpg"
               height="286px"
-              text="Educational"
+              text="Research"
             />
           </div>
         </div>
@@ -303,7 +303,7 @@
                 A sophisticated tool for researchers to create, analyse, publish and share data. The community can also access the research to discover and learn.
               </p>
               <div class="pt-2 lg:pb-8">
-                <NuxtLink to="/projects/?article=0&tab=0" class="text-sm font-semibold hover:underline">Read more</NuxtLink>
+                <NuxtLink to="/projects/research#deakin-universitys-humanities-network-infrastructure" class="text-sm font-semibold hover:underline">Read more</NuxtLink>
               </div>
             </div>
             <div class="content-end hidden col-span-1 lg:grid lg:pl-8 xl:pl-8 lg:pb-8 xl:pb-10">
@@ -318,7 +318,7 @@
       <div class="flex justify-center lg:justify-end">
         <Button
           buttontext="View all projects"
-          buttonlink="/projects"
+          buttonlink="projects/corporate"
         />
       </div>
     </page-section>
