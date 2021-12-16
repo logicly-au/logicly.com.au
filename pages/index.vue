@@ -237,7 +237,7 @@
               </div>
             </div>
             <div class="content-end hidden col-span-1 lg:grid lg:pl-8 xl:pl-8 lg:pb-8 xl:pb-10">
-              <NuxtLink to="/projects/?article=1&tab=1">
+              <NuxtLink to="/projects/#queensland-department-of-transport-and-main-roads">
                 <img class="h-10" src="/Logicly-arrow.png" />
               </NuxtLink>
             </div>
@@ -272,7 +272,7 @@
               </div>
             </div>
             <div class="content-end hidden col-span-1 lg:grid lg:pl-8 xl:pl-8 lg:pb-8 xl:pb-10">
-              <NuxtLink to="/projects/?article=0&tab=5">
+              <NuxtLink to="/projects/corporate#national-australia-bank">
                 <img class="h-10" src="/Logicly-arrow.png" />
               </NuxtLink>
             </div>
@@ -307,7 +307,7 @@
               </div>
             </div>
             <div class="content-end hidden col-span-1 lg:grid lg:pl-8 xl:pl-8 lg:pb-8 xl:pb-10">
-              <NuxtLink to="/projects/?article=0&tab=0">
+              <NuxtLink to="/projects/research#deakin-universitys-humanities-network-infrastructure">
                 <img class="h-10" src="/Logicly-arrow.png" />
               </NuxtLink>
             </div>
@@ -318,7 +318,7 @@
       <div class="flex justify-center lg:justify-end">
         <Button
           buttontext="View all projects"
-          buttonlink="projects/corporate"
+          buttonlink="/projects"
         />
       </div>
     </page-section>

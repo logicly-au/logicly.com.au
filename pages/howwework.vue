@@ -275,7 +275,7 @@
     <CTA
      text="Follow some of our clients' journeys"
      buttonText="View our projects"
-     buttonLink="/projects/corporate"
+     buttonLink="/projects"
     />
 
 

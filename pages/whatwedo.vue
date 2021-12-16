@@ -152,7 +152,7 @@
         <div class="grid justify-center col-span-12 align-center">
           <Button
             buttontext="View our projects"
-            buttonlink="/projects/corporate"
+            buttonlink="/projects"
           />
         </div>
       </div>
