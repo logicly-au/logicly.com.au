@@ -58,7 +58,7 @@
         </div>
 
         <div class="col-span-6 pb-5 border-0 md:col-span-4 md:col-start-3 md:border-t-4 md:border-gray-400 md:pt-5">
-          Our ongoing support includes includes training, customer and user support, robust and secure hosting,
+          Our ongoing support includes training, customer and user support, robust and secure hosting,
           proactive maintenance, improvements and monitoring.
         </div>
 
