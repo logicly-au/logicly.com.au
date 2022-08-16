@@ -16,7 +16,7 @@ Then you need to install the project dependencies ...
 # install dependencies
 yarn install
 ```
-## Development
+## Making changes
 
 The following steps can be completed using GitHub Desktop or `git` in a terminal.
 
@@ -36,7 +36,7 @@ The following steps can be completed using GitHub Desktop or `git` in a terminal
 Note that merging a PR automatically publishes the change, so the reviewer MUST be confident the change is ok.
 
 For detailed explanation on how things work, check out [NuxtJS](https://nuxtjs.org) docs.
-### TL;DR
+## TL;DR
 
 ```bash
 # install dependencies
