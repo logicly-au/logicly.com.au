@@ -3,7 +3,7 @@ title: Co-designing for data success in the public sector
 description: "Collaborative design with internal experts, external experts, stakeholders and users leads to amazing data outcomes."
 author: Michelle Nicholson
 jobtitle: Director/Manager, Business Operations
-date: 23 Jul 2021
+date: 23 Sep 2022
 img: /co-designing-for-data.jpg
 alt: Department of Health Primary Mental Health Care Minimum Dataset
 imgheader: /co-designing-for-data-header.jpg
@@ -21,7 +21,7 @@ categories:
 
 #### Michelle Nicholson
 
-##### 23 July 2021
+##### 23 September 2022
 </div>
 <div class="grid grid-cols-4">
 <!--- Remove 'hidden' from div below to show social media icons --->
