@@ -4,7 +4,7 @@ description: "Digital transformation in the public sector is accelerating
 The global shift to digitisation is transforming the way we live and work and the Australian public sector has a crucial role to play in creating online systems that are simple, quick and safe to use."
 author: Adam Clarke
 jobtitle: Director/Senior Consultant/CTO
-date: 10 Mar 2021
+date: 10 Jul 2022
 img: /AMHOCN-coworkers-meeting-with-coworker-online.jpg
 alt: AMHOC image
 imgheader: /7-tips-to-set-your-public-sector-digital-transformation-project-up-for-success-header.jpg
@@ -21,7 +21,7 @@ categories:
 
 #### Adam Clarke
 
-##### 10 March 2021
+##### 10 July 2022
 </div>
 <div class="grid grid-cols-4">
 <!---Remove 'hidden' from div below to show social media icons--->
@@ -66,7 +66,7 @@ It’s a big shift for some public servants who now find themselves at the centr
 ## 7 tips to set your digital project up for success
 
 ### 1. Take advantage of the wealth of internal resources
-The <a href="https://www.dta.gov.au/about-us">Digital Transformation Agency</a> has a fantastic website packed with information to help you deliver great digital services. From updates on the <a href="https://www.dta.gov.au/digital-transformation-strategy">digital transformation strategy</a>, to <a href="https://www.dta.gov.au/our-projects/building-digital-skills-across-government">what training is available</a> and the <a href="https://www.dta.gov.au/our-projects">tools and platforms that exist</a> – this is an excellent resource to help you get started. It’s also useful to talk to people within government who have delivered similar projects and learn from their experiences – the <a href="https://www.dta.gov.au/help-and-advice/communities-practice">Communities of Practice</a> are a great place to connect.
+The <a href="https://www.dta.gov.au/about-us">Digital Transformation Agency</a> has a fantastic website packed with information to help you deliver great digital services. From updates on the <a href="https://www.dta.gov.au/digital-government-strategy">digital government strategy</a>, to <a href="https://www.dta.gov.au/our-projects/building-digital-skills-across-government">what training is available</a> and the <a href="https://www.dta.gov.au/our-projects">tools and platforms that exist</a> – this is an excellent resource to help you get started. It’s also useful to talk to people within government who have delivered similar projects and learn from their experiences – the <a href="https://www.dta.gov.au/help-and-advice/communities-practice">Communities of Practice</a> are a great place to connect.
 
 ### 2. Engage with vendors early
 If your requirements aren’t well defined but you have a general understanding of the problem you want to solve, talk to potential suppliers in the planning stage, well before you write your tender. You can explore potential solutions, trial ideas and seek feedback. It helps ensure your solution is fully considered before you start the process of engaging a supplier. It also minimises disruptions to timelines and budgets down the track. <a href="https://marketplace1.zendesk.com/hc/en-gb/articles/360000575036-Ask-the-market">Ask the market</a> is a government system we recommend that enables you to tap into and leverage innovation and ideas from industry through Expressions of Interest or Requests for Information.
