@@ -10,7 +10,7 @@ description: "No matter what your industry, it’s likely that data plays a role
 </ul>"
 author: Andrew Gordon
 jobtitle: Business Development Manager
-date: 22 Dec 2020
+date: 22 Aug 2022
 img: /Victorian-Department-of-Education-and-Training-teacher-working-on-computer.jpg
 alt: Victorian Department of Education and Training image
 imgheader: /drowning-in-data-you-might-be-dealing-with-a-complex-information-challenge-header.jpg
@@ -26,7 +26,7 @@ categories:
 
 #### Andrew Gordon
 
-##### 22 December 2020
+##### 22 August 2022
 </div>
 <div class="grid grid-cols-4">
 <!---Remove 'hidden' from div below to show social media icons--->
