@@ -120,9 +120,9 @@ export default {
       ],
       meta: [
       {
-        hid: 'og:url',
-        name: 'og:url',
-        content: 'https://www.logicly.com.au' + this.$route.path
+        hid: 'og:title',
+        name: 'og:title',
+        content: "Logicly Insights - " + this.article.title,
       },
       {
         hid: 'description',
@@ -130,9 +130,19 @@ export default {
         content: this.article.description
       },
       {
+        hid: 'og:url',
+        name: 'og:url',
+        content: 'https://www.logicly.com.au' + this.$route.path
+      },
+      {
+        hid: 'og:description',
+        name: 'og:description',
+        content: this.article.description
+      },
+      {
         hid: 'og:image',
         name: 'og:image',
-        content: this.article.imgheader
+        content: 'https://www.logicly.com.au' + this.article.imgheader
       },
     ],
     };
