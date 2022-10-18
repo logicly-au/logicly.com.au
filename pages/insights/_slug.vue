@@ -142,8 +142,8 @@ export default {
       {
         hid: 'og:image',
         name: 'og:image',
-        content: 'https://www.logicly.com.au' + this.article.imgheader
-      },
+        content: `/${this.article.imageheader}`
+      }
     ],
     };
   },
