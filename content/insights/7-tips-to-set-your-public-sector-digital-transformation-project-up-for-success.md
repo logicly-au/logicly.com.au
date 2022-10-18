@@ -1,10 +1,8 @@
 ---
 title: 7 tips to set your public sector digital transformation project up for success
-description: "Digital transformation in the public sector is accelerating
-The global shift to digitisation is transforming the way we live and work and the Australian public sector has a crucial role to play in creating online systems that are simple, quick and safe to use."
+description: "The global shift to digitisation is transforming the way we live and work and the Australian public sector has a crucial role to play."
 author: Adam Clarke
 jobtitle: Director/Senior Consultant/CTO
-date: 10 Jul 2022
 img: /AMHOCN-coworkers-meeting-with-coworker-online.jpg
 alt: AMHOC image
 imgheader: /7-tips-to-set-your-public-sector-digital-transformation-project-up-for-success-header.jpg
