@@ -41,24 +41,24 @@
       </div>
 
       <div class="grid grid-cols-12">
-        <div class="col-span-12 lg:col-span-9 lg:col-start-4 lg:pl-6 -mt-6 lg:mt-4 lg:mb-4 blog-text">
+        <div class="col-span-12 -mt-6 lg:col-span-9 lg:col-start-4 lg:pl-6 lg:mt-4 lg:mb-4 blog-text">
             <div class="logiclysquare"> </div>
-            <span class="font-semibold text-sm ml-2">{{ article.author }}</span>
-            <span class="font-semibold text-sm">is Logicly's</span>
-            <span class="font-medium text-xs">{{ article.jobtitle }}</span>
+            <span class="ml-2 text-sm font-semibold">{{ article.author }}</span>
+            <span class="text-sm font-semibold">is Logicly's</span>
+            <span class="text-xs font-medium">{{ article.jobtitle }}</span>
         </div>
       </div>
 
-      <div class="border-t-2 border-logiclyorange mt-6 lg:mt-16" v-if="related.length > 0">
+      <div class="mt-6 border-t-2 border-logiclyorange lg:mt-16" v-if="related.length > 0">
         <div class="grid grid-cols-12 mt-10 lg:mt-12">
           <div class="col-span-12 lg:col-span-3">
-            <p class="text-lg lg:text-base font-semibold text-logiclytextgrey pb-8 lg:pb-0">
+            <p class="pb-8 text-lg font-semibold lg:text-base text-logiclytextgrey lg:pb-0">
               Related articles
             </p>
           </div>
           <div class="col-span-12 lg:col-span-9 lg:col-start-4 lg:pl-10">
             <ul>
-              <div class="grid lg:grid-cols-2 grid-rows-auto gap-5">
+              <div class="grid gap-5 lg:grid-cols-2 grid-rows-auto">
                 <li v-for="(article, index) in related">
                   <div class="">
                     <div class="pb-5">
@@ -68,19 +68,19 @@
                     </div>
                     <div>
                       <NuxtLink :to="`${article.link}`">
-                        <span class="text-lg lg:text-base font-semibold text-logiclytheme4">{{ article.title }}</span>
+                        <span class="text-lg font-semibold lg:text-base text-logiclytheme4">{{ article.title }}</span>
                       </NuxtLink>
                     </div>
                     <div class="pb-2">
-                      <span class="font-medium text-sm">{{ article.author }}</span>
+                      <span class="text-sm font-medium">{{ article.author }}</span>
                       <span class="text-logiclytheme4">|</span>
-                      <span class="font-normal text-sm">{{ article.date }}</span>
+                      <span class="text-sm font-normal">{{ article.date }}</span>
                     </div>
                     <div class="pb-2">
-                      <span class="font-light text-base lg:text-sm" v-html="`${article.description}`"></span>
+                      <span class="text-base font-light lg:text-sm" v-html="`${article.description}`"></span>
                     </div>
                     <div>
-                      <span class="font-normal text-base lg:text-sm text-logiclytheme4 hover:underline">
+                      <span class="text-base font-normal lg:text-sm text-logiclytheme4 hover:underline">
                         <NuxtLink :to="`${article.link}`">Read more</NuxtLink>
                       </span>
                     </div>
@@ -111,7 +111,30 @@ export default {
   },
   head() {
     return {
-      title: "Insights · Logicly"
+      title: "Logicly Insights - " + this.article.title,
+      link: [
+        {
+          rel: 'canonical',
+          href: 'https://www.logicly.com.au' + this.$route.path
+        }
+      ],
+      meta: [
+      {
+        hid: 'og:url',
+        name: 'og:url',
+        content: 'https://www.logicly.com.au' + this.$route.path
+      },
+      {
+        hid: 'description',
+        name: 'description',
+        content: this.article.description
+      },
+      {
+        hid: 'og:image',
+        name: 'og:image',
+        content: this.article.imgheader
+      },
+    ],
     };
   },
   computed: {
