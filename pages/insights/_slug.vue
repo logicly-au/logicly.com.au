@@ -143,12 +143,6 @@ export default {
         property: 'og:description',
         content: this.article.description
       },
-      {
-        hid: 'og:image',
-        name: 'og:image',
-        property: 'og:image',
-        content: `/${this.article.imageheader}`
-      }
     ],
     };
   },
