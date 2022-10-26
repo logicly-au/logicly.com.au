@@ -122,28 +122,27 @@ export default {
       {
         hid: 'og:title',
         name: 'og:title',
+        property: 'og:title',
         content: "Logicly Insights - " + this.article.title,
       },
       {
         hid: 'description',
         name: 'description',
+        property: 'description',
         content: this.article.description
       },
       {
         hid: 'og:url',
         name: 'og:url',
+        property: 'og:url',
         content: 'https://www.logicly.com.au' + this.$route.path
       },
       {
         hid: 'og:description',
         name: 'og:description',
+        property: 'og:description',
         content: this.article.description
       },
-      {
-        hid: 'og:image',
-        name: 'og:image',
-        content: `/${this.article.imageheader}`
-      }
     ],
     };
   },
