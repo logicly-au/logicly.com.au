@@ -4,6 +4,13 @@
       <footer>
         <div class="grid grid-cols-12">
           <div class="grid grid-cols-12 col-span-10 col-start-2 gap-4 px-6 py-16 text-sm text-left lg:py-24 md:px-0 mobileres">
+            <div class="col-span-12 grid grid-cols-6 mb-2 lg:mb-5">
+              <div class="col-span-6 mx-0 text-logiclytextgrey">
+                <h5 class="text-md font-medium">
+                  Logicly acknowledges the Traditional Owners of Country throughout Australia. <br>We pay our respects to Elders, past, present and emerging.
+                </h5>
+              </div>
+            </div>
             <div class="col-span-12 mb-6 lg:col-span-4 lg:mb-0">
               <div class="mb-6 lg:mb-4">
                 <NuxtLink to="/" class="self-start">
@@ -18,7 +25,7 @@
                 <span class="block">PO Box 1166, Carlton, Victoria 3053, Australia</span>
               </div>
             </div>
-            <div class="grid grid-cols-3 col-span-12 text-sm lg:col-span-6 lg:col-start-6 xl:col-span-5 xl:col-start-7">
+            <div class="grid grid-cols-3 col-span-12 text-sm lg:col-span-6 lg:col-start-6 xl:col-span-5 xl:col-start-7 lg:mt-4">
               <div class="col-span-3 mb-6 lg:col-span-1 lg:mb-0">
                 <NuxtLink to="/" class="block hover:underline" exact>home</NuxtLink>
                 <NuxtLink to="/whatwedo" class="block hover:underline" exact>what we do</NuxtLink>
@@ -53,9 +60,9 @@
               </div>
               <div class="grid content-end grid-cols-3 col-span-12 lg:col-span-6 lg:col-start-6 xl:col-span-5 xl:col-start-7">
                 <div class="grid grid-cols-3 col-span-1 mt-6 lg:col-start-3 lg:mt-0">
+                  <div class="col-span-1 order-first lg:order-last"><a href="https://www.linkedin.com/company/logiclyaustralia/about/"><img src="~/assets/images/Linkedin.svg" class="h-5 lg:h-4"></img></a></div>
                   <div class="col-span-1"><img src="~/assets/images/Facebook.svg" class="h-5 lg:h-4 hidden"></img></div>
                   <div class="col-span-1"><img src="~/assets/images/Twitter.svg" class="h-5 lg:h-4 hidden"></img></div>
-                  <div class="col-span-1"><a href="https://www.linkedin.com/company/logiclyaustralia/about/"><img src="~/assets/images/Linkedin.svg" class="h-5 lg:h-4"></img></a></div>
                 </div>
               </div>
             </div>
