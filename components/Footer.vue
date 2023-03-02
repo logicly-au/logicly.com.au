@@ -7,7 +7,7 @@
             <div class="col-span-12 grid grid-cols-6 mb-2 lg:mb-5">
               <div class="col-span-6 mx-0 text-logiclytextgrey">
                 <h5 class="text-md font-medium">
-                  Logicly acknowledges the Traditional Owners of Country throughout Australia. <br>We pay our respects to Elders, past, present and emerging.
+                  Logicly acknowledges the Traditional Owners of Country throughout Australia. <br>We pay our respects to Elders, past and present.
                 </h5>
               </div>
             </div>
