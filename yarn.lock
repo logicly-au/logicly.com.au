@@ -4608,11 +4608,6 @@ has-symbols@^1.0.1, has-symbols@^1.0.2, has-symbols@^1.0.3:
   resolved "https://registry.yarnpkg.com/has-symbols/-/has-symbols-1.0.3.tgz#bb7b2c4349251dce87b125f7bdf874aa7c8b39f8"
   integrity sha512-l3LCuF6MgDNwTDKkdYGEihYjt5pRPbEg46rtlmnSPlUbgmB8LOIrKJbYYFBSbnPaJexMKtiPO8hmeRjRz2Td+A==
 
-has-symbols@^1.0.3:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/has-symbols/-/has-symbols-1.0.3.tgz#bb7b2c4349251dce87b125f7bdf874aa7c8b39f8"
-  integrity sha512-l3LCuF6MgDNwTDKkdYGEihYjt5pRPbEg46rtlmnSPlUbgmB8LOIrKJbYYFBSbnPaJexMKtiPO8hmeRjRz2Td+A==
-
 has-tostringtag@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/has-tostringtag/-/has-tostringtag-1.0.0.tgz#7e133818a7d394734f941e73c3d3f9291e658b25"
@@ -7858,13 +7853,6 @@ qs@^6.5.2, qs@^6.9.4:
   dependencies:
     side-channel "^1.0.4"
 
-qs@^6.9.4:
-  version "6.11.0"
-  resolved "https://registry.yarnpkg.com/qs/-/qs-6.11.0.tgz#fd0d963446f7a65e1367e01abd85429453f0c37a"
-  integrity sha512-MvjoMCJwEarSbUYk5O+nmoSzSutSsTwF85zcHPQ9OrlFoZOYIjaqBAJIqIXjptyD5vThxGq52Xu/MaJzRkIk4Q==
-  dependencies:
-    side-channel "^1.0.4"
-
 query-string@^4.1.0:
   version "4.3.4"
   resolved "https://registry.yarnpkg.com/query-string/-/query-string-4.3.4.tgz#bbb693b9ca915c232515b228b1a02b609043dbeb"
@@ -9557,6 +9545,11 @@ vue-dropdowns@^1.1.2:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/vue-dropdowns/-/vue-dropdowns-1.1.2.tgz#ffa9873a3b69e2938e88dd62ce0c221462bd7bae"
   integrity sha512-1zISzpdf+GaQfI8yyCSASGJkb3vkjr2ZtX276wSdix2F1pXU9stkvDPFUM5ac9sAWY/3rZjBSvw9bTBvFTGnTw==
+
+vue-gtag@^1.16.1:
+  version "1.16.1"
+  resolved "https://registry.yarnpkg.com/vue-gtag/-/vue-gtag-1.16.1.tgz#edb2f20ab4f6c4d4d372dfecf8c1fcc8ab890181"
+  integrity sha512-5vs0pSGxdqrfXqN1Qwt0ZFXG0iTYjRMu/saddc7QIC5yp+DKgjWQRpGYVa7Pq+KbThxwzzMfo0sGi7ISa6NowA==
 
 vue-hot-reload-api@^2.3.0:
   version "2.3.4"
