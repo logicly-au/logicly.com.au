@@ -75,13 +75,14 @@ One of the biggest mistakes organisations make is to think they should try to ad
 
 ### More security does not always mean better security
 Applying excessive or unnecessary security measures can have negative consequences for your organisation, such as:
-
+<div class="blog-text-list">
 <ul>
-<li>Diverting scarce resources: given that resources, including time and expertise, are limited, risks and their mitigations should be prioritised such that those with the highest impact are addressed first.</li>
-<li>Increasing your costs and complexity: more technologies, tools and methods that you need to acquire, implement and maintain can increase your expenses, overheads, and technical and operational challenges.</li>
-<li>Reducing your performance and usability: more security means more restrictions and controls that you need to comply with and enforce. This can reduce your speed and flexibility, as well as your user experience and satisfaction, potentially leading users to circumvent safe practices to achieve their objectives.</li>
-<li>Creating new risks and vulnerabilities: Having more complex security than you need increases the changes and updates that you need to monitor and manage. This can create new errors and gaps, as well as new threats and attacks. </li>
+  <li>Diverting scarce resources: given that resources, including time and expertise, are limited, risks and their mitigations should be prioritised such that those with the highest impact are addressed first.</li>
+  <li>Increasing your costs and complexity: more technologies, tools and methods that you need to acquire, implement and maintain can increase your expenses, overheads, and technical and operational challenges.</li>
+  <li>Reducing your performance and usability: more security means more restrictions and controls that you need to comply with and enforce. This can reduce your speed and flexibility, as well as your user experience and satisfaction, potentially leading users to circumvent safe practices to achieve their objectives.</li>
+  <li>Creating new risks and vulnerabilities: Having more complex security than you need increases the changes and updates that you need to monitor and manage. This can create new errors and gaps, as well as new threats and attacks. </li>
 </ul>
+</div>
 
 ### How can you determine an information security approach that’s just right?
 We follow a risk-based approach to information security that balances the likelihood and impact of potential incidents. By prioritising your data security needs according to their importance and urgency, you can allocate your resources wisely.
@@ -94,47 +95,54 @@ Another misconception is to think that information security is a one-off task th
 
 ### The data landscape is constantly changing.
 Every day, the goalposts shift. There are new:
-
+<div class="blog-text-list">
 <ul>
-<li>threats, attacks and vulnerabilities</li>
-<li>technologies, tools and platforms</li>
-<li>data sources, formats and types</li>
+  <li>threats, attacks and vulnerabilities</li>
+  <li>technologies, tools and platforms</li>
+  <li>data sources, formats and types</li>
 </ul>
+</div>
 
 To keep up with these changes, you must regularly monitor, review and update your information security approach. You need to keep on top of assessing your current situation, identifying your gaps and weaknesses, implementing your changes and measuring your results.
 
 ### How to adopt a proactive and holistic approach.
 Ensure your information security approach covers all aspects of your systems design, implementation and configuration, personnel training and knowledge, and the data lifecycle from collection, storage, processing, analysis, sharing and disposal. Here are five ideas to get you started:
-
+<div class="blog-text-list">
 <ol>
-<li>Consider the technical, human, organisational and legal aspects of information security.</li>
-<li>Involve all your stakeholders, including staff, partners, suppliers, customers and regulators.</li>
-<li>Establish clear policies, procedures and standards for information security that align with your legal obligations, goals and values.</li>
-<li>Educate and train your staff on data security best practices and responsibilities.</li>
-<li>Audit and test your data security system regularly and fix any issues promptly.</li>
+  <li>Consider the technical, human, organisational and legal aspects of information security.</li>
+  <li>Involve all your stakeholders, including staff, partners, suppliers, customers and regulators.</li>
+  <li>Establish clear policies, procedures and standards for information security that align with your legal obligations, goals and values.</li>
+  <li>Educate and train your staff on data security best practices and responsibilities.</li>
+  <li>Audit and test your data security system regularly and fix any issues promptly.</li>
 </ol>
+</div>
 
 ## Myth 3: Information security is the same for every project.
 There are no one-size-fits-all solutions for information security or silver bullets that can address every issue. This assumption can lead to ineffective and inefficient outcomes. Information security can’t be generic, it must be specific depending on the context and characteristics of each project.
 
 ### Every project has different information security requirements and challenges.
 All projects are unique, with diverse:
-
+<div class="blog-text-list">
 <ul>
-<li>type, volume, sensitivity and value of held data</li>
-<li>purpose, scope, duration and complexity of the project</li>
-<li>stakeholders, expectations, regulations and standards</li>
+  <li>type, volume, sensitivity and value of held data</li>
+  <li>purpose, scope, duration and complexity of the project</li>
+  <li>stakeholders, expectations, regulations and standards</li>
+</ul>
+</div>
 
 To address these variations, you must tailor your information security system to fit your needs and context.
 
 ### How to design a tailored information security system.
 You need to thoroughly analyse your project before you design and implement your information security approach.
-
-Define your objectives, scope, deliverables and success criteria.
-Identify your data sources, types, formats and volumes.
-Assess the sensitivity, confidentiality and integrity of your data.
-Evaluate the risks, threats and vulnerabilities of your data.
-Select the appropriate technologies, tools and methods to support your data security approach.
+<div class="blog-text-list">
+<ul>
+  <li>Define your objectives, scope, deliverables and success criteria.</li>
+  <li>Identify your data sources, types, formats and volumes.</li>
+  <li>Assess the sensitivity, confidentiality and integrity of your data.</li>
+  <li>Evaluate the risks, threats and vulnerabilities of your data.</li>
+  <li>Select the appropriate technologies, tools and methods to support your data security approach.</li>
+</ul>
+</div>
 
 ## Myth 4: Information security systems eliminate data risk.
 Some organisations expect an information security approach will provide them with absolute certainty and assurance that their data is safe from harm or loss. This is unrealistic and can lead to overconfidence and complacency. Information security is not a binary state but a relative one that depends on the level of protection and resilience you can achieve. Rather than thinking, ‘Is my system secure?’, start framing the question as ‘Is my system being managed securely?’
@@ -144,10 +152,13 @@ There’s always a possibility that someone or something can breach or compromis
 
 ### How to manage information security risk.
 You need to accept that information security is not a guarantee but a goal you can strive for. By adopting a risk-based approach to information security, you can balance the likelihood and impact of potential incidents.
-
-Implement multiple layers of defence and backup for your information security system to prevent, detect and respond to different types of attacks.
-Have a contingency plan and a recovery plan for your information security system that can minimise the damage and restore normal operations in case of a breach or failure.
-Constantly maintain and improve your security system in response to the changing environment.
+<div class="blog-text-list">
+<ul>
+  <li>Implement multiple layers of defence and backup for your information security system to prevent, detect and respond to different types of attacks.</li>
+  <li>Have a contingency plan and a recovery plan for your information security system that can minimise the damage and restore normal operations in case of a breach or failure.</li>
+  <li>Constantly maintain and improve your security system in response to the changing environment.</li>
+</ul>
+</div>
 
 ## Myth 5: Information security can be added at any time
 We often see organisations treat information security as an afterthought, a bolt-on feature that can be added or removed as needed. This costly and risky practice can compromise the quality and effectiveness of your information security system. So, while you can add it at any time, it’s much more efficient to integrate data security from the beginning than to retrofit later.
