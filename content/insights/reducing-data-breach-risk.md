@@ -1,11 +1,11 @@
 ---
 title: Reducing data breach risk
 description: "A smart information security guide"
-author: Adam Clarke
-jobtitle: Director/Senior Consultant/CTO
-img:
-alt:
-imgheader: reducing-data-breach-risk.jpg
+author: Michelle Nicholson
+jobtitle: Director, Strategy and Operations
+img: reducing-data-breach-risk.jpg
+alt: Reducing data breach image
+imgheader: reducing-data-breach-risk-header.jpg
 link: /insights/reducing-data-breach-risk
 categories:
   - Public Sector
@@ -17,7 +17,7 @@ categories:
 <div class="col-span-12 lg:col-span-3 blog-sidebar">
 <div class="mt-2 blog-sidebar-author">
 
-#### Adam Clarke
+#### Michelle Nicholson
 
 ##### 22 October 2022
 </div>
@@ -61,9 +61,8 @@ The public sector is not immune, as evidenced by the Australian Defence Force cy
 
 Information security is complex, but you need to address and conquer it. Misconceptions around information security can make it confusing and difficult to manage your risk effectively. This article will debunk some common myths and give tips on implementing information security thoughtfully and sustainably. We’ll also explain how our team can help solve your complex information security challenges so you can accurately understand your risks and make considered decisions about appropriate responses.
 
-NEED TO UPDATE IMAGE
 
-![AMHOCN image](/AMHOCN-coworkers-meeting-with-coworker-online.jpg)
+![Reducing data breach image](/reducing-data-breach-risk.jpg)
 
 ## What is information security?
 <strong>Information security is the process of safeguarding digital information from unauthorised or unintended access, modification or loss. It covers various aspects of information protection and applies technical, organisational and legal measures to prevent, detect and respond to potential threats and incidents that can compromise information systems and the data they hold.</strong>
@@ -108,7 +107,7 @@ To keep up with these changes, you must regularly monitor, review and update you
 ### How to adopt a proactive and holistic approach.
 Ensure your information security approach covers all aspects of your systems design, implementation and configuration, personnel training and knowledge, and the data lifecycle from collection, storage, processing, analysis, sharing and disposal. Here are five ideas to get you started:
 <div class="blog-text-list">
-<ol>
+<ol> 
   <li>Consider the technical, human, organisational and legal aspects of information security.</li>
   <li>Involve all your stakeholders, including staff, partners, suppliers, customers and regulators.</li>
   <li>Establish clear policies, procedures and standards for information security that align with your legal obligations, goals and values.</li>
@@ -135,13 +134,13 @@ To address these variations, you must tailor your information security system to
 ### How to design a tailored information security system.
 You need to thoroughly analyse your project before you design and implement your information security approach.
 <div class="blog-text-list">
-<ul>
+<ol>
   <li>Define your objectives, scope, deliverables and success criteria.</li>
   <li>Identify your data sources, types, formats and volumes.</li>
   <li>Assess the sensitivity, confidentiality and integrity of your data.</li>
   <li>Evaluate the risks, threats and vulnerabilities of your data.</li>
   <li>Select the appropriate technologies, tools and methods to support your data security approach.</li>
-</ul>
+</ol>
 </div>
 
 ## Myth 4: Information security systems eliminate data risk.
@@ -153,11 +152,11 @@ There’s always a possibility that someone or something can breach or compromis
 ### How to manage information security risk.
 You need to accept that information security is not a guarantee but a goal you can strive for. By adopting a risk-based approach to information security, you can balance the likelihood and impact of potential incidents.
 <div class="blog-text-list">
-<ul>
+<ol>
   <li>Implement multiple layers of defence and backup for your information security system to prevent, detect and respond to different types of attacks.</li>
   <li>Have a contingency plan and a recovery plan for your information security system that can minimise the damage and restore normal operations in case of a breach or failure.</li>
   <li>Constantly maintain and improve your security system in response to the changing environment.</li>
-</ul>
+</ol>
 </div>
 
 ## Myth 5: Information security can be added at any time
@@ -179,7 +178,7 @@ The first step is understanding the legislative requirements for your project. A
 There are serious implications to data breaches including fines, reputation and business continuity. You must consider the type of data you deal with and the effects of a potential breach on your organisation. Different types of data have different levels of sensitivity and value, such as personal information, health information, financial information or national security information. The impact of a breach can vary from minor inconvenience to major disaster. Classify your data according to its sensitivity and value and assess the impact of a breach using a risk matrix.
 
 ### Consider the business case
-Think about the trade-off between investing in information security versus recovering from a worst-case scenario, because it can save you money and time in the long run. According to a report by IBM, the average cost of a data breach in 2023 was US$4.45M.
+Think about the trade-off between investing in information security versus recovering from a worst-case scenario, because it can save you money and time in the long run. According to a <a href="https://www.ibm.com/reports/data-breach">report by IBM</a>, the average cost of a data breach in 2023 was US$4.45M.
 
 ### Explore your options
 If there are budget or timing constraints, you have options. Information security can be expensive and time-consuming, depending on the level of protection and resilience you need. However, this does not mean that you must compromise on information security or settle for a suboptimal solution. There are options that can help you achieve your information security goals within your budget and timeline.
@@ -192,9 +191,42 @@ Start by prioritising your information security needs according to their importa
 We can guide you to develop a robust information security system and then manage it so you can have peace of mind that you’re doing everything you can to keep your data safe. We specialise in developing digital systems to solve complex information challenges for government clients. Our proven four-stage process embeds data security from start to finish in every project:
 
 ### Our continuous 4-stage approach
-
-[NEED TO INSERT TABLE]
-
+<div class="blog-text-list">
+<ol>
+  <li>
+    <h5>
+      Research
+    </h5>
+    <p>
+      We examine your project’s context, objectives and requirements and present different approaches and options to solve your data security challenges.
+    </p>
+  </li>
+  <li>
+    <h5>
+      Design
+    </h5>
+    <p>
+      We create a user-friendly interface for your data system, applying robust data security principles to create secure architecture for your data.
+    </p>
+  </li>
+  <li>
+    <h5>
+     Build
+    </h5>
+    <p>
+      Our team tests and deploys your solution using cutting-edge platforms, encryption, authentication and authorisation techniques.
+    </p>
+  </li>
+  <li>
+    <h5>
+      Maintain and improve
+    </h5>
+    <p>
+      Ongoing support includes training, maintenance, improvements and monitoring to protect your data from breaches throughout the project.
+    </p>
+  </li>
+</ol>
+</div>
 
 ## Are you ready to embed information security in your project?
 We’d love to help. <a href="https://www.logicly.com.au/whowehelp/">We’ve got decades of experience working with all sorts of clients</a>, so we’re well-placed to successfully navigate your complex project. <NuxtLink to="/contactus">Get in touch</NuxtLink> for a free 60-minute consultation to discuss potential solutions.
