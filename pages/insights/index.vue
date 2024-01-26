@@ -215,6 +215,12 @@ export default {
   font-weight:300;
 }
 
+.blog-text-list ol li {
+  list-style:decimal;
+  margin-left:1.25rem;
+  font-weight:300;
+}
+
 ul.nav.nav-tabs {
   display:flex;
   justify-content:space-between;
