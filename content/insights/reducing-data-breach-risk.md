@@ -72,14 +72,14 @@ It’s a complex field, and misconceptions abound. Let’s take a look at some o
 ## Myth 1: More security is always better.
 One of the biggest mistakes organisations make is to think they should try to address every single security risk and apply the highest level of security possible for their data. Following this myth can waste resources and reduce efficiency. You need to assess the risks associated with the data you hold and apply the appropriate level of security that matches your needs, context and resources.
 
-### More security does not always mean better security
+### More security does not always mean better security.
 Applying excessive or unnecessary security measures can have negative consequences for your organisation, such as:
 <div class="blog-text-list">
 <ul>
   <li>Diverting scarce resources: given that resources, including time and expertise, are limited, risks and their mitigations should be prioritised such that those with the highest impact are addressed first.</li>
-  <li>Increasing your costs and complexity: more technologies, tools and methods that you need to acquire, implement and maintain can increase your expenses, overheads, and technical and operational challenges.</li>
+  <li>Increasing your costs and complexity: the more technologies, tools and methods that you need to acquire, implement and maintain can increase your expenses, overheads, and technical and operational challenges.</li>
   <li>Reducing your performance and usability: more security means more restrictions and controls that you need to comply with and enforce. This can reduce your speed and flexibility, as well as your user experience and satisfaction, potentially leading users to circumvent safe practices to achieve their objectives.</li>
-  <li>Creating new risks and vulnerabilities: Having more complex security than you need increases the changes and updates that you need to monitor and manage. This can create new errors and gaps, as well as new threats and attacks. </li>
+  <li>Creating new risks and vulnerabilities: having more complex security than you need increases the changes and updates that you need to monitor and manage. This can create new errors and gaps, as well as new threats and attacks. </li>
 </ul>
 </div>
 
@@ -107,7 +107,7 @@ To keep up with these changes, you must regularly monitor, review and update you
 ### How to adopt a proactive and holistic approach.
 Ensure your information security approach covers all aspects of your systems design, implementation and configuration, personnel training and knowledge, and the data lifecycle from collection, storage, processing, analysis, sharing and disposal. Here are five ideas to get you started:
 <div class="blog-text-list">
-<ol> 
+<ol>
   <li>Consider the technical, human, organisational and legal aspects of information security.</li>
   <li>Involve all your stakeholders, including staff, partners, suppliers, customers and regulators.</li>
   <li>Establish clear policies, procedures and standards for information security that align with your legal obligations, goals and values.</li>
@@ -162,7 +162,7 @@ You need to accept that information security is not a guarantee but a goal you c
 ## Myth 5: Information security can be added at any time
 We often see organisations treat information security as an afterthought, a bolt-on feature that can be added or removed as needed. This costly and risky practice can compromise the quality and effectiveness of your information security system. So, while you can add it at any time, it’s much more efficient to integrate data security from the beginning than to retrofit later.
 
-### Information security is not a standalone function
+### Information security is not a standalone function.
 Information security is an integrated activity that affects and is affected by all aspects of your project, so it’s more effective to consider it upfront.
 
 ### How to incorporate information security into every stage of your project lifecycle.
