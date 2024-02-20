@@ -1,6 +1,7 @@
 ---
 title: Data is only useful when it’s accurate - How we make sure our numbers stack up
-description: "Why is accurate data collection important? </br>
+description: "When you’re making big decisions, you need accurate data. Find out how counting things is not as simple as you thought and how we ensure data accuracy."
+summary: "Why is accurate data collection important? </br>
 If you’re responsible for decision making in your organisation, chances are you’re relying on data to guide you. Accurate data can help you make informed choices, leading to improved efficiency, profitability, customer satisfaction, employee retention and growth."
 author: Simon Palmer
 jobtitle: Director/Senior Consultant

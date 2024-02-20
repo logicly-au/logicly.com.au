@@ -60,7 +60,7 @@
                         <span class="text-sm font-normal">{{ article.date }}</span>
                       </div>
                       <div class="pb-1">
-                        <span class="text-base font-light xl:text-sm" v-html="`${article.description}`"></span>
+                        <span class="text-base font-light xl:text-sm" v-html="`${article.summary}`"></span>
                       </div>
                       <div>
                         <span class="text-base xl:text-sm text-logiclyorange hover:underline">
