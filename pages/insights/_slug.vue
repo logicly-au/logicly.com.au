@@ -28,7 +28,7 @@
             </div>
             <div class="col-span-12 lg:col-span-9 lg:col-start-4 lg:pl-6 blogheading">
               <h1 class="pb-5 text-xl font-semibold leading-tight text-logiclyorange">{{ article.title }}</h1>
-              <span class="text-lg font-light text-logiclytextgrey" v-html="`${article.description}`"></span>
+              <span class="text-lg font-light text-logiclytextgrey" v-html="`${article.summary}`"></span>
             </div>
           </div>
         </li>
@@ -136,12 +136,6 @@ export default {
         name: 'og:url',
         property: 'og:url',
         content: 'https://www.logicly.com.au' + this.$route.path
-      },
-      {
-        hid: 'og:description',
-        name: 'og:description',
-        property: 'og:description',
-        content: this.article.description
       },
     ],
     };

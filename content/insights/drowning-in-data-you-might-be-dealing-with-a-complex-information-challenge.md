@@ -1,6 +1,7 @@
 ---
 title: Drowning in data? You might be dealing with a complex information challenge.
-description: "No matter what your industry, it’s likely that data plays a role. Data can help you:
+description: "Are you drowning in data? Find out what makes a data challenge complex and your path to a successful outcome." 
+summary: "No matter what your industry, it’s likely that data plays a role. Data can help you:
 <ul>
 <li> - make better decisions</li>
 <li> - establish baselines and set goals</li>

@@ -1,6 +1,7 @@
 ---
 title: Co-designing for data success in the public sector
-description: "Collaborative design with internal experts, external experts, stakeholders and users leads to amazing data outcomes."
+description: "Collaborative design with internal experts, external experts, stakeholders and users leads to amazing data outcomes. Call 03 9340 9000 for a free consult."
+summary: "Collaborative design with internal experts, external experts, stakeholders and users leads to amazing data outcomes."
 author: Michelle Nicholson
 jobtitle: Director, Strategy and Operations
 date: 23 Sep 2022

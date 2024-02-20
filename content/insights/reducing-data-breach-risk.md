@@ -1,6 +1,7 @@
 ---
 title: Reducing data breach risk
-description: "A smart information security guide"
+description: "We debunk some common information security myths and give tips on choosing and implementing a smart information security system. Call 03 9340 9000 for a free consultation."
+summary: "A smart information security guide"
 author: Adam Clarke
 jobtitle: Director/Senior Consultant/CTO
 img: reducing-data-breach-risk.jpg
