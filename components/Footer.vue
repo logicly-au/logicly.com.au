@@ -55,7 +55,7 @@
 
             <div class="grid grid-cols-12 col-span-12">
               <div class="col-span-12 text-sm lg:col-span-5 lg:mt-4">
-                <span class="pr-2">Logicly © 2021</span>
+                <span class="pr-2">Logicly © {{ copyrightYear }}</span>
                 <NuxtLink to="/privacy" class="hover:underline pr-2" exact>Privacy policy</NuxtLink>
                 <a href="https://iar-dst.online/#/accessibility" class="hover:underline">Accessibility</a>
               </div>
@@ -76,7 +76,13 @@
 </template>
 
 <script>
-export default {}
+export default {
+  computed: {
+    copyrightYear() {
+      return new Date().getFullYear();
+    }
+  }
+}
 </script>
 
 <style scoped>
