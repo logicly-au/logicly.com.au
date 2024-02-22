@@ -4,6 +4,7 @@ description: "We share our 7 best tips to ensure you consider all the right fact
 summary: "The global shift to digitisation is transforming the way we live and work and the Australian public sector has a crucial role to play."
 author: Adam Clarke
 jobtitle: Director/Senior Consultant/CTO
+date: 10 July 2022
 img: /AMHOCN-coworkers-meeting-with-coworker-online.jpg
 alt: AMHOC image
 imgheader: /7-tips-to-set-your-public-sector-digital-transformation-project-up-for-success-header.jpg
