@@ -4,6 +4,7 @@ description: "We debunk some common information security myths and give tips on 
 summary: "A smart information security guide"
 author: Adam Clarke
 jobtitle: Director/Senior Consultant/CTO
+date: 15 January 2024
 img: reducing-data-breach-risk.jpg
 alt: Reducing data breach image
 imgheader: reducing-data-breach-risk-header.jpg

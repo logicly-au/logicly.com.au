@@ -8,7 +8,7 @@ date: 23 Sep 2022
 img: /co-designing-for-data.jpg
 alt: Department of Health Primary Mental Health Care Minimum Dataset
 imgheader: /co-designing-for-data-header.jpg
-link: /insights/getting-great-data-through-user-experience-design
+link: /insights/co-designing-for-data-success-in-the-public-sector
 categories:
   - Digital transformation
   - Public Sector
