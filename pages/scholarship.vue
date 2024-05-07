@@ -12,7 +12,7 @@
     <page-section>
       <div class="px-0 xl:px-6 scholarship-link">
         <div class="text-logiclytextgrey">
-          <h3 class="pb-2 text-lg">Logicly is offering up to eight individual scholarships for computer science graduates to complete a five-day <i>Introduction to Perl for Programmers</i> course, run by Paul Fenwick and valued at over $2,500 per person.</h3>
+          <h3 class="pb-2 text-lg">Logicly is offering up to eight individual scholarships for computer science graduates to complete a five-day <i>Introduction to Perl for Programmers</i> course, run by Paul Fenwick and valued at over $3,000 per person.</h3>
           <h3 class="pb-6 text-lg">The scholarships are a fantastic opportunity for the successful applicants to receive a world-class introduction to the popular Perl language and to obtain the background and technical skills necessary to begin developing code in a professional setting.</h3>
 
           <h4 class="pb-1 text-lg font-bold">Course participants will also be considered for a Graduate Programmer position at Logicly</h4>
