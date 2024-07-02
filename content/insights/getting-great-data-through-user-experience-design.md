@@ -4,19 +4,19 @@ description: "See how focusing on user experience led to better response rates, 
 summary: "User experience can impact how willing people are to complete a task, as well as how complete and accurate the data they supply is."
 author: Michelle Nicholson
 jobtitle: Director, Strategy and Operations
-date: 2 Jul 2024
+date: 02 July 2024
 img: /getting-great-data-through-ux.jpg
 alt: Queensland department of transport and main roads image
 imgheader: /getting-great-data-through-ux-header.jpg
 link: /insights/getting-great-data-through-user-experience-design
-category: 
+categories: 
   - User experience design
 ---
 
-<div class="grid grid-cols-12">
+<div class="grid grid-cols-12 gap-8">
 
 <div class="col-span-12 lg:col-span-3 blog-sidebar">
-<div class="blog-sidebar-author mt-2">
+<div class="mt-2 blog-sidebar-author ">
 
 #### Michelle Nicholson
 
@@ -24,7 +24,7 @@ category:
 </div>
 <div class="grid grid-cols-4">
 <!---Remove 'hidden' from div below to show social media icons--->
-<div class="col-span-3 lg:col-span-4 blog-social-media grid grid-cols-5 justify-items-start lg:justify-items-center hidden">
+<div class="grid hidden grid-cols-5 col-span-3 lg:col-span-4 blog-social-media justify-items-start lg:justify-items-center">
 <div class="col-span-1">
 Share
 </div>
@@ -73,7 +73,7 @@ Sounds too good to be true, but it’s not. Here’s what Mark Dorney from the D
 
 ### Better response rates
 
-<img class="blog-graphic" src="/We-move-from-paper-to-online.svg" />
+![We move from paper to online](/We-move-from-paper-to-online.svg)
 
 <div class=" text-center -mt-0 mb-4 sm:px-4 xl:px-10">
 <span class="text-sm font-semibold text-logiclytheme2">Moving the data collection online increased the average response rate by 20% to 60% of all households approached</span>
