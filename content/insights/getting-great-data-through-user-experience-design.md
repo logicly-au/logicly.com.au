@@ -1,6 +1,7 @@
 ---
 title: Getting great data through user experience design
 description: "See how focusing on user experience led to better response rates, more accurate data and cost savings in our online travel survey project."
+summary: "User experience can impact how willing people are to complete a task, as well as how complete and accurate the data they supply is."
 author: Michelle Nicholson
 jobtitle: Director, Strategy and Operations
 date: 2 Jul 2024
@@ -8,7 +9,8 @@ img: /getting-great-data-through-ux.jpg
 alt: Queensland department of transport and main roads image
 imgheader: /getting-great-data-through-ux-header.jpg
 link: /insights/getting-great-data-through-user-experience-design
-category: User experience design
+category: 
+  - User experience design
 ---
 
 <div class="grid grid-cols-12">
