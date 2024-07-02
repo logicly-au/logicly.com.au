@@ -1,29 +1,31 @@
 ---
 title: Data is only useful when it’s accurate - How we make sure our numbers stack up
-description: "Why is accurate data collection important? </br>
+description: "When you’re making big decisions, you need accurate data. Find out how counting things is not as simple as you thought and how we ensure data accuracy."
+summary: "Why is accurate data collection important? </br>
 If you’re responsible for decision making in your organisation, chances are you’re relying on data to guide you. Accurate data can help you make informed choices, leading to improved efficiency, profitability, customer satisfaction, employee retention and growth."
 author: Simon Palmer
 jobtitle: Director/Senior Consultant
-date: 29 Mar 2021
+date: 29 Jul 2022
 img: /Youth-and-Family-Support-Organisation-coworkers-looking-at-laptop-graph.jpg
 alt: Youth and family support organisation image
 imgheader: /data-is-only-useful-when-its-accurate-header.jpg
 link: /insights/data-is-only-useful-when-its-accurate
-category: Data reliability
+categories:
+  - Data reliability
 ---
 
-<div class="grid grid-cols-12">
+<div class="grid grid-cols-12 gap-8">
 
 <div class="col-span-12 lg:col-span-3 blog-sidebar">
-<div class="blog-sidebar-author mt-2">
+<div class="mt-2 blog-sidebar-author">
 
 #### Simon Palmer
 
-##### 29 March 2021
+##### 29 July 2022
 </div>
 <div class="grid grid-cols-4">
 <!---Remove 'hidden' from div below to show social media icons--->
-<div class="col-span-3 lg:col-span-4 blog-social-media grid grid-cols-5 justify-items-start lg:justify-items-center hidden">
+<div class="grid hidden grid-cols-5 col-span-3 lg:col-span-4 blog-social-media justify-items-start lg:justify-items-center">
 <div class="col-span-1">
 Share
 </div>
@@ -41,7 +43,7 @@ Share
 </div>
 
 <div class="col-span-1">
-<a href="mailto:info@strategicdata.com.au">
+<a href="mailto:info@logicly.com.au">
 <img class="h-4" src="/Email.svg" />
 </a>
 </div>

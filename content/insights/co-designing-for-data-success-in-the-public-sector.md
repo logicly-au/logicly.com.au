@@ -1,28 +1,32 @@
 ---
 title: Co-designing for data success in the public sector
 description: "Collaborative design with internal experts, external experts, stakeholders and users leads to amazing data outcomes. Call 03 9340 9000 for a free consult."
+summary: "Collaborative design with internal experts, external experts, stakeholders and users leads to amazing data outcomes."
 author: Michelle Nicholson
-jobtitle: Director/Manager, Business Operations
-date: 23 Jul 2021
+jobtitle: Director, Strategy and Operations
+date: 23 Sep 2022
 img: /co-designing-for-data.jpg
 alt: Department of Health Primary Mental Health Care Minimum Dataset
 imgheader: /co-designing-for-data-header.jpg
-link: /insights/getting-great-data-through-user-experience-design
-category: Digital transformation
+link: /insights/co-designing-for-data-success-in-the-public-sector
+categories:
+  - Digital transformation
+  - Public Sector
+  - User Experience Design
 ---
 
-<div class="grid grid-cols-12">
+<div class="grid grid-cols-12 gap-8">
 
 <div class="col-span-12 lg:col-span-3 blog-sidebar">
-<div class="blog-sidebar-author mt-2">
+<div class="mt-2 blog-sidebar-author">
 
 #### Michelle Nicholson
 
-##### 23 July 2021
+##### 23 September 2022
 </div>
 <div class="grid grid-cols-4">
 <!--- Remove 'hidden' from div below to show social media icons --->
-<div class="col-span-3 lg:col-span-4 blog-social-media grid grid-cols-5 justify-items-start lg:justify-items-center hidden">
+<div class="grid hidden grid-cols-5 col-span-3 lg:col-span-4 blog-social-media justify-items-start lg:justify-items-center">
 <div class="col-span-1">
 Share
 </div>
@@ -40,7 +44,7 @@ Share
 </div>
 
 <div class="col-span-1">
-<a href="mailto:info@strategicdata.com.au">
+<a href="mailto:info@logicly.com.au">
 <img class="h-4" src="/Email.svg" />
 </a>
 </div>
@@ -105,7 +109,7 @@ Since the launch of this project, we’ve continued to co-design successful impr
 <span class="m-2">‘We needed to start collecting information about The WayBack program quickly and with as little additional burden on the data providers as possible. The use of an extension onto the PMHC MDS meant that the data providers would use their already existing processes making implementation an easier process. The Logicly Support Service has been invaluable to assist our staff, the data providers and even third-party developers to navigate the data set. Logicly helped us shepherd the project to achieve tight deadlines, talking through complex data challenges using plain language which enabled quick decision making. They also helped us design and implement the reports so that we can get the information we need for our own reporting processes in the format we need quickly.’</span> <br><span class="text-sm italic">- Jennifer Smith, Project Manager, The Way Back Support Service Strategy & Infrastructure, <a href="https://www.beyondblue.org.au/">Beyond Blue</a></span>
 
 ## Are you ready to co-design your next data system?
-We’d love to help. And because <NuxtLink to="/whowehelp">we’ve worked with Government</NuxtLink> for decades, we know our way around your procurement, compliance and security systems which will make things easy for you. So, let’s chat about your project. <NuxtLink to="/contactus">Get in touch</NuxtLink> for a free 30-minute consult.
+We’d love to help. And because <NuxtLink to="/whowehelp">we’ve worked with Government</NuxtLink> for decades, we know our way around your procurement, compliance and security systems which will make things easy for you. <NuxtLink to="/contactus">So, let’s chat about your project.</NuxtLink>
 
 </div>
 </div>

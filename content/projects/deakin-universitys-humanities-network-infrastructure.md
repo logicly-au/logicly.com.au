@@ -1,9 +1,9 @@
 ---
 title: Deakin University’s Humanities Network Infrastructure
 description: Opening up vast cultural databases to easy navigation
-category: Research
+category: research
 ---
-<div class="grid grid-cols-12">
+<div class="grid grid-cols-12 gap-8">
 
 <div class="col-span-12 project-images">
     <img src="/Projects/Images/4_Deakin_Universitys_Humanities_Network_Infrastructure/Deakin-Universitys-Humanities-Network-Infrastructure.jpg" />

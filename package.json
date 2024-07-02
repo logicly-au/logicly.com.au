@@ -6,7 +6,8 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate"
+    "generate": "nuxt generate",
+    "preview": "nuxt generate && nuxt start"
   },
   "dependencies": {
     "@nuxt/content": "^1.14.0",
@@ -16,9 +17,11 @@
     "bp-vuejs-dropdown": "^2.1.1",
     "nuxt": "^2.15.0",
     "vue-dropdowns": "^1.1.2",
+    "vue-gtag": "^1.16.1",
+    "vue-select": "^3.16.0",
     "vue-simple-accordion": "^0.1.0"
   },
   "devDependencies": {
-    "@nuxtjs/tailwindcss": "^2.1.0"
+    "@nuxtjs/tailwindcss": "^3.4.3"
   }
 }

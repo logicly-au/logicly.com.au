@@ -1,4 +1,3 @@
-
 <template>
   <div>
     <Hero
@@ -8,72 +7,30 @@
       overlay
     />
 
-
-    <!-- {{ activeTab }} -->
     <page-section altrow>
       <div class="pb-12">
-        <h2 class="text-2xl font-semibold text-center text-logiclytextgrey -mb-8">
+        <h2 class="-mb-8 text-2xl font-semibold text-center text-logiclytextgrey">
           Our diverse projects are from a range of sectors
         </h2>
       </div>
-      <div class="project-page lg:-mx-4 xl:-mx-0">
-        <vue-tabs ref="tabs" @tab-change="setActiveTab" v-model="activeTab">
-          <v-tab v-for="category in categories" :id="category" :title="category" :key="category" class="flex">
-            <template #title>
-              <div class="px-4 pt-10 projectsector">
-                <div class="flex justify-center">
-                  <img v-if="activeTab == category" :src="'/Projects_' + category + '_selected.svg'" class="h-10" />
-                  <img v-else :src="'/Projects_' + category + '.svg'" class="h-10" />
-                </div>
-                <div class="pt-2 text-xs font-medium text-center sm:text-sm text-logiclytextgrey">
-                  {{ category }}
-                </div>
-              </div>
-            </template>
-          </v-tab>
-        </vue-tabs>
+      <div class="flex flex-row flex-wrap items-center mt-10 force-break space-between justify-evenly">
+        <button @click.prevent="$router.push({ path: '/projects/' + category })" class="flex flex-col py-2 md:py-0" v-for="category in categories">
+
+          <div class="flex self-center">
+            <img v-if="$route.params.slug == category" :src="'/Projects_' + capitalize(category) + '_selected.svg'" class="h-10 filter-orange" />
+            <img v-else :src="'/Projects_' + capitalize(category) + '.svg'" class="h-10 filter-orange" />
+          </div>
+          <div class="pt-2 text-xs font-medium text-center capitalize sm:text-sm text-logiclytextgrey">
+            {{ category }}
+          </div>
+
+        </button>
       </div>
     </page-section>
 
 
     <page-section>
-      <div class="grid grid-cols-12 pt-6 -mb-16 border-t-2 border-b-2 border-logiclyorange text-logiclytextgrey project-page">
-
-        <div class="hidden col-span-4 text-xl font-semibold lg:block">
-          {{ activeTab }}
-          projects
-        </div>
-
-        <!-- TODO Add mobile version of project-list -->
-        <!-- Project list mobile -->
-        <div class="block col-span-12 lg:hidden mb-10">
-          <select class='articles-select' @change="setActiveArticle(activeArticleIndex)" v-model="activeArticleIndex">
-            <option value="0" disabled>Select project</option>
-            <option v-for="(article, index) in articles" :value="index">{{ article.title }}</option>
-          </select>
-        </div>
-
-        <!-- Project list desktop -->
-        <div class="hidden col-span-8 lg:block projects-list">
-          <ul class='articles'>
-            <li @click="setActiveArticle(index)" v-for="(article, index) in articles" :class="{ 'articles-active': isActiveArticle(index) }">
-              <div class="grid grid-cols-12 pb-2">
-                <div class="col-span-1 ml-2 -mt-1 text-2xl font-light">
-                  >
-                </div>
-                <div class="col-span-11 col-start-2 cursor-pointer xl:col-span-10 hover:underline">
-                  <span class="font-semibold">{{ article.title }}</span></br>
-                  <span class="text-sm font-light xl:text-base">{{ article.description }}</span>
-                </div>
-              </div>
-            </li>
-          </ul>
-        </div>
-
-        <div class="col-span-12">
-          <nuxt-content :document="activeArticle" />
-        </div>
-      </div>
+        <NuxtChild />
     </page-section>
 
     <CTA
@@ -87,20 +44,10 @@
 
 <script>
 export default {
+  scrollToTop: true,
   data() {
     return {
-      activeTab: '',
-      activeTabIndex: 0,
-      activeArticleIndex: 0,
-      articles: [],
-      categories: [
-        'Research',
-        'Government',
-        'Health',
-        'Education',
-        'Non-Government',
-        'Corporate',
-      ],
+      categories: [],
     };
   },
   head() {
@@ -108,36 +55,29 @@ export default {
       title: "Projects · Logicly"
     };
   },
-  computed: {
-    activeArticle() {
-      return this.articles[this.activeArticleIndex];
-    },
-  },
   methods: {
-    setActiveArticle(index) {
-      this.activeArticleIndex = index;
-      this.$router.push({path: this.$route.path, query: { article: index, tab: this.activeTabIndex }});
-    },
-    isActiveArticle(index) {
-      return (this.activeArticleIndex == index);
-    },
-    async setActiveTab(newIndex) {
-      this.activeArticleIndex = 0;
-      this.activeTabIndex     = newIndex;
-      this.activeTab          = this.categories[this.activeTabIndex];
-      this.articles           = await this.$content('projects').where({ category: this.activeTab }).sortBy('title', 'asc').fetch();
-
-      this.$router.push({path: this.$route.path, query: { tab: newIndex, article: this.activeArticleIndex }});
+    capitalize(str) {
+      return str.replace(/(^|[\s-])\S/g, function (match) {
+        return match.toUpperCase();
+      });
     },
   },
-   created() {
-     this.setActiveTab(this.$route.query.tab || 0);
-     this.setActiveArticle(this.$route.query.article || 0);
+   async created() {
+     let categories = await this.$content('projects').only(['category']).fetch();
+     let sortedCategories = categories.map(article => article.category).sort((a,b) => a.localeCompare(b));
+
+     this.categories = new Set(sortedCategories);
   },
 }
 </script>
 
 <style>
+
+/* On hover change SVG colour */
+.filter-orange:hover {
+  filter: invert(34%) sepia(48%) saturate(3112%) hue-rotate(354deg) brightness(97%) contrast(89%);
+}
+/* End SVG fix */
 
 .project-page p {
   font-weight:300;
@@ -187,12 +127,6 @@ export default {
 .project-page li > a > div > img {
   margin:auto;
   margin-bottom:0.5rem;
-}
-
-/* margin-left added as temporary padding while icons-sidebar is displayed on the wrong side */
-.icons-sidebar {
-  margin-top:0.5rem;
-  margin-left: 1rem;
 }
 
 /* Commenting out right margin while icons-sidebar is displayed on the wrong side */
@@ -332,6 +266,15 @@ export default {
   width:100%;
   border: 1px solid #E9E8E1;
   padding: 10px 0px 10px 10px;
+}
+
+
+/* This will evenly size all projects icons for mobile display */
+
+@media only screen and (max-width: 640px) {
+  .force-break > button {
+    flex-basis: 33.33%;
+  }
 }
 
 </style>

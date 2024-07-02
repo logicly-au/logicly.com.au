@@ -1,6 +1,6 @@
 i <template>
 
-    <button class="block w-40 h-12 my-5 text-center text-white font-medium bg-logiclyorange hover:bg-logiclyhover">
+    <button class="block w-40 h-12 my-5 font-medium text-center text-white tt-lc bg-logiclyorange hover:bg-logiclyhover">
       <NuxtLink :to="buttonlink">{{ buttontext }}</NuxtLink>
     </button>
 
@@ -21,4 +21,7 @@ i <template>
 </script>
 
 <style scoped>
+button > a {
+  text-transform: lowercase!important;
+}
 </style>

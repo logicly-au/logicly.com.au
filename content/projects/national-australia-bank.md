@@ -1,9 +1,9 @@
 ---
 title: National Australia Bank
 description: Managing team performance at scale and in detail
-category: Corporate
+category: corporate
 ---
-<div class="grid grid-cols-12">
+<div class="grid grid-cols-12 gap-8">
 
 <div class="col-span-12 project-images">
     <img src="/Projects/Images/14_National_Australia_Bank/National-Australia-Bank-coworkers-meeting.jpg" />

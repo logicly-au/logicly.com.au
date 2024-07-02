@@ -1,6 +1,7 @@
 ---
 title: Drowning in data? You might be dealing with a complex information challenge.
-description: "No matter what your industry, it’s likely that data plays a role. Data can help you:
+description: "Are you drowning in data? Find out what makes a data challenge complex and your path to a successful outcome." 
+summary: "No matter what your industry, it’s likely that data plays a role. Data can help you:
 <ul>
 <li> - make better decisions</li>
 <li> - establish baselines and set goals</li>
@@ -10,12 +11,13 @@ description: "No matter what your industry, it’s likely that data plays a role
 </ul>"
 author: Andrew Gordon
 jobtitle: Business Development Manager
-date: 22 Dec 2020
+date: 22 Aug 2022
 img: /Victorian-Department-of-Education-and-Training-teacher-working-on-computer.jpg
 alt: Victorian Department of Education and Training image
 imgheader: /drowning-in-data-you-might-be-dealing-with-a-complex-information-challenge-header.jpg
 link: /insights/drowning-in-data-you-might-be-dealing-with-a-complex-information-challenge
-category: Complex data
+categories: 
+  - Complex data
 ---
 
 <div class="grid grid-cols-12">
@@ -25,7 +27,7 @@ category: Complex data
 
 #### Andrew Gordon
 
-##### 22 December 2020
+##### 22 August 2022
 </div>
 <div class="grid grid-cols-4">
 <!---Remove 'hidden' from div below to show social media icons--->
@@ -47,7 +49,7 @@ Share
 </div>
 
 <div class="col-span-1">
-<a href="mailto:info@strategicdata.com.au">
+<a href="mailto:info@logicly.com.au">
 <img class="h-4" src="/Email.svg" />
 </a>
 </div>

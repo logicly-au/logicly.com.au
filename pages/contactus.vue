@@ -25,10 +25,10 @@
           <h2 class="text-2xl font-semibold text-center text-logiclytextgrey">Start the conversation about how we can help</h2>
         </div>
       </div>
-      <div class="grid grid-cols-3 gap-x-10 mt-6 lg:mt-12">
-        <div class="col-span-3 lg:col-span-1 grid lg:grid-rows-3">
+      <div class="grid grid-cols-3 mt-6 gap-x-10 lg:mt-12">
+        <div class="grid col-span-3 lg:col-span-1 lg:grid-rows-3">
           <div>
-            <div class="w-20 md:w-20 lg:w-20 mx-auto">
+            <div class="w-20 mx-auto md:w-20 lg:w-20">
               <a href="tel:+61393409000">
                 <img src="~/assets/images/Call_us.svg"/>
               </a>
@@ -36,66 +36,66 @@
           </div>
           <div>
             <a href="tel:+61393409000">
-              <p class="text-xl font-medium text-center text-logiclytextgrey mt-2">
+              <p class="mt-2 text-xl font-medium text-center text-logiclytextgrey">
                 Call us
               </p>
             </a>
-            <hr class="hidden lg:block w-full mx-auto border border-logiclyorange mt-4">
+            <hr class="hidden w-full mx-auto mt-4 border lg:block border-logiclyorange">
           </div>
           <div>
-            <p class="text-center text-logiclytheme2 hover:underline mt-2 lg:-mt-2">
+            <p class="mt-2 text-center text-logiclytheme2 hover:underline lg:-mt-2">
               <a href="tel:+61393409000">
                 +61 3 9340 9000
               </a>
             </p>
-            <hr class="block lg:hidden w-full mx-auto border border-logiclyorange mt-12 lg:mt-6 mb-12">
+            <hr class="block w-full mx-auto mt-12 mb-12 border lg:hidden border-logiclyorange lg:mt-6">
           </div>
         </div>
 
-        <div class="col-span-3 lg:col-span-1 grid lg:grid-rows-3">
+        <div class="grid col-span-3 lg:col-span-1 lg:grid-rows-3">
           <div>
-            <div class="w-20 md:w-20 lg:w-20 mx-auto">
-              <a href="mailto:info@strategicdata.com.au">
+            <div class="w-20 mx-auto md:w-20 lg:w-20">
+              <a href="mailto:info@logicly.com.au">
                 <img src="~/assets/images/Email_us.svg"/>
               </a>
             </div>
           </div>
           <div>
-            <a href="mailto:info@strategicdata.com.au">
-              <p class="text-xl font-medium text-center text-logiclytextgrey mt-2">
+            <a href="mailto:info@logicly.com.au">
+              <p class="mt-2 text-xl font-medium text-center text-logiclytextgrey">
                 Email us
               </p>
             </a>
-            <hr class="hidden lg:block w-full mx-auto border border-logiclyorange mt-4">
+            <hr class="hidden w-full mx-auto mt-4 border lg:block border-logiclyorange">
           </div>
           <div>
-            <p class="text-center text-logiclytheme2 hover:underline mt-2 lg:-mt-2">
-              <a href="mailto:info@strategicdata.com.au">
-                info@strategicdata.com.au
+            <p class="mt-2 text-center text-logiclytheme2 hover:underline lg:-mt-2">
+              <a href="mailto:info@logicly.com.au">
+                info@logicly.com.au
               </a>
             </p>
-            <hr class="block lg:hidden w-full mx-auto border border-logiclyorange mt-12 lg:mt-6 mb-12">
+            <hr class="block w-full mx-auto mt-12 mb-12 border lg:hidden border-logiclyorange lg:mt-6">
           </div>
         </div>
 
-        <div class="col-span-3 lg:col-span-1 grid lg:grid-rows-3">
+        <div class="grid col-span-3 lg:col-span-1 lg:grid-rows-3">
           <div>
-            <div class="w-20 md:w-20 lg:w-20 mx-auto lg:pt-4">
+            <div class="w-20 mx-auto md:w-20 lg:w-20 lg:pt-4">
               <img src="~/assets/images/Mail_us.svg"/>
             </div>
           </div>
           <div>
-            <p class="text-xl font-medium text-logiclytextgrey text-center mt-2">
+            <p class="mt-2 text-xl font-medium text-center text-logiclytextgrey">
               Mail us
             </p>
-            <hr class="hidden lg:block w-full mx-auto border border-logiclyorange mt-4">
+            <hr class="hidden w-full mx-auto mt-4 border lg:block border-logiclyorange">
           </div>
           <div>
-            <p class="text-center text-logiclytextgrey mt-2 lg:-mt-2">
+            <p class="mt-2 text-center text-logiclytextgrey lg:-mt-2">
               PO Box 1166, Carlton, <br>
               Victoria, Australia 3053
             </p>
-            <hr class="block lg:hidden w-full mx-auto border border-logiclyorange mt-12 lg:mt-6">
+            <hr class="block w-full mx-auto mt-12 border lg:hidden border-logiclyorange lg:mt-6">
           </div>
         </div>
       </div>
@@ -104,16 +104,16 @@
 
     <page-section class="bg-logiclygreytwo">
       <div class="grid grid-cols-1 lg:grid-cols-3">
-        <div class="grid col-span-1 content-start">
-          <p class="font-semibold text-left text-logiclytextgrey text-xl">
+        <div class="grid content-start col-span-1">
+          <p class="text-xl font-semibold text-left text-logiclytextgrey">
             Visit us
           </p>
-          <hr class="w-full border border-logiclyorange lg:w-2/3 mt-4">
-          <p class="pb-8 mt-4 text-logiclytextgrey text-left">
+          <hr class="w-full mt-4 border border-logiclyorange lg:w-2/3">
+          <p class="pb-8 mt-4 text-left text-logiclytextgrey">
             2nd floor <br>
             51 – 55 Johnston Street, <br>
             Fitzroy, Victoria, <br>
-            Australia 3053
+            Australia 3065
           </p>
         </div>
 

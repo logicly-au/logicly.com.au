@@ -1,9 +1,9 @@
 ---
 title: Victorian Department of Education and Training
 description: Safe and complex data collection at scale
-category: Education
+category: education
 ---
-<div class="grid grid-cols-12">
+<div class="grid grid-cols-12 gap-8">
 
 <div class="col-span-12 project-images">
     <img src="/Projects/Images/11_Victorian_Department_of_Education_and_Training/Victorian-Department-of-Education-and-Training-teacher-working-on-computer.jpg" />

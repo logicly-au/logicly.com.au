@@ -58,7 +58,7 @@
         </div>
 
         <div class="col-span-6 pb-5 border-0 md:col-span-4 md:col-start-3 md:border-t-4 md:border-gray-400 md:pt-5">
-          Our ongoing support includes includes training, customer and user support, robust and secure hosting,
+          Our ongoing support includes training, customer and user support, robust and secure hosting,
           proactive maintenance, improvements and monitoring.
         </div>
 
@@ -233,11 +233,11 @@
                 Queensland Transport System.
               </p>
               <div class="pt-2 lg:pb-6 xl:pb-8">
-                <NuxtLink to="/projects/?article=1&tab=1" class="text-sm font-semibold hover:underline">Read more</NuxtLink>
+                <NuxtLink to="/projects/government#queensland-department-of-transport-and-main-roads" class="text-sm font-semibold hover:underline">Read more</NuxtLink>
               </div>
             </div>
             <div class="content-end hidden col-span-1 lg:grid lg:pl-8 xl:pl-8 lg:pb-8 xl:pb-10">
-              <NuxtLink to="/projects/?article=1&tab=1">
+              <NuxtLink to="/projects/#queensland-department-of-transport-and-main-roads">
                 <img class="h-10" src="/Logicly-arrow.png" />
               </NuxtLink>
             </div>
@@ -268,11 +268,11 @@
                 A performance management tool for NAB’s business groups in Australia and overseas with the flexibility to meet their changing future requirements.
               </p>
               <div class="pt-2 lg:pb-8">
-                <NuxtLink to="/projects/?article=0&tab=5" class="text-sm font-semibold hover:underline">Read more</NuxtLink>
+                <NuxtLink to="/projects/corporate#national-australia-bank" class="text-sm font-semibold hover:underline">Read more</NuxtLink>
               </div>
             </div>
             <div class="content-end hidden col-span-1 lg:grid lg:pl-8 xl:pl-8 lg:pb-8 xl:pb-10">
-              <NuxtLink to="/projects/?article=0&tab=5">
+              <NuxtLink to="/projects/corporate#national-australia-bank">
                 <img class="h-10" src="/Logicly-arrow.png" />
               </NuxtLink>
             </div>
@@ -286,7 +286,7 @@
             <overlay-image
               imageurl="/Education-project-Deakin.jpg"
               height="286px"
-              text="Educational"
+              text="Research"
             />
           </div>
         </div>
@@ -303,11 +303,11 @@
                 A sophisticated tool for researchers to create, analyse, publish and share data. The community can also access the research to discover and learn.
               </p>
               <div class="pt-2 lg:pb-8">
-                <NuxtLink to="/projects/?article=0&tab=0" class="text-sm font-semibold hover:underline">Read more</NuxtLink>
+                <NuxtLink to="/projects/research#deakin-universitys-humanities-network-infrastructure" class="text-sm font-semibold hover:underline">Read more</NuxtLink>
               </div>
             </div>
             <div class="content-end hidden col-span-1 lg:grid lg:pl-8 xl:pl-8 lg:pb-8 xl:pb-10">
-              <NuxtLink to="/projects/?article=0&tab=0">
+              <NuxtLink to="/projects/research#deakin-universitys-humanities-network-infrastructure">
                 <img class="h-10" src="/Logicly-arrow.png" />
               </NuxtLink>
             </div>

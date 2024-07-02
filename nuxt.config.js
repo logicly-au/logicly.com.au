@@ -24,10 +24,12 @@ export default {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'og:description',
         name: 'og:description',
+        property: 'og:description',
         content: 'We bring twenty five years of knowledge and experience in research, strategy, design and technology to solve your complex information challenges. Our digital systems are built with innovative but practical thinking, flexibility and intuitive design, always with the user experience in mind.'
       },
       { hid: 'description',
         name: 'description',
+        property: 'description',
         content: 'We bring twenty five years of knowledge and experience in research, strategy, design and technology to solve your complex information challenges. Our digital systems are built with innovative but practical thinking, flexibility and intuitive design, always with the user experience in mind.'
       }
     ],
@@ -44,7 +46,9 @@ export default {
   ** Plugins to load before mounting the App
   ** https://nuxtjs.org/guide/plugins
   */
-  plugins: [],
+  plugins: [{
+   src: '~/plugins/gtag.js'
+  }],
   /*
   ** Auto import components
   ** See https://nuxtjs.org/api/configuration-components
@@ -77,10 +81,20 @@ export default {
   ** See https://content.nuxtjs.org/configuration
   */
   content: {},
-  /*
-  ** Build configuration
-  ** See https://nuxtjs.org/api/configuration-build/
-  */
-  build: {
-  }
-}
+  /* https://content.nuxtjs.org/advanced/#static-site-generation */
+  generate: {
+    async routes() {
+      const { $content } = require("@nuxt/content");
+
+      const insights = await $content("insights").only(["path"]).fetch();
+      let insightsRoutes = insights.map((file) =>
+        file.path === "/index" ? "/" : file.path
+      );
+
+      const projects = await $content("projects").only(["category"]).fetch();
+      let projectsRoutes = projects.map((file) => `/projects/${file.category}`);
+
+      return [...insightsRoutes, ...projectsRoutes];
+    },
+  },
+};

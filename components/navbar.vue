@@ -8,22 +8,27 @@
       </div>
       <NuxtLink to="/" class="self-start"><logo /></NuxtLink>
       <nav id="menu">
-        <li><NuxtLink to="/" v-on:click.native="close_all_menu()" class="hover:underline">home</NuxtLink></li>
-        <li class="drop"><a v-on:click="display_drop_menu()" class="cursor-pointer" :class="{ 'nuxt-link-exact-active': aboutActive }">about</a><i class="chevron-down"></i>
+        <li><NuxtLink to="/" exact v-on:click.native="display_menu(true);close_all_menu()" class="hover:underline">home</NuxtLink></li>
+        <li class="drop">
+          <a v-on:click="display_drop_menu()" class="cursor-pointer" :class="{ 'nuxt-link-exact-active': aboutActive }">
+            about
+          </a>
+          <i class="cursor-pointer chevron-down" @click="display_drop_menu()"></i>
           <ul class="drop_menu">
-            <NuxtLink to="/about/us" class="hover:underline" v-on:click.native="close_all_menu()">about us</NuxtLink>
-            <NuxtLink to="/about/ourapproach" class="hover:underline" v-on:click.native="close_all_menu()">our approach</NuxtLink>
-            <NuxtLink to="/about/ourteam" class="hover:underline" v-on:click.native="close_all_menu()">our team</NuxtLink>
-            <NuxtLink to="/about/oursecurity" class="hover:underline" v-on:click.native="close_all_menu()">our security</NuxtLink>
-            <NuxtLink to="/about/ourculture" class="hover:underline" v-on:click.native="close_all_menu()">our culture</NuxtLink>
+            <NuxtLink to="/about/us" class="hover:underline" v-on:click.native="display_menu(true);close_all_menu()">about us</NuxtLink>
+            <NuxtLink to="/about/ourapproach" class="hover:underline" v-on:click.native="display_menu(true);close_all_menu()">our approach</NuxtLink>
+            <NuxtLink to="/about/ourteam" class="hover:underline" v-on:click.native="display_menu(true);close_all_menu()">our team</NuxtLink>
+            <NuxtLink to="/about/oursecurity" class="hover:underline" v-on:click.native="display_menu(true);close_all_menu()">our security</NuxtLink>
+            <NuxtLink to="/about/ourculture" class="hover:underline" v-on:click.native="display_menu(true);close_all_menu()">our culture</NuxtLink>
+            <NuxtLink to="/about/whylogicly" class="hover:underline" v-on:click.native="display_menu(true);close_all_menu()">why logicly</NuxtLink>
           </ul>
         </li>
-        <li><NuxtLink to="/whowehelp" v-on:click.native="display_menu(true)" class="hover:underline">who we help</NuxtLink></li>
-        <li><NuxtLink to="/whatwedo" v-on:click.native="display_menu(true)" class="hover:underline">what we do</NuxtLink></li>
-        <li><NuxtLink to="/howwework" v-on:click.native="display_menu(true)" class="hover:underline">how we work</NuxtLink></li>
-        <li><NuxtLink to="/projects" exact-path v-on:click.native="display_menu(true)" class="hover:underline">projects</NuxtLink></li>
-        <li><NuxtLink to="/insights" v-on:click.native="display_menu(true)" class="hover:underline">insights</NuxtLink></li>
-        <li><NuxtLink to="/contactus" v-on:click.native="display_menu(true)" class="hover:underline">contact us</NuxtLink></li>
+        <li><NuxtLink to="/whowehelp" v-on:click.native="display_menu(true);close_all_menu()" class="hover:underline">who we help</NuxtLink></li>
+        <li><NuxtLink to="/whatwedo" v-on:click.native="display_menu(true);close_all_menu()" class="hover:underline">what we do</NuxtLink></li>
+        <li><NuxtLink to="/howwework" v-on:click.native="display_menu(true);close_all_menu()" class="hover:underline">how we work</NuxtLink></li>
+        <li><NuxtLink to="/projects" v-on:click.native="display_menu(true);close_all_menu()" class="hover:underline" :class="{ 'nuxt-link-exact-active' : $route.path.startsWith('/projects') }">projects</NuxtLink></li>
+        <li><NuxtLink to="/insights" v-on:click.native="display_menu(true);close_all_menu()" class="hover:underline">insights</NuxtLink></li>
+        <li><NuxtLink to="/contactus" v-on:click.native="display_menu(true);close_all_menu()" class="hover:underline">contact us</NuxtLink></li>
       </nav>
     </div>
   </header>
@@ -93,6 +98,7 @@ export default {
     display_drop_menu() {
       var drop_menu = document.getElementsByClassName("drop_menu")[0];
       var drop_menus = document.getElementsByClassName("drop_menu");
+      var chevron = document.getElementsByClassName("cursor-pointer chevron-down");
 
       Array.from(drop_menus).forEach(function(e){
         if(e != drop_menu){
@@ -104,13 +110,13 @@ export default {
         e.style.marginTop = 0;
       });
       (!drop_menu.classList.contains("display")) ? drop_menu.classList.add("display") : drop_menu.classList.remove("display");
+      (!chevron[0].classList.contains("rotateme")) ? chevron[0].classList.add("rotateme") : chevron[0].classList.remove("rotateme");
       if(window.innerWidth < 1024 && drop_menu.classList.contains("display")) {
         event.target.parentElement.nextSibling.nextSibling.style.marginTop = drop_menu.clientHeight + "px";
       }
     },
     loaded(){
       document.getElementsByTagName("body")[0].style.overflowY = "hidden";
-      console.log('t');
       (this.load) ? this.load = false : this.load = true;
     }
   }
@@ -135,6 +141,9 @@ header {
   mask: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' stroke='currentColor'><path stroke-linecap='round' stroke-linejoin='round' stroke-width='0' d='M19 9l-7 7-7-7' /></svg>");
 }
 
+.rotateme {
+transform: rotate(-180deg);
+}
 
 i {
   vertical-align: middle;
