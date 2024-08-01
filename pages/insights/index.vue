@@ -107,7 +107,11 @@ export default {
     },
 
     filteredArticles() {
-      return this.category ? this.articles.filter(article => article.categories.indexOf(this.category) !== -1) : this.articles;
+      let articles = this.category 
+        ? this.articles.filter(article => article.categories.indexOf(this.category) !== -1)
+        : this.articles;
+
+      return articles.sort((a, b) => new Date(b.date) - new Date(a.date));
     },
   },
   methods: {
