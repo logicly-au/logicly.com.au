@@ -96,6 +96,8 @@ Former NSW Government executive Damon Rees conducted an <a href="https://treasur
 
 This project's failure reinforces the need for a more flexible, responsive approach to solving complex information challenges.
 
+![Waterfall approach makes it difficult to go back upstream and mistakes at the start flows on in the next stages](/Why-does-the-waterfall-approach-remain-so-popular.png)
+
 ## Why does the waterfall approach remain so popular?
 
 Despite its limitations, a rigid, linear approach to many projects persists. Here are six reasons why:
@@ -145,6 +147,8 @@ Incremental development breaks the project down into smaller, manageable parts, 
 </ul>
 </div>
 
+![Iterative and incremental approach is agile, responsive and addresses issues as they occur](/Choosing-between-iterative-incremental.png)
+
 ## Choosing between iterative and incremental development
 
 At Logicly, we don’t adhere rigidly to either iterative or incremental development, and we don’t necessarily choose between one or the other. 
@@ -189,7 +193,7 @@ Iterative and incremental development combines two powerful approaches into a co
   <p>
   <li><strong>Keeps you focused:</strong> Having shorter-term goals helps avoid being distracted by all the things you want to achieve over time.</li>
   <p>
-  <li><strong>Allows for changes:</strong> As feedback comes in, it's easier to make adjustments. Whether the user needs shift or new requirements pop up, these approaches make it simpler to adapt without starting over.</li>
+  <li><strong>Allows for changes:</strong> As feedback comes in, it's easier to make adjustments. Whether the user needs to shift or new requirements pop up, these approaches make it simpler to adapt without starting over.</li>
   <p>
   <li><strong>Continuous improvement:</strong> With each cycle or part completed, there's a chance to learn and improve. This means the project is always advancing.</li>
   <p>
