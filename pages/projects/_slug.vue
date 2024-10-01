@@ -68,7 +68,11 @@ export default {
   },
   computed: {
     capitalizedCategory() {
-      return this.category.charAt(0).toUpperCase() + this.category.slice(1);
+      // On this branch, no default category leads to an error. On main, it simply
+      // shows all projects. As a workaround to get the original behaviour we
+      // make the following change, allowing for a blank category:
+      return this.category ? this.category.charAt(0).toUpperCase() + this.category.slice(1) : '';
+      // The wider issue is documented at: https://github.com/logicly-au/logicly.com.au/issues/191
     },
   },
 
