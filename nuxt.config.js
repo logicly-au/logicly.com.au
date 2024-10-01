@@ -15,6 +15,7 @@ export default {
   */
 
   server: {
+    host: 0, // we want this when dockerised with port forwarding.
     port: 8000 // default: 3000
   },
   head: {

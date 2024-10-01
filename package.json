@@ -15,13 +15,14 @@
     "@nuxtjs/pwa": "^3.0.0-beta.20",
     "babel-helper-vue-jsx-merge-props": "^2.0.3",
     "bp-vuejs-dropdown": "^2.1.1",
-    "nuxt": "^2.15.0",
+    "nuxt": "^2.18.1",
     "vue-dropdowns": "^1.1.2",
     "vue-gtag": "^1.16.1",
     "vue-select": "^3.16.0",
     "vue-simple-accordion": "^0.1.0"
   },
   "devDependencies": {
-    "@nuxtjs/tailwindcss": "^3.4.3"
+    "@nuxtjs/tailwindcss": "^4.2.1",
+    "postcss": "^8.4.41"
   }
 }
