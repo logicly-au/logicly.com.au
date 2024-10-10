@@ -2,8 +2,8 @@
   <div>
 
     <Hero
-    heading="(HEADING)"
-    subheading="Freeing research teams to concentrate on their core investigative questions by taking on the technical and security problems involved in data collection workflow design, analysis and presentation"
+    heading="WHY USE LOGICLY"
+    subheading="Our Principals have more than 25 years' experience working with University and other research teams to co-create innovative solutions to complex data collection problems using leading edge technology solutions"
     background-url="/Logicly_how-we-work-header.jpg"
     overlay
     />
@@ -16,7 +16,28 @@
       </div>
       <div class="px-0 xl:px-0">
         <div class="text-center text-logiclytextgrey">
-          <h2 class="text-lg font-light">Our Principals have more than 25 years' experience working with University and other research teams to co-create innovative solutions to complex data collection problems using leading edge technology solutions.</h2>
+          <h2 class="text-lg">Freeing research teams to concentrate on their core investigative questions by taking on the technical and security problems involved in data collection workflow design, analysis and presentation.</h2>
+        </div>
+        </br>
+        <div class="col-span-8 col-start-1 lg:col-span-4 text-logiclytextgrey">
+          <ul class="pl-4 text-base leading-relaxed list-disc lg:text-sm">
+            <li>Designing empathic workflows for longitudinal stuides that make the task easier for participants</li>
+            <li>Delivering online randomised controlled trials and cluster randomised controlled trials</li>
+            <li>Undertaking data transformation and linkage for research</li>
+            <li>Supporting development of business cases for information projects</li>
+            <li>Defining the data requirements for research</li>
+            <li>Collecting useful and accurate data</li>
+          </ul>
+        </div>
+        <div class="col-span-8 lg:col-span-4 lg:col-start-5">
+          <ul class="pl-4 text-base leading-relaxed list-disc lg:text-sm">
+            <li>Integrating multiple data sets</li>
+            <li>Transitioning from a manual to an online system</li>
+            <li>Systemising information management</li>
+            <li>Capturing, collecting and collating stories and information</li>
+            <li>Building efficient and easy to use systems to reduce errors and repetitious work</li>
+            <li>Collating and transforming data for analysis</li>
+          </ul>
         </div>
       </div>
     </page-section>
@@ -39,8 +60,10 @@
 
     <page-section altrow>
       <div class="text-center text-logiclytextgrey px-0 xl:px-6">
-        <h2 class="text-lg font-light"><span class="text-logiclytheme3 font-semibold">WebSurvey</span> by Logicly is a unique, flexible, secure and reliable survey solution. Our specialist team combines research, design, data collection and deep management experience with leading-edge technology in clever, imaginative and cost-effective ways to design and build tailored solutions that meet the unique technical and business needs of socially and organisationally important projects.
+        <h2 class="text-lg font-light">Our specialist <span class="text-logiclytheme3 font-semibold">WebSurvey</span> team combines research, dataflow, workflow design and data collection experience with leading-edge technology.
         </h2>
+        </br>
+        <h2 class="text-lg font-light"><span class="text-logiclytheme3 font-semibold">WebSurvey</span> by Logicly is a unique, flexible, secure and reliable survey solution designed to accommodate and address research challenges.</h2>
       </div>
     </page-section>
 
