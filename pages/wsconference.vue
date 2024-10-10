@@ -14,23 +14,22 @@
           <img width="100px" src="/Dissecting_your_information_problems.svg" />
         </div>
       </div>
-      <div class="px-0 xl:px-0">
-        <div class="text-center text-logiclytextgrey">
-          <h2 class="text-lg">Freeing research teams to concentrate on their core investigative questions by taking on the technical and security problems involved in data collection workflow design, analysis and presentation.</h2>
+      <div class="grid grid-cols-8 gap-x-4 text-logiclytextgrey">
+        <div class="col-span-8 text-center">
+          <h2 class="text-lg pb-4">Freeing research teams to concentrate on their core investigative questions by taking on the technical and security problems involved in data collection workflow design, analysis and presentation.</h2>
         </div>
-        </br>
-        <div class="col-span-8 col-start-1 lg:col-span-4 text-logiclytextgrey">
-          <ul class="pl-4 text-base leading-relaxed list-disc lg:text-sm">
+        <div class="col-span-8 lg:col-span-4 col-start-1">
+          <ul class="text-base lg:text-base font-light list-disc pl-6 lg:pl-0 pr-8">
             <li>Designing empathic workflows for longitudinal stuides that make the task easier for participants</li>
             <li>Delivering online randomised controlled trials and cluster randomised controlled trials</li>
             <li>Undertaking data transformation and linkage for research</li>
             <li>Supporting development of business cases for information projects</li>
             <li>Defining the data requirements for research</li>
-            <li>Collecting useful and accurate data</li>
           </ul>
         </div>
         <div class="col-span-8 lg:col-span-4 lg:col-start-5">
-          <ul class="pl-4 text-base leading-relaxed list-disc lg:text-sm">
+          <ul class="text-base lg:text-base font-light list-disc pl-6 lg:pl-0">
+            <li>Collecting useful and accurate data</li>
             <li>Integrating multiple data sets</li>
             <li>Transitioning from a manual to an online system</li>
             <li>Systemising information management</li>
