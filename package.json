@@ -22,7 +22,7 @@
     "vue-simple-accordion": "^0.1.0"
   },
   "devDependencies": {
-    "@nuxtjs/tailwindcss": "^4.2.1",
+    "@nuxtjs/tailwindcss": "^6",
     "postcss": "^8.4"
   }
 }
