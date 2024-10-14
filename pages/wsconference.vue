@@ -16,26 +16,23 @@
       </div>
       <div class="grid grid-cols-8 gap-x-4 text-logiclytextgrey">
         <div class="col-span-8 text-center">
-          <h2 class="text-lg pb-4">Freeing research teams to concentrate on their core investigative questions by taking on the technical and security problems involved in data collection workflow design, analysis and presentation.</h2>
+          <h2 class="text-lg pb-4">We free research teams to focus on their core investigative questions by taking on the technical and security challenges in data collection workflow design, analysis and presentation.</h2>
         </div>
         <div class="col-span-8 lg:col-span-4 col-start-1">
           <ul class="text-base lg:text-base font-light list-disc pl-6 lg:pl-0 pr-8">
-            <li>Designing workflows for longitudinal stuides that make the task easier for participants</li>
-            <li>Delivering online randomised controlled trials and cluster randomised controlled trials</li>
-            <li>Undertaking data transformation and linkage for research</li>
-            <li>Supporting development of business cases for information projects</li>
             <li>Defining the data requirements for research</li>
+            <li>Designing workflows for longitudinal studies that make the task easier for participants</li>
+            <li>Delivering randomised controlled trials and cluster randomised controlled trials online</li>
+            <li>Building efficient and easy to use collection systems to reduce errors and repetitious work</li>
+            <li>Supporting and designing datafllows for intervention trials</li>
           </ul>
         </div>
         <div class="col-span-8 lg:col-span-4 lg:col-start-5">
           <ul class="text-base lg:text-base font-light list-disc pl-6 lg:pl-0">
-            <li>Supporting intervention trials</li>
+            <li>Undertaking data transformation and linkage for research</li>
             <li>Integrating multiple data sets to create research databases</li>
-            <li>Transitioning from a manual to an online system</li>
-            <li>Systemising information management</li>
-            <li>Capturing, collecting and collating stories and information</li>
-            <li>Building efficient and easy to use systems to reduce errors and repetitious work</li>
-            <li>Collating and transforming data for analysis</li>
+            <li>Supporting development of business cases for information projects</li>
+            <li>Developing standardised systems to improve the efficiency of managing research data and reduce manual errors</li>
           </ul>
         </div>
       </div>
