@@ -36,6 +36,9 @@
           </ul>
         </div>
       </div>
+      <div class="row justify-content-center text-center mt-2 mt-lg-4">
+      <h2 class="text-lg font-semibold">Add in link to case studies section below</h2>
+      </div>
     </page-section>
 
     <page-section altrow>
@@ -48,18 +51,8 @@
 
     <page-section>
       <div class="text-center text-logiclytextgrey px-0 xl:px-6">
-        <h2 class="text-lg font-light">DIAGRAM SECTION
+        <h2 class="text-lg font-light">Our specialist team combines research, dataflow, workflow design and data collection experience with leading-edge technology.
         </h2>
-      </div>
-    </page-section>
-
-
-    <page-section altrow>
-      <div class="text-center text-logiclytextgrey px-0 xl:px-6">
-        <h2 class="text-lg font-light">Our specialist <span class="text-logiclytheme3 font-semibold">WebSurvey</span> team combines research, dataflow, workflow design and data collection experience with leading-edge technology.
-        </h2>
-        </br>
-        <h2 class="text-lg font-light"><span class="text-logiclytheme3 font-semibold">WebSurvey</span> by Logicly is a unique, flexible, secure and reliable survey solution designed to accommodate and address research challenges.</h2>
       </div>
     </page-section>
 
