@@ -37,7 +37,7 @@ Feedback from these was provided to end users, hospitals, networks and jurisdict
 <div class="project-text-list">
   <ul>
     <li>A bureau for data collection and processing - Logicly</li>
-    <li>A clear analysis and reporting component- The University of Queensland</li>
+    <li>A clear analysis and reporting component - The University of Queensland</li>
     <li>Training and support for clinics to ensure ongoing management and development -
 The Health Education and Training Institute</li>
   </ul>
