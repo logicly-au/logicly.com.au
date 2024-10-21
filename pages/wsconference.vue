@@ -48,8 +48,78 @@
 
     <page-section>
       <div class="text-center text-logiclytextgrey px-0 xl:px-6">
-        <h2 class="text-lg font-light">DIAGRAM SECTION
-        </h2>
+        <h2 class="text-2xl font-bold">Technical partners in research</h2>
+      </div>
+      <div class="grid grid-cols-12 px-0 pb-0 mb-0 xl:gap-x-6 text-logiclytextgrey lg:px-20 xl:px-0 xl:-mx-20 xl:-mb-20">
+
+        <div class="col-span-12 text-center">
+          <h1 class="pb-6 text-xl font-semibold text-center text-logiclytextgrey">From conceptualisation to impact</h1>
+        </div>
+
+        <div class="col-span-12 pb-6 border-t-2 border-logiclygreytwo md:pb-8">
+        </div>
+
+        <div class="grid justify-center col-span-12 pb-6 md:pb-8 xl:pb-20">
+          <img src="~/assets/images/greyarrow.svg" class="h-4 p-0 md:h-5 xl:h-6"/>
+        </div>
+
+        <div class="col-span-12 xl:col-span-5">         
+        </div>
+
+        <div class="hidden col-span-1 ml-2 border-l-2 xl:block border-logiclygreythree">
+          <div class="w-6 h-6 -ml-3 rounded-full bg-logiclytheme1">
+          </div>
+        </div>
+
+        <div class="col-span-12 pb-2 pl-0 xl:col-span-4 xl:pl-4 xl:-ml-12 xl:pb-16">
+          <h3 class="pt-4 pb-3 text-xl font-bold text-logiclytheme1 xl:pt-0 xl:-mt-2">1. Data concepts and metrics</h3>         
+        </div>
+
+        <div class="col-span-12 xl:col-span-5">       
+        </div>
+
+        <div class="hidden col-span-1 ml-2 border-l-2 xl:block border-logiclygreythree">
+          <div class="w-6 h-6 -ml-3 rounded-full bg-logiclytheme2">
+          </div>
+        </div>
+
+        <div class="col-span-12 pb-2 pl-0 xl:col-span-4 xl:pl-4 xl:-ml-12 xl:pb-16">
+          <h3 class="pt-4 pb-3 text-xl font-bold text-logiclytheme2 xl:pt-0 xl:-mt-2">2. Data collection</h3>         
+        </div>      
+
+        <div class="col-span-12 xl:col-span-5">
+          
+        </div>
+
+        <div class="hidden col-span-1 ml-2 border-l-2 xl:block border-logiclygreythree">
+          <div class="w-6 h-6 -ml-3 rounded-full bg-logiclytheme4">
+          </div>
+        </div>
+
+        <div class="col-span-12 pb-2 pl-0 xl:col-span-4 xl:pl-4 xl:-ml-12 xl:pb-16">
+          <h3 class="pt-4 pb-3 text-xl font-bold text-logiclytheme4 xl:pt-0 xl:-mt-2">3. Data analysis</h3>         
+        </div>    
+
+        <div class="col-span-12 xl:col-span-5">        
+        </div>
+
+        <div class="hidden col-span-1 ml-2 border-l-2 xl:block border-logiclygreythree">
+          <div class="w-6 h-6 -ml-3 rounded-full bg-logiclytheme3">
+          </div>
+        </div>
+
+        <div class="col-span-12 pb-2 pl-0 xl:col-span-4 xl:pl-4 xl:-ml-12 ">
+          <h3 class="pt-4 pb-3 text-xl font-bold text-logiclytheme3 xl:pt-0 xl:-mt-2">4. Data presentation and interpretation</h3>         
+        </div>
+      </div>
+    </page-section>
+
+    <page-section>
+      <div class="text-center text-logiclytextgrey px-0 xl:px-6">
+        <div class="text-center text-logiclytextgrey px-0 xl:px-6">
+          <h3 class="text-lg font-light">Freeing research teams to concentrate on core investigative questions through customised, tailored solutions
+          </h3>
+        </div>
       </div>
     </page-section>
 
