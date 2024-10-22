@@ -36,8 +36,12 @@
           </ul>
         </div>
       </div>
-      <div class="row justify-content-center text-center mt-2 mt-lg-4">
-      <h2 class="text-lg font-semibold">Add in link to case studies section below</h2>
+      <div class="row justify-content-center text-center mt-6">
+        <div class="grid justify-center align-center">
+          <button class="block w-48 h-12 my-5 font-medium text-center text-white tt-lc bg-logiclyorange hover:bg-logiclyhover">
+            <NuxtLink :to="'#research-projects'">our research projects</NuxtLink>
+          </button>
+        </div>
       </div>
     </page-section>
 
@@ -52,21 +56,18 @@
     <page-section>
       <div class="text-center text-logiclytextgrey px-0 xl:px-6">
         <h2 class="text-2xl font-bold">Technical partners in research</h2>
+        <h3 class="pb-6 text-xl font-semibold text-center text-logiclytextgrey">From conceptualisation to impact</h3>
       </div>
-      <div class="grid grid-cols-12 px-0 pb-0 mb-0 xl:gap-x-6 text-logiclytextgrey lg:px-20 xl:px-0 xl:-mx-20 xl:-mb-20">
 
-        <div class="col-span-12 text-center">
-          <h1 class="pb-6 text-xl font-semibold text-center text-logiclytextgrey">From conceptualisation to impact</h1>
-        </div>
-
+      <div class="grid grid-cols-12 xl:gap-x-6 text-logiclytextgrey">
         <div class="col-span-12 pb-6 border-t-2 border-logiclygreytwo md:pb-8">
         </div>
 
-        <div class="grid justify-center col-span-12 pb-6 md:pb-8 xl:pb-20">
+        <div class="grid justify-center col-span-12 pb-6 md:pb-8 xl:pb-10">
           <img src="~/assets/images/greyarrow.svg" class="h-4 p-0 md:h-5 xl:h-6"/>
         </div>
 
-        <div class="col-span-12 xl:col-span-5">         
+        <div class="col-span-12 xl:col-span-4">         
         </div>
 
         <div class="hidden col-span-1 ml-2 border-l-2 xl:block border-logiclygreythree">
@@ -78,7 +79,7 @@
           <h3 class="pt-4 pb-3 text-xl font-bold text-logiclytheme1 xl:pt-0 xl:-mt-2">1. Data concepts and metrics</h3>         
         </div>
 
-        <div class="col-span-12 xl:col-span-5">       
+        <div class="col-span-12 xl:col-span-4">       
         </div>
 
         <div class="hidden col-span-1 ml-2 border-l-2 xl:block border-logiclygreythree">
@@ -90,7 +91,7 @@
           <h3 class="pt-4 pb-3 text-xl font-bold text-logiclytheme2 xl:pt-0 xl:-mt-2">2. Data collection</h3>         
         </div>      
 
-        <div class="col-span-12 xl:col-span-5">
+        <div class="col-span-12 xl:col-span-4">
           
         </div>
 
@@ -103,10 +104,10 @@
           <h3 class="pt-4 pb-3 text-xl font-bold text-logiclytheme4 xl:pt-0 xl:-mt-2">3. Data analysis</h3>         
         </div>    
 
-        <div class="col-span-12 xl:col-span-5">        
+        <div class="col-span-12 xl:col-span-4">        
         </div>
 
-        <div class="hidden col-span-1 ml-2 border-l-2 xl:block border-logiclygreythree">
+        <div class="hidden col-span-1 ml-2 xl:block border-logiclygreythree">
           <div class="w-6 h-6 -ml-3 rounded-full bg-logiclytheme3">
           </div>
         </div>
@@ -115,19 +116,23 @@
           <h3 class="pt-4 pb-3 text-xl font-bold text-logiclytheme3 xl:pt-0 xl:-mt-2">4. Data presentation and interpretation</h3>         
         </div>
       </div>
-    </page-section>
 
-    <page-section>
-      <div class="text-center text-logiclytextgrey px-0 xl:px-6">
-        <div class="text-center text-logiclytextgrey px-0 xl:px-6">
-          <h3 class="text-lg font-light">Freeing research teams to concentrate on core investigative questions through customised, tailored solutions
-          </h3>
+
+      <div class="block">
+        <div class="text-center text-logiclytextgrey">
+          <h2 class="text-lg font-light">We free research teams to focus on their core investigative questions by taking on the technical and security challenges in data collection workflow design, analysis and presentation.</h2>
         </div>
       </div>
     </page-section>
 
-    <page-section>
-      <div class="container mx-auto mt-0">
+    <page-section altrow>
+      <div class="text-center text-logiclytextgrey px-0 xl:px-6">
+        <h2 class="text-lg font-semibold">Our specialist team combines research, dataflow, workflow design and data collection experience with leading-edge technology.</h2>
+      </div>
+    </page-section>
+
+    <page-section id="research-projects">
+      <div class="container mx-auto -mt-8">
         <div class="mb-6">
           <h2 class="text-3xl font-bold text-logiclytheme3">Case studies</h2>
         </div>
@@ -222,7 +227,7 @@ export default {
         {
           client: 'AMHOCN',
           title: 'Data linkage and transformation to create a value-adding research database',
-          link: '../',
+          link: '/projects#the-australian-mental-health-outcome-and-classification-network',
           image: '/We-Can-1.svg',
           tags: ['data linkage & transformations', 'research databases', 'data security', 'data strategy', 'R programming'],
         },
