@@ -136,18 +136,30 @@
         <div class="mb-6">
           <h2 class="text-3xl font-bold text-logiclytheme3">Case studies</h2>
         </div>
-        <div class="flex flex-wrap justify-center gap-3 mb-8">
+        <div class="flex flex-wrap justify-center gap-3 mb-4">
           <!-- Badge pills -->
           <span
             v-for="pill in pills"
             :key="pill.tag"
             :class="[
               'px-4 py-1 rounded-full cursor-pointer transition-colors duration-300 text-xs font-medium',
-              activeTag === pill.tag ? 'bg-logiclytheme3 text-white' : 'bg-logiclygreytwo text-logiclytextgrey'
-            ]"
+              activeTag === pill.tag ? 'bg-logiclytheme3 text-white' : 'bg-logiclygreytwo text-logiclytextgrey hover:bg-logiclygreyhover'
+  ]"
             @click="filterCaseStudies(pill.tag)"
           >
             {{ pill.label }}
+          </span>
+        </div>
+        <div class="flex flex-wrap justify-center mb-8">
+          <!-- Show all badge pills -->
+          <span
+            :class="[
+              'px-8 py-2 rounded-full cursor-pointer transition-colors duration-300 text-xs font-bold',
+              !activeTag ? 'bg-logiclytheme3 text-white' : 'bg-white text-logiclytheme3 border-2 border-logiclytheme3 hover:border-logiclyredhover hover:text-logiclyredhover'
+            ]"
+            @click="filterCaseStudies(null)"
+          >
+            Show all
           </span>
         </div>
 
