@@ -3,7 +3,7 @@
 
     <Hero
     heading="WHY USE LOGICLY"
-    subheading="Our Principals have more than 25 years' experience working with University and other research teams to co-create innovative solutions to complex data collection problems using leading edge technology solutions"
+    subheading="We free research teams to focus on their core investigative questions by taking on the technical challenges"
     background-url="/Logicly_how-we-work-header.jpg"
     overlay
     />
@@ -16,7 +16,7 @@
       </div>
       <div class="grid grid-cols-8 gap-x-4 text-logiclytextgrey">
         <div class="col-span-8 text-center">
-          <h2 class="text-lg pb-4">We free research teams to focus on their core investigative questions by taking on the technical and security challenges in data collection workflow design, analysis and presentation.</h2>
+          <h2 class="text-lg pb-4">Our specialist team combines research, analysis and presentation expertise, dataflow and workflow design and data collection experience with leading-edge technology.</h2>
         </div>
         <div class="col-span-8 lg:col-span-4 col-start-1">
           <ul class="text-base lg:text-base font-light list-disc pl-6 lg:pl-0 pr-8">
@@ -25,6 +25,7 @@
             <li>Delivering randomised controlled trials and cluster randomised controlled trials online</li>
             <li>Building efficient and easy to use collection systems to reduce errors and repetitious work</li>
             <li>Supporting and designing datafllows for intervention trials</li>
+            <li>Analysis using standard tools such as SPSS and R</li>
           </ul>
         </div>
         <div class="col-span-8 lg:col-span-4 lg:col-start-5">
@@ -33,6 +34,7 @@
             <li>Integrating multiple data sets to create research databases</li>
             <li>Supporting development of business cases for information projects</li>
             <li>Developing standardised systems to improve the efficiency of managing research data and reduce manual errors</li>
+            <li>Static and dynamic data reporting and presentation</li>
           </ul>
         </div>
       </div>
@@ -116,18 +118,13 @@
           <h3 class="pt-4 pb-3 text-xl font-bold text-logiclytheme3 xl:pt-0 xl:-mt-2">4. Data presentation and interpretation</h3>         
         </div>
       </div>
-
-
-      <div class="block">
-        <div class="text-center text-logiclytextgrey">
-          <h2 class="text-lg font-light">We free research teams to focus on their core investigative questions by taking on the technical and security challenges in data collection workflow design, analysis and presentation.</h2>
-        </div>
-      </div>
     </page-section>
 
     <page-section altrow>
-      <div class="text-center text-logiclytextgrey px-0 xl:px-6">
-        <h2 class="text-lg font-semibold">Our specialist team combines research, dataflow, workflow design and data collection experience with leading-edge technology.</h2>
+      <div class="px-0 xl:px-0">
+        <div class="text-center text-logiclytheme3">
+          <h2 class="text-lg font-semibold">“In case you did not hear the trial crushed it due to the heavy lifting from you and the team.”</h2>
+        </div>
       </div>
     </page-section>
 
