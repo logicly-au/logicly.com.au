@@ -21,10 +21,10 @@
         <div class="col-span-8 lg:col-span-4 col-start-1">
           <ul class="text-base lg:text-base font-light list-disc pl-6 lg:pl-0 pr-8">
             <li>Defining the data requirements for research</li>
-            <li>Designing workflows for longitudinal studies that make the task easier for participants</li>
-            <li>Delivering randomised controlled trials and cluster randomised controlled trials online</li>
-            <li>Building efficient and easy to use collection systems to reduce errors and repetitious work</li>
-            <li>Supporting and designing datafllows for intervention trials</li>
+            <li>Designing user friendly workflows for longitudinal studies</li>
+            <li>Delivering randomised controlled trials and cluster randomised controlled trials</li>
+            <li>Easy to use collection systems reducing errors and repetitious work</li>
+            <li>Supporting and designing dataflows for intervention trials</li>
             <li>Analysis using standard tools such as SPSS and R</li>
           </ul>
         </div>
@@ -35,6 +35,7 @@
             <li>Supporting development of business cases for information projects</li>
             <li>Developing standardised systems to improve the efficiency of managing research data and reduce manual errors</li>
             <li>Static and dynamic data reporting and presentation</li>
+            <li>Integration with data visualisation tools</li>
           </ul>
         </div>
       </div>
@@ -220,7 +221,7 @@ export default {
         {
           client: 'Orygen',
           title: 'Data linkage and transformation to create a value-adding research database',
-          link: '../',
+          link: '/projects#orygen-ed-self-harm',
           image: '/We-Can-2.svg',
           tags: ['data linkage & transformation', 'research databases', 'data security', 'data strategy', 'R programming', 'analytics & presentation', 'research ethics'],
         },
@@ -241,14 +242,14 @@ export default {
         {
           client: 'Link-me',
           title: 'A large-scale trial of a new approach to stepped health care in general practice, particularly focused on delivering care to those with complex needs',
-          link: '../',
+          link: '/projects#the-university-of-melbourne-medical-schools-department-of-general-practice',
           image: '/We-Can-2.svg',
           tags: ['interaction with LMS', 'randomised control trials', 'data ethics', 'longitudinal studies', 'end user support', 'program evaluation', 'WebSurvey platform', 'data security', 'research ethics', 'participant support', 'mapping workflows'],
         },
         {
           client: 'HuNI',
           title: 'Data linkage and transformation to create a value-adding research database',
-          link: '../',
+          link: '/projects#deakin-universitys-humanities-network-infrastructure',
           image: '/We-Can-3.svg',
           tags: ['data linkage & transformation', 'research databases', 'data security', 'data strategy', 'R programming', 'analytics & presentation'],
         },
