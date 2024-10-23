@@ -166,7 +166,7 @@
           <div
             v-for="study in filteredCaseStudies"
             :key="study.title"
-            class="p-4 border rounded-lg shadow-sm"
+            class="p-4 border rounded-lg shadow-sm hover:shadow-md"
           >
             <a :href="study.link" class="block">
               <div class="flex justify-center items-center mt-6 mb-4">
@@ -187,7 +187,7 @@
 export default {
   head() {
     return {
-      title: "WebSurvey · Logicly"
+      title: "eResearch · Logicly"
     };
   },
   data() {
