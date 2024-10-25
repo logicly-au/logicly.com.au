@@ -20,7 +20,7 @@
     <page-section>
       <div class="flex justify-center ">
         <div class="justify-center mb-6">
-          <img width="100px" src="/Dissecting_your_information_problems.svg" />
+          <img width="100px" src="/Dissecting_your_information_problems.svg" alt="Dissecting your information problems visual"/>
         </div>
       </div>
       <div class="grid grid-cols-8 gap-x-4 text-logiclytextgrey">
@@ -76,7 +76,7 @@
         </div>
 
         <div class="grid justify-center col-span-12 pb-6 md:pb-8 xl:pb-10">
-          <img src="~/assets/images/greyarrow.svg" class="h-4 p-0 md:h-5 xl:h-6"/>
+          <img src="~/assets/images/greyarrow.svg" alt="Grey arrow" class="h-4 p-0 md:h-5 xl:h-6"/>
         </div>
 
         <div class="col-span-1 sm:col-span-3 xl:col-span-4">         
@@ -88,7 +88,7 @@
         </div>
 
         <div class="col-span-9 sm:col-span-7 xl:col-span-5 pb-4 pl-0 pt-0 lg:-ml-4 lg:pb-8 xl:pl-4 xl:-ml-12 xl:pb-16">
-          <h3 class="pb-3 text-xl font-bold text-logiclytheme1 pt-0 -mt-2">1. Data concepts and metrics</h3>         
+          <h3 class="pb-3 text-xl font-bold text-logiclytheme1 pt-0 -mt-2">1. <span class="text-logiclytextgrey font-semibold text-lg">Data concepts and metrics</span></h3>         
         </div>
 
         <div class="col-span-1 sm:col-span-3 xl:col-span-4">       
@@ -100,7 +100,7 @@
         </div>
 
         <div class="col-span-9 sm:col-span-7 xl:col-span-5 pb-4 pl-0 pt-0 lg:-ml-4 lg:pb-8 xl:pl-4 xl:-ml-12 xl:pb-16">
-          <h3 class="pb-3 text-xl font-bold text-logiclytheme2 pt-0 -mt-2">2. Data collection</h3>         
+          <h3 class="pb-3 text-xl font-bold text-logiclytheme2 pt-0 -mt-2">2. <span class="text-logiclytextgrey font-semibold text-lg">Data collection</span></h3>         
         </div>      
 
         <div class="col-span-1 sm:col-span-3 xl:col-span-4">
@@ -113,7 +113,7 @@
         </div>
 
         <div class="col-span-9 sm:col-span-7 xl:col-span-5 pb-4 pl-0 pt-0 lg:-ml-4 lg:pb-8 xl:pl-4 xl:-ml-12 xl:pb-16">
-          <h3 class="pb-3 text-xl font-bold text-logiclytheme4 pt-0 -mt-2">3. Data analysis</h3>         
+          <h3 class="pb-3 text-xl font-bold text-logiclytheme4 pt-0 -mt-2">3. <span class="text-logiclytextgrey font-semibold text-lg">Data analysis</span></h3>         
         </div>    
 
         <div class="col-span-1 sm:col-span-3 xl:col-span-4">        
@@ -125,7 +125,7 @@
         </div>
 
         <div class="col-span-9 sm:col-span-7 xl:col-span-5 pl-0 pt-0 lg:-ml-4 xl:pl-4 xl:-ml-12">
-          <h3 class="text-xl font-bold text-logiclytheme3 pt-0 -mt-2">4. Data presentation and interpretation</h3>         
+          <h3 class="text-xl font-bold text-logiclytheme3 pt-0 -mt-2">4. <span class="text-logiclytextgrey font-semibold text-lg">Data presentation and interpretation</span></h3>         
         </div>
       </div>
     </page-section>
