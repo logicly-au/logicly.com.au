@@ -1,12 +1,21 @@
 <template>
   <div>
 
-    <Hero
-    heading="WHY USE LOGICLY"
-    subheading="We free research teams to focus on their core investigative questions by taking on the technical challenges"
-    background-url="/Logicly_how-we-work-header.jpg"
-    overlay
-    />
+    <AspectRatio
+      ar="13:4"
+      width="100%"
+      :style="{ backgroundSize: 'cover', backgroundImage: `url(/Logicly_how-we-work-header.jpg)` }"
+    >
+      <page-section overlay="overlay">
+        <div class="w-full h-full eresearch-header grid content-center">
+          <div class="mt-0">
+            <h1 class="text-sm xl:text-base font-medium text-center text-white">WHY USE LOGICLY</h1>
+            <h2 class="text-base sm:text-lg md:text-xl xl:text-2xl font-semibold text-center leading-tight text-white">We free research teams to focus on their core investigative questions by taking on the technical challenges</h2>
+          </div>
+        </div>
+      </page-section>
+
+    </AspectRatio>
 
     <page-section>
       <div class="flex justify-center ">
@@ -59,7 +68,7 @@
     <page-section>
       <div class="text-center text-logiclytextgrey px-0 xl:px-6">
         <h2 class="text-2xl font-bold">Technical partners in research</h2>
-        <h3 class="pb-6 text-xl font-semibold text-center text-logiclytextgrey">From conceptualisation to impact</h3>
+        <h3 class="pb-6 pt-1 text-xl font-semibold text-center text-logiclytextgrey">From conceptualisation to impact</h3>
       </div>
 
       <div class="grid grid-cols-12 xl:gap-x-6 text-logiclytextgrey">
@@ -70,53 +79,53 @@
           <img src="~/assets/images/greyarrow.svg" class="h-4 p-0 md:h-5 xl:h-6"/>
         </div>
 
-        <div class="col-span-12 xl:col-span-4">         
+        <div class="col-span-1 sm:col-span-3 xl:col-span-4">         
         </div>
 
-        <div class="hidden col-span-1 ml-2 border-l-2 xl:block border-logiclygreythree">
+        <div class="col-span-2 sm:col-span-1 ml-2 border-l-2 border-logiclygreythree">
           <div class="w-6 h-6 -ml-3 rounded-full bg-logiclytheme1">
           </div>
         </div>
 
-        <div class="col-span-12 pb-2 pl-0 xl:col-span-4 xl:pl-4 xl:-ml-12 xl:pb-16">
-          <h3 class="pt-4 pb-3 text-xl font-bold text-logiclytheme1 xl:pt-0 xl:-mt-2">1. Data concepts and metrics</h3>         
+        <div class="col-span-9 sm:col-span-7 xl:col-span-5 pb-4 pl-0 pt-0 lg:-ml-4 lg:pb-8 xl:pl-4 xl:-ml-12 xl:pb-16">
+          <h3 class="pb-3 text-xl font-bold text-logiclytheme1 pt-0 -mt-2">1. Data concepts and metrics</h3>         
         </div>
 
-        <div class="col-span-12 xl:col-span-4">       
+        <div class="col-span-1 sm:col-span-3 xl:col-span-4">       
         </div>
 
-        <div class="hidden col-span-1 ml-2 border-l-2 xl:block border-logiclygreythree">
+        <div class="col-span-2 sm:col-span-1 ml-2 border-l-2 border-logiclygreythree">
           <div class="w-6 h-6 -ml-3 rounded-full bg-logiclytheme2">
           </div>
         </div>
 
-        <div class="col-span-12 pb-2 pl-0 xl:col-span-4 xl:pl-4 xl:-ml-12 xl:pb-16">
-          <h3 class="pt-4 pb-3 text-xl font-bold text-logiclytheme2 xl:pt-0 xl:-mt-2">2. Data collection</h3>         
+        <div class="col-span-9 sm:col-span-7 xl:col-span-5 pb-4 pl-0 pt-0 lg:-ml-4 lg:pb-8 xl:pl-4 xl:-ml-12 xl:pb-16">
+          <h3 class="pb-3 text-xl font-bold text-logiclytheme2 pt-0 -mt-2">2. Data collection</h3>         
         </div>      
 
-        <div class="col-span-12 xl:col-span-4">
+        <div class="col-span-1 sm:col-span-3 xl:col-span-4">
           
         </div>
 
-        <div class="hidden col-span-1 ml-2 border-l-2 xl:block border-logiclygreythree">
+        <div class="col-span-2 sm:col-span-1 ml-2 border-l-2 border-logiclygreythree">
           <div class="w-6 h-6 -ml-3 rounded-full bg-logiclytheme4">
           </div>
         </div>
 
-        <div class="col-span-12 pb-2 pl-0 xl:col-span-4 xl:pl-4 xl:-ml-12 xl:pb-16">
-          <h3 class="pt-4 pb-3 text-xl font-bold text-logiclytheme4 xl:pt-0 xl:-mt-2">3. Data analysis</h3>         
+        <div class="col-span-9 sm:col-span-7 xl:col-span-5 pb-4 pl-0 pt-0 lg:-ml-4 lg:pb-8 xl:pl-4 xl:-ml-12 xl:pb-16">
+          <h3 class="pb-3 text-xl font-bold text-logiclytheme4 pt-0 -mt-2">3. Data analysis</h3>         
         </div>    
 
-        <div class="col-span-12 xl:col-span-4">        
+        <div class="col-span-1 sm:col-span-3 xl:col-span-4">        
         </div>
 
-        <div class="hidden col-span-1 ml-2 xl:block border-logiclygreythree">
+        <div class="col-span-2 sm:col-span-1 ml-2 border-logiclygreythree">
           <div class="w-6 h-6 -ml-3 rounded-full bg-logiclytheme3">
           </div>
         </div>
 
-        <div class="col-span-12 pb-2 pl-0 xl:col-span-4 xl:pl-4 xl:-ml-12 ">
-          <h3 class="pt-4 pb-3 text-xl font-bold text-logiclytheme3 xl:pt-0 xl:-mt-2">4. Data presentation and interpretation</h3>         
+        <div class="col-span-9 sm:col-span-7 xl:col-span-5 pl-0 pt-0 lg:-ml-4 xl:pl-4 xl:-ml-12">
+          <h3 class="text-xl font-bold text-logiclytheme3 pt-0 -mt-2">4. Data presentation and interpretation</h3>         
         </div>
       </div>
     </page-section>
@@ -134,7 +143,7 @@
         <div class="mb-6">
           <h2 class="text-3xl font-bold text-logiclytheme3">Case studies</h2>
         </div>
-        <div class="flex flex-wrap justify-center gap-3 mb-4">
+        <div class="flex flex-wrap justify-center gap-2 md:gap-3 mb-4">
           <!-- Badge pills -->
           <span
             v-for="pill in pills"
@@ -149,7 +158,7 @@
           </span>
         </div>
         <div class="flex flex-wrap justify-center mb-8">
-          <!-- Show all badge pills -->
+          <!-- Show all badge pill -->
           <span
             :class="[
               'px-8 py-2 rounded-full cursor-pointer transition-colors duration-300 text-xs font-bold',
@@ -162,7 +171,7 @@
         </div>
 
         <!-- Case studies -->
-        <div class="grid grid-cols-1 lg:grid-cols-3 gap-4">
+        <div class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-4">
           <div
             v-for="study in filteredCaseStudies"
             :key="study.title"
@@ -273,4 +282,29 @@ export default {
 </script>
 
 <style>
+@media only screen and (max-width: 520px) {
+  .eresearch-header div {
+    margin-top: -1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .eresearch-header div {
+    margin-top: -2rem;
+  }
+}
+
+@media only screen and (max-width: 410px) {
+  .eresearch-header div {
+    margin-top: -3rem;
+  }
+  .eresearch-header div h1 {
+    font-size: 0.8rem;
+  }
+  .eresearch-header div h2 {
+    font-size: 0.85rem;
+  }
+}
 </style>
