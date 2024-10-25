@@ -28,6 +28,8 @@ module.exports = {
       logiclytheme4: '#E6332A',
       logiclytextgrey: '#3c3c3b',
       logiclyhover: '#CF4619',
+      logiclygreyhover: '#CBCAC5',
+      logiclyredhover: '#721015'
       },
       gridTemplateColumns: {
         // Simple 15 column grid
