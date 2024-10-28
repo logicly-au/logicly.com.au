@@ -16,7 +16,7 @@ category: research
 
 ## Movember is a leading charity changing the face of men's health. Their mission is to discover what works for men - and what does not. They see that men's health is in crisis as men are dying on average 4.5 years earlier than women, and for largely preventable reasons.
 </br>
-Orygen believes that all young people deserve to grow into adulthood with optimal mental health. They are an outcomes-focused organisation, like Movember. As most mental health disorders begin between the early teens to the mid-20s they believe in treating early and focusing on recovery. In Australia one in five young people will have experienced a depressive episode by the time they turn 18. Three time more males than females are likely to die from suicide in Australia.
+Orygen believes that all young people deserve to grow into adulthood with optimal mental health. They are an outcomes-focused organisation, like Movember. As most mental health disorders begin between the early teens to the mid-20s they believe in treating early and focusing on recovery. In Australia one in five young people will have experienced a depressive episode by the time they turn 18. Three times more males than females are likely to die from suicide in Australia.
 
 ### The problem
 
