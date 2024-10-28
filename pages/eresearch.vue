@@ -221,13 +221,6 @@ export default {
       activeTag: null,
       caseStudies: [
         {
-          client: 'Buoy Project',
-          title: 'Supporting a research collaboration between universities and community organisations with a commitment to preventing male suicide',
-          link: '../',
-          image: '/We-Can-1.svg',
-          tags: ['randomised control trials', 'research ethics', 'longitudinal studies', 'participant support', 'partners for grant applications', 'third-party systems', 'WebSurvey platform', 'mapping workflows', 'program evaluation'],
-        },
-        {
           client: 'Orygen',
           title: 'Consolidating disparate datasets to facilitate insight into suicide prevention and policy development',
           link: '/projects#orygen-ed-self-harm',
@@ -262,6 +255,13 @@ export default {
           image: '/We-Can-3.svg',
           tags: ['data linkage & transformation', 'research databases', 'data security', 'data strategy', 'R programming', 'analytics & presentation'],
         },
+        {
+          client: 'Buoy Project',
+          title: 'Supporting a research collaboration between universities and community organisations with a commitment to preventing male suicide',
+          link: '../',
+          image: '/We-Can-1.svg',
+          tags: ['randomised control trials', 'research ethics', 'longitudinal studies', 'participant support', 'partners for grant applications', 'third-party systems', 'WebSurvey platform', 'mapping workflows', 'program evaluation'],
+        },        
       ],
     };
   },
