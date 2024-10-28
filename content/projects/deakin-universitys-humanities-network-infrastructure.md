@@ -34,6 +34,10 @@ HuNI allows researchers to engage more effectively with the aggregated collectio
 
 In particular, it can provide insights that more limiting, traditional keyword searches don’t by generating visual graphs showing dynamic networks of connections between datasets and records.
 
+<a href="/eresearch" class="block w-48 h-12 my-5 font-medium text-center text-white tt-lc bg-logiclyorange hover:bg-logiclyhover">
+  <button class="w-full h-full">Logicly eResearch</button>
+</a>
+
 </div>
 </div>
 
