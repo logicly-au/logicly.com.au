@@ -14,7 +14,7 @@
                 class="border p-2 w-full"
                 placeholder="Select project"
                 v-model="activeArticle"
-                @change="viewArticle(activeArticle)">
+                @change="onArticleSelect(activeArticle)">
           <option v-for="project in projects" :value="project">
             {{ project.title }}
           </option>
@@ -31,7 +31,7 @@
               <div class="col-span-1 ml-2 -mt-1 text-2xl font-light">
                 >
               </div>
-              <div @click="viewArticle(article)" class="col-span-11 col-start-2 cursor-pointer xl:col-span-10 hover:underline">
+              <div @click="onArticleSelect(article)" class="col-span-11 col-start-2 cursor-pointer xl:col-span-10 hover:underline">
                 <span class="font-semibold">{{ article.title }}</span></br>
                 <span class="text-sm font-light xl:text-base">{{ article.description }}</span>
               </div>
@@ -40,7 +40,7 @@
         </ul>
       </div>
 
-      <div class="col-span-12">
+      <div class="col-span-12" id="article-section">
         <nuxt-content :document="activeArticle" />
       </div>
   </div>
@@ -95,6 +95,21 @@ export default {
       this.activeArticle = article;
       this.$router.push({ path: this.$route.path, hash: '#' + article.slug });
     },
+
+    onArticleSelect(article) {
+      this.viewArticle(article);
+
+      // Add a delay to ensure content is rendered before scrolling to article
+      setTimeout(() => {
+        this.$nextTick(() => {
+          const articleElement = document.getElementById('article-section');
+          if (articleElement) {
+            articleElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          }
+        });
+      }, 100);
+    },
+
 
     isMobile() {
       return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
