@@ -258,7 +258,7 @@ export default {
         {
           client: 'Buoy Project',
           title: 'Supporting a research collaboration between universities and community organisations with a commitment to preventing male suicide',
-          link: '../',
+          link: '/projects#buoy-project',
           image: '/We-Can-1.svg',
           tags: ['randomised control trials', 'research ethics', 'longitudinal studies', 'participant support', 'partners for grant applications', 'third-party systems', 'WebSurvey platform', 'mapping workflows', 'program evaluation'],
         },        
