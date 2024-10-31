@@ -3,7 +3,7 @@ title: The Outcome Measures Self Service System (OMSSS)
 description: A simple way to securely track health outcomes at scale
 category: health
 ---
-<div class="grid grid-cols-12 gap-8">
+<div class="grid grid-cols-12 gap-0 lg:gap-8">
 
 <div class="col-span-12 project-images">
     <img src="/Projects/Images/10_Outcome_Measures_Self_Service_System_(OMSSS)/Outcome-Measures-Self-Service-System-(OMSSS-female-patient-answering-survey-on-ipad.jpg" />
