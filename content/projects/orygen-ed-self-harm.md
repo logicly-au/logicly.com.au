@@ -4,7 +4,7 @@ description: Consolidating disparate data into a comprehensive research database
 category: research
 ---
 
-<div class="grid grid-cols-12 gap-8">
+<div class="grid grid-cols-12 gap-0 lg:gap-8">
 
 <div class="col-span-12 project-images">
   <div class="grid grid-cols-12">

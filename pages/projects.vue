@@ -7,37 +7,44 @@
       overlay
     />
 
-    <page-section altrow>
-      <div class="pb-12">
-        <h2 class="-mb-8 text-2xl font-semibold text-center text-logiclytextgrey">
-          Our diverse projects are from a range of sectors
-        </h2>
-      </div>
-      <div class="flex flex-row flex-wrap items-center mt-10 force-break space-between justify-evenly">
-        <button @click.prevent="$router.push({ path: '/projects/' + category })" class="flex flex-col py-2 md:py-0" v-for="category in categories">
+  <page-section altrow>
+    <div class="pb-12">
+      <h2 class="-mb-8 text-2xl font-semibold text-center text-logiclytextgrey">
+        Our diverse projects are from a range of sectors
+      </h2>
+    </div>
+    <div class="flex flex-row flex-wrap items-center mt-10 force-break space-between justify-evenly">
+      <button 
+        @click.prevent="$router.push({ path: '/projects/' + category })" 
+        class="flex flex-col items-center py-2 lg:py-0" 
+        v-for="category in categories"
+      >
+        <img 
+          v-if="$route.params.slug == category" 
+          :src="'/Projects_' + capitalize(category) + '_selected.svg'" 
+          class="h-10 filter-orange mx-auto"
+        />
+        <img 
+          v-else 
+          :src="'/Projects_' + capitalize(category) + '.svg'" 
+          class="h-10 filter-orange mx-auto"
+        />      
+        <div class="pt-2 text-xs font-medium text-center capitalize sm:text-sm text-logiclytextgrey">
+          {{ category }}
+        </div>
+      </button>
+    </div>
+  </page-section>
 
-          <div class="flex self-center">
-            <img v-if="$route.params.slug == category" :src="'/Projects_' + capitalize(category) + '_selected.svg'" class="h-10 filter-orange" />
-            <img v-else :src="'/Projects_' + capitalize(category) + '.svg'" class="h-10 filter-orange" />
-          </div>
-          <div class="pt-2 text-xs font-medium text-center capitalize sm:text-sm text-logiclytextgrey">
-            {{ category }}
-          </div>
+  <page-section>
+      <NuxtChild />
+  </page-section>
 
-        </button>
-      </div>
-    </page-section>
-
-
-    <page-section>
-        <NuxtChild />
-    </page-section>
-
-    <CTA
-      text="Do you have an information or digital challenge?"
-      buttonText="Get in touch"
-      buttonLink="/contactus"
-    />
+  <CTA
+    text="Do you have an information or digital challenge?"
+    buttonText="Get in touch"
+    buttonLink="/contactus"
+  />
 
   </div>
 </template>
@@ -271,7 +278,7 @@ export default {
 
 /* This will evenly size all projects icons for mobile display */
 
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 1024px) {
   .force-break > button {
     flex-basis: 33.33%;
   }
