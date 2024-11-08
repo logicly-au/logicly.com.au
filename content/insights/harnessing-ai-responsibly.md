@@ -1,14 +1,14 @@
 ---
 title: "Harnessing AI: Practical approaches for responsible adoption"
 description: "Discover responsible AI solutions. Learn about incremental adoption, government policies and balancing innovation with risk management."
-summary: "TO DO"
+summary: "Artificial intelligence (AI) is reshaping almost every sector of the economy, from healthcare to transport and beyond. It’s automating routine tasks, powering research and driving innovation that could change our lives."
 author: Adam Clarke
 jobtitle: Director/Senior Consultant/CTO
 date: 08 November 2024
-img: incremental-success.jpeg
-alt: Woman and man looking at tablet
-imgheader: incremental-success.jpeg
-link: /insights/incremental-success
+img: harnessing-ai-responsibly.jpg
+alt: AI identifying cars on a freeway
+imgheader: harnessing-ai-responsibly.jpg
+link: /insights/harnessing-ai-responsibly
 categories:
   - Public Sector
   - Digital transformation
@@ -57,11 +57,9 @@ Share
 <div class="col-span-12 lg:col-span-9 lg:col-start-4 lg:pl-6 blog-text">
 <div>
 
-Artificial intelligence (AI) is reshaping almost every sector of the economy, from healthcare to transport and beyond. It’s automating routine tasks, powering research and driving innovation that could change our lives.
-
 If you’re responsible for exploring opportunities to leverage the power of AI in your job, the possibilities are exciting but come with uncertainties. How can you tap into AI’s potential without taking on too much risk? How can you ensure your AI projects align with your goals without compromising data security or ethics?
 
-This article explores practical, <a href="https://www.logicly.com.au/insights/incremental-success">“incremental steps</a> towards responsible AI adoption. Learn how to start navigating this new landscape and achieve real results while feeling confident you won’t expose your organisation to undue risk.</a> 
+This article explores practical, <a href="https://www.logicly.com.au/insights/incremental-success">incremental steps</a> towards responsible AI adoption. Learn how to start navigating this new landscape and achieve real results while feeling confident you won’t expose your organisation to undue risk.</a> 
 
 ## The opportunity: leveraging AI for impactful innovation
 AI offers immense opportunities for organisations looking to innovate and improve their services. The government <a href="https://www.health.gov.au/ministers/the-hon-mark-butler-mp/media/unlocking-the-power-of-ai-to-transform-healthcare">recently announced</a> it’s investing almost $30 million in research into new ways to use AI to improve access to health services and ensure that our health system remains world-class.
@@ -83,6 +81,8 @@ While AI’s potential is undeniable, so too are the risks. Biases in AI systems
 The <a href="https://www.cyber.gov.au/resources-business-and-government/governance-and-user-education/artificial-intelligence/engaging-with-artificial-intelligence"> Australian Cyber Security Centre</a> has highlighted the importance of using AI securely, warning that AI systems can inadvertently identify individuals by correlating non-personal data with other datasets, leading to re-identification. This is an increasingly pressing concern as AI technology evolves and the lines between personal and non-personal data blur.
 
 Moreover, the cost of AI implementation is a considerable barrier. AI projects often require substantial computational power, leading to high expenses that can strain budgets. There are <a href="https://www.washingtonpost.com/technology/2023/06/05/chatgpt-hidden-cost-gpu-compute/"> hidden costs</a> to AI. As of 2024, the costs associated with AI are significantly underwritten by investors therefore it is difficult to estimate the likely cost of a long-running project. Test cases make sense. Realistic estimation of the ongoing costs should remain a significant consideration for any organisation looking to adopt this technology for any project of significant duration.
+
+![Test the approach, gather feedback, refine the application, scale and build up](/test-feedback-refine.png)
 
 ## The strategy: start small, think big
 Given the complexities and costs associated with AI, a cautious, <a href="https://www.logicly.com.au/insights/incremental-success">incremental approach</a> is essential. Rather than diving headfirst into large-scale AI projects, organisations should focus on small, manageable initiatives that align with their strategic goals. This allows them to test the waters, gather valuable feedback and refine their AI applications before scaling up.
