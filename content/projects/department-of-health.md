@@ -42,7 +42,7 @@ It checks that the file structure is correct, then reports any data inconsistenc
 ### The outcomes
 The Online Validator reduced the time and costs required to manually verify data submitted for annual reporting and evaluation, and has further resulted in reports that are more timely, accurate, and effective for decision making.
 
-It is extremely secure, with a system classified as ‘Protected’ by the Australian Government Protective Security Policy Framework standards.
+It is extremely secure, with a system classified as ‘OFFICIAL:Sensitive’ by the Australian Government Protective Security Policy Framework standards.
   
 The interface presents the complex workflow in a simple, intuitive way to assist occasional users to efficiently submit and review their data.
 
