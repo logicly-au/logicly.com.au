@@ -19,10 +19,13 @@
           <div class="grid grid-cols-12">
             <div class="col-span-12 lg:col-span-3 text-logiclytextgrey">
               <ul>
-                <li v-for="(category, index) in article.categories">
-                  <h2 class="pb-2 font-semibold">
+                <li v-for="(category, index) in article.categories" :key="index" class="pb-2">
+                  <router-link
+                    :to="{ path: '/insights', hash: `#${encodeURIComponent(category)}` }"
+                    class="font-semibold hover:underline"
+                  >
                     {{ category }}
-                  </h2>
+                  </router-link>
                 </li>
               </ul>
             </div>
@@ -68,7 +71,7 @@
                     </div>
                     <div>
                       <NuxtLink :to="`${article.link}`">
-                        <span class="text-lg font-semibold lg:text-base text-logiclytheme4">{{ article.title }}</span>
+                        <span class="text-lg font-semibold lg:text-base text-logiclytheme4 hover:underline">{{ article.title }}</span>
                       </NuxtLink>
                     </div>
                     <div class="pb-2">
@@ -143,13 +146,13 @@ export default {
   computed: {
   },
   methods: { },
-  async asyncData({ $content, params }) {
-    const article = await $content('insights', params.slug).fetch();
-    const related = await $content('insights').where({'categories': { $containsAny: article.categories }, 'slug': { $ne: article.slug }}).fetch();
+    async asyncData({ $content, params }) {
+      const article = await $content('insights', params.slug).fetch();
+      const related = await $content('insights').where({'categories': { $containsAny: article.categories }, 'slug': { $ne: article.slug }}).fetch();
 
-    return { article, related };
-  },
-}
+      return { article, related };
+    },
+  }
 </script>
 
 <style>
