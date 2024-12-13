@@ -119,22 +119,28 @@ Skipping maintenance might seem like a way to save money, but it often leads to 
 <a href="https://www.macrumors.com/2024/08/14/sonos-bring-back-old-app/">Sonos’</a> new mobile app launch provides a cautionary tale. After years of deferred maintenance, the company rushed to launch a new version of its app, but it lacked key features users relied on. Frustrated customers demanded the old version be reinstated, but <a href="https://www.androidpolice.com/sonos-paid-price-technical-debt-with-launch-seriously-flawed-app/">technical debt</a> made this impossible. The backlash resulted in lost revenue and damaged trust. With regular maintenance, Sonos may have avoided these pitfalls and ensured their systems remained fit for purpose and in good shape to be <NuxtLink to="insights/evolve-or-replace">evolved rather than replaced</NuxtLink>.
 
 ## Building a maintenance-first culture
+
 How can organisations make maintenance a priority? Here are three key strategies drawn from our experience and best practice knowledge:
-<div class="blog-text-list">
-<ol>
-<li><strong>Think long-term</strong>
-<p>Plan for ongoing maintenance as part of your system’s lifecycle. Software isn’t static—it requires regular updates to remain effective and secure. A maintenance-first mindset reduces the risk of expensive overhauls and ensures systems stay ready for the future.</p>
-</li>
-<li><strong>Balance innovation with maintenance</strong>
-<p>Allocate udgets for both new projects and the health of existing systems. Address risks early and make small, incremental improvements to avoid major disruptions.</p></li>
-<li><strong>Document for sustainability</strong>
-<p>Keep system documentation comprehensive and up to date. This ensures continuity when team members leave and reduces reliance on hard-to-replace institutional knowledge.</p></li>
-<li><strong>Involve end users</strong>
-<p>Regularly engage with users to gather feedback and identify pain points. Small usability improvements can extend the lifecycle of software and improve satisfaction.</p></li>
-<li><strong>Partner for success</strong>
-<p>Work with experts like Logicly who can help you identify potential risks, prioritise maintenance tasks and keep your systems running smoothly. Choose a supplier with a proven track record of proactive maintenance and secure, efficient operations.</p></li>
-</ol>
-</div>
+
+### Think long-term
+
+Plan for ongoing maintenance as part of your system’s lifecycle. Software isn’t static—it requires regular updates to remain effective and secure. A maintenance-first mindset reduces the risk of expensive overhauls and ensures systems stay ready for the future.
+
+### Balance innovation with maintenance
+
+Allocate udgets for both new projects and the health of existing systems. Address risks early and make small, incremental improvements to avoid major disruptions.
+
+### Document for sustainability
+
+Keep system documentation comprehensive and up to date. This ensures continuity when team members leave and reduces reliance on hard-to-replace institutional knowledge.
+
+### Involve end users
+
+Regularly engage with users to gather feedback and identify pain points. Small usability improvements can extend the lifecycle of software and improve satisfaction.
+
+### Partner for success
+
+Work with experts like Logicly who can help you identify potential risks, prioritise maintenance tasks and keep your systems running smoothly. Choose a supplier with a proven track record of proactive maintenance and secure, efficient operations.
 
 By embedding these strategies into your organisation’s processes, you can ensure that maintenance becomes a proactive part of your software’s lifecycle, safeguarding your systems for the future.
 
