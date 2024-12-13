@@ -196,7 +196,7 @@
 export default {
   head() {
     return {
-      title: "eResearch · Logicly"
+      title: "Research · Logicly"
     };
   },
   data() {
