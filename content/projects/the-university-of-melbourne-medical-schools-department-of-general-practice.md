@@ -43,8 +43,8 @@ The project successfully generated valuable insights, with more than 13,000 resp
 
 This trial laid the foundation for ongoing advancements in offering both clinically effective and cost-effective mental health support.
 
-<a href="/eresearch" class="block w-48 h-12 my-5 font-medium text-center text-white tt-lc bg-logiclyorange hover:bg-logiclyhover">
-  <button class="w-full h-full">Logicly eResearch</button>
+<a href="/research" class="block w-48 h-12 my-5 font-medium text-center text-white tt-lc bg-logiclyorange hover:bg-logiclyhover">
+  <button class="w-full h-full">Logicly Research</button>
 </a>
 
 </div>

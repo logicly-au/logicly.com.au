@@ -81,8 +81,8 @@ With a wide range of participants, Logicly was able to provide technical support
 
 See <a href="/projects#movember">Men in Mind</a> for more information about this project.
 
-<a href="/eresearch" class="block w-48 h-12 my-5 font-medium text-center text-white tt-lc bg-logiclyorange hover:bg-logiclyhover">
-  <button class="w-full h-full">Logicly eResearch</button>
+<a href="/research" class="block w-48 h-12 my-5 font-medium text-center text-white tt-lc bg-logiclyorange hover:bg-logiclyhover">
+  <button class="w-full h-full">Logicly Research</button>
 </a>
 
 </div>

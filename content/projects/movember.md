@@ -65,8 +65,8 @@ At the end of the project Movember reflected that the WebSurvey Research team wa
 
 Customer delight is our aim.
 
-<a href="/eresearch" class="block w-48 h-12 my-5 font-medium text-center text-white tt-lc bg-logiclyorange hover:bg-logiclyhover">
-  <button class="w-full h-full">Logicly eResearch</button>
+<a href="/research" class="block w-48 h-12 my-5 font-medium text-center text-white tt-lc bg-logiclyorange hover:bg-logiclyhover">
+  <button class="w-full h-full">Logicly Research</button>
 </a>
 
 </div>
