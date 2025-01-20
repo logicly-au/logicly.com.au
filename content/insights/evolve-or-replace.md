@@ -5,9 +5,9 @@ summary: "Rebuilding software from scratch is no easy task. Discover why softwar
 author: Adam Clarke
 jobtitle: Director/CTO/Senior Consultant
 date: 10 January 2025
-img: incremental-success.jpeg
+img: evolve-or-replace.jpg
 alt: Woman and man looking at tablet
-imgheader: incremental-success.jpeg
+imgheader: evolve-or-replace-header.jpg
 link: /insights/evolve-or-replace
 categories:
   - Public Sector
