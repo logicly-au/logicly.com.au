@@ -63,9 +63,13 @@ Neglecting maintenance can lead to costly breakdowns, user frustration and secur
 
 In this article, we’ll explore why maintenance matters, how it goes beyond basic updates and how prioritising it can safeguard your systems for years to come.
 
-<strong>What is technical debt?</strong>
+<div class="bg-logiclylightgrey pl-6 sm:pl-12 pr-6 sm:pr-16 pt-4 sm:pt-8 pb-6 my-4">
 
-Technical debt is the long-term cost of quick fixes or deferred maintenance. It occurs when systems are patched or developed without proper foresight, leading to inefficiencies that make updates, security enhancements or evolutions harder (or impossible) to implement over time. Left unchecked, technical debt can hinder progress and create expensive, avoidable problems down the line.
+<div class="font-semibold text-logiclytheme2 text-md pb-2">What is technical debt?</div>
+
+<span class="text-sm">Technical debt is the long-term cost of quick fixes or deferred maintenance. It occurs when systems are patched or developed without proper foresight, leading to inefficiencies that make updates, security enhancements or evolutions harder (or impossible) to implement over time. Left unchecked, technical debt can hinder progress and create expensive, avoidable problems down the line.</span>
+
+</div>
 
 ## Maintenance is more than just updates
 
