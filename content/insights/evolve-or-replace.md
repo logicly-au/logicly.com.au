@@ -6,7 +6,7 @@ author: Adam Clarke
 jobtitle: Director/CTO/Senior Consultant
 date: 10 January 2025
 img: evolve-or-replace.jpg
-alt: Woman and man looking at tablet
+alt: Paper swan turning into paper plane
 imgheader: evolve-or-replace-header.jpg
 link: /insights/evolve-or-replace
 categories:
@@ -80,12 +80,12 @@ A full replacement can disrupt your users, especially if it removes features the
 
 <div class="px-0 xl:px-0">
     <div class="text-center text-logiclytheme3">
-        <h2 class="text-lg font-semibold">“Software evolution lets you build on what’s already working, save time and money, and keep things running smoothly for your users.”</h2>
+        <h2 class="text-lg font-semibold">Software evolution lets you build on what’s already working, save time and money, and keep things running smoothly for your users.</h2>
     </div>
     </br>
 </div>
 
-![Alt text](/....png)
+![Computer screen with updating message](/Evolve-replace2.png)
 
 #### Case study: The Mental Health Establishments National Minimum Data Set (MHE NMDS) 
 
@@ -106,15 +106,13 @@ This strategy delivered immediate results while ensuring the system stayed adapt
 ### When replacement becomes necessary
 While evolving software is often the best approach, there are times when replacement is unavoidable. These scenarios typically involve situations where evolution is no longer practical or cost-effective:
 
+<strong>Core functionality mismatch:</strong> Replacement may be the only way forward if the system no longer supports critical business needs or aligns with strategic goals.
+
 <strong>Unresolvable technical debt:</strong> Outdated or unsupported platforms, inaccessible source code, or legacy components can make evolution impossible.
 
-<strong>Seamless updates:</strong> Rather than building a new system while maintaining the old one, we iteratively upgraded the existing tool. For example, MFA was added first to meet immediate needs without delaying other improvements.
-
-<strong>Dramatic shifts in requirements:</strong> Significant regulatory or business requirements changes can render existing systems obsolete.
+<strong>Dramatic shifts in requirements:</strong> Significant regulatory requirements changes can render existing systems obsolete.
 
 #### Case study: Access to Allied Psychological Services (ATAPS)
-
-### Case study: The Queensland Department of Transport and Main Roads Online Travel Survey
 
 In our ATAPS project, changing government requirements completely transformed the data and regulatory standards needed to be met. The shift was so significant that we recommended a full rebuild. However, even in this scenario, we planned for continuity—maintaining the old system while developing the new one to avoid gaps in service.
 
