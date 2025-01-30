@@ -7,8 +7,8 @@ category: research
 <div class="grid grid-cols-12 gap-0 lg:gap-8">
 
 <div class="col-span-12 project-images">
-  <img src="/Projects/Images/2_UoM_Centre_for_mental_health/University-of-melbourne-centre-for-mental-health.jpg" />
-  <img src="/Projects/Images/2_UoM_Centre_for_mental_health/Mental-health-in-the-community-university-of-melbourne.jpg" />
+  <img src="/Projects/Images/2_UoM_Centre_for_mental_health/University-of-melbourne-centre-for-mental-health.jpg" alt="Photo of woman with headphones looking at a laptop screen" />
+  <img src="/Projects/Images/2_UoM_Centre_for_mental_health/Mental-health-in-the-community-university-of-melbourne.jpg" alt="Photo of CMH app on laptop" />
 </div>
 
 
@@ -52,19 +52,19 @@ Through recent collaborations, we’ve successfully delivered insights that can 
 
 <div class="col-span-12 lg:col-span-3 lg:order-1 icons-sidebar">
 <div>
-<img src="/Projects/Icons/2_UoM_Centre_for_mental_health/Digital_appliactions_for-researchers.svg" />
+<img src="/Projects/Icons/2_UoM_Centre_for_mental_health/Digital_appliactions_for-researchers.svg" alt="Desktop icon" />
 
 ##### Digital applications for researchers
 </div>
 
 <div>
-<img src="/Projects/Icons/2_UoM_Centre_for_mental_health/Secure_management_of_deidentified_data.svg" />
+<img src="/Projects/Icons/2_UoM_Centre_for_mental_health/Secure_management_of_deidentified_data.svg" alt="Analyse Key lock" />
 
 ##### Secure management of de-identified data
 </div>
 
 <div class="icons-sidebar-last">
-<img src="/Projects/Icons/2_UoM_Centre_for_mental_health/Meet_study_and_ethical_requirements.svg" />
+<img src="/Projects/Icons/2_UoM_Centre_for_mental_health/Meet_study_and_ethical_requirements.svg" alt="Check mark circle icon" />
 
 ##### Meet study and ethics requirements
 </div>

@@ -6,7 +6,7 @@ category: non-government
 <div class="grid grid-cols-12 gap-0 lg:gap-8">
 
 <div class="col-span-12 project-images">
-    <img src="/Projects/Images/12_Youth_and_Family_Support_Organisation/Youth-and-Family-Support-Organisation-coworkers-looking-at-laptop-graph.jpg" />
+    <img src="/Projects/Images/12_Youth_and_Family_Support_Organisation/Youth-and-Family-Support-Organisation-coworkers-looking-at-laptop-graph.jpg" alt="Photo of two men discussing something whole looking at a laptop" />
 </div>
 
 
@@ -44,19 +44,19 @@ Logicly’s adaptive design meant it was possible to respond to the new insights
 
 <div class="col-span-12 lg:col-span-3 icons-sidebar">
 <div>
-<img src="/Projects/Icons/12_Youth_and_Family_Support_Organisation/Complex_data_sets.svg" />
+<img src="/Projects/Icons/12_Youth_and_Family_Support_Organisation/Complex_data_sets.svg" alt="Complex data sets icon" />
 
 ##### Complex data sets
 </div>
 
 <div>
-<img src="/Projects/Icons/12_Youth_and_Family_Support_Organisation/Flexible_adaptable_responsive_to_new_insights.svg" />
+<img src="/Projects/Icons/12_Youth_and_Family_Support_Organisation/Flexible_adaptable_responsive_to_new_insights.svg" alt="Three ways icon" />
 
 ##### Flexible, adaptable and responsive to new insights
 </div>
 
 <div class="icons-sidebar-last">
-<img src="/Projects/Icons/12_Youth_and_Family_Support_Organisation/Secure_information_management.svg" />
+<img src="/Projects/Icons/12_Youth_and_Family_Support_Organisation/Secure_information_management.svg" alt="Key lock icon" />
 
 ##### Secure information management
 </div>

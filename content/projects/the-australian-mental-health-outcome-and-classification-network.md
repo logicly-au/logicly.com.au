@@ -6,8 +6,8 @@ category: government
 <div class="grid grid-cols-12 gap-0 lg:gap-8">
 
 <div class="col-span-12 project-images">
-    <img src="/Projects/Images/7_Australian_Mental_Health_Outcome_and_Classification_Network_(AMHOCN)/Australian-Mental-Health-Outcome-and-Classification-Network-(AMHOCN)-data-on-screen.jpg" />
-    <img src="/Projects/Images/7_Australian_Mental_Health_Outcome_and_Classification_Network_(AMHOCN)/AMHOCN-coworkers-meeting-with-coworker-online.jpg" />
+    <img src="/Projects/Images/7_Australian_Mental_Health_Outcome_and_Classification_Network_(AMHOCN)/Australian-Mental-Health-Outcome-and-Classification-Network-(AMHOCN)-data-on-screen.jpg" alt="Photo of person using the AMHOC interface on a big screen" />
+    <img src="/Projects/Images/7_Australian_Mental_Health_Outcome_and_Classification_Network_(AMHOCN)/AMHOCN-coworkers-meeting-with-coworker-online.jpg" alt="Photo of team meeting" />
 </div>
 
 
@@ -76,19 +76,19 @@ It will continue to help shape better mental health outcomes for Australia into 
 
 <div class="col-span-12 lg:col-span-3 icons-sidebar">
 <div>
-<img src="/Projects/Icons/7_Australian_Mental_Health_Outcome_and_Classification_Network_(AMHOCN)/Reporting_and_analysing_outcomes_and_variables.svg" />
+<img src="/Projects/Icons/7_Australian_Mental_Health_Outcome_and_Classification_Network_(AMHOCN)/Reporting_and_analysing_outcomes_and_variables.svg" alt="Analyse icon" />
 
 ##### Reporting and analysing outcomes and variables
 </div>
 
 <div>
-<img src="/Projects/Icons/7_Australian_Mental_Health_Outcome_and_Classification_Network_(AMHOCN)/Collaboration_of_3_organisations.svg" />
+<img src="/Projects/Icons/7_Australian_Mental_Health_Outcome_and_Classification_Network_(AMHOCN)/Collaboration_of_3_organisations.svg" alt="3 persons icon" />
 
 ##### Collaboration of 3 organisations
 </div>
 
 <div class="icons-sidebar-last">
-<img src="/Projects/Icons/7_Australian_Mental_Health_Outcome_and_Classification_Network_(AMHOCN)/Access_for_clinicians.svg" />
+<img src="/Projects/Icons/7_Australian_Mental_Health_Outcome_and_Classification_Network_(AMHOCN)/Access_for_clinicians.svg" alt="Login icon" />
 
 ##### Access for clinicians
 </div>

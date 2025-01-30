@@ -2,7 +2,7 @@ i <template>
 <page-section :altrow="altrow" class=" lg:py-8">
   <div class="flex justify-center ">
     <div class="justify-center mb-6">
-      <img :width="imgwidth" :src="iconurl" />
+      <img :width="imgwidth" :src="iconurl" :alt="alttext" />
     </div>
   </div>
   <div class="px-0 xl:px-6">
@@ -24,6 +24,10 @@ export default {
     heading: String,
     subheading: String,
     iconurl: String,
+    alttext: {
+      type: String,
+      default: "Image"
+    },
     altrow: Boolean,
     imgwidth: String
   },

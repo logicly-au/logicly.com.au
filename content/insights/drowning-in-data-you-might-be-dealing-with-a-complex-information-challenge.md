@@ -37,20 +37,20 @@ Share
 </div>
 
 <div class="col-span-1">
-<img class="h-4" src="/Facebook.svg" />
+<img class="h-4" src="/Facebook.svg" alt="Facebook logo" />
 </div>
 
 <div class="col-span-1">
-<img class="h-4" src="/Twitter.svg" />
+<img class="h-4" src="/Twitter.svg" alt="Twitter logo" />
 </div>
 
 <div class="col-span-1">
-<img class="h-4" src="/Linkedin.svg" />
+<img class="h-4" src="/Linkedin.svg" alt="Linkedin logo" />
 </div>
 
 <div class="col-span-1">
 <a href="mailto:info@logicly.com.au">
-<img class="h-4" src="/Email.svg" />
+<img class="h-4" src="/Email.svg" alt="Email icon" />
 </a>
 </div>
 
@@ -83,7 +83,7 @@ If you’re feeling a little overwhelmed by the data challenge you’re facing, 
 ## What makes a data challenge complex?
 There are many factors that contribute to data complexity. In this article, we’ll focus on our top four, using an example project to bring it all to life.
 
-<div class="bg-logiclylightgrey pl-6 sm:pl-12 pr-6 sm:pr-16 pt-4 sm:pt-12 pb-6 my-4">
+<div class="bg-logiclylightgrey pl-6 sm:pl-12 pr-6 sm:pr-16 pt-4 sm:pt-8 pb-6 my-4">
 
 ## PROJECT SPOTLIGHT:
 <div class="font-semibold text-sm pr-12">A thrice-yearly census for over 70,000 pre-school children and teachers</div>

@@ -6,7 +6,7 @@ category: corporate
 <div class="grid grid-cols-12 gap-0 lg:gap-8">
 
 <div class="col-span-12 project-images">
-    <img src="/Projects/Images/13_Outdoor_Power_Equipment_Association/Outdoor-Power-Equipment-Association-customer-care-worker.jpg" />
+    <img src="/Projects/Images/13_Outdoor_Power_Equipment_Association/Outdoor-Power-Equipment-Association-customer-care-worker.jpg" alt="Photo of a woman with a headset in front of a computer screen" />
 </div>
 
 
@@ -42,19 +42,19 @@ OPEA staff are no longer stuck processing raw information month after month; ins
 
 <div class="col-span-12 lg:col-span-3 icons-sidebar">
 <div>
-<img src="/Projects/Icons/13_Outdoor_Power_Equipment_Association/Large_scale_collection_and_tracking_sales_data.svg" />
+<img src="/Projects/Icons/13_Outdoor_Power_Equipment_Association/Large_scale_collection_and_tracking_sales_data.svg" alt="Analyse icon" />
 
 ##### Large scale collection and tracking of sales data
 </div>
 
 <div>
-<img src="/Projects/Icons/13_Outdoor_Power_Equipment_Association/Personalised_analysis_and_business_insights.svg" />
+<img src="/Projects/Icons/13_Outdoor_Power_Equipment_Association/Personalised_analysis_and_business_insights.svg" alt="Magnifying glass icon" />
 
 ##### Personalised analysis and business insights
 </div>
 
 <div class="icons-sidebar-last">
-<img src="/Projects/Icons/13_Outdoor_Power_Equipment_Association/Ongoing_client_technical_and_analytical_support.svg" />
+<img src="/Projects/Icons/13_Outdoor_Power_Equipment_Association/Ongoing_client_technical_and_analytical_support.svg" alt="Tools icon" />
 
 ##### Ongoing client technical and analytical support
 </div>

@@ -30,7 +30,7 @@
           <div>
             <div class="w-20 mx-auto md:w-20 lg:w-20">
               <a href="tel:+61393409000">
-                <img src="~/assets/images/Call_us.svg"/>
+                <img src="~/assets/images/Call_us.svg" alt="Phone icon"/>
               </a>
             </div>
           </div>
@@ -56,7 +56,7 @@
           <div>
             <div class="w-20 mx-auto md:w-20 lg:w-20">
               <a href="mailto:info@logicly.com.au">
-                <img src="~/assets/images/Email_us.svg"/>
+                <img src="~/assets/images/Email_us.svg" alt="Email icon"/>
               </a>
             </div>
           </div>
@@ -81,7 +81,7 @@
         <div class="grid col-span-3 lg:col-span-1 lg:grid-rows-3">
           <div>
             <div class="w-20 mx-auto md:w-20 lg:w-20 lg:pt-4">
-              <img src="~/assets/images/Mail_us.svg"/>
+              <img src="~/assets/images/Mail_us.svg" alt="Mail icon"/>
             </div>
           </div>
           <div>

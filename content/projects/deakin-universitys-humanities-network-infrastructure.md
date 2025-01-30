@@ -6,7 +6,8 @@ category: research
 <div class="grid grid-cols-12 gap-0 lg:gap-8">
 
 <div class="col-span-12 project-images">
-    <img src="/Projects/Images/4_Deakin_Universitys_Humanities_Network_Infrastructure/Deakin-Universitys-Humanities-Network-Infrastructure.jpg" />
+    <img src="/Projects/Images/4_Deakin_Universitys_Humanities_Network_Infrastructure/Deakin-Universitys-Humanities-Network-Infrastructure.jpg" 
+    alt="Photo of person using Deakin University's Humanities Network Infrastructure on a laptop"/>
 </div>
 
 
@@ -44,19 +45,19 @@ In particular, it can provide insights that more limiting, traditional keyword s
 
 <div class="col-span-12 lg:col-span-3 icons-sidebar">
 <div>
-<img src="/Projects/Icons/4_Deakin_Universitys_Humanities_Network_Infrastructure/A_digital_network_of_information.svg" />
+<img src="/Projects/Icons/4_Deakin_Universitys_Humanities_Network_Infrastructure/A_digital_network_of_information.svg" alt="Network with dots icon" />
 
 ##### A digital network of information
 </div>
 
 <div>
-<img src="/Projects/Icons/4_Deakin_Universitys_Humanities_Network_Infrastructure/Aggregation_of_Australias_rich_cultural_heritage.svg" />
+<img src="/Projects/Icons/4_Deakin_Universitys_Humanities_Network_Infrastructure/Aggregation_of_Australias_rich_cultural_heritage.svg" alt="Australia icon" />
 
 ##### Aggregation of Australia’s rich cultural heritage
 </div>
 
 <div class="icons-sidebar-last">
-<img src="/Projects/Icons/4_Deakin_Universitys_Humanities_Network_Infrastructure/2_million_records.svg" />
+<img src="/Projects/Icons/4_Deakin_Universitys_Humanities_Network_Infrastructure/2_million_records.svg" alt="Paper icon" />
 
 ##### 2 million records
 </div>

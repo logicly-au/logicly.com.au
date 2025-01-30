@@ -6,7 +6,7 @@ category: government
 <div class="grid grid-cols-12 gap-0 lg:gap-8">
 
 <div class="col-span-12 project-images">
-    <img src="/Projects/Images/8_Department_of_health/Department-of-health-increasing-the-spread-of-the-online-vlidator-process.jpg" />
+    <img src="/Projects/Images/8_Department_of_health/Department-of-health-increasing-the-spread-of-the-online-vlidator-process.jpg" alt="Graphic showing paper forms being converted into digital data to get validated, with the text 'Increasing the speed of the online Validator process" />
 </div>
 
 
@@ -54,19 +54,19 @@ It is also compliant with WCAG 2.0 guidelines at the AA level, meeting the Gover
 
 <div class="col-span-12 lg:col-span-3 icons-sidebar">
 <div>
-<img src="/Projects/Icons/8_Department_of_health/Identify_data_issues_and_errors.svg" />
+<img src="/Projects/Icons/8_Department_of_health/Identify_data_issues_and_errors.svg" alt="List icon" />
 
 ##### Identify data issues and errors
 </div>
 
 <div>
-<img src="/Projects/Icons/8_Department_of_health/Analysing_historical_trends.svg" />
+<img src="/Projects/Icons/8_Department_of_health/Analysing_historical_trends.svg" alt="Analyse icon" />
 
 ##### Analysing historical trends
 </div>
 
 <div class="icons-sidebar-last">
-<img src="/Projects/Icons/8_Department_of_health/AA_Level_compliant.svg" />
+<img src="/Projects/Icons/8_Department_of_health/AA_Level_compliant.svg" alt="Badge icon" />
 
 ##### AA level compliant
 </div>

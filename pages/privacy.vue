@@ -11,6 +11,7 @@
     <Herotext
       iconurl="Data_privacy_principles.svg"
       imgwidth="70px"
+      alttext="Illustration of lock box"
       heading="Data privacy principles"
       subheading="In general, you can visit this website without providing any personal information to us. If you choose to provide information voluntarily, we will use that information in accordance with our data privacy principles and in accordance with any specific notice given as part of the collection of that data."
       altrow

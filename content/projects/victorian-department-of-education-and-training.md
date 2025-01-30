@@ -6,8 +6,8 @@ category: education
 <div class="grid grid-cols-12 gap-0 lg:gap-8">
 
 <div class="col-span-12 project-images">
-    <img src="/Projects/Images/11_Victorian_Department_of_Education_and_Training/Victorian-Department-of-Education-and-Training-teacher-working-on-computer.jpg" />
-    <img src="/Projects/Images/11_Victorian_Department_of_Education_and_Training/Victorian-Department-of-Education-and-Training-students-looking-up-to-teacher.jpg" />
+    <img src="/Projects/Images/11_Victorian_Department_of_Education_and_Training/Victorian-Department-of-Education-and-Training-teacher-working-on-computer.jpg" alt="Photo of woman taking notes while looking at a screen" />
+    <img src="/Projects/Images/11_Victorian_Department_of_Education_and_Training/Victorian-Department-of-Education-and-Training-students-looking-up-to-teacher.jpg" alt="Photo of four children looking at their teacher and raising their hands in a classroom" />
 </div>
 
 
@@ -44,19 +44,19 @@ The DET continued to use the Logicly online survey system routinely to gather in
 
 <div class="col-span-12 lg:col-span-3 icons-sidebar">
 <div>
-<img src="/Projects/Icons/11_Victorian_Department_of_Education_and_Training/Large_scale_statewide_data_collection.svg" />
+<img src="/Projects/Icons/11_Victorian_Department_of_Education_and_Training/Large_scale_statewide_data_collection.svg" alt="Victoria icon" />
 
 ##### Large scale, statewide data collection
 </div>
 
 <div>
-<img src="/Projects/Icons/11_Victorian_Department_of_Education_and_Training/High_level_of_security_to_ensure_personal_data.svg" />
+<img src="/Projects/Icons/11_Victorian_Department_of_Education_and_Training/High_level_of_security_to_ensure_personal_data.svg" alt="Key lock icon" />
 
 ##### High level of security to ensure personal data are safely handled
 </div>
 
 <div class="icons-sidebar-last">
-<img src="/Projects/Icons/11_Victorian_Department_of_Education_and_Training/Full_service_support.svg" />
+<img src="/Projects/Icons/11_Victorian_Department_of_Education_and_Training/Full_service_support.svg" alt=">Tools icon" />
 
 ##### Full service support throughout collection period
 </div>

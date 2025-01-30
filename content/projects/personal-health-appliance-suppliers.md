@@ -6,7 +6,7 @@ category: corporate
 <div class="grid grid-cols-12 gap-0 lg:gap-8">
 
 <div class="col-span-12 project-images">
-    <img src="/Projects/Images/15_Personal_Health_Appliance_Suppliers/Personal-Health-Appliance-Suppliers-data-on-ipad.jpg" />
+    <img src="/Projects/Images/15_Personal_Health_Appliance_Suppliers/Personal-Health-Appliance-Suppliers-data-on-ipad.jpg" alt="Photo of person using Personal Health app on tablet" />
 </div>
 
 
@@ -48,19 +48,19 @@ It’s automated so that the supplier can maintain an accurate database for comm
 
 <div class="col-span-12 lg:col-span-3 icons-sidebar">
 <div>
-<img src="/Projects/Icons/15_Personal_Health_Appliance_Suppliers/Mobile_friendly_data_processing_app_and_reports.svg" />
+<img src="/Projects/Icons/15_Personal_Health_Appliance_Suppliers/Mobile_friendly_data_processing_app_and_reports.svg" alt="Desktop and mobile icon" />
 
 ##### Mobile-friendly data processing app and reports
 </div>
 
 <div>
-<img src="/Projects/Icons/15_Personal_Health_Appliance_Suppliers/Automated_accurate_database_for_communications_marketing.svg" />
+<img src="/Projects/Icons/15_Personal_Health_Appliance_Suppliers/Automated_accurate_database_for_communications_marketing.svg" alt="Cogs icon" />
 
 ##### Automated, accurate database for communications and marketing
 </div>
 
 <div class="icons-sidebar-last">
-<img src="/Projects/Icons/15_Personal_Health_Appliance_Suppliers/Ongoing_user_technical_and_analytical_support.svg" />
+<img src="/Projects/Icons/15_Personal_Health_Appliance_Suppliers/Ongoing_user_technical_and_analytical_support.svg" alt="Tools icon" />
 
 ##### Ongoing user technical and analytical support
 </div>
