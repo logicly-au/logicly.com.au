@@ -94,23 +94,27 @@ The WA Mental Health Commission (MHC) relies on software to collect and validate
 By 2023, new requirements arose. There were stricter security standards including multi-factor authentication (MFA) and integration with internal systems. Initially, MHC considered replacing the system, but we proposed a different path: evolving the existing tool through iterative redevelopment.
 
 Here’s how our approach delivered all the benefits of software evolution:
-
-<strong>Preserved embedded knowledge:</strong> Over nearly a decade, the tool was maintained, refined and optimised, embedding valuable insights into its functionality. Evolving instead of replacing it retained these hard-earned improvements.
-
-<strong>Seamless updates:</strong> Rather than building a new system while maintaining the old one, we iteratively upgraded the existing tool. For example, MFA was added first to meet immediate needs without delaying other improvements.
-
-<strong>Cost-efficient transformation:</strong> The iterative approach minimised disruption and prioritised changes that would carry forward into future upgrades, saving time and money.
+<div class="blog-text-list">
+<ul>
+  <li><strong>Preserved embedded knowledge:</strong> Over nearly a decade, the tool was maintained, refined and optimised, embedding valuable insights into its functionality. Evolving instead of replacing it retained these hard-earned improvements.</li>
+  <li><strong>Seamless updates:</strong> Rather than building a new system while maintaining the old one, we iteratively upgraded the existing tool. For example, MFA was added first to meet immediate needs without delaying other improvements.</li>
+  <li><strong>Cost-efficient transformation:</strong> The iterative approach minimised disruption and prioritised changes that would carry forward into future upgrades, saving time and money.</li>
+</ul>
+</div>
 
 This strategy delivered immediate results while ensuring the system stayed adaptable for future needs. 
 
 ### When replacement becomes necessary
 While evolving software is often the best approach, there are times when replacement is unavoidable. These scenarios typically involve situations where evolution is no longer practical or cost-effective:
 
-<strong>Core functionality mismatch:</strong> Replacement may be the only way forward if the system no longer supports critical business needs or aligns with strategic goals.
+<div class="blog-text-list">
+<ul>
+  <li><strong>Core functionality mismatch:</strong> Replacement may be the only way forward if the system no longer supports critical business needs or aligns with strategic goals.</li>
+  <li><strong>Unresolvable technical debt:</strong> Outdated or unsupported platforms, inaccessible source code, or legacy components can make evolution impossible.</li>
+  <li><strong>Dramatic shifts in requirements:</strong> Significant regulatory requirements changes can render existing systems obsolete.</li>
+</ul>
+</div>
 
-<strong>Unresolvable technical debt:</strong> Outdated or unsupported platforms, inaccessible source code, or legacy components can make evolution impossible.
-
-<strong>Dramatic shifts in requirements:</strong> Significant regulatory requirements changes can render existing systems obsolete.
 
 #### Case study: Access to Allied Psychological Services (ATAPS)
 
@@ -144,7 +148,10 @@ Thinking you need to start from scratch when your software no longer meets your 
 
 Unsure what’s best for your system? Let’s chat. We’ll help you navigate the decision-making process and determine the optimal pathway for your software. 
 
-<NuxtLink to="/contactus">Get in touch</NuxtLink> to book a complimentary discovery call.
+<p>
+  <nuxt-link to="/contactus" class="inline">Get in touch</nuxt-link> to book a complimentary discovery call.
+</p>
+
 
 </div>
 </div>
