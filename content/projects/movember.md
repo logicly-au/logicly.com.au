@@ -7,7 +7,7 @@ category: research
 <div class="grid grid-cols-12 gap-0 lg:gap-8">
 
 <div class="col-span-12 project-images">
-  <img src="/Projects/Images/3_UoM_Medical_School’s_Department_of_General_Practice/University-of-melbourne-medical-school-department-of-general-practice.jpg" />
+  <img src="/Projects/Images/18_Movember/18_Movember.jpg" />
 </div>
 
 
