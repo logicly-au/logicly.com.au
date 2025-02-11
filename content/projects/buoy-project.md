@@ -7,7 +7,7 @@ category: research
 <div class="grid grid-cols-12 gap-0 lg:gap-8">
 
 <div class="col-span-12 project-images">
-  <img src="/Projects/Images/17_Buoy_project/17_Buoy.jpg" />
+  <img src="/Projects/Images/17_Buoy_project/17_Buoy.jpg" alt="Photo of a work team looking at wall with post-it notes" />
 </div>
 
 
@@ -91,19 +91,19 @@ See <a href="/projects#movember">Men in Mind</a> for more information about this
 
 <div class="col-span-12 lg:col-span-3 lg:order-1 icons-sidebar">
 <div>
-<img src="/Projects/Icons/2_UoM_Centre_for_mental_health/Digital_appliactions_for-researchers.svg" />
+<img src="/Projects/Icons/2_UoM_Centre_for_mental_health/Digital_appliactions_for-researchers.svg" alt="Desktop icon" />
 
 ##### Digital applications for researchers
 </div>
 
 <div>
-<img src="/Projects/Icons/2_UoM_Centre_for_mental_health/Secure_management_of_deidentified_data.svg" />
+<img src="/Projects/Icons/2_UoM_Centre_for_mental_health/Secure_management_of_deidentified_data.svg" alt="Key lock icon" />
 
 ##### Secure management of de-identified data
 </div>
 
 <div class="icons-sidebar-last">
-<img src="/Projects/Icons/2_UoM_Centre_for_mental_health/Meet_study_and_ethical_requirements.svg" />
+<img src="/Projects/Icons/2_UoM_Centre_for_mental_health/Meet_study_and_ethical_requirements.svg" alt="Check mark circle icon" />
 
 ##### Meet study and ethics requirements
 </div>
