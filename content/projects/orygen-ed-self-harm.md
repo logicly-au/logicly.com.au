@@ -9,7 +9,7 @@ category: research
 <div class="col-span-12 project-images">
   <div class="grid grid-cols-12">
     <div class="col-span-12">
-    <img src="/Projects/Images/13_Outdoor_Power_Equipment_Association/Outdoor-Power-Equipment-Association-customer-care-worker.jpg" alt="Photo of a woman with a headset in front of a computer screen" />
+    <img src="/Projects/Images/16_Orygen_self_harm/16_Orygen.jpg" alt="Photo of work team looking at a big screen together" />
     </div>
   </div>
 </div>
