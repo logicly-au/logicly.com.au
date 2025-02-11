@@ -7,7 +7,7 @@ category: research
 <div class="grid grid-cols-12 gap-0 lg:gap-8">
 
 <div class="col-span-12 project-images">
-    <img src="/Projects/Images/3_UoM_Medical_School’s_Department_of_General_Practice/University-of-melbourne-medical-school-department-of-general-practice.jpg" />
+    <img src="/Projects/Images/3_UoM_Medical_School’s_Department_of_General_Practice/University-of-melbourne-medical-school-department-of-general-practice.jpg" alt="Photo of man sitting next to a window using a tablet" />
 </div>
 
 
@@ -53,19 +53,19 @@ This trial laid the foundation for ongoing advancements in offering both clinica
 
 <div class="col-span-12 lg:col-span-3 icons-sidebar">
 <div>
-<img src="/Projects/Icons/3_UoM_Medical_School’s_Department_of_General_Practice/13000_respondents.svg" />
+<img src="/Projects/Icons/3_UoM_Medical_School’s_Department_of_General_Practice/13000_respondents.svg" alt="Person icon" />
 
 ##### 13,000 respondents
 </div>
 
 <div>
-<img src="/Projects/Icons/3_UoM_Medical_School’s_Department_of_General_Practice/Implementation_across_multiple_states.svg" />
+<img src="/Projects/Icons/3_UoM_Medical_School’s_Department_of_General_Practice/Implementation_across_multiple_states.svg" alt="Australia states icon" />
 
 ##### Implementation across multiple states
 </div>
 
 <div class="icons-sidebar-last">
-<img src="/Projects/Icons/3_UoM_Medical_School’s_Department_of_General_Practice/Ongoing_client_support_and_hosting.svg" />
+<img src="/Projects/Icons/3_UoM_Medical_School’s_Department_of_General_Practice/Ongoing_client_support_and_hosting.svg" alt="Tools icon" />
 
 ##### Ongoing client support and hosting
 </div>

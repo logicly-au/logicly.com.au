@@ -20,7 +20,7 @@
     <page-section>
       <div class="flex justify-center ">
         <div class="justify-center mb-6">
-          <img width="100px" src="/Dissecting_your_information_problems.svg" />
+          <img width="100px" src="/Dissecting_your_information_problems.svg" alt="" />
         </div>
       </div>
       <div class="px-0 text-center text-logiclytextgrey xl:px-6">
@@ -110,39 +110,39 @@
           </div>
           <div class="grid grid-cols-3 grid-rows-3 gap-4">
           <div class="items-center col-span-1">
-            <img src="/Everyone_brings_something_different_to_the_team/Researchers.svg" class="h-8 m-auto sm:h-12" />
+            <img src="/Everyone_brings_something_different_to_the_team/Researchers.svg" alt="" class="h-8 m-auto sm:h-12" />
             <h3 class="pt-3 text-xs font-medium text-center sm:text-sm">Researchers</h3>
           </div>
           <div class="items-center col-span-1">
-            <img src="/Everyone_brings_something_different_to_the_team/Psychologists.svg" class="h-8 m-auto sm:h-12" />
+            <img src="/Everyone_brings_something_different_to_the_team/Psychologists.svg" alt="" class="h-8 m-auto sm:h-12" />
             <h3 class="pt-3 text-xs font-medium text-center sm:text-sm">Psychologists</h3>
           </div>
           <div class="items-center col-span-1">
-            <img src="/Everyone_brings_something_different_to_the_team/Mathematicians.svg" class="h-8 m-auto sm:h-12" />
+            <img src="/Everyone_brings_something_different_to_the_team/Mathematicians.svg" alt="" class="h-8 m-auto sm:h-12" />
             <h3 class="pt-3 text-xs font-medium text-center sm:text-sm">Mathematicians</h3>
           </div>
           <div class="items-center col-span-1">
-            <img src="/Everyone_brings_something_different_to_the_team/Project_managers.svg" class="h-8 m-auto sm:h-12" />
+            <img src="/Everyone_brings_something_different_to_the_team/Project_managers.svg" alt="" class="h-8 m-auto sm:h-12" />
             <h3 class="pt-3 text-xs font-medium text-center sm:text-sm">Project Managers</h3>
           </div>
           <div class="items-center col-span-1">
-            <img src="/Everyone_brings_something_different_to_the_team/Support.svg" class="h-8 m-auto sm:h-12" />
+            <img src="/Everyone_brings_something_different_to_the_team/Support.svg" alt="" class="h-8 m-auto sm:h-12" />
             <h3 class="pt-3 text-xs font-medium text-center sm:text-sm">Support</h3>
           </div>
           <div class="items-center col-span-1">
-            <img src="/Everyone_brings_something_different_to_the_team/Security_experts.svg" class="h-8 m-auto sm:h-12" />
+            <img src="/Everyone_brings_something_different_to_the_team/Security_experts.svg" alt="" class="h-8 m-auto sm:h-12" />
             <h3 class="pt-3 text-xs font-medium text-center sm:text-sm">Security experts</h3>
           </div>
           <div class="items-center col-span-1">
-            <img src="/Everyone_brings_something_different_to_the_team/User_experience_design_(UX).svg" class="h-8 m-auto sm:h-12" />
+            <img src="/Everyone_brings_something_different_to_the_team/User_experience_design_(UX).svg" alt="" class="h-8 m-auto sm:h-12" />
             <h3 class="pt-3 text-xs font-medium text-center sm:text-sm">User experience</br> design (UX)</h3>
           </div>
           <div class="items-center col-span-1">
-            <img src="/Everyone_brings_something_different_to_the_team/Interface_design_(UI).svg" class="h-8 m-auto sm:h-12" />
+            <img src="/Everyone_brings_something_different_to_the_team/Interface_design_(UI).svg" alt="" class="h-8 m-auto sm:h-12" />
             <h3 class="pt-3 text-xs font-medium text-center sm:text-sm">Interface design (UI)</h3>
           </div>
           <div class="items-center col-span-1">
-            <img src="/Everyone_brings_something_different_to_the_team/Developers.svg" class="h-8 m-auto sm:h-12" />
+            <img src="/Everyone_brings_something_different_to_the_team/Developers.svg" alt="" class="h-8 m-auto sm:h-12" />
             <h3 class="pt-3 text-xs font-medium text-center sm:text-sm">Developers</h3>
           </div>
         </div>
@@ -163,7 +163,7 @@
 
         <div class="grid col-span-3 grid-rows-2 pb-8 sm:col-span-1 sm:col-start-1 justify-items-center sm:pb-0">
           <div class="row-span-1 sm:-mt-4 md:mt-0">
-            <img width="40px" src="/We-Can-1.svg" />
+            <img width="40px" src="/We-Can-1.svg" alt="" />
           </div>
           <div class="row-span-1">
             <p class="mt-4 text-base text-center sm:text-sm">
@@ -174,7 +174,7 @@
 
         <div class="grid col-span-3 grid-rows-2 pb-8 sm:col-span-1 sm:col-start-2 justify-items-center sm:pb-0">
           <div class="row-span-1">
-            <img width="40px" src="/We-Can-3.svg" />
+            <img width="40px" src="/We-Can-3.svg" alt="" />
           </div>
           <div class="row-span-1">
             <p class="mt-4 text-base text-center sm:text-sm">
@@ -185,7 +185,7 @@
 
         <div class="grid col-span-3 grid-rows-2 sm:col-span-1 sm:col-start-3 justify-items-center">
           <div class="row-span-1 sm:pt-6">
-            <img width="40px" src="/We-Can-2.svg" />
+            <img width="40px" src="/We-Can-2.svg" alt="" />
           </div>
           <div class="row-span-1">
             <p class="mt-4 text-base text-center sm:text-sm">
@@ -200,16 +200,16 @@
     <page-section altrow>
       <div class="grid grid-cols-2 gap-3 mx-0 mb-6 lg:gap-6 text-logiclytextgrey lg:mx-8">
         <div class="col-span-1 col-start-1">
-          <img src="/logicly-adam.jpg" class="p-0">
+          <img src="/logicly-adam.jpg" alt="Portrait Adam Clarke" class="p-0">
         </div>
         <div class="col-span-1 col-start-2">
-          <img src="/logicly-andrew.jpg" class="p-0">
+          <img src="/logicly-andrew.jpg" alt="Portrait Andrew Gordon" class="p-0">
         </div>
         <div class="col-span-1 col-start-1">
-          <img src="/logicly-simon.jpg" class="p-0">
+          <img src="/logicly-simon.jpg" alt="Portrait Simon Palmer" class="p-0">
         </div>
         <div class="col-span-1 col-start-2">
-          <img src="/logicly-michelle.jpg" class="p-0">
+          <img src="/logicly-michelle.jpg" alt="Portrait Michelle Nicholson" class="p-0">
         </div>
       </div>
 

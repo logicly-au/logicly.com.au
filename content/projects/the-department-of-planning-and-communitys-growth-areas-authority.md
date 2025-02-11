@@ -6,7 +6,7 @@ category: government
 <div class="grid grid-cols-12 gap-0 lg:gap-8">
 
 <div class="col-span-12 project-images">
-    <img src="/Projects/Images/9_Department_of_Planning_and_Community’s_Growth_Areas_Authority_(GAA)/Department-of-Planning-and-Community’s-Growth-Areas-Authority-women-working-on-whiteboard.jpg" />
+    <img src="/Projects/Images/9_Department_of_Planning_and_Community’s_Growth_Areas_Authority_(GAA)/Department-of-Planning-and-Community’s-Growth-Areas-Authority-women-working-on-whiteboard.jpg" alt="Photo of two women looking at a whiteboard" />
 </div>
 
 
@@ -49,19 +49,19 @@ The resulting public consultation system was delivered within the project timeli
 
 <div class="col-span-12 lg:col-span-3 icons-sidebar">
 <div>
-<img src="/Projects/Icons/9_Department_of_Planning_and_Community’s_Growth_Areas_Authority_(GAA)/Receive_and_manage_documents_from_the_public.svg" />
+<img src="/Projects/Icons/9_Department_of_Planning_and_Community’s_Growth_Areas_Authority_(GAA)/Receive_and_manage_documents_from_the_public.svg" alt="Recieve and manage documents icon" />
 
 ##### Recieve and manage documents from the public
 </div>
 
 <div>
-<img src="/Projects/Icons/9_Department_of_Planning_and_Community’s_Growth_Areas_Authority_(GAA)/Trach_files_and_users.svg" />
+<img src="/Projects/Icons/9_Department_of_Planning_and_Community’s_Growth_Areas_Authority_(GAA)/Trach_files_and_users.svg" alt="GPS icon" />
 
 ##### Track files and users
 </div>
 
 <div class="icons-sidebar-last">
-<img src="/Projects/Icons/9_Department_of_Planning_and_Community’s_Growth_Areas_Authority_(GAA)/Tight_deadlines.svg" />
+<img src="/Projects/Icons/9_Department_of_Planning_and_Community’s_Growth_Areas_Authority_(GAA)/Tight_deadlines.svg" alt="Clock icon" />
 
 ##### Tight deadlines with a phased approach
 </div>

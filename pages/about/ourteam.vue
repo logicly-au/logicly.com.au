@@ -9,6 +9,7 @@
     <Herotext
       iconurl="/Our-team-approaches-problems-from-different-angles.svg"
       imgwidth="120px"
+      alttext="A graphic showing four colorful arrows pointing to a square center, symbolising approaching problems from different angels"
       heading="Our team approaches problems from different angles"
       subheading="Our diverse skills across strategic thinking, UX design, technology, management and customer support ensures we collectively bring a wholistic approach to every project. This creative thinking helps us conceptualise our clients' vision and provide different options to solve their complex information problems."
       altrow
@@ -19,39 +20,39 @@
       <div class="grid grid-cols-12 text-logiclytextgrey">
         <div class="col-span-12 lg:col-span-8 col-start-1 lg:col-start-3 grid grid-cols-3 grid-rows-3 gap-4 mx-0 lg:-mx-8 xl:-mx-0">
           <div class="items-center col-span-1">
-            <img src="/Everyone_brings_something_different_to_the_team/Researchers.svg" class="h-8 sm:h-12 m-auto" />
+            <img src="/Everyone_brings_something_different_to_the_team/Researchers.svg" alt="" class="h-8 sm:h-12 m-auto" />
             <h3 class="text-center font-medium text-xs sm:text-sm pt-3">Researchers</h3>
           </div>
           <div class="items-center col-span-1">
-            <img src="/Everyone_brings_something_different_to_the_team/Psychologists.svg" class="h-8 sm:h-12 m-auto" />
+            <img src="/Everyone_brings_something_different_to_the_team/Psychologists.svg" alt="" class="h-8 sm:h-12 m-auto" />
             <h3 class="text-center font-medium text-xs sm:text-sm pt-3">Psychologists</h3>
           </div>
           <div class="items-center col-span-1">
-            <img src="/Everyone_brings_something_different_to_the_team/Mathematicians.svg" class="h-8 sm:h-12 m-auto" />
+            <img src="/Everyone_brings_something_different_to_the_team/Mathematicians.svg" alt="" class="h-8 sm:h-12 m-auto" />
             <h3 class="text-center font-medium text-xs sm:text-sm pt-3">Mathematicians</h3>
           </div>
           <div class="items-center col-span-1">
-            <img src="/Everyone_brings_something_different_to_the_team/Project_managers.svg" class="h-8 sm:h-12 m-auto" />
+            <img src="/Everyone_brings_something_different_to_the_team/Project_managers.svg" alt="" class="h-8 sm:h-12 m-auto" />
             <h3 class="text-center font-medium text-xs sm:text-sm pt-3">Project Managers</h3>
           </div>
           <div class="items-center col-span-1">
-            <img src="/Everyone_brings_something_different_to_the_team/Support.svg" class="h-8 sm:h-12 m-auto" />
+            <img src="/Everyone_brings_something_different_to_the_team/Support.svg" alt="" class="h-8 sm:h-12 m-auto" />
             <h3 class="text-center font-medium text-xs sm:text-sm pt-3">Support</h3>
           </div>
           <div class="items-center col-span-1">
-            <img src="/Everyone_brings_something_different_to_the_team/Security_experts.svg" class="h-8 sm:h-12 m-auto" />
+            <img src="/Everyone_brings_something_different_to_the_team/Security_experts.svg" alt="" class="h-8 sm:h-12 m-auto" />
             <h3 class="text-center font-medium text-xs sm:text-sm pt-3">Security experts</h3>
           </div>
           <div class="items-center col-span-1">
-            <img src="/Everyone_brings_something_different_to_the_team/User_experience_design_(UX).svg" class="h-8 sm:h-12 m-auto" />
+            <img src="/Everyone_brings_something_different_to_the_team/User_experience_design_(UX).svg" alt="" class="h-8 sm:h-12 m-auto" />
             <h3 class="text-center font-medium text-xs sm:text-sm pt-3">User experience</br> design (UX)</h3>
           </div>
           <div class="items-center col-span-1">
-            <img src="/Everyone_brings_something_different_to_the_team/Interface_design_(UI).svg" class="h-8 sm:h-12 m-auto" />
+            <img src="/Everyone_brings_something_different_to_the_team/Interface_design_(UI).svg" alt="" class="h-8 sm:h-12 m-auto" />
             <h3 class="text-center font-medium text-xs sm:text-sm pt-3">Interface design (UI)</h3>
           </div>
           <div class="items-center col-span-1">
-            <img src="/Everyone_brings_something_different_to_the_team/Developers.svg" class="h-8 sm:h-12 m-auto" />
+            <img src="/Everyone_brings_something_different_to_the_team/Developers.svg" alt="" class="h-8 sm:h-12 m-auto" />
             <h3 class="text-center font-medium text-xs sm:text-sm pt-3">Developers</h3>
           </div>
         </div>
@@ -68,7 +69,7 @@
       <div class="grid grid-cols-2 col-gap-6 text-logiclytextgrey">
         <div class="col-span-2 lg:col-span-1 lg:col-start-1 pb-16">
           <div class="col-span-1 pb-6">
-            <img src="/logicly-adam.jpg" class="p-0">
+            <img src="/logicly-adam.jpg" alt="Portrait Adam Clarke" class="p-0">
           </div>
           <div class="col-span-1">
             <h2 class="text-lg font-bold">
@@ -88,7 +89,7 @@
 
         <div class="col-span-2 lg:col-span-1 lg:col-start-2 pb-16">
           <div class="col-span-1 pb-6">
-            <img src="/logicly-andrew.jpg" class="p-0">
+            <img src="/logicly-andrew.jpg" alt="Portrait Andrew Gordon" class="p-0">
           </div>
           <div class="col-span-1">
             <h2 class="text-lg font-bold">
@@ -108,7 +109,7 @@
 
         <div class="col-span-2 lg:col-span-1 lg:col-start-1 pb-16">
           <div class="col-span-1 pb-6">
-            <img src="/logicly-simon.jpg" class="p-0">
+            <img src="/logicly-simon.jpg" alt="Portrait Simon Palmer" class="p-0">
           </div>
           <div class="col-span-1">
             <h2 class="text-lg font-bold">
@@ -128,7 +129,7 @@
 
         <div class="col-span-2 lg:col-span-1 lg:col-start-2">
           <div class="col-span-1 pb-6">
-            <img src="/logicly-michelle.jpg" class="p-0">
+            <img src="/logicly-michelle.jpg" alt="Portrait Michelle Nicholson" class="p-0">
           </div>
           <div class="col-span-1">
             <h2 class="text-lg font-bold">

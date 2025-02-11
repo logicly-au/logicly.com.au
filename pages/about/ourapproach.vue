@@ -10,6 +10,7 @@
     <Herotext
     iconurl="/Dissecting_your_information_problems.svg"
     imgwidth="105px"
+    alttext="A circular graphic made of four colorful segments, symbolizing the process of breaking down information"
     heading="We start by dissecting your information problems"
     subheading="We help you navigate through your complex information problem and explore ideas and possibilities. We look at the larger context of your situation and recommend different approaches to research, design, develop, implement and maintain your digital system."
     altrow

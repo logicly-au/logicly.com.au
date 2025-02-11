@@ -6,7 +6,7 @@ category: government
 <div class="grid grid-cols-12 gap-0 lg:gap-8">
 
 <div class="col-span-12 project-images">
-    <img src="/Projects/Images/6_Department_of_Health_Primary_Mental_Health_Care_Minimum_Dataset/Department-of-Health-Primary-Mental-Health-Care-Minimum-Dataset-coworkers-on-table.jpg" />
+    <img src="/Projects/Images/6_Department_of_Health_Primary_Mental_Health_Care_Minimum_Dataset/Department-of-Health-Primary-Mental-Health-Care-Minimum-Dataset-coworkers-on-table.jpg" alt="Photo of team brainstorming at a work meeting" />
 </div>
 
 
@@ -80,19 +80,19 @@ Logicly is a longtime partner of the DoH, having worked with them on numerous pr
 
 <div class="col-span-12 lg:col-span-3 icons-sidebar">
 <div>
-<img src="/Projects/Icons/6_Department_of_Health_Primary_Mental_Health_Care_Minimum_Dataset/Outcome_measures_online_version.svg" />
+<img src="/Projects/Icons/6_Department_of_Health_Primary_Mental_Health_Care_Minimum_Dataset/Outcome_measures_online_version.svg" alt="Analyse icon" />
 
 ##### Outcome measures (online version)
 </div>
 
 <div>
-<img src="/Projects/Icons/6_Department_of_Health_Primary_Mental_Health_Care_Minimum_Dataset/Complex_data_into_simplified_reports.svg" />
+<img src="/Projects/Icons/6_Department_of_Health_Primary_Mental_Health_Care_Minimum_Dataset/Complex_data_into_simplified_reports.svg" alt="Complex data icon" />
 
 ##### Complex data into simplified reports
 </div>
 
 <div class="icons-sidebar-last">
-<img src="/Projects/Icons/6_Department_of_Health_Primary_Mental_Health_Care_Minimum_Dataset/Secure_data_collection_and_management.svg" />
+<img src="/Projects/Icons/6_Department_of_Health_Primary_Mental_Health_Care_Minimum_Dataset/Secure_data_collection_and_management.svg" alt="Key lock icon" />
 
 ##### Secure data collection and management
 </div>

@@ -10,6 +10,7 @@
     <Herotext
       iconurl="/A_long_history_of_working_with_highly_sensitive_information.svg"
       imgwidth="90px"
+      alttext="A graphic of a shield"
       heading="We have a long history of working with highly sensitive information"
       subheading="At Logicly, security is integrated and prioritised as a core value and capability in our processes and culture. We partner with our clients to help them safely and accurately gather insights from sensitive data that inform high-stakes outcomes."
       altrow
@@ -56,7 +57,7 @@
         <div class="col-span-3 lg:col-span-1 text-center flex pb-6 lg:pb-0">
           <div class="m-auto">
             <div class="h-24 flex items-center justify-center">
-              <img src="/australian-government.svg" />
+              <img src="/australian-government.svg" alt="Australian Government logo" />
             </div>
             <div class="flex justify-center">
               <Button
@@ -69,7 +70,7 @@
         <div class="col-span-3 lg:col-span-1 text-center flex pb-6 lg:pb-0">
           <div class="m-auto">
             <div class="h-24 flex items-center justify-center">
-              <img src="/the-university-of-melbourne.svg" class="unimelb-height"/>
+              <img src="/the-university-of-melbourne.svg" alt="University of Melbourne logo" class="unimelb-height"/>
             </div>
             <div class="flex justify-center">
               <Button
@@ -82,7 +83,7 @@
         <div class="col-span-3 lg:col-span-1 text-center flex">
           <div class="m-auto">
             <div class="h-24 flex items-center justify-center">
-              <img src="/National_Australia_Bank.svg" />
+              <img src="/National_Australia_Bank.svg" alt="National Australia Bank logo" />
             </div>
             <div class="flex justify-center">
               <Button
