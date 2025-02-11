@@ -11,6 +11,7 @@
       <Herotext
         iconurl="/Together-at-logicly.svg"
         imgwidth="90px"
+        alttext="A graphic made of four colorful segments, symbolising a team working together"
         heading="Together at Logicly"
         subheading="We are a diverse team who encourages sharing of knowledge and ideas to always improve, streamline our way of working and add value to the systems we design and build for our clients."
         altrow
@@ -18,7 +19,7 @@
   
       <page-section>
         <h1 class="pb-10 text-2xl font-semibold text-center text-logiclytextgrey">We continually build, share and leverage our knowledge</h1>
-        <img src="/Continually-build-share-leverage-our-knowledge.jpg" class="p-0 mb-4"/>
+        <img src="/Continually-build-share-leverage-our-knowledge.jpg" alt="Photo showing a group discussion" class="p-0 mb-4"/>
   
         <div class="grid grid-cols-8 gap-6 mt-8 -mb-16 lg:gap-x-12 lg:gap-y-10 text-logiclytextgrey lg:-mb-10">
           <div class="col-span-8 lg:col-span-4">
@@ -43,7 +44,7 @@
       <page-section>
         <div class="grid grid-cols-12 bg-logiclylightgrey">
           <div class="col-span-12">
-            <img src="/Join-our-team.jpg" class="p-0 mb-5"/>
+            <img src="/Join-our-team.jpg" alt="Photo showing a man in an interview context" class="p-0 mb-5"/>
           </div>
           <div class="col-span-10 col-start-2 mt-4 lg:mt-8">
             <h1 class="mb-1 text-2xl font-semibold lg:mb-4 text-logiclytheme2">Join our team</h1>
@@ -59,7 +60,7 @@
       </page-section>
 
       <page-section>
-        <img src="Our_mission.svg" class="content-center h-24"/>
+        <img src="Our_mission.svg" alt="Circle with four cake pieces in different colours" class="content-center h-24"/>
   
           <div class="flex justify-center ">
             <div class="justify-center mb-6">

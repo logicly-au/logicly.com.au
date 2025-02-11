@@ -16,7 +16,7 @@
 
 
     <page-section>
-      <img src="digital_system.svg" class="content-center h-24 px-12 mb-5"/>
+      <img src="digital_system.svg" class="content-center h-24 px-12 mb-5" alt="A rounded rectangular outline with the words 'DIGITAL SYSTEM' centered inside"/>
 
       <div class="grid content-center grid-cols-6 col-gap-4 mx-0 text-logiclytextgrey xl:mx-16">
 
@@ -160,21 +160,21 @@
       </div>
       <div class="grid grid-cols-3 gap-5">
         <a href="https://www.health.gov.au/">
-          <div class="col-span-1"><img src="~/assets/images/Australian-government-federal-department-of-health-logo.png" /></div>
+          <div class="col-span-1"><img src="~/assets/images/Australian-government-federal-department-of-health-logo.png" alt="Logo Australian Government department of health" /></div>
         </a>
         <a href="https://www.aviation.govt.nz/">
-          <div class="col-span-1"><img src="~/assets/images/Civil-Aviation-Authority-of-New-Zealand-logo.png" /></div>
+          <div class="col-span-1"><img src="~/assets/images/Civil-Aviation-Authority-of-New-Zealand-logo.png" alt="Logo Civil Aviation Authority of New Zealand" /></div>
         </a>
         <a href="https://www.nab.com.au/">
-          <div class="col-span-1"><img src="~/assets/images/nab-National-Australia-Bank-logo.png" /></div>
+          <div class="col-span-1"><img src="~/assets/images/nab-National-Australia-Bank-logo.png" alt="Logo National Australia Bank" /></div>
         </a>
       </div>
       <div class="grid grid-cols-2 gap-0 mx-10">
         <a href="https://www.tmr.qld.gov.au/">
-          <div class="col-span-1"><img src="~/assets/images/Queensland-qovernment-department-of-transport-and-main-roads.jpg" /></div>
+          <div class="col-span-1"><img src="~/assets/images/Queensland-qovernment-department-of-transport-and-main-roads.jpg" alt="Logo Queensland Government of transport and main roads" /></div>
         </a>
         <a href="https://www.unimelb.edu.au/">
-          <div class="col-span-1"><img src="~/assets/images/University-of-melbourne_logo.png" /></div>
+          <div class="col-span-1"><img src="~/assets/images/University-of-melbourne_logo.png" alt="Logo University of Melbourne" /></div>
         </a>
       </div>
     </page-section>
@@ -186,19 +186,19 @@
       </div>
       <div class="grid grid-cols-5 col-span-8 row-start-2 gap-5 grid-row">
         <a href="https://www.health.gov.au/">
-          <div class="col-span-1"><img src="~/assets/images/Australian-government-federal-department-of-health-logo.png" /></div>
+          <div class="col-span-1"><img src="~/assets/images/Australian-government-federal-department-of-health-logo.png" alt="Logo Australian Government department of health" /></div>
         </a>
         <a href="https://www.aviation.govt.nz/">
-          <div class="col-span-1"><img src="~/assets/images/Civil-Aviation-Authority-of-New-Zealand-logo.png" /></div>
+          <div class="col-span-1"><img src="~/assets/images/Civil-Aviation-Authority-of-New-Zealand-logo.png" alt="Logo Civil Aviation Authority of New Zealand" /></div>
         </a>
         <a href="https://www.nab.com.au/">
-          <div class="col-span-1"><img src="~/assets/images/nab-National-Australia-Bank-logo.png" /></div>
+          <div class="col-span-1"><img src="~/assets/images/nab-National-Australia-Bank-logo.png" alt="Logo National Australia Bank" /></div>
         </a>
         <a href="https://www.tmr.qld.gov.au/">
-          <div class="col-span-1"><img src="~/assets/images/Queensland-qovernment-department-of-transport-and-main-roads.jpg" /></div>
+          <div class="col-span-1"><img src="~/assets/images/Queensland-qovernment-department-of-transport-and-main-roads.jpg" alt="Logo Queensland Government of transport and main roads" /></div>
         </a>
         <a href="https://www.unimelb.edu.au/">
-          <div class="col-span-1"><img src="~/assets/images/University-of-melbourne_logo.png" /></div>
+          <div class="col-span-1"><img src="~/assets/images/University-of-melbourne_logo.png" alt="Logo University of Melbourne" /></div>
         </a>
       </div>
     </page-section>
@@ -238,7 +238,7 @@
             </div>
             <div class="content-end hidden col-span-1 lg:grid lg:pl-8 xl:pl-8 lg:pb-8 xl:pb-10">
               <NuxtLink to="/projects/#queensland-department-of-transport-and-main-roads">
-                <img class="h-10" src="/Logicly-arrow.png" />
+                <img class="h-10" src="/Logicly-arrow.png" alt="Orange arrow" />
               </NuxtLink>
             </div>
           </div>
@@ -273,7 +273,7 @@
             </div>
             <div class="content-end hidden col-span-1 lg:grid lg:pl-8 xl:pl-8 lg:pb-8 xl:pb-10">
               <NuxtLink to="/projects/corporate#national-australia-bank">
-                <img class="h-10" src="/Logicly-arrow.png" />
+                <img class="h-10" src="/Logicly-arrow.png" alt="Orange arrow" />
               </NuxtLink>
             </div>
           </div>
@@ -308,7 +308,7 @@
             </div>
             <div class="content-end hidden col-span-1 lg:grid lg:pl-8 xl:pl-8 lg:pb-8 xl:pb-10">
               <NuxtLink to="/projects/research#deakin-universitys-humanities-network-infrastructure">
-                <img class="h-10" src="/Logicly-arrow.png" />
+                <img class="h-10" src="/Logicly-arrow.png" alt="Orange arrow" />
               </NuxtLink>
             </div>
           </div>

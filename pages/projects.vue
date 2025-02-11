@@ -28,6 +28,7 @@
           v-else 
           :src="'/Projects_' + capitalize(category) + '.svg'" 
           class="h-10 filter-orange mx-auto"
+          alt=""
         />      
         <div class="pt-2 text-xs font-medium text-center capitalize sm:text-sm text-logiclytextgrey">
           {{ category }}

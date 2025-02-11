@@ -12,6 +12,7 @@
     <Herotext
       iconurl="We-help-people-understand-all-the-possibilities.svg"
       imgwidth="310px"
+      alttext="Symbol showing unique building blocks"
       heading="We help people understand all the possibilities"
       subheading="We help clients understand the power of technology to improve efficiencies and gain quality information
               to inform critical decisions. We guide our clients through the possible pathways and alternatives. It is
@@ -46,7 +47,7 @@
           <vsa-item class="grid content-center">
             <vsa-heading>
               <div class="grid grid-cols-5 lg:grid-cols-11">
-                <div class="col-span-1"><img src="/Researchers.svg" class="w-8 lg:w-10" /></div>
+                <div class="col-span-1"><img src="/Researchers.svg" alt="Checklist icon" class="w-8 lg:w-10" /></div>
                 <div class="flex flex-col justify-center col-span-4 lg:col-span-10 pl-6 md:pl-8 lg:pl-12 lg:ml-2">
                   <h2 class="font-semibold text-lg sm:text-xl text-left">Researchers</h2>
                 </div>
@@ -72,7 +73,7 @@
           <vsa-item class="grid content-center">
             <vsa-heading>
               <div class="grid grid-cols-5 lg:grid-cols-11">
-                <div class="col-span-1 accordion-img"><img src="/Government.svg" class="lg:w-12" /></div>
+                <div class="col-span-1 accordion-img"><img src="/Government.svg" alt="Government icon" class="lg:w-12" /></div>
                 <div class="flex flex-col justify-center col-span-4 lg:col-span-10 pl-6 md:pl-8 lg:pl-12">
                   <h2 class="font-semibold text-lg sm:text-xl text-left">Government</h2>
                 </div>
@@ -102,7 +103,7 @@
           <vsa-item class="grid content-center">
             <vsa-heading>
               <div class="grid grid-cols-5 lg:grid-cols-11">
-                <div class="col-span-1"><img src="/Health.svg" class="w-10 lg:w-12" /></div>
+                <div class="col-span-1"><img src="/Health.svg" alt="Health icon" class="w-10 lg:w-12" /></div>
                 <div class="flex flex-col justify-center col-span-4 lg:col-span-10 pl-4 sm:pl-5 md:pl-8 lg:pl-12">
                   <h2 class="font-semibold text-lg sm:text-xl text-left">Health</h2>
                 </div>
@@ -131,7 +132,7 @@
             <vsa-heading>
               <div class="grid grid-cols-5 lg:grid-cols-11">
                 <div class="col-span-1">
-                  <img src="/Education.svg" class="w-10 lg:w-12" />
+                  <img src="/Education.svg" alt="Graduation hat icon" class="w-10 lg:w-12" />
                 </div>
                 <div class="flex flex-col justify-center col-span-4 lg:col-span-10 pl-4 sm:pl-5 md:pl-8 lg:pl-12">
                   <h2 class="font-semibold text-lg sm:text-xl text-left">Education</h2>
@@ -157,7 +158,7 @@
             <vsa-heading>
               <div class="grid grid-cols-5 lg:grid-cols-11">
                 <div class="col-span-1">
-                  <img src="Non-Government.svg" class="w-10 lg:w-12" />
+                  <img src="Non-Government.svg" alt="Hand and heart icon" class="w-10 lg:w-12" />
                 </div>
                 <div class="flex flex-col justify-center col-span-4 lg:col-span-10 pl-4 sm:pl-5 md:pl-8 lg:pl-12">
                   <h2 class="text-left text-lg sm:text-xl font-semibold -mr-10">Non-government</h2>
@@ -183,7 +184,7 @@
             <vsa-heading>
               <div class="grid grid-cols-5 lg:grid-cols-11">
                 <div class="col-span-1">
-                  <img src="/Corporate.svg" class="w-10 lg:w-12" />
+                  <img src="/Corporate.svg" alt="Office icon" class="w-10 lg:w-12" />
                 </div>
                 <div class="flex flex-col justify-center col-span-4 lg:col-span-10 pl-4 sm:pl-5 md:pl-8 lg:pl-12">
                   <h2 class="font-semibold text-lg sm:text-xl text-left">Corporate</h2>

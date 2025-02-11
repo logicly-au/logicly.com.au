@@ -11,6 +11,7 @@
     <Herotext
       iconurl="We-start-with-the-right-questions-to-gain-insightful-answers.svg"
       imgwidth="310px"
+      alttext="Illustration showing 'from question to answer'"
       heading="We start with the right questions to gain insightful answers"
       subheading="Our services are comprehensive and thorough; from initial consulting and design through to build and delivery. We continuously review results, outcomes and user experience to ensure the needs of all stakeholders are met."
       altrow
@@ -144,7 +145,7 @@
     <page-section>
       <div class="grid grid-cols-12">
         <div class="col-span-12 mb-12">
-          <img src="~/assets/images/Every_information_challenge-is-different-and-requires-a-unique-digital-solution.jpg" class="p-0"/>
+          <img src="~/assets/images/Every_information_challenge-is-different-and-requires-a-unique-digital-solution.jpg" class="p-0" alt="Close-up photo of hands interacting with a tablet" />
         </div>
         <div class="col-span-12 py-2 text-center lg:col-span-10 lg:col-start-2 xl:col-span-8 xl:col-start-3 lg:px-4">
           <h1 class="pb-2 text-xl font-semibold text-center text-logiclytextgrey">Every information challenge is different and requires a unique digital solution</h1>

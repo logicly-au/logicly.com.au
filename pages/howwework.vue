@@ -12,6 +12,7 @@
     <Herotext
       iconurl="Our-pathway-to-build-your-digital-system.svg"
       imgwidth="200px"
+      alttext="Symbol showing pathway"
       heading="Our pathway to build your digital system"
       subheading="Our digital systems are a collaborative process. The people we collaborate with in an organisation varies
                 depending on the expertise and content needed for the project. We regularly present concepts to gain
@@ -31,11 +32,11 @@
        </div>
 
        <div class="grid justify-center col-span-12 pb-6 md:pb-8 xl:pb-20">
-         <img src="~/assets/images/greyarrow.svg" class="h-4 p-0 md:h-5 xl:h-6"/>
+         <img src="~/assets/images/greyarrow.svg" alt="Grey arrow" class="h-4 p-0 md:h-5 xl:h-6"/>
        </div>
 
        <div class="col-span-12 xl:col-span-5">
-         <img src="~/assets/images/1_Research.jpg" class="p-0"/>
+         <img src="~/assets/images/1_Research.jpg" alt="Photo of team collaborating in a meeting room, using laptops while discussing a project" class="p-0"/>
        </div>
 
        <div class="hidden col-span-1 ml-2 border-l-2 xl:block border-logiclygreythree">
@@ -73,7 +74,7 @@
        </div>
 
        <div class="col-span-12 xl:col-span-5">
-         <img src="~/assets/images/2_Design.jpg" class="p-0"/>
+         <img src="~/assets/images/2_Design.jpg" alt="Photo showing people discussing while looking at a screen" class="p-0"/>
        </div>
 
        <div class="hidden col-span-1 ml-2 border-l-2 xl:block border-logiclygreythree">
@@ -124,7 +125,7 @@
        </div>
 
        <div class="col-span-12 xl:col-span-5">
-         <img src="~/assets/images/3_Build.jpg" class="p-0"/>
+         <img src="~/assets/images/3_Build.jpg" alt="Photo showing developers looking at a screen" class="p-0"/>
        </div>
 
        <div class="hidden col-span-1 ml-2 border-l-2 xl:block border-logiclygreythree">
@@ -181,7 +182,7 @@
 
 
        <div class="col-span-12 xl:col-span-5">
-         <img src="~/assets/images/4_Maintain_and_improve.jpg" class="p-0"/>
+         <img src="~/assets/images/4_Maintain_and_improve.jpg" alt="Photo showing woman using a computer" class="p-0"/>
        </div>
 
        <div class="hidden col-span-1 ml-2 border-l-2 xl:block border-logiclygreythree">
@@ -251,7 +252,7 @@
     <page-section altrow>
       <div class="flex grid items-center grid-cols-12 px-0 pb-0 xl:gap-x-6 lg:px-20 xl:px-0 xl:-mx-20 xl:-mt-32 xl:pb-12">
        <div class="col-span-12 pt-0 xl:col-span-5 xl:pt-32">
-         <img src="~/assets/images/Continual_reviews.svg" />
+         <img src="~/assets/images/Continual_reviews.svg" alt="A rounded rectangular outline with the words 'CONTINUAL REVIEWS' centered inside" />
        </div>
 
        <div class="hidden col-span-1 ml-2 -mb-24 border-l-2 xl:block border-logiclygreythree h-1/2">

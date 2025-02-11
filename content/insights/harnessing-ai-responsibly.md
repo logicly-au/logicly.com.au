@@ -32,20 +32,20 @@ Share
 </div>
 
 <div class="col-span-1">
-<img class="h-4" src="/Facebook.svg" />
+<img class="h-4" src="/Facebook.svg" alt="Facebook logo" />
 </div>
 
 <div class="col-span-1">
-<img class="h-4" src="/Twitter.svg" />
+<img class="h-4" src="/Twitter.svg" alt="Twitter logo" />
 </div>
 
 <div class="col-span-1">
-<img class="h-4" src="/Linkedin.svg" />
+<img class="h-4" src="/Linkedin.svg" alt="Linkedin logo" />
 </div>
 
 <div class="col-span-1">
 <a href="mailto:info@logicly.com.au">
-<img class="h-4" src="/Email.svg" />
+<img class="h-4" src="/Email.svg" alt="Email icon" />
 </a>
 </div>
 

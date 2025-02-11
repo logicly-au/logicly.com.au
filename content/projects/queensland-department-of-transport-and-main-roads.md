@@ -8,13 +8,13 @@ category: government
 <div class="col-span-12 project-images">
   <div class="grid grid-cols-12">
     <div class="col-span-12">
-      <img src="/Projects/Images/5_Queensland_Department_of_Transport_and_Main_Roads/Queensland-Department-of-Transport-and-Main-Roads-woman-on-ipad.jpg" />
+      <img src="/Projects/Images/5_Queensland_Department_of_Transport_and_Main_Roads/Queensland-Department-of-Transport-and-Main-Roads-woman-on-ipad.jpg" alt="Photo of woman using a tablet while walking down a street" />
     </div>
     <div class="col-span-4">
-      <img class="project-image-secondrow" src="/Projects/Images/5_Queensland_Department_of_Transport_and_Main_Roads/Queensland-Department-of-Transport-and-Main-Roads-ipad-screen.jpg" />
+      <img class="project-image-secondrow" src="/Projects/Images/5_Queensland_Department_of_Transport_and_Main_Roads/Queensland-Department-of-Transport-and-Main-Roads-ipad-screen.jpg" alt="Photo of person using survey data app" />
     </div>
     <div class="col-span-8">
-      <img class="project-image-secondrow" src="/Projects/Images/5_Queensland_Department_of_Transport_and_Main_Roads/Queensland-Department-of-Transport-and-Main-Roads-map.jpg" />
+      <img class="project-image-secondrow" src="/Projects/Images/5_Queensland_Department_of_Transport_and_Main_Roads/Queensland-Department-of-Transport-and-Main-Roads-map.jpg" alt="Image of map representing traveling in Queensland " />
     </div>
   </div>
 </div>
@@ -77,19 +77,19 @@ In addition, completion and participation rates have each improved significantly
 
 <div class="col-span-12 lg:col-span-3 icons-sidebar">
 <div>
-<img src="/Projects/Icons/5_Queensland_Department_of_Transport_and_Main_Roads/Responsive_digital_interfaces.svg" />
+<img src="/Projects/Icons/5_Queensland_Department_of_Transport_and_Main_Roads/Responsive_digital_interfaces.svg" alt="Desktop and mobile icon" />
 
 ##### Responsive digital interfaces
 </div>
 
 <div>
-<img src="/Projects/Icons/5_Queensland_Department_of_Transport_and_Main_Roads/Evolving_interface_based_on_data_insights.svg" />
+<img src="/Projects/Icons/5_Queensland_Department_of_Transport_and_Main_Roads/Evolving_interface_based_on_data_insights.svg" alt="Evolve icon" />
 
 ##### Evolving interface based on data insights
 </div>
 
 <div class="icons-sidebar-last">
-<img src="/Projects/Icons/5_Queensland_Department_of_Transport_and_Main_Roads/Secure_data_collection_and_management.svg" />
+<img src="/Projects/Icons/5_Queensland_Department_of_Transport_and_Main_Roads/Secure_data_collection_and_management.svg" alt="Key lock icon" />
 
 ##### Secure data collection and management
 </div>

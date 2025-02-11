@@ -6,7 +6,7 @@ category: health
 <div class="grid grid-cols-12 gap-0 lg:gap-8">
 
 <div class="col-span-12 project-images">
-    <img src="/Projects/Images/10_Outcome_Measures_Self_Service_System_(OMSSS)/Outcome-Measures-Self-Service-System-(OMSSS-female-patient-answering-survey-on-ipad.jpg" />
+    <img src="/Projects/Images/10_Outcome_Measures_Self_Service_System_(OMSSS)/Outcome-Measures-Self-Service-System-(OMSSS-female-patient-answering-survey-on-ipad.jpg" alt="Photo of woman in a meeting with another person, using a tablet" />
 </div>
 
 
@@ -42,19 +42,19 @@ It’s accessible and user-friendly, with an intuitive design that is streamline
 
 <div class="col-span-12 lg:col-span-3 icons-sidebar">
 <div>
-<img src="/Projects/Icons/10_Outcome_Measures_Self_Service_System_(OMSSS)/Collection_of_large_detailed_data_sets.svg" />
+<img src="/Projects/Icons/10_Outcome_Measures_Self_Service_System_(OMSSS)/Collection_of_large_detailed_data_sets.svg" alt="Data sets icon" />
 
 ##### Collection of large, detailed data sets
 </div>
 
 <div>
-<img src="/Projects/Icons/10_Outcome_Measures_Self_Service_System_(OMSSS)/Adaptable_for_different_health_group_needs.svg" />
+<img src="/Projects/Icons/10_Outcome_Measures_Self_Service_System_(OMSSS)/Adaptable_for_different_health_group_needs.svg" alt="Three ways icon" />
 
 ##### Adaptable for different health group needs
 </div>
 
 <div class="icons-sidebar-last">
-<img src="/Projects/Icons/10_Outcome_Measures_Self_Service_System_(OMSSS)/Integration_with_a_variety_of_systems.svg" />
+<img src="/Projects/Icons/10_Outcome_Measures_Self_Service_System_(OMSSS)/Integration_with_a_variety_of_systems.svg" alt="Cogs icon" />
 
 ##### Integration with a variety of systems
 </div>
