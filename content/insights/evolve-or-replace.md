@@ -4,7 +4,7 @@ description: "Discover why software evolution often provides a more stable, cost
 summary: "Rebuilding software from scratch is no easy task. Discover why software evolution often provides a more stable, cost-effective solution."
 author: Adam Clarke
 jobtitle: Director/CTO/Senior Consultant
-date: 10 January 2025
+date: 10 February 2025
 img: evolve-or-replace.jpg
 alt: Paper swan turning into paper plane
 imgheader: evolve-or-replace-header.jpg
