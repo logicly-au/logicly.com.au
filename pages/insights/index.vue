@@ -78,7 +78,7 @@
     </page-section>
 
 
-    <PageSectionEmail
+    <PageSectionEmail class="hidden"
     />
 
   </div>
