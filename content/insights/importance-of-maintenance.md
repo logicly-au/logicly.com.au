@@ -4,11 +4,11 @@ description: "Software maintenance is key to keeping systems secure and avoiding
 summary: "Software maintenance is key to keeping systems secure and avoiding technical debt. Learn how strategic regular upkeep can protect your investment."
 author: Adam Clarke
 jobtitle: Director/Senior Consultant/CTO
-date: 14 February 2025
-img: harnessing-ai-responsibly.jpg
-alt: AI identifying cars on a freeway
-imgheader: harnessing-ai-responsibly.jpg
-link: /insights/harnessing-ai-responsibly
+date: 18 February 2025
+img: software-maintenance-header.jpg
+alt: Laptop in process of updating
+imgheader: software-maintenance-header.jpg
+link: /insights/importance-of-maintenance
 categories:
   - Public Sector
   - Digital transformation
@@ -21,7 +21,7 @@ categories:
 
 #### Adam Clarke
 
-##### 08 November 2024
+##### 18 February 2025
 
 </div>
 <div class="grid grid-cols-4">
