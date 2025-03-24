@@ -211,7 +211,7 @@ export default {
         { tag: 'mapping workflows', label: 'mapping workflows' },
         { tag: 'program evaluation', label: 'program evaluation' },
         { tag: 'data strategy', label: 'data strategy' },
-        { tag: 'usabilty & accessibility', label: 'usabilty & accessibility' }
+        { tag: 'usability & accessibility', label: 'usability & accessibility' }
       ],
       activeTag: null,
       caseStudies: [
@@ -220,28 +220,28 @@ export default {
           title: 'Efficiently processing and securing highly sensitive data',
           link: '/projects/government#department-of-health',
           image: '/We-Can-2.svg',
-          tags: ['data linkage & transformation', 'data security', 'analytics & presentation', 'usabilty & accessibility'],
+          tags: ['data linkage & transformation', 'data security', 'analytics & presentation', 'usability & accessibility'],
         },
         {
           client: 'Queensland Department of Transport and Main Roads',
           title: 'Queensland Online Travel Survey',
           link: '/projects/government#queensland-department-of-transport-and-main-roads',
           image: '/We-Can-3.svg',
-          tags: ['data security', 'mapping workflows', 'program evaluation', 'usabilty & accessibility'],
+          tags: ['data security', 'mapping workflows', 'program evaluation', 'usability & accessibility'],
         },
         {
           client: 'AMHOCN',
           title: 'Demonstrating the positive effect mental health investments have on the wellbeing of the population',
           link: '/projects/government#the-australian-mental-health-outcome-and-classification-network',
           image: '/We-Can-1.svg',
-          tags: ['data linkage & transformations', 'research databases', 'data security', 'data strategy', 'R programming', 'analytics & presentation', 'usabilty & accessibility'],
+          tags: ['data linkage & transformations', 'research databases', 'data security', 'data strategy', 'R programming', 'analytics & presentation', 'usability & accessibility'],
         },
         {
           client: 'The Department of Health (DoH)’s Primary Mental Health Care Minimum Dataset',
           title: 'Clarity for understanding and improving national health',
           link: '/projects/government#the-department-of-health-primary-mental-health-care-minimum-dataset',
           image: '/We-Can-2.svg',
-          tags: ['data strategy', 'data security', 'end user support', 'program evaluation', 'analytics & presentation', 'usabilty & accessibility'],
+          tags: ['data strategy', 'data security', 'end user support', 'program evaluation', 'analytics & presentation', 'usability & accessibility'],
         },
         {
           client: 'The Department of Planning and Community’s Growth Areas Authority (GAA)',
