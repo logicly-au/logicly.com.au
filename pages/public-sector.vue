@@ -4,12 +4,12 @@
     <AspectRatio
       ar="13:4"
       width="100%"
-      :style="{ backgroundSize: 'cover', backgroundImage: `url(/Logicly_how-we-work-header.jpg)` }"
+      :style="{ backgroundSize: 'cover', backgroundImage: `url(/public-sector-header.jpg)` }"
     >
       <page-section overlay="overlay">
         <div class="w-full h-full eresearch-header grid content-center">
           <div class="mt-0">
-            <h1 class="text-sm xl:text-base font-medium text-center text-white">RESEARCHERS</h1>
+            <h1 class="text-sm xl:text-base font-medium text-center text-white">PUBLIC SECTOR</h1>
             <h2 class="text-base sm:text-lg md:text-xl xl:text-2xl font-semibold text-center leading-tight text-white">We free research teams to focus on their core investigative questions by taking on the technical challenges</h2>
           </div>
         </div>
