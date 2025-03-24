@@ -196,7 +196,7 @@
 export default {
   head() {
     return {
-      title: "Research · Logicly"
+      title: "Public sector · Logicly"
     };
   },
   data() {
@@ -221,47 +221,41 @@ export default {
       activeTag: null,
       caseStudies: [
         {
-          client: 'Orygen',
-          title: 'Consolidating disparate datasets to facilitate insight into suicide prevention and policy development',
-          link: '/projects#orygen-ed-self-harm',
+          client: 'Department of health',
+          title: 'Efficiently processing and securing highly sensitive data',
+          link: '/projects/government#department-of-health',
           image: '/We-Can-2.svg',
           tags: ['data linkage & transformation', 'research databases', 'data security', 'data strategy', 'R programming', 'analytics & presentation', 'research ethics'],
         },
         {
-          client: 'Movember',
-          title: 'Evaluating a world-first online training program designed to provide best practice support to therapists',
-          link: '/projects#movember',
+          client: 'Queensland Department of Transport and Main Roads',
+          title: 'Queensland Online Travel Survey',
+          link: '/projects/government#queensland-department-of-transport-and-main-roads',
           image: '/We-Can-3.svg',
           tags: ['learning management system', 'randomised control trials', 'research ethics', 'longitudinal studies', 'end user support', 'WebSurvey platform', 'third-party systems', 'participant support', 'mapping workflows', 'program evaluation'],
         },
         {
           client: 'AMHOCN',
           title: 'Demonstrating the positive effect mental health investments have on the wellbeing of the population',
-          link: '/projects#the-australian-mental-health-outcome-and-classification-network',
+          link: '/projects/government#the-australian-mental-health-outcome-and-classification-network',
           image: '/We-Can-1.svg',
           tags: ['data linkage & transformations', 'research databases', 'data security', 'data strategy', 'R programming', 'analytics & presentation'],
         },
         {
-          client: 'Link-me',
-          title: 'A large-scale trial of a new approach to stepped health care in general practice, particularly focused on delivering care to those with complex needs',
-          link: '/projects#the-university-of-melbourne-medical-schools-department-of-general-practice',
+          client: 'The Department of Health (DoH)’s Primary Mental Health Care Minimum Dataset',
+          title: 'Clarity for understanding and improving national health',
+          link: '/projects/government#the-department-of-health-primary-mental-health-care-minimum-dataset',
           image: '/We-Can-2.svg',
           tags: ['interaction with LMS', 'randomised control trials', 'data ethics', 'longitudinal studies', 'end user support', 'program evaluation', 'WebSurvey platform', 'data security', 'research ethics', 'participant support', 'mapping workflows'],
         },
         {
-          client: 'HuNI',
-          title: 'Advancing exploration of connected cultural databases through dynamic visual network graphs',
-          link: '/projects#deakin-universitys-humanities-network-infrastructure',
+          client: 'The Department of Planning and Community’s Growth Areas Authority (GAA)',
+          title: 'An agile response to multiplying complexity',
+          link: '/projects/government#the-department-of-planning-and-communitys-growth-areas-authority',
           image: '/We-Can-3.svg',
           tags: ['data linkage & transformation', 'research databases', 'data security', 'data strategy', 'R programming', 'analytics & presentation'],
         },
-        {
-          client: 'Buoy Project',
-          title: 'Supporting a research collaboration between universities and community organisations with a commitment to preventing male suicide',
-          link: '/projects#buoy-project',
-          image: '/We-Can-1.svg',
-          tags: ['randomised control trials', 'research ethics', 'longitudinal studies', 'participant support', 'partners for grant applications', 'third-party systems', 'WebSurvey platform', 'mapping workflows', 'program evaluation'],
-        },        
+              
       ],
     };
   },
