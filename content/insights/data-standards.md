@@ -5,9 +5,9 @@ summary: "Establishing robust ethical standards is essential for maintaining pub
 author: Adam Clarke
 jobtitle: Director/Senior Consultant/CTO
 date: 06 March 2025
-img: 
-alt: 
-imgheader: 
+img: data-standards.jpg
+alt: Image of desk with multiple hands and laptops
+imgheader: data-standards.jpg
 link: /insights/data-standards
 categories:
   - Public Sector
