@@ -1,22 +1,6 @@
 <template>
   <div>
 
-    <AspectRatio
-      ar="13:4"
-      width="100%"
-      :style="{ backgroundSize: 'cover', backgroundImage: `url(/public-sector-header.jpg)` }"
-    >
-      <page-section overlay="overlay">
-        <div class="w-full h-full eresearch-header grid content-center">
-          <div class="mt-0">
-            <h1 class="text-sm xl:text-base font-medium text-center text-white">PUBLIC SECTOR</h1>
-            <h2 class="text-base sm:text-lg md:text-xl xl:text-2xl font-semibold text-center leading-tight text-white">We free research teams to focus on their core investigative questions by taking on the technical challenges</h2>
-          </div>
-        </div>
-      </page-section>
-
-    </AspectRatio>
-
     <page-section>
       <div class="flex justify-center ">
         <div class="justify-center mb-6">
@@ -25,34 +9,7 @@
       </div>
       <div class="grid grid-cols-8 gap-x-4 text-logiclytextgrey">
         <div class="col-span-8 text-center">
-          <h2 class="text-lg pb-4">Our specialist team combines research, analysis and presentation expertise, dataflow and workflow design and data collection experience with leading-edge technology.</h2>
-        </div>
-        <div class="col-span-8 lg:col-span-4 col-start-1">
-          <ul class="text-base lg:text-base font-light list-disc pl-6 lg:pl-0 pr-8">
-            <li>Defining the data requirements for research</li>
-            <li>Designing user friendly workflows for longitudinal studies</li>
-            <li>Delivering randomised controlled trials and cluster randomised controlled trials</li>
-            <li>Easy to use collection systems reducing errors and repetitious work</li>
-            <li>Supporting and designing dataflows for intervention trials</li>
-            <li>Analysis using standard tools such as SPSS and R</li>
-          </ul>
-        </div>
-        <div class="col-span-8 lg:col-span-4 lg:col-start-5">
-          <ul class="text-base lg:text-base font-light list-disc pl-6 lg:pl-0">
-            <li>Undertaking data transformation and linkage for research</li>
-            <li>Integrating multiple data sets to create research databases</li>
-            <li>Supporting development of business cases for information projects</li>
-            <li>Developing standardised systems to improve the efficiency of managing research data and reduce manual errors</li>
-            <li>Static and dynamic data reporting and presentation</li>
-            <li>Integration with data visualisation tools</li>
-          </ul>
-        </div>
-      </div>
-      <div class="row justify-content-center text-center mt-6">
-        <div class="grid justify-center align-center">
-          <button class="block w-48 h-12 my-5 font-medium text-center text-white tt-lc bg-logiclyorange hover:bg-logiclyhover">
-            <NuxtLink :to="'#research-projects'">our research projects</NuxtLink>
-          </button>
+          <h2 class="text-2xl">It was great to meet you at the Aus Gov Data Summit</h2>
         </div>
       </div>
     </page-section>
@@ -60,85 +17,26 @@
     <page-section altrow>
       <div class="px-0 xl:px-0">
         <div class="text-center text-logiclytheme3">
-          <h2 class="text-lg font-semibold">“It's been a delight. It was all coded up and integrated [with the third-party learning management system] for us, rather than having to do it ourselves.”</h2>
+          <h2 class="text-lg font-semibold"><a href="mailto:info@logicly.com.au">Email us at info@logicly.com.au to book your free consultation.</a></h2>
         </div>
+      </div>
+      <div class="grid justify-center align-center">
+        <Button
+          buttontext="what we do"
+          buttonlink="/whatwedo"
+        />
       </div>
     </page-section>
 
     <page-section>
-      <div class="text-center text-logiclytextgrey px-0 xl:px-6">
-        <h2 class="text-2xl font-bold">Technical partners in research</h2>
-        <h3 class="pb-6 pt-1 text-xl font-semibold text-center text-logiclytextgrey">From conceptualisation to impact</h3>
-      </div>
-
-      <div class="grid grid-cols-12 xl:gap-x-6 text-logiclytextgrey">
-        <div class="col-span-12 pb-6 border-t-2 border-logiclygreytwo md:pb-8">
-        </div>
-
-        <div class="grid justify-center col-span-12 pb-6 md:pb-8 xl:pb-10">
-          <img src="~/assets/images/greyarrow.svg" alt="Grey arrow" class="h-4 p-0 md:h-5 xl:h-6"/>
-        </div>
-
-        <div class="col-span-1 sm:col-span-3 xl:col-span-4">         
-        </div>
-
-        <div class="col-span-2 sm:col-span-1 ml-2 border-l-2 border-logiclygreythree">
-          <div class="w-6 h-6 -ml-3 rounded-full bg-logiclytheme1">
-          </div>
-        </div>
-
-        <div class="col-span-9 sm:col-span-7 xl:col-span-5 pb-4 pl-0 pt-0 lg:-ml-4 lg:pb-8 xl:pl-4 xl:-ml-12 xl:pb-16">
-          <h3 class="pb-3 text-xl font-bold text-logiclytheme1 pt-0 -mt-2">1. <span class="text-logiclytextgrey font-semibold text-lg">Data concepts and metrics</span></h3>         
-        </div>
-
-        <div class="col-span-1 sm:col-span-3 xl:col-span-4">       
-        </div>
-
-        <div class="col-span-2 sm:col-span-1 ml-2 border-l-2 border-logiclygreythree">
-          <div class="w-6 h-6 -ml-3 rounded-full bg-logiclytheme2">
-          </div>
-        </div>
-
-        <div class="col-span-9 sm:col-span-7 xl:col-span-5 pb-4 pl-0 pt-0 lg:-ml-4 lg:pb-8 xl:pl-4 xl:-ml-12 xl:pb-16">
-          <h3 class="pb-3 text-xl font-bold text-logiclytheme2 pt-0 -mt-2">2. <span class="text-logiclytextgrey font-semibold text-lg">Data collection</span></h3>         
-        </div>      
-
-        <div class="col-span-1 sm:col-span-3 xl:col-span-4">
-          
-        </div>
-
-        <div class="col-span-2 sm:col-span-1 ml-2 border-l-2 border-logiclygreythree">
-          <div class="w-6 h-6 -ml-3 rounded-full bg-logiclytheme4">
-          </div>
-        </div>
-
-        <div class="col-span-9 sm:col-span-7 xl:col-span-5 pb-4 pl-0 pt-0 lg:-ml-4 lg:pb-8 xl:pl-4 xl:-ml-12 xl:pb-16">
-          <h3 class="pb-3 text-xl font-bold text-logiclytheme4 pt-0 -mt-2">3. <span class="text-logiclytextgrey font-semibold text-lg">Data analysis</span></h3>         
-        </div>    
-
-        <div class="col-span-1 sm:col-span-3 xl:col-span-4">        
-        </div>
-
-        <div class="col-span-2 sm:col-span-1 ml-2 border-logiclygreythree">
-          <div class="w-6 h-6 -ml-3 rounded-full bg-logiclytheme3">
-          </div>
-        </div>
-
-        <div class="col-span-9 sm:col-span-7 xl:col-span-5 pl-0 pt-0 lg:-ml-4 xl:pl-4 xl:-ml-12">
-          <h3 class="text-xl font-bold text-logiclytheme3 pt-0 -mt-2">4. <span class="text-logiclytextgrey font-semibold text-lg">Data presentation and interpretation</span></h3>         
-        </div>
+      <div class="flex justify-center ">
+      <h2 class="text-2xl font-bold">Developing thoughtfully designed digital systems</h2>
+      <h3 class="pb-6 pt-1 text-xl font-semibold text-center text-logiclytextgrey">We bring twenty five years of knowledge and experience in research, strategy, design and technology to solve your complex information challenges. Our digital systems are built with innovative but practical
+                thinking, flexibility and intuitive design, always with the user experience in mind.</h3>
       </div>
     </page-section>
 
-    <page-section altrow>
-      <div class="px-0 xl:px-0">
-        <div class="text-center text-logiclytheme3">
-          <h2 class="text-lg font-semibold">“In case you did not hear the trial crushed it due to the heavy lifting from you and the team.”</h2>
-        </div>
-      </div>
-    </page-section>
-
-    <page-section id="research-projects">
+    <page-section id="publicsector-projects">
       <div class="container mx-auto -mt-8">
         <div class="mb-6">
           <h2 class="text-3xl font-bold text-logiclytheme3">Case studies</h2>
