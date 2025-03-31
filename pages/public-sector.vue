@@ -12,14 +12,14 @@
     <page-section>
       <div class="px-0 xl:px-0">
         <div class="text-center text-logiclytextgrey">
-          <h2 class="pb-2 text-xl font-semibold"><a href="mailto:info@logicly.com.au">Email us at info@logicly.com.au to book your free consultation</a></h2>
+          <h2 class="pb-2 text-xl font-semibold"><a href="mailto:info@logicly.com.au?subject=Consultation%20request%20-%20Aus%20Gov%20Data%20Summit%20">Email us at info@logicly.com.au to book your free consultation</a></h2>
         </div>
       </div>
       <div class="grid justify-center align-center">
         <Button
           buttontext="email us"
-          :buttonlink="'mailto:info@logicly.com.au'"
-          v-html="'<a href=\'mailto:info@logicly.com.au\'>Email us</a>'"
+          :buttonlink="'mailto:info@logicly.com.au?subject=Consultation%20request%20-%20Aus%20Gov%20Data%20Summit%20'"
+          v-html="'<a href=\'mailto:info@logicly.com.au?subject=Consultation%20request%20-%20Aus%20Gov%20Data%20Summit%20\'>Email us</a>'"
         />
       </div>
     </page-section>
