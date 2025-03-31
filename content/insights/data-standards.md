@@ -7,7 +7,7 @@ jobtitle: Director/Senior Consultant/CTO
 date: 06 March 2025
 img: data-standards.jpg
 alt: Image of desk with multiple hands and laptops
-imgheader: data-standards.jpg
+imgheader: data-standards-header.jpg
 link: /insights/data-standards
 categories:
   - Public Sector
@@ -169,8 +169,10 @@ By focusing on clear definition, transparent practices, consistent documentation
 
 If you're facing complex data challenges and want to establish ethical data standards that build trust and deliver better outcomes, Logicly can help. Visit our stand at the upcoming Aus Gov Data Summit (1-3 April 2025), or get in touch for a free consultation on how we can help you navigate the ethical data landscape and implement effective data standards in your organisation.
 
-<NuxtLink to="/contactus">Get started</NuxtLink> with a free 30-minute consultation.
-<br></br>
+<p>
+  <nuxt-link to="/contactus" class="inline">Get started</nuxt-link> with a free 30-minute consultation.
+</p>
+<br>
 
 <strong>Adam Clarke is Chief Technology Officer at Logicly, a leader in solving complex data challenges for government and enterprise clients. He will be participating in the panel discussion "Data standards: Fostering trust, ethics, efficiency and interoperability across government and for citizens" at the 11th Annual Aus Gov Data Summit, 1-3 April 2025.</strong>
 
