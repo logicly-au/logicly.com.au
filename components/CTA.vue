@@ -2,7 +2,7 @@
   <!-- this contains an example of loading a class via boolean value, see :class -->
   <page-section>
     <div class="content-center object-contain object-center w-full text-logiclytextgrey">
-      <h1 class="text-2xl font-semibold leading-snug text-center text-logiclytextgrey">{{ text }}</h1>
+      <h2 class="text-2xl font-semibold leading-snug text-center text-logiclytextgrey">{{ text }}</h2>
       <div class="grid justify-center pt-4 align-center">
         <button class="block w-40 h-12 my-5 font-medium text-center text-white bg-logiclyorange hover:bg-logiclyhover">
           <NuxtLink :to="buttonLink">{{ buttonText }}</NuxtLink>
