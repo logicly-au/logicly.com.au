@@ -19,9 +19,10 @@ categories:
 <div class="col-span-12 lg:col-span-3 blog-sidebar">
 <div class="mt-2 blog-sidebar-author">
 
-#### Simon Palmer
+Simon Palmer
 
-##### 29 July 2022
+<time datetime="2022-07-29">29 July 2022</time>
+
 </div>
 <div class="grid grid-cols-4">
 <!---Remove 'hidden' from div below to show social media icons--->

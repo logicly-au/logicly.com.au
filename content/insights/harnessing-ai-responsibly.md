@@ -19,9 +19,10 @@ categories:
 <div class="col-span-12 lg:col-span-3 blog-sidebar">
 <div class="mt-2 blog-sidebar-author">
 
-#### Adam Clarke
+Adam Clarke
 
-##### 08 November 2024
+<time datetime="2024-11-08">08 November 2024</time>
+
 
 </div>
 <div class="grid grid-cols-4">

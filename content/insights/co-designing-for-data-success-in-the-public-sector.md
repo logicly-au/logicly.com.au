@@ -20,9 +20,10 @@ categories:
 <div class="col-span-12 lg:col-span-3 blog-sidebar">
 <div class="mt-2 blog-sidebar-author">
 
-#### Michelle Nicholson
+Michelle Nicholson
 
-##### 23 September 2022
+<time datetime="2022-09-23">23 September 2022</time>
+
 </div>
 <div class="grid grid-cols-4">
 <!--- Remove 'hidden' from div below to show social media icons --->

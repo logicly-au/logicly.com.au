@@ -18,9 +18,10 @@ categories:
 <div class="col-span-12 lg:col-span-3 blog-sidebar">
 <div class="mt-2 blog-sidebar-author ">
 
-#### Michelle Nicholson
+Michelle Nicholson
 
-##### 23 July 2021
+<time datetime="2024-07-02">02 July 2024</time>
+
 </div>
 <div class="grid grid-cols-4">
 <!---Remove 'hidden' from div below to show social media icons--->
