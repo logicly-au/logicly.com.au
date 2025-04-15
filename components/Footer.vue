@@ -6,9 +6,9 @@
           <div class="grid grid-cols-12 col-span-10 col-start-2 gap-4 px-6 py-16 text-sm text-left lg:py-24 md:px-0 mobileres">
             <div class="col-span-12 grid grid-cols-6 mb-2 lg:mb-5">
               <div class="col-span-6 mx-0 text-logiclytextgrey">
-                <h5 class="text-md font-medium">
+                <p class="text-md font-medium">
                   Logicly acknowledges the Traditional Owners of Country throughout Australia. <br>We pay our respects to Elders, past and present.
-                </h5>
+                </p>
               </div>
             </div>
             <div class="col-span-12 mb-6 lg:col-span-4 lg:mb-0">
