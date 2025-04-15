@@ -46,19 +46,19 @@ The DET continued to use the Logicly online survey system routinely to gather in
 <div>
 <img src="/Projects/Icons/11_Victorian_Department_of_Education_and_Training/Large_scale_statewide_data_collection.svg" alt="Victoria icon" />
 
-##### Large scale, statewide data collection
+Large scale, statewide data collection
 </div>
 
 <div>
 <img src="/Projects/Icons/11_Victorian_Department_of_Education_and_Training/High_level_of_security_to_ensure_personal_data.svg" alt="Key lock icon" />
 
-##### High level of security to ensure personal data are safely handled
+High level of security to ensure personal data are safely handled
 </div>
 
 <div class="icons-sidebar-last">
 <img src="/Projects/Icons/11_Victorian_Department_of_Education_and_Training/Full_service_support.svg" alt=">Tools icon" />
 
-##### Full service support throughout collection period
+Full service support throughout collection period
 </div>
 </div>
 

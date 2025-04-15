@@ -41,20 +41,20 @@ Its user-friendly design allows team leaders to gather valuable information effi
 <div class="col-span-12 lg:col-span-3 icons-sidebar">
 <div>
 <img src="/Projects/Icons/14_National_Australia_Bank/Rigorous_security_requirements.svg" alt="Key lock icon" />
-
-##### Rigorous security requirements
+        
+Rigorous security requirements
 </div>
 
 <div>
 <img src="/Projects/Icons/14_National_Australia_Bank/40000_potential_users.svg" alt="User icon" />
 
-##### 40,000+ potential users
+40,000+ potential users
 </div>
 
 <div class="icons-sidebar-last">
-<img src="/Projects/Icons/14_National_Australia_Bank/Gathers_complex_data_in_a_clear_and_consistent_downloadable_format.svg" alt="Complex data  icon" />
+<img src="/Projects/Icons/14_National_Australia_Bank/Gathers_complex_data_in_a_clear_and_consistent_downloadable_format.svg" alt="Complex data icon" />
 
-##### Gathers complex data in a clear and consistent downloadable format
+Gathers complex data in a clear and consistent downloadable format
 </div>
 </div>
 

@@ -79,19 +79,19 @@ In addition, completion and participation rates have each improved significantly
 <div>
 <img src="/Projects/Icons/5_Queensland_Department_of_Transport_and_Main_Roads/Responsive_digital_interfaces.svg" alt="Desktop and mobile icon" />
 
-##### Responsive digital interfaces
+Responsive digital interfaces
 </div>
 
 <div>
 <img src="/Projects/Icons/5_Queensland_Department_of_Transport_and_Main_Roads/Evolving_interface_based_on_data_insights.svg" alt="Evolve icon" />
 
-##### Evolving interface based on data insights
+Evolving interface based on data insights
 </div>
 
 <div class="icons-sidebar-last">
 <img src="/Projects/Icons/5_Queensland_Department_of_Transport_and_Main_Roads/Secure_data_collection_and_management.svg" alt="Key lock icon" />
 
-##### Secure data collection and management
+Secure data collection and management
 </div>
 </div>
 

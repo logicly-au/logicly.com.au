@@ -51,19 +51,19 @@ The resulting public consultation system was delivered within the project timeli
 <div>
 <img src="/Projects/Icons/9_Department_of_Planning_and_Community’s_Growth_Areas_Authority_(GAA)/Receive_and_manage_documents_from_the_public.svg" alt="Recieve and manage documents icon" />
 
-##### Recieve and manage documents from the public
+Recieve and manage documents from the public
 </div>
 
 <div>
 <img src="/Projects/Icons/9_Department_of_Planning_and_Community’s_Growth_Areas_Authority_(GAA)/Trach_files_and_users.svg" alt="GPS icon" />
 
-##### Track files and users
+Track files and users
 </div>
 
 <div class="icons-sidebar-last">
 <img src="/Projects/Icons/9_Department_of_Planning_and_Community’s_Growth_Areas_Authority_(GAA)/Tight_deadlines.svg" alt="Clock icon" />
 
-##### Tight deadlines with a phased approach
+Tight deadlines with a phased approach
 </div>
 </div>
 </div>

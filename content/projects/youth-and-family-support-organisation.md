@@ -46,19 +46,19 @@ Logicly’s adaptive design meant it was possible to respond to the new insights
 <div>
 <img src="/Projects/Icons/12_Youth_and_Family_Support_Organisation/Complex_data_sets.svg" alt="Complex data sets icon" />
 
-##### Complex data sets
+Complex data sets
 </div>
 
 <div>
 <img src="/Projects/Icons/12_Youth_and_Family_Support_Organisation/Flexible_adaptable_responsive_to_new_insights.svg" alt="Three ways icon" />
 
-##### Flexible, adaptable and responsive to new insights
+Flexible, adaptable and responsive to new insights
 </div>
 
 <div class="icons-sidebar-last">
 <img src="/Projects/Icons/12_Youth_and_Family_Support_Organisation/Secure_information_management.svg" alt="Key lock icon" />
 
-##### Secure information management
+Secure information management
 </div>
 </div>
 

@@ -55,19 +55,19 @@ This trial laid the foundation for ongoing advancements in offering both clinica
 <div>
 <img src="/Projects/Icons/3_UoM_Medical_School’s_Department_of_General_Practice/13000_respondents.svg" alt="Person icon" />
 
-##### 13,000 respondents
+13,000 respondents
 </div>
 
 <div>
 <img src="/Projects/Icons/3_UoM_Medical_School’s_Department_of_General_Practice/Implementation_across_multiple_states.svg" alt="Australia states icon" />
 
-##### Implementation across multiple states
+Implementation across multiple states
 </div>
 
 <div class="icons-sidebar-last">
 <img src="/Projects/Icons/3_UoM_Medical_School’s_Department_of_General_Practice/Ongoing_client_support_and_hosting.svg" alt="Tools icon" />
 
-##### Ongoing client support and hosting
+Ongoing client support and hosting
 </div>
 </div>
 

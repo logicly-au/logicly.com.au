@@ -75,19 +75,19 @@ The application also features helpful tools like sparklines to visualise data tr
 <div>
 <img src="/Projects/Icons/10_Outcome_Measures_Self_Service_System_(OMSSS)/Collection_of_large_detailed_data_sets.svg" alt="Disparate datasets icon" />
 
-##### Consolidation of disparate datasets
+Consolidation of disparate datasets
 </div>
 
 <div>
 <img src="/Projects/Icons/2_UoM_Centre_for_mental_health/Secure_management_of_deidentified_data.svg" alt="Key lock icon" />
 
-##### Secure management of de-identified data
+Secure management of de-identified data
 </div>
 
 <div class="icons-sidebar-last">
 <img src="/Projects/Icons/3_UoM_Medical_School’s_Department_of_General_Practice/Ongoing_client_support_and_hosting.svg" alt="Tools icon" />
 
-##### Ongoing client support and hosting
+Ongoing client support and hosting
 </div>
 </div>
 

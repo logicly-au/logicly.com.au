@@ -44,19 +44,19 @@ It’s accessible and user-friendly, with an intuitive design that is streamline
 <div>
 <img src="/Projects/Icons/10_Outcome_Measures_Self_Service_System_(OMSSS)/Collection_of_large_detailed_data_sets.svg" alt="Data sets icon" />
 
-##### Collection of large, detailed data sets
+Collection of large, detailed data sets
 </div>
 
 <div>
 <img src="/Projects/Icons/10_Outcome_Measures_Self_Service_System_(OMSSS)/Adaptable_for_different_health_group_needs.svg" alt="Three ways icon" />
 
-##### Adaptable for different health group needs
+Adaptable for different health group needs
 </div>
 
 <div class="icons-sidebar-last">
 <img src="/Projects/Icons/10_Outcome_Measures_Self_Service_System_(OMSSS)/Integration_with_a_variety_of_systems.svg" alt="Cogs icon" />
 
-##### Integration with a variety of systems
+Integration with a variety of systems
 </div>
 </div>
 
