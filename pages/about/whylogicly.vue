@@ -10,8 +10,8 @@
 
       <div class="px-0 xl:px-6">
         <div class="text-center text-logiclytextgrey">
-          <h1 class="pb-2 text-2xl font-semibold leading-snug text-center">Thoughtfully designed digital systems that solve your complex information challenges</h1>
-          <h2 class="text-lg font-light">It’s about being smart, flexible, innovative, collaborative and methodical. <br>Logicly is more than a new business name, it’s a mindset.</h2>
+          <h2 class="pb-2 text-2xl font-semibold leading-snug text-center">Thoughtfully designed digital systems that solve your complex information challenges</h2>
+          <p class="text-lg font-light">It’s about being smart, flexible, innovative, collaborative and methodical. <br>Logicly is more than a new business name, it’s a mindset.</p>
         </div>
       </div>
     </page-section>
@@ -24,16 +24,16 @@
         </div>
       </div>
       <div class="px-0 text-center text-logiclytextgrey xl:px-6">
-        <h1 class="pt-4 pb-2 text-2xl font-semibold leading-snug text-center">And what does this mean for you?</h1>
-        <h2 class="text-lg font-light">It means you’ll be a part of creating a solution as unique as your business situation. It means you’ll be able to make great decisions based on the best data available. It means your systems will be set up to adapt as your needs change. Plus, it means an intuitive user experience that encourages engagement.</h2>
+        <h2 class="pt-4 pb-2 text-2xl font-semibold leading-snug text-center">And what does this mean for you?</h2>
+        <p class="text-lg font-light">It means you’ll be a part of creating a solution as unique as your business situation. It means you’ll be able to make great decisions based on the best data available. It means your systems will be set up to adapt as your needs change. Plus, it means an intuitive user experience that encourages engagement.</p>
       </div>
     </page-section>
 
     <page-section altrow>
       <div class="text-logiclytextgrey">
-        <h1 class="text-2xl font-medium text-center">
+        <h2 class="text-2xl font-medium text-center">
           So if you have a project in mind, let’s work together to fix that complex information challenge.
-        </h1>
+        </h2>
         <div class="flex justify-center mt-4">
           <Button
             buttontext="Get in touch"
@@ -48,7 +48,7 @@
       <div class="grid grid-cols-12 px-0 pb-0 mb-0 xl:gap-x-6 text-logiclytextgrey lg:px-20 xl:px-0 xl:-mx-20 xl:-mb-20">
 
         <div class="col-span-12 text-center">
-          <h1 class="pb-4 text-2xl font-semibold text-center xl:pb-6 text-logiclytextgrey">Our story</h1>
+          <h2 class="pb-4 text-2xl font-semibold text-center xl:pb-6 text-logiclytextgrey">Our story</h2>
         </div>
 
         <div class="col-span-12 pb-4 border-t-2 border-logiclygreytwo xl:pb-8">
@@ -102,50 +102,50 @@
 
 
     <page-section altrow>
-      <h1 class="pb-6 text-2xl font-semibold text-center text-logiclytextgrey">Hello, we’re Logicly.</h1>
+      <h2 class="pb-6 text-2xl font-semibold text-center text-logiclytextgrey">Hello, we’re Logicly.</h2>
       <div class="grid grid-cols-12 text-logiclytextgrey">
         <div class="col-span-12 col-start-1 mx-0 lg:col-span-8 lg:col-start-3 lg:-mx-8 xl:-mx-0">
           <div class="col-span-12">
             <p class="mb-12 font-light text-center">25 years since our inception, we’ve grown to a team of 24 talented experts.</p>
           </div>
-          <div class="grid grid-cols-3 grid-rows-3 gap-4">
-          <div class="items-center col-span-1">
-            <img src="/Everyone_brings_something_different_to_the_team/Researchers.svg" alt="" class="h-8 m-auto sm:h-12" />
-            <h3 class="pt-3 text-xs font-medium text-center sm:text-sm">Researchers</h3>
-          </div>
-          <div class="items-center col-span-1">
-            <img src="/Everyone_brings_something_different_to_the_team/Psychologists.svg" alt="" class="h-8 m-auto sm:h-12" />
-            <h3 class="pt-3 text-xs font-medium text-center sm:text-sm">Psychologists</h3>
-          </div>
-          <div class="items-center col-span-1">
-            <img src="/Everyone_brings_something_different_to_the_team/Mathematicians.svg" alt="" class="h-8 m-auto sm:h-12" />
-            <h3 class="pt-3 text-xs font-medium text-center sm:text-sm">Mathematicians</h3>
-          </div>
-          <div class="items-center col-span-1">
-            <img src="/Everyone_brings_something_different_to_the_team/Project_managers.svg" alt="" class="h-8 m-auto sm:h-12" />
-            <h3 class="pt-3 text-xs font-medium text-center sm:text-sm">Project Managers</h3>
-          </div>
-          <div class="items-center col-span-1">
-            <img src="/Everyone_brings_something_different_to_the_team/Support.svg" alt="" class="h-8 m-auto sm:h-12" />
-            <h3 class="pt-3 text-xs font-medium text-center sm:text-sm">Support</h3>
-          </div>
-          <div class="items-center col-span-1">
-            <img src="/Everyone_brings_something_different_to_the_team/Security_experts.svg" alt="" class="h-8 m-auto sm:h-12" />
-            <h3 class="pt-3 text-xs font-medium text-center sm:text-sm">Security experts</h3>
-          </div>
-          <div class="items-center col-span-1">
-            <img src="/Everyone_brings_something_different_to_the_team/User_experience_design_(UX).svg" alt="" class="h-8 m-auto sm:h-12" />
-            <h3 class="pt-3 text-xs font-medium text-center sm:text-sm">User experience</br> design (UX)</h3>
-          </div>
-          <div class="items-center col-span-1">
-            <img src="/Everyone_brings_something_different_to_the_team/Interface_design_(UI).svg" alt="" class="h-8 m-auto sm:h-12" />
-            <h3 class="pt-3 text-xs font-medium text-center sm:text-sm">Interface design (UI)</h3>
-          </div>
-          <div class="items-center col-span-1">
-            <img src="/Everyone_brings_something_different_to_the_team/Developers.svg" alt="" class="h-8 m-auto sm:h-12" />
-            <h3 class="pt-3 text-xs font-medium text-center sm:text-sm">Developers</h3>
-          </div>
-        </div>
+          <ul class="grid grid-cols-3 grid-rows-3 gap-4">
+            <li class="items-center col-span-1">
+              <img src="/Everyone_brings_something_different_to_the_team/Researchers.svg" alt="" class="h-8 m-auto sm:h-12" />
+              <h3 class="pt-3 text-xs font-medium text-center sm:text-sm">Researchers</h3>
+            </li>
+            <li class="items-center col-span-1">
+              <img src="/Everyone_brings_something_different_to_the_team/Psychologists.svg" alt="" class="h-8 m-auto sm:h-12" />
+              <h3 class="pt-3 text-xs font-medium text-center sm:text-sm">Psychologists</h3>
+            </li>
+            <li class="items-center col-span-1">
+              <img src="/Everyone_brings_something_different_to_the_team/Mathematicians.svg" alt="" class="h-8 m-auto sm:h-12" />
+              <h3 class="pt-3 text-xs font-medium text-center sm:text-sm">Mathematicians</h3>
+            </li>
+            <li class="items-center col-span-1">
+              <img src="/Everyone_brings_something_different_to_the_team/Project_managers.svg" alt="" class="h-8 m-auto sm:h-12" />
+              <h3 class="pt-3 text-xs font-medium text-center sm:text-sm">Project Managers</h3>
+            </li>
+            <li class="items-center col-span-1">
+              <img src="/Everyone_brings_something_different_to_the_team/Support.svg" alt="" class="h-8 m-auto sm:h-12" />
+              <h3 class="pt-3 text-xs font-medium text-center sm:text-sm">Support</h3>
+            </li>
+            <li class="items-center col-span-1">
+              <img src="/Everyone_brings_something_different_to_the_team/Security_experts.svg" alt="" class="h-8 m-auto sm:h-12" />
+              <h3 class="pt-3 text-xs font-medium text-center sm:text-sm">Security experts</h3>
+            </li>
+            <li class="items-center col-span-1">
+              <img src="/Everyone_brings_something_different_to_the_team/User_experience_design_(UX).svg" alt="" class="h-8 m-auto sm:h-12" />
+              <h3 class="pt-3 text-xs font-medium text-center sm:text-sm">User experience</br> design (UX)</h3>
+            </li>
+            <li class="items-center col-span-1">
+              <img src="/Everyone_brings_something_different_to_the_team/Interface_design_(UI).svg" alt="" class="h-8 m-auto sm:h-12" />
+              <h3 class="pt-3 text-xs font-medium text-center sm:text-sm">Interface design (UI)</h3>
+            </li>
+            <li class="items-center col-span-1">
+              <img src="/Everyone_brings_something_different_to_the_team/Developers.svg" alt="" class="h-8 m-auto sm:h-12" />
+              <h3 class="pt-3 text-xs font-medium text-center sm:text-sm">Developers</h3>
+            </li>
+          </ul>
 
         </div>
       </div>
@@ -156,9 +156,9 @@
       <div class="grid items-center grid-cols-3 gap-x-6 text-logiclytextgrey lg:mx-12">
 
         <div class="col-span-3">
-          <h3 class="mb-8 text-xl font-medium text-center">
+          <h2 class="mb-8 text-xl font-medium text-center">
             We can:
-          </h3>
+          </h2>
         </div>
 
         <div class="grid col-span-3 grid-rows-2 pb-8 sm:col-span-1 sm:col-start-1 justify-items-center sm:pb-0">
@@ -214,13 +214,13 @@
       </div>
 
       <div class="mt-4 lg:px-4">
-        <h2 class="text-lg font-light text-center text-logiclytextgrey">Logicly is our new chapter. We bring twenty-five years of knowledge and experience in research, strategy, design and technology to solve complex information challenges. We combine innovative but practical thinking, flexibility and intuitive design, to build digital systems that meet your needs. We do this by approaching each aspect of our work logically.</h2>
+        <p class="text-lg font-light text-center text-logiclytextgrey">Logicly is our new chapter. We bring twenty-five years of knowledge and experience in research, strategy, design and technology to solve complex information challenges. We combine innovative but practical thinking, flexibility and intuitive design, to build digital systems that meet your needs. We do this by approaching each aspect of our work logically.</p>
       </div>
     </page-section>
 
 
     <page-section>
-      <h1 class="pb-6 text-2xl font-semibold text-center lg:pb-10 text-logiclytextgrey">Want to know more?</h1>
+      <h2 class="pb-6 text-2xl font-semibold text-center lg:pb-10 text-logiclytextgrey">Want to know more?</h2>
       <div class="grid grid-cols-4 justify-items-center lg:-mx-10 xl:mx-0">
         <button class="w-40 h-12 col-span-4 my-5 font-medium text-center text-white lowercase lg:col-span-1 bg-logiclytheme1 hover:bg-logiclyhover">
           <NuxtLink to="/whowehelp">What we do</NuxtLink>

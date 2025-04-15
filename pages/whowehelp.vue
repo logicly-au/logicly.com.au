@@ -49,14 +49,14 @@
               <div class="grid grid-cols-5 lg:grid-cols-11">
                 <div class="col-span-1"><img src="/Researchers.svg" alt="Checklist icon" class="w-8 lg:w-10" /></div>
                 <div class="flex flex-col justify-center col-span-4 lg:col-span-10 pl-6 md:pl-8 lg:pl-12 lg:ml-2">
-                  <h2 class="font-semibold text-lg sm:text-xl text-left">Researchers</h2>
+                  <h3 class="font-semibold text-lg sm:text-xl text-left">Researchers</h3>
                 </div>
               </div>
             </vsa-heading>
             <vsa-content>
               <div class="grid grid-cols-11">
                 <div class="col-span-11 lg:col-span-10 col-start-1 lg:col-start-3 lg:-ml-4 xl:-ml-12 pl-0 lg:pl-2 xl:pl-3">
-                  <h3 class="text-sm sm:text-base font-bold pb-1">Our Senior Consultants have a long history of working with research, and we understand how to help researchers:</h3>
+                  <h4 class="text-sm sm:text-base font-bold pb-1">Our Senior Consultants have a long history of working with research, and we understand how to help researchers:</h4>
                   <ul class="text-sm sm:text-base list-disc ml-5 pb-4 lg:pb-8">
                     <li>Implement ethical and robust data collections that keep the end user in mind</li>
                     <li>Manage information challenges for research or evaluation projects</li>
@@ -75,7 +75,7 @@
               <div class="grid grid-cols-5 lg:grid-cols-11">
                 <div class="col-span-1 accordion-img"><img src="/Government.svg" alt="Government icon" class="lg:w-12" /></div>
                 <div class="flex flex-col justify-center col-span-4 lg:col-span-10 pl-6 md:pl-8 lg:pl-12">
-                  <h2 class="font-semibold text-lg sm:text-xl text-left">Government</h2>
+                  <h3 class="font-semibold text-lg sm:text-xl text-left">Government</h3>
                 </div>
               </div>
             </vsa-heading>
@@ -83,7 +83,7 @@
             <vsa-content>
               <div class="grid grid-cols-11">
                 <div class="col-span-11 lg:col-span-10 col-start-1 lg:col-start-3 lg:-ml-4 xl:-ml-12 pl-0 lg:pl-2 xl:pl-3">
-                  <h3 class="text-sm sm:text-base font-bold pb-1">Over 20 years we’ve partnered with our government clients to understand their stakeholders, help design empathic technical solutions and manage the implementation of complex projects. We will work with you to:</h3>
+                  <h4 class="text-sm sm:text-base font-bold pb-1">Over 20 years we’ve partnered with our government clients to understand their stakeholders, help design empathic technical solutions and manage the implementation of complex projects. We will work with you to:</h4>
                   <ul class="text-sm sm:text-base list-disc ml-5 pb-4 lg:pb-8">
                     <li>Co-design technical solutions that make adoption of the system as low friction as possible for clients and end users</li>
                     <li>Build user-friendly, intuitive and automated solutions that reduce the workload for government and public users</li>
@@ -105,7 +105,7 @@
               <div class="grid grid-cols-5 lg:grid-cols-11">
                 <div class="col-span-1"><img src="/Health.svg" alt="Health icon" class="w-10 lg:w-12" /></div>
                 <div class="flex flex-col justify-center col-span-4 lg:col-span-10 pl-4 sm:pl-5 md:pl-8 lg:pl-12">
-                  <h2 class="font-semibold text-lg sm:text-xl text-left">Health</h2>
+                  <h3 class="font-semibold text-lg sm:text-xl text-left">Health</h3>
                 </div>
               </div>
             </vsa-heading>
@@ -113,7 +113,7 @@
             <vsa-content>
               <div class="grid grid-cols-11">
                 <div class="col-span-11 lg:col-span-10 col-start-1 lg:col-start-3 lg:-ml-4 xl:-ml-12 pl-0 lg:pl-2 xl:pl-3">
-                  <h3 class="text-sm sm:text-base font-bold pb-1">Logicly understands the requirements of data management in health settings. Throughout our history we’ve worked with clients to:</h3>
+                  <h4 class="text-sm sm:text-base font-bold pb-1">Logicly understands the requirements of data management in health settings. Throughout our history we’ve worked with clients to:</h4>
                   <ul class="text-sm sm:text-base list-disc ml-5 pb-4 lg:pb-8">
                     <li>Design effective solutions using our understanding of mental health, human services and the health system</li>
                     <li>Use empathic design logic to cater for multiple stakeholders and end users (eg. 31 entities in the Primary Health Network)</li>
@@ -135,14 +135,14 @@
                   <img src="/Education.svg" alt="Graduation hat icon" class="w-10 lg:w-12" />
                 </div>
                 <div class="flex flex-col justify-center col-span-4 lg:col-span-10 pl-4 sm:pl-5 md:pl-8 lg:pl-12">
-                  <h2 class="font-semibold text-lg sm:text-xl text-left">Education</h2>
+                  <h3 class="font-semibold text-lg sm:text-xl text-left">Education</h3>
                 </div>
               </div>
             </vsa-heading>
             <vsa-content>
               <div class="grid grid-cols-11">
                 <div class="col-span-11 lg:col-span-10 col-start-1 lg:col-start-3 lg:-ml-4 xl:-ml-12 pl-0 lg:pl-2 xl:pl-3">
-                  <h3 class="text-sm sm:text-base font-bold pb-1">With experience running multiple large census projects across schools and kindergartens to small, time-sensitive data collections regarding attendance and expenditure, Logicly has worked with the education sector to:</h3>
+                  <h4 class="text-sm sm:text-base font-bold pb-1">With experience running multiple large census projects across schools and kindergartens to small, time-sensitive data collections regarding attendance and expenditure, Logicly has worked with the education sector to:</h4>
                   <ul class="text-sm sm:text-base list-disc ml-5 pb-4 lg:pb-8">
                     <li>Build secure data collection tools to record enrolment data to assist with funding planning</li>
                     <li>Build simple, user-friendly digital applications to help capture complex information complex projects</li>
@@ -161,14 +161,14 @@
                   <img src="Non-Government.svg" alt="Hand and heart icon" class="w-10 lg:w-12" />
                 </div>
                 <div class="flex flex-col justify-center col-span-4 lg:col-span-10 pl-4 sm:pl-5 md:pl-8 lg:pl-12">
-                  <h2 class="text-left text-lg sm:text-xl font-semibold -mr-10">Non-government</h2>
+                  <h3 class="text-left text-lg sm:text-xl font-semibold -mr-10">Non-government</h3>
                 </div>
               </div>
             </vsa-heading>
             <vsa-content>
               <div class="grid grid-cols-11">
                 <div class="col-span-11 lg:col-span-10 col-start-1 lg:col-start-3 lg:-ml-4 xl:-ml-12 pl-0 lg:pl-2 xl:pl-3">
-                  <h3 class="text-sm sm:text-base font-bold pb-1">Logicly’s hands on approach means we can work with the subject matter experts to help them:</h3>
+                  <h4 class="text-sm sm:text-base font-bold pb-1">Logicly’s hands on approach means we can work with the subject matter experts to help them:</h4>
                   <ul class="text-sm sm:text-base list-disc ml-5 pb-4 lg:pb-8">
                     <li>Collate research information to guide pilot programs</li>
                     <li>Use sophisticated analysis to assess the design and implementation of pilot programs</li>
@@ -187,14 +187,14 @@
                   <img src="/Corporate.svg" alt="Office icon" class="w-10 lg:w-12" />
                 </div>
                 <div class="flex flex-col justify-center col-span-4 lg:col-span-10 pl-4 sm:pl-5 md:pl-8 lg:pl-12">
-                  <h2 class="font-semibold text-lg sm:text-xl text-left">Corporate</h2>
+                  <h3 class="font-semibold text-lg sm:text-xl text-left">Corporate</h3>
                 </div>
               </div>
             </vsa-heading>
             <vsa-content>
               <div class="grid grid-cols-11">
                 <div class="col-span-11 lg:col-span-10 col-start-1 lg:col-start-3 lg:-ml-4 xl:-ml-12 pl-0 lg:pl-2 xl:pl-3">
-                  <h3 class="text-sm sm:text-base font-bold pb-1">Over the past 20 years we’ve worked with a number of corporate clients to:</h3>
+                  <h4 class="text-sm sm:text-base font-bold pb-1">Over the past 20 years we’ve worked with a number of corporate clients to:</h4>
                   <ul class="text-sm sm:text-base list-disc ml-5 pb-4 lg:pb-8">
                     <li>Develop a business case for senior decision makers</li>
                     <li>Co-design customised interactive dashboards or systems to make more informed decisions</li>

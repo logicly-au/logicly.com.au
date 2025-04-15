@@ -19,9 +19,9 @@
     <page-section>
       <div class="grid grid-cols-8 gap-x-4 text-logiclytextgrey px-0 lg:px-4 xl:px-6">
         <div class="col-span-8 text-center">
-          <h1 class="text-2xl font-semibold pb-4">A continuous, systematic approach to risk analysis and security </h1>
+          <h2 class="text-2xl font-semibold pb-4">A continuous, systematic approach to risk analysis and security </h2>
           <p class="mb-8 text-lg font-light">To ensure we’re at the cutting edge of security best-practices, and align with their needs, we keep a rigorous routine of continuous review and investment in our methods. Our data solutions are created to respond to each client’s unique information challenge, including their risk requirements.</p>
-          <h1 class="text-xl font-semibold mb-6">Security measures we build into our projects include:</h1>
+          <h3 class="text-xl font-semibold mb-6">Security measures we build into our projects include:</h3>
         </div>
         <div class="col-span-8 lg:col-span-4 col-start-1">
           <ul class="text-base lg:text-base font-light list-disc pl-6 lg:pl-0 pr-8">
@@ -51,7 +51,7 @@
     <page-section>
       <div class="grid grid-cols-3 gap-x-2 text-logiclytextgrey px-0 xl:px-10">
         <div class="col-span-3 pb-6 lg:pb-4">
-          <h1 class="text-2xl font-semibold text-center pb-4 lg:pb-8 -mx-4 sm:-mx-0">Protecting critical information for established organisations</h1>
+          <h2 class="text-2xl font-semibold text-center pb-4 lg:pb-8 -mx-4 sm:-mx-0">Protecting critical information for established organisations</h2>
           <p class="text-lg text-center font-light pb-2">Our comprehensive approach to security has enabled us to foster successful, long-term partnerships with leading organisations such as the Department of Health, National Australia Bank and the University of Melbourne over the course of many years, and many projects. </p>
         </div>
         <div class="col-span-3 lg:col-span-1 text-center flex pb-6 lg:pb-0">

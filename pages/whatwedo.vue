@@ -21,7 +21,7 @@
     <page-section class="bg-logiclygreytwo">
       <div class="grid grid-cols-8 gap-x-10 text-logiclytextgrey">
         <div class="col-span-8 mb-8 text-center lg:col-span-6 lg:col-start-2 xl:col-span-8">
-          <h1 class="text-2xl font-semibold text-center text-logiclytextgrey">Information and digital needs come in all different forms</h1>
+          <h2 class="text-2xl font-semibold text-center text-logiclytextgrey">Information and digital needs come in all different forms</h2>
         </div>
         <div class="col-span-8 col-start-1 lg:col-span-4 text-logiclytextgrey">
           <ul class="pl-4 text-base leading-relaxed list-disc lg:text-sm">
@@ -30,11 +30,11 @@
             <li>Helping clients plan and implement data projects that are sympathetic to stakeholders’ needs</li>
             <li>Developing a business case for information projects</li>
             <li>Defining the data requirements for research</li>
-            <li>Collecting useful and accurate data</li>
           </ul>
         </div>
         <div class="col-span-8 lg:col-span-4 lg:col-start-5">
           <ul class="pl-4 text-base leading-relaxed list-disc lg:text-sm">
+            <li>Collecting useful and accurate data</li>
             <li>Integrating multiple data sets</li>
             <li>Transitioning from a manual to an online system</li>
             <li>Systemising information management</li>
@@ -55,13 +55,13 @@
         <div class="col-span-12 border-t-2 border-logiclytheme1">
         </div>
         <div class="col-span-12 -mb-3 lg:col-span-3">
-          <h2 class="text-xl font-bold">Research</h2>
+          <h3 class="text-xl font-bold">Research</h3>
         </div>
         <div class="col-span-12 -mb-2 font-light lg:col-span-5 lg:pr-6">
           <p>We work closely with our clients to understand the nuances and complexities they face, so that we can make sure we’re providing the right solution for their needs.</p>
         </div>
         <div class="col-span-12 lg:col-span-4">
-          <h4 class="font-bold">This may include:</h4>
+          <h4 class="h4 font-bold">This may include:</h4>
           <ul class="ml-4 text-sm font-light list-disc">
             <li>Workshop/initial consultation</li>
             <li>Project Scope</li>
@@ -73,13 +73,13 @@
         <div class="col-span-12 border-t-2 border-logiclytheme1">
         </div>
         <div class="col-span-12 -mb-3 lg:col-span-3">
-          <h2 class="text-xl font-bold">Design</h2>
+          <h3 class="text-xl font-bold">Design</h3>
         </div>
         <div class="col-span-12 -mb-2 font-light lg:col-span-5 lg:pr-6">
           <p>After thoughtfully considering our clients’ information challenges, we design user-friendly, considered digital solutions that are tailored to support their needs.</p>
         </div>
         <div class="col-span-12 lg:col-span-4">
-          <h4 class="font-bold">We consider:</h4>
+          <h4 class="h4 font-bold">We consider:</h4>
           <ul class="ml-4 text-sm font-light list-disc">
             <li>Dataflow</li>
             <li>System architecture</li>
@@ -93,13 +93,13 @@
         <div class="col-span-12 border-t-2 border-logiclytheme2">
         </div>
         <div class="col-span-12 -mb-3 lg:col-span-3">
-          <h2 class="text-xl font-bold">Build</h2>
+          <h3 class="text-xl font-bold">Build</h3>
         </div>
         <div class="col-span-12 -mb-2 font-light lg:col-span-5 lg:pr-6">
           <p>We build robust digital solutions that provide our clients with an outcome that works for them. We develop systems with a focus on data integrity, secure management of all digital information and a proven track record delivering complex projects on time.</p>
         </div>
         <div class="col-span-12 lg:col-span-4">
-          <h4 class="font-bold">This may involve:</h4>
+          <h4 class="h4 font-bold">This may involve:</h4>
           <ul class="ml-4 text-sm font-light list-disc">
             <li>Applications</li>
             <li>API Development</li>
@@ -109,7 +109,7 @@
             <li>Data migration & transformation</li>
             <li>QA & testing</li>
           </ul>
-          <h4 class="mt-4 font-bold">Our build expertise extends to:</h4>
+          <h4 class="h4 mt-4 font-bold">Our build expertise extends to:</h4>
           <ul class="ml-4 text-sm font-light list-disc">
             <li>Data security & privacy</li>
             <li>Data collection & management principles</li>
@@ -121,13 +121,13 @@
         <div class="col-span-12 border-t-2 border-logiclytheme3">
         </div>
         <div class="col-span-12 -mb-3 lg:col-span-3">
-          <h2 class="text-xl font-bold">Maintain & Improve</h2>
+          <h3 class="text-xl font-bold">Maintain & Improve</h3>
         </div>
         <div class="col-span-12 -mb-2 font-light lg:col-span-5 lg:pr-6">
           <p>A great digital solution should be easy to use for the people who need it. We’ll be working alongside you to help smooth any bumps along the way.</p>
         </div>
         <div class="col-span-12 lg:col-span-4">
-          <h4 class="font-bold">We provide:</h4>
+          <h4 class="h4 font-bold">We provide:</h4>
           <ul class="ml-4 text-sm font-light list-disc">
             <li>Ongoing security expertise</li>
             <li>Hosting, storage and maintenance</li>

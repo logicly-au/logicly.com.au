@@ -25,7 +25,7 @@
      <div class="grid grid-cols-12 px-0 pb-0 mb-0 xl:gap-x-6 text-logiclytextgrey lg:px-20 xl:px-0 xl:-mx-20 xl:-mb-20">
 
        <div class="col-span-12 text-center">
-         <h1 class="pb-6 text-2xl font-semibold text-center text-logiclytextgrey">Our collaborative journey</h1>
+         <h2 class="h1 pb-6 text-2xl font-semibold text-center text-logiclytextgrey">Our collaborative journey</h2>
        </div>
 
        <div class="col-span-12 pb-6 border-t-2 border-logiclygreytwo md:pb-8">
