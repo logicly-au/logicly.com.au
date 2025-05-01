@@ -10,7 +10,7 @@
       <nav id="menu">
         <li><NuxtLink to="/" exact v-on:click.native="display_menu(true);close_all_menu()" class="hover:underline">home</NuxtLink></li>
         <li class="drop">
-          <a v-on:click="display_drop_menu()" class="cursor-pointer" :class="{ 'nuxt-link-exact-active': aboutActive }">
+          <a v-on:click="display_drop_menu($event)" class="cursor-pointer" :class="{ 'nuxt-link-exact-active': aboutActive }">
             about
           </a>
           <i class="cursor-pointer chevron-down" @click="display_drop_menu()"></i>
@@ -23,7 +23,16 @@
             <NuxtLink to="/about/whylogicly" class="hover:underline" v-on:click.native="display_menu(true);close_all_menu()">why logicly</NuxtLink>
           </ul>
         </li>
-        <li><NuxtLink to="/whowehelp" v-on:click.native="display_menu(true);close_all_menu()" class="hover:underline">who we help</NuxtLink></li>
+        <li class="drop">
+          <a v-on:click="display_drop_menu($event)" class="cursor-pointer" :class="{ 'nuxt-link-exact-active': whowehelpActive }">
+            who we help
+          </a>
+          <i class="cursor-pointer chevron-down" @click="display_drop_menu($event)"></i>
+          <ul class="drop_menu">
+            <NuxtLink to="/whowehelp" class="hover:underline" v-on:click.native="display_menu(true);close_all_menu()">who we help</NuxtLink>
+            <NuxtLink to="/research" class="hover:underline" v-on:click.native="display_menu(true);close_all_menu()">researchers</NuxtLink>
+          </ul>
+        </li>
         <li><NuxtLink to="/whatwedo" v-on:click.native="display_menu(true);close_all_menu()" class="hover:underline">what we do</NuxtLink></li>
         <li><NuxtLink to="/howwework" v-on:click.native="display_menu(true);close_all_menu()" class="hover:underline">how we work</NuxtLink></li>
         <li><NuxtLink to="/projects" v-on:click.native="display_menu(true);close_all_menu()" class="hover:underline" :class="{ 'nuxt-link-exact-active' : $route.path.startsWith('/projects') }">projects</NuxtLink></li>
@@ -47,6 +56,9 @@ export default {
   computed: {
     aboutActive() {
       return this.$route.path.startsWith('/about/');
+    },
+    whowehelpActive() {
+      return this.$route.path.startsWith('/whowehelp') || this.$route.path.startsWith('/research');
     },
   },
   created() {
@@ -76,13 +88,19 @@ export default {
   },
   methods: {
     close_all_menu() {
-      var lis = document.getElementById("menu").getElementsByTagName("li");
-      Array.from(lis).forEach(function(e){
+      const lis = document.getElementById("menu").getElementsByTagName("li");
+      Array.from(lis).forEach((e) => {
         e.style.marginTop = 0;
       });
-      var drop_menus = document.getElementsByClassName("drop_menu");
-      Array.from(drop_menus).forEach(function(e){
+
+      const dropMenus = document.getElementsByClassName("drop_menu");
+      Array.from(dropMenus).forEach((e) => {
         e.classList.remove("display");
+      });
+
+      const chevrons = document.querySelectorAll(".chevron-down");
+      Array.from(chevrons).forEach((icon) => {
+        icon.classList.remove("rotateme"); // Ensure chevrons reset to down
       });
     },
     display_menu(delay) {
@@ -95,24 +113,49 @@ export default {
       */
       delay == true ? setTimeout(fn, 200) : fn();
     },
-    display_drop_menu() {
-      var drop_menu = document.getElementsByClassName("drop_menu")[0];
-      var drop_menus = document.getElementsByClassName("drop_menu");
-      var chevron = document.getElementsByClassName("cursor-pointer chevron-down");
+    display_drop_menu(event) {
+      if (!event || !event.currentTarget) {
+        console.error("Event or event.currentTarget is undefined.");
+        return;
+      }
 
-      Array.from(drop_menus).forEach(function(e){
-        if(e != drop_menu){
-          e.classList.remove("display");
+      // Identify the parent <li> element
+      const currentDrop = event.currentTarget.closest("li");
+      if (!currentDrop) {
+        console.error("Unable to find the parent <li> for the clicked dropdown.");
+        return;
+      }
+
+      // Get the dropdown menu and chevron inside the current <li>
+      const dropMenu = currentDrop.querySelector(".drop_menu");
+      const chevron = currentDrop.querySelector(".chevron-down");
+
+      // Close other dropdowns
+      document.querySelectorAll(".drop_menu").forEach((menu) => {
+        if (menu !== dropMenu) menu.classList.remove("display");
+      });
+      document.querySelectorAll(".chevron-down").forEach((icon) => {
+        if (icon !== chevron) icon.classList.remove("rotateme");
+      });
+
+      // Toggle the current dropdown
+      if (dropMenu) {
+        const isOpen = dropMenu.classList.toggle("display");
+        if (chevron) {
+          chevron.classList.toggle("rotateme", isOpen); // Add `rotateme` only if open
         }
-      });
-      var lis = document.getElementById("menu").getElementsByTagName("li");
-      Array.from(lis).forEach(function(e){
-        e.style.marginTop = 0;
-      });
-      (!drop_menu.classList.contains("display")) ? drop_menu.classList.add("display") : drop_menu.classList.remove("display");
-      (!chevron[0].classList.contains("rotateme")) ? chevron[0].classList.add("rotateme") : chevron[0].classList.remove("rotateme");
-      if(window.innerWidth < 1024 && drop_menu.classList.contains("display")) {
-        event.target.parentElement.nextSibling.nextSibling.style.marginTop = drop_menu.clientHeight + "px";
+      }
+
+      // Adjust margin for mobile view
+      if (window.innerWidth < 1024) {
+        document.querySelectorAll(".drop_menu.display").forEach((menu) => {
+          const parentLi = menu.closest("li");
+          const nextLi = parentLi.nextElementSibling;
+          if (nextLi) nextLi.style.marginTop = `${menu.clientHeight}px`;
+        });
+        if (!dropMenu.classList.contains("display") && currentDrop.nextElementSibling) {
+          currentDrop.nextElementSibling.style.marginTop = "0";
+        }
       }
     },
     loaded(){
