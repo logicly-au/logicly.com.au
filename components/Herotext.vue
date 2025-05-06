@@ -7,8 +7,8 @@ i <template>
   </div>
   <div class="px-0 xl:px-6">
     <div class="text-center text-logiclytextgrey">
-      <h1 class="text-2xl font-semibold leading-snug text-center pb-2 pt-4 xl:pt-8">{{ heading }}</h1>
-      <h2 class="font-light text-lg">{{ subheading }}</h2>
+      <h2 v-if="heading" class="text-2xl font-semibold leading-snug text-center pb-2 pt-4 xl:pt-8">{{ heading }}</h2>
+      <h3 v-if="subheading" class="font-light text-lg">{{ subheading }}</h3>
     </div>
   </div>
 </page-section>

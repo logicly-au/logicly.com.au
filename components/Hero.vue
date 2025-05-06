@@ -8,9 +8,9 @@
     <page-section :altrow="altrow" :overlay="overlay">
       <div class="w-full h-full textresponsive grid content-center">
         <div class="mt-0">
-        <h1 class="text-xs md:text-sm xl:text-base font-medium text-center text-white">{{ heading }}</h1>
-        <h2 class="text-base sm:text-lg md:text-xl xl:text-2xl font-semibold text-center leading-tight text-white">{{ subheading }}</h2>
-        <h1 class="text-base sm:text-lg lg:text-xl text-center text-white">{{ pageheroheading }}</h1>
+        <h1 v-if="heading" class="text-xs md:text-sm xl:text-base font-medium text-center text-white">{{ heading }}</h1>
+        <h2 v-if="subheading" class="text-base sm:text-lg md:text-xl xl:text-2xl font-semibold text-center leading-tight text-white">{{ subheading }}</h2>
+        <h2 v-if="pageheroheading" class="text-base sm:text-lg lg:text-xl text-center text-white">{{ pageheroheading }}</h2>
       </div>
       </div>
     </page-section>

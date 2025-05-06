@@ -56,19 +56,19 @@ It is also compliant with WCAG 2.0 guidelines at the AA level, meeting the Gover
 <div>
 <img src="/Projects/Icons/8_Department_of_health/Identify_data_issues_and_errors.svg" alt="List icon" />
 
-##### Identify data issues and errors
+Identify data issues and errors
 </div>
 
 <div>
 <img src="/Projects/Icons/8_Department_of_health/Analysing_historical_trends.svg" alt="Analyse icon" />
 
-##### Analysing historical trends
+Analysing historical trends
 </div>
 
 <div class="icons-sidebar-last">
 <img src="/Projects/Icons/8_Department_of_health/AA_Level_compliant.svg" alt="Badge icon" />
 
-##### AA level compliant
+AA level compliant
 </div>
 </div>
 

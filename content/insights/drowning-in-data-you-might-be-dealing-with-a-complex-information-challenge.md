@@ -25,9 +25,10 @@ categories:
 <div class="col-span-12 lg:col-span-3 blog-sidebar">
 <div class="blog-sidebar-author mt-2">
 
-#### Andrew Gordon
+Andrew Gordon
 
-##### 22 August 2022
+<time datetime="2022-08-22">22 August 2022</time>
+
 </div>
 <div class="grid grid-cols-4">
 <!---Remove 'hidden' from div below to show social media icons--->
@@ -85,7 +86,7 @@ There are many factors that contribute to data complexity. In this article, weâ€
 
 <div class="bg-logiclylightgrey pl-6 sm:pl-12 pr-6 sm:pr-16 pt-4 sm:pt-8 pb-6 my-4">
 
-## PROJECT SPOTLIGHT:
+### PROJECT SPOTLIGHT:
 <div class="font-semibold text-sm pr-12">A thrice-yearly census for over 70,000 pre-school children and teachers</div>
 
 <span class="text-sm">The Department of Education and Training needed a sophisticated and accessible data management system to securely collect and store the personal details and routines of around 72,000 children and their teachers. Our solution was quickly implemented across the state, and insights gathered continue to inform decisions for early-learning strategy and policy.</span>

@@ -54,19 +54,19 @@ Through recent collaborations, we’ve successfully delivered insights that can 
 <div>
 <img src="/Projects/Icons/2_UoM_Centre_for_mental_health/Digital_appliactions_for-researchers.svg" alt="Desktop icon" />
 
-##### Digital applications for researchers
+Digital applications for researchers
 </div>
 
 <div>
 <img src="/Projects/Icons/2_UoM_Centre_for_mental_health/Secure_management_of_deidentified_data.svg" alt="Analyse Key lock" />
 
-##### Secure management of de-identified data
+Secure management of de-identified data
 </div>
 
 <div class="icons-sidebar-last">
 <img src="/Projects/Icons/2_UoM_Centre_for_mental_health/Meet_study_and_ethical_requirements.svg" alt="Check mark circle icon" />
 
-##### Meet study and ethics requirements
+Meet study and ethics requirements
 </div>
 </div>
 

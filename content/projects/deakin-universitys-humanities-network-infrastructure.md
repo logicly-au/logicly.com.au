@@ -47,19 +47,19 @@ In particular, it can provide insights that more limiting, traditional keyword s
 <div>
 <img src="/Projects/Icons/4_Deakin_Universitys_Humanities_Network_Infrastructure/A_digital_network_of_information.svg" alt="Network with dots icon" />
 
-##### A digital network of information
+A digital network of information
 </div>
 
 <div>
 <img src="/Projects/Icons/4_Deakin_Universitys_Humanities_Network_Infrastructure/Aggregation_of_Australias_rich_cultural_heritage.svg" alt="Australia icon" />
 
-##### Aggregation of Australia’s rich cultural heritage
+Aggregation of Australia’s rich cultural heritage
 </div>
 
 <div class="icons-sidebar-last">
 <img src="/Projects/Icons/4_Deakin_Universitys_Humanities_Network_Infrastructure/2_million_records.svg" alt="Paper icon" />
 
-##### 2 million records
+2 million records
 </div>
 </div>
 

@@ -24,9 +24,9 @@
     <page-section altrow>
       <div class="grid grid-cols-3 mx-0 text-logiclytextgrey xl:-mx-20">
         <div class="col-span-3 sm:col-span-1">
-          <p class="pb-4 text-2xl font-semibold text-left text-logiclytextgrey sm:pb-0">
+          <h2 class="pb-4 text-2xl font-semibold text-left text-logiclytextgrey sm:pb-0">
             Topics
-          </p>
+          </h2>
         </div>
         <select class="col-span-3 col-start-1 pb-2 border-b-2 sm:col-span-1 sm:col-start-3 border-logiclyorange bg-logiclylightgrey sm:pb-0" @change="updateHash()" v-model="category">
           <option value="" >All categories</option>
@@ -52,7 +52,7 @@
                   <div class="col-span-1 pt-6" :class="{ 'col-span-3 xl:col-span-1 border-t-2 border-logiclyorange pl-2 xl:pl-6 pt-8 pr-2 xl:pr-8 pb-6 xl:pb-12 bg-logiclylightgrey' : index === 0 }" >
                     <div :class="{ 'mx-4 xl:mx-0 mb-6 xl:mb-0' : index === 0 }">
                       <NuxtLink :to="{ name: 'insights-slug', params: { slug: article.slug } }">
-                        <span class="text-lg font-semibold sm:text-xl xl:text-base text-logiclyorange hover:underline">{{ article.title }}</span>
+                        <h3 class="text-lg font-semibold sm:text-xl xl:text-base text-logiclyorange hover:underline">{{ article.title }}</h3>
                       </NuxtLink>
                       <div class="pt-1 pb-4 xl:pt-0 xl:pb-2" :class="{ 'xl:pb-2 mt-4' : index === 0 }">
                         <span class="text-sm font-medium">{{ article.author }}</span>
@@ -193,6 +193,19 @@ export default {
 
 .blog-sidebar {
   padding-bottom: 3rem;
+}
+
+.blog-sidebar-author p {
+  text-align: left;
+  color: #E94E1B;
+  font-weight: 600;
+}
+
+.blog-sidebar-author time {
+  text-align: left;
+  color: #3c3c3b;
+  font-weight:500;
+  font-size:0.85em;
 }
 
 .blog-social-media {

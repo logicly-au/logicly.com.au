@@ -82,19 +82,19 @@ Logicly is a longtime partner of the DoH, having worked with them on numerous pr
 <div>
 <img src="/Projects/Icons/6_Department_of_Health_Primary_Mental_Health_Care_Minimum_Dataset/Outcome_measures_online_version.svg" alt="Analyse icon" />
 
-##### Outcome measures (online version)
+Outcome measures (online version)
 </div>
 
 <div>
 <img src="/Projects/Icons/6_Department_of_Health_Primary_Mental_Health_Care_Minimum_Dataset/Complex_data_into_simplified_reports.svg" alt="Complex data icon" />
 
-##### Complex data into simplified reports
+Complex data into simplified reports
 </div>
 
 <div class="icons-sidebar-last">
 <img src="/Projects/Icons/6_Department_of_Health_Primary_Mental_Health_Care_Minimum_Dataset/Secure_data_collection_and_management.svg" alt="Key lock icon" />
 
-##### Secure data collection and management
+Secure data collection and management
 </div>
 </div>
 

@@ -21,9 +21,9 @@
       <div class="grid content-center grid-cols-6 col-gap-4 mx-0 text-logiclytextgrey xl:mx-16">
 
         <div class="col-span-6 pb-8 md:pt-5">
-          <h3 class="text-xl font-medium text-center">
+          <h2 class="text-xl font-medium text-center">
             Our continuous 4 stage approach to meeting your future needs
-          </h3>
+          </h2>
         </div>
 
         <div class="flex items-start col-span-6 border-t-4 md:col-span-2 md:col-start-1 border-logiclytheme1">
@@ -82,7 +82,7 @@
     <page-section altrow>
       <!-- Header -->
       <div class="mb-8 leading-snug text-center text-logiclytextgrey">
-        <span class="text-2xl font-semibold">Making complex information secure & accessible for private & public use</span>
+        <h2 class="text-2xl font-semibold">Making complex information secure & accessible for private & public use</h2>
       </div>
 
       <!-- Sub grid 1 -->
@@ -97,8 +97,10 @@
             />
           </div>
 
-          <div class="col-span-2 pt-8 pb-2 text-xl font-semibold lg:text-base lg:text-lg">
-            What information challenges do you have?
+          <div class="col-span-2 pt-8 pb-2">
+            <h3 class="text-xl font-semibold lg:text-base lg:text-lg">
+              What information challenges do you have?
+            </h3>
           </div>
 
           <div class="col-span-2 pb-2 pr-2 md:pr-12 lg:pr-2 xl:pr-8">
@@ -129,8 +131,10 @@
             />
           </div>
 
-          <div class="col-span-2 pt-8 pb-2 text-xl font-semibold lg:text-base lg:text-lg">
-            What type of digital system do you require?
+          <div class="col-span-2 pt-8 pb-2">
+            <h3 class="text-xl font-semibold lg:text-base lg:text-lg">
+              What type of digital system do you require?
+            </h3>
           </div>
 
           <div class="col-span-2 pb-2 pr-2 md:pr-12 lg:pr-6 xl:pr-8">
@@ -155,8 +159,8 @@
 
     <!-- Clients section mobile -->
     <page-section class="xl:hidden">
-      <div class="pb-8 text-2xl font-semibold text-center text-logiclytextgrey">
-        <span>We work with corporate, government and educational clients</span>
+      <div class="pb-8">
+        <h2 class="text-2xl font-semibold text-center text-logiclytextgrey">We work with corporate, government and educational clients</h2>
       </div>
       <div class="grid grid-cols-3 gap-5">
         <a href="https://www.health.gov.au/">
@@ -181,8 +185,8 @@
 
     <!-- Clients section desktop -->
     <page-section class="hidden xl:block">
-      <div class="pt-10 pb-8 text-2xl font-semibold text-center text-logiclytextgrey">
-        <span>We work with corporate, government and educational clients</span>
+      <div class="pt-10 pb-8">
+        <h2 class="text-2xl font-semibold text-center text-logiclytextgrey">We work with corporate, government and educational clients</h2>
       </div>
       <div class="grid grid-cols-5 col-span-8 row-start-2 gap-5 grid-row">
         <a href="https://www.health.gov.au/">
@@ -206,7 +210,7 @@
     <page-section altrow>
       <!-- Header -->
       <div class="mb-8 text-center">
-        <span class="text-2xl font-semibold text-logiclytextgrey">Every project is different and designed to meet your digital requirements</span>
+        <h2 class="text-2xl font-semibold text-logiclytextgrey">Every project is different and designed to meet your digital requirements</h2>
       </div>
 
       <div class="grid grid-cols-2 col-gap-4 mb-4 bg-logiclygreytwo text-logiclytextgrey">
@@ -224,9 +228,9 @@
           <div class="grid grid-cols-4">
             <div class="col-span-4 lg:col-span-3 sm:px-6 md:px-10 lg:px-0">
               <div>
-                <h4 class="pt-6 pb-2 font-semibold leading-snug lg:text-sm text-logiclytheme4 lg:pb-1 lg:pt-0">
+                <h3 class="pt-6 pb-2 font-semibold leading-snug lg:text-sm text-logiclytheme4 lg:pb-1 lg:pt-0">
                   Queensland Department of Transport and Main Roads
-                </h4>
+                </h3>
               </div>
               <p class="text-sm">
                 A digital system to help understand travel behaviours and plan for future growth and demand of the
@@ -260,9 +264,9 @@
           <div class="grid grid-cols-4">
             <div class="col-span-4 lg:col-span-3 sm:px-6 md:px-10 lg:px-0">
               <div>
-                <h4 class="pt-6 pb-2 font-semibold leading-snug lg:text-sm text-logiclytheme4 lg:pb-1 lg:pt-0">
+                <h3 class="pt-6 pb-2 font-semibold leading-snug lg:text-sm text-logiclytheme4 lg:pb-1 lg:pt-0">
                   NAB
-                </h4>
+                </h3>
               </div>
               <p class="text-sm">
                 A performance management tool for NAB’s business groups in Australia and overseas with the flexibility to meet their changing future requirements.
@@ -295,9 +299,9 @@
           <div class="grid grid-cols-4">
             <div class="col-span-4 lg:col-span-3 sm:px-6 md:px-10 lg:px-0">
               <div>
-                <h4 class="pt-6 pb-2 font-semibold leading-snug lg:text-sm text-logiclytheme4 lg:pb-1 lg:pt-0">
+                <h3 class="pt-6 pb-2 font-semibold leading-snug lg:text-sm text-logiclytheme4 lg:pb-1 lg:pt-0">
                   Deakin University
-                </h4>
+                </h3>
               </div>
               <p class="text-sm">
                 A sophisticated tool for researchers to create, analyse, publish and share data. The community can also access the research to discover and learn.
@@ -325,9 +329,9 @@
 
     <page-section>
       <div class="my-4 text-logiclytextgrey">
-          <h1 class="text-2xl font-medium text-center">
+          <h2 class="text-2xl font-medium text-center">
             Do you have a project in mind or a complex information challenge? Call us on +61 3 9340 9000 or enquire below.
-          </h1>
+          </h2>
           <div class="flex justify-center mt-4">
             <Button
               buttontext="Enquire"

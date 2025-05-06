@@ -8,7 +8,7 @@
     <page-section :altrow="altrow" :overlay="overlay">
       <div class="-mt-20 sm:-mt-32 md:-mt-40 lg:-mt-48 mx-12 sm:mx-20 md:mx-24 lg:mx-40 xl:mx-56 px-8 md:px-0 xl:px-2 textresponsiveblack">
         <div>
-          <h1 class="text-base sm:text-lg lg:text-xl font-semibold text-center text-black">{{ heading }}</h1>
+          <h2 class="text-base sm:text-lg lg:text-xl font-semibold text-center text-black">{{ heading }}</h2>
         </div>
       </div>
     </page-section>

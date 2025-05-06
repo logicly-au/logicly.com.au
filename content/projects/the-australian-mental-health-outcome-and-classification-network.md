@@ -78,19 +78,19 @@ It will continue to help shape better mental health outcomes for Australia into 
 <div>
 <img src="/Projects/Icons/7_Australian_Mental_Health_Outcome_and_Classification_Network_(AMHOCN)/Reporting_and_analysing_outcomes_and_variables.svg" alt="Analyse icon" />
 
-##### Reporting and analysing outcomes and variables
+Reporting and analysing outcomes and variables
 </div>
 
 <div>
 <img src="/Projects/Icons/7_Australian_Mental_Health_Outcome_and_Classification_Network_(AMHOCN)/Collaboration_of_3_organisations.svg" alt="3 persons icon" />
 
-##### Collaboration of 3 organisations
+Collaboration of 3 organisations
 </div>
 
 <div class="icons-sidebar-last">
 <img src="/Projects/Icons/7_Australian_Mental_Health_Outcome_and_Classification_Network_(AMHOCN)/Access_for_clinicians.svg" alt="Login icon" />
 
-##### Access for clinicians
+Access for clinicians
 </div>
 </div>
 </div>

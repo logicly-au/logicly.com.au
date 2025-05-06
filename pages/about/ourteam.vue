@@ -16,53 +16,53 @@
     />
 
     <page-section>
-      <h1 class="text-2xl font-semibold text-center text-logiclytextgrey pb-8 lg:pb-12">Everyone brings something different to the team</h1>
+      <h2 class="text-2xl font-semibold text-center text-logiclytextgrey pb-8 lg:pb-12">Everyone brings something different to the team</h2>
       <div class="grid grid-cols-12 text-logiclytextgrey">
-        <div class="col-span-12 lg:col-span-8 col-start-1 lg:col-start-3 grid grid-cols-3 grid-rows-3 gap-4 mx-0 lg:-mx-8 xl:-mx-0">
-          <div class="items-center col-span-1">
+        <ul class="col-span-12 lg:col-span-8 col-start-1 lg:col-start-3 grid grid-cols-3 grid-rows-3 gap-4 mx-0 lg:-mx-8 xl:-mx-0">
+          <li class="items-center col-span-1">
             <img src="/Everyone_brings_something_different_to_the_team/Researchers.svg" alt="" class="h-8 sm:h-12 m-auto" />
             <h3 class="text-center font-medium text-xs sm:text-sm pt-3">Researchers</h3>
-          </div>
-          <div class="items-center col-span-1">
+          </li>
+          <li class="items-center col-span-1">
             <img src="/Everyone_brings_something_different_to_the_team/Psychologists.svg" alt="" class="h-8 sm:h-12 m-auto" />
             <h3 class="text-center font-medium text-xs sm:text-sm pt-3">Psychologists</h3>
-          </div>
-          <div class="items-center col-span-1">
+          </li>
+          <li class="items-center col-span-1">
             <img src="/Everyone_brings_something_different_to_the_team/Mathematicians.svg" alt="" class="h-8 sm:h-12 m-auto" />
             <h3 class="text-center font-medium text-xs sm:text-sm pt-3">Mathematicians</h3>
-          </div>
-          <div class="items-center col-span-1">
+          </li>
+          <li class="items-center col-span-1">
             <img src="/Everyone_brings_something_different_to_the_team/Project_managers.svg" alt="" class="h-8 sm:h-12 m-auto" />
             <h3 class="text-center font-medium text-xs sm:text-sm pt-3">Project Managers</h3>
-          </div>
-          <div class="items-center col-span-1">
+          </li>
+          <li class="items-center col-span-1">
             <img src="/Everyone_brings_something_different_to_the_team/Support.svg" alt="" class="h-8 sm:h-12 m-auto" />
             <h3 class="text-center font-medium text-xs sm:text-sm pt-3">Support</h3>
-          </div>
-          <div class="items-center col-span-1">
+          </li>
+          <li class="items-center col-span-1">
             <img src="/Everyone_brings_something_different_to_the_team/Security_experts.svg" alt="" class="h-8 sm:h-12 m-auto" />
             <h3 class="text-center font-medium text-xs sm:text-sm pt-3">Security experts</h3>
-          </div>
-          <div class="items-center col-span-1">
+          </li>
+          <li class="items-center col-span-1">
             <img src="/Everyone_brings_something_different_to_the_team/User_experience_design_(UX).svg" alt="" class="h-8 sm:h-12 m-auto" />
             <h3 class="text-center font-medium text-xs sm:text-sm pt-3">User experience</br> design (UX)</h3>
-          </div>
-          <div class="items-center col-span-1">
+          </li>
+          <li class="items-center col-span-1">
             <img src="/Everyone_brings_something_different_to_the_team/Interface_design_(UI).svg" alt="" class="h-8 sm:h-12 m-auto" />
             <h3 class="text-center font-medium text-xs sm:text-sm pt-3">Interface design (UI)</h3>
-          </div>
-          <div class="items-center col-span-1">
+          </li>
+          <li class="items-center col-span-1">
             <img src="/Everyone_brings_something_different_to_the_team/Developers.svg" alt="" class="h-8 sm:h-12 m-auto" />
             <h3 class="text-center font-medium text-xs sm:text-sm pt-3">Developers</h3>
-          </div>
-        </div>
+          </li>
+        </ul>
       </div>
     </page-section>
 
 
     <page-section altrow>
       <div>
-        <h1 class="text-2xl font-semibold text-center text-logiclytextgrey pb-8">Meet the people who will advise and manage your projects</h1>
+        <h2 class="text-2xl font-semibold text-center text-logiclytextgrey pb-8">Meet the people who will advise and manage your projects</h2>
       </div>
 
       <!-- Main grid -->
@@ -72,12 +72,12 @@
             <img src="/logicly-adam.jpg" alt="Portrait Adam Clarke" class="p-0">
           </div>
           <div class="col-span-1">
-            <h2 class="text-lg font-bold">
+            <h3 class="text-lg font-bold">
               Adam Clarke
-            </h2>
-            <h3 class="text-sm font-medium pb-4">
-              Director / Senior Consultant / CTO
             </h3>
+            <h4 class="text-sm font-medium pb-4">
+              Director / Senior Consultant / CTO
+            </h4>
             <p class="pb-2 text-sm">
               Adam has worked in information technology, data management, and software delivery since 1991 while a Psychology student at Melbourne University. For 10 years prior to that it was his hobby. Adam has a diverse set of skills including research methods, programming, database design, internet technologies, and data analysis. He is a national leader in the design, implementation and support of IT systems for minimum data sets. Adam co-founded Logicly (then Strategic Data) in 1996 and is also our CTO and technical lead, managing all the work to keep systems relevant, running, and consistent with their security requirements.
             </p>
@@ -92,12 +92,12 @@
             <img src="/logicly-andrew.jpg" alt="Portrait Andrew Gordon" class="p-0">
           </div>
           <div class="col-span-1">
-            <h2 class="text-lg font-bold">
+            <h3 class="text-lg font-bold">
               Andrew Gordon
-            </h2>
-            <h3 class="text-sm font-medium pb-4">
-              Director / Business Development Manager
             </h3>
+            <h4 class="text-sm font-medium pb-4">
+              Director / Business Development Manager
+            </h4>
             <p class="pb-2 text-sm">
               Prior to commencing at Logicly (then Strategic Data) Andrew worked as a psychologist and in management in vocational rehabilitation. His work at Logicly has covered project management, consulting and business management. As we have grown, his focus is now HR, compliance, finance and overseeing the administration and accounts team.
             </p>
@@ -112,12 +112,12 @@
             <img src="/logicly-simon.jpg" alt="Portrait Simon Palmer" class="p-0">
           </div>
           <div class="col-span-1">
-            <h2 class="text-lg font-bold">
+            <h3 class="text-lg font-bold">
               Simon Palmer
-            </h2>
-            <h3 class="text-sm font-medium pb-4">
-              Director / Senior Consultant
             </h3>
+            <h4 class="text-sm font-medium pb-4">
+              Director / Senior Consultant
+            </h4>
             <p class="pb-2 text-sm">
               Prior to co-founding Logicly (then Strategic Data), Simon's professional career shifted from social research and program evaluation to issues of computer-interface design, usability and information presentation. For 15 years he was a registered psychologist, bringing a counseling-influenced approach to the collection, management, analysis and presentation of data. Simon’s particular expertise is in identifying the information required to support an objective, and specifying technical infrastructure to enable the collection and application of relevant data.
             </p>
@@ -132,12 +132,12 @@
             <img src="/logicly-michelle.jpg" alt="Portrait Michelle Nicholson" class="p-0">
           </div>
           <div class="col-span-1">
-            <h2 class="text-lg font-bold">
+            <h3 class="text-lg font-bold">
               Michelle Nicholson
-            </h2>
-            <h3 class="text-sm font-medium pb-4">
-              Director / Manager, Business Operations
             </h3>
+            <h4 class="text-sm font-medium pb-4">
+              Director / Manager, Business Operations
+            </h4>
             <p class="pb-2 text-sm">
               Michelle is the newest member of Logicly’s Board of Directors.
             </p>

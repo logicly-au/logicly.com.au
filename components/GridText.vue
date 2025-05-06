@@ -7,9 +7,9 @@ i <template>
       <div class="my-8 lg:my-12 -mx-0 lg:-mx-16 xl:-mx-0">
           <div class="grid grid-cols-1 lg:grid-cols-3 gap-0 lg:gap-6 lg:pb-16">
             <div class="col-span-1 pb-8 lg:pb-0">
-              <p class="text-lg font-semibold pb-2">
+              <h3 class="text-lg font-semibold pb-2">
                 {{ subheading1 }}
-              </p>
+              </h3>
               <p class="font-light pb-1">
                 {{ text1a }}
               </p>
@@ -19,9 +19,9 @@ i <template>
             </div>
 
             <div class="col-span-1 pb-8 lg:pb-0">
-              <p class="text-lg font-semibold pb-2">
+              <h3 class="text-lg font-semibold pb-2">
                 {{ subheading2 }}
-              </p>
+              </h3>
               <p class="font-light pb-1">
                 {{ text2a }}
               </p>
@@ -31,9 +31,9 @@ i <template>
             </div>
 
             <div class="col-span-1 pb-8 lg:pb-0">
-              <p class="text-lg font-semibold pb-2">
+              <h3 class="text-lg font-semibold pb-2">
                 {{ subheading3 }}
-              </p>
+              </h3>
               <p class="font-light pb-1">
                 {{ text3a }}
               </p>
@@ -45,9 +45,9 @@ i <template>
 
           <div class="grid grid-cols-1 lg:grid-cols-3 gap-0 lg:gap-6 lg:pb-20">
             <div class="col-span-1 pb-8 lg:pb-0">
-              <p class="text-lg font-semibold pb-2">
+              <h3 class="text-lg font-semibold pb-2">
                 {{ subheading4 }}
-              </p>
+              </h3>
               <p class="font-light pb-1">
                 {{ text4a }}
               </p>
@@ -57,9 +57,9 @@ i <template>
             </div>
 
             <div class="col-span-1 pb-8 lg:pb-0">
-              <p class="text-lg font-semibold pb-2">
+              <h3 class="text-lg font-semibold pb-2">
                 {{ subheading5 }}
-              </p>
+              </h3>
               <p class="font-light pb-1">
                 {{ text5a }}
               </p>
@@ -69,9 +69,9 @@ i <template>
             </div>
 
             <div class="col-span-1">
-              <p class="text-lg font-semibold pb-2">
+              <h3 class="text-lg font-semibold pb-2">
                 {{ subheading6 }}
-              </p>
+              </h3>
               <p class="font-light pb-1">
                 {{ text6a }}
               </p>

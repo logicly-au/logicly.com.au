@@ -1,48 +1,48 @@
 <template>
   <div class="grid grid-cols-12 pt-6 -mb-16 border-t-2 border-b-2 border-logiclyorange text-logiclytextgrey project-page">
 
-    <div class="hidden col-span-4 mb-4 text-xl font-semibold lg:block">
-        <span class='capitalize'>{{ category }}</span>
-        projects
-      </div>
+    <h3 class="hidden col-span-4 mb-4 text-xl font-semibold lg:block">
+      <span class='capitalize'>{{ category }}</span>
+      projects
+    </h3>
 
-      <!-- Project list mobile -->
-      <div class="block col-span-12 mb-10 lg:hidden">
+    <!-- Project list mobile -->
+    <div class="block col-span-12 mb-10 lg:hidden">
 
-        <!-- This uses the default select element on mobile, as it has a better UX. For desktop it uses vue-select. -->
-        <select v-if="isMobile()"
-                class="border p-2 w-full"
-                placeholder="Select project"
-                v-model="activeArticle"
-                @change="onArticleSelect(activeArticle)">
-          <option v-for="project in projects" :value="project">
-            {{ project.title }}
-          </option>
-        </select>
-        <v-select v-else placeholder="Select project" label="title" :options="projects" v-model="activeArticle" @change="viewArticle(activeArticle)"></v-select>
+      <!-- This uses the default select element on mobile, as it has a better UX. For desktop it uses vue-select. -->
+      <select v-if="isMobile()"
+              class="border p-2 w-full"
+              placeholder="Select project"
+              v-model="activeArticle"
+              @change="onArticleSelect(activeArticle)">
+        <option v-for="project in projects" :value="project">
+          {{ project.title }}
+        </option>
+      </select>
+      <v-select v-else placeholder="Select project" label="title" :options="projects" v-model="activeArticle" @change="viewArticle(activeArticle)"></v-select>
 
-      </div>
+    </div>
 
-      <!-- Project list desktop -->
-      <div class="hidden col-span-12 lg:block projects-list">
-        <ul class='articles'>
-          <li v-for="(article, index) in projects" :class="{ 'articles-active': activeArticle && article.slug == activeArticle.slug }">
-            <div class="grid grid-cols-12 pb-2">
-              <div class="col-span-1 ml-2 -mt-1 text-2xl font-light">
-                >
-              </div>
-              <div @click="onArticleSelect(article)" class="col-span-11 col-start-2 cursor-pointer xl:col-span-10 hover:underline">
-                <span class="font-semibold">{{ article.title }}</span></br>
-                <span class="text-sm font-light xl:text-base">{{ article.description }}</span>
-              </div>
+    <!-- Project list desktop -->
+    <div class="hidden col-span-12 lg:block projects-list">
+      <ul class='articles'>
+        <li v-for="(article, index) in projects" :class="{ 'articles-active': activeArticle && article.slug == activeArticle.slug }">
+          <div class="grid grid-cols-12 pb-2">
+            <div class="col-span-1 ml-2 -mt-1 text-2xl font-light">
+              >
             </div>
-          </li>
-        </ul>
-      </div>
+            <div @click="onArticleSelect(article)" class="col-span-11 col-start-2 cursor-pointer xl:col-span-10 hover:underline">
+              <span class="font-semibold">{{ article.title }}</span></br>
+              <span class="text-sm font-light xl:text-base">{{ article.description }}</span>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
 
-      <div class="col-span-12" id="article-section">
-        <nuxt-content :document="activeArticle" />
-      </div>
+    <div class="col-span-12" id="article-section">
+      <nuxt-content :document="activeArticle" />
+    </div>
   </div>
 </template>
 
@@ -132,5 +132,10 @@ export default {
 }
 .articles-active {
   color: #E94E1B;
+}
+
+.icons-sidebar p {
+  font-weight: 500;
+  font-size: 0.85em;
 }
 </style>

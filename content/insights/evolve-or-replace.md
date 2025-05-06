@@ -20,9 +20,10 @@ categories:
 <div class="col-span-12 lg:col-span-3 blog-sidebar">
 <div class="mt-2 blog-sidebar-author">
 
-#### Adam Clarke
+Adam Clarke
 
-##### 31 July 2024
+<time datetime="2025-02-10">10 February 2025</time>
+
 </div>
 <div class="grid grid-cols-4">
 <!---Remove 'hidden' from div below to show social media icons--->
