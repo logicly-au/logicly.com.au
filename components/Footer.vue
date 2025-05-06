@@ -57,7 +57,7 @@
               <div class="col-span-12 text-sm lg:col-span-5 lg:mt-4">
                 <span class="pr-2">Logicly © {{ copyrightYear }}</span>
                 <NuxtLink to="/privacy" class="hover:underline pr-2" exact>Privacy policy</NuxtLink>
-                <a href="https://iar-dst.online/#/accessibility" class="hover:underline">Accessibility</a>
+                <a href="/accessibility" class="hover:underline">Accessibility</a>
               </div>
               <div class="grid content-end grid-cols-3 col-span-12 lg:col-span-6 lg:col-start-6 xl:col-span-5 xl:col-start-7">
                 <div class="grid grid-cols-3 col-span-1 mt-6 lg:col-start-3 lg:mt-0">
