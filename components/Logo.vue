@@ -1,19 +1,17 @@
 <template>
-<img class="logoimg" src="~/assets/images/0_Logicly_Logo.svg" alt="Logicly logo" />
+  <img :class="['logoimg', sizeClass]" src="~/assets/images/0_Logicly_Logo.svg" alt="Logicly logo"/>
 </template>
 
-<style>
-.NuxtLogo {
-  animation: 1s appear;
-  margin: auto;
-}
+<script setup>
+defineProps({
+  sizeClass: {
+    type: String,
+    default: 'h-8'
+  },
+});
+</script>
 
-img.logoimg {
-  padding-bottom:1rem;
-  margin-top:1rem;
-  height:3rem;
-}
-
+<style scoped>
 @keyframes appear {
   0% {
     opacity: 0;
