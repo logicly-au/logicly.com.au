@@ -12,10 +12,11 @@
               </div>
             </div>
             <div class="col-span-12 mb-6 lg:col-span-4 lg:mb-0">
-              <div class="mb-6 lg:mb-4">
-                <NuxtLink to="/" class="self-start">
-                  <logo alt="Logicly logo" />
+              <div class="mb-6 lg:mb-4 flex items-end space-x-8">
+                <NuxtLink to="/" class="">
+                  <logo sizeClass="h-10 p-0" />
                 </NuxtLink>
+                <img src="~/assets/images/B-Corp-Logo-Black-RGB.png" class="h-[72px] w-auto" alt="Certified B Corporation logo">
               </div>
               <div>
                 <a href="tel:0061393409000" class="block">+61 3 9340 9000</a>
