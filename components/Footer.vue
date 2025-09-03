@@ -12,10 +12,10 @@
               </div>
             </div>
             <div class="col-span-12 mb-6 lg:col-span-4 lg:mb-0">
-              <div class="mb-6 lg:mb-4">
-                <NuxtLink to="/" class="self-start">
-                  <logo alt="Logicly logo" />
-                </NuxtLink>
+              <div class="mb-6 lg:mb-4 flex items-end space-x-8">
+                <NuxtLink to="/" class="">
+                  <logo sizeClass="h-10 p-0" />
+                </NuxtLink>                
               </div>
               <div>
                 <a href="tel:0061393409000" class="block">+61 3 9340 9000</a>
@@ -23,6 +23,11 @@
                 <span class="block">2nd floor, 51 – 55 Johnston Street,</span>
                 <span class="block">Fitzroy, Victoria 3065, Australia</span>
                 <span class="block">PO Box 1166, Carlton, Victoria 3053, Australia</span>
+                <div class="mt-2">
+                  <a href="https://www.linkedin.com/company/logiclyaustralia/about/">
+                    <img src="~/assets/images/Linkedin.svg" class="h-5 lg:h-4" alt="Linkedin logo">
+                  </a>
+                </div>
               </div>
             </div>
             <div class="grid grid-cols-3 col-span-12 text-sm lg:col-span-6 lg:col-start-6 xl:col-span-5 xl:col-start-7 lg:mt-4">
@@ -53,23 +58,18 @@
               </div>
             </div>
 
-            <div class="grid grid-cols-12 col-span-12">
-              <div class="col-span-12 text-sm lg:col-span-5 lg:mt-4">
+            <div class="col-span-12 flex flex-col sm:flex-row justify-between items-start sm:items-end">
+              <div class="text-sm">
                 <span class="pr-2">Logicly © {{ copyrightYear }}</span>
                 <NuxtLink to="/privacy" class="hover:underline pr-2" exact>Privacy policy</NuxtLink>
                 <a href="/accessibility" class="hover:underline">Accessibility</a>
               </div>
-              <div class="grid content-end grid-cols-3 col-span-12 lg:col-span-6 lg:col-start-6 xl:col-span-5 xl:col-start-7">
-                <div class="grid grid-cols-3 col-span-1 mt-6 lg:col-start-3 lg:mt-0">
-                  <div class="col-span-1 order-first lg:order-last"><a href="https://www.linkedin.com/company/logiclyaustralia/about/"><img src="~/assets/images/Linkedin.svg" class="h-5 lg:h-4" alt="Linkedin logo"></a></div>
-                  <div class="col-span-1"><img src="~/assets/images/Facebook.svg" class="h-5 lg:h-4 hidden" alt="Facebook logo"></div>
-                  <div class="col-span-1"><img src="~/assets/images/Twitter.svg" class="h-5 lg:h-4 hidden" alt="Twitter logo"></div>
-                </div>
-              </div>
-            </div>
+              <a href="https://bcorporation.com.au/">
+                <img src="~/assets/images/B-Corp-Logo-Black-RGB.png" class="h-[72px] w-auto mt-6 sm:mt-0" alt="Certified B Corporation logo">
+              </a>
+            </div>            
           </div>
         </div>
-
       </footer>
     </div>
   </div>
