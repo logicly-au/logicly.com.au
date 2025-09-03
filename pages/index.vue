@@ -6,14 +6,20 @@
       background-url="/Logicly-meet-your-complex-information-challenges-hero-v2.jpg"
     />
 
+    <div class="flex justify-center py-7 px-4 sm:px-0">
+      <a href="https://bcorporation.com.au/">
+        <img width="300px" src="B-Corp-Logo-Tagline-Lockup-Continuous-Improvement-Black-RGB.svg" alt="" />
+      </a>
+    </div>
+
     <Herotextnoimage
       heading="Developing thoughtfully designed digital systems"
       subheading="We bring twenty five years of knowledge and experience in research, strategy, design and technology to solve
                 your complex information challenges. Our digital systems are built with innovative but practical
                 thinking, flexibility and intuitive design, always with the user experience in mind."
       altrow
+      
     />
-
 
     <page-section>
       <img src="digital_system.svg" class="content-center h-24 px-12 mb-5" alt="A rounded rectangular outline with the words 'DIGITAL SYSTEM' centered inside"/>
