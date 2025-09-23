@@ -6,7 +6,20 @@
         subheading="Everyone has a say"
         background-url="/Logicly-Our-culture-header-everyone-has-a-say.jpg"
         overlay
-      />
+      />     
+
+      <page-section>
+        <div class="flex justify-center px-4 sm:px-0 pb-8">
+          <a href="https://bcorporation.com.au/">
+            <img width="400px" src="B-Corp-Logo-Tagline-Lockup-Continuous-Improvement-Black-RGB.svg" alt="Certified B Corporation logo" />
+          </a>
+        </div>
+        <div class="flex justify-center px-4 sm:px-0">
+          <a href="https://www.dca.org.au/">
+            <img width="508px" src="DCA-Member-Banner-Small-blue.png" alt="Diversity Council Australia" />
+          </a>
+        </div>
+      </page-section>
   
       <Herotext
         iconurl="/Together-at-logicly.svg"

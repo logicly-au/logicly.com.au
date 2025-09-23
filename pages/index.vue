@@ -8,7 +8,7 @@
 
     <div class="flex justify-center py-7 px-4 sm:px-0">
       <a href="https://bcorporation.com.au/">
-        <img width="300px" src="B-Corp-Logo-Tagline-Lockup-Continuous-Improvement-Black-RGB.svg" alt="" />
+        <img width="300px" src="B-Corp-Logo-Tagline-Lockup-Continuous-Improvement-Black-RGB.svg" alt="Certified B Corporation logo" />
       </a>
     </div>
 
