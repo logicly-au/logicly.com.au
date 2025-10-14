@@ -67,7 +67,7 @@ It’s a robust, strategically-designed system that for over 15 years has contin
 It will continue to help shape better mental health outcomes for Australia into the future by consistently delivering clear, accurate insights from raw, complex, data.
 
 <a href="/research" class="block w-48 h-12 my-5 font-medium text-center text-white tt-lc bg-logiclyorange hover:bg-logiclyhover">
-  <button class="w-full h-full">Logicly Research</button>
+  <button class="w-full h-full">logicly research</button>
 </a>
 
 </div>

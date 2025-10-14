@@ -121,7 +121,7 @@
         <div class="col-span-12 border-t-2 border-logiclytheme3">
         </div>
         <div class="col-span-12 -mb-3 lg:col-span-3">
-          <h3 class="text-xl font-bold">Maintain & Improve</h3>
+          <h3 class="text-xl font-bold">Maintain and improve</h3>
         </div>
         <div class="col-span-12 -mb-2 font-light lg:col-span-5 lg:pr-6">
           <p>A great digital solution should be easy to use for the people who need it. We’ll be working alongside you to help smooth any bumps along the way.</p>
