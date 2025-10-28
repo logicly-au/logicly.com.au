@@ -28,7 +28,8 @@
             Topics
           </h2>
         </div>
-        <select class="col-span-3 col-start-1 pb-2 border-b-2 sm:col-span-1 sm:col-start-3 border-logiclyorange bg-logiclylightgrey sm:pb-0" @change="updateHash()" v-model="category">
+        <label for="select-topics" class="sr-only">Filter by topic</label>
+        <select id="select-topics" class="col-span-3 col-start-1 pb-2 border-b-2 sm:col-span-1 sm:col-start-3 border-logiclyorange bg-logiclylightgrey sm:pb-0" @change="updateHash()" v-model="category">
           <option value="" >All categories</option>
           <option v-for="category in categories" :value="category">{{ category }}</option>
         </select>
