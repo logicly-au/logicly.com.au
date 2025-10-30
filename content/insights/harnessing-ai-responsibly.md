@@ -83,7 +83,7 @@ The <a href="https://www.cyber.gov.au/resources-business-and-government/governan
 
 Moreover, the cost of AI implementation is a considerable barrier. AI projects often require substantial computational power, leading to high expenses that can strain budgets. There are <a href="https://www.washingtonpost.com/technology/2023/06/05/chatgpt-hidden-cost-gpu-compute/"> hidden costs</a> to AI. As of 2024, the costs associated with AI are significantly underwritten by investors therefore it is difficult to estimate the likely cost of a long-running project. Test cases make sense. Realistic estimation of the ongoing costs should remain a significant consideration for any organisation looking to adopt this technology for any project of significant duration.
 
-![Test the approach, gather feedback, refine the application, scale and build up](/test-feedback-refine.png)
+![Focus on small, manageble initiatives that align with strategic goals: test approach, gather feedback, refine application, scale up and build](/test-feedback-refine.png)
 
 ## The strategy: start small, think big
 Given the complexities and costs associated with AI, a cautious, <a href="https://www.logicly.com.au/insights/incremental-success">incremental approach</a> is essential. Rather than diving headfirst into large-scale AI projects, organisations should focus on small, manageable initiatives that align with their strategic goals. This allows them to test the waters, gather valuable feedback and refine their AI applications before scaling up.

@@ -86,7 +86,7 @@ A full replacement can disrupt your users, especially if it removes features the
     </br>
 </div>
 
-![Computer screen with updating message](/Evolve-replace2.png)
+![Computer screen with updating message and the text 'Iterative upgrades' written above the screen](/Evolve-replace2.png)
 
 #### Case study: The Mental Health Establishments National Minimum Data Set (MHE NMDS) 
 
