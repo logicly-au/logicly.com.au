@@ -6,7 +6,7 @@ author: Adam Clarke
 jobtitle: Director/Senior Consultant/CTO
 date: 15 January 2024
 img: reducing-data-breach-risk.jpg
-alt: Reducing data breach image
+alt: Hot topic, Public sector information security
 imgheader: reducing-data-breach-risk-header.jpg
 link: /insights/reducing-data-breach-risk
 categories:
@@ -65,7 +65,7 @@ The public sector is not immune, as evidenced by the Australian Defence Force cy
 Information security is complex, but you need to address and conquer it. Misconceptions around information security can make it confusing and difficult to manage your risk effectively. This article will debunk some common myths and give tips on implementing information security thoughtfully and sustainably. We’ll also explain how our team can help solve your complex information security challenges so you can accurately understand your risks and make considered decisions about appropriate responses.
 
 
-![Reducing data breach image](/reducing-data-breach-risk.jpg)
+![Hot topic, Public sector information security](/reducing-data-breach-risk.jpg)
 
 ## What is information security?
 <strong>Information security is the process of safeguarding digital information from unauthorised or unintended access, modification or loss. It covers various aspects of information protection and applies technical, organisational and legal measures to prevent, detect and respond to potential threats and incidents that can compromise information systems and the data they hold.</strong>

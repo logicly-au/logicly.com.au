@@ -13,7 +13,7 @@ author: Andrew Gordon
 jobtitle: Business Development Manager
 date: 22 Aug 2022
 img: /Victorian-Department-of-Education-and-Training-teacher-working-on-computer.jpg
-alt: Victorian Department of Education and Training image
+alt: Professional woman handling complex data on laptop
 imgheader: /drowning-in-data-you-might-be-dealing-with-a-complex-information-challenge-header.jpg
 link: /insights/drowning-in-data-you-might-be-dealing-with-a-complex-information-challenge
 categories: 
@@ -79,7 +79,7 @@ When you’re responsible for the collection and analysis of data for your organ
 
 If you’re feeling a little overwhelmed by the data challenge you’re facing, it might help to take a step back and look at the factors that are contributing to the complexity.
 
-![Victorian Department of Education and Training image](/Victorian-Department-of-Education-and-Training-teacher-working-on-computer.jpg)
+![Professional woman handling complex data on laptop](/Victorian-Department-of-Education-and-Training-teacher-working-on-computer.jpg)
 
 ## What makes a data challenge complex?
 There are many factors that contribute to data complexity. In this article, we’ll focus on our top four, using an example project to bring it all to life.

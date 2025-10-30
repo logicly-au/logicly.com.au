@@ -20,39 +20,39 @@
       <div class="grid grid-cols-12 text-logiclytextgrey">
         <ul class="col-span-12 lg:col-span-8 col-start-1 lg:col-start-3 grid grid-cols-3 grid-rows-3 gap-4 mx-0 lg:-mx-8 xl:-mx-0">
           <li class="items-center col-span-1">
-            <img src="/Everyone_brings_something_different_to_the_team/Researchers.svg" alt="" class="h-8 sm:h-12 m-auto" />
+            <img src="/Everyone_brings_something_different_to_the_team/Researchers.svg" alt="Checklist icon" class="h-8 sm:h-12 m-auto" />
             <h3 class="text-center font-medium text-xs sm:text-sm pt-3">Researchers</h3>
           </li>
           <li class="items-center col-span-1">
-            <img src="/Everyone_brings_something_different_to_the_team/Psychologists.svg" alt="" class="h-8 sm:h-12 m-auto" />
+            <img src="/Everyone_brings_something_different_to_the_team/Psychologists.svg" alt="Human icon" class="h-8 sm:h-12 m-auto" />
             <h3 class="text-center font-medium text-xs sm:text-sm pt-3">Psychologists</h3>
           </li>
           <li class="items-center col-span-1">
-            <img src="/Everyone_brings_something_different_to_the_team/Mathematicians.svg" alt="" class="h-8 sm:h-12 m-auto" />
+            <img src="/Everyone_brings_something_different_to_the_team/Mathematicians.svg" alt="Calculator icon" class="h-8 sm:h-12 m-auto" />
             <h3 class="text-center font-medium text-xs sm:text-sm pt-3">Mathematicians</h3>
           </li>
           <li class="items-center col-span-1">
-            <img src="/Everyone_brings_something_different_to_the_team/Project_managers.svg" alt="" class="h-8 sm:h-12 m-auto" />
+            <img src="/Everyone_brings_something_different_to_the_team/Project_managers.svg" alt="Manager icon" class="h-8 sm:h-12 m-auto" />
             <h3 class="text-center font-medium text-xs sm:text-sm pt-3">Project Managers</h3>
           </li>
           <li class="items-center col-span-1">
-            <img src="/Everyone_brings_something_different_to_the_team/Support.svg" alt="" class="h-8 sm:h-12 m-auto" />
+            <img src="/Everyone_brings_something_different_to_the_team/Support.svg" alt="Help icon" class="h-8 sm:h-12 m-auto" />
             <h3 class="text-center font-medium text-xs sm:text-sm pt-3">Support</h3>
           </li>
           <li class="items-center col-span-1">
-            <img src="/Everyone_brings_something_different_to_the_team/Security_experts.svg" alt="" class="h-8 sm:h-12 m-auto" />
+            <img src="/Everyone_brings_something_different_to_the_team/Security_experts.svg" alt="Shield icon" class="h-8 sm:h-12 m-auto" />
             <h3 class="text-center font-medium text-xs sm:text-sm pt-3">Security experts</h3>
           </li>
           <li class="items-center col-span-1">
-            <img src="/Everyone_brings_something_different_to_the_team/User_experience_design_(UX).svg" alt="" class="h-8 sm:h-12 m-auto" />
+            <img src="/Everyone_brings_something_different_to_the_team/User_experience_design_(UX).svg" alt="Smartphone icon with checkmark" class="h-8 sm:h-12 m-auto" />
             <h3 class="text-center font-medium text-xs sm:text-sm pt-3">User experience</br> design (UX)</h3>
           </li>
           <li class="items-center col-span-1">
-            <img src="/Everyone_brings_something_different_to_the_team/Interface_design_(UI).svg" alt="" class="h-8 sm:h-12 m-auto" />
+            <img src="/Everyone_brings_something_different_to_the_team/Interface_design_(UI).svg" alt="Pen tool icon" class="h-8 sm:h-12 m-auto" />
             <h3 class="text-center font-medium text-xs sm:text-sm pt-3">Interface design (UI)</h3>
           </li>
           <li class="items-center col-span-1">
-            <img src="/Everyone_brings_something_different_to_the_team/Developers.svg" alt="" class="h-8 sm:h-12 m-auto" />
+            <img src="/Everyone_brings_something_different_to_the_team/Developers.svg" alt="Smartphone icon with gears" class="h-8 sm:h-12 m-auto" />
             <h3 class="text-center font-medium text-xs sm:text-sm pt-3">Developers</h3>
           </li>
         </ul>
