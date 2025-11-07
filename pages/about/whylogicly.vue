@@ -1,13 +1,10 @@
 <template>
   <div>
-
-
     <div class="my-10">
       <h1 class="text-3xl font-semibold text-center text-logiclytextgrey xl:text-4xl">Why Logicly?</h1>
     </div>
 
     <page-section altrow>
-
       <div class="px-0 xl:px-6">
         <div class="text-center text-logiclytextgrey">
           <h2 class="pb-2 text-2xl font-semibold leading-snug text-center">Thoughtfully designed digital systems that solve your complex information challenges</h2>
@@ -15,7 +12,6 @@
         </div>
       </div>
     </page-section>
-
 
     <page-section>
       <div class="flex justify-center ">
@@ -42,7 +38,6 @@
         </div>
       </div>
     </page-section>
-
 
     <page-section>
       <div class="grid grid-cols-12 px-0 pb-0 mb-0 xl:gap-x-6 text-logiclytextgrey lg:px-20 xl:px-0 xl:-mx-20 xl:-mb-20">
@@ -77,7 +72,6 @@
        </div>
 
        <div class="col-span-12 pb-2 pl-0 xl:col-span-6 xl:pl-4 xl:-ml-12 xl:pb-16">
-         <!-- TODO Get rid of the lipsum here -->
          <h3 class="pt-4 pb-3 text-xl font-bold text-logiclytheme2 xl:pt-0 xl:-mt-2">Evolving to meet the changing needs of our customers</h3>
          <p class="pb-2 text-sm font-light">
            Since 1996, we’ve continued to grow and adapt, helping our corporate, government and educational clients understand the power of technology, improve efficiencies and gain quality information to inform critical decisions.
@@ -99,7 +93,6 @@
        </div>
       </div>
     </page-section>
-
 
     <page-section altrow>
       <h2 class="pb-6 text-2xl font-semibold text-center text-logiclytextgrey">Hello, we’re Logicly.</h2>
@@ -146,15 +139,12 @@
               <h3 class="pt-3 text-xs font-medium text-center sm:text-sm">Developers</h3>
             </li>
           </ul>
-
         </div>
       </div>
     </page-section>
 
-
     <page-section>
       <div class="grid items-center grid-cols-3 gap-x-6 text-logiclytextgrey lg:mx-12">
-
         <div class="col-span-3">
           <h2 class="mb-8 text-xl font-medium text-center">
             We can:
@@ -196,7 +186,6 @@
       </div>
     </page-section>
 
-
     <page-section altrow>
       <div class="grid grid-cols-2 gap-3 mx-0 mb-6 lg:gap-6 text-logiclytextgrey lg:mx-8">
         <div class="col-span-1 col-start-1">
@@ -212,31 +201,20 @@
           <img src="/logicly-michelle.jpg" alt="Portrait Michelle Nicholson" class="p-0">
         </div>
       </div>
-
       <div class="mt-4 lg:px-4">
         <p class="text-lg font-light text-center text-logiclytextgrey">Logicly is our new chapter. We bring twenty-five years of knowledge and experience in research, strategy, design and technology to solve complex information challenges. We combine innovative but practical thinking, flexibility and intuitive design, to build digital systems that meet your needs. We do this by approaching each aspect of our work logically.</p>
       </div>
     </page-section>
 
-
     <page-section>
       <h2 class="pb-6 text-2xl font-semibold text-center lg:pb-10 text-logiclytextgrey">Want to know more?</h2>
-      <div class="grid grid-cols-4 justify-items-center lg:-mx-10 xl:mx-0">
-        <button class="w-40 h-12 col-span-4 my-5 font-medium text-center text-white lowercase lg:col-span-1 bg-logiclytheme1 hover:bg-logiclyhover">
-          <NuxtLink to="/whowehelp">What we do</NuxtLink>
-        </button>
-        <button class="w-40 h-12 col-span-4 my-5 font-medium text-center text-white lowercase lg:col-span-1 bg-logiclytheme2 hover:bg-logiclyhover">
-          <NuxtLink to="/howwework">How we work</NuxtLink>
-        </button>
-        <button class="w-40 h-12 col-span-4 my-5 font-medium text-center text-white lowercase lg:col-span-1 bg-logiclytheme4 hover:bg-logiclyhover">
-          <NuxtLink to="/projects">Our projects</NuxtLink>
-        </button>
-        <button class="w-40 h-12 col-span-4 my-5 font-medium text-center text-white lowercase lg:col-span-1 bg-logiclytheme3 hover:bg-logiclyhover">
-          <NuxtLink to="/contactus">Get in touch</NuxtLink>
-        </button>
+      <div class="grid grid-cols-4 justify-items-center lg:-mx-10 xl:mx-0 gap-4">
+        <NuxtLink to="/whowehelp" class="w-40 h-12 col-span-4 my-2 lg:my-5 font-medium text-center text-white lowercase lg:col-span-1 bg-logiclytheme1 hover:bg-logiclyhover inline-flex items-center justify-center min-w-[44px] min-h-[44px]">What we do</NuxtLink>
+        <NuxtLink to="/howwework" class="w-40 h-12 col-span-4 my-2 lg:my-5 font-medium text-center text-white lowercase lg:col-span-1 bg-logiclytheme2 hover:bg-logiclyhover inline-flex items-center justify-center min-w-[44px] min-h-[44px]">How we work</NuxtLink>
+        <NuxtLink to="/projects" class="w-40 h-12 col-span-4 my-2 lg:my-5 font-medium text-center text-white lowercase lg:col-span-1 bg-logiclytheme4 hover:bg-logiclyhover inline-flex items-center justify-center min-w-[44px] min-h-[44px]">Our projects</NuxtLink>
+        <NuxtLink to="/contactus" class="w-40 h-12 col-span-4 my-2 lg:my-5 font-medium text-center text-white lowercase lg:col-span-1 bg-logiclytheme3 hover:bg-logiclyhover inline-flex items-center justify-center min-w-[44px] min-h-[44px]">Get in touch</NuxtLink>
       </div>
     </page-section>
-
 
   </div>
 </template>
