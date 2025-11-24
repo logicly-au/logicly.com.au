@@ -6,7 +6,7 @@ author: Adam Clarke
 jobtitle: Director/Senior Consultant/CTO
 date: 10 July 2022
 img: /AMHOCN-coworkers-meeting-with-coworker-online.jpg
-alt: AMHOC image
+alt: Public sector online team meeting 
 imgheader: /7-tips-to-set-your-public-sector-digital-transformation-project-up-for-success-header.jpg
 link: /insights/7-tips-to-set-your-public-sector-digital-transformation-project-up-for-success
 categories:
@@ -62,7 +62,7 @@ The global shift to digitisation is transforming the way we live and work and th
 
 It’s a big shift for some public servants who now find themselves at the centre of this revolution. There’s a need to upskill, collaborate and think differently about processes and information needs. If you’re responsible for delivering a new digital information system in the public sector, here’s some tips for setting your project up for success.
 
-![AMHOCN image](/AMHOCN-coworkers-meeting-with-coworker-online.jpg)
+![Public sector online team meeting](/AMHOCN-coworkers-meeting-with-coworker-online.jpg)
 
 ## 7 tips to set your digital project up for success
 

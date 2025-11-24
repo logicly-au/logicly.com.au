@@ -6,8 +6,8 @@ category: government
 <div class="grid grid-cols-12 gap-0 lg:gap-8">
 
 <div class="col-span-12 project-images">
-    <img src="/Projects/Images/7_Australian_Mental_Health_Outcome_and_Classification_Network_(AMHOCN)/Australian-Mental-Health-Outcome-and-Classification-Network-(AMHOCN)-data-on-screen.jpg" alt="Photo of person using the AMHOC interface on a big screen" />
-    <img src="/Projects/Images/7_Australian_Mental_Health_Outcome_and_Classification_Network_(AMHOCN)/AMHOCN-coworkers-meeting-with-coworker-online.jpg" alt="Photo of team meeting" />
+    <img src="/Projects/Images/7_Australian_Mental_Health_Outcome_and_Classification_Network_(AMHOCN)/Australian-Mental-Health-Outcome-and-Classification-Network-(AMHOCN)-data-on-screen.jpg" alt="Person using the AMHOC interface on a big screen" />
+    <img src="/Projects/Images/7_Australian_Mental_Health_Outcome_and_Classification_Network_(AMHOCN)/AMHOCN-coworkers-meeting-with-coworker-online.jpg" alt="Team meeting to discuss digital solution" />
 </div>
 
 
