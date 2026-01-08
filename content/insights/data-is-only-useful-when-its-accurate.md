@@ -7,7 +7,7 @@ author: Simon Palmer
 jobtitle: Director/Senior Consultant
 date: 29 Jul 2022
 img: /Youth-and-Family-Support-Organisation-coworkers-looking-at-laptop-graph.jpg
-alt: Youth and family support organisation image
+alt: Co-workers reviewing data collection on laptop
 imgheader: /data-is-only-useful-when-its-accurate-header.jpg
 link: /insights/data-is-only-useful-when-its-accurate
 categories:
@@ -62,7 +62,7 @@ If you’re responsible for decision making in your organisation, chances are yo
 
 If the data that you’re relying on isn’t accurate, then you might make some costly decisions. So, what sorts of things should you be looking out for?
 
-![Youth and Family Support Organisation image](/Youth-and-Family-Support-Organisation-coworkers-looking-at-laptop-graph.jpg)
+![Co-workers reviewing data collection on laptop](/Youth-and-Family-Support-Organisation-coworkers-looking-at-laptop-graph.jpg)
 
 ## Counting things can be tricky
 For data to be accurate, it just needs to be correct. Simple, right? Actually, not always.

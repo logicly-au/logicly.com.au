@@ -6,7 +6,7 @@ author: Michelle Nicholson
 jobtitle: Director, Strategy and Operations
 date: 02 July 2024
 img: /getting-great-data-through-ux.jpg
-alt: Queensland department of transport and main roads image
+alt: UX designer creating wireframes to plan data collection process
 imgheader: /getting-great-data-through-ux-header.jpg
 link: /insights/getting-great-data-through-user-experience-design
 categories: 

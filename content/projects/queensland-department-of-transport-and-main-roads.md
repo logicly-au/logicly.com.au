@@ -8,13 +8,13 @@ category: government
 <div class="col-span-12 project-images">
   <div class="grid grid-cols-12">
     <div class="col-span-12">
-      <img src="/Projects/Images/5_Queensland_Department_of_Transport_and_Main_Roads/Queensland-Department-of-Transport-and-Main-Roads-woman-on-ipad.jpg" alt="Photo of woman using a tablet while walking down a street" />
+      <img src="/Projects/Images/5_Queensland_Department_of_Transport_and_Main_Roads/Queensland-Department-of-Transport-and-Main-Roads-woman-on-ipad.jpg" alt="Woman using a tablet while walking down a street" />
     </div>
     <div class="col-span-4">
-      <img class="project-image-secondrow" src="/Projects/Images/5_Queensland_Department_of_Transport_and_Main_Roads/Queensland-Department-of-Transport-and-Main-Roads-ipad-screen.jpg" alt="Photo of person using survey data app" />
+      <img class="project-image-secondrow" src="/Projects/Images/5_Queensland_Department_of_Transport_and_Main_Roads/Queensland-Department-of-Transport-and-Main-Roads-ipad-screen.jpg" alt="Respondent using survey data app" />
     </div>
     <div class="col-span-8">
-      <img class="project-image-secondrow" src="/Projects/Images/5_Queensland_Department_of_Transport_and_Main_Roads/Queensland-Department-of-Transport-and-Main-Roads-map.jpg" alt="Image of map representing traveling in Queensland " />
+      <img class="project-image-secondrow" src="/Projects/Images/5_Queensland_Department_of_Transport_and_Main_Roads/Queensland-Department-of-Transport-and-Main-Roads-map.jpg" alt="Map representing traveling in Queensland" />
     </div>
   </div>
 </div>
