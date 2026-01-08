@@ -98,6 +98,10 @@ export default {
       Array.from(drop_menus).forEach(function(e){
         e.classList.remove("display");
       });
+      var chevrons = document.getElementsByClassName("chevron-down");
+      Array.from(chevrons).forEach(function(e){
+        e.classList.remove("rotateme");
+      });
     },
     display_menu(delay) {
       var body = document.getElementsByTagName("body")[0];
