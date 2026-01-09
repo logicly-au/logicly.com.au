@@ -4,7 +4,7 @@ description: "Logicly has joined the movement towards a more inclusive, sustaina
 summary: "Logicly has joined the movement towards a more inclusive, sustainable, and regenerative economic system that benefits all people, communities, and the planet."
 author: Michelle Nicholson
 jobtitle: Director, Strategy and Operations
-date: 08 January 2026
+date: 15 January 2026
 img: harnessing-ai-responsibly.jpg
 alt: AI identifying cars on a freeway
 imgheader: harnessing-ai-responsibly.jpg
@@ -20,7 +20,7 @@ categories:
 
 Michelle Nicholson
 
-<time datetime="2024-11-08">08 January 2026</time>
+<time datetime="2026-01-15">15 January 2026</time>
 
 
 </div>
@@ -79,10 +79,15 @@ B Corps are required to undergo the verification process every three years in or
 </ol>
 </div>
 
+## What it means for our customers
+
+The B Corp accreditation is part of our commitment to an entirely new way of doing business for customers, employees, the community and the environment. This accreditation means that you can trust that we meet the highest standards for positive customer, social and environmental impact.
+
+## Curious?
+
+If you're curious about being counted among businesses that are leading a global movement for an inclusive, equitable, and regenerative economy, start by exploring the <a href="https://bcorporation.com.au/">B Corp website.</a> If you're curious about our experience, <NuxtLink to="/contactus">contact us</NuxtLink> to find out why we're so excited to be a Certified B Corp.
 
 
-
-<NuxtLink to="/contactus">Get started</NuxtLink> with a free 30-minute consultation.
 
 </div>
 </div>
