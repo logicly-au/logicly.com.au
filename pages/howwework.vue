@@ -60,7 +60,7 @@
        </div>
 
        <div class="col-span-12 pb-12 mt-1 xl:col-span-2 xl:mt-8 xl:pb-0">
-         <h4 class="text-sm font-semibold">Scoping Team</h4>
+         <h4 class="text-sm font-semibold">Scoping team</h4>
          <p class="text-xs font-light xl:pb-2">
            Product Managers<br />
            Adam Clarke, Director/CTO<br />
@@ -97,7 +97,7 @@
            workflows and business constraints.
          </p>
          <h4 class="pt-2 text-base font-semibold">
-           System & database design
+           System and database design
          </h4>
          <p class="text-sm font-light">
            The system is designed to support the technical needs of the interface and the database design is based
@@ -191,7 +191,7 @@
        </div>
 
        <div class="col-span-12 pb-2 pl-0 xl:col-span-4 xl:pl-4 xl:-ml-12 xl:pb-24">
-         <h3 class="pt-4 pb-3 text-xl font-bold text-logiclytheme3 xl:pt-0 xl:-mt-2">4. Maintain & Improve</h3>
+         <h3 class="pt-4 pb-3 text-xl font-bold text-logiclytheme3 xl:pt-0 xl:-mt-2">4. Maintain and improve</h3>
          <p class="pb-2 text-sm font-light">
            Once the digital solution is launched and live, we continue to work with our clients to gain the most
            from their digital system.
@@ -218,14 +218,14 @@
            systems.
          </p>
          <h4 class="pt-2 text-base font-semibold">
-           Updating & improving
+           Updating and improving
          </h4>
          <p class="text-sm font-light">
            We update the software libraries and systems according to best practice but we also
            look for new ways to improve on the user experience, efficiencies and speed.
          </p>
          <h4 class="pt-2 text-base font-semibold">
-           Help Desk
+           Help desk
          </h4>
          <p class="text-sm font-light">
            We provide personalised support during business hours, 24/7 support in case of emergencies and

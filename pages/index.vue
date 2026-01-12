@@ -60,7 +60,7 @@
         </div>
 
         <div class="flex items-start col-span-6 border-t-4 md:col-span-2 md:col-start-1 border-logiclytheme3">
-          <span class="text-5xl font-thin text-logiclytheme3">4</span><span class="pt-5 pl-3 text-lg font-semibold leading-snug md:text-base lg:text-lg">Maintain and Improve</span>
+          <span class="text-5xl font-thin text-logiclytheme3">4</span><span class="pt-5 pl-3 text-lg font-semibold leading-snug md:text-base lg:text-lg">Maintain and improve</span>
         </div>
 
         <div class="col-span-6 pb-5 border-0 md:col-span-4 md:col-start-3 md:border-t-4 md:border-gray-400 md:pt-5">
@@ -88,7 +88,7 @@
     <page-section altrow>
       <!-- Header -->
       <div class="mb-8 leading-snug text-center text-logiclytextgrey">
-        <h2 class="text-2xl font-semibold">Making complex information secure & accessible for private & public use</h2>
+        <h2 class="text-2xl font-semibold">Making complex information secure and accessible for private and public use</h2>
       </div>
 
       <!-- Sub grid 1 -->

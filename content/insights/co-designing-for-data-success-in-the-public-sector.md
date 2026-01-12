@@ -64,7 +64,7 @@ Putting together a business case to secure budget? Reporting back for public acc
 ## That sounds tricky. Where to start?
 Choosing <NuxtLink to="/about/ourapproach">a collaborative partner</NuxtLink> to support your data requirements is key. Look for a <NuxtLink to="/about/ourteam">diverse team</NuxtLink> with a range of backgrounds, experiences and skills.
 
-![Co-designing for data success in the public sector](/co-designing-for-data-success-in-the-public-sector.png)
+![Diverse team consisting of researchers, psychologists, mathematicians, project managers, support, security experts, user experience design (UX), interface design (UI), developers](/co-designing-for-data-success-in-the-public-sector.png)
 
 At Logicly, our <NuxtLink to="/projects/?article=0&tab=0">most successful projects</NuxtLink> happen when there’s deep collaboration between your experts, our experts, and your key stakeholders. We become an extension of your team so we can deeply understand your needs and deliver solutions that do more than you ever imagined. We want to engage with your stakeholders in a meaningful way to design solutions that are fit for purpose. To achieve this, we use a <NuxtLink to="/howwework">process called co-design</NuxtLink>.
 

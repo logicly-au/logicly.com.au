@@ -6,8 +6,8 @@ category: government
 <div class="grid grid-cols-12 gap-0 lg:gap-8">
 
 <div class="col-span-12 project-images">
-    <img src="/Projects/Images/7_Australian_Mental_Health_Outcome_and_Classification_Network_(AMHOCN)/Australian-Mental-Health-Outcome-and-Classification-Network-(AMHOCN)-data-on-screen.jpg" alt="Photo of person using the AMHOC interface on a big screen" />
-    <img src="/Projects/Images/7_Australian_Mental_Health_Outcome_and_Classification_Network_(AMHOCN)/AMHOCN-coworkers-meeting-with-coworker-online.jpg" alt="Photo of team meeting" />
+    <img src="/Projects/Images/7_Australian_Mental_Health_Outcome_and_Classification_Network_(AMHOCN)/Australian-Mental-Health-Outcome-and-Classification-Network-(AMHOCN)-data-on-screen.jpg" alt="Person using the AMHOC interface on a big screen" />
+    <img src="/Projects/Images/7_Australian_Mental_Health_Outcome_and_Classification_Network_(AMHOCN)/AMHOCN-coworkers-meeting-with-coworker-online.jpg" alt="Team meeting to discuss digital solution" />
 </div>
 
 
@@ -67,7 +67,7 @@ It’s a robust, strategically-designed system that for over 15 years has contin
 It will continue to help shape better mental health outcomes for Australia into the future by consistently delivering clear, accurate insights from raw, complex, data.
 
 <a href="/research" class="block w-48 h-12 my-5 font-medium text-center text-white tt-lc bg-logiclyorange hover:bg-logiclyhover">
-  <button class="w-full h-full">Logicly Research</button>
+  <button class="w-full h-full">logicly research</button>
 </a>
 
 </div>

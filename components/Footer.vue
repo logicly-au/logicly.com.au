@@ -19,7 +19,7 @@
               </div>
               <div>
                 <a href="tel:0061393409000" class="block">+61 3 9340 9000</a>
-                <a href="mailto:info@logicly.com.au">info@logicly.com.au</a>
+                <a href="mailto:info@logicly.com.au" class="block">info@logicly.com.au</a>
                 <span class="block">2nd floor, 51 – 55 Johnston Street,</span>
                 <span class="block">Fitzroy, Victoria 3065, Australia</span>
                 <span class="block">PO Box 1166, Carlton, Victoria 3053, Australia</span>
@@ -31,7 +31,7 @@
               </div>
             </div>
             <div class="grid grid-cols-3 col-span-12 text-sm lg:col-span-6 lg:col-start-6 xl:col-span-5 xl:col-start-7 lg:mt-4">
-              <div class="col-span-3 mb-6 lg:col-span-1 lg:mb-0">
+              <div class="col-span-3 mb-6 lg:col-span-1 lg:mb-0 flex flex-col space-y-1">
                 <NuxtLink to="/" class="block hover:underline" exact>home</NuxtLink>
                 <NuxtLink to="/whatwedo" class="block hover:underline" exact>what we do</NuxtLink>
                 <NuxtLink to="/howwework" class="block hover:underline" exact>how we work</NuxtLink>
@@ -39,6 +39,7 @@
                 <NuxtLink to="/insights" class="block hover:underline" exact>insights</NuxtLink>
                 <NuxtLink to="/contactus" class="block hover:underline" exact>contact us</NuxtLink>
               </div>
+              <!-- TODO Add links for 'Who we help' page sections -->
               <div class="col-span-3 mb-6 lg:col-span-1 lg:mb-0">
                 <NuxtLink to="/whowehelp" class="block font-bold hover:underline" exact>who we help</NuxtLink>
                 <NuxtLink to="/whowehelp#researchers" class="block hover:underline" exact>researchers</NuxtLink>
@@ -48,7 +49,7 @@
                 <NuxtLink to="/whowehelp#corporate" class="block hover:underline" exact>corporate</NuxtLink>
                 <NuxtLink to="/whowehelp#education" class="block hover:underline" exact>educational</NuxtLink>
               </div>
-              <div class="col-span-3 mb-6 lg:col-span-1 lg:mb-0">
+              <div class="col-span-3 mb-6 lg:col-span-1 lg:mb-0 flex flex-col space-y-1">
                 <NuxtLink to="/about/us" class="block font-bold hover:underline" exact>about</NuxtLink>
                 <NuxtLink to="/about/ourapproach" class="block hover:underline" exact>our approach</NuxtLink>
                 <NuxtLink to="/about/ourteam" class="block hover:underline" exact>our team</NuxtLink>
@@ -57,11 +58,11 @@
               </div>
             </div>
 
-            <div class="col-span-12 flex flex-col sm:flex-row justify-between items-start sm:items-end">
-              <div class="text-sm">
+            <div class="col-span-12 flex flex-col sm:flex-row justify-between items-start sm:items-end flex-wrap">
+              <div class="text-sm flex flex-wrap items-start">
                 <span class="pr-2">Logicly © {{ copyrightYear }}</span>
-                <NuxtLink to="/privacy" class="hover:underline pr-2" exact>Privacy policy</NuxtLink>
-                <a href="/accessibility" class="hover:underline">Accessibility</a>
+                <span class="pr-2"><NuxtLink to="/privacy" class="hover:underline" exact>Privacy policy</NuxtLink></span>
+                <NuxtLink to="/accessibility" class="hover:underline" exact>Accessibility</NuxtLink>
               </div>
               <a href="https://bcorporation.com.au/">
                 <img src="~/assets/images/B-Corp-Logo-Black-RGB.png" class="h-[72px] w-auto mt-6 sm:mt-0" alt="Certified B Corporation logo">
@@ -117,10 +118,28 @@
 
 
 <style scoped>
+.logicly-footer a {
+  padding: 2px 0;       
+  margin: -2px 0;       
+  min-height: 24px;     
+  text-decoration: none;
+}
+
+.logicly-footer a:hover {
+  text-decoration: underline;
+}
 
 .nuxt-link-active {
   color: #E94E1B;
   font-weight: bold;
+}
+
+.logicly-footer a[href^="tel"],
+.logicly-footer a[href^="mailto"] {
+  min-height: 24px !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  overflow: visible !important;
 }
 
 @media only screen and (max-width: 500px) {
@@ -129,5 +148,4 @@
     padding-right: 0.5rem;
   }
 }
-
 </style>

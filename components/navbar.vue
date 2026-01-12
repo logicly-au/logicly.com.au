@@ -8,27 +8,41 @@
       </div>
       <NuxtLink to="/" class="self-start"><logo sizeClass="h-8 mb-4 mt-3" /></NuxtLink>
       <nav id="menu">
-        <li><NuxtLink to="/" exact v-on:click.native="display_menu(true);close_all_menu()" class="hover:underline">home</NuxtLink></li>
-        <li class="drop">
-          <a v-on:click="display_drop_menu()" class="cursor-pointer" :class="{ 'nuxt-link-exact-active': aboutActive }">
-            about
-          </a>
-          <i class="cursor-pointer chevron-down" @click="display_drop_menu()"></i>
-          <ul class="drop_menu">
-            <NuxtLink to="/about/us" class="hover:underline" v-on:click.native="display_menu(true);close_all_menu()">about us</NuxtLink>
-            <NuxtLink to="/about/ourapproach" class="hover:underline" v-on:click.native="display_menu(true);close_all_menu()">our approach</NuxtLink>
-            <NuxtLink to="/about/ourteam" class="hover:underline" v-on:click.native="display_menu(true);close_all_menu()">our team</NuxtLink>
-            <NuxtLink to="/about/oursecurity" class="hover:underline" v-on:click.native="display_menu(true);close_all_menu()">our security</NuxtLink>
-            <NuxtLink to="/about/ourculture" class="hover:underline" v-on:click.native="display_menu(true);close_all_menu()">our culture</NuxtLink>
-            <NuxtLink to="/about/whylogicly" class="hover:underline" v-on:click.native="display_menu(true);close_all_menu()">why logicly</NuxtLink>
-          </ul>
-        </li>
-        <li><NuxtLink to="/whowehelp" v-on:click.native="display_menu(true);close_all_menu()" class="hover:underline">who we help</NuxtLink></li>
-        <li><NuxtLink to="/whatwedo" v-on:click.native="display_menu(true);close_all_menu()" class="hover:underline">what we do</NuxtLink></li>
-        <li><NuxtLink to="/howwework" v-on:click.native="display_menu(true);close_all_menu()" class="hover:underline">how we work</NuxtLink></li>
-        <li><NuxtLink to="/projects" v-on:click.native="display_menu(true);close_all_menu()" class="hover:underline" :class="{ 'nuxt-link-exact-active' : $route.path.startsWith('/projects') }">projects</NuxtLink></li>
-        <li><NuxtLink to="/insights" v-on:click.native="display_menu(true);close_all_menu()" class="hover:underline">insights</NuxtLink></li>
-        <li><NuxtLink to="/contactus" v-on:click.native="display_menu(true);close_all_menu()" class="hover:underline">contact us</NuxtLink></li>
+        <ul>
+          <li><NuxtLink to="/" exact v-on:click.native="display_menu(true);close_all_menu()" class="hover:underline">home</NuxtLink></li>
+          <li class="drop">
+            <a v-on:click="display_drop_menu()" class="cursor-pointer" :class="{ 'nuxt-link-exact-active': aboutActive }">
+              about
+            </a>
+            <i class="cursor-pointer chevron-down" @click="display_drop_menu()"></i>
+            <ul class="drop_menu">
+              <li>
+                <NuxtLink to="/about/us" class="hover:underline" v-on:click.native="display_menu(true);close_all_menu()">about us</NuxtLink>
+              </li>
+              <li>
+                <NuxtLink to="/about/ourapproach" class="hover:underline" v-on:click.native="display_menu(true);close_all_menu()">our approach</NuxtLink>
+              </li>
+              <li>
+                <NuxtLink to="/about/ourteam" class="hover:underline" v-on:click.native="display_menu(true);close_all_menu()">our team</NuxtLink>
+              </li>
+              <li>
+                <NuxtLink to="/about/oursecurity" class="hover:underline" v-on:click.native="display_menu(true);close_all_menu()">our security</NuxtLink>
+              </li>
+              <li>
+                <NuxtLink to="/about/ourculture" class="hover:underline" v-on:click.native="display_menu(true);close_all_menu()">our culture</NuxtLink>
+              </li>
+              <li>
+                <NuxtLink to="/about/whylogicly" class="hover:underline" v-on:click.native="display_menu(true);close_all_menu()">why logicly</NuxtLink>
+              </li>
+            </ul>
+          </li>
+          <li><NuxtLink to="/whowehelp" v-on:click.native="display_menu(true);close_all_menu()" class="hover:underline">who we help</NuxtLink></li>
+          <li><NuxtLink to="/whatwedo" v-on:click.native="display_menu(true);close_all_menu()" class="hover:underline">what we do</NuxtLink></li>
+          <li><NuxtLink to="/howwework" v-on:click.native="display_menu(true);close_all_menu()" class="hover:underline">how we work</NuxtLink></li>
+          <li><NuxtLink to="/projects" v-on:click.native="display_menu(true);close_all_menu()" class="hover:underline" :class="{ 'nuxt-link-exact-active' : $route.path.startsWith('/projects') }">projects</NuxtLink></li>
+          <li><NuxtLink to="/insights" v-on:click.native="display_menu(true);close_all_menu()" class="hover:underline">insights</NuxtLink></li>
+          <li><NuxtLink to="/contactus" v-on:click.native="display_menu(true);close_all_menu()" class="hover:underline">contact us</NuxtLink></li>
+        </ul>
       </nav>
     </div>
   </header>
@@ -83,6 +97,10 @@ export default {
       var drop_menus = document.getElementsByClassName("drop_menu");
       Array.from(drop_menus).forEach(function(e){
         e.classList.remove("display");
+      });
+      var chevrons = document.getElementsByClassName("chevron-down");
+      Array.from(chevrons).forEach(function(e){
+        e.classList.remove("rotateme");
       });
     },
     display_menu(delay) {
@@ -212,10 +230,10 @@ header img {
   width: 150px;
 }
 
-header #menu {
+header #menu > ul {
   display: flex;
   flex-direction: row;
-  font-size: 0.85rem;
+  align-items: center;
 }
 
 header #menu li {
@@ -229,18 +247,6 @@ header #menu li i {
   height: 30px;
   background-color: #3E3A37;
 }
-
-/*
-header #menu li a {
-  color: #3E3A37;
-  cursor: pointer;
-  font-size: 1.15em;
-  border: none;
-  border-bottom: 2px solid #ffffff;
-  transition: 0.15s;
-  background: none;
-}
-*/
 
 header #menu li a:hover {
   border-bottom-color: none;
@@ -268,6 +274,10 @@ header .drop_menu a {
   opacity: 0;
   margin-right: 20px;
   padding: 10px 0 0 0;
+}
+
+header .drop_menu li {
+  margin: 0!important;
 }
 
 header .drop_menu.display {
@@ -473,6 +483,12 @@ header #hamburger span:nth-child(3) {
     height: auto;
     padding-top: 2rem;
     padding-bottom: 1rem;
+  }
+
+  .display_menu header #menu > ul {
+    display: block;
+    padding: 0;
+    margin: 0;
   }
 
   .display_menu header #menu li {
