@@ -5,9 +5,9 @@ summary: "Logicly has joined the movement towards a more inclusive, sustainable,
 author: Michelle Nicholson
 jobtitle: Director, Strategy and Operations
 date: 15 January 2026
-img: harnessing-ai-responsibly.jpg
+img: b-corp-article.png
 alt: AI identifying cars on a freeway
-imgheader: harnessing-ai-responsibly.jpg
+imgheader: b-corp-article-header.jpg
 link: /insights/b-corp
 categories:
   - Ethical data standards
