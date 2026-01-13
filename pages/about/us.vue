@@ -22,7 +22,7 @@
       iconurl="/25-years-shaping-large-complicated-projects.svg"
       imgwidth="280px"
       alttext="A graphic showing lots of icons, symbolising complicated projects"
-      heading="25 years shaping large complicated projects"
+      :heading="heroHeading"
       subheading="Our background originates in research and psychology with experience in statistics. This knowledge of research and ethics around data is the foundation of every project. After working for twenty years with government and on large health projects we understand the contractual requirements for reporting, legal and privacy constraints and meeting security standards."
     />
 
@@ -49,12 +49,20 @@
 </template>
 
 <script>
+import { getCompanyAge } from '@/utils/companyAge'
+
 export default {
   head() {
     return {
-      title: "About us · Logicly"
+      title: "About us"
     };
   },
+
+  computed: {
+    heroHeading() {
+      return `${getCompanyAge()} years shaping large complicated projects`
+    }
+  }
 };
 </script>
 
