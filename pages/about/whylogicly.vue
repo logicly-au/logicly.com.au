@@ -99,7 +99,7 @@
       <div class="grid grid-cols-12 text-logiclytextgrey">
         <div class="col-span-12 col-start-1 mx-0 lg:col-span-8 lg:col-start-3 lg:-mx-8 xl:-mx-0">
           <div class="col-span-12">
-            <p class="mb-12 font-light text-center">25 years since our inception, we’ve grown to a team of 24 talented experts.</p>
+            <p class="mb-12 font-light text-center">{{ companyAge }} years since our inception, we’ve grown to a team of 24 talented experts.</p>
           </div>
           <ul class="grid grid-cols-3 grid-rows-3 gap-4">
             <li class="items-center col-span-1">
@@ -220,12 +220,20 @@
 </template>
 
 <script>
+import { getCompanyAge } from '@/utils/companyAge'
+
 export default {
   head() {
     return {
       title: "Why Logicly? · Logicly"
     };
   },
+
+    computed: {
+    companyAge() {
+      return getCompanyAge()
+    }
+  }
 };
 </script>
 
