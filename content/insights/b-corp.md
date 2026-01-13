@@ -65,7 +65,7 @@ They were determined, and still are, to build a company to be proud of.
 ## What are B Corps?
 B Corp Certification is a <a href="https://www.bcorporation.net/en-us/certification">designation that a business is meeting high standards of verified performance, accountability, and transparency on factors including governance, customer service, employee benefits, stakeholder relationships and the environment.</a> 
 
-Certification is a rigorous process - it took a lot of work from our small team to document and collate the evidence we needed to demonstrate that we met the requirements! 
+Certification is a rigorous process - it took a lot of work from our small team to document and collate the evidence we needed to demonstrate that we met the requirements. 
 
 ## So why become a B Corp?
 <div class="blog-text-list">
