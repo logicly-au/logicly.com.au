@@ -202,7 +202,7 @@
         </div>
       </div>
       <div class="mt-4 lg:px-4">
-        <p class="text-lg font-light text-center text-logiclytextgrey">Logicly is our new chapter. We bring twenty-five years of knowledge and experience in research, strategy, design and technology to solve complex information challenges. We combine innovative but practical thinking, flexibility and intuitive design, to build digital systems that meet your needs. We do this by approaching each aspect of our work logically.</p>
+        <p class="text-lg font-light text-center text-logiclytextgrey">Logicly is our new chapter. We bring {{ companyAge }} years of knowledge and experience in research, strategy, design and technology to solve complex information challenges. We combine innovative but practical thinking, flexibility and intuitive design, to build digital systems that meet your needs. We do this by approaching each aspect of our work logically.</p>
       </div>
     </page-section>
 
