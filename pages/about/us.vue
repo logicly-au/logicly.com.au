@@ -23,7 +23,7 @@
       imgwidth="280px"
       alttext="A graphic showing lots of icons, symbolising complicated projects"
       :heading="heroHeading"
-      subheading="Our background originates in research and psychology with experience in statistics. This knowledge of research and ethics around data is the foundation of every project. After working for twenty years with government and on large health projects we understand the contractual requirements for reporting, legal and privacy constraints and meeting security standards."
+      subheading="Our background originates in research and psychology with experience in statistics. This knowledge of research and ethics around data is the foundation of every project. After working with government and on large health projects since 2002 we understand the contractual requirements for reporting, legal and privacy constraints and meeting security standards."
     />
 
     <Heroblacktext
