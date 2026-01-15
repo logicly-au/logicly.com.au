@@ -29,7 +29,7 @@
       imgwidth="280px"
       alttext="A graphic showing lots of icons, symbolising complicated projects"
       heading="Developing thoughtfully designed digital systems"
-      subheading="We bring twenty five years of knowledge and experience in research, strategy, design and technology to solve your complex information challenges. Our digital systems are built with innovative but practical thinking, flexibility and intuitive design, always with the user experience in mind."
+      :subheading="heroHeading"
       altrow
     />
 
@@ -88,6 +88,8 @@
 </template>
 
 <script>
+import { getCompanyAge } from '@/utils/companyAge'
+
 export default {
   head() {
     return {
@@ -150,6 +152,10 @@ export default {
     };
   },
   computed: {
+    heroHeading() {
+      return `We bring ${getCompanyAge()} years of knowledge and experience in research, strategy, design and technology to solve your complex information challenges. Our digital systems are built with innovative but practical thinking, flexibility and intuitive design, always with the user experience in mind.`
+    },
+
     filteredCaseStudies() {
       if (!this.activeTag) {
         return this.caseStudies;
