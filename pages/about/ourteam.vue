@@ -127,7 +127,7 @@
           </div>
         </div>
 
-        <div class="col-span-2 lg:col-span-1 lg:col-start-2">
+        <div class="col-span-2 lg:col-span-1 lg:col-start-2 pb-16">
           <div class="col-span-1 pb-6">
             <img src="/logicly-michelle.jpg" alt="Portrait Michelle Nicholson" class="p-0">
           </div>
@@ -136,16 +136,13 @@
               Michelle Nicholson
             </h3>
             <h4 class="text-sm font-medium pb-4">
-              Director / Manager, Business Operations
+              Director / Strategy and Operations
             </h4>
             <p class="pb-2 text-sm">
-              Michelle is the newest member of Logicly’s Board of Directors.
-            </p>
-            <p class="pb-2 text-sm">
-              Eleven years ago Michelle started as an account manager for WebSurvey. Since then she has added WebSurvey Manager and Project Manager to her list of titles, got her hands dirty ensuring that company policies and protocols were in place (and consistent), and helped Andrew keep an eye on the finance side of things. In 2018 her company wide involvement saw her take on a tailor made role as Manager of Business Operations, and in 2021 she added ‘Director’ to the tally. Michelle gets excited by strategy, operations and a quality approach to project delivery.
+              Michelle started with us in 2010 as an account manager for WebSurvey. She soon added WebSurvey Manager and Project Manager to her list of titles, got her hands dirty ensuring that company policies and protocols were in place (and consistent), and helped Andrew keep an eye on the finance side of things. In 2018 her company wide involvement saw her take on a tailor made role as Manager of Business Operations, and in 2021 she added ‘Director’ to the tally. Michelle gets excited by strategy, operations and a quality approach to project delivery.
             </p>
             <p class="text-sm">
-              On the weekends Michelle can be found (or not) hiking in the bush, visiting art galleries, or drinking coffee.
+              On the weekends Michelle can be found hiking in the bush, visiting art galleries, or drinking coffee.
             </p>
           </div>
         </div>
