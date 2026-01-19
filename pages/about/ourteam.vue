@@ -66,7 +66,7 @@
       </div>
 
       <!-- Main grid -->
-      <div class="grid grid-cols-2 col-gap-6 text-logiclytextgrey">
+      <div class="grid grid-cols-2 col-gap-6 lg:gap-x-6 xl:gap-x-8 text-logiclytextgrey">
         <div class="col-span-2 lg:col-span-1 lg:col-start-1 pb-16">
           <div class="col-span-1 pb-6">
             <img src="/logicly-adam.jpg" alt="Portrait Adam Clarke" class="p-0">
