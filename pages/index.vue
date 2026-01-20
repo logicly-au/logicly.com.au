@@ -90,7 +90,7 @@
       </div>
 
       <!-- Sub grid 1 -->
-      <div class="flex grid flex-col grid-cols-2 col-gap-4 text-logiclytextgrey">
+      <div class="flex grid flex-col grid-cols-2 col-gap-4 lg:gap-x-6 text-logiclytextgrey">
         <div class="grid grid-cols-2 col-span-2 lg:col-span-1 lg:col-start-1">
 
           <div class="col-span-2">

@@ -250,15 +250,14 @@
 
 
     <page-section altrow>
-      <div class="flex grid items-center grid-cols-12 px-0 pb-0 xl:gap-x-6 lg:px-20 xl:px-0 xl:-mx-20 xl:-mt-32 xl:pb-12">
+      <div class="grid grid-cols-12 items-stretch relative px-0 pb-0 xl:gap-x-6 lg:px-20 xl:px-0 xl:-mx-20 xl:-mt-32 xl:pb-12">
        <div class="col-span-12 pt-0 xl:col-span-5 xl:pt-32">
          <img src="~/assets/images/Continual_reviews.svg" alt="A rounded rectangular outline with the words 'CONTINUAL REVIEWS' centered inside" />
        </div>
 
-       <div class="hidden col-span-1 ml-2 -mb-24 border-l-2 xl:block border-logiclygreythree h-1/2">
-         <div class="w-6 h-6 mt-56 -ml-3 rounded-full bg-logiclygreythree">
-         </div>
-       </div>
+      <div class="hidden xl:flex col-span-1 ml-2 border-l-2 border-logiclygreythree relative">
+        <div class="absolute bottom-0 w-6 h-6 -ml-3 rounded-full bg-logiclygreythree"></div>
+      </div>
 
        <div class="col-span-12 pt-6 pl-0 text-center xl:col-span-5 lg:text-left text-logiclytextgrey xl:pl-4 xl:-ml-12 xl:pt-32">
          <h2 class="pb-2 text-xl font-semibold">
