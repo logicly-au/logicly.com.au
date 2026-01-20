@@ -40,14 +40,14 @@
                 <NuxtLink to="/contactus" class="block hover:underline" exact>contact us</NuxtLink>
               </div>
               <!-- TODO Add links for 'Who we help' page sections -->
-              <div class="col-span-3 mb-6 lg:col-span-1 lg:mb-0 flex flex-col space-y-1">
+              <div class="col-span-3 mb-6 lg:col-span-1 lg:mb-0">
                 <NuxtLink to="/whowehelp" class="block font-bold hover:underline" exact>who we help</NuxtLink>
-                <a href="/whowehelp" class="block hover:underline" exact>researchers</a>
-                <a href="/whowehelp" class="block hover:underline" exact>government</a>
-                <a href="/whowehelp" class="block hover:underline" exact>non-government</a>
-                <a href="/whowehelp" class="block hover:underline" exact>health</a>
-                <a href="/whowehelp" class="block hover:underline" exact>corporate</a>
-                <a href="/whowehelp" class="block hover:underline" exact>educational</a>
+                <NuxtLink to="/whowehelp#researchers" class="block hover:underline" exact>researchers</NuxtLink>
+                <NuxtLink to="/whowehelp#government" class="block hover:underline" exact>government</NuxtLink>
+                <NuxtLink to="/whowehelp#non-government" class="block hover:underline" exact>non-government</NuxtLink>
+                <NuxtLink to="/whowehelp#health" class="block hover:underline" exact>health</NuxtLink>
+                <NuxtLink to="/whowehelp#corporate" class="block hover:underline" exact>corporate</NuxtLink>
+                <NuxtLink to="/whowehelp#education" class="block hover:underline" exact>educational</NuxtLink>
               </div>
               <div class="col-span-3 mb-6 lg:col-span-1 lg:mb-0 flex flex-col space-y-1">
                 <NuxtLink to="/about/us" class="block font-bold hover:underline" exact>about</NuxtLink>
@@ -76,14 +76,46 @@
 </template>
 
 <script>
-export default {
-  computed: {
-    copyrightYear() {
-      return new Date().getFullYear();
+  export default {
+    computed: {
+      copyrightYear() {
+        return new Date().getFullYear();
+      }
+    },
+
+    mounted() {
+      this.$el.querySelectorAll('a[href*="#"]').forEach(link => {
+        link.addEventListener('click', e => {
+          const href = link.getAttribute('href');
+          if (!href) return;
+
+          const url = new URL(href, window.location.origin);
+          const id = url.hash.slice(1);
+          if (!id) return;
+
+          const path = url.pathname.replace(/\/$/, '') || '/';
+          const current = window.location.pathname.replace(/\/$/, '') || '/';
+          const isWhoWeHelp = path.includes('whowehelp');
+
+          if (!isWhoWeHelp) return;
+
+          if (path === current) {
+            e.preventDefault();
+            history.pushState(null, '', `#${id}`);
+            window.dispatchEvent(new CustomEvent('openAccordion', { detail: { id } }));
+          } else {
+            sessionStorage.setItem('openAccordionId', id);
+            if (this.$router) {
+              e.preventDefault();
+              this.$router.push({ path, hash: `#${id}` }).catch(() => (window.location.href = href));
+            }
+          }
+        });
+      });
     }
-  }
-}
+  };
 </script>
+
 
 <style scoped>
 .logicly-footer a {
