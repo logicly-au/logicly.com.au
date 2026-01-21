@@ -2,7 +2,9 @@
   <div>
     <RebrandNotification />
     <navbar />
-    <Nuxt />
+    <main>
+      <Nuxt />
+    </main>
     <Footer />
   </div>
 </template>
