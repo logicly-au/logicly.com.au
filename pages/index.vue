@@ -7,7 +7,7 @@
     />
 
     <div class="flex justify-center py-7 px-4 sm:px-0">
-      <a href="https://bcorporation.com.au/">
+      <a href="https://bcorporation.net/">
         <img width="300px" src="B-Corp-Logo-Tagline-Lockup-Continuous-Improvement-Black-RGB.svg" alt="Certified B Corporation logo" />
       </a>
     </div>

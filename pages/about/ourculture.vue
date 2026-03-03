@@ -10,7 +10,7 @@
 
       <page-section>
         <div class="flex justify-center px-4 sm:px-0 pb-8">
-          <a href="https://bcorporation.com.au/">
+          <a href="https://bcorporation.net/">
             <img width="400px" src="B-Corp-Logo-Tagline-Lockup-Continuous-Improvement-Black-RGB.svg" alt="Certified B Corporation logo" />
           </a>
         </div>
