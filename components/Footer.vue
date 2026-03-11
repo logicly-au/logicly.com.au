@@ -64,7 +64,7 @@
                 <span class="pr-2"><NuxtLink to="/privacy" class="hover:underline" exact>Privacy policy</NuxtLink></span>
                 <NuxtLink to="/accessibility" class="hover:underline" exact>Accessibility</NuxtLink>
               </div>
-              <a href="https://bcorporation.com.au/">
+              <a href="https://bcorporation.net/">
                 <img src="~/assets/images/B-Corp-Logo-Black-RGB.png" class="h-[72px] w-auto mt-6 sm:mt-0" alt="Certified B Corporation logo">
               </a>
             </div>            

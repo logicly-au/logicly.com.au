@@ -6,11 +6,25 @@
       background-url="/Logicly-meet-your-complex-information-challenges-hero-v2.jpg"
     />
 
-    <div class="flex justify-center py-7 px-4 sm:px-0">
-      <a href="https://bcorporation.com.au/">
-        <img width="300px" src="B-Corp-Logo-Tagline-Lockup-Continuous-Improvement-Black-RGB.svg" alt="Certified B Corporation logo" />
-      </a>
-    </div>
+    <page-section>
+      <div class="mx-auto max-w-4xl px-0 lg:px-6">
+        <div class="grid grid-cols-1 sm:grid-cols-[120px_1fr] items-center gap-0 lg:gap-6 text-logiclytextgrey text-center sm:text-left">            
+          <div class="flex justify-center lg:justify-end mb-2 sm:mb-0">
+            <a href="https://bcorporation.net/">
+              <img class="inline-block w-24" width="150" src="B-Corp-Logo-Black-RGB.svg" alt="Certified B Corporation logo"/>
+            </a>
+          </div>
+          <div class="space-y-1 flex flex-col justify-center items-center sm:items-start">
+            <h3 class="font-light text-xl">
+              Part of a global movement working<br class="block sm:hidden md:block"> to benefit people and the planet.
+            </h3>
+            <p class="font-semibold text-lg">
+              <a href="https://bcorporation.net/">Learn more at bcorp.com</a>
+            </p>
+        </div>
+        </div>
+      </div>
+    </page-section>
 
     <Herotextnoimage
       heading="Developing thoughtfully designed digital systems"     

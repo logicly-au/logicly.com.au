@@ -85,7 +85,7 @@ The B Corp accreditation is part of our commitment to an entirely new way of doi
 
 ## Curious?
 
-If you're curious about being counted among businesses that are leading a global movement for an inclusive, equitable, and regenerative economy, start by exploring the <a href="https://bcorporation.com.au/">B Corp website.</a> If you're curious about our experience, <NuxtLink to="/contactus">contact us</NuxtLink> to find out why we're so excited to be a Certified B Corp.
+If you're curious about being counted among businesses that are leading a global movement for an inclusive, equitable, and regenerative economy, start by exploring the <a href="https://bcorporation.net/">B Corp website.</a> If you're curious about our experience, <NuxtLink to="/contactus">contact us</NuxtLink> to find out why we're so excited to be a Certified B Corp.
 
 
 
