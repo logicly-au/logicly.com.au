@@ -44,7 +44,7 @@
         <h2 class="text-xl sm:text-2xl font-semibold text-center mb-10 lg:mb-12 xl:mb-16 sm:-mt-16 md:-mt-20">We work with clients across different industries to understand their internal and external stakeholders so that the systems we build really do meet their needs.</h2>
         <vsa-list>
           <!-- Here you can use v-for to loop through items  -->
-          <vsa-item class="grid content-center">
+          <vsa-item id="researchers" class="grid content-center">
             <vsa-heading>
               <div class="grid grid-cols-5 lg:grid-cols-11">
                 <div class="col-span-1"><img src="/Researchers.svg" alt="Checklist icon" class="w-8 lg:w-10" /></div>
@@ -70,7 +70,7 @@
             </vsa-content>
           </vsa-item>
 
-          <vsa-item class="grid content-center">
+          <vsa-item id="government" class="grid content-center">
             <vsa-heading>
               <div class="grid grid-cols-5 lg:grid-cols-11">
                 <div class="col-span-1 accordion-img"><img src="/Government.svg" alt="Government icon" class="lg:w-12" /></div>
@@ -100,7 +100,7 @@
             </vsa-content>
           </vsa-item>
 
-          <vsa-item class="grid content-center">
+          <vsa-item id="health" class="grid content-center">
             <vsa-heading>
               <div class="grid grid-cols-5 lg:grid-cols-11">
                 <div class="col-span-1"><img src="/Health.svg" alt="Health icon" class="w-10 lg:w-12" /></div>
@@ -128,7 +128,7 @@
             </vsa-content>
           </vsa-item>
 
-          <vsa-item class="grid content-center">
+          <vsa-item id="education" class="grid content-center">
             <vsa-heading>
               <div class="grid grid-cols-5 lg:grid-cols-11">
                 <div class="col-span-1">
@@ -154,7 +154,7 @@
             </vsa-content>
           </vsa-item>
 
-          <vsa-item class="grid content-center">
+          <vsa-item id="non-government" class="grid content-center">
             <vsa-heading>
               <div class="grid grid-cols-5 lg:grid-cols-11">
                 <div class="col-span-1">
@@ -180,7 +180,7 @@
             </vsa-content>
           </vsa-item>
 
-          <vsa-item class="grid content-center">
+          <vsa-item id="corporate" class="grid content-center">
             <vsa-heading>
               <div class="grid grid-cols-5 lg:grid-cols-11">
                 <div class="col-span-1">
@@ -243,41 +243,89 @@
 </template>
 
 <script>
-  import backgroundUrl from '~/assets/images/Logicly-who-we-help-header-our-clients-approach-us-with-a-range-of-challenges.jpg';
+import backgroundUrl from '~/assets/images/Logicly-who-we-help-header-our-clients-approach-us-with-a-range-of-challenges.jpg';
+import {
+  VsaList,
+  VsaItem,
+  VsaHeading,
+  VsaContent,
+  VsaIcon
+} from 'vue-simple-accordion';
+import 'vue-simple-accordion/dist/vue-simple-accordion.css';
 
-  import {
+export default {
+  components: {
     VsaList,
     VsaItem,
     VsaHeading,
     VsaContent,
     VsaIcon
-  } from 'vue-simple-accordion';
+  },
+  data() {
+    return {
+      backgroundUrl
+    }
+  },
+  head() {
+    return {
+      title: "Who we help · Logicly"
+    };
+  },
 
-  import 'vue-simple-accordion/dist/vue-simple-accordion.css';
+  mounted() {
+    this.openAccordionFromHash();
+    window.addEventListener('hashchange', this.openAccordionFromHash);
+    window.addEventListener('openAccordion', this.handleOpenAccordionEvent);
 
+    const storedId = sessionStorage.getItem('openAccordionId');
+    if (storedId) {
+      sessionStorage.removeItem('openAccordionId');
+      setTimeout(() => this.openAccordionById(storedId), 120);
+    }
+  },
 
-  export default {
-    // ...
-    components: {
-      VsaList,
-      VsaItem,
-      VsaHeading,
-      VsaContent,
-      VsaIcon
+  beforeUnmount() {
+    window.removeEventListener('hashchange', this.openAccordionFromHash);
+    window.removeEventListener('openAccordion', this.handleOpenAccordionEvent);
+  },
+
+  methods: {
+    openAccordionFromHash() {
+      const id = window.location.hash?.slice(1);
+      if (id) this.openAccordionById(id);
     },
-    data() {
-      return {
-        backgroundUrl
-      }
+
+    handleOpenAccordionEvent(e) {
+      const id = e?.detail?.id;
+      if (id) this.openAccordionById(id);
     },
-    head() {
-      return {
-        title: "Who we help · Logicly"
+
+    openAccordionById(id) {
+      const target = document.getElementById(id);
+      if (!target) return;
+
+      const trigger = target.querySelector('.vsa-item__trigger');
+
+      const scrollToItem = () => {
+        const header = document.querySelector('.site-header, header, .header, .sticky-header');
+        const offset = (header?.offsetHeight || 80) + 12;
+        const top = window.pageYOffset + target.getBoundingClientRect().top - offset;
+        window.scrollTo({ top, behavior: 'smooth' });
       };
-    },
-  };
 
+      const delay = target.classList.contains('vsa-item--is-active') ? 40 : 1;
+
+      if (trigger && !target.classList.contains('vsa-item--is-active')) {
+        trigger.click();
+      }
+
+      setTimeout(() => this.$nextTick(scrollToItem), delay);
+    }
+  }
+};
 </script>
+
+
 
 <style>
 
