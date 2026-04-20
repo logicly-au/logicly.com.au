@@ -52,7 +52,7 @@
         <div class="col-span-12 py-2 text-center lg:col-span-10 lg:col-start-2 xl:col-span-8 xl:col-start-3 lg:px-4">
           <h2 class="text-xl font-light text-center text-logiclytextgrey text-pretty">
             If you have discovered a vulnerability that affects the confidentiality, integrity and availability of Logicly’s applications and services, please contact us as soon as possible according to the instructions provided in Logicly's
-            <a href="/https://docs.logicly.com.au/en/latest/vulnerability-program/index.html" class="font-medium text-logiclyorange hover:underline">vulnerability disclosure program</a>.
+            <a href="https://docs.logicly.com.au/en/latest/vulnerability-program/index.html" class="font-medium text-logiclyorange hover:underline">vulnerability disclosure program</a>.
           </h2>
         </div>
       </div>
