@@ -1,0 +1,5 @@
+Contact: mailto:vdp@logicly.com.au
+Expires: 2027-07-01T07:30:00.000Z
+Preferred-Languages: en
+Canonical: https://www.logicly.com.au/.well-known/security.txt
+Policy: https://docs.logicly.com.au/en/latest/vulnerability-program/index.html
