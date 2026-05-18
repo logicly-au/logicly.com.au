@@ -22,7 +22,6 @@
                 <a href="mailto:info@logicly.com.au" class="block">info@logicly.com.au</a>
                 <span class="block">2nd floor, 51 – 55 Johnston Street,</span>
                 <span class="block">Fitzroy, Victoria 3065, Australia</span>
-                <span class="block">PO Box 1166, Carlton, Victoria 3053, Australia</span>
                 <div class="mt-2">
                   <a href="https://www.linkedin.com/company/logiclyaustralia/about/">
                     <img src="~/assets/images/Linkedin.svg" class="h-5 lg:h-4" alt="Linkedin logo">
