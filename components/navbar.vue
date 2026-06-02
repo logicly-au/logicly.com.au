@@ -10,12 +10,12 @@
       <nav id="menu">
         <ul>
           <li><NuxtLink to="/" exact v-on:click.native="display_menu(true);close_all_menu()" class="hover:underline">home</NuxtLink></li>
-          <li class="drop">
-            <a v-on:click="display_drop_menu()" class="cursor-pointer" :class="{ 'nuxt-link-exact-active': aboutActive }">
+          <li class="drop" v-on:keydown.esc="close_drop" v-on:focusout="on_drop_focus_out">
+            <button type="button" class="drop_trigger cursor-pointer" :class="{ 'nuxt-link-exact-active': aboutActive }" :aria-expanded="dropOpen ? 'true' : 'false'" aria-controls="about-menu" v-on:click="display_drop_menu()">
               about
-            </a>
-            <i class="cursor-pointer chevron-down" @click="display_drop_menu()"></i>
-            <ul class="drop_menu">
+              <i class="chevron-down" aria-hidden="true"></i>
+            </button>
+            <ul id="about-menu" class="drop_menu">
               <li>
                 <NuxtLink to="/about/us" class="hover:underline" v-on:click.native="display_menu(true);close_all_menu()">about us</NuxtLink>
               </li>
@@ -56,6 +56,7 @@ export default {
     return {
       load: false,
       last_scroll: 0,
+      dropOpen: false,
     };
   },
   computed: {
@@ -102,6 +103,7 @@ export default {
       Array.from(chevrons).forEach(function(e){
         e.classList.remove("rotateme");
       });
+      this.dropOpen = false;
     },
     display_menu(delay) {
       var body = document.getElementsByTagName("body")[0];
@@ -116,7 +118,7 @@ export default {
     display_drop_menu() {
       var drop_menu = document.getElementsByClassName("drop_menu")[0];
       var drop_menus = document.getElementsByClassName("drop_menu");
-      var chevron = document.getElementsByClassName("cursor-pointer chevron-down");
+      var chevron = document.getElementsByClassName("chevron-down");
 
       Array.from(drop_menus).forEach(function(e){
         if(e != drop_menu){
@@ -130,7 +132,18 @@ export default {
       (!drop_menu.classList.contains("display")) ? drop_menu.classList.add("display") : drop_menu.classList.remove("display");
       (!chevron[0].classList.contains("rotateme")) ? chevron[0].classList.add("rotateme") : chevron[0].classList.remove("rotateme");
       if(window.innerWidth < 1024 && drop_menu.classList.contains("display")) {
-        event.target.parentElement.nextSibling.nextSibling.style.marginTop = drop_menu.clientHeight + "px";
+        drop_menu.parentElement.nextElementSibling.style.marginTop = drop_menu.clientHeight + "px";
+      }
+      this.dropOpen = drop_menu.classList.contains("display");
+    },
+    close_drop() {
+      this.close_all_menu();
+      var trigger = document.querySelector(".drop .drop_trigger");
+      if(trigger) trigger.focus();
+    },
+    on_drop_focus_out(event) {
+      if(!event.currentTarget.contains(event.relatedTarget)){
+        this.close_all_menu();
       }
     },
     loaded(){
@@ -252,12 +265,22 @@ header #menu li a:hover {
   border-bottom-color: none;
 }
 
+header .drop_trigger {
+  font: inherit;
+  color: inherit;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
 header .drop_menu {
   border-bottom:none!important;
   position: absolute;
   display: block;
   top: 149%;
   transform: scaleY(0);
+  visibility: hidden;
   width: auto;
   transform-origin: top;
   background-color: #F6F5F1;
@@ -282,6 +305,7 @@ header .drop_menu li {
 
 header .drop_menu.display {
   transform: scaleY(1);
+  visibility: visible;
 }
 header .drop_menu.display a {
   opacity: 1;
@@ -506,7 +530,8 @@ header #hamburger span:nth-child(3) {
     transition: 0.25s ease;
   }
 
-  header #menu li a {
+  header #menu li a,
+  header #menu li .drop_trigger {
     left: 0;
     line-height: auto;
     padding-left: 30px;
@@ -514,6 +539,13 @@ header #hamburger span:nth-child(3) {
     height: 100%;
     width: 100%;
     display: block;
+    text-align: left;
+  }
+
+  header #menu li .drop_trigger {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
   }
 
   header #menu li a:hover {
