@@ -31,10 +31,10 @@
             <div class="col-span-1 ml-2 -mt-1 text-2xl font-light">
               >
             </div>
-            <div @click="onArticleSelect(article)" class="col-span-11 col-start-2 cursor-pointer xl:col-span-10 hover:underline">
+            <button @click="onArticleSelect(article)" class="col-span-11 col-start-2 text-left w-full bg-transparent border-0 p-0 hover:underline">
               <span class="font-semibold">{{ article.title }}</span></br>
               <span class="text-sm font-light xl:text-base">{{ article.description }}</span>
-            </div>
+            </button>
           </div>
         </li>
       </ul>
