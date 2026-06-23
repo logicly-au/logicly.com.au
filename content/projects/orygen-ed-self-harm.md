@@ -63,7 +63,7 @@ Ensuring data privacy was a priority. The system was designed to exclude any ide
 
 The application also features helpful tools like sparklines to visualise data trends, making it easy to spot anomalies such as missing records or spikes in presentations. Researchers can filter data by date, data supplier, visit reason, and outcome, improving the ease of analysis.
 
-<a href="/research" class="block w-48 h-12 my-5 font-medium text-center text-white tt-lc bg-logiclyorange hover:bg-logiclyhover">
+<a href="/research" class="block w-48 h-12 my-5 font-medium text-center text-white tt-lc bg-logiclyorange hover:bg-logiclyhover focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-logiclyfocus">
   <button class="w-full h-full">logicly research</button>
 </a>
 
