@@ -79,7 +79,7 @@
           </div>
           <div class="col-span-10 col-start-2 pb-8 mb-5 lg:col-span-5 lg:col-start-7 lg:pb-12">
             <p class="pb-6 text-logiclytextgrey lg:pb-8">Logicly is always looking for strategic thinkers, designers and technology experts interested in working collaboratively to develop digital systems that improve businesses, government departments and communities.</p>
-            <NuxtLink class="block p-3 font-medium text-center text-white lowercase bg-logiclyorange hover:bg-logiclyhover" to="/contactus">Enquire about joining us</NuxtLink>
+            <NuxtLink class="block p-3 font-medium text-center text-white lowercase bg-logiclyorange hover:bg-logiclyhover focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-logiclyfocus" to="/contactus">Enquire about joining us</NuxtLink>
           </div>
         </div>
       </page-section>
