@@ -92,8 +92,9 @@
           </div>
           <div>
             <p class="mt-2 text-center text-logiclytextgrey lg:-mt-2">
-              PO Box 1166, Carlton, <br>
-              Victoria, Australia 3053
+              51 – 55 Johnston Street, <br>
+              Fitzroy, Victoria, <br>
+              Australia 3065
             </p>
             <hr class="block w-full mx-auto mt-12 border lg:hidden border-logiclyorange lg:mt-6">
           </div>
