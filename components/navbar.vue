@@ -620,4 +620,12 @@ i {
   font-weight: 600;
   color:#E94E1B;
 }
+
+@media (prefers-color-scheme: dark) {
+  #hamburger span,
+  .chevron-down {
+    filter: invert(1);
+  }
+}
+
 </style>
