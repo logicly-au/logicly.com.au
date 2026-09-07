@@ -138,4 +138,24 @@ export default {
   font-weight: 500;
   font-size: 0.85em;
 }
+
+.project-text a {
+  color:#E6332A;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.project-text a:hover {
+  text-decoration: underline;
+}
+
+.project-text a:visited {
+  color:#A83914;
+}
+
+.project-text a button {
+  color:#FFFFFF;
+  font-weight: 400;
+  text-decoration: none;
+}
 </style>
