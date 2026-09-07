@@ -4,7 +4,7 @@
     <div class="content-center object-contain object-center w-full text-logiclytextgrey">
       <h2 class="text-2xl font-semibold leading-snug text-center text-logiclytextgrey">{{ text }}</h2>
       <div class="grid justify-center p-4 align-center">
-        <NuxtLink :to="buttonLink" class="flex items-center justify-center w-40 h-12 my-5 lowercase font-medium text-center text-white bg-logiclyorange hover:bg-logiclyhover">
+        <NuxtLink :to="buttonLink" class="flex items-center justify-center w-40 h-12 my-5 lowercase font-medium text-center text-white bg-logiclyorange hover:bg-logiclyhover focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-logiclyfocus">
           {{ buttonText }}
         </NuxtLink>
       </div>

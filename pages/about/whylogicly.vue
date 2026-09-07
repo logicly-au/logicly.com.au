@@ -209,10 +209,10 @@
     <page-section>
       <h2 class="pb-6 text-2xl font-semibold text-center lg:pb-10 text-logiclytextgrey">Want to know more?</h2>
       <div class="grid grid-cols-4 justify-items-center lg:-mx-10 xl:mx-0 gap-4">
-        <NuxtLink to="/whowehelp" class="w-40 h-12 col-span-4 my-2 lg:my-5 font-medium text-center text-white lowercase lg:col-span-1 bg-logiclytheme1 hover:bg-logiclyhover inline-flex items-center justify-center min-w-[44px] min-h-[44px]">What we do</NuxtLink>
-        <NuxtLink to="/howwework" class="w-40 h-12 col-span-4 my-2 lg:my-5 font-medium text-center text-white lowercase lg:col-span-1 bg-logiclytheme2 hover:bg-logiclyhover inline-flex items-center justify-center min-w-[44px] min-h-[44px]">How we work</NuxtLink>
-        <NuxtLink to="/projects" class="w-40 h-12 col-span-4 my-2 lg:my-5 font-medium text-center text-white lowercase lg:col-span-1 bg-logiclytheme4 hover:bg-logiclyhover inline-flex items-center justify-center min-w-[44px] min-h-[44px]">Our projects</NuxtLink>
-        <NuxtLink to="/contactus" class="w-40 h-12 col-span-4 my-2 lg:my-5 font-medium text-center text-white lowercase lg:col-span-1 bg-logiclytheme3 hover:bg-logiclyhover inline-flex items-center justify-center min-w-[44px] min-h-[44px]">Get in touch</NuxtLink>
+        <NuxtLink to="/whowehelp" class="w-40 h-12 col-span-4 my-2 lg:my-5 font-medium text-center text-white lowercase lg:col-span-1 bg-logiclytheme1 hover:bg-logiclyhover focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-logiclyfocus inline-flex items-center justify-center min-w-[44px] min-h-[44px]">What we do</NuxtLink>
+        <NuxtLink to="/howwework" class="w-40 h-12 col-span-4 my-2 lg:my-5 font-medium text-center text-white lowercase lg:col-span-1 bg-logiclytheme2 hover:bg-logiclyhover focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-logiclyfocus inline-flex items-center justify-center min-w-[44px] min-h-[44px]">How we work</NuxtLink>
+        <NuxtLink to="/projects" class="w-40 h-12 col-span-4 my-2 lg:my-5 font-medium text-center text-white lowercase lg:col-span-1 bg-logiclytheme4 hover:bg-logiclyhover focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-logiclyfocus inline-flex items-center justify-center min-w-[44px] min-h-[44px]">Our projects</NuxtLink>
+        <NuxtLink to="/contactus" class="w-40 h-12 col-span-4 my-2 lg:my-5 font-medium text-center text-white lowercase lg:col-span-1 bg-logiclytheme3 hover:bg-logiclyhover focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-logiclyfocus inline-flex items-center justify-center min-w-[44px] min-h-[44px]">Get in touch</NuxtLink>
       </div>
     </page-section>
 

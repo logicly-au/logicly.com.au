@@ -50,9 +50,7 @@
       </div>
       <div class="row justify-content-center text-center mt-6">
         <div class="grid justify-center align-center">
-          <button class="block w-48 h-12 my-5 font-medium text-center text-white tt-lc bg-logiclyorange hover:bg-logiclyhover">
-            <NuxtLink :to="'#research-projects'">our research projects</NuxtLink>
-          </button>
+          <NuxtLink class="block p-3 font-medium text-center text-white lowercase bg-logiclyorange hover:bg-logiclyhover focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-logiclyfocus" to="#research-projects">our research projects</NuxtLink>
         </div>
       </div>
     </page-section>

@@ -29,7 +29,8 @@ module.exports = {
       logiclytextgrey: '#3c3c3b',
       logiclyhover: '#CF4619',
       logiclygreyhover: '#CBCAC5',
-      logiclyredhover: '#721015'
+      logiclyredhover: '#721015',
+      logiclyfocus: '#005FCC'
       },
       gridTemplateColumns: {
         // Simple 15 column grid

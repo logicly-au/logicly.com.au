@@ -1,5 +1,5 @@
 <template>
-  <NuxtLink :to="buttonlink" class="flex items-center justify-center w-40 h-12 my-5 lowercase font-medium text-center text-white bg-logiclyorange hover:bg-logiclyhover">
+  <NuxtLink :to="buttonlink" class="flex items-center justify-center w-40 h-12 my-5 lowercase font-medium text-center text-white bg-logiclyorange hover:bg-logiclyhover focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-logiclyfocus">
     {{ buttontext }}
   </NuxtLink>
 </template>
