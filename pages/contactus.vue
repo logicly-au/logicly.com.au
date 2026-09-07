@@ -26,57 +26,50 @@
         </div>
       </div>
       <div class="grid grid-cols-3 mt-6 gap-x-10 lg:mt-12">
-        <div class="grid col-span-3 lg:col-span-1 lg:grid-rows-3">
-          <div>
-            <div class="w-20 mx-auto md:w-20 lg:w-20">
-              <a href="tel:+61393409000">
+
+        <a href="tel:+61393409000" class="group block">
+          <div class="grid col-span-3 lg:col-span-1 lg:grid-rows-3 transition-transform duration-200 group-hover:scale-105">
+            <div>
+              <div class="w-20 mx-auto md:w-20 lg:w-20">
                 <img src="~/assets/images/Call_us.svg" alt="Phone icon"/>
-              </a>
+              </div>
             </div>
-          </div>
-          <div>
-            <a href="tel:+61393409000">
+            <div>
               <p class="mt-2 text-xl font-medium text-center text-logiclytextgrey">
                 Call us
               </p>
-            </a>
-            <hr class="hidden w-full mx-auto mt-4 border lg:block border-logiclyorange">
-          </div>
-          <div>
-            <p class="mt-2 text-center text-logiclytheme2 hover:underline lg:-mt-2">
-              <a href="tel:+61393409000">
+              <hr class="hidden w-full mx-auto mt-4 border lg:block border-logiclyorange">
+            </div>
+            <div>
+              <p class="mt-2 text-center text-logiclytheme2 hover:underline lg:-mt-2">
                 +61 3 9340 9000
-              </a>
-            </p>
-            <hr class="block w-full mx-auto mt-12 mb-12 border lg:hidden border-logiclyorange lg:mt-6">
-          </div>
-        </div>
-
-        <div class="grid col-span-3 lg:col-span-1 lg:grid-rows-3">
-          <div>
-            <div class="w-20 mx-auto md:w-20 lg:w-20">
-              <a href="mailto:info@logicly.com.au">
-                <img src="~/assets/images/Email_us.svg" alt="Email icon"/>
-              </a>
+              </p>
+              <hr class="block w-full mx-auto mt-12 mb-12 border lg:hidden border-logiclyorange lg:mt-6">
             </div>
           </div>
-          <div>
-            <a href="mailto:info@logicly.com.au">
+        </a>
+
+        <a href="mailto:info@logicly.com.au" class="group block">
+          <div class="grid col-span-3 lg:col-span-1 lg:grid-rows-3 transition-transform duration-200 group-hover:scale-105">
+            <div>
+              <div class="w-20 mx-auto md:w-20 lg:w-20">
+                <img src="~/assets/images/Email_us.svg" alt="Email icon"/>              
+              </div>
+            </div>
+            <div>
               <p class="mt-2 text-xl font-medium text-center text-logiclytextgrey">
                 Email us
               </p>
-            </a>
-            <hr class="hidden w-full mx-auto mt-4 border lg:block border-logiclyorange">
-          </div>
-          <div>
-            <p class="mt-2 text-center text-logiclytheme2 hover:underline lg:-mt-2">
-              <a href="mailto:info@logicly.com.au">
+              <hr class="hidden w-full mx-auto mt-4 border lg:block border-logiclyorange">
+            </div>
+            <div>
+              <p class="mt-2 text-center text-logiclytheme2 hover:underline lg:-mt-2">
                 info@logicly.com.au
-              </a>
-            </p>
-            <hr class="block w-full mx-auto mt-12 mb-12 border lg:hidden border-logiclyorange lg:mt-6">
+              </p>
+              <hr class="block w-full mx-auto mt-12 mb-12 border lg:hidden border-logiclyorange lg:mt-6">
+            </div>
           </div>
-        </div>
+        </a>
 
         <div class="grid col-span-3 lg:col-span-1 lg:grid-rows-3">
           <div>
